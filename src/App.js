@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App = ()=>  {
   return (
     <div className="App">
-      <p>Yeah.  This is Raveen's first page!</p>
+      <h1 className="text-3xl font-bold">
+          Main Page
+      </h1>
     </div>
   );
 }
