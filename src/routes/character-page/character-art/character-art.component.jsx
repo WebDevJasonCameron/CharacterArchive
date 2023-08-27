@@ -1,10 +1,10 @@
 import './character-art.styles.css'
 
-const characterArt = () => {
+const CharacterArt = () => {
 
     return (
         <h2>Character Art</h2>
     )
 };
 
-export default characterArt;
+export default CharacterArt;

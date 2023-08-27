@@ -1,10 +1,10 @@
 import './character-relations.styles.css'
 
-const characterRelations = () => {
+const CharacterRelations = () => {
 
     return (
         <h2>Character Relations</h2>
     )
 };
 
-export default characterRelations;
+export default CharacterRelations;

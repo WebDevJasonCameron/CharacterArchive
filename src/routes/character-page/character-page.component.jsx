@@ -1,6 +1,6 @@
 import './character-page.styles.css'
 
-const characterPage = () => {
+const CharacterPage = () => {
 
     // We need to put the information here and push it down through each of the page components
 
@@ -23,4 +23,4 @@ const characterPage = () => {
         )
 }
 
-export default characterPage;
+export default CharacterPage;

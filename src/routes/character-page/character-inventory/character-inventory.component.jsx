@@ -1,10 +1,10 @@
 import './character-inventory.styles.css'
 
-const characterInventory = () => {
+const CharacterInventory = () => {
 
     return (
         <h2>Character Inventory</h2>
     )
 };
 
-export default characterInventory;
+export default CharacterInventory;

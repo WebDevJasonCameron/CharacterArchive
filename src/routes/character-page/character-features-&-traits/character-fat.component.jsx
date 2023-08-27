@@ -1,10 +1,10 @@
 import './character-fat.styles.css'
 
-const characterFat = () => {
+const CharacterFat = () => {
 
     return (
         <h2>Character Features and Traits</h2>
     )
 };
 
-export default characterFat;
+export default CharacterFat;

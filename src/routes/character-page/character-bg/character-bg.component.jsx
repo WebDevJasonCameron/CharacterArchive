@@ -1,10 +1,10 @@
 import './character-bg.styles.css'
 
-const characterBg = () => {
+const CharacterBg = () => {
 
     return (
         <h2>Character Bg</h2>
     )
 };
 
-export default characterBg;
+export default CharacterBg;

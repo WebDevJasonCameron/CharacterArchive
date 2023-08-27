@@ -1,10 +1,10 @@
 import './character-journal.styles.css'
 
-const characterJournal = () => {
+const CharacterJournal = () => {
 
     return (
         <h2>Character Journal</h2>
     )
 };
 
-export default characterJournal;
+export default CharacterJournal;
