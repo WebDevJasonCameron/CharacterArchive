@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Home from "./routes/home/home.componenet";
 
 const App = ()=>  {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold">
-          Main Page
-      </h1>
+      <Home />
     </div>
   );
 }
