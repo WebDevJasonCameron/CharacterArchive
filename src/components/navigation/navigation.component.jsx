@@ -6,6 +6,7 @@ const Navigation = () => {
 
     return (
         <Fragment>
+            <div className="bg-gray-500 text-white h-12 flex justify-between p-2.5 ">
             <div>Logo</div>
             <div>
                 <ul>
@@ -13,7 +14,7 @@ const Navigation = () => {
                 </ul>
             </div>
 
-
+        </div>
         </Fragment>
     )
 }

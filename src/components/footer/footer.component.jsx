@@ -6,7 +6,10 @@ const Footer = () => {
 
     return (
         <Fragment>
-            <div>Copyright</div>
+            <div className="bg-gray-500 text-white h-12 flex justify-between p-2.5 ">
+                <div>Copyright</div>
+            </div>
+
         </Fragment>
     )
 }
