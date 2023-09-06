@@ -9,7 +9,7 @@ const CharacterPage = () => {
     return(
         <div id="character-page-container" className="bg-gray-700 text-white h-screen text-left">
             {/* Top Menu */}
-            <div className="flex flex-row px-10 py-3 space-x-10 bg-gray-600">
+            <div className="flex flex-row px-10 py-3 space-x-10 justify-between bg-gray-600">
                 {/* Character Image */}
                 <div>
                     <CharacterProfilePicture />
@@ -19,48 +19,54 @@ const CharacterPage = () => {
                 <div className="flex flex-row">
                     {/* Info 1 */}
                     <div className="flex flex-col w-52">
-                        <div>Name: </div>
-                        <div>Species: </div>
-                        <div>Class & Level: </div>
-                        <div>Background: </div>
+                        <div><span className="text-gray-400">Name</span> Raveen</div>
+                        <div><span className="text-gray-400">Species</span> Human</div>
+                        <div><span className="text-gray-400">Class & Level</span> B8 S1</div>
+                        <div><span className="text-gray-400">Background</span> Spy</div>
                     </div>
 
                     {/* Info 2 */}
                     <div className="flex flex-col w-52">
-                        <div>HP: </div>
-                        <div>AC: </div>
-                        <div>Movement: </div>
-                        <div>Initiative: </div>
+                        <div><span className="text-gray-400">HP</span> 83</div>
+                        <div><span className="text-gray-400">AC</span> 15</div>
+                        <div><span className="text-gray-400">Movement</span> Walk 45</div>
+                        <div><span className="text-gray-400">Initiative</span> +4</div>
                     </div>
 
                     {/* Info 3 */}
                     <div className="flex flex-col w-52">
-                        <div>Hit Dice: </div>
-                        <div>Proficiency Bonus: </div>
-                        <div>Ability Save DC: </div>
-                        <div>XP: </div>
+                        <div><span className="text-gray-400">Hit Dice</span> 8d8 + 1d6</div>
+                        <div><span className="text-gray-400">Prof. Bonus</span> +4</div>
+                        <div><span className="text-gray-400">Ability Save DC:</span> -</div>
+                        <div><span className="text-gray-400">XP</span> Milestone</div>
                     </div>
                 </div>
 
                 {/* Focus Env */}
                 <div className="grid grid-rows-2 grid-cols-4 gap-4">
                     <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
-                        Character Sheet
+                        CS
+                    </button>
+                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
+                        Stats
+                    </button>
+                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
+                        Journal
                     </button>
                     <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
                         Combat
                     </button>
                     <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
-                        Spell Book
-                    </button>
-                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
-                        Story
-                    </button>
-                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
-                        Art
+                        Inventory
                     </button>
                     <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
                         Relations
+                    </button>
+                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
+                        ----
+                    </button>
+                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
+                        Art
                     </button>
                 </div>
 
