@@ -2,7 +2,14 @@ import './character-page.styles.css'
 import CharacterProfilePicture
     from "../../components/character-components/character-profile-picture/character-profile-picture.component";
 
-
+// Icon Imports
+import {FaBookDead, FaUser, FaUserCog, FaUserFriends} from "react-icons/fa";
+import { BiStats, BiWalk } from "react-icons/bi";
+import { RiShieldLine, RiShieldStarLine } from "react-icons/ri";
+import { LuSword } from "react-icons/lu";
+import { TbHammer } from "react-icons/tb";
+import { FaGuitar } from "react-icons/fa6";
+import {GiDeathJuice, GiSkills, GiCrystalEye} from "react-icons/gi";
 
 const CharacterPage = () => {
 
@@ -30,7 +37,7 @@ const CharacterPage = () => {
     );
 
     return(
-        <div id="character-page-container" className="bg-gray-700 text-white h-screen text-left">
+        <div id="character-page-container" className="bg-gray-800 text-white text-left">
             {/* Top Menu */}
             <div className="flex flex-row px-10 py-3 space-x-10 justify-between bg-gray-600">
                 {/* Character Image */}
@@ -67,6 +74,7 @@ const CharacterPage = () => {
                     {/* Info 4 */}
                     <div className="flex flex-col w-52">
                         <div><span className="text-gray-400">Total Level</span> {character.charLevel}</div>
+                        {/* Death Saves? */}
                     </div>
                 </div>
 
@@ -101,14 +109,74 @@ const CharacterPage = () => {
             </div>
 
             {/* Side Bar */}
-            <div  className="top-32 left-0 h-screen w-16 m-0 flex flex-col">
-                <i>1</i>
-                <i>2</i>
-                <i>3</i>
-                <i>4</i>
-                <i>5</i>
-                <i>6</i>
-                <i>7</i>
+            <div  className="top-32 left-0 h-screen w-16 m-0 flex flex-col space-y-6 py-4 px-4 bg-gray-700">
+                {/* Main Stats */}
+                <i><BiStats /></i>
+                {/*  Saving Throws */}
+                <i><GiDeathJuice /></i>
+                {/* Skills */}
+                <i><GiSkills /></i>
+                {/* Senses */}
+                <i><GiCrystalEye /></i>
+                {/* Defenses */}
+                <i><RiShieldLine /></i>
+                {/* Movements */}
+                <i><BiWalk /></i>
+                {/* Armor Proficiencies */}
+                <i><RiShieldStarLine /></i>
+                {/* Weapon Proficiencies */}
+                <i><LuSword /></i>
+                {/* Tools Proficiencies */}
+                <i><TbHammer /></i>
+                {/* Instruments Proficiencies */}
+                <i><FaGuitar /></i>
+                {/* Language Proficiencies */}
+                <i>10</i>
+                {/* Actions */}
+                <i>11</i>
+                {/* Bonus Action */}
+                <i>12</i>
+                {/* Reactions */}
+                <i>13</i>
+                {/* Action of Opportunity */}
+                <i>14</i>
+                {/* Combat Action: Weapon */}
+                <i>15</i>
+                {/* Combat Action: Spells */}
+                <i>16</i>
+                {/* Combat Action: Use Item */}
+                <i>17</i>
+                {/* Class Features */}
+                <i>18</i>
+                {/* Class Specialty/School Features */}
+                <i>19</i>
+                {/* Species Specialty Traits */}
+                <i>20</i>
+                {/* Personal Strength Capes (Encumbered, Push/Drag/lift) */}
+                <i>21</i>
+                {/* Inventory: Weapons */}
+                <i>22</i>
+                {/* Inventory: Items */}
+                <i>23</i>
+                {/* Inventory: Attuned Items */}
+                <i>24</i>
+                {/* Feats */}
+                <i>25</i>
+                {/* Character Appearance */}
+                <i>26</i>
+                {/* Allies */}
+                <i>27</i>
+                {/* Organization */}
+                <i>28</i>
+                {/* Personality */}
+                <i>29</i>
+                {/* Backstory */}
+                <i>30</i>
+                {/* Journal */}
+                <i>31</i>
+                {/* Spell-book */}
+                <i>32</i>
+
             </div>
 
         </div>
