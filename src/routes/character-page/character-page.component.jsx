@@ -2,9 +2,25 @@ import './character-page.styles.css'
 import CharacterProfilePicture
     from "../../components/character-components/character-profile-picture/character-profile-picture.component";
 
+
+
 const CharacterPage = () => {
 
-    // We need to put the information here and push it down through each of the page components
+    // Raveen's Data
+    const character = {
+        charName: "Raveen",
+        charSpecies: "Human",
+        charClass: "B8 S1",
+        charBackground: "Criminal, Spy",
+        charHP: "88",
+        charAC: "15",
+        charMovement: "Walk 45",
+        charInitiative: "+4",
+        charHitDice: "8d8 + 1d6",
+        charProfBonus: "+4",
+        charAbilitySaveDC: "-",
+        charXP: "Milestone",
+    }
 
     return(
         <div id="character-page-container" className="bg-gray-700 text-white h-screen text-left">
@@ -19,26 +35,26 @@ const CharacterPage = () => {
                 <div className="flex flex-row">
                     {/* Info 1 */}
                     <div className="flex flex-col w-52">
-                        <div><span className="text-gray-400">Name</span> Raveen</div>
-                        <div><span className="text-gray-400">Species</span> Human</div>
-                        <div><span className="text-gray-400">Class & Level</span> B8 S1</div>
-                        <div><span className="text-gray-400">Background</span> Spy</div>
+                        <div><span className="text-gray-400">Name</span> {character.charName}</div>
+                        <div><span className="text-gray-400">Species</span> {character.charSpecies}</div>
+                        <div><span className="text-gray-400">Class & Level</span> {character.charClass}</div>
+                        <div><span className="text-gray-400">Background</span> {character.charBackground}</div>
                     </div>
 
                     {/* Info 2 */}
                     <div className="flex flex-col w-52">
-                        <div><span className="text-gray-400">HP</span> 83</div>
-                        <div><span className="text-gray-400">AC</span> 15</div>
-                        <div><span className="text-gray-400">Movement</span> Walk 45</div>
-                        <div><span className="text-gray-400">Initiative</span> +4</div>
+                        <div><span className="text-gray-400">HP</span> {character.charHP}</div>
+                        <div><span className="text-gray-400">AC</span> {character.charAC}</div>
+                        <div><span className="text-gray-400">Movement</span> {character.charMovement}</div>
+                        <div><span className="text-gray-400">Initiative</span> {character.charInitiative}</div>
                     </div>
 
                     {/* Info 3 */}
                     <div className="flex flex-col w-52">
-                        <div><span className="text-gray-400">Hit Dice</span> 8d8 + 1d6</div>
-                        <div><span className="text-gray-400">Prof. Bonus</span> +4</div>
-                        <div><span className="text-gray-400">Ability Save DC:</span> -</div>
-                        <div><span className="text-gray-400">XP</span> Milestone</div>
+                        <div><span className="text-gray-400">Hit Dice</span> {character.charHitDice}</div>
+                        <div><span className="text-gray-400">Prof. Bonus</span> {character.charProfBonus}</div>
+                        <div><span className="text-gray-400">Ability Save DC:</span> {character.charAbilitySaveDC}</div>
+                        <div><span className="text-gray-400">XP</span> {character.charMovement}</div>
                     </div>
                 </div>
 
