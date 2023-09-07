@@ -10,7 +10,7 @@ const CharacterPage = () => {
     const character = {
         charName: "Raveen",
         charSpecies: "Human",
-        charClass: "B8 S1",
+        charClass: "B-8 S-1",
         charBackground: "Criminal, Spy",
         charHP: "88",
         charAC: "15",
@@ -20,7 +20,14 @@ const CharacterPage = () => {
         charProfBonus: "+4",
         charAbilitySaveDC: "-",
         charXP: "Milestone",
+        charLevel: "9"
     }
+
+    const sidebarIcon = ({ icon }) => (
+        <div>
+            {icon}
+        </div>
+    );
 
     return(
         <div id="character-page-container" className="bg-gray-700 text-white h-screen text-left">
@@ -56,6 +63,11 @@ const CharacterPage = () => {
                         <div><span className="text-gray-400">Ability Save DC:</span> {character.charAbilitySaveDC}</div>
                         <div><span className="text-gray-400">XP</span> {character.charMovement}</div>
                     </div>
+
+                    {/* Info 4 */}
+                    <div className="flex flex-col w-52">
+                        <div><span className="text-gray-400">Total Level</span> {character.charLevel}</div>
+                    </div>
                 </div>
 
                 {/* Focus Env */}
@@ -87,30 +99,17 @@ const CharacterPage = () => {
                 </div>
 
             </div>
+
             {/* Side Bar */}
             <div  className="top-32 left-0 h-screen w-16 m-0 flex flex-col">
-                <div>A</div>
-                <div>B</div>
-                <div>C</div>
-                <div>D</div>
-                <div>E</div>
+                <i>1</i>
+                <i>2</i>
+                <i>3</i>
+                <i>4</i>
+                <i>5</i>
+                <i>6</i>
+                <i>7</i>
             </div>
-
-
-
-
-
-
-    {/*This page will give us access to the following character information:*/}
-    {/*abilities */}
-    {/*art*/}
-    {/*background*/}
-    {/*features & traits*/}
-    {/*inventory*/}
-    {/*journal*/}
-    {/*relations*/}
-    {/*spells*/}
-    {/*stats*/}
 
         </div>
         )
