@@ -3,13 +3,22 @@ import CharacterProfilePicture
     from "../../components/character-components/character-profile-picture/character-profile-picture.component";
 
 // Icon Imports
+import { AiOutlineInteraction } from "react-icons/ai";
+import { BsPersonAdd } from "react-icons/bs";
 import {FaBookDead, FaUser, FaUserCog, FaUserFriends} from "react-icons/fa";
-import { BiStats, BiWalk } from "react-icons/bi";
-import { RiShieldLine, RiShieldStarLine } from "react-icons/ri";
-import { LuSword } from "react-icons/lu";
-import { TbHammer } from "react-icons/tb";
+import { BiStats, BiWalk, BiRun } from "react-icons/bi";
 import { FaGuitar } from "react-icons/fa6";
-import {GiDeathJuice, GiSkills, GiCrystalEye} from "react-icons/gi";
+import {GiDeathJuice, GiSkills, GiCrystalEye, GiSwordArray, GiGooExplosion, GiWeightLiftingUp} from "react-icons/gi";
+import { HiOutlineUserPlus } from "react-icons/hi2";
+import { LuSword } from "react-icons/lu";
+import { MdOutlineFeaturedPlayList } from "react-icons/md";
+import { PiHandFist } from "react-icons/pi";
+import { RiShieldLine, RiShieldStarLine } from "react-icons/ri";
+import { SlSpeech } from "react-icons/sl";
+import { TbHammer, TbSchool } from "react-icons/tb";
+import { VscReactions } from "react-icons/vsc";
+
+
 
 const CharacterPage = () => {
 
@@ -131,29 +140,29 @@ const CharacterPage = () => {
                 {/* Instruments Proficiencies */}
                 <i><FaGuitar /></i>
                 {/* Language Proficiencies */}
-                <i>10</i>
+                <i><SlSpeech /></i>
                 {/* Actions */}
-                <i>11</i>
+                <i><BiRun /></i>
                 {/* Bonus Action */}
-                <i>12</i>
+                <i><HiOutlineUserPlus /></i>
                 {/* Reactions */}
-                <i>13</i>
+                <i><VscReactions /></i>
                 {/* Action of Opportunity */}
-                <i>14</i>
+                <i><AiOutlineInteraction /></i>
                 {/* Combat Action: Weapon */}
-                <i>15</i>
+                <i><GiSwordArray /></i>
                 {/* Combat Action: Spells */}
-                <i>16</i>
+                <i><GiGooExplosion /></i>
                 {/* Combat Action: Use Item */}
-                <i>17</i>
+                <i><PiHandFist /></i>
                 {/* Class Features */}
-                <i>18</i>
+                <i><MdOutlineFeaturedPlayList /></i>
                 {/* Class Specialty/School Features */}
-                <i>19</i>
+                <i><TbSchool /></i>
                 {/* Species Specialty Traits */}
-                <i>20</i>
+                <i><BsPersonAdd /></i>
                 {/* Personal Strength Capes (Encumbered, Push/Drag/lift) */}
-                <i>21</i>
+                <i><GiWeightLiftingUp /></i>
                 {/* Inventory: Weapons */}
                 <i>22</i>
                 {/* Inventory: Items */}
