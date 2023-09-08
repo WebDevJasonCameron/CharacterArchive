@@ -3,20 +3,21 @@ import CharacterProfilePicture
     from "../../components/character-components/character-profile-picture/character-profile-picture.component";
 
 // Icon Imports
-import { AiOutlineInteraction } from "react-icons/ai";
-import { BsPersonAdd } from "react-icons/bs";
+import { AiOutlineInteraction, AiOutlineTrophy } from "react-icons/ai";
+import { BsPersonAdd, BsList, BsMusicNoteList, BsListUl, BsPeople, BsFillJournalBookmarkFill } from "react-icons/bs";
 import {FaBookDead, FaUser, FaUserCog, FaUserFriends} from "react-icons/fa";
 import { BiStats, BiWalk, BiRun } from "react-icons/bi";
-import { FaGuitar } from "react-icons/fa6";
-import {GiDeathJuice, GiSkills, GiCrystalEye, GiSwordArray, GiGooExplosion, GiWeightLiftingUp} from "react-icons/gi";
+import { FaGuitar, FaRegFaceMehBlank, FaRegFaceGrinWink } from "react-icons/fa6";
+import {GiDeathJuice, GiSkills, GiCrystalEye, GiSwordArray, GiGooExplosion, GiWeightLiftingUp, GiDropWeapon} from "react-icons/gi";
 import { HiOutlineUserPlus } from "react-icons/hi2";
 import { LuSword } from "react-icons/lu";
 import { MdOutlineFeaturedPlayList } from "react-icons/md";
 import { PiHandFist } from "react-icons/pi";
 import { RiShieldLine, RiShieldStarLine } from "react-icons/ri";
+import { SiStoryblok } from "react-icons/si";
 import { SlSpeech } from "react-icons/sl";
 import { TbHammer, TbSchool } from "react-icons/tb";
-import { VscReactions } from "react-icons/vsc";
+import { VscReactions, VscOrganization } from "react-icons/vsc";
 
 
 
@@ -164,27 +165,27 @@ const CharacterPage = () => {
                 {/* Personal Strength Capes (Encumbered, Push/Drag/lift) */}
                 <i><GiWeightLiftingUp /></i>
                 {/* Inventory: Weapons */}
-                <i>22</i>
+                <i><BsListUl /></i>
                 {/* Inventory: Items */}
-                <i>23</i>
+                <i><BsList /></i>
                 {/* Inventory: Attuned Items */}
-                <i>24</i>
+                <i><BsMusicNoteList /></i>
                 {/* Feats */}
-                <i>25</i>
+                <i><AiOutlineTrophy /></i>
                 {/* Character Appearance */}
-                <i>26</i>
+                <i><FaRegFaceMehBlank /></i>
                 {/* Allies */}
-                <i>27</i>
+                <i><BsPeople /></i>
                 {/* Organization */}
-                <i>28</i>
+                <i><VscOrganization /></i>
                 {/* Personality */}
-                <i>29</i>
+                <i><FaRegFaceGrinWink /></i>
                 {/* Backstory */}
-                <i>30</i>
+                <i><SiStoryblok /> </i>
                 {/* Journal */}
-                <i>31</i>
+                <i><BsFillJournalBookmarkFill /></i>
                 {/* Spell-book */}
-                <i>32</i>
+                <i><FaBookDead /></i>
 
             </div>
 
