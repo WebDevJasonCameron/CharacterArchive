@@ -119,11 +119,11 @@ const CharacterPage = () => {
             </div>
 
             {/* Side Bar */}
-            <div  className="top-32 left-0 h-screen w-16 m-0 flex flex-col space-y-6 py-4 px-4 bg-gray-700">
+            <div  className="left-0 w-16 flex flex-col space-y-6 bg-gray-700">
                 {/* Main Stats */}
-                <i><BiStats /></i>
+                <i><BiStats  /></i>
                 {/*  Saving Throws */}
-                <i><GiDeathJuice /></i>
+                <i><GiDeathJuice  /></i>
                 {/* Skills */}
                 <i><GiSkills /></i>
                 {/* Senses */}
