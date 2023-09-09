@@ -1,12 +1,12 @@
 import './character-profile-picture.styles.css'
 
-const CharacterProfilePicture = () => {
+const CharacterProfilePicture = ({ imgUrl }) => {
 
     return (
         <div>
             {/*  Image Here  */}
             <img
-                src="https://i.pinimg.com/564x/9e/5f/90/9e5f9074e1378adbc460f31616c0dbaf.jpg"
+                src={imgUrl}
                 alt="Avatar Image"
                 className="w-24 h-24 rounded-xl"/>
         </div>

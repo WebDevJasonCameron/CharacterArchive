@@ -1,9 +1,14 @@
+// Import Style
 import './character-page.styles.css'
+
+// Import Comps
 import CharacterProfilePicture
     from "../../components/character-components/character-profile-picture/character-profile-picture.component";
-import SidebarBtn from "../../components/sidebar-button/sidebar-button.component";
+import SidebarBtn from "../../components/buttons/character-page-sidebar-button/sidebar-button.component";
+import CharacterStatic from "../../components/character-components/character-static/character-static.component";
 
-// Icon Imports
+
+// Import Icons
 import { AiOutlineInteraction, AiOutlineTrophy } from "react-icons/ai";
 import { BsPersonAdd, BsList, BsMusicNoteList, BsListUl, BsPeople, BsFillJournalBookmarkFill } from "react-icons/bs";
 import {FaBookDead, FaUser, FaUserCog, FaUserFriends} from "react-icons/fa";
@@ -20,7 +25,7 @@ import { SlSpeech } from "react-icons/sl";
 import { TbHammer, TbSchool } from "react-icons/tb";
 import { VscReactions, VscOrganization } from "react-icons/vsc";
 
-const CharacterPage = ({character}) => {
+const CharacterPage = ({ character }) => {
 
     return(
         <div id="character-page-container" className="bg-gray-800 text-white text-left">
@@ -28,9 +33,7 @@ const CharacterPage = ({character}) => {
             {/* Top Menu */}
             <div className="flex flex-row px-10 py-3 space-x-10 justify-between bg-gray-600">
                 {/* Character Image */}
-                <div>
-                    <CharacterProfilePicture />
-                </div>
+                    <CharacterProfilePicture imgUrl={character.cPix} />
 
                 {/* Static Info */}
                 <div className="flex flex-row">
@@ -67,28 +70,28 @@ const CharacterPage = ({character}) => {
 
                 {/* Focus Env */}
                 <div className="grid grid-rows-2 grid-cols-4 gap-4">
-                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
+                    <button className=" bg-gray-400 text-black rounded-2xl hover:bg-gray-500 hover:text-white">
                         CS
                     </button>
-                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
+                    <button className="px-2 bg-gray-400 text-black rounded-2xl hover:bg-gray-500 hover:text-white">
                         Stats
                     </button>
-                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
+                    <button className="px-2 bg-gray-400 text-black rounded-2xl hover:bg-gray-500 hover:text-white">
                         Journal
                     </button>
-                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
+                    <button className="px-2 bg-gray-400 text-black rounded-2xl hover:bg-gray-500 hover:text-white">
                         Combat
                     </button>
-                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
+                    <button className="px-2 bg-gray-400 text-black rounded-2xl hover:bg-gray-500 hover:text-white">
                         Inventory
                     </button>
-                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
+                    <button className="px-2 bg-gray-400 text-black rounded-2xl hover:bg-gray-500 hover:text-white">
                         Relations
                     </button>
-                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
+                    <button className="px-2 bg-gray-400 text-black rounded-2xl hover:bg-gray-500 hover:text-white">
                         ----
                     </button>
-                    <button className="px-2 bg-gray-400 text-black border-gray-400 rounded-2xl hover:bg-gray-500 hover:text-white">
+                    <button className="px-2 bg-gray-400 text-black rounded-2xl hover:bg-gray-500 hover:text-white">
                         Art
                     </button>
                 </div>
