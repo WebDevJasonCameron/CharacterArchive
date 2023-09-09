@@ -1,12 +1,17 @@
 // Import Style
 import './character-page-focus-button.styles.css'
 
-const FocusButton = () => {
+const FocusBtn = ({ text, active}) => {
+
+    let s
+
+    s = active ? "focus-active-btn" : "focus-btn";
+
     return (
-        <div>
-            Focus Button
-        </div>
+        <button className={s} >
+            {text}
+        </button>
     )
 }
 
-export default FocusButton;
+export default FocusBtn;

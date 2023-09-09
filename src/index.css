@@ -22,4 +22,10 @@
         text-xs font-bold
         transition-all duration-100 scale-0 origin-left;
     }
+    .focus-btn {
+        @apply w-20 bg-gray-400 text-black rounded-2xl hover:bg-gray-500 hover:text-white;
+    }
+    .focus-active-btn {
+        @apply bg-gray-500 text-white rounded-2xl hover:bg-gray-400 hover:text-black
+    }
 }
