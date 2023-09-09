@@ -40,14 +40,17 @@ const CharacterPage = () => {
         charLevel: "9"
     }
 
-    const sidebarIcon = ({ icon }) => (
-        <div>
-            {icon}
-        </div>
-    );
+
+    const SideBarBtn = ({ icon }) => (
+        <button className="bg-gray-600 my-3 flex justify-center rounded-full hover:bg-gray-500">
+            { icon }
+        </button>
+    )
+
 
     return(
         <div id="character-page-container" className="bg-gray-800 text-white text-left">
+
             {/* Top Menu */}
             <div className="flex flex-row px-10 py-3 space-x-10 justify-between bg-gray-600">
                 {/* Character Image */}
@@ -119,73 +122,105 @@ const CharacterPage = () => {
             </div>
 
             {/* Side Bar */}
-            <div  className="left-0 w-16 flex flex-col space-y-6 bg-gray-700">
+            <div  className="left-0 w-16 flex flex-col bg-gray-700">
                 {/* Main Stats */}
-                <i><BiStats  /></i>
+                <SideBarBtn icon={<BiStats size="42" />}/>
+
                 {/*  Saving Throws */}
-                <i><GiDeathJuice  /></i>
+                <SideBarBtn icon={<GiDeathJuice size="42" />}/>
+
                 {/* Skills */}
-                <i><GiSkills /></i>
+                <SideBarBtn icon={<GiSkills size="42" />}/>
+
                 {/* Senses */}
-                <i><GiCrystalEye /></i>
+                <SideBarBtn icon={<GiCrystalEye size="42" />}/>
+
                 {/* Defenses */}
-                <i><RiShieldLine /></i>
+                <SideBarBtn icon={<RiShieldLine size="42" />}/>
+
                 {/* Movements */}
-                <i><BiWalk /></i>
+                <SideBarBtn icon={<BiWalk size="42" />}/>
+
                 {/* Armor Proficiencies */}
-                <i><RiShieldStarLine /></i>
+                <SideBarBtn icon={<RiShieldStarLine size="42" />}/>
+
                 {/* Weapon Proficiencies */}
-                <i><LuSword /></i>
+                <SideBarBtn icon={<LuSword size="42" />}/>
+
                 {/* Tools Proficiencies */}
-                <i><TbHammer /></i>
+                <SideBarBtn icon={<TbHammer size="42" />}/>
+
                 {/* Instruments Proficiencies */}
-                <i><FaGuitar /></i>
+                <SideBarBtn icon={<FaGuitar size="42" />}/>
+
                 {/* Language Proficiencies */}
-                <i><SlSpeech /></i>
+                <SideBarBtn icon={<SlSpeech size="42" />}/>
+
                 {/* Actions */}
-                <i><BiRun /></i>
+                <SideBarBtn icon={<BiRun size="42" />}/>
+
                 {/* Bonus Action */}
-                <i><HiOutlineUserPlus /></i>
+                <SideBarBtn icon={<HiOutlineUserPlus size="42" />}/>
+
                 {/* Reactions */}
-                <i><VscReactions /></i>
+                <SideBarBtn icon={<VscReactions size="42" />}/>
+
                 {/* Action of Opportunity */}
-                <i><AiOutlineInteraction /></i>
+                <SideBarBtn icon={<AiOutlineInteraction size="42" />}/>
+
                 {/* Combat Action: Weapon */}
-                <i><GiSwordArray /></i>
+                <SideBarBtn icon={<GiSwordArray size="42" />}/>
+
                 {/* Combat Action: Spells */}
-                <i><GiGooExplosion /></i>
+                <SideBarBtn icon={<GiGooExplosion size="42" />}/>
+
                 {/* Combat Action: Use Item */}
-                <i><PiHandFist /></i>
+                <SideBarBtn icon={<PiHandFist size="42" />}/>
+
                 {/* Class Features */}
-                <i><MdOutlineFeaturedPlayList /></i>
+                <SideBarBtn icon={<MdOutlineFeaturedPlayList size="42" />}/>
+
                 {/* Class Specialty/School Features */}
-                <i><TbSchool /></i>
+                <SideBarBtn icon={<TbSchool size="42" />}/>
+
                 {/* Species Specialty Traits */}
-                <i><BsPersonAdd /></i>
+                <SideBarBtn icon={<BsPersonAdd size="42" />}/>
+
                 {/* Personal Strength Capes (Encumbered, Push/Drag/lift) */}
-                <i><GiWeightLiftingUp /></i>
+                <SideBarBtn icon={<GiWeightLiftingUp size="42" />}/>
+
                 {/* Inventory: Weapons */}
-                <i><BsListUl /></i>
+                <SideBarBtn icon={<BsListUl size="42" />}/>
+
                 {/* Inventory: Items */}
-                <i><BsList /></i>
+                <SideBarBtn icon={<BsList size="42" />}/>
+
                 {/* Inventory: Attuned Items */}
-                <i><BsMusicNoteList /></i>
+                <SideBarBtn icon={<BsMusicNoteList size="42" />}/>
+
                 {/* Feats */}
-                <i><AiOutlineTrophy /></i>
+                <SideBarBtn icon={<AiOutlineTrophy size="42" />}/>
+
                 {/* Character Appearance */}
-                <i><FaRegFaceMehBlank /></i>
+                <SideBarBtn icon={<FaRegFaceMehBlank size="42" />}/>
+
                 {/* Allies */}
-                <i><BsPeople /></i>
+                <SideBarBtn icon={<BsPeople size="42" />}/>
+
                 {/* Organization */}
-                <i><VscOrganization /></i>
+                <SideBarBtn icon={<VscOrganization size="42" />}/>
+
                 {/* Personality */}
-                <i><FaRegFaceGrinWink /></i>
+                <SideBarBtn icon={<FaRegFaceGrinWink size="42" />}/>
+
                 {/* Backstory */}
-                <i><SiStoryblok /> </i>
+                <SideBarBtn icon={<SiStoryblok size="42" />}/>
+
                 {/* Journal */}
-                <i><BsFillJournalBookmarkFill /></i>
+                <SideBarBtn icon={<BsFillJournalBookmarkFill size="42" />}/>
+
                 {/* Spell-book */}
-                <i><FaBookDead /></i>
+                <SideBarBtn icon={<FaBookDead size="42" />}/>
 
             </div>
 
