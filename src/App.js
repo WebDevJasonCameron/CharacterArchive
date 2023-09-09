@@ -1,13 +1,20 @@
+// Import Style
 import './App.css';
 
-import Home from "./routes/home/home.componenet";
+// Import Comps
 import CharacterPage from "./routes/character-page/character-page.component";
 
+// Import (Simulated) DB
+import Raveen from "./db/raveen.component";
+
+
 const App = ()=>  {
+
+    const character = Raveen
+
   return (
     <div className="App">
-      {/*<Home />*/}
-        <CharacterPage />
+        <CharacterPage character={character} />
     </div>
   );
 }

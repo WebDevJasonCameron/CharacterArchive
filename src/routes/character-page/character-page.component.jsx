@@ -20,24 +20,7 @@ import { SlSpeech } from "react-icons/sl";
 import { TbHammer, TbSchool } from "react-icons/tb";
 import { VscReactions, VscOrganization } from "react-icons/vsc";
 
-const CharacterPage = () => {
-
-    // Raveen's Data
-    const character = {
-        charName: "Raveen",
-        charSpecies: "Human",
-        charClass: "B-8 S-1",
-        charBackground: "Criminal, Spy",
-        charHP: "88",
-        charAC: "15",
-        charMovement: "Walk 45",
-        charInitiative: "+4",
-        charHitDice: "8d8 + 1d6",
-        charProfBonus: "+4",
-        charAbilitySaveDC: "-",
-        charXP: "Milestone",
-        charLevel: "9"
-    }
+const CharacterPage = ({character}) => {
 
     return(
         <div id="character-page-container" className="bg-gray-800 text-white text-left">
@@ -53,31 +36,31 @@ const CharacterPage = () => {
                 <div className="flex flex-row">
                     {/* Info 1 */}
                     <div className="flex flex-col w-52">
-                        <div><span className="text-gray-400">Name</span> {character.charName}</div>
-                        <div><span className="text-gray-400">Species</span> {character.charSpecies}</div>
-                        <div><span className="text-gray-400">Class & Level</span> {character.charClass}</div>
-                        <div><span className="text-gray-400">Background</span> {character.charBackground}</div>
+                        <div><span className="text-gray-400">Name</span> {character.cName}</div>
+                        <div><span className="text-gray-400">Species</span> {character.cSpecies}</div>
+                        <div><span className="text-gray-400">Class & Level</span> {character.cClass}</div>
+                        <div><span className="text-gray-400">Background</span> {character.cBackground}</div>
                     </div>
 
                     {/* Info 2 */}
                     <div className="flex flex-col w-52">
-                        <div><span className="text-gray-400">HP</span> {character.charHP}</div>
-                        <div><span className="text-gray-400">AC</span> {character.charAC}</div>
-                        <div><span className="text-gray-400">Movement</span> {character.charMovement}</div>
-                        <div><span className="text-gray-400">Initiative</span> {character.charInitiative}</div>
+                        <div><span className="text-gray-400">HP</span> {character.cHP}</div>
+                        <div><span className="text-gray-400">AC</span> {character.cAC}</div>
+                        <div><span className="text-gray-400">Movement</span> {character.cMovement}</div>
+                        <div><span className="text-gray-400">Initiative</span> {character.cInitiative}</div>
                     </div>
 
                     {/* Info 3 */}
                     <div className="flex flex-col w-52">
-                        <div><span className="text-gray-400">Hit Dice</span> {character.charHitDice}</div>
-                        <div><span className="text-gray-400">Prof. Bonus</span> {character.charProfBonus}</div>
-                        <div><span className="text-gray-400">Ability Save DC:</span> {character.charAbilitySaveDC}</div>
-                        <div><span className="text-gray-400">XP</span> {character.charMovement}</div>
+                        <div><span className="text-gray-400">Hit Dice</span> {character.cHitDice}</div>
+                        <div><span className="text-gray-400">Prof. Bonus</span> {character.cProfBonus}</div>
+                        <div><span className="text-gray-400">Ability Save DC:</span> {character.cAbilitySaveDC}</div>
+                        <div><span className="text-gray-400">XP</span> {character.cMovement}</div>
                     </div>
 
                     {/* Info 4 */}
                     <div className="flex flex-col w-52">
-                        <div><span className="text-gray-400">Total Level</span> {character.charLevel}</div>
+                        <div><span className="text-gray-400">Total Level</span> {character.cLevel}</div>
                         {/* Death Saves? */}
                     </div>
                 </div>
