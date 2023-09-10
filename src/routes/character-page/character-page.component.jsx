@@ -6,7 +6,7 @@ import CharacterProfilePicture
     from "../../components/character-components/character-profile-picture/character-profile-picture.component";
 import SidebarBtn from "../../components/buttons/character-page-sidebar-button/sidebar-button.component";
 import CharacterStatic from "../../components/character-components/character-static/character-static.component";
-
+import FocusMenu from "../../components/menus/character-page-focus-menu/character-page-focus-menu.component";
 
 // Import Icons
 import { AiOutlineInteraction, AiOutlineTrophy } from "react-icons/ai";
@@ -24,8 +24,8 @@ import { SiStoryblok } from "react-icons/si";
 import { SlSpeech } from "react-icons/sl";
 import { TbHammer, TbSchool } from "react-icons/tb";
 import { VscReactions, VscOrganization } from "react-icons/vsc";
-import Focus from "../../components/buttons/character-page-focus/character-page-focus.component";
 
+// COMP
 const CharacterPage = ({ character }) => {
 
     return(
@@ -33,14 +33,12 @@ const CharacterPage = ({ character }) => {
 
             {/* Top Menu */}
             <div className="flex flex-row px-10 py-3 space-x-10 justify-between bg-gray-600">
-                {/* Character Image */}
-                    <CharacterProfilePicture imgUrl={character.cPix} />
 
-                {/* Static Info */}
+                <CharacterProfilePicture imgUrl={character.cPix} />
+
                 <CharacterStatic character={ character } />
 
-                {/* Focus Env */}
-                <Focus />
+                <FocusMenu />
 
             </div>
 
