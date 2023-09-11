@@ -25,7 +25,7 @@ const CharacterStatic = ({ character }) => {
                 <div><span className="text-gray-400">Hit Dice</span> {character.cHitDice}</div>
                 <div><span className="text-gray-400">Prof. Bonus</span> {character.cProfBonus}</div>
                 <div><span className="text-gray-400">Ability Save DC:</span> {character.cAbilitySaveDC}</div>
-                <div><span className="text-gray-400">XP</span> {character.cMovement}</div>
+                <div><span className="text-gray-400">XP</span> {character.cXP}</div>
             </div>
 
             {/* Info 4 */}

@@ -5,7 +5,7 @@ import './character-stats.styles.css'
 const CharacterStats = ({ character }) => {
 
     return (
-        <h2>Character Status</h2>
+        <h2>Character Stats</h2>
     )
 };
 
