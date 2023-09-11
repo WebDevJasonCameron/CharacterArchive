@@ -6,9 +6,8 @@ import CharacterProfilePicture
     from "../../components/character-components/character-profile-picture/character-profile-picture.component";
 import CharacterStatic from "../../components/character-components/character-static/character-static.component";
 import FocusMenu from "../../components/menus/character-page-focus-menu/character-page-focus-menu.component";
-import SideBarMenu from "../../components/menus/character-page-sidebar-menu/character-page-sidebar-menu.component";
-import DisplayContainer
-    from "../../components/containers/character-page-display-container/character-page-display-container.component";
+import FocusContainer
+    from "../../components/containers/character-page-focus-container/character-page-focus-container.component";
 
 // COMP
 const CharacterPage = ({ character }) => {
@@ -24,10 +23,7 @@ const CharacterPage = ({ character }) => {
             </div>
 
             {/* Body Container */}
-            <div className="flex">
-                <SideBarMenu activeFocus="A Word" />
-                <DisplayContainer />
-            </div>
+            <FocusContainer />
 
         </div>
         )
