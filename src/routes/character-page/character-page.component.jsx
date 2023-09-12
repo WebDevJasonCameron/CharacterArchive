@@ -6,10 +6,10 @@ import CharacterProfilePicture
     from "../../components/character-components/character-profile-picture/character-profile-picture.component";
 import CharacterStatic from "../../components/character-components/character-static/character-static.component";
 import FocusMenu from "../../components/menus/character-page-focus-menu/character-page-focus-menu.component";
-import FocusContainer
-    from "../../components/containers/character-page-focus-containers/character-page-focus-container.component";
 import CharacterSheetFocusContainer
     from "../../components/containers/character-page-focus-containers/character-sheet-focus-container/character-sheet-focus-container.component";
+import StatsFocusContainer
+    from "../../components/containers/character-page-focus-containers/stats-focus-container/stats-focus-container.component";
 
 // COMP
 const CharacterPage = ({ character }) => {
@@ -25,7 +25,8 @@ const CharacterPage = ({ character }) => {
             </div>
 
             {/* Body Container */}
-            <CharacterSheetFocusContainer />
+            {/*<CharacterSheetFocusContainer />*/}
+            <StatsFocusContainer />
         </div>
         )
 }
