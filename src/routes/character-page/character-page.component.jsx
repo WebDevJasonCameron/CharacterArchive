@@ -23,7 +23,7 @@ const CharacterPage = ({ character }) => {
             </div>
 
             {/* Body Container */}
-            <FocusContainer />
+            <FocusContainer character={character}/>
 
         </div>
         )

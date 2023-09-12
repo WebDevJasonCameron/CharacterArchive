@@ -22,9 +22,9 @@ import { TbHammer, TbSchool } from "react-icons/tb";
 import { VscReactions, VscOrganization } from "react-icons/vsc";
 
 // COMP
-const SideBarMenu = (  ) =>{
+const SideBarMenu = () =>{
 
-    return (
+        return (
         <div  className="left-0 w-16 flex flex-col bg-gray-700">
             {/* 1. Main Stats */}
             <SidebarBtn icon={<BiStats size="42" />} text={"Stats"} />
