@@ -2,7 +2,7 @@
 import './character-page-focus-container.styles.css'
 
 // Comps
-import SideBarMenu from "../../menus/character-page-sidebar-menu/character-page-sidebar-menu.component";
+import SideBarMenu from "../../menus/./character-page-sidebar-menus/character-page-sidebar-menu.component";
 
 // COMP
 const FocusContainer = ({ activeFocus }) => {
