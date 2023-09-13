@@ -10,6 +10,10 @@ import CharacterSheetFocusContainer
     from "../../components/containers/character-page-focus-containers/character-sheet-focus-container/character-sheet-focus-container.component";
 import StatsFocusContainer
     from "../../components/containers/character-page-focus-containers/stats-focus-container/stats-focus-container.component";
+import JournalFocusContainer
+    from "../../components/containers/character-page-focus-containers/journal-focus-container/journal-focus-container.component";
+import CombatFocusContainer
+    from "../../components/containers/character-page-focus-containers/combat-focus-container/combat-focus-container.component";
 
 // COMP
 const CharacterPage = ({ character }) => {
@@ -26,7 +30,9 @@ const CharacterPage = ({ character }) => {
 
             {/* Body Container */}
             {/*<CharacterSheetFocusContainer />*/}
-            <StatsFocusContainer />
+            {/*<StatsFocusContainer />*/}
+            {/*<JournalFocusContainer />*/}
+            <CombatFocusContainer />
         </div>
         )
 }

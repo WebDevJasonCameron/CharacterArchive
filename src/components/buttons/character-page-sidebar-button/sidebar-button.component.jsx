@@ -1,5 +1,7 @@
+// Style
 import './sidebar-button.styles.css'
 
+// COMP
 const SidebarBtn = ({ icon, text }) => {
     return (
         <button className="sidebar-icon group">
