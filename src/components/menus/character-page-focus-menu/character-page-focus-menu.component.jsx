@@ -25,7 +25,7 @@ const FocusMenu = () => {
             <FocusBtn text={"Combat"} active={"Combat" === activeFocus} handleSetActiveFocus={handleSetActiveFocus} />
             <FocusBtn text={"Inventory"} active={"Inventory" === activeFocus} handleSetActiveFocus={handleSetActiveFocus} />
             <FocusBtn text={"Relations"} active={"Relations" === activeFocus} handleSetActiveFocus={handleSetActiveFocus} />
-            <FocusBtn text={"----"} active={"----" === activeFocus} handleSetActiveFocus={handleSetActiveFocus} />
+            <FocusBtn text={"Spells"} active={"Spells" === activeFocus} handleSetActiveFocus={handleSetActiveFocus} />
             <FocusBtn text={"Art"} active={"Art" === activeFocus} handleSetActiveFocus={handleSetActiveFocus} />
         </div>
     )

@@ -14,6 +14,10 @@ import JournalFocusContainer
     from "../../components/containers/character-page-focus-containers/journal-focus-container/journal-focus-container.component";
 import CombatFocusContainer
     from "../../components/containers/character-page-focus-containers/combat-focus-container/combat-focus-container.component";
+import InventoryFocusContainer
+    from "../../components/containers/character-page-focus-containers/inventory-focus-container/inventory-focus-container.component";
+import RelationsFocusContainer
+    from "../../components/containers/character-page-focus-containers/relations-focus-container/relations-focus-container.component";
 
 // COMP
 const CharacterPage = ({ character }) => {
@@ -32,7 +36,9 @@ const CharacterPage = ({ character }) => {
             {/*<CharacterSheetFocusContainer />*/}
             {/*<StatsFocusContainer />*/}
             {/*<JournalFocusContainer />*/}
-            <CombatFocusContainer />
+            {/*<CombatFocusContainer />*/}
+            {/*<InventoryFocusContainer />*/}
+            <RelationsFocusContainer />
         </div>
         )
 }
