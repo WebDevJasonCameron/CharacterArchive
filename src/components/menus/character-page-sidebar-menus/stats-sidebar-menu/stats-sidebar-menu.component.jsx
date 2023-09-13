@@ -29,19 +29,16 @@ const StatsSideBarMenu = () =>{
             {/* 1. Main Stats */}
             <SidebarBtn icon={<BiStats size="42" />} text={"Stats"} />
 
-            {/* 2. Saving Throws */}
-            <SidebarBtn icon={<GiDeathJuice size="42" />} text={"Saving Throws"} />
-
-            {/* 3. Skills */}
+            {/* 2. Skills */}
             <SidebarBtn icon={<GiSkills size="42" />} text={"Skills"} />
 
-            {/* 4. Senses */}
+            {/* 3. Senses */}
             <SidebarBtn icon={<GiCrystalEye size="42" />} text={"Senses"} />
 
-            {/* 5. Defenses */}
+            {/* 4. Defenses */}
             <SidebarBtn icon={<RiShieldLine size="42" />} text={"Defenses"} />
 
-            {/* 6. Movements */}
+            {/* 5. Movements */}
             <SidebarBtn icon={<BiWalk size="42" />} text={"Movements"} />
 
         </div>
