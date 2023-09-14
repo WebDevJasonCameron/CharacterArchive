@@ -1,6 +1,3 @@
-// Import Style
-import './character-page-sidebar-menu.styles.css'
-
 // Import Comps
 import SidebarBtn from "../../buttons/character-page-sidebar-button/sidebar-button.component";
 

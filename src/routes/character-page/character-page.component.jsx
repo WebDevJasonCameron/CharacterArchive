@@ -37,7 +37,7 @@ const CharacterPage = ({ character }) => {
             </div>
 
             {/* Body Container */}
-            <CharacterSheetFocusContainer />
+            <CharacterSheetFocusContainer character={character} />
             {/*<StatsFocusContainer />*/}
             {/*<JournalFocusContainer />*/}
             {/*<CombatFocusContainer />*/}
