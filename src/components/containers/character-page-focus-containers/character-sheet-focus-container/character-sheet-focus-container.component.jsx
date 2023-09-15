@@ -18,7 +18,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                 <section>
 
                     {/* Main Stats Card */}
-                    <div className="flex m-2 gap-1">
+                    <div className="flex m-2 gap-2">
 
                         {/* Strength */}
                         <div className="w-36 p-5 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
@@ -64,7 +64,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     </div>
 
                     {/* Char Skills */}
-                    <div>
+                    <div className="border-4 border-slate-600 rounded-3xl m-2">
                         <table className="table-auto m-6">
                             <thead>
                                 <tr className="text-slate-400">
@@ -81,7 +81,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">WIS</td>
                                     <td>Acrobatics</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillAcrobaticsBonus}
                                         </div>
                                     </td>
@@ -92,7 +92,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">DEX</td>
                                     <td>Animal Handling</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillAnimalHandlingBonus}
                                         </div>
                                     </td>
@@ -100,10 +100,10 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                 {/* 3. Arcana */}
                                 <tr className="text-xl">
                                     <td>{character.cSkillArcanaProf}</td>
-                                    <td className="text-slate-400">INT</td>
+                                    <td className=" text-slate-400">INT</td>
                                     <td>Arcana</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillArcanaBonus}
                                         </div>
                                     </td>
@@ -114,7 +114,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">STR</td>
                                     <td>Athletics</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillAthleticsBonus}
                                         </div>
                                     </td>
@@ -125,7 +125,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">CHA</td>
                                     <td>Deception</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillDeceptionBonus}
                                         </div>
                                     </td>
@@ -136,7 +136,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">INT</td>
                                     <td>History</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillHistoryBonus}
                                         </div>
                                     </td>
@@ -147,7 +147,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">WIS</td>
                                     <td>Insight</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillInsightBonus}
                                         </div>
                                     </td>
@@ -158,7 +158,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">CHA</td>
                                     <td>Intimidation</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillIntimidationBonus}
                                         </div>
                                     </td>
@@ -169,7 +169,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">INT</td>
                                     <td>Investigation</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillInvestigationBonus}
                                         </div>
                                     </td>
@@ -180,7 +180,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">WIS</td>
                                     <td>Medicine</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillMedicineBonus}
                                         </div>
                                     </td>
@@ -191,7 +191,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">INT</td>
                                     <td>Nature</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillNatureBonus}
                                         </div>
                                     </td>
@@ -202,7 +202,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">WIS</td>
                                     <td>Perception</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillPerceptionBonus}
                                         </div>
                                     </td>
@@ -213,7 +213,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">CHA</td>
                                     <td>Performance</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillPerformanceBonus}
                                         </div>
                                     </td>
@@ -224,7 +224,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">CHA</td>
                                     <td>Persuasion</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillPersuasionBonus}
                                         </div>
                                     </td>
@@ -235,7 +235,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">INT</td>
                                     <td>Religion</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillReligionBonus}
                                         </div>
                                     </td>
@@ -246,7 +246,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">DEX</td>
                                     <td>Sleight of Hand</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillSlightOfHandBonus}
                                         </div>
                                     </td>
@@ -257,7 +257,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">DEX</td>
                                     <td>Stealth</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillStealthBonus}
                                         </div>
                                     </td>
@@ -268,7 +268,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                                     <td className="text-slate-400">WIS</td>
                                     <td>Survival</td>
                                     <td>
-                                        <div className="p-1 border-4 border-slate-600 rounded-xl">
+                                        <div className="p-2 border-4 border-slate-600 rounded-xl">
                                             {character.cSkillSurvivalBonus}
                                         </div>
                                     </td>
@@ -278,6 +278,80 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     </div>
 
                     {/* Saving Throws */}
+                    <div className="border-4 border-slate-600 rounded-3xl m-2 flex flex-col gap-1">
+                        {/* Row 1 */}
+                        <div className="flex gap-20">
+                            {/* R1 C1 */}
+                            <div className="flex w-16">
+                                <div>
+                                    {character.cSavingThrowChaPro}
+                                </div>
+                                <h5 className="p-3 text-xl text-slate-400">STR</h5>
+                                <div className="p-2 border-4 border-slate-600 rounded-xl text-xl">
+                                    {character.cSavingThrowsStr}
+                                </div>
+                            </div>
+                            {/* R1 C2 */}
+                            <div className="flex w-16">
+                                <div>
+                                    {character.cSavingThrowIntPro}
+                                </div>
+                                <h5 className="p-3 text-xl text-slate-400">INT</h5>
+                                <div className="p-2 border-4 border-slate-600 rounded-xl text-xl">
+                                    {character.cSavingThrowsInt}
+                                </div>
+                            </div>
+                        </div>
+                        {/* Row 2 */}
+                        <div className="flex gap-20">
+                            {/* R1 C1 */}
+                            <div className="flex w-16">
+                                <div>
+                                    {character.cSavingThrowDexPro}
+                                </div>
+                                <h5 className="p-3 text-xl text-slate-400">DEX</h5>
+                                <div className="p-2 border-4 border-slate-600 rounded-xl text-xl">
+                                    {character.cSavingThrowsDex}
+                                </div>
+                            </div>
+                            {/* R1 C2 */}
+                            <div className="flex w-16">
+                                <div>
+                                    {character.cSavingThrowWisPro}
+                                </div>
+                                <h5 className="p-3 text-xl text-slate-400">WIS</h5>
+                                <div className="p-2 border-4 border-slate-600 rounded-xl text-xl">
+                                    {character.cSavingThrowsWis}
+                                </div>
+                            </div>
+                        </div>
+                        {/* Row 3 */}
+                        <div className="flex gap-20">
+                            {/* R1 C1 */}
+                            <div className="flex w-16">
+                                <div>
+                                    {character.cSavingThrowConPro}
+                                </div>
+                                <h5 className="p-3 text-xl text-slate-400">CON</h5>
+                                <div className="p-2 border-4 border-slate-600 rounded-xl text-xl">
+                                    {character.cSavingThrowsCon}
+                                </div>
+                            </div>
+                            {/* R1 C1 */}
+                            <div className="flex w-16">
+                                <div>
+                                    {character.cSavingThrowConPro}
+                                </div>
+                                <h5 className="p-3 text-xl text-slate-400">CHA</h5>
+                                <div className="p-2 border-4 border-slate-600 rounded-xl text-xl">
+                                    {character.cSavingThrowsCon}
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
 
                     {/* Passive Senses */}
 
