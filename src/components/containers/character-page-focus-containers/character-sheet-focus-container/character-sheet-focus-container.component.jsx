@@ -5,6 +5,11 @@ import './character-sheet-focus-container.styles.css'
 import CharacterSheetSidebarMenu
     from "../../../menus/character-page-sidebar-menus/character-sheet-sidebar-menu/character-sheet-sidebar-menu.component";
 
+// Icons
+import { GoDot, GoDotFill } from "react-icons/go";
+import { FaRegCircleDot } from "react-icons/fa6";
+import {BsBrush} from "react-icons/bs";
+
 
 // COMP
 const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
@@ -280,71 +285,71 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     {/* Saving Throws */}
                     <div className="border-4 border-slate-600 rounded-3xl m-2 flex flex-col gap-1">
                         {/* Row 1 */}
-                        <div className="flex gap-20">
+                        <div className="flex">
                             {/* R1 C1 */}
-                            <div className="flex w-16">
-                                <div>
-                                    {character.cSavingThrowChaPro}
+                            <div className="flex w-44">
+                                <div className="px-1 py-3">
+                                    {character.cSavingThrowStrPro? <GoDotFill size="42" /> : <GoDot size="42" />}
                                 </div>
-                                <h5 className="p-3 text-xl text-slate-400">STR</h5>
+                                <h5 className="p-3 w-20 text-left text-xl text-slate-400">STR</h5>
                                 <div className="p-2 border-4 border-slate-600 rounded-xl text-xl">
                                     {character.cSavingThrowsStr}
                                 </div>
                             </div>
                             {/* R1 C2 */}
-                            <div className="flex w-16">
-                                <div>
-                                    {character.cSavingThrowIntPro}
+                            <div className="flex w-44">
+                                <div className="px-1 py-3">
+                                    {character.cSavingThrowIntPro? <GoDotFill size="42" /> : <GoDot size="42" />}
                                 </div>
-                                <h5 className="p-3 text-xl text-slate-400">INT</h5>
+                                <h5 className="p-3 w-20 text-left text-xl text-slate-400">INT</h5>
                                 <div className="p-2 border-4 border-slate-600 rounded-xl text-xl">
                                     {character.cSavingThrowsInt}
                                 </div>
                             </div>
                         </div>
                         {/* Row 2 */}
-                        <div className="flex gap-20">
-                            {/* R1 C1 */}
-                            <div className="flex w-16">
-                                <div>
-                                    {character.cSavingThrowDexPro}
+                        <div className="flex">
+                            {/* R2 C1 */}
+                            <div className="flex w-44">
+                                <div className="px-1 py-3">
+                                    {character.cSavingThrowDexPro? <GoDotFill size="42" /> : <GoDot size="42" />}
                                 </div>
-                                <h5 className="p-3 text-xl text-slate-400">DEX</h5>
+                                <h5 className="p-3 w-20 text-left text-xl text-slate-400">DEX</h5>
                                 <div className="p-2 border-4 border-slate-600 rounded-xl text-xl">
                                     {character.cSavingThrowsDex}
                                 </div>
                             </div>
-                            {/* R1 C2 */}
-                            <div className="flex w-16">
-                                <div>
-                                    {character.cSavingThrowWisPro}
+                            {/* R2 C2 */}
+                            <div className="flex w-44">
+                                <div className="px-1 py-3">
+                                    {character.cSavingThrowWisPro? <GoDotFill size="42" /> : <GoDot size="42" />}
                                 </div>
-                                <h5 className="p-3 text-xl text-slate-400">WIS</h5>
+                                <h5 className="p-3 w-20 text-left text-xl text-slate-400">WIS</h5>
                                 <div className="p-2 border-4 border-slate-600 rounded-xl text-xl">
                                     {character.cSavingThrowsWis}
                                 </div>
                             </div>
                         </div>
                         {/* Row 3 */}
-                        <div className="flex gap-20">
-                            {/* R1 C1 */}
-                            <div className="flex w-16">
-                                <div>
-                                    {character.cSavingThrowConPro}
+                        <div className="flex">
+                            {/* R3 C1 */}
+                            <div className="flex w-44">
+                                <div className="px-1 py-3">
+                                    {character.cSavingThrowConPro? <GoDotFill size="42" /> : <GoDot size="42" />}
                                 </div>
-                                <h5 className="p-3 text-xl text-slate-400">CON</h5>
+                                <h5 className="p-3 w-20 text-left text-xl text-slate-400">CON</h5>
                                 <div className="p-2 border-4 border-slate-600 rounded-xl text-xl">
                                     {character.cSavingThrowsCon}
                                 </div>
                             </div>
-                            {/* R1 C1 */}
-                            <div className="flex w-16">
-                                <div>
-                                    {character.cSavingThrowConPro}
+                            {/* R3 C2 */}
+                            <div className="flex w-44">
+                                <div className="px-1 py-3">
+                                    {character.cSavingThrowChaPro? <GoDotFill size="42" /> : <GoDot size="42" />}
                                 </div>
-                                <h5 className="p-3 text-xl text-slate-400">CHA</h5>
+                                <h5 className="p-3 w-20 text-left text-xl text-slate-400">CHA</h5>
                                 <div className="p-2 border-4 border-slate-600 rounded-xl text-xl">
-                                    {character.cSavingThrowsCon}
+                                    {character.cSavingThrowsCha}
                                 </div>
                             </div>
                         </div>
@@ -354,16 +359,86 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     </div>
 
                     {/* Passive Senses */}
+                    <div className="flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                        {/* Perception */}
+                        <div className="flex px-3 py-1">
+                            <div className="p-3 border-4 border-slate-600 rounded-3xl">
+                                {character.cPassiveSensesPerception}
+                            </div>
+                            <div>
+                                <h5 className="p-3">Passive  <span className="text-slate-400">WIS</span> Perception</h5>
+                            </div>
+                        </div>
+                        {/* Investigation */}
+                        <div className="flex px-3 py-1">
+                            <div className="p-3 border-4 border-slate-600 rounded-3xl">
+                                {character.cPassiveSensesInvestigation}
+                            </div>
+                            <div>
+                                <h5 className="p-3">Passive  <span className="text-slate-400">INT</span> Investigation</h5>
+                            </div>
+                        </div>
+                        {/* Insight */}
+                        <div className="flex px-3 py-1">
+                            <div className="p-3 border-4 border-slate-600 rounded-3xl">
+                                {character.cPassiveSensesInsight}
+                            </div>
+                            <div>
+                                <h5 className="p-3">Passive  <span className="text-slate-400">WIS</span> Insight</h5>
+                            </div>
+                        </div>
+
+                    </div>
 
                     {/* Defenses */}
+                    <div className="flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                        {/* Resistances */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Resistances:</h5>
+                            <div className="px-3">{character.cDefensiveResistances}</div>
+                        </div>
+
+                        {/* Immunities*/}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Immunities:</h5>
+                            <div className="px-3">{character.cDefensiveImmunities}</div>
+                        </div>
+
+                        {/* Vulnerabilities*/}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Vulnerabilities:</h5>
+                            <div className="px-3">{character.cDefensiveVulnerabilities}</div>
+                        </div>
+                    </div>
 
                     {/* Proficiencies: Armor */}
-
-                    {/* Proficiencies: Weapons */}
-
-                    {/* Proficiencies: Tools */}
-
-                    {/* Proficiencies: Instruments */}
+                    <div className="flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                        {/* Armor */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Armor:</h5>
+                            <div className="px-3">{character.cProficienciesArmor}</div>
+                        </div>
+                        {/* Weapons */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Weapons:</h5>
+                            <div className="px-3">{character.cProficienciesWeapons}</div>
+                        </div>
+                        {/* Tools */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Tools:</h5>
+                            <div className="px-3">{character.cProficienciesTools}</div>
+                        </div>
+                        {/* Instruments */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Instruments:</h5>
+                            <div className="px-3">{character.cProficienciesInstrument}</div>
+                        </div>
+                        {/* Languages */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Languages:</h5>
+                            <div className="px-3">{character.cProficienciesLanguages}</div>
+                        </div>
+                    </div>
 
                     {/* Languages */}
 

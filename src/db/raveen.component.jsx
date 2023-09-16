@@ -7,7 +7,7 @@ const Raveen = () => {
         cSpecies: "Human",
         cClass: "Bard-8 Sor-1",
         cBackground: "Criminal, Spy",
-        cHP: "88",
+        cHP: "83",
         cAC: "15",
         cMovement: "Walk 45",
         cInitiative: "+4",
@@ -84,6 +84,16 @@ const Raveen = () => {
         cPassiveSensesPerception: "20",
         cPassiveSensesInvestigation: "16",
         cPassiveSensesInsight: "14",
+        // Defensive
+        cDefensiveResistances: "",
+        cDefensiveImmunities: "",
+        cDefensiveVulnerabilities: "",
+        // Proficiencies
+        cProficienciesArmor: "Light Armor",
+        cProficienciesWeapons: "Crossbow, Hand, Longsword, Rapier, Short-Sword, Simple Weapon",
+        cProficienciesTools: "Dice Set, Thieves Tools",
+        cProficienciesInstrument: "Flute, Lute, Viol",
+        cProficienciesLanguages: "Celestial, Common, Primordial"
     }
 }
 
