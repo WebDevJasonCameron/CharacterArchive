@@ -4,11 +4,12 @@ import './character-sheet-focus-container.styles.css'
 // Comps
 import CharacterSheetSidebarMenu
     from "../../../menus/character-page-sidebar-menus/character-sheet-sidebar-menu/character-sheet-sidebar-menu.component";
+import CardMainStats
+    from "../../../character-components/character-component-cards/character-main-stats-card/character-card-main-stats.component";
 
 // Icons
 import { GoDot, GoDotFill } from "react-icons/go";
 import { FaRegCircleDot } from "react-icons/fa6";
-import {BsBrush} from "react-icons/bs";
 
 
 // COMP
@@ -23,50 +24,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                 <section className="grid grid-cols-3 grid-rows-8 gap-1">
 
                     {/* Main Stats Card */}
-                    <div className="col-span-2 flex m-2 gap-5">
-
-                        {/* Strength */}
-                        <div className="w-36 p-5 h-40 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
-                            <div className="text-xl text-slate-400">Strength</div>
-                            <div className="p-3 text-3xl">{character.cStrMod}</div>
-                            <div className="text-sm text-slate-400">{character.cStr}</div>
-                        </div>
-                        {/* Dexterity */}
-                        <div className="w-36 p-5 h-40 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
-                            <div className="text-xl text-slate-400">Dexterity</div>
-                            <div className="p-3 text-3xl">{character.cDexMod}</div>
-                            <div className="text-sm text-slate-400">{character.cDex}</div>
-                        </div>
-                        {/* Constitution*/}
-                        <div className="w-36 p-5 h-40 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
-                            <div className="text-xl text-slate-400">Constitution</div>
-                            <div className="p-3 text-3xl">{character.cConMod}</div>
-                            <div className="text-sm text-slate-400">{character.cCon}</div>
-                        </div>
-                        {/* Intelligence */}
-                        <div className="w-36 p-5 h-40 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
-                            <div className="text-xl text-slate-400">Intelligence</div>
-                            <div className="p-3 text-3xl">{character.cIntMod}</div>
-                            <div className="text-sm text-slate-400">{character.cInt}</div>
-                        </div>
-                        {/* Wisdom */}
-                        <div className="w-36 p-5 h-40 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
-                            <div className="text-xl text-slate-400">Wisdom</div>
-                            <div className="p-3 text-3xl">{character.cWisMod}</div>
-                            <div className="text-sm text-slate-400">{character.cWis}</div>
-                        </div>
-                        {/* Charisma */}
-                        <div className="w-36 p-5 h-40 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
-                            <div className="text-xl text-slate-400">Charisma</div>
-                            <div className="p-3 text-3xl">{character.cChaMod}</div>
-                            <div className="text-sm text-slate-400">{character.cCha}</div>
-                        </div>
-
-
-
-
-
-                    </div>
+                    <CardMainStats character={character} />
 
                     {/* Char Skills */}
                     <div className="col-start-1 row-start-2 row-span-3 border-4 border-slate-600 rounded-3xl m-2">
