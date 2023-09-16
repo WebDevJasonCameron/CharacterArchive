@@ -20,6 +20,8 @@ import CardSavingThrows
     from "../../../character-components/character-cards/character-card-saving-throws/character-card-saving-throws.component";
 import CardPassiveSenses
     from "../../../character-components/character-cards/character-card-passive-senses/character-card-passive-senses.component";
+import CardDefenses
+    from "../../../character-components/character-cards/character-card-defenses/character-card-defenses.component";
 
 
 // COMP
@@ -39,33 +41,8 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     <CardStrengthCapes character={character} />
                     <CardSavingThrows character={character} />
                     <CardPassiveSenses character={character} />
+                    <CardDefenses character={character} />
 
-
-                    {/* Passive Senses */}
-
-
-                    {/* Defenses */}
-                    <div className="col-start-2 row-start-4 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
-                        {/* Title */}
-                        <h3 className="text-center text-2xl text-slate-400 my-2">Defenses</h3>
-                        {/* Resistances */}
-                        <div className="flex px-3 py-1 text-xl ">
-                            <h5 className="pl-3 text-slate-400">Resistances:</h5>
-                            <div className="px-3">{character.cDefensiveResistances}</div>
-                        </div>
-
-                        {/* Immunities*/}
-                        <div className="flex px-3 py-1 text-xl ">
-                            <h5 className="pl-3 text-slate-400">Immunities:</h5>
-                            <div className="px-3">{character.cDefensiveImmunities}</div>
-                        </div>
-
-                        {/* Vulnerabilities*/}
-                        <div className="flex px-3 py-1 text-xl ">
-                            <h5 className="pl-3 text-slate-400">Vulnerabilities:</h5>
-                            <div className="px-3">{character.cDefensiveVulnerabilities}</div>
-                        </div>
-                    </div>
 
                     {/* Proficiencies*/}
                     <div className="col-start-2 row-start-5 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
