@@ -16,7 +16,6 @@ const CharacterStatic = ({ character }) => {
             <div className="flex flex-col w-52">
                 <div><span className="text-gray-400">HP</span> {character.cHP}</div>
                 <div><span className="text-gray-400">AC</span> {character.cAC}</div>
-                <div><span className="text-gray-400">Movement</span> {character.cMovement}</div>
                 <div><span className="text-gray-400">Initiative</span> {character.cInitiative}</div>
             </div>
 

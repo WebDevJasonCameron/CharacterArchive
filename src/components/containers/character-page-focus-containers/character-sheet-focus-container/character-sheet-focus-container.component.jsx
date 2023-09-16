@@ -20,43 +20,43 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                 <CharacterSheetSidebarMenu  />
 
                 {/* Content */}
-                <section className="grid grid-cols-3 grid-rows-6 gap-1">
+                <section className="grid grid-cols-3 grid-rows-8 gap-1">
 
                     {/* Main Stats Card */}
-                    <div className="col-span-2 flex m-2 gap-2">
+                    <div className="col-span-2 flex m-2 gap-5">
 
                         {/* Strength */}
-                        <div className="w-36 p-5 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
+                        <div className="w-36 p-5 h-40 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
                             <div className="text-xl text-slate-400">Strength</div>
                             <div className="p-3 text-3xl">{character.cStrMod}</div>
                             <div className="text-sm text-slate-400">{character.cStr}</div>
                         </div>
                         {/* Dexterity */}
-                        <div className="w-36 p-5 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
+                        <div className="w-36 p-5 h-40 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
                             <div className="text-xl text-slate-400">Dexterity</div>
                             <div className="p-3 text-3xl">{character.cDexMod}</div>
                             <div className="text-sm text-slate-400">{character.cDex}</div>
                         </div>
                         {/* Constitution*/}
-                        <div className="w-36 p-5 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
+                        <div className="w-36 p-5 h-40 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
                             <div className="text-xl text-slate-400">Constitution</div>
                             <div className="p-3 text-3xl">{character.cConMod}</div>
                             <div className="text-sm text-slate-400">{character.cCon}</div>
                         </div>
                         {/* Intelligence */}
-                        <div className="w-36 p-5 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
+                        <div className="w-36 p-5 h-40 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
                             <div className="text-xl text-slate-400">Intelligence</div>
                             <div className="p-3 text-3xl">{character.cIntMod}</div>
                             <div className="text-sm text-slate-400">{character.cInt}</div>
                         </div>
                         {/* Wisdom */}
-                        <div className="w-36 p-5 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
+                        <div className="w-36 p-5 h-40 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
                             <div className="text-xl text-slate-400">Wisdom</div>
                             <div className="p-3 text-3xl">{character.cWisMod}</div>
                             <div className="text-sm text-slate-400">{character.cWis}</div>
                         </div>
                         {/* Charisma */}
-                        <div className="w-36 p-5 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
+                        <div className="w-36 p-5 h-40 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
                             <div className="text-xl text-slate-400">Charisma</div>
                             <div className="p-3 text-3xl">{character.cChaMod}</div>
                             <div className="text-sm text-slate-400">{character.cCha}</div>
@@ -69,7 +69,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     </div>
 
                     {/* Char Skills */}
-                    <div className="col-start-1 row-span-5 row-start-2 border-4 border-slate-600 rounded-3xl m-2">
+                    <div className="col-start-1 row-start-2 row-span-3 border-4 border-slate-600 rounded-3xl m-2">
                         <table className="table-auto m-6">
                             <thead>
                                 <tr className="text-slate-400">
@@ -282,8 +282,72 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                         </table>
                     </div>
 
+                    {/* Movements */}
+                    <div className="col-start-1 row-start-5 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                        {/* Title */}
+                        <h3 className="text-center text-2xl text-slate-400 my-2">Movement</h3>
+                        {/* Walk */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Walk:</h5>
+                            <div className="px-3">{character.cMovementWalk}</div>
+                        </div>
+                        {/* Climb */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Climb:</h5>
+                            <div className="px-3">{character.cMovementClimb}</div>
+                        </div>
+                        {/* Swim */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Swim:</h5>
+                            <div className="px-3">{character.cMovementSwim}</div>
+                        </div>
+                        {/* Fly */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Fly:</h5>
+                            <div className="px-3">{character.cMovementFly}</div>
+                        </div>
+                        {/* Sprint */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Sprint:</h5>
+                            <div className="px-3">{character.cMovementSprint}</div>
+                        </div>
+                    </div>
+
+                    {/* Personal Strength Capes */}
+                    <div className="col-start-1 row-start-6 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                        {/* Title */}
+                        <h3 className="text-center text-2xl text-slate-400 my-2">Strength Abilities</h3>
+                        {/* Walk */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Carry:</h5>
+                            <div className="px-3">{character.cStrengthActionCarry}</div>
+                        </div>
+                        {/* Climb */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Encumbered:</h5>
+                            <div className="px-3">{character.cStrengthActionEncumbered}</div>
+                        </div>
+                        {/* Swim */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Push:</h5>
+                            <div className="px-3">{character.cStrengthActionPush}</div>
+                        </div>
+                        {/* Fly */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Drag:</h5>
+                            <div className="px-3">{character.cStrengthActionDrag}</div>
+                        </div>
+                        {/* Sprint */}
+                        <div className="flex px-3 py-1 text-xl ">
+                            <h5 className="pl-3 text-slate-400">Lift:</h5>
+                            <div className="px-3">{character.cStrengthActionLift}</div>
+                        </div>
+                    </div>
+
                     {/* Saving Throws */}
-                    <div className="col-start-2  border-4 border-slate-600 rounded-3xl m-2 flex flex-col gap-1">
+                    <div className="col-start-2 row-start-2  border-4 border-slate-600 rounded-3xl m-2 flex flex-col gap-1">
+                        {/* Title */}
+                        <h3 className="text-center text-2xl text-slate-400 my-2">Saving Throws</h3>
                         {/* Row 1 */}
                         <div className="flex">
                             {/* R1 C1 */}
@@ -359,7 +423,9 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     </div>
 
                     {/* Passive Senses */}
-                    <div className="col-start-2 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                    <div className="col-start-2 row-start-3 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                        {/* Title */}
+                        <h3 className="text-center text-2xl text-slate-400 my-2">Passive Senses</h3>
                         {/* Perception */}
                         <div className="flex px-3 py-1">
                             <div className="p-3 border-4 border-slate-600 rounded-3xl">
@@ -391,7 +457,9 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     </div>
 
                     {/* Defenses */}
-                    <div className="col-start-2 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                    <div className="col-start-2 row-start-4 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                        {/* Title */}
+                        <h3 className="text-center text-2xl text-slate-400 my-2">Defenses</h3>
                         {/* Resistances */}
                         <div className="flex px-3 py-1 text-xl ">
                             <h5 className="pl-3 text-slate-400">Resistances:</h5>
@@ -411,8 +479,10 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                         </div>
                     </div>
 
-                    {/* Proficiencies: Armor */}
-                    <div className="col-start-2 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                    {/* Proficiencies*/}
+                    <div className="col-start-2 row-start-5 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                        {/* Title */}
+                        <h3 className="text-center text-2xl text-slate-400 my-2">Proficiencies</h3>
                         {/* Armor */}
                         <div className="flex px-3 py-1 text-xl ">
                             <h5 className="pl-3 text-slate-400">Armor:</h5>
@@ -440,26 +510,15 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                         </div>
                     </div>
 
-                    {/* Movements */}
-
-                    {/* Actions */}
-
-                    {/* Bonus Actions */}
-
-                    {/* Reactions */}
-
-                    {/* Opportunity Actions */}
-
-                    {/* Personal Strength Capes */}
-
-
-
-
-
-
-
-
-
+                    {/* FaTs */}
+                    <div className="col-start-3 row-start-2 row-span-5 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                        {/* Title */}
+                        <h3 className="text-center text-2xl text-slate-400 my-2">Features & Traits</h3>
+                        {/* Class */}
+                        <div className="p-3">
+                            {character.cFATsClassTraits}
+                        </div>
+                    </div>
 
                 </section>
 

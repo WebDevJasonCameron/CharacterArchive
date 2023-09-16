@@ -9,7 +9,6 @@ const Raveen = () => {
         cBackground: "Criminal, Spy",
         cHP: "83",
         cAC: "15",
-        cMovement: "Walk 45",
         cInitiative: "+4",
         cHitDice: "8d8 + 1d6",
         cProfBonus: "+4",
@@ -93,7 +92,96 @@ const Raveen = () => {
         cProficienciesWeapons: "Crossbow, Hand, Longsword, Rapier, Short-Sword, Simple Weapon",
         cProficienciesTools: "Dice Set, Thieves Tools",
         cProficienciesInstrument: "Flute, Lute, Viol",
-        cProficienciesLanguages: "Celestial, Common, Primordial"
+        cProficienciesLanguages: "Celestial, Common, Primordial",
+        // Movements
+        cMovementWalk: "45",
+        cMovementClimb: "22",
+        cMovementSwim: "22",
+        cMovementFly: "-",
+        cMovementSprint: "90",
+        // Strength Actions
+        cStrengthActionCarry: "97 lb",
+        cStrengthActionEncumbered: "135 lb",
+        cStrengthActionPush: "270 lb",
+        cStrengthActionDrag: "270 lb",
+        cStrengthActionLift: "270 lb",
+        // Features & Traits (FaTs)
+        cFATsClassTraits: "Bard Features\n" +
+            "Hit Points PHB, pg. 52\n" +
+            "Proficiencies PHB, pg. 52\n" +
+            "Lute\n" +
+            "Flute\n" +
+            "Viol\n" +
+            "Perception\n" +
+            "Deception\n" +
+            "Stealth\n" +
+            "SpellcastingPHB, pg. 52\n" +
+            "You can cast known bard spells using CHA as your spellcasting modifier (Spell DC 15, Spell Attack +7) and known bard spells as rituals if they have the ritual tag. You can use a musical instrument as a spellcasting focus.\n" +
+            "\n" +
+            "Bardic Inspirationd8PHB, pg. 53\n" +
+            "As a bonus action, a creature (other than you) within 60 ft. that can hear you gains an inspiration die (1d8). For 10 minutes, the creature can add it to one ability check, attack roll, or saving throw. This can be added after seeing the roll, but before knowing the outcome.\n" +
+            "\n" +
+            "Bardic Inspiration: 1 Bonus Action\n" +
+            "Uses:\n" +
+            "/\n" +
+            "Short Rest\n" +
+            "Jack of All TradesPHB, pg. 54\n" +
+            "You can add half your proficiency bonus, rounded down ( +2 ), to any ability check you make that doesn’t already include it.\n" +
+            "\n" +
+            "Song of Rest+1d6 HPPHB, pg. 54\n" +
+            "If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points.\n" +
+            "\n" +
+            "Bard CollegePHB, pg. 54\n" +
+            "College of Lore\n" +
+            "ExpertisePHB, pg. 54\n" +
+            "Your proficiency bonus is doubled for any ability check you make with chosen proficiencies (2 at 3rd and 10th level).\n" +
+            "\n" +
+            "Stealth\n" +
+            "Perception\n" +
+            "Bonus ProficienciesPHB, pg. 54\n" +
+            "You gain proficiency with three more skills of your choice.\n" +
+            "\n" +
+            "Performance\n" +
+            "Persuasion\n" +
+            "Acrobatics\n" +
+            "Cutting WordsPHB, pg. 54\n" +
+            "As a reaction when a creature (that's not immune to being charmed) you can see within 60 ft. makes an attack roll, ability check, or damage roll, you can expend one use of Bardic Inspiration, roll the die, and subtract the number from the creature's roll. You can do so after the roll but before knowing the result.\n" +
+            "\n" +
+            "Cutting Words: 1 Reaction\n" +
+            "Ability Score ImprovementPHB\n" +
+            "Feat\n" +
+            "Tough\n" +
+            "Font of InspirationPHB\n" +
+            "You regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.\n" +
+            "\n" +
+            "CountercharmPHB\n" +
+            "As an action, you can perform until the end of your next turn. During that time, you and any friendly creatures within 30 ft. that can hear you gain advantage on saving throws against being frightened or charmed.\n" +
+            "\n" +
+            "Countercharm: 1 Action\n" +
+            "Additional Magical SecretsPHB, pg. 55\n" +
+            "You can add two additional spells from any class list as bard spells to your known spells.\n" +
+            "\n" +
+            "Zephyr Strike(1st)\n" +
+            "Conjure Animals(3rd)\n" +
+            "Sorcerer Features\n" +
+            "Hit PointsPHB, pg. 100\n" +
+            "ProficienciesPHB, pg. 100\n" +
+            "SpellcastingPHB, pg. 101\n" +
+            "You can cast known sorcerer spells using CHA as your spellcasting modifier (Spell DC 15, Spell Attack +7). You can use an arcane focus as a spellcasting focus.\n" +
+            "\n" +
+            "Sorcerous OriginPHB, pg. 101\n" +
+            "Storm Sorcery\n" +
+            "Wind SpeakerSCAG, pg. 52\n" +
+            "You can speak, read, and write Primordial.\n" +
+            "\n" +
+            "Tempestuous MagicSCAG, pg. 52\n" +
+            "As a bonus action, you can cause gusts of air to surround you before or after you cast a spell of 1st level or higher that allows you to fly up to 10 ft. without provoking opportunity attacks.\n" +
+            "\n" +
+            "Tempestuous Magic: 1 Bonus Action",
+        cFATSpeciesTraits: "",
+
+
+
     }
 }
 
