@@ -20,10 +20,10 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                 <CharacterSheetSidebarMenu  />
 
                 {/* Content */}
-                <section>
+                <section className="grid grid-cols-3 grid-rows-6 gap-1">
 
                     {/* Main Stats Card */}
-                    <div className="flex m-2 gap-2">
+                    <div className="col-span-2 flex m-2 gap-2">
 
                         {/* Strength */}
                         <div className="w-36 p-5 flex flex-col text-center border-4 border-slate-600 rounded-3xl">
@@ -69,7 +69,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     </div>
 
                     {/* Char Skills */}
-                    <div className="border-4 border-slate-600 rounded-3xl m-2">
+                    <div className="col-start-1 row-span-5 row-start-2 border-4 border-slate-600 rounded-3xl m-2">
                         <table className="table-auto m-6">
                             <thead>
                                 <tr className="text-slate-400">
@@ -283,7 +283,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     </div>
 
                     {/* Saving Throws */}
-                    <div className="border-4 border-slate-600 rounded-3xl m-2 flex flex-col gap-1">
+                    <div className="col-start-2  border-4 border-slate-600 rounded-3xl m-2 flex flex-col gap-1">
                         {/* Row 1 */}
                         <div className="flex">
                             {/* R1 C1 */}
@@ -359,7 +359,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     </div>
 
                     {/* Passive Senses */}
-                    <div className="flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                    <div className="col-start-2 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
                         {/* Perception */}
                         <div className="flex px-3 py-1">
                             <div className="p-3 border-4 border-slate-600 rounded-3xl">
@@ -391,7 +391,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     </div>
 
                     {/* Defenses */}
-                    <div className="flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                    <div className="col-start-2 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
                         {/* Resistances */}
                         <div className="flex px-3 py-1 text-xl ">
                             <h5 className="pl-3 text-slate-400">Resistances:</h5>
@@ -412,7 +412,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     </div>
 
                     {/* Proficiencies: Armor */}
-                    <div className="flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
+                    <div className="col-start-2 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
                         {/* Armor */}
                         <div className="flex px-3 py-1 text-xl ">
                             <h5 className="pl-3 text-slate-400">Armor:</h5>
@@ -439,8 +439,6 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                             <div className="px-3">{character.cProficienciesLanguages}</div>
                         </div>
                     </div>
-
-                    {/* Languages */}
 
                     {/* Movements */}
 
