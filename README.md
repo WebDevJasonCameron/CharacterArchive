@@ -1,15 +1,23 @@
 # CharacterArchive
 
+## Just-a-Note
+Wow, things changed from my initial plan.  The following is how I currently see thins...
+
 ## Current plan
-- [ ] 1 - Create a plain webpage showing Raveen's current stats and next level stats (HTML)
-- [ ] 2 - Create a plain webpage showing Raveen's available spells and next level spells (HTML)
-- [ ] 3 - Create main page for Raveen linking to stats and spells by level (HTML)
-- [ ] 4 - Create Home page linking to Raveen's character sheets (HTML)
-- [ ] 5 - Create Postgres character DB table able to take Raveen's stats by level (DB)
-- [ ] 6 - Create Postgres spells DB table able to take Raveen's spells by level (DB)
-- [ ] 7 - Push Raveen's data into a Postgres DB (DB)
-- [ ] 8 - Refactor stats and spell page into React (JS REACT)
-- [ ] 9 - Refactor Raveen's data by source.  Pull data from Postgres DB (Express.js)
-- [ ] 10 - Create Tap's character stats and spells at level 1 to 9 (SQL)
-- [ ] 11 - Ensure home page shows Raveen and Taps links. Links take user to choice: which level to view. Each choice provides correct page 
-- [ ] 12 - Continue when we are here...
+- [X] 1 - Create an initial REACT CS focus page (we'll use Raveen's CS)
+- [X] 2 - Refactor page to use multiple components (comps)
+- [ ] 3 - Refactor comps to use logic to discern incoming data
+- [ ] 4 - Connect Sidebar icon switches with logic to show content in a logical manner (CS)
+- [ ] 5 - Connect Focus menus buttons with the focus container content
+- [ ] 6 - Build additional focus content containers (Art, Combat, Journal, Etc.)
+- [ ] 7 - Create local Postgres DB based on Raveen's data
+- [ ] 8 - Add other character data to the DB
+- [ ] 9 - Build character selection page within web app
+- [ ] 10 - Push DB data to server
+- [ ] 11 - Connect Web CA to server DB
+- [ ] 12 - Use Java to build CLI application to CRUD character data with server DB
+- [ ] 13 - Use Java to build GUI application to CRUD character data with server DB
+- [ ] 14 - Rebuild CLI application to CRUD character data with server DB in GoLang
+- [ ] 15 - Rebuild GUI application to CRUD character data with server DB in GoLang
+- [ ] 16 - Rebuild GUI application to CRUD character data with server DB in NodeJS
+

@@ -8,12 +8,6 @@ import CardMainStats
     from "../../../character-components/character-cards/character-card-main-stats/character-card-main-stats.component";
 import CardSkills
     from "../../../character-components/character-cards/character-card-skills/character-card-skills.component";
-
-// Icons
-import { GoDot, GoDotFill } from "react-icons/go";
-import { FaRegCircleDot } from "react-icons/fa6";
-
-// Comps
 import CardMovements
     from "../../../character-components/character-cards/character-card-movements/character-card-movements.component";
 import CardStrengthCapes
@@ -29,9 +23,8 @@ import CardProficiencies
 import CardFatsClass
     from "../../../character-components/character-cards/character-card-fats/character-card-fats-class.component";
 
-
 // COMP
-const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
+const CharacterSheetFocusContainer = ({ character }) => {
 
     return (
         <section>
