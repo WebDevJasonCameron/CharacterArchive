@@ -26,6 +26,8 @@ import CardDefenses
     from "../../../character-components/character-cards/character-card-defenses/character-card-defenses.component";
 import CardProficiencies
     from "../../../character-components/character-cards/character-card-proficiencies/character-card-proficiencies.component";
+import CardFatsClass
+    from "../../../character-components/character-cards/character-card-fats/character-card-fats-class.component";
 
 
 // COMP
@@ -47,17 +49,7 @@ const CharacterSheetFocusContainer = ({ activeFocus, character }) => {
                     <CardPassiveSenses character={character} />
                     <CardDefenses character={character} />
                     <CardProficiencies character={character} />
-
-
-                    {/* FaTs */}
-                    <div className="col-start-3 row-start-2 row-span-5 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
-                        {/* Title */}
-                        <h3 className="text-center text-2xl text-slate-400 my-2">Features & Traits</h3>
-                        {/* Class */}
-                        <div className="p-3">
-                            {character.cFATsClassTraits}
-                        </div>
-                    </div>
+                    <CardFatsClass character={character} />
 
                 </section>
 
