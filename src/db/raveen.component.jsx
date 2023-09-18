@@ -174,8 +174,8 @@ const Raveen = () => {
                 ]
             },
             {
-                name: "sorcerer",
-                features: [
+                className: "sorcerer",
+                classFeatures: [
 
                     {featureName: "Hit Points",
                     featureSource: "PHB, pg. 100",
