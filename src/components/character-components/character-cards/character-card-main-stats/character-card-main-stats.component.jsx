@@ -4,8 +4,6 @@ import './character-card-main-stats.styles.css'
 // Comp
 const CardMainStats = ({character}) => {
 
-    console.log(character)
-
     return (
             <div className="col-span-2 flex m-2 gap-5">
 
