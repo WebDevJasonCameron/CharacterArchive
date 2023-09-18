@@ -207,12 +207,6 @@ const Raveen = () => {
                     featureMod: "",
                     featuresDescription: "As a bonus action, you can cause gusts of air to surround you before or after you cast a spell of 1st level or higher that allows you to fly up to 10 ft. without provoking opportunity attacks: Tempestuous Magic: 1 Bonus Action"},
 
-
-
-
-
-
-
                 ]
             }
 
