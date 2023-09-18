@@ -124,9 +124,9 @@ const Raveen = () => {
                     {featureName: "Spellcasting",
                     featureSource: "PHB, pg. 52",
                     featureMod: "",
-                    featuresDescription: "You can cast known bard spells using CHA as your spellcasting modifier (Spell DC 15, Spell Attack +7) and known bard spells as rituals if they have the ritual tag. You can use a musical instrument as a spellcasting focus."},
+                    featureDescription: "You can cast known bard spells using CHA as your spellcasting modifier (Spell DC 15, Spell Attack +7) and known bard spells as rituals if they have the ritual tag. You can use a musical instrument as a spellcasting focus."},
 
-                    {featuresName: "Song of Res",
+                    {featureName: "Song of Res",
                     featureSource: "PHB, pg. 54",
                     featureMod: "+1d6 H",
                     featureDescription: "If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points."},
@@ -169,7 +169,7 @@ const Raveen = () => {
                     {featureName: "Additional Magical Secret",
                     featureSource: "PHB, pg. 55",
                     featureMod: "",
-                    featuresDescription: "You can add two additional spells from any class list as bard spells to your known spells: Zephyr Strike(1st), Conjure Animals(3rd)"},
+                    featureDescription: "You can add two additional spells from any class list as bard spells to your known spells: Zephyr Strike(1st), Conjure Animals(3rd)"},
 
                 ]
             },
@@ -180,32 +180,32 @@ const Raveen = () => {
                     {featureName: "Hit Points",
                     featureSource: "PHB, pg. 100",
                     featureMod: "",
-                    featuresDescription: ""},
+                    featureDescription: ""},
 
                     {featureName: "Proficiencies",
                     featureSource: "PHB, pg. 100",
                     featureMod: "",
-                    featuresDescription: ""},
+                    featureDescription: ""},
 
                     {featureName: "Spellcasting",
                     featureSource: "PHB, pg. 101",
                     featureMod: "",
-                    featuresDescription: "You can cast known sorcerer spells using CHA as your spellcasting modifier (Spell DC 15, Spell Attack +7). You can use an arcane focus as a spellcasting focus."},
+                    featureDescription: "You can cast known sorcerer spells using CHA as your spellcasting modifier (Spell DC 15, Spell Attack +7). You can use an arcane focus as a spellcasting focus."},
 
                     {featureName: "Sorcerer Origin",
                     featureSource: "PHB, pg. 101",
                     featureMod: "",
-                    featuresDescription: "Storm Sorcery"},
+                    featureDescription: "Storm Sorcery"},
 
                     {featureName: "Wind Speaker",
                     featureSource: "SCAG, pg. 52",
                     featureMod: "",
-                    featuresDescription: "You can speak, read, and write Primordial."},
+                    featureDescription: "You can speak, read, and write Primordial."},
 
                     {featureName: "Tempestuous Magi",
                     featureSource: "SCAG, pg. 52",
                     featureMod: "",
-                    featuresDescription: "As a bonus action, you can cause gusts of air to surround you before or after you cast a spell of 1st level or higher that allows you to fly up to 10 ft. without provoking opportunity attacks: Tempestuous Magic: 1 Bonus Action"},
+                    featureDescription: "As a bonus action, you can cause gusts of air to surround you before or after you cast a spell of 1st level or higher that allows you to fly up to 10 ft. without provoking opportunity attacks: Tempestuous Magic: 1 Bonus Action"},
 
                 ]
             }

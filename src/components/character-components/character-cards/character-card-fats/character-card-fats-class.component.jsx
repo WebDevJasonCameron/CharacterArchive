@@ -1,7 +1,5 @@
 // Style
 import './character-card-fats-class.styles.css'
-import characterCardProficienciesComponent
-    from "../character-card-proficiencies/character-card-proficiencies.component";
 
 // COMP
 const CardFatsClass = ({ character }) => {
@@ -12,6 +10,23 @@ const CardFatsClass = ({ character }) => {
         </h5>
     )
 
+    const fatClassFeatures = ({ character }) => (
+        <div>
+            <h6 className="text-xl text-slate-400">
+                {character.cFATsClassTraits[0].classFeatures[1].featureName}
+            </h6>
+            <small className="text-sm">
+                {character.cFATsClassTraits[0].classFeatures[1].featureSource}
+            </small>
+            <div>
+                {character.cFATsClassTraits[0].classFeatures[1].featureDescription !== ""? <p>{character.cFATsClassTraits[0].classFeatures[1].featureDescription}</p> : ""}
+            </div>
+        </div>
+    )
+
+    const fatClassNameList = ({ classNameList }) => {
+
+    }
 
 
     return (
@@ -24,6 +39,12 @@ const CardFatsClass = ({ character }) => {
                 { fatClassName({character}) }
 
             </div>
+            <div>
+
+                { fatClassFeatures ({character}) }
+
+            </div>
+
         </div>
     )
 }
