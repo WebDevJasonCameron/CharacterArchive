@@ -4,10 +4,10 @@ import './character-card-fats-class.styles.css'
 // COMP
 const CardFatsClass = ({ character }) => {
 
-    const remodClassData = () => {
+    const remodClassData = (character) => {
         let output = ""
 
-        output = character.cFATsClassTraits.length
+        output = character.cFATsClassTraits[0].className
 
         return output
     }
@@ -18,7 +18,7 @@ const CardFatsClass = ({ character }) => {
             <h3 className="text-center text-2xl text-slate-400 my-2">Features & Traits</h3>
             {/* Class */}
             <div className="p-3">
-                {remodClassData}
+                {remodClassData(character)}
             </div>
         </div>
     )
