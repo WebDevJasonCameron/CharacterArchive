@@ -4,8 +4,6 @@ import './character-card-fats-class.styles.css'
 // COMP
 const CardFatsClass = ({ character }) => {
 
-    const cn = character.cFATsClassTraits[0].className
-
     const fatClassName = ({ className }) => (
         <h5 className="text-2xl text-slate-400">
             {className}
@@ -35,9 +33,7 @@ const CardFatsClass = ({ character }) => {
 
     const FeatureList = () => (
         <div>
-            <div>
-                {character.cFATsClassTraits[0].classFeatures.map(FatClassFeature)}
-            </div>
+            {character.cFATsClassTraits[0].classFeatures.map(FatClassFeature)}
         </div>
     )
 
