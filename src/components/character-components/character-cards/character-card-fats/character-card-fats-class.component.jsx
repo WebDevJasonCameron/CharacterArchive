@@ -4,30 +4,38 @@ import './character-card-fats-class.styles.css'
 // COMP
 const CardFatsClass = ({ character }) => {
 
-    const fatClassName = ({ character }) => (
+    const cn = character.cFATsClassTraits[0].className
+
+    const fatClassName = ({ className }) => (
         <h5 className="text-2xl text-slate-400">
-            {character.cFATsClassTraits[0].className}
+            {className}
         </h5>
     )
 
-    const fatClassFeatures = ({ character }) => (
+    const FatClassFeature = ({ featureName, featureSource, featureMod, featureDescription }) => (
         <div>
             <h6 className="text-xl text-slate-400">
-                {character.cFATsClassTraits[0].classFeatures[1].featureName}
+                {featureName}
             </h6>
-            <small className="text-sm">
-                {character.cFATsClassTraits[0].classFeatures[1].featureSource}
+            <small className="text-sm text-slate-400">
+                {featureSource}
             </small>
             <div>
-                {character.cFATsClassTraits[0].classFeatures[1].featureDescription !== ""? <p>{character.cFATsClassTraits[0].classFeatures[1].featureDescription}</p> : ""}
+                {featureMod !== ""? <p>{featureMod}</p> : ""}
+            </div>
+            <div>
+                {featureDescription !== ""? <p>{featureDescription}</p> : ""}
             </div>
         </div>
     )
 
-    const fatClassNameList = ({ classNameList }) => {
-
-    }
-
+    const FeatureList = () => (
+        <div>
+            <div>
+                {character.cFATsClassTraits[0].classFeatures.map(FatClassFeature)}
+            </div>
+        </div>
+    )
 
     return (
         <div className="col-start-3 row-start-2 row-span-5 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
@@ -36,13 +44,10 @@ const CardFatsClass = ({ character }) => {
             {/* Class */}
             <div className="p-3">
 
-                { fatClassName({character}) }
 
             </div>
             <div>
-
-                { fatClassFeatures ({character}) }
-
+                { FeatureList()}
             </div>
 
         </div>
