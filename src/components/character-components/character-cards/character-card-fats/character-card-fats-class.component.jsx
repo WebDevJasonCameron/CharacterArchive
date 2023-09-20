@@ -31,11 +31,23 @@ const CardFatsClass = ({ character }) => {
         </div>
     )
 
-    const FeatureList = () => (
+    const FeatureList = (feature) => (
         <div>
             {character.cFATsClassTraits[0].classFeatures.map(FatClassFeature)}
         </div>
     )
+
+    const fatOutput = ({ character }) => {
+
+        let output = {}
+
+        for (let i = 0; i < character.cFATsClassTraits.length; i++) {
+
+            output += character.cFATsClassTraits[i].className
+
+        }
+
+    }
 
     return (
         <div className="col-start-3 row-start-2 row-span-5 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
