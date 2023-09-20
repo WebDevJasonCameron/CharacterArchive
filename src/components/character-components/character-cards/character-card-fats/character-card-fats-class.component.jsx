@@ -58,13 +58,9 @@ const CardFatsClass = ({ character }) => {
             {/* Class */}
             <div className="p-3">
 
-                {mapClasses(character)}
+                {character.cFATsClassTraits.length === 1? mapClasses(character) : "Add Tabs Here"}
 
             </div>
-            <div>
-                {/*{ mapFeatures(character.cFATsClassTraits[0].classFeatures) }*/}
-            </div>
-
         </div>
     )
 }
