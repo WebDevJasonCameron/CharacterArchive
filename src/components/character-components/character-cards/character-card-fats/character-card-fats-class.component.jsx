@@ -5,9 +5,8 @@ import {findAllByDisplayValue} from "@testing-library/react";
 // COMP
 const CardFatsClass = ({ character }) => {
 
-
     // Html
-    const classHtml = ({ className, classFeatures }) => (
+    const singleClassHtml = ({ className, classFeatures }) => (
         <div>
             <h5 className="text-2xl text-slate-400">
             {className}
@@ -41,7 +40,7 @@ const CardFatsClass = ({ character }) => {
     // Maps
     const mapClasses = ( character ) => (
         <div>
-            { character.cFATsClassTraits.map(classHtml) }
+            { character.cFATsClassTraits.map(singleClassHtml) }
         </div>
     )
     const mapFeatures = (features) => (
@@ -58,7 +57,7 @@ const CardFatsClass = ({ character }) => {
             {/* Class */}
             <div className="p-3">
 
-                {character.cFATsClassTraits.length === 1? mapClasses(character) : "Add Tabs Here"}
+                { mapClasses(character) }
 
             </div>
         </div>
