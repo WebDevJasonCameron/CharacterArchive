@@ -1,7 +1,7 @@
 # CharacterArchive
 
 ## Just-a-Note
-Wow, things changed from my initial plan.  The following is how I currently see thins...
+Wow, things changed from my initial plan.  The following is how I currently see things...
 
 ## Current plan
 - [X] 1 - Create an initial REACT CS focus page (we'll use Raveen's CS)
@@ -19,5 +19,8 @@ Wow, things changed from my initial plan.  The following is how I currently see 
 - [ ] 13 - Use Java to build GUI application to CRUD character data with server DB
 - [ ] 14 - Rebuild CLI application to CRUD character data with server DB in GoLang
 - [ ] 15 - Rebuild GUI application to CRUD character data with server DB in GoLang
-- [ ] 16 - Rebuild GUI application to CRUD character data with server DB in NodeJS
+- [ ] 16 - Rebuild GUI application to CRUD character data with server DB in Node.js
 
+
+## Progress Pictures
+Yup.  All my fans should see something cool here... where I'm actually making progress.  
