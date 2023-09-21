@@ -36,6 +36,11 @@ const CardFatsClass = ({ character }) => {
             <hr className="border-slate-600"/>
         </div>
     )
+    const tabHtml = ({ className }) => (
+        <li role="presentation">
+            <a></a>
+        </li>
+    )
 
     // Maps
     const mapClasses = ( character ) => (
@@ -55,11 +60,28 @@ const CardFatsClass = ({ character }) => {
             {/* Title */}
             <h3 className="text-center text-2xl text-slate-400 my-2">Class Features & Traits</h3>
             {/* Class */}
-            <div className="p-3">
+            {/*<div className="p-3">*/}
+                {/*{ mapClasses(character) }*/}
+            {/*</div>*/}
 
-                { mapClasses(character) }
+            {/* Let's Get These into tabs*/}
+            <div id="tab-avigation">
+                <ul
+                    className="mb-5 flex list-none flex-row flex-wrap border-b-0 pl-0"
+                    role="tablist"
+                    data-te-nav-ref="presentation">
 
+                    {/* Map the Classes */}
+
+
+
+                </ul>
             </div>
+
+
+
+
+
         </div>
     )
 }
