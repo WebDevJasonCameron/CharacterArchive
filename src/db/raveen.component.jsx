@@ -108,9 +108,10 @@ const Raveen = () => {
         // Features & Traits (FaTs)
         cFATsClassTraits: [
             {
+                classId: "raveen-class-id-1",
                 className: "bard",
+                classLevel: "8",
                 classFeatures: [
-
                     {featureName: "Hit Points",
                     featureSource: "PHB, pg. 52",
                     featureMod: "",
@@ -174,7 +175,9 @@ const Raveen = () => {
                 ]
             },
             {
+                classId: "raveen-class-id-2",
                 className: "sorcerer",
+                classLevel: "1",
                 classFeatures: [
 
                     {featureName: "Hit Points",
