@@ -105,7 +105,7 @@ const Raveen = () => {
         cStrengthActionPush: "270 lb",
         cStrengthActionDrag: "270 lb",
         cStrengthActionLift: "270 lb",
-        // Class Features & Traits (FaTs)
+        // Class Features (FaTs)
         cFATsClassTraits: [
             {
                 classId: "raveen-class-id-1",
@@ -212,7 +212,7 @@ const Raveen = () => {
                 ]
             }
         ],
-        // Class Features & Traits (FaTs)
+        // Species Features (FaTs)
         cFATSpeciesTraits: [
             {
                 speciesId: "raveen-species-id-1",
@@ -246,7 +246,7 @@ const Raveen = () => {
                 ]
             }
         ],
-        // Class Features & Traits (FaTs)
+        // Feats Features (FaTs)
         cFATFeatsTraits: [
             {featName: "Mobile",
             featSource: "PHB, pg. 168",
@@ -257,11 +257,10 @@ const Raveen = () => {
             featDescription: "Your HP maximum increases by 18."},
 
         ],
-        // Description
+        // Descriptions
         cDescription: [
             // Background
-            {descriptionType: "background",
-            descriptionBackgrounds: [
+            {descriptionBackgrounds: [
                 {background: "Criminal/Spy",
                 backgroundFeatures: [
                     {featureName: "Criminal Contact",
@@ -273,11 +272,28 @@ const Raveen = () => {
             ]},
 
             // Characteristics
-            {descriptionType: "characteristics",
-
+            {descriptionCharacteristics: {
+                alignment: "Chaotic Good",
+                gender: "Male",
+                eyes: "Green",
+                size: "Medium",
+                height: "6 ft 2 in",
+                faith: "Hermes",
+                hair: "Black",
+                skin: "Tan",
+                age: "29",
+                weight: "154",
+                },
+            },
+            {descriptionPersonality: {
+                core: "The first thing I do in a new place is note the locations of everything valuable—or where such things could be hidden.",
+                ideas: "Freedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)",
+                bonds: "I will become the greatest thief that ever lived.",
+                flaws: "I have a 'tell' that reveals when I’m lying."
+            }},
+            {descriptionAppearance: ""
             }
         ]
-
     }
 }
 

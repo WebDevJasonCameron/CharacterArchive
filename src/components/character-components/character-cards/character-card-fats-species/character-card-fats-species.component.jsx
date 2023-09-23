@@ -70,11 +70,11 @@ export const SpeciesFatTabs = ({ character }) => {
 
 
 
-const  CardFatsClass = ({ character }) => {
+const  CardFatsSpecies = ({ character }) => {
     return (
         <div className="col-start-3 row-start-2 row-span-5 flex flex-col text-xl m-2 border-4 border-slate-600 rounded-3xl">
             {/* Title */}
-            <h3 className="text-center text-2xl text-slate-400 my-2">Species Features & Traits</h3>
+            <h3 className="text-center text-2xl text-slate-400 my-2">Species</h3>
             {/* Species */}
             <div className="container">
                 {/* Tabs */}
@@ -92,4 +92,4 @@ const  CardFatsClass = ({ character }) => {
     )
 }
 
-export default CardFatsClass;
+export default CardFatsSpecies;

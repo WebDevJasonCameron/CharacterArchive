@@ -20,8 +20,15 @@ import CardDefenses
     from "../../../character-components/character-cards/character-card-defenses/character-card-defenses.component";
 import CardProficiencies
     from "../../../character-components/character-cards/character-card-proficiencies/character-card-proficiencies.component";
+import CardFatsClass
+    from "../../../character-components/character-cards/character-card-fats-classes/character-card-fats-class.component";
+import CardFatsSpecies
+    from "../../../character-components/character-cards/character-card-fats-species/character-card-fats-species.component";
 import CardFatsFeats
     from "../../../character-components/character-cards/character-card-fats-feats/character-card-fats-feets.component";
+import CardDescriptions
+    from "../../../character-components/character-cards/character-card-descriptions/character-card-descriptions.component";
+
 
 // COMP
 const CharacterSheetFocusContainer = ({ character }) => {
@@ -42,9 +49,10 @@ const CharacterSheetFocusContainer = ({ character }) => {
                     <CardPassiveSenses character={character} />
                     <CardDefenses character={character} />
                     <CardProficiencies character={character} />
-                    {/*< CardFatsClass character={character} />*/}
-                    {/*< CharacterCardFatsSpeciesComponent character={character} />*/}
+                    {/*<CardFatsClass character={character} />*/}
+                    {/*<CardFatsSpecies character={character} />*/}
                     {/*<CardFatsFeats character={character} />*/}
+                    <CardDescriptions character={character} />
 
                 </section>
 
