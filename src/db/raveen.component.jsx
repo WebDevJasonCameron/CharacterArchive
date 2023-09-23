@@ -105,7 +105,7 @@ const Raveen = () => {
         cStrengthActionPush: "270 lb",
         cStrengthActionDrag: "270 lb",
         cStrengthActionLift: "270 lb",
-        // Features & Traits (FaTs)
+        // Class Features & Traits (FaTs)
         cFATsClassTraits: [
             {
                 classId: "raveen-class-id-1",
@@ -211,13 +211,41 @@ const Raveen = () => {
                     featureDescription: "As a bonus action, you can cause gusts of air to surround you before or after you cast a spell of 1st level or higher that allows you to fly up to 10 ft. without provoking opportunity attacks: Tempestuous Magic: 1 Bonus Action"},
                 ]
             }
-
-
         ],
-        cFATSpeciesTraits: "",
+        // Class Features & Traits (FaTs)
+        cFATSpeciesTraits: [
+            {
+                speciesId: "raveen-species-id-1",
+                speciesName: "human",
+                speciesFeatures: [
 
+                    {featureName: "Language",
+                    featureSource: "BR, pg. 31",
+                    featureMod: "",
+                    featureDescription: "You can speak, read, and write Common and one extra language: Celestial"},
 
+                    {featureName: "Courier's Speed",
+                    featureSource: "ERftLW",
+                    featureMod: "",
+                    featureDescription: "Your base walking speed increases to 35 ft."},
 
+                    {featureName: "Intuitive Motion",
+                    featureSource: "ERftLW, pg. 46",
+                    featureMod: "",
+                    featureDescription: "When you make a Dexterity (Acrobatics) check or any ability check to operate or maintain a land vehicle, you can roll a d4 and add the number rolled to the ability check."},
+
+                    {featureName: "Magical Passage",
+                    featureSource: "ERftLW",
+                    featureMod: "",
+                    featureDescription: "You can cast the misty step spell once with this trait, and you regain the ability to cast it when you finish a long rest. Dexterity is your spellcasting ability for this spell: Misty Step (2nd) / Long Rest"},
+
+                    {featureName: "Spells of the Mark",
+                    featureSource: "ERftLW, pg. 46",
+                    featureMod: "",
+                    featureDescription: "If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Passage Spells table are added to the spell list of your spellcasting class."},
+                ]
+            }
+        ]
     }
 }
 
