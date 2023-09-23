@@ -22,6 +22,8 @@ import CardProficiencies
     from "../../../character-components/character-cards/character-card-proficiencies/character-card-proficiencies.component";
 import CardFatsClass
     from "../../../character-components/character-cards/character-card-fats-classes/character-card-fats-class.component";
+import CharacterCardFatsSpeciesComponent
+    from "../../../character-components/character-cards/character-card-fats-species/character-card-fats-species.component";
 
 // COMP
 const CharacterSheetFocusContainer = ({ character }) => {
@@ -43,7 +45,7 @@ const CharacterSheetFocusContainer = ({ character }) => {
                     <CardDefenses character={character} />
                     <CardProficiencies character={character} />
                     {/*<CardFatsClass character={character} />*/}
-                    < CardFatsClass character={character} />
+                    < CharacterCardFatsSpeciesComponent character={character} />
 
                 </section>
 
