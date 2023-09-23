@@ -93,7 +93,6 @@ const CardFatsClass = ({ character }) => {
                     </ul>
                 </div>
             </div>
-
         </div>
     )
 }

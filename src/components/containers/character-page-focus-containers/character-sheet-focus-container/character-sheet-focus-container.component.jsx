@@ -44,7 +44,7 @@ const CharacterSheetFocusContainer = ({ character }) => {
                     <CardProficiencies character={character} />
                     {/*< CardFatsClass character={character} />*/}
                     {/*< CharacterCardFatsSpeciesComponent character={character} />*/}
-                    <CardFatsFeats character={character} />
+                    {/*<CardFatsFeats character={character} />*/}
 
                 </section>
 
