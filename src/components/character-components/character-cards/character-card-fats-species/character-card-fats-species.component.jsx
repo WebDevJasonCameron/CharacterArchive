@@ -59,7 +59,6 @@ export const SpeciesFatTabs = ({ character }) => {
                                             </div>
                                         )
                                     )}
-
                                 </p>
                             </div>}
                     </div>

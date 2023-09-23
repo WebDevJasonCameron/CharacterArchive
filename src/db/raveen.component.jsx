@@ -245,7 +245,19 @@ const Raveen = () => {
                     featureDescription: "If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Passage Spells table are added to the spell list of your spellcasting class."},
                 ]
             }
-        ]
+        ],
+        // Class Features & Traits (FaTs)
+        cFATFeatsTraits: [
+            {featName: "Mobile",
+            featSource: "PHB, pg. 168",
+            featDescription: "Your speed increases by 10 feet. When you use the Dash action, difficult terrain doesn't cost you extra movement on that turn. When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not."},
+
+            {featName: "Tough",
+            featSource: "PHB, PHB, pg. 170",
+            featDescription: "Your HP maximum increases by 18."},
+
+        ],
+
     }
 }
 
