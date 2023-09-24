@@ -5,7 +5,7 @@ const CardDescriptions = ({ character }) => {
     return (
         <div>
 
-
+            Hello there Description
 
         </div>
     )
