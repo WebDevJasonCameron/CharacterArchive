@@ -14,12 +14,24 @@ import { RiShieldLine, RiShieldStarLine } from "react-icons/ri";
 
 
 // COMP
-const CharacterSheetSidebarMenu = () =>{
+const CharacterSheetSidebarMenu = ({cardActiveList, handleSetCardActiveList }) =>{
+
+    console.log(cardActiveList)
+
+    let currentCardActiveList = cardActiveList
+
+    const runHandleCardActiveList = () =>{
+        handleSetCardActiveList()
+    }
+
+
 
         return (
         <div  className="left-0 w-20 flex flex-col bg-gray-700">
             {/* 1. Main Stats */}
-            <SidebarBtn icon={<BiStats size="42" />} text={"Main Stats"} />
+            <SidebarBtn
+                icon={<BiStats size="42" />}
+                text={"Main Stats"} />
 
             <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
 

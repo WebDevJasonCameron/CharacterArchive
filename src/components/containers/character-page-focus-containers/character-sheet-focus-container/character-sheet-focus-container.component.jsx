@@ -44,11 +44,24 @@ const CharacterSheetFocusContainer = ({ character }) => {
                                                             "card-proficiencies",
                                                             "card-fats-class"])
 
+    const handleSetCardActiveList = ( ) => {
+
+        // if (cardActiveList.include(buttonId)) {
+        //     cardActiveList.remove(buttonId)
+        // } else {
+        //     cardActiveList.append(buttonId)
+        // }
+        //
+        // setCardActiveLIst(cardActiveList)
+        alert("test from parent")
+
+    }
+
     return (
         <section>
 
             <div className="flex">
-                <CharacterSheetSidebarMenu  />
+                <CharacterSheetSidebarMenu cardActiveList={cardActiveList} handleSetCardActiveList={handleSetCardActiveList}  />
 
                 {/* Content */}
                 <section className="grid grid-cols-3 grid-rows-8 gap-1">
