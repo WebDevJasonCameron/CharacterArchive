@@ -34,7 +34,7 @@ import {useState} from "react";
 // COMP
 const CharacterSheetFocusContainer = ({ character }) => {
 
-    const [ cardActiveList, setCardActiveLIst ] = useState(["card-main-stats",
+    const [ cardActiveList, setCardActiveLIst ] = useState(["card-main-stats",              //   <!> Replace
                                                             "card-skills",
                                                             "card-movements",
                                                             "card-strength-capes",
@@ -44,24 +44,12 @@ const CharacterSheetFocusContainer = ({ character }) => {
                                                             "card-proficiencies",
                                                             "card-fats-class"])
 
-    const handleSetCardActiveList = ( ) => {
-
-        // if (cardActiveList.include(buttonId)) {
-        //     cardActiveList.remove(buttonId)
-        // } else {
-        //     cardActiveList.append(buttonId)
-        // }
-        //
-        // setCardActiveLIst(cardActiveList)
-        alert("test from parent")
-
-    }
 
     return (
         <section>
 
             <div className="flex">
-                <CharacterSheetSidebarMenu cardActiveList={cardActiveList} handleSetCardActiveList={handleSetCardActiveList}  />
+                <CharacterSheetSidebarMenu />
 
                 {/* Content */}
                 <section className="grid grid-cols-3 grid-rows-8 gap-1">
