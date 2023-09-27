@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import App from './App';
 import Navigation from "./components/navigation/navigation.component";
-import Footer from "./components/footer/footer.component";
+import {CardListProvider} from "./contexts/card.contexts";
 
 import './index.css';
 
@@ -12,9 +12,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+      <CardListProvider>
           <Navigation />
           <App />
-          {/*<Footer />*/}
+      </CardListProvider>
   </React.StrictMode>
 );
 

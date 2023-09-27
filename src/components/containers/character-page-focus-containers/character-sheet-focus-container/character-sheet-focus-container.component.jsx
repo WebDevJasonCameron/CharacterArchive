@@ -28,22 +28,17 @@ import CardFatsFeats
     from "../../../character-components/character-cards/character-card-fats-feats/character-card-fats-feets.component";
 import CardDescriptions
     from "../../../character-components/character-cards/character-card-descriptions/character-card-descriptions.component";
-import {useState} from "react";
 
+// Libs
+import { useState, useContext } from "react";
+
+// Prov
+import { CardListContext } from "../../../../contexts/card.contexts";
 
 // COMP
 const CharacterSheetFocusContainer = ({ character }) => {
 
-    const [ cardActiveList, setCardActiveLIst ] = useState(["card-main-stats",              //   <!> Replace
-                                                            "card-skills",
-                                                            "card-movements",
-                                                            "card-strength-capes",
-                                                            "card-saving-throws",
-                                                            "card-passive-senses",
-                                                            "card-defenses",
-                                                            "card-proficiencies",
-                                                            "card-fats-class"])
-
+    const { activeCardList } = useContext(CardListContext)
 
     return (
         <section>
@@ -55,24 +50,24 @@ const CharacterSheetFocusContainer = ({ character }) => {
                 <section className="grid grid-cols-3 grid-rows-8 gap-1">
 
                     {/* First Row */}
-                    {cardActiveList.includes("card-main-stats")? <CardMainStats character={character}/> : null}
+                    {activeCardList.includes("card-main-stats")? <CardMainStats character={character}/> : null}
 
                     {/* First Col */}
-                    {cardActiveList.includes("card-skills")? <CardSkills character={character} /> : null }
-                    {cardActiveList.includes("card-movements")? <CardMovements character={character} /> : null }
-                    {cardActiveList.includes("card-strength-capes")? <CardStrengthCapes character={character} /> : null }
+                    {activeCardList.includes("card-skills")? <CardSkills character={character} /> : null }
+                    {activeCardList.includes("card-movements")? <CardMovements character={character} /> : null }
+                    {activeCardList.includes("card-strength-capes")? <CardStrengthCapes character={character} /> : null }
 
                     {/* Second Col */}
-                    {cardActiveList.includes("card-saving-throws")? <CardSavingThrows character={character} /> : null }
-                    {cardActiveList.includes("card-passive-senses")? <CardPassiveSenses character={character} /> : null }
-                    {cardActiveList.includes("card-defenses")? <CardDefenses character={character} /> : null }
-                    {cardActiveList.includes("card-fats-class")? <CardProficiencies character={character} /> : null }
+                    {activeCardList.includes("card-saving-throws")? <CardSavingThrows character={character} /> : null }
+                    {activeCardList.includes("card-passive-senses")? <CardPassiveSenses character={character} /> : null }
+                    {activeCardList.includes("card-defenses")? <CardDefenses character={character} /> : null }
+                    {activeCardList.includes("card-fats-class")? <CardProficiencies character={character} /> : null }
 
                     {/* Third Col */}
-                    {cardActiveList.includes("card-fats-class")? <CardFatsClass character={character} /> : null }
-                    {cardActiveList.includes("card-fats-species")? <CardFatsSpecies id="" character={character} /> : null }
-                    {cardActiveList.includes("card-fats-feats")? <CardFatsFeats id="" character={character} /> : null }
-                    {cardActiveList.includes("card-descriptions")? <CardDescriptions id="" character={character} /> : null }
+                    {activeCardList.includes("card-fats-class")? <CardFatsClass character={character} /> : null }
+                    {activeCardList.includes("card-fats-species")? <CardFatsSpecies id="" character={character} /> : null }
+                    {activeCardList.includes("card-fats-feats")? <CardFatsFeats id="" character={character} /> : null }
+                    {activeCardList.includes("card-descriptions")? <CardDescriptions id="" character={character} /> : null }
 
                 </section>
 

@@ -1,5 +1,5 @@
 // Libs
-import { createContext, useState } from "react";
+import { createContext, useState, useEffect } from "react";
 
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
@@ -24,7 +24,8 @@ export const CardListContext = createContext({
 
 // Provider
 export const CardListProvider = ({ children }) => {
-    const [ activeCardList, setCardActiveLIst ] = useState(["card-main-stats",
+    const [cartItems, setCartItems] = useState([])
+    const [ activeCardList, setActiveCardList ] = useState(["card-main-stats",
                                                             "card-skills",
                                                             "card-movements",
                                                             "card-strength-capes",
@@ -34,11 +35,28 @@ export const CardListProvider = ({ children }) => {
                                                             "card-proficiencies",
                                                             "card-fats-class"])
 
+
+
+    const addCardToList = (cardToAdd) => {
+        setActiveCardList(addCard(activeCardList, cardToAdd))
+    }
+
+    const removeCardFromList = (cardToRemove) => {
+        setActiveCardList(removeCard(activeCardList, cardToRemove))
+    }
+
+
     const value = {
-        addCard,
-        removeCard,
+        addCardToList,
+        removeCardFromList,
         resetCardList,
         activeCardList
     }
+
+    return (
+        <CardListContext.Provider value={value}>
+            {children}
+        </CardListContext.Provider>
+    )
 
 }
