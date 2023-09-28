@@ -3,10 +3,11 @@ import { createContext, useState, useEffect } from "react";
 
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
-    activeCardList.append(cardToAdd)
+    activeCardList.push(cardToAdd)
 
     console.log("Adding a card...")
     console.log(activeCardList)
+
     return activeCardList
 }
 

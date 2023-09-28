@@ -5,35 +5,38 @@ import './sidebar-button.styles.css'
 import {CardListContext} from "../../../contexts/card.contexts";
 
 // Lib
-import {useContext} from "react";
+import {useContext, useState} from "react";
 
 // COMP
 const SidebarBtn = ({ icon, text, card }) => {
 
     const { activeCardList, addCardToList, removeCardFromList } = useContext(CardListContext)
 
-    const checkActive = (activeCardList) => {
-        return activeCardList.includes(card)
+    const [active, setActive] = useState(activeCardList.includes(card))
+
+
+    const handleSetActive = (activeCardList) => {
+        const newActiveStatus = activeCardList.includes(card)
+        setActive(newActiveStatus)
     }
-
-    const active = checkActive(activeCardList)
-
 
     const handleAddCard = (card) => {
         addCardToList(card)
+        handleSetActive(activeCardList)
     }
 
     const handleRemoveCard = (card) => {
         removeCardFromList(card)
+        handleSetActive(activeCardList)
     }
 
     const handleButtonAction = (card, activeCardList) => {
-        checkActive(activeCardList)? handleRemoveCard(card) : handleAddCard(card)
+        activeCardList.includes(card)? handleRemoveCard(card) : handleAddCard(card)
     }
 
     const handleButtonStyle = (activeStatus) => {
         if (activeStatus) {
-            return "sidebar-active-icon"
+            return "sidebar-active-icon group"
         } else {
             return "sidebar-icon group"
         }
