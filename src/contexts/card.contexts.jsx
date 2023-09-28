@@ -3,13 +3,17 @@ import { createContext, useState, useEffect } from "react";
 
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
-    // Logic to add card to cardList
-    alert("adding " + cardToAdd + " to list" )
+    activeCardList.append(cardToAdd)
 }
 
 const removeCard = (activeCardList, cardToRemove) => {
     // Logic to remove card to list
-    alert("remove " + cardToRemove + " to list" )
+    const indexToRemove = activeCardList.indexOf(cardToRemove)
+    if (indexToRemove > -1) {
+        activeCardList.splice(indexToRemove, 1)
+    }
+
+    console.log(activeCardList)
 
 }
 
