@@ -1,14 +1,20 @@
 // Style
 import './sidebar-button.styles.css'
 
+// Prov
+import { CardListContext } from "../../../contexts/card.contexts";
+import {useContext} from "react";
+
 // COMP
-const SidebarBtn = ({ icon, text }) => {
+const SidebarBtn = ({ icon, text, card }) => {
+
+    const { activeCardList } = useContext(CardListContext)
 
     return (
         <button
-            className="sidebar-icon group">
+            className={activeCardList.includes(card)? "sidebar-active-icon" : "sidebar-icon group"}>
             {icon}
-            <span className="sidebar-tooltip group-hover:scale-100">
+            <span className={"sidebar-tooltip group-hover:scale-100"}>
                 {text} 💡
             </span>
         </button>
@@ -16,3 +22,4 @@ const SidebarBtn = ({ icon, text }) => {
 }
 
 export default SidebarBtn;
+
