@@ -27,8 +27,8 @@ const SidebarBtn = ({ icon, text, card }) => {
         removeCardFromList(card)
     }
 
-    const handleButtonAction = (card, activeStatus) => {
-        activeStatus? handleRemoveCard(card) : handleAddCard(card)
+    const handleButtonAction = (card, activeCardList) => {
+        checkActive(activeCardList)? handleRemoveCard(card) : handleAddCard(card)
     }
 
     const handleButtonStyle = (activeStatus) => {
@@ -39,16 +39,11 @@ const SidebarBtn = ({ icon, text, card }) => {
         }
     }
 
-    const testButtonAction = (card) => {
-        handleRemoveCard(card)
-    }
-
-
 
 
     return (
         <button
-            onClick={() => {testButtonAction("worked")}}
+            onClick={() => {handleButtonAction(card, activeCardList)}}
             className={handleButtonStyle(active)}>
             {icon}
             <span className={"sidebar-tooltip group-hover:scale-100"}>

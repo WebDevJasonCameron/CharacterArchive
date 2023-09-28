@@ -4,6 +4,10 @@ import { createContext, useState, useEffect } from "react";
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
     activeCardList.append(cardToAdd)
+
+    console.log("Adding a card...")
+    console.log(activeCardList)
+    return activeCardList
 }
 
 const removeCard = (activeCardList, cardToRemove) => {
@@ -13,7 +17,9 @@ const removeCard = (activeCardList, cardToRemove) => {
         activeCardList.splice(indexToRemove, 1)
     }
 
+    console.log("Remove a card...")
     console.log(activeCardList)
+    return activeCardList
 
 }
 
@@ -41,7 +47,6 @@ export const CardListProvider = ({ children }) => {
                                                             "card-defenses",
                                                             "card-proficiencies",
                                                             "card-fats-class"])
-
 
 
     const addCardToList = (cardToAdd) => {
