@@ -4,10 +4,13 @@ import { createContext, useState, useEffect } from "react";
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
     // Logic to add card to cardList
+    alert("adding " + cardToAdd + " to list" )
 }
 
 const removeCard = (activeCardList, cardToRemove) => {
     // Logic to remove card to list
+    alert("remove " + cardToRemove + " to list" )
+
 }
 
 const resetCardList = (activeCardList) => {
@@ -24,7 +27,7 @@ export const CardListContext = createContext({
 
 // Provider
 export const CardListProvider = ({ children }) => {
-    const [cartItems, setCartItems] = useState([])
+
     const [ activeCardList, setActiveCardList ] = useState(["card-main-stats",
                                                             "card-skills",
                                                             "card-movements",

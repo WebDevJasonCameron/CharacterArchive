@@ -3,16 +3,34 @@ import './sidebar-button.styles.css'
 
 // Prov
 import { CardListContext } from "../../../contexts/card.contexts";
-import {useContext} from "react";
+
+// Lib
+import { useContext } from "react";
 
 // COMP
 const SidebarBtn = ({ icon, text, card }) => {
 
-    const { activeCardList } = useContext(CardListContext)
+    const { activeCardList, addCardToList, removeCardFromList } = useContext(CardListContext)
+
+    let active = activeCardList.includes(card)
+
+    const handleAddCard = (card) => {
+        addCardToList(card)
+    }
+
+    const handleRemove = (card) => {
+        removeCardFromList(card)
+    }
+
+    const handleButton = (card, activeStatus) => {
+        activeStatus? handleRemove(card) : handleAddCard(card)
+    }
+
 
     return (
         <button
-            className={activeCardList.includes(card)? "sidebar-active-icon" : "sidebar-icon group"}>
+            onClick={() => {handleButton(card, active) }}
+            className={active? "sidebar-active-icon" : "sidebar-icon group"}>
             {icon}
             <span className={"sidebar-tooltip group-hover:scale-100"}>
                 {text} 💡

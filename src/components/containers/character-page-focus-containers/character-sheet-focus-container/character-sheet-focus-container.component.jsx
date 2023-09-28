@@ -38,7 +38,7 @@ import { CardListContext } from "../../../../contexts/card.contexts";
 // COMP
 const CharacterSheetFocusContainer = ({ character }) => {
 
-    const { activeCardList } = useContext(CardListContext)
+    const { activeCardList, addCardToList, removeCardFromList } = useContext(CardListContext)
 
     return (
         <section>
