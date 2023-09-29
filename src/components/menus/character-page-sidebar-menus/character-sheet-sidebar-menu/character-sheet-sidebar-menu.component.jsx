@@ -96,7 +96,6 @@ const CharacterSheetSidebarMenu = () =>{
                 icon={<AiOutlineIdcard size="42" />}
                 text={"Descriptions"}
                 card={"card-descriptions"} />
-
         </div>
     )
 };

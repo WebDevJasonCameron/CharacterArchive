@@ -5,9 +5,6 @@ import { createContext, useState, useEffect } from "react";
 const addCard = (activeCardList, cardToAdd) => {
     activeCardList.push(cardToAdd)
 
-    console.log("Adding a card...")
-    console.log(activeCardList)
-
     return activeCardList
 }
 
@@ -18,8 +15,6 @@ const removeCard = (activeCardList, cardToRemove) => {
         activeCardList.splice(indexToRemove, 1)
     }
 
-    console.log("Remove a card...")
-    console.log(activeCardList)
     return activeCardList
 
 }

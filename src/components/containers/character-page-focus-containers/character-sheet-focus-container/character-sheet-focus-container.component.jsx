@@ -29,16 +29,18 @@ import CardFatsFeats
 import CardDescriptions
     from "../../../character-components/character-cards/character-card-descriptions/character-card-descriptions.component";
 
-// Libs
-import { useState, useContext } from "react";
-
-// Prov
+// Context
 import { CardListContext } from "../../../../contexts/card.contexts";
+
+// Libs
+import {useContext, useEffect} from "react";
+
 
 // COMP
 const CharacterSheetFocusContainer = ({ character }) => {
 
-    const { activeCardList, addCardToList, removeCardFromList } = useContext(CardListContext)
+    // useContext
+    const { activeCardList } = useContext(CardListContext)
 
     return (
         <section>
@@ -50,7 +52,7 @@ const CharacterSheetFocusContainer = ({ character }) => {
                 <section className="grid grid-cols-3 grid-rows-8 gap-1">
 
                     {/* First Row */}
-                    {activeCardList.includes("card-main-stats")? <CardMainStats character={character}/> : null}
+                    {activeCardList.includes("card-main-stats", activeCardList)? <CardMainStats character={character}/> : null}
 
                     {/* First Col */}
                     {activeCardList.includes("card-skills")? <CardSkills character={character} /> : null }
@@ -65,9 +67,9 @@ const CharacterSheetFocusContainer = ({ character }) => {
 
                     {/* Third Col */}
                     {activeCardList.includes("card-fats-class")? <CardFatsClass character={character} /> : null }
-                    {activeCardList.includes("card-fats-species")? <CardFatsSpecies id="" character={character} /> : null }
-                    {activeCardList.includes("card-fats-feats")? <CardFatsFeats id="" character={character} /> : null }
-                    {activeCardList.includes("card-descriptions")? <CardDescriptions id="" character={character} /> : null }
+                    {activeCardList.includes("card-fats-species")? <CardFatsSpecies character={character} /> : null }
+                    {activeCardList.includes("card-fats-feats")? <CardFatsFeats character={character} /> : null }
+                    {activeCardList.includes("card-descriptions")? <CardDescriptions character={character} /> : null }
 
                 </section>
 
