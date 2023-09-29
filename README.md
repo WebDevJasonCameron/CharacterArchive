@@ -11,7 +11,7 @@ First, a little background.  I've been playing DnD for almost a year.  It's been
 ## Current plan
 - [X] 1 - Create an initial REACT CS focus page (we'll use Raveen's CS)
 - [X] 2 - Refactor page to use multiple components (comps)
-- [ ] 3 - Refactor comps to use logic to discern incoming data
+- [X] 3 - Refactor comps to use logic to discern incoming data
 - [ ] 4 - Connect Sidebar icon switches with logic to show content in a logical manner (CS)
 - [ ] 5 - Connect Focus menus buttons with the focus container content
 - [ ] 6 - Build additional focus content containers (Art, Combat, Journal, Etc.)
@@ -28,4 +28,5 @@ First, a little background.  I've been playing DnD for almost a year.  It's been
 
 
 ## Progress Pictures
-Yup.  All my fans should see something cool here... where I'm actually making progress.  
+Here is where I'm at.  Honestly, there is ALOT more going on behind the scenes!  
+![characterArchive001.gif](readme_assets%2FcharacterArchive001.gif)

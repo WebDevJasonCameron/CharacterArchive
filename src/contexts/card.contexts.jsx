@@ -1,5 +1,5 @@
 // Libs
-import { createContext, useState, useEffect } from "react";
+import { createContext, useState } from "react";
 
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
