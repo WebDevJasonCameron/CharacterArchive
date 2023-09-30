@@ -9,18 +9,11 @@ const addCard = (activeCardList, cardToAdd) => {
 }
 
 const removeCard = (activeCardList, cardToRemove) => {
-    // Logic to remove card to list
     const indexToRemove = activeCardList.indexOf(cardToRemove)
     if (indexToRemove > -1) {
         activeCardList.splice(indexToRemove, 1)
     }
-
     return activeCardList
-
-}
-
-const resetCardList = (activeCardList) => {
-    // Logic to reset activeCardList back to original
 }
 
 // Context
@@ -28,7 +21,6 @@ export const CardListContext = createContext({
     activeCardList: [],
     addCard: () => {},
     removeCard: () => {},
-    resetCardList: () => {},
 });
 
 // Provider
@@ -56,8 +48,8 @@ export const CardListProvider = ({ children }) => {
     const value = {
         addCardToList,
         removeCardFromList,
-        resetCardList,
-        activeCardList
+        activeCardList,
+        setActiveCardList,
     }
 
     return (

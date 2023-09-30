@@ -2,7 +2,7 @@
 import './sidebar-button.styles.css'
 
 // Context
-import {CardListContext} from "../../../contexts/card.contexts";
+import {CardListContext, setActiveCardList} from "../../../contexts/card.contexts";
 
 // Lib
 import {useContext, useState} from "react";
