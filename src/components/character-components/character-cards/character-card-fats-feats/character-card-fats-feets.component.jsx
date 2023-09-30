@@ -18,7 +18,7 @@ const  CardFatsFeats = ({ character }) => {
                         role="tablist"
                         data-te-nav-ref="presentation">
                         {featList.map ((feat) => (
-                                <div className="flex flex-col m-3 group">
+                                <div className="flex flex-col m-3 group" >
                                     <div className="flex flex-row justify-between">
                                         <div className="text-2xl text-slate-500 group-hover:text-slate-400">
                                             {feat.featName}

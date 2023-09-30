@@ -42,10 +42,10 @@ export const ClassFatTabs = ({ character }) => {
                     <div key={i}>
                         {currentTab === `${tab.classId}` &&
                             <div>
-                                <p className="title">
+                                <div className="title">
                                     {/* Content Map */}
-                                    {tab.classFeatures.map ((content) => (
-                                        <div className="flex flex-col m-3 group">
+                                    {tab.classFeatures.map ((content, j) => (
+                                        <div className="flex flex-col m-3 group" key={`key-${j}`}>
                                             <div className="flex flex-row justify-between">
                                                 <div className="text-2xl text-slate-500 group-hover:text-slate-400">
                                                     {content.featureName}
@@ -64,7 +64,7 @@ export const ClassFatTabs = ({ character }) => {
                                         )
                                     )}
 
-                                </p>
+                                </div>
                             </div>}
                     </div>
                 ))}

@@ -1,5 +1,5 @@
 // Libs
-import { createContext, useState } from "react";
+import {createContext, useEffect, useState} from "react";
 
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
@@ -43,7 +43,6 @@ export const CardListProvider = ({ children }) => {
                                                             "card-defenses",
                                                             "card-proficiencies",
                                                             "card-fats-class"])
-
 
     const addCardToList = (cardToAdd) => {
         setActiveCardList(addCard(activeCardList, cardToAdd))

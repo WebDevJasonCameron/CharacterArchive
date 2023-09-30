@@ -42,8 +42,6 @@ const CharacterSheetFocusContainer = ({ character }) => {
     // useContext
     const { activeCardList } = useContext(CardListContext)
 
-
-
     return (
         <section>
 
