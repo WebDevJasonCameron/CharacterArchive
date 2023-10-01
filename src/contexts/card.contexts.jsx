@@ -1,5 +1,5 @@
 // Libs
-import {createContext, useEffect, useState} from "react";
+import {createContext, useState} from "react";
 
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
@@ -16,11 +16,16 @@ const removeCard = (activeCardList, cardToRemove) => {
     return activeCardList
 }
 
+const updateCard = ( setActiveCardList, activeCardList ) => {
+    setActiveCardList(activeCardList)
+}
+
 // Context
 export const CardListContext = createContext({
     activeCardList: [],
     addCard: () => {},
     removeCard: () => {},
+    updateCard,
 });
 
 // Provider
@@ -36,6 +41,7 @@ export const CardListProvider = ({ children }) => {
                                                             "card-proficiencies",
                                                             "card-fats-class"])
 
+
     const addCardToList = (cardToAdd) => {
         setActiveCardList(addCard(activeCardList, cardToAdd))
     }
@@ -44,12 +50,10 @@ export const CardListProvider = ({ children }) => {
         setActiveCardList(removeCard(activeCardList, cardToRemove))
     }
 
-
     const value = {
         addCardToList,
         removeCardFromList,
         activeCardList,
-        setActiveCardList,
     }
 
     return (

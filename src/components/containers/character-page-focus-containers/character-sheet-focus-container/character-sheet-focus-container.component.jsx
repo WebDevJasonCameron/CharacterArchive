@@ -41,9 +41,9 @@ const CharacterSheetFocusContainer = ({ character }) => {
 
     // useContext
     const { activeCardList } = useContext(CardListContext)
-
-    const isActive = (activeCardList, cardName) => {
-        return activeCardList.includes(cardName)
+    
+    const isActive = (activeCards, cardName) => {
+        return activeCards.includes(cardName)
     }
 
     return (

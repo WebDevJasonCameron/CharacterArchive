@@ -2,7 +2,7 @@
 import './sidebar-button.styles.css'
 
 // Context
-import {CardListContext, setActiveCardList} from "../../../contexts/card.contexts";
+import {CardListContext} from "../../../contexts/card.contexts";
 
 // Lib
 import {useContext, useState} from "react";
@@ -13,6 +13,7 @@ const SidebarBtn = ({ icon, text, card }) => {
     // useContext
     const { activeCardList, addCardToList, removeCardFromList } = useContext(CardListContext)
     const [ active, setActive ] = useState(activeCardList.includes(card))
+
 
     // actions
     const handleSetActive = (activeCardList) => {
