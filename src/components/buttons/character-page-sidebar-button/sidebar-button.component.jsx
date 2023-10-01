@@ -18,6 +18,7 @@ const SidebarBtn = ({ icon, text, card }) => {
     // actions
     const handleSetActive = (activeCardList) => {
         const newActiveStatus = activeCardList.includes(card)
+
         setActive(newActiveStatus)
     }
 
@@ -33,6 +34,7 @@ const SidebarBtn = ({ icon, text, card }) => {
 
     const handleButtonAction = (card, activeCardList) => {
         activeCardList.includes(card)? handleRemoveCard(card) : handleAddCard(card)
+        console.log(activeCardList)
     }
 
     const handleButtonStyle = (activeStatus) => {

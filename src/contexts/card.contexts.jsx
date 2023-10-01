@@ -4,7 +4,6 @@ import {createContext, useState} from "react";
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
     activeCardList.push(cardToAdd)
-
     return activeCardList
 }
 
@@ -16,8 +15,8 @@ const removeCard = (activeCardList, cardToRemove) => {
     return activeCardList
 }
 
-const updateCard = ( setActiveCardList, activeCardList ) => {
-    setActiveCardList(activeCardList)
+const getCardList = (activeCardList) => {
+    return activeCardList
 }
 
 // Context
@@ -25,7 +24,7 @@ export const CardListContext = createContext({
     activeCardList: [],
     addCard: () => {},
     removeCard: () => {},
-    updateCard,
+    getCardList: () => {},
 });
 
 // Provider
@@ -50,10 +49,17 @@ export const CardListProvider = ({ children }) => {
         setActiveCardList(removeCard(activeCardList, cardToRemove))
     }
 
+
+    const getActiveCardList = (activeCardList) => {
+        return getCardList(activeCardList)
+    }
+
     const value = {
         addCardToList,
         removeCardFromList,
         activeCardList,
+        setActiveCardList,
+        getActiveCardList,
     }
 
     return (
