@@ -1,10 +1,12 @@
 // Libs
-import {createContext, useState} from "react";
+import {createContext, useCallback, useEffect, useReducer, useState} from "react";
+
+// From DB
 
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
-    activeCardList.push(cardToAdd)
-    return activeCardList
+    // activeCardList.push(cardToAdd)
+    return [...activeCardList, cardToAdd]
 }
 
 const removeCard = (activeCardList, cardToRemove) => {
@@ -34,9 +36,11 @@ export const CardListProvider = ({ children }) => {
                                                             "card-defenses",
                                                             "card-proficiencies",
                                                             "card-fats-class"])
+
+
+
     const updateCardList = (newCardList) => {
         setActiveCardList(newCardList)
-        console.log("Updating context")
     }
 
     const addCardToList = (cardToAdd) => {

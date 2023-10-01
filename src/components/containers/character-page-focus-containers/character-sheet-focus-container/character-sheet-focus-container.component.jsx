@@ -29,11 +29,11 @@ import CardFatsFeats
 import CardDescriptions
     from "../../../character-components/character-cards/character-card-descriptions/character-card-descriptions.component";
 
+// Libs
+import { useContext } from "react";
+
 // Context
 import { CardListContext } from "../../../../contexts/card.contexts";
-
-// Libs
-import {useContext, useEffect} from "react";
 
 
 // COMP
@@ -42,7 +42,7 @@ const CharacterSheetFocusContainer = ({ character }) => {
     // useContext
     const { activeCardList } = useContext(CardListContext)
 
-    const isActive = (currentCardList, cardName) => {
+    const isActive = (activeCardList, cardName) => {
         return activeCardList.includes(cardName)
     }
 
