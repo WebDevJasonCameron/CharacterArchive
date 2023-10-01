@@ -1,5 +1,9 @@
 # LOG
 
+## 2023 10 01 : A Problem to Solve
+
+Within the character-sheet-focus-container.component.jsx, I have an isActive function that compares if a cardName can be found within the activeCardList. I'm using a simple ".includes" array function to do this. The idea is, if the cardName isn't in the array, I get a false and otherwise is true. Interestingly, for cardNames that are in the array, I get the appropriate "true." When I test a cardName that I know is not in the array, I get an error saying ".include" is not a function.  This wasn't a problem earlier, so I must've changed something. I'm close to burning this part of the app down and rewriting it to grab data from a JSON file instead. That is probably the right call. I just wanted to figure out this layer before moving into that territory of the build.  
+
 ## 2023 09 16 : Charge forward
 Refactoring a bunch or tiny comps that were created in the main CS container cause it is needed.  Also working on a workflow to get this web app developed 
 

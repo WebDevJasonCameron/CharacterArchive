@@ -1,12 +1,11 @@
 // Libs
-import {createContext, useCallback, useEffect, useReducer, useState} from "react";
+import {createContext, useState} from "react";
 
 // From DB
 
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
-    // activeCardList.push(cardToAdd)
-    return [...activeCardList, cardToAdd]
+    return activeCardList.push(cardToAdd)
 }
 
 const removeCard = (activeCardList, cardToRemove) => {
