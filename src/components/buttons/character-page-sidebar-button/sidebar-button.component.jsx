@@ -11,7 +11,7 @@ import {useContext, useState} from "react";
 const SidebarBtn = ({ icon, text, card }) => {
 
     // useContext
-    const { activeCardList, addCardToList, removeCardFromList } = useContext(CardListContext)
+    const { activeCardList, addCardToList, removeCardFromList, updateCardList } = useContext(CardListContext)
     const [ active, setActive ] = useState(activeCardList.includes(card))
 
 
@@ -23,18 +23,19 @@ const SidebarBtn = ({ icon, text, card }) => {
     }
 
     const handleAddCard = (card) => {
-        addCardToList(card)
+        const newCardList = addCardToList(card)
+        updateCardList(newCardList)
         handleSetActive(activeCardList)
     }
 
     const handleRemoveCard = (card) => {
-        removeCardFromList(card)
+        const newCardList = removeCardFromList(card)
+        updateCardList(newCardList)
         handleSetActive(activeCardList)
     }
 
     const handleButtonAction = (card, activeCardList) => {
         activeCardList.includes(card)? handleRemoveCard(card) : handleAddCard(card)
-        console.log(activeCardList)
     }
 
     const handleButtonStyle = (activeStatus) => {

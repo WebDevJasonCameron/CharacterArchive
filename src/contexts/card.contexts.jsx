@@ -15,16 +15,11 @@ const removeCard = (activeCardList, cardToRemove) => {
     return activeCardList
 }
 
-const getCardList = (activeCardList) => {
-    return activeCardList
-}
-
 // Context
 export const CardListContext = createContext({
     activeCardList: [],
     addCard: () => {},
     removeCard: () => {},
-    getCardList: () => {},
 });
 
 // Provider
@@ -39,27 +34,25 @@ export const CardListProvider = ({ children }) => {
                                                             "card-defenses",
                                                             "card-proficiencies",
                                                             "card-fats-class"])
-
+    const updateCardList = (newCardList) => {
+        setActiveCardList(newCardList)
+        console.log("Updating context")
+    }
 
     const addCardToList = (cardToAdd) => {
-        setActiveCardList(addCard(activeCardList, cardToAdd))
+        return addCard(activeCardList, cardToAdd)
     }
 
     const removeCardFromList = (cardToRemove) => {
-        setActiveCardList(removeCard(activeCardList, cardToRemove))
-    }
-
-
-    const getActiveCardList = (activeCardList) => {
-        return getCardList(activeCardList)
+        return removeCard(activeCardList, cardToRemove)
     }
 
     const value = {
+        updateCardList,
         addCardToList,
         removeCardFromList,
         activeCardList,
         setActiveCardList,
-        getActiveCardList,
     }
 
     return (

@@ -40,17 +40,10 @@ import {useContext, useEffect} from "react";
 const CharacterSheetFocusContainer = ({ character }) => {
 
     // useContext
-    const { activeCardList, getActiveCardList } = useContext(CardListContext)
-
-    let currentCardList = activeCardList
-
-    useEffect(() => {
-        currentCardList = getActiveCardList(activeCardList)
-        console.log("at the use effect")
-    }, []);
+    const { activeCardList } = useContext(CardListContext)
 
     const isActive = (currentCardList, cardName) => {
-        return currentCardList.includes(cardName)
+        return activeCardList.includes(cardName)
     }
 
     return (
