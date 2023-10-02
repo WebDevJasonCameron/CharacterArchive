@@ -1,6 +1,6 @@
 const CardList = () => {
-    return [
-        [    // Character-Sheet
+    return {
+        character_sheet: [
             {
                 cardName: "card-main-stats",
                 active: true,
@@ -61,8 +61,15 @@ const CardList = () => {
                 active: false,
                 col: 3
             }
-        ]
-    ]
+        ],
+        stats_sheet: [],
+        journal_sheet: [],
+        combat_sheet: [],
+        inventory_sheet: [],
+        relations_sheet: [],
+        spells_sheet: [],
+        art_sheet: [],
+    }
 }
 
 export default CardList;
