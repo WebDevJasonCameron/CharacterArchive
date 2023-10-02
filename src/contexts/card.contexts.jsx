@@ -1,7 +1,8 @@
 // Libs
 import {createContext, useState} from "react";
 
-// From DB
+// Sim From DB
+
 
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
