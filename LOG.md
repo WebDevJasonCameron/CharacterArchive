@@ -1,5 +1,29 @@
 # LOG
 
+## 2023 10 03 : Refactoring On the Path
+
+I don't think this is probably the best approach when you are building a production application.
+Most call this "agile."
+It certainly is agile.
+It is also a lot of backtracking,
+rebuilding with fear that you might get to a point it just doesn't work and you've got to start all over.
+The fear is real.
+Still, this application is my playground.
+I want to know what is possible, and that can't be done by building a very structured plan.
+For instance, I thought I had to build all my cards and buttons.
+Now, I realized I can pass the icon tags as a jsx object from my card-list jsx object.
+That means I can just build out all the times of card objects within the card-list jsx library.
+If I need to change anything, I can go to that particular document.
+The context components will have a sidebar menu that maps out all the required buttons
+while the content container will do the same for the appropriate sheet's cards.
+I should be able to select which items get mapped based on their col cardAttribute.
+As such,
+I still should be able
+to place buttons within their own section according to the col attribute
+while also manipulate the tailwind for each card.  
+
+---
+
 ## 2023 10 02 : Card Mgr 
 
 Why move from a simple array of active cards to a database of cards that each character focus container can

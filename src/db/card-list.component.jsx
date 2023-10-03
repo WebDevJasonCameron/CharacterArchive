@@ -16,7 +16,7 @@ const CardList = () => {
                     activeStatus: true,
                     icon: <BiStats size="42" />,
                     text: "Main Stats",
-                    col: 1,
+                    col: 0,
                 }
             },
             {
@@ -42,7 +42,7 @@ const CardList = () => {
                 cardAttributes: {
                     activeStatus: true,
                     icon: <GiWeightLiftingUp size="42" />,
-                    text: "card-strength-capes",
+                    text: "Personal Strength Capabilities",
                     col: 1,
                 }
             },
