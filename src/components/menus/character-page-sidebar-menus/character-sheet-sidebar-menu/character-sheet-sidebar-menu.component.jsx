@@ -12,9 +12,16 @@ import {GiDeathJuice, GiSkills, GiCrystalEye, GiWeightLiftingUp } from "react-ic
 import { MdOutlineFeaturedPlayList } from "react-icons/md";
 import { RiShieldLine, RiShieldStarLine } from "react-icons/ri";
 
+// Context
+import { CardListContext } from "../../../../contexts/card.contexts";
+import {useContext} from "react";
 
 // COMP
 const CharacterSheetSidebarMenu = () =>{
+
+    const { cardList } = useContext(CardListContext)
+
+    const characterSheetCardList = cardList.character_sheet
 
         return (
         <div  className="left-0 w-20 flex flex-col bg-gray-700">
@@ -22,7 +29,8 @@ const CharacterSheetSidebarMenu = () =>{
             <SidebarBtn
                 icon={<BiStats size="42" />}
                 text={"Main Stats"}
-                card={"card-main-stats"} />
+                card={"card-main-stats"}
+                activeStatus={characterSheetCardList[0].activeStatus} />
 
             <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
 
@@ -30,19 +38,22 @@ const CharacterSheetSidebarMenu = () =>{
             <SidebarBtn
                 icon={<GiSkills size="42" />}
                 text={"Skills"}
-                card={"card-skills"} />
+                card={"card-skills"}
+                activeStatus={characterSheetCardList[1].activeStatus} />
 
             {/* 3. Movements */}
             <SidebarBtn
                 icon={<BiWalk size="42" />}
                 text={"Movements"}
-                card={"card-movements"} />
+                card={"card-movements"}
+                activeStatus={characterSheetCardList[2].activeStatus} />
 
             {/* 4. Personal Strength Capes (Encumbered, Push/Drag/lift) */}
             <SidebarBtn
                 icon={<GiWeightLiftingUp size="42" />}
                 text={"Personal Strength Capabilities"}
-                card={"card-strength-capes"}/>
+                card={"card-strength-capes"}
+                activeStatus={characterSheetCardList[3].activeStatus} />
 
             <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
 
@@ -50,26 +61,30 @@ const CharacterSheetSidebarMenu = () =>{
             <SidebarBtn
                 icon={<GiDeathJuice size="42" />}
                 text={"Saving Throws"}
-                card={"card-saving-throws"} />
+                card={"card-saving-throws"}
+                activeStatus={characterSheetCardList[4].activeStatus} />
 
             {/* 6. Senses */}
             <SidebarBtn
                 icon={<GiCrystalEye size="42" />}
                 text={"Passive Senses"}
-                card={"card-passive-senses"} />
+                card={"card-passive-senses"}
+                activeStatus={characterSheetCardList[5].activeStatus}/>
 
             {/* 5. Defenses */}
             <SidebarBtn
                 icon={<RiShieldLine size="42" />}
                 text={"Defenses"}
-                card={"card-defenses"} />
+                card={"card-defenses"}
+                activeStatus={characterSheetCardList[6].activeStatus} />
 
 
             {/* 6. Proficiencies */}
             <SidebarBtn
                 icon={<RiShieldStarLine size="42" />}
                 text={"Proficiencies"}
-                card={"card-fats-class"} />
+                card={"card-fats-class"}
+                activeStatus={characterSheetCardList[7].activeStatus} />
 
             <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
 
@@ -77,25 +92,29 @@ const CharacterSheetSidebarMenu = () =>{
             <SidebarBtn
                 icon={<MdOutlineFeaturedPlayList size="42" />}
                 text={"Class Features"}
-                card={"card-fats-class"} />
+                card={"card-fats-class"}
+                activeStatus={characterSheetCardList[8].activeStatus} />
 
             {/* 8. Species Features */}
             <SidebarBtn
                 icon={<BsPersonAdd size="42" />}
                 text={"Species Features"}
-                card={"card-fats-species"} />
+                card={"card-fats-species"}
+                activeStatus={characterSheetCardList[9].activeStatus} />
 
             {/* 9. Feats Features */}
             <SidebarBtn
                 icon={<BsTrophy size="40" />}
                 text={"Feats Features"}
-                card={"card-fats-feats"} />
+                card={"card-fats-feats"}
+                activeStatus={characterSheetCardList[10].activeStatus} />
 
             {/* 10. Descriptions */}
             <SidebarBtn
                 icon={<AiOutlineIdcard size="42" />}
                 text={"Descriptions"}
-                card={"card-descriptions"} />
+                card={"card-descriptions"}
+                activeStatus={characterSheetCardList[11].activeStatus} />
         </div>
     )
 };

@@ -8,17 +8,19 @@ import {CardListContext} from "../../../contexts/card.contexts";
 import {useContext, useState} from "react";
 
 // COMP
-const SidebarBtn = ({ icon, text, card }) => {
+const SidebarBtn = ({ icon, text, card, activeStatus }) => {
 
     // useContext
-    const { activeCardList, addCardToList, removeCardFromList, updateCardList } = useContext(CardListContext)
+    const { activeCardList, addCardToList, removeCardFromList, updateCardList, cardList } = useContext(CardListContext)
     const [ active, setActive ] = useState(activeCardList.includes(card))
+
+    // Objs
+    const characterSheetCardList = cardList.character_sheet
 
 
     // actions
     const handleSetActive = (activeCardList) => {
         const newActiveStatus = activeCardList.includes(card)
-
         setActive(newActiveStatus)
     }
 
@@ -45,7 +47,6 @@ const SidebarBtn = ({ icon, text, card }) => {
             return "sidebar-icon group"
         }
     }
-
 
 
     return (

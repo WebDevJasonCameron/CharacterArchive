@@ -1,8 +1,8 @@
 // Libs
 import {createContext, useState} from "react";
 
-// Sim From DB
-
+// DB
+import CardList from "../db/card-list.component";
 
 // Actions
 const addCard = (activeCardList, cardToAdd) => {
@@ -27,6 +27,8 @@ export const CardListContext = createContext({
 // Provider
 export const CardListProvider = ({ children }) => {
 
+    const [ cardList, setCardList ] = useState(CardList)
+
     const [ activeCardList, setActiveCardList ] = useState(["card-main-stats",
                                                             "card-skills",
                                                             "card-movements",
@@ -37,6 +39,9 @@ export const CardListProvider = ({ children }) => {
                                                             "card-proficiencies",
                                                             "card-fats-class"])
 
+    const deactivateCard = (cardNumber) => {
+
+    }
 
 
     const updateCardList = (newCardList) => {
@@ -57,6 +62,7 @@ export const CardListProvider = ({ children }) => {
         removeCardFromList,
         activeCardList,
         setActiveCardList,
+        cardList,
     }
 
     return (
