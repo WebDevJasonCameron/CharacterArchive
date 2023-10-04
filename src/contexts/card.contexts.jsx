@@ -5,23 +5,17 @@ import {createContext, useState} from "react";
 import CardList from "../db/card-list.component";
 
 // Actions
-const addCard = (activeCardList, cardToAdd) => {
-    return activeCardList.push(cardToAdd)
-}
-
-const removeCard = (activeCardList, cardToRemove) => {
-    const indexToRemove = activeCardList.indexOf(cardToRemove)
-    if (indexToRemove > -1) {
-        activeCardList.splice(indexToRemove, 1)
-    }
-    return activeCardList
+const toggleActive = (cardObject) => {
+    if (cardObject.cardAttributes.activeStatus === true) return cardObject.cardAttributes.activeStatus = false
+    if (cardObject.cardAttributes.activeStatus === false) return cardObject.cardAttributes.activeStatus = true
+    console.log("toggleActive within the card.context is broken...")
+    return cardObject.cardAttributes.activeStatus = false
 }
 
 // Context
 export const CardListContext = createContext({
     activeCardList: [],
-    addCard: () => {},
-    removeCard: () => {},
+    toggleActive: () => {},
 });
 
 // Provider
@@ -29,39 +23,9 @@ export const CardListProvider = ({ children }) => {
 
     const [ cardList, setCardList ] = useState(CardList)
 
-    const [ activeCardList, setActiveCardList ] = useState(["card-main-stats",
-                                                            "card-skills",
-                                                            "card-movements",
-                                                            "card-strength-capes",
-                                                            "card-saving-throws",
-                                                            "card-passive-senses",
-                                                            "card-defenses",
-                                                            "card-proficiencies",
-                                                            "card-fats-class"])
-
-    const deactivateCard = (cardNumber) => {
-
-    }
-
-
-    const updateCardList = (newCardList) => {
-        setActiveCardList(newCardList)
-    }
-
-    const addCardToList = (cardToAdd) => {
-        return addCard(activeCardList, cardToAdd)
-    }
-
-    const removeCardFromList = (cardToRemove) => {
-        return removeCard(activeCardList, cardToRemove)
-    }
+    const useToggleActive = () => {}
 
     const value = {
-        updateCardList,
-        addCardToList,
-        removeCardFromList,
-        activeCardList,
-        setActiveCardList,
         cardList,
     }
 

@@ -40,10 +40,10 @@ import { CardListContext } from "../../../../contexts/card.contexts";
 const CharacterSheetFocusContainer = ({ character }) => {
 
     // useContext
-    const { activeCardList } = useContext(CardListContext)
+    const { characterSheetCardList } = useContext(CardListContext)
 
-    const isActive = (activeCardList, cardName) => {
-        return activeCardList.includes(cardName)
+    const isActive = () => {
+        return false
     }
 
     return (
@@ -57,24 +57,24 @@ const CharacterSheetFocusContainer = ({ character }) => {
                 <section className="grid grid-cols-3 grid-rows-8 gap-1">
 
                     {/* First Row */}
-                    {isActive(activeCardList, "card-main-stats")? <CardMainStats character={character}/> : null}
+                    {isActive()? <CardMainStats character={character}/> : null}
 
                     {/* First Col */}
-                    {isActive(activeCardList, "card-skills")? <CardSkills character={character} /> : null }
-                    {isActive(activeCardList, "card-movements")? <CardMovements character={character} /> : null }
-                    {isActive(activeCardList, "card-strength-capes")? <CardStrengthCapes character={character} /> : null }
+                    {isActive()? <CardSkills character={character} /> : null }
+                    {isActive()? <CardMovements character={character} /> : null }
+                    {isActive()? <CardStrengthCapes character={character} /> : null }
 
                     {/* Second Col */}
-                    {isActive(activeCardList, "card-saving-throws")? <CardSavingThrows character={character} /> : null }
-                    {isActive(activeCardList, "card-passive-senses")? <CardPassiveSenses character={character} /> : null }
-                    {isActive(activeCardList, "card-defenses")? <CardDefenses character={character} /> : null }
-                    {isActive(activeCardList, "card-fats-class")? <CardProficiencies character={character} /> : null }
+                    {isActive()? <CardSavingThrows character={character} /> : null }
+                    {isActive()? <CardPassiveSenses character={character} /> : null }
+                    {isActive()? <CardDefenses character={character} /> : null }
+                    {isActive()? <CardProficiencies character={character} /> : null }
 
                     {/* Third Col */}
-                    {isActive(activeCardList, "card-fats-class")? <CardFatsClass character={character} /> : null }
-                    {isActive(activeCardList, "card-fats-species")? <CardFatsSpecies character={character} /> : null }
-                    {isActive(activeCardList, "card-fats-feats")? <CardFatsFeats character={character} /> : null }
-                    {isActive(activeCardList, "card-descriptions")? <CardDescriptions character={character} /> : null }
+                    {isActive()? <CardFatsClass character={character} /> : null }
+                    {isActive()? <CardFatsSpecies character={character} /> : null }
+                    {isActive()? <CardFatsFeats character={character} /> : null }
+                    {isActive()? <CardDescriptions character={character} /> : null }
 
                 </section>
 

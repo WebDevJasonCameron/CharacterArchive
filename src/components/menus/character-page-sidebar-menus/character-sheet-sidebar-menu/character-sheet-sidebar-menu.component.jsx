@@ -4,18 +4,9 @@ import './character-sheet-sidebar-menu.styles.css'
 // Import Comps
 import SidebarBtn from "../../../buttons/character-page-sidebar-button/sidebar-button.component";
 
-// Import Icons
-import { AiOutlineIdcard } from "react-icons/ai";
-import { BsPersonAdd, BsTrophy } from "react-icons/bs";
-import { BiStats, BiWalk } from "react-icons/bi";
-import {GiDeathJuice, GiSkills, GiCrystalEye, GiWeightLiftingUp } from "react-icons/gi";
-import { MdOutlineFeaturedPlayList } from "react-icons/md";
-import { RiShieldLine, RiShieldStarLine } from "react-icons/ri";
-
 // Context
 import { CardListContext } from "../../../../contexts/card.contexts";
 import {useContext} from "react";
-import sidebarButtonComponent from "../../../buttons/character-page-sidebar-button/sidebar-button.component";
 
 // COMP
 const CharacterSheetSidebarMenu = () =>{
@@ -26,7 +17,7 @@ const CharacterSheetSidebarMenu = () =>{
     const characterSheetCardList_Col_00 = [characterSheetCardList[0]]
     const characterSheetCardList_Col_01 = [characterSheetCardList[1], characterSheetCardList[2], characterSheetCardList[3], ]
     const characterSheetCardList_Col_02 = [characterSheetCardList[4], characterSheetCardList[5], characterSheetCardList[6],
-                                            characterSheetCardList[7]]
+        characterSheetCardList[7]]
     const characterSheetCardList_Col_03 = [characterSheetCardList[8], characterSheetCardList[9], characterSheetCardList[10],
         characterSheetCardList[11]]
 
@@ -43,8 +34,7 @@ const CharacterSheetSidebarMenu = () =>{
                             card={card.cardName}
                             activeStatus={card.cardAttributes.activeStatus}/>
                     </div>
-                    )
-                }
+                )}
                 <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
             </div>
             {/* Col 01 Buttons */}
@@ -58,8 +48,7 @@ const CharacterSheetSidebarMenu = () =>{
                             card={card.cardName}
                             activeStatus={card.cardAttributes.activeStatus}/>
                     </div>
-                )
-                }
+                )}
                 <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
             </div>
             {/* Col 02 Buttons */}
@@ -73,8 +62,7 @@ const CharacterSheetSidebarMenu = () =>{
                             card={card.cardName}
                             activeStatus={card.cardAttributes.activeStatus}/>
                     </div>
-                )
-                }
+                )}
                 <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
             </div>
             {/* Col 02 Buttons */}
@@ -88,9 +76,7 @@ const CharacterSheetSidebarMenu = () =>{
                             card={card.cardName}
                             activeStatus={card.cardAttributes.activeStatus}/>
                     </div>
-                )
-                }
-                <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
+                )}
             </div>
 
         </div>
