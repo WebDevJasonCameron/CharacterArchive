@@ -2,10 +2,10 @@
 import './sidebar-button.styles.css'
 
 // Context
-import {CardListContext} from "../../../contexts/card.contexts";
+import { CardListContext } from "../../../contexts/card.contexts";
 
 // Lib
-import {useContext, useState} from "react";
+import { useContext } from "react";
 
 // COMP
 const SidebarBtn = ({ icon, text, card, activeStatus }) => {
@@ -13,13 +13,15 @@ const SidebarBtn = ({ icon, text, card, activeStatus }) => {
     // useContext
     const { cardList } = useContext(CardListContext)
 
+    const valueIs = (value) => (object) =>
+        Object.values(object).some((v) => v === value)
+
+    const testGrab = (card) => { console.log(cardList.character_sheet.filter(valueIs(card)))}
+
+
     // actions
-    // make Active
-
-    // remove Active
-
-    const handleButtonAction = (card, activeStatus) => {
-        activeStatus? console.log(activeStatus) : console.log(activeStatus)
+    const handleButtonAction = (cardList, card, activeStatus) => {
+        activeStatus? testGrab(card) : testGrab(card)
     }
 
     const handleButtonStyle = (activeStatus) => {

@@ -23,10 +23,21 @@ export const CardListProvider = ({ children }) => {
 
     const [ cardList, setCardList ] = useState(CardList)
 
-    const useToggleActive = () => {}
+    const useToggleActive = (card) => {
+        let activeStatus = card.cardAttributes.activeStatus
+
+        if ( activeStatus === true) {
+            setCardList(card.cardAttributes.activeStatus = false)
+        } else if ( activeStatus === false) {
+            setCardList(card.cardAttributes.activeStatus = true)
+        } else {
+            return "Failure in the UseToggleActive of the CardListProvider"
+        }
+    }
 
     const value = {
         cardList,
+        useToggleActive,
     }
 
     return (
@@ -36,3 +47,6 @@ export const CardListProvider = ({ children }) => {
     )
 
 }
+
+
+//                  innovate450

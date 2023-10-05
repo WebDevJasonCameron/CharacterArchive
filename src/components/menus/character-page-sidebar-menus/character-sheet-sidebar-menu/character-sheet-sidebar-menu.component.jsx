@@ -42,7 +42,7 @@ const CharacterSheetSidebarMenu = () =>{
                 {characterSheetCardList_Col_01.map((card, i) =>
                     <div>
                         <SidebarBtn
-                            key={"col-0-btn" + i.toString()}
+                            key={"col-1-btn" + i.toString()}
                             icon={card.cardAttributes.icon}
                             text={card.cardAttributes.text}
                             card={card.cardName}
@@ -56,7 +56,7 @@ const CharacterSheetSidebarMenu = () =>{
                 {characterSheetCardList_Col_02.map((card, i) =>
                     <div>
                         <SidebarBtn
-                            key={"col-0-btn" + i.toString()}
+                            key={"col-2-btn" + i.toString()}
                             icon={card.cardAttributes.icon}
                             text={card.cardAttributes.text}
                             card={card.cardName}
@@ -70,7 +70,7 @@ const CharacterSheetSidebarMenu = () =>{
                 {characterSheetCardList_Col_03.map((card, i) =>
                     <div>
                         <SidebarBtn
-                            key={"col-0-btn" + i.toString()}
+                            key={"col-3-btn" + i.toString()}
                             icon={card.cardAttributes.icon}
                             text={card.cardAttributes.text}
                             card={card.cardName}
