@@ -32,7 +32,8 @@ const CharacterSheetSidebarMenu = () =>{
                             icon={card.cardAttributes.icon}
                             text={card.cardAttributes.text}
                             card={card.cardName}
-                            activeStatus={card.cardAttributes.activeStatus}/>
+                            activeStatus={card.cardAttributes.activeStatus}
+                            contentSheet={cardList.character_sheet} />
                     </div>
                 )}
                 <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
@@ -46,7 +47,8 @@ const CharacterSheetSidebarMenu = () =>{
                             icon={card.cardAttributes.icon}
                             text={card.cardAttributes.text}
                             card={card.cardName}
-                            activeStatus={card.cardAttributes.activeStatus}/>
+                            activeStatus={card.cardAttributes.activeStatus}
+                            contentSheet={cardList.character_sheet} />
                     </div>
                 )}
                 <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
@@ -60,7 +62,8 @@ const CharacterSheetSidebarMenu = () =>{
                             icon={card.cardAttributes.icon}
                             text={card.cardAttributes.text}
                             card={card.cardName}
-                            activeStatus={card.cardAttributes.activeStatus}/>
+                            activeStatus={card.cardAttributes.activeStatus}
+                            contentSheet={cardList.character_sheet} />
                     </div>
                 )}
                 <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
@@ -74,7 +77,8 @@ const CharacterSheetSidebarMenu = () =>{
                             icon={card.cardAttributes.icon}
                             text={card.cardAttributes.text}
                             card={card.cardName}
-                            activeStatus={card.cardAttributes.activeStatus}/>
+                            activeStatus={card.cardAttributes.activeStatus}
+                            contentSheet={cardList.character_sheet} />
                     </div>
                 )}
             </div>

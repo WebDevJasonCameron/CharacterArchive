@@ -8,7 +8,7 @@ import { CardListContext } from "../../../contexts/card.contexts";
 import { useContext } from "react";
 
 // COMP
-const SidebarBtn = ({ icon, text, card, activeStatus }) => {
+const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
     // useContext
     const { cardList } = useContext(CardListContext)
@@ -16,15 +16,16 @@ const SidebarBtn = ({ icon, text, card, activeStatus }) => {
     const valueIs = (value) => (object) =>
         Object.values(object).some((v) => v === value)
 
-    let x = [{ a: 1, b: 2 }, { c: 3, d: 4 }, { e: 5, f: 6 }, { g: 7, h: 8 }];
+    let contentCardList = contentSheet
 
-    const testGrab = () => {
-        console.log(x.filter(valueIs(4)))
+    const testGrab = (card) => {
+        console.log(contentCardList.filter(valueIs(card)))
+        console.log(card)
     }
 
     // actions
-    const handleButtonAction = (cardList, card, activeStatus) => {
-        activeStatus? testGrab() : testGrab()
+    const handleButtonAction = (card) => {
+        activeStatus? testGrab(card) : testGrab(card)
     }
 
     const handleButtonStyle = (activeStatus) => {
@@ -38,7 +39,7 @@ const SidebarBtn = ({ icon, text, card, activeStatus }) => {
 
     return (
         <button
-            onClick={() => {handleButtonAction(card, activeStatus)}}
+            onClick={() => {handleButtonAction(card)}}
             className={handleButtonStyle(activeStatus)}>
             {icon}
             <span className={"sidebar-tooltip group-hover:scale-100"}>
