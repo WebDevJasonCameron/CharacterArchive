@@ -16,12 +16,15 @@ const SidebarBtn = ({ icon, text, card, activeStatus }) => {
     const valueIs = (value) => (object) =>
         Object.values(object).some((v) => v === value)
 
-    const testGrab = (card) => { console.log(cardList.character_sheet.filter(valueIs(card)))}
+    let x = [{ a: 1, b: 2 }, { c: 3, d: 4 }, { e: 5, f: 6 }, { g: 7, h: 8 }];
 
+    const testGrab = () => {
+        console.log(x.filter(valueIs(4)))
+    }
 
     // actions
     const handleButtonAction = (cardList, card, activeStatus) => {
-        activeStatus? testGrab(card) : testGrab(card)
+        activeStatus? testGrab() : testGrab()
     }
 
     const handleButtonStyle = (activeStatus) => {
