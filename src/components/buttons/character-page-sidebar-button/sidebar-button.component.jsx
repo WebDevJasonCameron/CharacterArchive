@@ -11,7 +11,7 @@ import { useContext } from "react";
 const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
     // useContext
-    const { cardList, useToggleActive } = useContext(CardListContext)
+    const { cardList } = useContext(CardListContext)
 
     const valueIs = (value) => (object) =>
         Object.values(object).some((v) => v === value)
@@ -20,8 +20,6 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
     const testGrab = (card) => {
         const theCardObj = contentCardList.filter(valueIs(card))
-
-
     }
 
     // actions
