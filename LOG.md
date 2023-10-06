@@ -1,5 +1,23 @@
 # LOG
 
+## 2023 10 05 : Context Object Manipulation
+
+So, I've needed to figure out how to pull an object from an array of objects by an attribute value within that object.
+This code can be found in the CardContext jsx file.
+I originally found this and used it within the sidebar button jsx file.
+This works,
+but you need to remember that the result returns an array of objects even thought there is only one object.
+Now that I have that object, I think I need to remove the object from the original cardList.
+Also, remember that this is an array of cards within a specified contentSheet,
+so we don't remove anything from another page.
+Now, once the object is identified it needs to be removed from the contentPage's array, changed,
+and added back to the array.
+I'm thinking this is how it should be done,
+but I also think that this will completely ruin the consistent order of buttons.
+Something else might need to be done.  
+
+---
+
 ## 2023 10 03 : Refactoring On the Path
 
 I don't think this is probably the best approach when you are building a production application.

@@ -6,8 +6,8 @@ import CardList from "../db/card-list.component";
 
 // Actions
 const toggleActive = (cardObject) => {
-    if (cardObject.cardAttributes.activeStatus === true) return cardObject.cardAttributes.activeStatus = false
-    if (cardObject.cardAttributes.activeStatus === false) return cardObject.cardAttributes.activeStatus = true
+    if (cardObject[0].cardAttributes.activeStatus === true) return cardObject.cardAttributes.activeStatus = false
+    if (cardObject[0].cardAttributes.activeStatus === false) return cardObject.cardAttributes.activeStatus = true
     console.log("toggleActive within the card.context is broken...")
     return cardObject.cardAttributes.activeStatus = false
 }
@@ -23,17 +23,14 @@ export const CardListProvider = ({ children }) => {
 
     const [ cardList, setCardList ] = useState(CardList)
 
-    const useToggleActive = (card) => {
-        let activeStatus = card.cardAttributes.activeStatus
+    const valueIs = (value) => (object) =>
+        Object.values(object).some((v) => v === value)
 
-        if ( activeStatus === true) {
-            setCardList(card.cardAttributes.activeStatus = false)
-        } else if ( activeStatus === false) {
-            setCardList(card.cardAttributes.activeStatus = true)
-        } else {
-            return "Failure in the UseToggleActive of the CardListProvider"
-        }
+    const useToggleActive = (cardObject) => {
+        toggleActive(cardObject)
     }
+
+
 
     const value = {
         cardList,
@@ -47,6 +44,3 @@ export const CardListProvider = ({ children }) => {
     )
 
 }
-
-
-//                  innovate450
