@@ -14,15 +14,23 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
     // useContext
     const { cardList } = useContext(CardListContext)
 
+    let contentCardList = contentSheet
+
     const valueIs = (value) => (object) =>
         Object.values(object).some((v) => v === value)
 
-    let contentCardList = contentSheet
+    const grabObject = (card) => {
+        return contentCardList.filter(valueIs(card))
+    }
 
-    const testGrab = (card) => {
-        // const theCardObj = contentCardList.filter(valueIs(card))
-        console.log(card)
-        console.log(contentCardList.filter(valueIs(card)))
+    const grabObjectIndex = (card, cardList) => {
+        const object = grabObject(card)
+        const objectIndex = (cardList.findIndex((obj) => obj === object[0]))
+        console.log(objectIndex)
+    }
+
+    const testGrab = (card, cardList) => {
+        grabObjectIndex(card, cardList)
     }
 
 
@@ -35,8 +43,8 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
 
 
-    const handleButtonAction = (card) => {
-        activeStatus? testGrab(card) : console.log(cardList)
+    const handleButtonAction = (card, cardList) => {
+        activeStatus? grabObjectIndex(card, cardList) : console.log(cardList)
     }
 
     const handleButtonStyle = (activeStatus) => {
@@ -50,7 +58,7 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
     return (
         <button
-            onClick={() => {handleButtonAction(card)}}
+            onClick={() => {handleButtonAction(card, contentCardList)}}
             className={handleButtonStyle(activeStatus)}>
             {icon}
             <span className={"sidebar-tooltip group-hover:scale-100"}>
