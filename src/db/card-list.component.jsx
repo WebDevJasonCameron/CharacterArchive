@@ -8,23 +8,9 @@ import { MdOutlineFeaturedPlayList } from "react-icons/md";
 import { RiShieldLine, RiShieldStarLine } from "react-icons/ri";
 
 const CardList = () => {
-
-    let cardMainStats;
-    let cardSkills;
-    let cardMovements;
-    let cardStrengthCapes;
-    let cardSavingThrown;
-    let cardPassiveSenses;
-    let cardDefenses;
-    let cardProficiencies;
-    let cardFatsClass;
-    let cardFatsSpecies;
-    let cardFatsFeats;
-    let cardDescriptions;
-
     return {
         character_sheet: [
-            cardMainStats = {
+            {
                 cardName: "card-main-stats",
                 cardAttributes: {
                     activeStatus: true,
@@ -33,7 +19,7 @@ const CardList = () => {
                     col: 0,
                 }
             },
-            cardSkills = {
+            {
                 cardName: "card-skills",
                 cardAttributes: {
                     activeStatus: true,
@@ -42,7 +28,7 @@ const CardList = () => {
                     col: 1,
                 }
             },
-            cardMovements = {
+            {
                 cardName: "card-movements",
                 cardAttributes: {
                     activeStatus: true,
@@ -51,7 +37,7 @@ const CardList = () => {
                     col: 1,
                 }
             },
-            cardStrengthCapes = {
+            {
                 cardName: "card-strength-capes",
                 cardAttributes: {
                     activeStatus: true,
@@ -60,7 +46,7 @@ const CardList = () => {
                     col: 1,
                 }
             },
-            cardSavingThrown = {
+            {
                 cardName: "card-saving-throws",
                 cardAttributes: {
                     activeStatus: true,
@@ -69,7 +55,7 @@ const CardList = () => {
                     col: 2,
                 }
             },
-            cardPassiveSenses = {
+            {
                 cardName: "card-passive-senses",
                 cardAttributes: {
                     activeStatus: true,
@@ -78,7 +64,7 @@ const CardList = () => {
                     col: 2,
                 }
             },
-            cardDefenses = {
+            {
                 cardName: "card-defenses",
                 cardAttributes: {
                     activeStatus: true,
@@ -87,7 +73,7 @@ const CardList = () => {
                     col: 2,
                 }
             },
-            cardProficiencies = {
+            {
                 cardName: "card-proficiencies",
                 cardAttributes: {
                     activeStatus: true,
@@ -96,7 +82,7 @@ const CardList = () => {
                     col: 2,
                 }
             },
-            cardFatsClass = {
+            {
                 cardName: "card-fats-class",
                 cardAttributes: {
                     activeStatus: true,
@@ -105,7 +91,7 @@ const CardList = () => {
                     col: 3
                 }
             },
-            cardFatsSpecies = {
+            {
                 cardName: "card-fats-species",
                 cardAttributes: {
                     activeStatus: false,
@@ -114,7 +100,7 @@ const CardList = () => {
                     col: 3
                 }
             },
-            cardFatsFeats = {
+            {
                 cardName: "card-fats-feats",
                 cardAttributes: {
                     activeStatus: false,
@@ -123,7 +109,7 @@ const CardList = () => {
                     col: 3
                 }
             },
-            cardDescriptions = {
+            {
                 cardName: "card-descriptions",
                 cardAttributes: {
                     activeStatus: false,

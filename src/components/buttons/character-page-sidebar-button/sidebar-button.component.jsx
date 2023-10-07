@@ -6,6 +6,7 @@ import { CardListContext } from "../../../contexts/card.contexts";
 
 // Lib
 import { useContext } from "react";
+import {BiStats} from "react-icons/bi";
 
 // COMP
 const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
@@ -19,12 +20,23 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
     let contentCardList = contentSheet
 
     const testGrab = (card) => {
-        const theCardObj = contentCardList.filter(valueIs(card))
+        // const theCardObj = contentCardList.filter(valueIs(card))
+        console.log(card)
+        console.log(contentCardList.filter(valueIs(card)))
     }
 
+
     // actions
+    const getObjectIndex = () => {
+        const num = 9
+
+        console.log(num)
+    }
+
+
+
     const handleButtonAction = (card) => {
-        activeStatus? testGrab(card) : testGrab(card)
+        activeStatus? testGrab(card) : console.log(cardList)
     }
 
     const handleButtonStyle = (activeStatus) => {

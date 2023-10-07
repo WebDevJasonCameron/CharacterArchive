@@ -19,6 +19,7 @@ export const CardListProvider = ({ children }) => {
 
     const value = {
         cardList,
+        setCardList,
     }
 
     return (
