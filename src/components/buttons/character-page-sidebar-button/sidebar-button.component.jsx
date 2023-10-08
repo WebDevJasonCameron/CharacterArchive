@@ -5,14 +5,13 @@ import './sidebar-button.styles.css'
 import { CardListContext } from "../../../contexts/card.contexts";
 
 // Lib
-import {useContext, useState} from "react";
-import {BiStats} from "react-icons/bi";
+import { useContext } from "react";
 
 // COMP
 const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
     // useContext
-    const { cardList, setCardList } = useContext(CardListContext)
+    const { cardList } = useContext(CardListContext)
 
     let contentCardList = contentSheet
 
@@ -24,8 +23,10 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
     }
 
     const getObjectIndex = (card, cardList) => {
-        const object = getObjectByValue(card)
-        const objectIndex = (cardList.findIndex((obj) => obj === object[0]))
+        const cardListArray = Object.values(cardList)
+        const objectArray = getObjectByValue(card)
+        const objectIndex = (cardListArray.findIndex((obj) => obj === objectArray[0][0]))
+        console.log(objectArray)
         console.log(objectIndex)
         return objectIndex
     }
@@ -45,6 +46,8 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
     const handleButtonAction = (card, cardList, activeStatus) => {
         const indexNum = getObjectIndex(card, cardList)
         const status = toggleActiveStatus(activeStatus)
+        console.log(indexNum)
+        console.log(status)
     }
 
     const handleButtonStyle = (activeStatus) => {
