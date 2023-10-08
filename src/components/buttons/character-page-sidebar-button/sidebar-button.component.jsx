@@ -5,46 +5,46 @@ import './sidebar-button.styles.css'
 import { CardListContext } from "../../../contexts/card.contexts";
 
 // Lib
-import { useContext } from "react";
+import {useContext, useState} from "react";
 import {BiStats} from "react-icons/bi";
 
 // COMP
 const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
     // useContext
-    const { cardList } = useContext(CardListContext)
+    const { cardList, setCardList } = useContext(CardListContext)
 
     let contentCardList = contentSheet
 
     const valueIs = (value) => (object) =>
         Object.values(object).some((v) => v === value)
 
-    const grabObject = (card) => {
+    const getObjectByValue = (card) => {
         return contentCardList.filter(valueIs(card))
     }
 
-    const grabObjectIndex = (card, cardList) => {
-        const object = grabObject(card)
+    const getObjectIndex = (card, cardList) => {
+        const object = getObjectByValue(card)
         const objectIndex = (cardList.findIndex((obj) => obj === object[0]))
         console.log(objectIndex)
+        return objectIndex
     }
 
-    const testGrab = (card, cardList) => {
-        grabObjectIndex(card, cardList)
+    const toggleActiveStatus = (activeStatus) => {
+        if (activeStatus === true) {
+            return false
+        } else if (activeStatus === false) {
+            return true
+        } else {
+            console.log("toggle Active Status is missing something")
+        }
     }
 
 
-    // actions
-    const getObjectIndex = () => {
-        const num = 9
-
-        console.log(num)
-    }
-
-
-
-    const handleButtonAction = (card, cardList) => {
-        activeStatus? grabObjectIndex(card, cardList) : console.log(cardList)
+    // Output Actions
+    const handleButtonAction = (card, cardList, activeStatus) => {
+        const indexNum = getObjectIndex(card, cardList)
+        const status = toggleActiveStatus(activeStatus)
     }
 
     const handleButtonStyle = (activeStatus) => {
@@ -58,7 +58,7 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
     return (
         <button
-            onClick={() => {handleButtonAction(card, contentCardList)}}
+            onClick={() => {handleButtonAction(card, cardList, activeStatus)}}
             className={handleButtonStyle(activeStatus)}>
             {icon}
             <span className={"sidebar-tooltip group-hover:scale-100"}>
