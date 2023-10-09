@@ -5,16 +5,22 @@ import './sidebar-button.styles.css'
 import { CardListContext } from "../../../contexts/card.contexts";
 
 // Lib
-import { useContext } from "react";
+import {useContext, useEffect} from "react";
 
 // COMP
-const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
+const SidebarBtn = ({ cardAttributes, contentSheet }) => {
 
-    // useContext
+    // Uses
     const { cardList, setCardList } = useContext(CardListContext)
+    useEffect(() => {
+        handleButtonStyle(activeStatus)
+    }, [cardList]);
 
+    // Var
+    const {icon, text, card, activeStatus } = cardAttributes
     let contentCardList = contentSheet
 
+    // Fun
     const valueIs = (value) => (object) =>
         Object.values(object).some((v) => v === value)
 
@@ -37,7 +43,6 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
         }
     }
 
-
     // Output Actions
     const handleButtonAction = (card, contentSheet, activeStatus, cardList) => {
         const newCardList = cardList
@@ -46,11 +51,13 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
         const status = toggleActiveStatus(activeStatus)
         newCardList.character_sheet[indexNum].cardAttributes.activeStatus = status
         setCardList(newCardList)
-        console.log(newCardList)
-        console.log(cardList)
-        // console.log(contentSheet)
-        // console.log(indexNum)
-        // console.log(status)
+
+        console.log("NewCardList is")
+        console.log(newCardList.character_sheet[0].cardAttributes.activeStatus)
+        console.log("CardList is")
+        console.log(cardList.character_sheet[0].cardAttributes.activeStatus)
+
+
     }
 
     const handleButtonStyle = (activeStatus) => {
