@@ -11,7 +11,7 @@ import { useContext } from "react";
 const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
     // useContext
-    const { cardList } = useContext(CardListContext)
+    const { cardList, setCardList } = useContext(CardListContext)
 
     let contentCardList = contentSheet
 
@@ -23,12 +23,8 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
     }
 
     const getObjectIndex = (card, cardList) => {
-        const cardListArray = Object.values(cardList)
         const objectArray = getObjectByValue(card)
-        const objectIndex = (cardListArray.findIndex((obj) => obj === objectArray[0][0]))
-        console.log(objectArray)
-        console.log(objectIndex)
-        return objectIndex
+        return (cardList.findIndex((obj) => obj === objectArray[0]))
     }
 
     const toggleActiveStatus = (activeStatus) => {
@@ -43,11 +39,18 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
 
     // Output Actions
-    const handleButtonAction = (card, cardList, activeStatus) => {
-        const indexNum = getObjectIndex(card, cardList)
+    const handleButtonAction = (card, contentSheet, activeStatus, cardList) => {
+        const newCardList = cardList
+
+        const indexNum = getObjectIndex(card, contentSheet)
         const status = toggleActiveStatus(activeStatus)
-        console.log(indexNum)
-        console.log(status)
+        newCardList.character_sheet[indexNum].cardAttributes.activeStatus = status
+        setCardList(newCardList)
+        console.log(newCardList)
+        console.log(cardList)
+        // console.log(contentSheet)
+        // console.log(indexNum)
+        // console.log(status)
     }
 
     const handleButtonStyle = (activeStatus) => {
@@ -61,7 +64,7 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
     return (
         <button
-            onClick={() => {handleButtonAction(card, cardList, activeStatus)}}
+            onClick={() => {handleButtonAction(card, contentSheet, activeStatus, cardList)}}
             className={handleButtonStyle(activeStatus)}>
             {icon}
             <span className={"sidebar-tooltip group-hover:scale-100"}>
