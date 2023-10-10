@@ -12,9 +12,6 @@ const SidebarBtn = ({ cardAttributes, contentSheet }) => {
 
     // Uses
     const { cardList, setCardList } = useContext(CardListContext)
-    useEffect(() => {
-        handleButtonStyle(activeStatus)
-    }, [cardList]);
 
     // Var
     const {icon, text, card, activeStatus } = cardAttributes
@@ -48,8 +45,7 @@ const SidebarBtn = ({ cardAttributes, contentSheet }) => {
         const newCardList = cardList
 
         const indexNum = getObjectIndex(card, contentSheet)
-        const status = toggleActiveStatus(activeStatus)
-        newCardList.character_sheet[indexNum].cardAttributes.activeStatus = status
+        newCardList.character_sheet[indexNum].cardAttributes.activeStatus = toggleActiveStatus(activeStatus)
         setCardList(newCardList)
 
         console.log("NewCardList is")

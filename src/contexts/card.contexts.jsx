@@ -5,9 +5,7 @@ import {createContext, useState} from "react";
 import CardList from "../db/card-list.component";
 
 // Actions
-const toggleActiveStatus = () => {
 
-}
 
 // Context
 export const CardListContext = createContext({
