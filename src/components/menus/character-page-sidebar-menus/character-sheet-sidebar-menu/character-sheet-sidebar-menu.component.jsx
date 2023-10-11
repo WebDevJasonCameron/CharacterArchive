@@ -68,14 +68,16 @@ const CharacterSheetSidebarMenu = () =>{
                 )}
                 <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
             </div>
-            {/* Col 02 Buttons */}
+            {/* Col 04 Buttons */}
             <div>
                 {characterSheetCardList_Col_03.map((card, i) =>
                     <div>
                         <SidebarBtn
                             key={"col-3-btn" + i.toString()}
-                            cardAttributes={card.cardAttributes}
-                            contentSheet={cardList.character_sheet} />
+                            icon={card.cardAttributes.icon}
+                            text={card.cardAttributes.text}
+                            card={card.cardName}
+                            activeStatus={card.cardAttributes.activeStatus}                            contentSheet={cardList.character_sheet} />
                     </div>
                 )}
             </div>

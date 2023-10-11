@@ -22,8 +22,6 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
     const getObjectIndex = (card, cardList) => {
         const objectArray = getObjectByValue(card)
-        console.log("card object:")
-        console.log(card)
         return (cardList.findIndex((obj) => obj === objectArray[0]))
     }
 
@@ -43,11 +41,11 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
         const indexNum = getObjectIndex(card, contentSheet)
         console.log(indexNum)
-        // newCardList.character_sheet[indexNum].cardAttributes.activeStatus = toggleActiveStatus(activeStatus)
-        // setCardList(newCardList)
-        //
-        // console.log("CardList is")
-        // console.log(cardList.character_sheet[0].cardAttributes.activeStatus)
+        newCardList.character_sheet[indexNum].cardAttributes.activeStatus = toggleActiveStatus(activeStatus)
+        setCardList(newCardList)
+
+        console.log("CardList is")
+        console.log(cardList)
     }
 
     const handleButtonStyle = (activeStatus) => {
