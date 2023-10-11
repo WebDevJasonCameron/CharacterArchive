@@ -5,24 +5,21 @@ import './sidebar-button.styles.css'
 import { CardListContext } from "../../../contexts/card.contexts";
 
 // Lib
-import {useContext, useEffect} from "react";
+import {useContext} from "react";
 
 // COMP
 const SidebarBtn = ({ cardAttributes, contentSheet }) => {
 
-    // Uses
     const { cardList, setCardList } = useContext(CardListContext)
 
-    // Var
     const {icon, text, card, activeStatus } = cardAttributes
-    let contentCardList = contentSheet
 
     // Fun
     const valueIs = (value) => (object) =>
         Object.values(object).some((v) => v === value)
 
     const getObjectByValue = (card) => {
-        return contentCardList.filter(valueIs(card))
+        return contentSheet.filter(valueIs(card))
     }
 
     const getObjectIndex = (card, cardList) => {
@@ -41,7 +38,7 @@ const SidebarBtn = ({ cardAttributes, contentSheet }) => {
     }
 
     // Output Actions
-    const handleButtonAction = (card, contentSheet, activeStatus, cardList) => {
+    const handleButtonAction = (card, activeStatus, contentSheet, cardList) => {
         const newCardList = cardList
 
         const indexNum = getObjectIndex(card, contentSheet)
@@ -67,7 +64,7 @@ const SidebarBtn = ({ cardAttributes, contentSheet }) => {
 
     return (
         <button
-            onClick={() => {handleButtonAction(card, contentSheet, activeStatus, cardList)}}
+            onClick={() => {handleButtonAction(card, activeStatus, contentSheet, cardList)}}
             className={handleButtonStyle(activeStatus)}>
             {icon}
             <span className={"sidebar-tooltip group-hover:scale-100"}>
