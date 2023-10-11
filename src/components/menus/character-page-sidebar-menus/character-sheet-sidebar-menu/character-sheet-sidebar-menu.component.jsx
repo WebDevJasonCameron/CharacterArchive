@@ -29,11 +29,10 @@ const CharacterSheetSidebarMenu = () =>{
                     <div>
                         <SidebarBtn
                             key={"col-0-btn-" + i.toString()}
-                            cardAttributes={card.cardAttributes}
-                            // icon={card.cardAttributes.icon}
-                            // text={card.cardAttributes.text}
-                            // card={card.cardName}
-                            // activeStatus={card.cardAttributes.activeStatus}
+                            icon={card.cardAttributes.icon}
+                            text={card.cardAttributes.text}
+                            card={card.cardName}
+                            activeStatus={card.cardAttributes.activeStatus}
                             contentSheet={cardList.character_sheet} />
                     </div>
                 )}
@@ -45,11 +44,10 @@ const CharacterSheetSidebarMenu = () =>{
                     <div>
                         <SidebarBtn
                             key={"col-1-btn" + i.toString()}
-                            cardAttributes={card.cardAttributes}
-                            // icon={card.cardAttributes.icon}
-                            // text={card.cardAttributes.text}
-                            // card={card.cardName}
-                            // activeStatus={card.cardAttributes.activeStatus}
+                            icon={card.cardAttributes.icon}
+                            text={card.cardAttributes.text}
+                            card={card.cardName}
+                            activeStatus={card.cardAttributes.activeStatus}
                             contentSheet={cardList.character_sheet} />
                     </div>
                 )}
@@ -61,11 +59,10 @@ const CharacterSheetSidebarMenu = () =>{
                     <div>
                         <SidebarBtn
                             key={"col-2-btn" + i.toString()}
-                            cardAttributes={card.cardAttributes}
-                            // icon={card.cardAttributes.icon}
-                            // text={card.cardAttributes.text}
-                            // card={card.cardName}
-                            // activeStatus={card.cardAttributes.activeStatus}
+                            icon={card.cardAttributes.icon}
+                            text={card.cardAttributes.text}
+                            card={card.cardName}
+                            activeStatus={card.cardAttributes.activeStatus}
                             contentSheet={cardList.character_sheet} />
                     </div>
                 )}
