@@ -5,12 +5,12 @@ import './sidebar-button.styles.css'
 import { CardListContext } from "../../../contexts/card.contexts";
 
 // Lib
-import {useContext, useEffect} from "react";
+import {useContext } from "react";
 
 // COMP
 const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
-    const { cardList, setCardList } = useContext(CardListContext)
+    const { cardList, setCardList, toggleActiveStatus } = useContext(CardListContext)
 
     // Fun
     const valueIs = (value) => (object) =>
@@ -25,7 +25,7 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
         return (cardList.findIndex((obj) => obj === objectArray[0]))
     }
 
-    const toggleActiveStatus = (activeStatus) => {
+    const locallyToggleActiveStatus = (activeStatus) => {
         if (activeStatus === true) {
             return false
         } else if (activeStatus === false) {

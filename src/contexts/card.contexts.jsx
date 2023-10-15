@@ -17,9 +17,16 @@ export const CardListProvider = ({ children }) => {
 
     const [ cardList, setCardList ] = useState(CardList)
 
+    const toggleActiveStatus = (cardList, contentNumber, cardNumber, newStatus) => {
+        let newCardList = cardList
+        newCardList[contentNumber][cardNumber].cardAttributes.activeStatus = newStatus
+        return newCardList
+    }
+
     const value = {
         cardList,
         setCardList,
+        toggleActiveStatus
     }
 
     return (
