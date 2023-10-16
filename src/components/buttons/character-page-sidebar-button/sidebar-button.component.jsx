@@ -41,7 +41,7 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
         const indexNum = getObjectIndex(card, contentSheet)
         console.log(indexNum)
-        newCardList.character_sheet[indexNum].cardAttributes.activeStatus = toggleActiveStatus(activeStatus)
+        newCardList.character_sheet[indexNum].cardAttributes.activeStatus = locallyToggleActiveStatus(activeStatus)
         setCardList(newCardList)
 
         console.log("CardList is")
