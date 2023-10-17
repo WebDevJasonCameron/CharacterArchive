@@ -8,8 +8,8 @@ import { MdOutlineFeaturedPlayList } from "react-icons/md";
 import { RiShieldLine, RiShieldStarLine } from "react-icons/ri";
 
 const CardList = () => {
-    return {
-        character_sheet: [
+    return [
+        [                                                               // Character Sheet
             {
                 cardName: "card-main-stats",
                 cardAttributes: {
@@ -119,14 +119,14 @@ const CardList = () => {
                 }
             },
         ],
-        stats_sheet: [],
-        journal_sheet: [],
-        combat_sheet: [],
-        inventory_sheet: [],
-        relations_sheet: [],
-        spells_sheet: [],
-        art_sheet: [],
-    }
+        // stats_sheet: [],
+        // journal_sheet: [],
+        // combat_sheet: [],
+        // inventory_sheet: [],
+        // relations_sheet: [],
+        // spells_sheet: [],
+        // art_sheet: [],
+    ]
 }
 
 export default CardList;
