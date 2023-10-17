@@ -13,7 +13,7 @@ const CharacterSheetSidebarMenu = () =>{
 
     const { cardList } = useContext(CardListContext)
 
-    const characterSheetCardList = cardList.character_sheet
+    const characterSheetCardList = cardList[0]
     const characterSheetCardList_Col_00 = [characterSheetCardList[0]]
     const characterSheetCardList_Col_01 = [characterSheetCardList[1], characterSheetCardList[2], characterSheetCardList[3], ]
     const characterSheetCardList_Col_02 = [characterSheetCardList[4], characterSheetCardList[5], characterSheetCardList[6],
@@ -33,7 +33,7 @@ const CharacterSheetSidebarMenu = () =>{
                             text={card.cardAttributes.text}
                             card={card.cardName}
                             activeStatus={card.cardAttributes.activeStatus}
-                            contentSheet={cardList.character_sheet} />
+                            contentSheet={0} />
                     </div>
                 )}
                 <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
@@ -48,7 +48,7 @@ const CharacterSheetSidebarMenu = () =>{
                             text={card.cardAttributes.text}
                             card={card.cardName}
                             activeStatus={card.cardAttributes.activeStatus}
-                            contentSheet={cardList.character_sheet} />
+                            contentSheet={0} />
                     </div>
                 )}
                 <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
@@ -63,7 +63,7 @@ const CharacterSheetSidebarMenu = () =>{
                             text={card.cardAttributes.text}
                             card={card.cardName}
                             activeStatus={card.cardAttributes.activeStatus}
-                            contentSheet={cardList.character_sheet} />
+                            contentSheet={0} />
                     </div>
                 )}
                 <hr className="bg-slate-400 border border-gray-400 rounded-full mx-1"/>
@@ -77,7 +77,8 @@ const CharacterSheetSidebarMenu = () =>{
                             icon={card.cardAttributes.icon}
                             text={card.cardAttributes.text}
                             card={card.cardName}
-                            activeStatus={card.cardAttributes.activeStatus}                            contentSheet={cardList.character_sheet} />
+                            activeStatus={card.cardAttributes.activeStatus}
+                            contentSheet={0} />
                     </div>
                 )}
             </div>

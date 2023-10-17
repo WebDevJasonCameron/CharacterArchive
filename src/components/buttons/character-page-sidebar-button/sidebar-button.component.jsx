@@ -17,7 +17,7 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
         Object.values(object).some((v) => v === value)
 
     const getObjectByValue = (card) => {
-        return contentSheet.filter(valueIs(card))
+        return cardList[contentSheet].filter(valueIs(card))
     }
 
     const getObjectIndex = (card, cardList) => {
@@ -41,7 +41,7 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
         const indexNum = getObjectIndex(card, contentSheet)
         console.log(indexNum)
-        newCardList.character_sheet[indexNum].cardAttributes.activeStatus = locallyToggleActiveStatus(activeStatus)
+        newCardList[contentSheet][indexNum].cardAttributes.activeStatus = locallyToggleActiveStatus(activeStatus)
         setCardList(newCardList)
 
         console.log("CardList is")
