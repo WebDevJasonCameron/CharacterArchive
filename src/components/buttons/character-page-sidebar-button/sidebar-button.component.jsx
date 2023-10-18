@@ -22,7 +22,16 @@ const SidebarBtn = ({ icon, text, card, activeStatus, contentSheet }) => {
 
     const getObjectIndex = (card, cardList) => {
         const objectArray = getObjectByValue(card)
-        return (cardList.findIndex((obj) => obj === objectArray[0]))
+        console.log(objectArray)
+        // const x = cardList[contentSheet].findIndex((obj) => obj === objectArray[0])
+
+        console.log("y: ")
+        console.log(cardList)
+
+        // console.log("x is:")
+        // console.log(x)
+
+        return null
     }
 
     const locallyToggleActiveStatus = (activeStatus) => {
