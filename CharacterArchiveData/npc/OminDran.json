@@ -92,7 +92,21 @@
       "condition_immunities": [],
   
       "languages": ["common", "dwarvish", "elvish", "goblin"],
-      "spellcasting": {}
+      "spellcasting": [{
+        "details": "Omin is a 9th-level spellcaster",
+        "spell_casting_ability": "wisdom",
+        "spell_save": "CD 15",
+        "hit_advantages": "+7",
+        "spell_list": [{
+          "spell_type": "cleric",
+          "cantrip": ["guidance", "sacred flame", "spare the dying", "thaumaturgy"],
+          "1st_lvl": ["bless", "command", "divine favor", "shield of faith"],
+          "2nd_lvl": ["enhance ability", "hold person", "magic weapon", "silence", "spiritual weapon"],
+          "3rd_lvl": ["beacon of hope", "crusader's mantle", "dispel magic", "mass healing word", "spirit guardians"],
+          "4th_lvl": [], 
+          "5th_lvl": []
+        }]
+      }]
     }
   }
   ,
