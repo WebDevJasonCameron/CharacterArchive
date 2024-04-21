@@ -63,7 +63,7 @@
           "text": "",
           "type": "Melee Weapon Attack",
           "to_hit": "+6",
-          "reach": "5 ft",
+          "reach": "5 ft.",
           "target": 1,
           "hit": 10,
           "hit_details": "10 (2d6 + 3)",
@@ -128,25 +128,43 @@
       "condition_immunities": [],
   
       "languages": ["common", "dwarvish", "elvish", "goblin"],
-      "spellcasting": [{
-        "details": "Omin is a 9th-level spellcaster",
-        "spell_casting_ability": "wisdom",
-        "spell_save": "CD 15",
-        "hit_advantages": "+7",
-        "spell_list": [{
-          "spell_type": "cleric",
-          "cantrip": ["guidance", "sacred flame", "spare the dying", "thaumaturgy"],
-          "1st_lvl": ["bless", "command", "divine favor", "shield of faith"],
-          "2nd_lvl": ["enhance ability", "hold person", "magic weapon", "silence", "spiritual weapon"],
-          "3rd_lvl": ["beacon of hope", "crusader's mantle", "dispel magic", "mass healing word", "spirit guardians"],
-          "4th_lvl": ["death ward", "freedom of meovement", "locate creature", "stoneskin"], 
-          "5th_lvl": ["dispel evil and good", "flame strike", "hold monster", "greater restoration", "legend lore"]
-        }]
-      }]
+      "species_related_spellcasting": []
     }
-  }
-  ,
-  "class": [],
+  },
+
+  "class": [
+    {
+      "title": "cleric",
+      "source": "d&d player's handbook 5e",
+      "game": "d&d 5e",
+      "descriptions": [],
+      "class_features": {
+        "level_attributes": []
+      },
+      "sub_class": {
+        "name": "",
+        "level_attributes": []
+      },
+      "class_related_spellcasting": [
+        {
+          "details": "Omin is a 9th-level spellcaster",
+          "spell_casting_ability": "wisdom",
+          "spell_save": "CD 15",
+          "hit_advantages": "+7",
+          "spell_list": [{
+            "spell_type": "cleric",
+            "cantrip": ["guidance", "sacred flame", "spare the dying", "thaumaturgy"],
+            "1st_lvl": ["bless", "command", "divine favor", "shield of faith"],
+            "2nd_lvl": ["enhance ability", "hold person", "magic weapon", "silence", "spiritual weapon"],
+            "3rd_lvl": ["beacon of hope", "crusader's mantle", "dispel magic", "mass healing word", "spirit guardians"],
+            "4th_lvl": ["death ward", "freedom of meovement", "locate creature", "stoneskin"], 
+            "5th_lvl": ["dispel evil and good", "flame strike", "hold monster", "greater restoration", "legend lore"]
+          }]
+        }
+      ]
+    }
+  ],
+
   "located": [],
   "affiliates": [],
   "inventory": []
