@@ -1,14 +1,16 @@
 {
   "npc_name": "Omin Dran",  
   "phonetic-name": "Omen Dran",
+  "character_source": "acquisitions incorporated",
   "sex": "m",
   "alignment": "lawful neutral",
-  "avatar_img": "",
+  "avatar_img": "https://www.dndbeyond.com/avatars/6221/765/636953233676878157.png",
   "background": {
     "summary": "",
     "their_story": "Ominifis Hereward Dran spent his formative years in the small waystop of Red Larch, where his mother, Prophetess, ran a popular inn and restaurant. In the brief periods of respite afforded by working the family business, Omin and his sisters, Auspicia and Portentia, were wont to wander the hills and trails around town, dreaming of adventure. But adventure of the wrong kind came calling for the trio one day, when an underground ruin they had often explored -- actually a creature called the Wandering Crypt — took Auspicia from the world. Omin Dran built the organization called Acquisitions Incorporated to facilitate and expand his quest to find his true sister, at least in part. For despite his unprecedented success in establishing the market for franchised adventuring across the Sword Coast and beyond, Omin’s full measure eludes most people. He is known to be a worshiper of Tymora, ruthless in matters of business, feckless in matters of love, and hopeless in games of chance. Omin is also often accused of being one of the Masked Lords of Waterdeep, though this bit of fancy earns little more than a chuckle in response. And even if the rumor were true, Omin would never leverage such a position for greater financial gain and power. Because that would be wrong …",
     "natural_state": "",
     "quirks": "",
+    "quotes": "My duty, first and foremost, is to my shareholders. And I am the only shareholder._",
     "motivations": "",
     "secrets": "",
     "bonds": "",
@@ -16,13 +18,14 @@
     "relationships": ["Auspicia", "Portentia"]
   },
   "species": {
-    "title": "",
-    "source": "half-elf",
-    "game": "acquisitions incorporated",
+    "title": "half-elf",
+    "source": "d&d player's handbook 5e",
+    "game": "d&d 5e",
     "images": [],
     "template": {
       "attributes": {
         "size": "medium",
+        "creature_type": "humanoid",
         "monster_tag": [],
         "enviornment": [],
         "alignment_according_to_source": "lawful neutral",
@@ -53,9 +56,38 @@
         "cha": 12,
         "cha_mod": "+1"
       },
-      "actions": [],
+
+      "actions": [{
+        "title": "Maul",
+        "description": {
+          "text": "",
+          "type": "Melee Weapon Attack",
+          "to_hit": "+6",
+          "reach": "5 ft",
+          "target": 1,
+          "hit": 10,
+          "hit_details": "10 (2d6 + 3)",
+          "damage_type": "bludgeoning",
+          "recharge": ""
+        }
+      }],
+
       "bonus_actions": [],
-      "reactions": [],
+      
+      "reactions": [
+        {
+          "title": "War God’s Blessing",
+          "description": {
+            "text": "When a creature within 30 feet of Omin makes an attack roll, but before learning whether it hits or misses, Omin can grant the creature a +10 bonus to that roll.",
+            "type": "",
+            "to_hit": "",
+            "reach": "30 ft",
+            "target": 0,
+            "hit": "",
+            "damage_type": "",
+            "recharge": "Recharges after a Short or Long Rest"
+          }
+        }],
   
       "legendary_actions": {},
       "lair_actions": [],
@@ -69,6 +101,10 @@
         {
           "title": "Fey Ancestry",
           "description": "Omin has advantage on saving throws against being charmed and magic can’t put him to sleep."
+        },
+        {
+          "title": "Multiattack",
+          "description": "Omin makes two attacks with his maul."
         }
       ],
   
@@ -103,8 +139,8 @@
           "1st_lvl": ["bless", "command", "divine favor", "shield of faith"],
           "2nd_lvl": ["enhance ability", "hold person", "magic weapon", "silence", "spiritual weapon"],
           "3rd_lvl": ["beacon of hope", "crusader's mantle", "dispel magic", "mass healing word", "spirit guardians"],
-          "4th_lvl": [], 
-          "5th_lvl": []
+          "4th_lvl": ["death ward", "freedom of meovement", "locate creature", "stoneskin"], 
+          "5th_lvl": ["dispel evil and good", "flame strike", "hold monster", "greater restoration", "legend lore"]
         }]
       }]
     }
