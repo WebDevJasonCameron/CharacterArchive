@@ -31,10 +31,13 @@
         "hit_points": 65,
         "hit_points_details": "65 (10d8 + 20)",
         "speed": "30 ft",
-        "senses": [],
+        "senses": [
+          {"darkvision": "60 ft"},
+          {"passive_perception": "17"}
+        ],
         "proficiency": "",
-        "challenge_rating": "",
-        "xp": 0
+        "challenge_rating": "5",
+        "xp": 1800
       },
       "ability_scores": {
         "str": 16,
@@ -58,18 +61,38 @@
       "lair_actions": [],
       "regional_effects": [],
   
-      "special_abilities": [],
+      "special_abilities": [
+        {
+          "title": "Divine Strike",
+          "description": "Once on each of his turns when he hits a creature with a weapon attack, Omin can cause the attack to deal an extra 4 (1d8) damage of the same type dealt by the weapon."
+        },
+        {
+          "title": "Fey Ancestry",
+          "description": "Omin has advantage on saving throws against being charmed and magic can’t put him to sleep."
+        }
+      ],
   
       "lore": [],
   
-      "saving_throws": [{"wis": "+7", "cha": "+4"}],
-      "skills": [],
+      "saving_throws": [
+        {"wis": "+7"},
+        {"cha": "+4"}
+      ],
+
+      "skills": [
+        {"deception": "+4"},
+        {"insight": "+7"},
+        {"intimidation": "+4"},
+        {"medicine": "+7"},
+        {"perception": "+7"},
+        {"persuasion": "+4"}
+      ],
   
       "damage_resistances": [],
       "condition_immunities": [],
   
-      "languages": [],
-      "spells": []
+      "languages": ["common", "dwarvish", "elvish", "goblin"],
+      "spellcasting": {}
     }
   }
   ,
