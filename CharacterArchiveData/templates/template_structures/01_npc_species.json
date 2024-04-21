@@ -8,9 +8,11 @@
       "size": "",
       "monster_tag": [],
       "enviornment": [],
-      "alignment_according_to_source": [],
-      "armor_class": "",
-      "hit_points": "",
+      "alignment_according_to_source": "",
+      "armor_class": 0,
+      "armor_class_details": "",
+      "hit_points": 0,
+      "hit_points_details": "",
       "speed": "",
       "senses": [],
       "proficiency": "",
@@ -43,7 +45,14 @@
 
     "lore": [],
 
-    "saving_throws": [],
+    "saving_throws": {
+      "deception": "",
+      "insight": "",
+      "intimidation": "", 
+      "medicine": "",
+      "perception": "",
+      "persuasion": ""
+    },
     "skills": [],
 
     "damage_resistances": [],

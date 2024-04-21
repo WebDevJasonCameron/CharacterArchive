@@ -1,0 +1,87 @@
+{
+  "npc_name": "Omin Dran",  
+  "phonetic-name": "Omen Dran",
+  "sex": "m",
+  "alignment": "lawful neutral",
+  "avatar_img": "",
+  "background": {
+    "summary": "",
+    "their_story": "Ominifis Hereward Dran spent his formative years in the small waystop of Red Larch, where his mother, Prophetess, ran a popular inn and restaurant. In the brief periods of respite afforded by working the family business, Omin and his sisters, Auspicia and Portentia, were wont to wander the hills and trails around town, dreaming of adventure. But adventure of the wrong kind came calling for the trio one day, when an underground ruin they had often explored -- actually a creature called the Wandering Crypt — took Auspicia from the world. Omin Dran built the organization called Acquisitions Incorporated to facilitate and expand his quest to find his true sister, at least in part. For despite his unprecedented success in establishing the market for franchised adventuring across the Sword Coast and beyond, Omin’s full measure eludes most people. He is known to be a worshiper of Tymora, ruthless in matters of business, feckless in matters of love, and hopeless in games of chance. Omin is also often accused of being one of the Masked Lords of Waterdeep, though this bit of fancy earns little more than a chuckle in response. And even if the rumor were true, Omin would never leverage such a position for greater financial gain and power. Because that would be wrong …",
+    "natural_state": "",
+    "quirks": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "skills": "",
+    "relationships": ["Auspicia", "Portentia"]
+  },
+  "species": {
+    "title": "",
+    "source": "half-elf",
+    "game": "acquisitions incorporated",
+    "images": [],
+    "template": {
+      "attributes": {
+        "size": "medium",
+        "monster_tag": [],
+        "enviornment": [],
+        "alignment_according_to_source": "lawful neutral",
+        "armor_class": 18,
+        "armor_class_details": "18 (plate)",
+        "hit_points": 65,
+        "hit_points_details": "65 (10d8 + 20)",
+        "speed": "30 ft",
+        "senses": [],
+        "proficiency": "",
+        "challenge_rating": "",
+        "xp": 0
+      },
+      "ability_scores": {
+        "str": 16,
+        "str_mod": "+3",
+        "dex": 8,
+        "dex_mod": "-1",
+        "con": 14,
+        "con_mod": "+2",
+        "int": 11,
+        "int_mod": "+0",
+        "wis": 18, 
+        "wis_mod": "+4",
+        "cha": 12,
+        "cha_mod": "+1"
+      },
+      "actions": [],
+      "bonus_actions": [],
+      "reactions": [],
+  
+      "legendary_actions": {},
+      "lair_actions": [],
+      "regional_effects": [],
+  
+      "special_abilities": [],
+  
+      "lore": [],
+  
+      "saving_throws": {
+        "deception": "+4",
+        "insight": "+7",
+        "intimidation": "+4", 
+        "medicine": "+7",
+        "perception": "+7",
+        "persuasion": "+4"
+      },
+      "skills": [],
+  
+      "damage_resistances": [],
+      "condition_immunities": [],
+  
+      "languages": [],
+      "spells": []
+    }
+  }
+  ,
+  "class": [],
+  "located": [],
+  "affiliates": [],
+  "inventory": []
+}
