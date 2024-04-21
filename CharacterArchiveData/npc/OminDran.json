@@ -62,14 +62,7 @@
   
       "lore": [],
   
-      "saving_throws": {
-        "deception": "+4",
-        "insight": "+7",
-        "intimidation": "+4", 
-        "medicine": "+7",
-        "perception": "+7",
-        "persuasion": "+4"
-      },
+      "saving_throws": [{"wis": "+7", "cha": "+4"}],
       "skills": [],
   
       "damage_resistances": [],

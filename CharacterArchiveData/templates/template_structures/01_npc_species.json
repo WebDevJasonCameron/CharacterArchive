@@ -45,14 +45,7 @@
 
     "lore": [],
 
-    "saving_throws": {
-      "deception": "",
-      "insight": "",
-      "intimidation": "", 
-      "medicine": "",
-      "perception": "",
-      "persuasion": ""
-    },
+    "saving_throws": [],
     "skills": [],
 
     "damage_resistances": [],
