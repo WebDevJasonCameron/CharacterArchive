@@ -1,0 +1,98 @@
+{
+  "npc_name": "Môrgæn",  
+  "phonetic-name": "morgane",
+  "character_source": "acquisitions incorporated",
+  "sex": "f",
+  "alignment": "chaotic neutral",
+  "avatar_img": "https://www.dndbeyond.com/avatars/thumbnails/6221/776/380/491/636953235030230409.png",
+
+  "background": {
+    "summary": "",
+    "their_story": "The ranger Môrgæn is a renowned tracker and hunter, able to pinpoint-target foes at any range, then vanish into the woods with no one the wiser. Her legendary ability with the longbow and the custom arrows she crafts instills fear into the hearts of her many enemies — and more than a few of her coworkers. Famously, she is the only member of Acquisitions Incorporated known to be paid in advance, lest a missed invoice lead to dire repercussions. A child of the forest, Môrgæn defends the natural world with singular ferocity and an impressive rate of sustained fire. Her core philosophy is that one should shoot first and then ask no questions later. Because what’s the point of asking questions when the person you’ve shot first is already dead? Still, when the situation calls for it, this protector of the woodlands is equally at home on missions of subterfuge and social interaction in the big city, provided her well-known love of ale, wine, and other intoxicants doesn’t get the better of her.",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "If I had wanted to kill, I would have killed.",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "skills": "",
+    "relationships": []
+  },
+
+  "species": {
+    "title": "elf",
+    "source": "d&d player's handbook 5e",
+    "game": "d&d 5e",
+    "images": [],
+  
+    "template": {
+      "attributes": {
+        "size": "medium",
+        "creature_type": "humanoidv",
+        "monster_tag": [],
+        "enviornment": [],
+        "alignment_according_to_source": "any",
+        "armor_class": 16,
+        "armor_class_details": "16 (studded leather)",
+        "hit_points": 66,
+        "hit_points_details": "66 (12d8 + 12)",
+        "speed": "30 ft.",
+        "senses": [],
+        "proficiency": "",
+        "challenge_rating": "",
+        "xp": 0
+      },
+  
+      "ability_scores": {
+        "str": 12,
+        "str_mod": "+1",
+        "dex": 18,
+        "dex_mod": "41",
+        "con": 12,
+        "con_mod": "+1",
+        "int": 12,
+        "int_mod": "+1",
+        "wis": 14, 
+        "wis_mod": "+2",
+        "cha": 10,
+        "cha_mod": "+0"
+      },
+      "actions": [],
+  
+      "bonus_actions": [],
+  
+      "reactions": [],
+  
+      "legendary_actions": {},
+  
+      "lair_actions": [],
+  
+      "regional_effects": [],
+  
+      "special_abilities": [],
+  
+      "lore": [],
+  
+      "saving_throws": [],
+  
+      "skills": [],
+  
+      "damage_resistances": [],
+  
+      "condition_immunities": [],
+  
+      "languages": [],
+  
+      "species_related_spellcasting": []
+    }
+  }
+  ,
+
+  "class": [],
+
+  "located": [],
+
+  "affiliates": [],
+
+  "inventory": []
+}

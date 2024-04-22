@@ -28,12 +28,12 @@
         "creature_type": "humanoid",
         "monster_tag": [],
         "enviornment": [],
-        "alignment_according_to_source": "lawful neutral",
+        "alignment_according_to_source": "any",
         "armor_class": 18,
         "armor_class_details": "18 (plate)",
         "hit_points": 65,
         "hit_points_details": "65 (10d8 + 20)",
-        "speed": "30 ft",
+        "speed": "30 ft.",
         "senses": [
           {"darkvision": "60 ft"},
           {"passive_perception": "17"}

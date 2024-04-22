@@ -30,12 +30,12 @@
         "creature_type": "humanoid",
         "monster_tag": [],
         "enviornment": [],
-        "alignment_according_to_source": "chaotic neutral",
+        "alignment_according_to_source": "any",
         "armor_class": 12,
         "armor_class_details": "12 (15 with mage armor)",
         "hit_points": 40,
         "hit_points_details": "40 (9d8)",
-        "speed": "30 ft",
+        "speed": "30 ft.",
 
         "senses": [
           {"passive_perception": "11"}

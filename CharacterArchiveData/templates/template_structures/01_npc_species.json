@@ -3,6 +3,7 @@
   "source": "",
   "game": "",
   "images": [],
+
   "template": {
     "attributes": {
       "size": "",
@@ -20,6 +21,7 @@
       "challenge_rating": "",
       "xp": 0
     },
+
     "ability_scores": {
       "str": 0,
       "str_mod": "",
@@ -35,11 +37,15 @@
       "cha_mod": ""
     },
     "actions": [],
+
     "bonus_actions": [],
+
     "reactions": [],
 
     "legendary_actions": {},
+
     "lair_actions": [],
+
     "regional_effects": [],
 
     "special_abilities": [],
@@ -47,12 +53,15 @@
     "lore": [],
 
     "saving_throws": [],
+
     "skills": [],
 
     "damage_resistances": [],
+
     "condition_immunities": [],
 
     "languages": [],
+
     "species_related_spellcasting": []
   }
 }
