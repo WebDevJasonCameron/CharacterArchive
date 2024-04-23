@@ -1,0 +1,142 @@
+{
+  "npc_name": "Flabbergast",  
+  "phonetic-name": "flab-ber-gast",
+  "character_source": "acquisitions incorporated",
+  "sex": "m",
+  "alignment": "lawful neutral",
+  "avatar_img": "https://www.dndbeyond.com/avatars/thumbnails/6221/781/400/517/636953235648001537.png",
+
+  "background": {
+    "summary": "",
+    "their_story": "Not much is known of the mysterious and aloof majordomo of Acquisitions Incorporated Head Office, the mage known as Flabbergast. It’s said that he hails from Neverwinter, and that his wealthy family helped erect and carve the famous Dolphin Bridge in that city. Although he detests physical labor, Flabbergast is a bit of a bridge builder in his own way, always striving to bring people together and flexing his diplomatic muscles. A pacifist bureaucrat, he abhors violence, and rarely puts his magical prowess on display.[/n]One thing that is known (though it’s seldom spoken of) is that Flabbergast once worked for Dran Enterprises, and specifically for Portentia Dran. He carries a certain amount of guilt around being complicit in certain Dran Enterprises’ dealings, and helped Acquisitions Incorporated on the side even before taking up an official role with the company. Though Head Office certainly trusts him, others might wonder where his true loyalties lie.[/n]Flabbergast’s familiar, Mister Snibbly, uses the cat stat block.",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "skills": "",
+    "relationships": ["Mister Snibbly"]
+  },
+
+  "species": {
+    "title": "human",
+    "source": "d&d player's handbook 5e",
+    "game": "d&d 5e",
+    "images": [],
+  
+    "template": {
+      "attributes": {
+        "size": "medium",
+        "creature_type": "humanoid",
+        "monster_tag": [],
+        "enviornment": [],
+        "alignment_according_to_source": "any",
+        "armor_class": 12,
+        "armor_class_details": "12 (15 with mage armor)",
+        "hit_points": 40,
+        "hit_points_details": "40 (9d8)0",
+        "speed": "30 ft.",
+        "senses": [
+          {"passive_perception": "13"}
+        ],
+        "proficiency": "",
+        "challenge_rating": "4",
+        "xp": 1100
+      },
+  
+      "ability_scores": {
+        "str": 10,
+        "str_mod": "+0",
+        "dex": 14,
+        "dex_mod": "+2",
+        "con": 10,
+        "con_mod": "+0",
+        "int": 17,
+        "int_mod": "+3",
+        "wis": 13, 
+        "wis_mod": "+1",
+        "cha": 13,
+        "cha_mod": "+1"
+      },
+      "actions": [],
+  
+      "bonus_actions": [],
+  
+      "reactions": [],
+  
+      "legendary_actions": {},
+  
+      "lair_actions": [],
+  
+      "regional_effects": [],
+  
+      "special_abilities": [],
+  
+      "lore": [],
+  
+      "saving_throws": [
+        {"int": "+5"},
+        {"wis": "+3"}
+      ],
+  
+      "skills": [
+        {"arcana": "+5"},
+        {"history": "+5"},
+        {"perception": "+3"}
+      ],
+  
+      "damage_resistances": [],
+  
+      "condition_immunities": [],
+  
+      "languages": ["common", "draconic", "elvish", "gnomish"],
+  
+      "species_related_spellcasting": []
+    }
+  }
+  ,
+
+  "class": [
+    {
+      "title": "wizard",
+      "source": "d&d player's handbook 5e",
+      "game": "d&d 5e",
+      "descriptions": [],
+      "class_features": {
+        "level_attributes": []
+      },
+      "sub_class": {
+        "name": "",
+        "level_attributes": []
+      },
+      "class_related_spellcasting": [
+        {
+          "details": "Flabbergast is a 9th-level spellcaster.",
+          "spell_casting_ability": "intelligence",
+          "spell_save": "DC 13",
+          "hit_advantages": "+5",
+          "spell_list": [{
+            "cantrip": ["fire bolt", "light", "mage hand", "prestidigitation"],
+            "1st_lvl": ["detect magic", "mage armor", "distort value", "sleep"],
+            "1st_lvl_slots": "4",
+            "2nd_lvl": ["gift of gab", "misty step", "suggestion"],
+            "2nd_lvl_slots": "3",
+            "3rd_lvl": ["fast friends", "fly", "lignthing bolt"],
+            "3rd_lvl_slots": "3",
+            "4th_lvl": ["greater invisibility"], 
+            "4th_lvl_slots": "3",
+            "5th_lvl": ["cone of cold"],
+            "5th_lvl_slots": "1"
+          }]
+        }
+      ]
+    }
+  ],
+
+  "located": [],
+
+  "affiliates": [],
+  
+  "inventory": []
+}
