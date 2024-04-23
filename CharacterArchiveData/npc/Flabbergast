@@ -59,7 +59,23 @@
         "cha": 13,
         "cha_mod": "+1"
       },
-      "actions": [],
+
+      "actions": [
+        {
+          "title": "Dagger",
+          "description": {
+            "text": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+            "type": "Melee or Ranged Weapon Attack",
+            "to_hit": "+4",
+            "reach": "5 ft. or range 20/60 ft.",
+            "target": 1,
+            "hit": 4,
+            "hit_details": "4 (1d4 + 2)",
+            "damage_type": "",
+            "recharge": ""
+          }
+        }
+      ],
   
       "bonus_actions": [],
   

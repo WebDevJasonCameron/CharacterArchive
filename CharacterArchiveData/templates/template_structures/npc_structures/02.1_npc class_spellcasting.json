@@ -6,14 +6,20 @@
   "spell_list": [{
     "spell_type": "",
     "cantrip": [],
+    "cantrip_details": "at will",
+
     "1st_lvl": [],
     "1st_lvl_slots": "",
+
     "2nd_lvl": [],
     "2nd_lvl_slots": "",
+
     "3rd_lvl": [],
     "3rd_lvl_slots": "",
+
     "4th_lvl": [], 
     "4th_lvl_slots": "",
+
     "5th_lvl": [],
     "5th_lvl_slots": ""
   }]

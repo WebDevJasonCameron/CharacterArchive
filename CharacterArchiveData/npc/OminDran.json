@@ -154,11 +154,22 @@
           "spell_list": [{
             "spell_type": "cleric",
             "cantrip": ["guidance", "sacred flame", "spare the dying", "thaumaturgy"],
+            
             "1st_lvl": ["bless", "command", "divine favor", "shield of faith"],
+            "1st_lvl_slots": "4",
+
             "2nd_lvl": ["enhance ability", "hold person", "magic weapon", "silence", "spiritual weapon"],
+            "2nd_lvl_slots": "3",
+
             "3rd_lvl": ["beacon of hope", "crusader's mantle", "dispel magic", "mass healing word", "spirit guardians"],
+            "3rd_lvl_slots": "3",
+
             "4th_lvl": ["death ward", "freedom of meovement", "locate creature", "stoneskin"], 
-            "5th_lvl": ["dispel evil and good", "flame strike", "hold monster", "greater restoration", "legend lore"]
+            "4th_lvl_slots": "3",
+
+            "5th_lvl": ["dispel evil and good", "flame strike", "hold monster", "greater restoration", "legend lore"],
+            "5th_lvl_slots": "1"
+
           }]
         }
       ]
