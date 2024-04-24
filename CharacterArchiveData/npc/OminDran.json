@@ -65,6 +65,7 @@
           "to_hit": "+6",
           "reach": "5 ft.",
           "target": 1,
+          "saving_thows": "",            
           "hit": 10,
           "hit_details": "10 (2d6 + 3)",
           "damage_type": "bludgeoning",
@@ -83,6 +84,7 @@
             "to_hit": "",
             "reach": "30 ft",
             "target": 0,
+            "saving_thows": "",            
             "hit": "",
             "damage_type": "",
             "recharge": "Recharges after a Short or Long Rest"
@@ -153,8 +155,10 @@
           "hit_advantages": "+7",
           "spell_list": [{
             "spell_type": "cleric",
-            "cantrip": ["guidance", "sacred flame", "spare the dying", "thaumaturgy"],
             
+            "cantrip": ["guidance", "sacred flame", "spare the dying", "thaumaturgy"],
+            "cantrip_details": "at will",
+
             "1st_lvl": ["bless", "command", "divine favor", "shield of faith"],
             "1st_lvl_slots": "4",
 

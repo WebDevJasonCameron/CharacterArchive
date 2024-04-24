@@ -6,6 +6,7 @@
     "to_hit": "",
     "reach": "",
     "target": 0,
+    "saving_thows": "",            
     "hit": "",
     "damage_type": "",
     "recharge": ""
