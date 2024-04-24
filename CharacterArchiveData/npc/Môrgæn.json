@@ -21,6 +21,7 @@
 
   "species": {
     "title": "elf",
+    "specialized_species": "",
     "source": "d&d player's handbook 5e",
     "game": "d&d 5e",
     "images": [],
@@ -137,35 +138,19 @@
   
       "languages": ["common", "dwarvish", "giant", "goblin"],
   
-      "species_related_spellcasting": [
-        {
+      "species_related_spellcasting": {
           "details": "Innate Spellcasting. Môrgæn’s spellcasting ability is Intelligence. She can innately cast the following spells, requiring no material components",
           "spell_casting_ability": "Intelligence",
           "spell_save": "",
           "hit_advantages": "",
-          "spell_list": [{
-            "spell_type": "Innate Spellcasting",
-            "cantrip": ["mage hand"],
-            "cantrip_details": "at will",
+          "spell_list": {
+            "spell_type": "innate",
+            "at_will_spells": ["mage hand"],
 
-            "1st_lvl": [],
-            "1st_lvl_slots": "",
-
-            "2nd_lvl": [],
-            "2nd_lvl_slots": "",
-
-            "3rd_lvl": [],
-            "3rd_lvl_slots": "",
-
-            "4th_lvl": [], 
-            "4th_lvl_slots": "",
-
-            "5th_lvl": [],
-            "5th_lvl_slots": ""
-
-          }]
+            "other_spells": [],
+            "other_spells_details": ""
+          }
         }
-      ]
     }
   }
   ,
@@ -189,9 +174,7 @@
           "spell_casting_ability": "wisdom",
           "spell_save": "DC 12",
           "hit_advantages": "+4",
-          "spell_list": [{
-
-            "spell_type": "ranger",
+          "spell_list": {
             
             "cantrip": [],
             "cantrip_details": "at will",
@@ -211,7 +194,7 @@
             "5th_lvl": [],
             "5th_lvl_slots": ""
 
-          }]
+          }
         }
       ]
     }

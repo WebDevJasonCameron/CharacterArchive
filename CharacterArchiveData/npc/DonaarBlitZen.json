@@ -21,6 +21,7 @@
 
   "species": {
     "title": "dragonborn",
+    "specialized_species": "",
     "source": "d&d player's handbook 5e",
     "game": "d&d 5e",
     "images": [],
@@ -159,7 +160,7 @@
   
       "languages": ["common", "draconic", "orc"],
   
-      "species_related_spellcasting": []
+      "species_related_spellcasting": {}
     }
   }
   ,
@@ -177,14 +178,12 @@
         "name": "",
         "level_attributes": []
       },
-      "class_related_spellcasting": [
-        {
+      "class_related_spellcasting": {
           "details": "Donaar is a 5th-level spellcaster.",
           "spell_casting_ability": "charisma",
           "spell_save": "DC 13",
           "hit_advantages": " +5",
-          "spell_list": [{
-            "spell_type": "paladin",
+          "spell_list": {
 
             "cantrip": ["command", "compelled due", "cure wounds", "wrathful smite"],
             "cantrip_details": "at will",
@@ -203,9 +202,8 @@
         
             "5th_lvl": [],
             "5th_lvl_slots": ""
-          }]
+          }
         }
-      ]
     }
   ],
 

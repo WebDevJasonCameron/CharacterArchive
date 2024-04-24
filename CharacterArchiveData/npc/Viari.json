@@ -20,6 +20,7 @@
 
   "species": {
     "title": "human",
+    "specialized_species": "",
     "source": "d&d player's handbook 5e",
     "game": "d&d 5e",
     "images": [],
@@ -168,7 +169,7 @@
   
       "languages": ["common", "draconic", "thieves' cant"],
 
-      "species_related_spellcasting": []
+      "species_related_spellcasting": {}
     }
   },
 
@@ -185,7 +186,7 @@
         "name": "",
         "level_attributes": []
       },
-      "class_related_spellcasting": []
+      "class_related_spellcasting": {}
     }
   ],
 

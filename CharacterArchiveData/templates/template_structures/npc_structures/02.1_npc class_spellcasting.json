@@ -3,8 +3,7 @@
   "spell_casting_ability": "",
   "spell_save": "",
   "hit_advantages": "",
-  "spell_list": [{
-    "spell_type": "",
+  "spell_list": {
     
     "cantrip": [],
     "cantrip_details": "at will",
@@ -23,5 +22,5 @@
 
     "5th_lvl": [],
     "5th_lvl_slots": ""
-  }]
+  }
 }

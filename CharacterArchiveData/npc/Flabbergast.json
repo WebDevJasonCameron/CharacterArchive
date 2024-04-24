@@ -21,6 +21,7 @@
 
   "species": {
     "title": "human",
+    "specialized_species": "",
     "source": "d&d player's handbook 5e",
     "game": "d&d 5e",
     "images": [],
@@ -109,7 +110,7 @@
   
       "languages": ["common", "draconic", "elvish", "gnomish"],
   
-      "species_related_spellcasting": []
+      "species_related_spellcasting": {}
     }
   }
   ,
@@ -127,14 +128,12 @@
         "name": "",
         "level_attributes": []
       },
-      "class_related_spellcasting": [
-        {
+      "class_related_spellcasting": {
           "details": "Flabbergast is a 9th-level spellcaster.",
           "spell_casting_ability": "intelligence",
           "spell_save": "DC 13",
           "hit_advantages": "+5",
-          "spell_list": [{
-            "spell_type": "wizard",
+          "spell_list": {
 
             "cantrip": ["fire bolt", "light", "mage hand", "prestidigitation"],
             "cantrip_details": "at will",
@@ -153,9 +152,8 @@
 
             "5th_lvl": ["cone of cold"],
             "5th_lvl_slots": "1"
-          }]
+          }
         }
-      ]
     }
   ],
 

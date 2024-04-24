@@ -1,5 +1,6 @@
 {
   "title": "",
+  "specialized_species": "",
   "source": "",
   "game": "",
   "images": [],
@@ -62,6 +63,6 @@
 
     "languages": [],
 
-    "species_related_spellcasting": []
+    "species_related_spellcasting": {}
   }
 }
