@@ -6,6 +6,7 @@
   "alignment": "chaotic good",
   "total_level": "?",
   "avatar_img": "https://www.dndbeyond.com/avatars/thumbnails/6221/773/400/517/636953234689653377.png",
+  
   "background": {
     "summary": "",
     "their_story": "A product of life on a small-town farm, the rogue known as Viari carries fond memories of those childhood days and his loving family. (Well, except for that thing where his parents insist on thinking of his older brother as the successful one.) But he can be quick to show self-consciousness when talking of where he came from, and he never speaks of the name he bore in that former life.  After quickly rising in the ranks of Acquisitions Incorporated since joining that august team, Viari has come to head what’s known as the organization’s Stabbing Department. A potent threat in both dueling and earnest debate, he demonstrates an equal flair for planning and forethought, mad combat moves (involving leaping off high places whenever possible), and dark vengeance. Viari’s career as an adventurer was nearly cut short during a battle of which the bards still sing. Unleashing a devastating attack with the aptly named Apocalypse Dagger, the rogue destroyed a giant single-handedly — and lost his arm in the process. Although Viari was made bodily whole again in an equally dramatic magical fashion, some of those closest to him have noticed that those miraculous events weigh on him still, perhaps suggesting consequences that only he foresees.",
@@ -31,19 +32,50 @@
         "creature_type": "humanoid",
         "monster_tag": [],
         "enviornment": [],
-        "alignment_according_to_source": "any",
-        "armor_class": 18,
-        "armor_class_details": "8 (+1 studded leather; 19 while wielding two melee weapons)",
-        "hit_points": 65,
-        "hit_points_details": "65 (10d8 + 20)",
-        "speed": "30 ft.",
-        "senses": [
-          {"passive_perception": "15"}
-        ],
-        "proficiency": "",
+        "alignment_according_to_source": "any",   
         "challenge_rating": "5",
         "xp": 1800
       },
+  
+      "lore": {},
+  
+      "damage_resistances": [],
+
+      "condition_immunities": []
+    }
+  },
+
+  "class": [
+    {
+      "title": "rogue",
+      "source": "d&d player's handbook 5e",
+      "game": "d&d 5e",
+      "class_level": "?",
+      "lore": {},
+      "descriptions": [],
+      "class_features": {
+        "level_attributes": []
+      },
+      "sub_class": {
+        "name": "",
+        "lore": {},
+        "level_attributes": []
+      }
+    }
+  ],
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 18,
+      "armor_class_details": "8 (+1 studded leather; 19 while wielding two melee weapons)",
+      "hit_points": 65,
+      "hit_points_details": "65 (10d8 + 20)",
+      "speed": "30 ft.",
+      "senses": [
+        {"passive_perception": "15"}
+      ],
+      "proficiency": [],
+
       "ability_scores": {
         "str": 12,
         "str_mod": "+1",
@@ -59,6 +91,23 @@
         "cha_mod": "+2"
       },
 
+      "saving_throws": [
+        {"dex": "+8"},
+        {"int": "+3"}
+      ],
+
+      "skills": [
+        {"acrobatics": "+11"},
+        {"athletics": "+7"},
+        {"perception": "+5"},
+        {"performance": "+5"},
+        {"persuasion": "+5"}, 
+        {"sleight_of_hand": "+11"},
+        {"stealth": "+8"}
+      ]
+    },
+  
+    "character_actions": {
       "actions": [
         {
           "title": "+1 Shortsword",
@@ -74,7 +123,8 @@
             "damage_type": "piercing",
             "recharge": ""
           }
-        },{
+        },
+        {
           "title": "Rapier",
           "description": {
             "text": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
@@ -105,7 +155,7 @@
           }
         }
       ],
-
+  
       "bonus_actions": [],
 
       "reactions": [
@@ -124,13 +174,7 @@
           }
         }
       ],
-  
-      "legendary_actions": {},
 
-      "lair_actions": [],
-
-      "regional_effects": [],
-  
       "special_abilities": [
         {
           "title": "Evasion",
@@ -146,57 +190,24 @@
           "description": "Viari makes two attacks with his shortsword and two attacks with his rapier."
         }
       ],
+    
+      "legendary_actions": [],
   
-      "lore": {},
+      "lair_actions": [],
   
-      "saving_throws": [
-        {"dex": "+8"},
-        {"int": "+3"}
-      ],
-
-      "skills": [
-        {"acrobatics": "+11"},
-        {"athletics": "+7"},
-        {"perception": "+5"},
-        {"performance": "+5"},
-        {"persuasion": "+5"}, 
-        {"sleight_of_hand": "+11"},
-        {"stealth": "+8"}
-      ],
+      "regional_effects": [],
   
-      "damage_resistances": [],
-
-      "condition_immunities": [],
+      "species_related_spellcasting": {},
   
-      "languages": ["common", "draconic", "thieves' cant"],
-
-      "species_related_spellcasting": {}
-    }
-  },
-
-  "class": [
-    {
-      "title": "rogue",
-      "source": "d&d player's handbook 5e",
-      "game": "d&d 5e",
-      "class_level": "?",
-      "lore": {},
-      "descriptions": [],
-      "class_features": {
-        "level_attributes": []
-      },
-      "sub_class": {
-        "name": "",
-        "lore": {},
-        "level_attributes": []
-      },
       "class_related_spellcasting": {}
     }
-  ],
+  },
 
   "located": [],
 
   "affiliates": [],
+  
+  "languages": ["common", "draconic", "thieves' cant"],
   
   "inventory": []
 }

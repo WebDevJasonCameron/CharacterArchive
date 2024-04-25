@@ -34,16 +34,46 @@
         "monster_tag": [],
         "enviornment": [],
         "alignment_according_to_source": "any",
-        "armor_class": 15,
-        "armor_class_details": "15 (Unarmored Defense)",
-        "hit_points": 45,
-        "hit_points_details": "45 (10d6 + 10)",
-        "speed": "40 ft.",
-        "senses": [],
-        "proficiency": "",
         "challenge_rating": "3",
         "xp": 700
       },
+  
+      "lore": {},
+  
+      "damage_resistances": [],
+  
+      "condition_immunities": []
+    }
+  },
+
+  "class": [
+    {
+      "title": "monk",
+      "source": "d&d player's handbook 5e",
+      "game": "d&d 5e",
+      "class_level": "?",
+      "lore": {},
+      "descriptions": [],
+      "class_features": {
+        "level_attributes": []
+      },
+      "sub_class": {
+        "name": "",
+        "lore": {},
+        "level_attributes": []
+      }
+    }
+  ],
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 15,
+      "armor_class_details": "15 (Unarmored Defense)",
+      "hit_points": 45,
+      "hit_points_details": "45 (10d6 + 10)",
+      "speed": "40 ft.",
+      "senses": [],
+      "proficiency": [],
   
       "ability_scores": {
         "str": 8,
@@ -60,6 +90,19 @@
         "cha_mod": "+2"
       },
 
+      "saving_throws": [
+        {"acrobatics": "+5"},
+        {"history": "+3"},
+        {"intimidation": "+4"},
+        {"stealth": "+5"}
+      ],
+  
+      "skills": [
+        {"passive_perception": "12"}
+      ]
+    },
+  
+    "character_actions": {
       "actions": [
         {
           "title": "Staff of the Master (+1 Quarterstaff)",
@@ -92,7 +135,7 @@
           }
         }
       ],
-  
+
       "bonus_actions": [
         {
           "title": "Shadow Step",
@@ -109,7 +152,7 @@
           }
         }
       ],
-  
+
       "reactions": [
         {
           "title": "Deflect Missiles",
@@ -126,13 +169,7 @@
           }
         }
       ],
-  
-      "legendary_actions": {},
-  
-      "lair_actions": [],
-  
-      "regional_effects": [],
-  
+      
       "special_abilities": [
         {
           "title": "Brave",
@@ -152,24 +189,11 @@
         }
       ],
   
-      "lore": {},
+      "legendary_actions": [],
   
-      "saving_throws": [
-        {"acrobatics": "+5"},
-        {"history": "+3"},
-        {"intimidation": "+4"},
-        {"stealth": "+5"}
-      ],
+      "lair_actions": [],
   
-      "skills": [
-        {"passive_perception": "12"}
-      ],
-  
-      "damage_resistances": [],
-  
-      "condition_immunities": [],
-  
-      "languages": ["common", "draconic", "elvish", "halfling"],
+      "regional_effects": [],
   
       "species_related_spellcasting": {
         "details": "Rosie’s innate spellcasting ability is Wisdom (spell save DC 12). She can innately cast the following spells, requiring no material components",
@@ -183,45 +207,17 @@
           "other_spells": ["command", "darkness", "darkvision", "pass without trace", "silence"],
           "other_spells_details": "1/day each"
         }
-      }
-    }
-  }
-  ,
-
-  "class": [
-    {
-      "title": "monk",
-      "source": "d&d player's handbook 5e",
-      "game": "d&d 5e",
-      "class_level": "?",
-      "lore": {},
-      "descriptions": [],
-      "class_features": {
-        "level_attributes": []
       },
-      "sub_class": {
-        "name": "",
-        "lore": {},
-        "level_attributes": []
-      },
-
-      "actions": [],
-
-      "bonus_actions": [],
-    
-      "reactions": [],
-    
-      "legendary_actions": [],
-    
-      "special_abilities": [],
 
       "class_related_spellcasting": {}
     }
-  ],
+  },
 
   "located": [],
 
   "affiliates": [],
+  
+  "languages": ["common", "draconic", "elvish", "halfling"],
   
   "inventory": []
 }

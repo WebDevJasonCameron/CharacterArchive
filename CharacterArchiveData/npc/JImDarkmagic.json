@@ -33,21 +33,49 @@
         "monster_tag": [],
         "enviornment": [],
         "alignment_according_to_source": "any",
-        "armor_class": 12,
-        "armor_class_details": "12 (15 with mage armor)",
-        "hit_points": 40,
-        "hit_points_details": "40 (9d8)",
-        "speed": "30 ft.",
-
-        "senses": [
-          {"passive_perception": "11"}
-        ],
-
-        "proficiency": "",
         "challenge_rating": "5",
         "xp": 1800
       },
+  
+      "lore": {},
+  
+      "damage_resistances": [],
 
+      "condition_immunities": []
+    }
+  },
+
+  "class": [
+    {
+      "title": "wizard",
+      "source": "d&d player's handbook 5e",
+      "game": "d&d 5e",
+      "class_level": "?",
+      "lore": {},
+      "descriptions": [],
+      "class_features": {
+        "level_attributes": []
+      },
+      "sub_class": {
+        "name": "",
+        "lore": {},
+        "level_attributes": []
+      }
+    }
+  ],
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 12,
+      "armor_class_details": "12 (15 with mage armor)",
+      "hit_points": 40,
+      "hit_points_details": "40 (9d8)",
+      "speed": "30 ft.",
+      "senses": [
+        {"passive_perception": "11"}
+      ],
+      "proficiency": [],
+  
       "ability_scores": {
         "str": 8,
         "str_mod": "-1",
@@ -62,6 +90,21 @@
         "cha": 14,
         "cha_mod": "+2"
       },
+
+      "saving_throws": [
+        {"int": "+7"},
+        {"wis": "+4"}
+      ],
+
+      "skills": [
+        {"acrobatics": "+5"},
+        {"animal_handling": "+4"},
+        {"arcana": "+7"},
+        {"performance": "+5"}
+      ]
+    },
+  
+    "character_actions": {
 
       "actions": [
         {
@@ -110,96 +153,54 @@
           }
         }
       ],
-
+    
       "reactions": [],
-  
-      "legendary_actions": {},
-      "lair_actions": [],
-      "regional_effects": [],
   
       "special_abilities": [],
   
-      "lore": {},
+      "legendary_actions": [],
   
-      "saving_throws": [
-        {"int": "+7"},
-        {"wis": "+4"}
-      ],
+      "lair_actions": [],
+  
+      "regional_effects": [],
+  
+      "species_related_spellcasting": {},
+  
+      "class_related_spellcasting": {
+        "details": "Jim is a 9th-level spellcaster.",
+        "spell_casting_ability": "intelligence",
+        "spell_save": "DC 15",
+        "hit_advantages": "+7",
+        "spell_list": {
 
-      "skills": [
-        {"acrobatics": "+5"},
-        {"animal_handling": "+4"},
-        {"arcana": "+7"},
-        {"performance": "+5"}
-      ],
-  
-      "damage_resistances": [],
-      "condition_immunities": [],
-  
-      "languages": ["common"],
-      
-      "species_related_spellcasting": {}
+          "cantrip": ["fire bolt", "friends", "mage hand", "minor illusion", "prestidigitation"],
+          "cantrip_details": "at will",
+
+          "1st_lvl": ["disguise self", "Jim's magic missile", "shield", "mage armor"],
+          "1st_lvl_slots": "4",
+
+          "2nd_lvl": ["invisibility", "Jim's glowing coin", "scorching ray"],
+          "2nd_lvl_slots": "3",
+
+          "3rd_lvl": ["incite greed", "dispel magic", "fireball"],
+          "3rd_lvl_slots": "3",
+
+          "4th_lvl": ["conjure minor elementals", "polymorph"], 
+          "4th_lvl_slots": "3",
+
+          "5th_lvl": ["mislead"],
+          "5th_lvl_slots": "1"
+
+        }
+      }
     }
   },
 
-  "class": [
-    {
-      "title": "wizard",
-      "source": "d&d player's handbook 5e",
-      "game": "d&d 5e",
-      "class_level": "?",
-      "lore": {},
-      "descriptions": [],
-      "class_features": {
-        "level_attributes": []
-      },
-      "sub_class": {
-        "name": "",
-        "lore": {},
-        "level_attributes": []
-      },
-
-      "actions": [],
-
-      "bonus_actions": [],
-
-      "reactions": [],
-
-      "legendary_actions": [],
-
-      "special_abilities": [],
-      
-      "class_related_spellcasting": {
-          "details": "Jim is a 9th-level spellcaster.",
-          "spell_casting_ability": "intelligence",
-          "spell_save": "DC 15",
-          "hit_advantages": "+7",
-          "spell_list": {
-
-            "cantrip": ["fire bolt", "friends", "mage hand", "minor illusion", "prestidigitation"],
-            "cantrip_details": "at will",
-
-            "1st_lvl": ["disguise self", "Jim's magic missile", "shield", "mage armor"],
-            "1st_lvl_slots": "4",
-
-            "2nd_lvl": ["invisibility", "Jim's glowing coin", "scorching ray"],
-            "2nd_lvl_slots": "3",
-
-            "3rd_lvl": ["incite greed", "dispel magic", "fireball"],
-            "3rd_lvl_slots": "3",
-
-            "4th_lvl": ["conjure minor elementals", "polymorph"], 
-            "4th_lvl_slots": "3",
-
-            "5th_lvl": ["mislead"],
-            "5th_lvl_slots": "1"
-
-          }
-        }
-    }
-  ],
-
   "located": [],
+
   "affiliates": [],
+
+  "languages": ["common"],
+  
   "inventory": ["wand of wander"]
 }

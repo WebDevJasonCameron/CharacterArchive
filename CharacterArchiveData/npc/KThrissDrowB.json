@@ -34,19 +34,50 @@
         "monster_tag": [],
         "enviornment": [],
         "alignment_according_to_source": "any",
-        "armor_class": 14,
-        "armor_class_details": "14 (studded leather)",
-        "hit_points": 44,
-        "hit_points_details": "44 (8d8 + 8)",
-        "speed": "30 ft.",
-        "senses": [
-          {"darkvision": "120 ft."},
-          {"passive_perception": "12"}
-        ],
-        "proficiency": "",
         "challenge_rating": "3",
         "xp": 700
       },
+  
+      "lore": {},
+  
+      "damage_resistances": [],
+  
+      "condition_immunities": []
+    }
+  }
+  ,
+
+  "class": [
+    {
+      "title": "warlock",
+      "source": "d&d player's handbook 5e",
+      "game": "d&d 5e",
+      "class_level": "?",
+      "lore": {},
+      "descriptions": [],
+      "class_features": {
+        "level_attributes": []
+      },
+      "sub_class": {
+        "name": "",
+        "lore": {},
+        "level_attributes": []
+      }
+    }
+  ],
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 14,
+      "armor_class_details": "14 (studded leather)",
+      "hit_points": 44,
+      "hit_points_details": "44 (8d8 + 8)",
+      "speed": "30 ft.",
+      "senses": [
+        {"darkvision": "120 ft."},
+        {"passive_perception": "12"}
+      ],
+      "proficiency": [],
   
       "ability_scores": {
         "str": 8,
@@ -62,6 +93,26 @@
         "cha": 18,
         "cha_mod": "+4"
       },
+   
+      "saving_throws": [
+        {"str": "+0"}, 
+        {"dex": "+3"},
+        {"con": "+2"}, 
+        {"int": "+3"},
+        {"wis": "+3"},
+        {"cha": "+7"}
+      ],
+  
+      "skills": [
+        {"arcana": "+4"},
+        {"insight": "+2"}, 
+        {"investigation": "+4"}, 
+        {"perception": "+2"}, 
+        {"religion": "+4"}
+      ]
+    },
+  
+    "character_actions": {
       "actions": [
         {
           "title": "Sickle",
@@ -83,13 +134,7 @@
       "bonus_actions": [],
   
       "reactions": [],
-  
-      "legendary_actions": {},
-  
-      "lair_actions": [],
-  
-      "regional_effects": [],
-  
+
       "special_abilities": [
         {
           "title": "Fey Ancestry",
@@ -104,77 +149,26 @@
           "description": "K’thriss makes two attacks with his sickle."
         }
       ],
-  
-      "lore": {},
-  
-      "saving_throws": [
-        {"str": "+0"}, 
-        {"dex": "+3"},
-        {"con": "+2"}, 
-        {"int": "+3"},
-        {"wis": "+3"},
-        {"cha": "+7"}
-      ],
-  
-      "skills": [
-        {"arcana": "+4"},
-        {"insight": "+2"}, 
-        {"investigation": "+4"}, 
-        {"perception": "+2"}, 
-        {"religion": "+4"}
-      ],
-  
-      "damage_resistances": [],
-  
-      "condition_immunities": [],
-  
-      "languages": ["celestial", "common", "elvish", "undercommon", "can read all writing"],
-  
-      "species_related_spellcasting": 
-        {
-          "details": "K’thriss’s innate spellcasting ability is Charisma (spell save DC 14). He can innately cast the following spells, requiring no material component",
-          "spell_casting_ability": "charisma",
-          "spell_save": "DC 14",
-          "hit_advantages": "",
-          "spell_list": {
-            "spell_type": "innate",
-            "at_will_spells": ["dancing lights", "disguise self"],
-        
-            "other_spells": ["darkness", "faerie fire"],
-            "other_spells_details": "1/day each"
-
-          }
-        }
-    }
-  }
-  ,
-
-  "class": [
-    {
-      "title": "warlock",
-      "source": "d&d player's handbook 5e",
-      "game": "d&d 5e",
-      "class_level": "?",
-      "lore": {},
-      "descriptions": [],
-      "class_features": {
-        "level_attributes": []
-      },
-      "sub_class": {
-        "name": "",
-        "lore": {},
-        "level_attributes": []
-      },
-
-      "actions": [],
-
-      "bonus_actions": [],
-    
-      "reactions": [],
     
       "legendary_actions": [],
-    
-      "special_abilities": [],
+  
+      "lair_actions": [],
+  
+      "regional_effects": [],
+
+      "species_related_spellcasting": {
+        "details": "K’thriss’s innate spellcasting ability is Charisma (spell save DC 14). He can innately cast the following spells, requiring no material component",
+        "spell_casting_ability": "charisma",
+        "spell_save": "DC 14",
+        "hit_advantages": "",
+        "spell_list": {
+          "spell_type": "innate",
+          "at_will_spells": ["dancing lights", "disguise self"],
+      
+          "other_spells": ["darkness", "faerie fire"],
+          "other_spells_details": "1/day each"
+        }
+      }, 
 
       "class_related_spellcasting": {
         "details": "K’thriss is a 5th-level spellcaster",
@@ -203,11 +197,13 @@
         }
       }
     }
-  ],
+  },
 
   "located": [],
 
   "affiliates": [],
+
+  "languages": ["celestial", "common", "elvish", "undercommon", "can read all writing"],
   
   "inventory": ["robe of stars"]
 }

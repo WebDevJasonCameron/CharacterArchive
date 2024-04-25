@@ -34,19 +34,49 @@
         "monster_tag": [],
         "enviornment": [],
         "alignment_according_to_source": "any",
-        "armor_class": 16,
-        "armor_class_details": "16 (studded leather)",
-        "hit_points": 66,
-        "hit_points_details": "66 (12d8 + 12)",
-        "speed": "30 ft.",
-        "senses": [
-          {"darkvision": "60"},
-          {"passive_perception": "14"}
-        ],
-        "proficiency": "",
         "challenge_rating": "4",
         "xp": 1100
       },
+  
+      "lore": {},
+  
+      "damage_resistances": [],
+  
+      "condition_immunities": []
+    }
+  },
+
+  "class": [
+    {
+      "title": "ranger",
+      "source": "d&d player's handbook 5e",
+      "game": "d&d 5e",
+      "class_level": "?",
+      "descriptions": [],
+      "lore": {},
+      "class_features": {
+        "level_attributes": []
+      },
+      "sub_class": {
+        "name": "",
+        "lore": {},
+        "level_attributes": []
+      }      
+    }
+  ],
+  
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 16,
+      "armor_class_details": "16 (studded leather)",
+      "hit_points": 66,
+      "hit_points_details": "66 (12d8 + 12)",
+      "speed": "30 ft.",
+      "senses": [
+        {"darkvision": "60"},
+        {"passive_perception": "14"}
+      ],
+      "proficiency": [],
   
       "ability_scores": {
         "str": 12,
@@ -62,7 +92,23 @@
         "cha": 10,
         "cha_mod": "+0"
       },
-      
+
+      "saving_throws": [
+        {"str": "+3"},
+        {"dex": "+6"}
+      ],
+  
+      "skills": [
+        {"athletics": "+3"},
+        {"insight": "+4"}, 
+        {"nature": "+3"}, 
+        {"perception": "+4"},
+        {"stealth": "+6"},
+        {"survival": "+4"}
+      ]
+    },
+  
+    "character_actions": {
       "actions": [
         {
           "title": "Scimitars",
@@ -100,12 +146,6 @@
   
       "reactions": [],
   
-      "legendary_actions": {},
-  
-      "lair_actions": [],
-  
-      "regional_effects": [],
-  
       "special_abilities": [
         {
           "title": "Fey Ancestry",
@@ -117,107 +157,62 @@
         }
       ],
   
-      "lore": {},
+      "legendary_actions": [],
   
-      "saving_throws": [
-        {"str": "+3"},
-        {"dex": "+6"}
-      ],
+      "lair_actions": [],
   
-      "skills": [
-        {"athletics": "+3"},
-        {"insight": "+4"}, 
-        {"nature": "+3"}, 
-        {"perception": "+4"},
-        {"stealth": "+6"},
-        {"survival": "+4"}
-      ],
-  
-      "damage_resistances": [],
-  
-      "condition_immunities": [],
-  
-      "languages": ["common", "dwarvish", "giant", "goblin"],
+      "regional_effects": [],
   
       "species_related_spellcasting": {
-          "details": "Innate Spellcasting. Môrgæn’s spellcasting ability is Intelligence. She can innately cast the following spells, requiring no material components",
-          "spell_casting_ability": "Intelligence",
-          "spell_save": "",
-          "hit_advantages": "",
-          "spell_list": {
-            "spell_type": "innate",
-            "at_will_spells": ["mage hand"],
+        "details": "Innate Spellcasting. Môrgæn’s spellcasting ability is Intelligence. She can innately cast the following spells, requiring no material components",
+        "spell_casting_ability": "Intelligence",
+        "spell_save": "",
+        "hit_advantages": "",
+        "spell_list": {
+          "spell_type": "innate",
+          "at_will_spells": ["mage hand"],
 
-            "other_spells": [],
-            "other_spells_details": ""
-          }
+          "other_spells": [],
+          "other_spells_details": ""
         }
-    }
-  }
-  ,
-
-  "class": [
-    {
-      "title": "ranger",
-      "source": "d&d player's handbook 5e",
-      "game": "d&d 5e",
-      "class_level": "?",
-      "descriptions": [],
-      "lore": {},
-      "class_features": {
-        "level_attributes": []
       },
-      "sub_class": {
-        "name": "",
-        "lore": {},
-        "level_attributes": []
-      },
+  
 
-      "actions": [],
+      "class_related_spellcasting": {
+        "details": "Môrgæn is a 9th-level spellcaster.",
+        "spell_casting_ability": "wisdom",
+        "spell_save": "DC 12",
+        "hit_advantages": "+4",
+        "spell_list": {
+          
+          "cantrip": [],
+          "cantrip_details": "at will",
 
-      "bonus_actions": [],
-    
-      "reactions": [],
-    
-      "legendary_actions": [],
-    
-      "special_abilities": [],
+          "1st_lvl": ["alarm", "animal friendship", "hunter's mark"],
+          "1st_lvl_slots": "4",
 
-      "class_related_spellcasting": [
-        {
-          "details": "Môrgæn is a 9th-level spellcaster.",
-          "spell_casting_ability": "wisdom",
-          "spell_save": "DC 12",
-          "hit_advantages": "+4",
-          "spell_list": {
-            
-            "cantrip": [],
-            "cantrip_details": "at will",
+          "2nd_lvl": ["pass without trace", "spike growth"],
+          "2nd_lvl_slots": "3",
 
-            "1st_lvl": ["alarm", "animal friendship", "hunter's mark"],
-            "1st_lvl_slots": "4",
+          "3rd_lvl": ["conjure animals"],
+          "3rd_lvl_slots": "2",
 
-            "2nd_lvl": ["pass without trace", "spike growth"],
-            "2nd_lvl_slots": "3",
+          "4th_lvl": [], 
+          "4th_lvl_slots": "",
 
-            "3rd_lvl": ["conjure animals"],
-            "3rd_lvl_slots": "2",
+          "5th_lvl": [],
+          "5th_lvl_slots": ""
 
-            "4th_lvl": [], 
-            "4th_lvl_slots": "",
-
-            "5th_lvl": [],
-            "5th_lvl_slots": ""
-
-          }
         }
-      ]
+      }
     }
-  ],
+  },
 
   "located": [],
 
   "affiliates": [],
 
+  "languages": ["common", "dwarvish", "giant", "goblin"],
+  
   "inventory": []
 }

@@ -31,108 +31,15 @@
         "monster_tag": [],
         "enviornment": [],
         "alignment_according_to_source": "any",
-        "armor_class": 18,
-        "armor_class_details": "18 (plate)",
-        "hit_points": 65,
-        "hit_points_details": "65 (10d8 + 20)",
-        "speed": "30 ft.",
-        "senses": [
-          {"darkvision": "60 ft"},
-          {"passive_perception": "17"}
-        ],
-        "proficiency": "",
         "challenge_rating": "5",
         "xp": 1800
       },
-      "ability_scores": {
-        "str": 16,
-        "str_mod": "+3",
-        "dex": 8,
-        "dex_mod": "-1",
-        "con": 14,
-        "con_mod": "+2",
-        "int": 11,
-        "int_mod": "+0",
-        "wis": 18, 
-        "wis_mod": "+4",
-        "cha": 12,
-        "cha_mod": "+1"
-      },
-
-      "actions": [{
-        "title": "Maul",
-        "description": {
-          "text": "",
-          "type": "Melee Weapon Attack",
-          "to_hit": "+6",
-          "reach": "5 ft.",
-          "target": 1,
-          "saving_thows": "",            
-          "hit": 10,
-          "hit_details": "10 (2d6 + 3)",
-          "damage_type": "bludgeoning",
-          "recharge": ""
-        }
-      }],
-
-      "bonus_actions": [],
-      
-      "reactions": [
-        {
-          "title": "War God’s Blessing",
-          "description": {
-            "text": "When a creature within 30 feet of Omin makes an attack roll, but before learning whether it hits or misses, Omin can grant the creature a +10 bonus to that roll.",
-            "type": "",
-            "to_hit": "",
-            "reach": "30 ft",
-            "target": 0,
-            "saving_thows": "",            
-            "hit": "",
-            "damage_type": "",
-            "recharge": "Recharges after a Short or Long Rest"
-          }
-        }],
-  
-      "legendary_actions": {},
-      "lair_actions": [],
-      "regional_effects": [],
-  
-      "special_abilities": [
-        {
-          "title": "Divine Strike",
-          "description": "Once on each of his turns when he hits a creature with a weapon attack, Omin can cause the attack to deal an extra 4 (1d8) damage of the same type dealt by the weapon."
-        },
-        {
-          "title": "Fey Ancestry",
-          "description": "Omin has advantage on saving throws against being charmed and magic can’t put him to sleep."
-        },
-        {
-          "title": "Multiattack",
-          "description": "Omin makes two attacks with his maul."
-        }
-      ],
   
       "lore": {},
   
-      "saving_throws": [
-        {"wis": "+7"},
-        {"cha": "+4"}
-      ],
-
-      "skills": [
-        {"deception": "+4"},
-        {"insight": "+7"},
-        {"intimidation": "+4"},
-        {"medicine": "+7"},
-        {"perception": "+7"},
-        {"persuasion": "+4"}
-      ],
-  
       "damage_resistances": [],
-      "condition_immunities": [],
-  
-      "languages": ["common", "dwarvish", "elvish", "goblin"],
-      "species_related_spellcasting": {}
+
+      "condition_immunities": []
     }
   },
 
@@ -151,49 +58,146 @@
         "name": "",
         "lore": {},
         "level_attributes": []
-      },
-
-      "actions": [],
-
-      "bonus_actions": [],
-    
-      "reactions": [],
-    
-      "legendary_actions": [],
-    
-      "special_abilities": [],
-
-      "class_related_spellcasting": {
-          "details": "Omin is a 9th-level spellcaster",
-          "spell_casting_ability": "wisdom",
-          "spell_save": "CD 15",
-          "hit_advantages": "+7",
-          "spell_list": {
-            
-            "cantrip": ["guidance", "sacred flame", "spare the dying", "thaumaturgy"],
-            "cantrip_details": "at will",
-
-            "1st_lvl": ["bless", "command", "divine favor", "shield of faith"],
-            "1st_lvl_slots": "4",
-
-            "2nd_lvl": ["enhance ability", "hold person", "magic weapon", "silence", "spiritual weapon"],
-            "2nd_lvl_slots": "3",
-
-            "3rd_lvl": ["beacon of hope", "crusader's mantle", "dispel magic", "mass healing word", "spirit guardians"],
-            "3rd_lvl_slots": "3",
-
-            "4th_lvl": ["death ward", "freedom of meovement", "locate creature", "stoneskin"], 
-            "4th_lvl_slots": "3",
-
-            "5th_lvl": ["dispel evil and good", "flame strike", "hold monster", "greater restoration", "legend lore"],
-            "5th_lvl_slots": "1"
-
-          }
-        }
+      }
     }
   ],
 
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 18,
+      "armor_class_details": "18 (plate)",
+      "hit_points": 65,
+      "hit_points_details": "65 (10d8 + 20)",
+      "speed": "30 ft.",
+      "senses": [
+        {"darkvision": "60 ft"},
+        {"passive_perception": "17"}
+      ],
+      "proficiency": [],
+  
+      "ability_scores": {
+        "str": 16,
+        "str_mod": "+3",
+        "dex": 8,
+        "dex_mod": "-1",
+        "con": 14,
+        "con_mod": "+2",
+        "int": 11,
+        "int_mod": "+0",
+        "wis": 18, 
+        "wis_mod": "+4",
+        "cha": 12,
+        "cha_mod": "+1"
+      },
+
+      "saving_throws": [
+        {"wis": "+7"},
+        {"cha": "+4"}
+      ],
+
+      "skills": [
+        {"deception": "+4"},
+        {"insight": "+7"},
+        {"intimidation": "+4"},
+        {"medicine": "+7"},
+        {"perception": "+7"},
+        {"persuasion": "+4"}
+      ]
+    },
+  
+    "character_actions": {
+      "actions": [{
+        "title": "Maul",
+        "description": {
+          "text": "",
+          "type": "Melee Weapon Attack",
+          "to_hit": "+6",
+          "reach": "5 ft.",
+          "target": 1,
+          "saving_thows": "",            
+          "hit": 10,
+          "hit_details": "10 (2d6 + 3)",
+          "damage_type": "bludgeoning",
+          "recharge": ""
+        }
+      }],
+  
+      "bonus_actions": [],
+
+      "reactions": [
+        {
+          "title": "War God’s Blessing",
+          "description": {
+            "text": "When a creature within 30 feet of Omin makes an attack roll, but before learning whether it hits or misses, Omin can grant the creature a +10 bonus to that roll.",
+            "type": "",
+            "to_hit": "",
+            "reach": "30 ft",
+            "target": 0,
+            "saving_thows": "",            
+            "hit": "",
+            "damage_type": "",
+            "recharge": "Recharges after a Short or Long Rest"
+          }
+        }],
+
+        "special_abilities": [
+          {
+            "title": "Divine Strike",
+            "description": "Once on each of his turns when he hits a creature with a weapon attack, Omin can cause the attack to deal an extra 4 (1d8) damage of the same type dealt by the weapon."
+          },
+          {
+            "title": "Fey Ancestry",
+            "description": "Omin has advantage on saving throws against being charmed and magic can’t put him to sleep."
+          },
+          {
+            "title": "Multiattack",
+            "description": "Omin makes two attacks with his maul."
+          }
+        ],
+  
+      "legendary_actions": [],
+  
+      "lair_actions": [],
+  
+      "regional_effects": [],
+  
+      "species_related_spellcasting": {},
+
+      "class_related_spellcasting": {
+        "details": "Omin is a 9th-level spellcaster",
+        "spell_casting_ability": "wisdom",
+        "spell_save": "CD 15",
+        "hit_advantages": "+7",
+        "spell_list": {
+          
+          "cantrip": ["guidance", "sacred flame", "spare the dying", "thaumaturgy"],
+          "cantrip_details": "at will",
+
+          "1st_lvl": ["bless", "command", "divine favor", "shield of faith"],
+          "1st_lvl_slots": "4",
+
+          "2nd_lvl": ["enhance ability", "hold person", "magic weapon", "silence", "spiritual weapon"],
+          "2nd_lvl_slots": "3",
+
+          "3rd_lvl": ["beacon of hope", "crusader's mantle", "dispel magic", "mass healing word", "spirit guardians"],
+          "3rd_lvl_slots": "3",
+
+          "4th_lvl": ["death ward", "freedom of meovement", "locate creature", "stoneskin"], 
+          "4th_lvl_slots": "3",
+
+          "5th_lvl": ["dispel evil and good", "flame strike", "hold monster", "greater restoration", "legend lore"],
+          "5th_lvl_slots": "1"
+
+        }
+      }
+    }
+  },
+
   "located": [],
+
   "affiliates": [],
+  
+  "languages": ["common", "dwarvish", "elvish", "goblin"],
+
   "inventory": []
 }

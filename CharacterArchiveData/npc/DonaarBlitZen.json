@@ -34,96 +34,17 @@
         "monster_tag": [],
         "enviornment": [],
         "alignment_according_to_source": "any",
-        
-        "armor_class": 18,
-        "armor_class_details": "18 (plate)",
-        "hit_points": 45,
-        "hit_points_details": "45 (7d8 + 14)",
-        "speed": "30 ft.",
-
-        "senses": [
-          {"passive_perception": "10"}
-        ],
-
-        "proficiency": "",
         "challenge_rating": "3",
         "xp": 700
       },
   
-      "ability_scores": {
-        "str": 17,
-        "str_mod": "+3",
-        "dex": 8,
-        "dex_mod": "-1",
-        "con": 14,
-        "con_mod": "+2",
-        "int": 10,
-        "int_mod": "+0",
-        "wis": 10, 
-        "wis_mod": "+0",
-        "cha": 16,
-        "cha_mod": "+3"
-      },
-
-      "actions": [ 
-        {
-          "title": "Acid Vomit",
-          "description": {
-            "text": "Donaar regurgitates acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 7 (2d6) acid damage on a failed save, or half as much damage on a successful one.",
-            "type": "Breadth Weapon",
-            "to_hit": "",
-            "reach": "30-foot line that is 5 feet wide",
-            "target": 0,
-            "saving_thows": "DC 12 Dexterity",
-            "hit": 7,
-            "hit_details": "7 (2d6)",
-            "damage_type": "acid",
-            "recharge": ""
-          }
-        }
-      ],
-  
-      "bonus_actions": [],
-  
-      "reactions": [],
-  
-      "legendary_actions": {},
-  
-      "lair_actions": [],
-  
-      "regional_effects": [],
-  
-      "special_abilities": [
-        {
-          "title": "Multiattack",
-          "description": "Donaar makes two attacks with his greatsword or his whip."
-        }
-      ],
-  
       "lore": {},
-  
-      "saving_throws": [
-        {"wis": "+2"},
-        {"cha": "+5"}
-      ],
-  
-      "skills": [
-        {"history": "+2"},
-        {"insight": "+2"},
-        {"intimidation": "+5"},
-        {"persuasion": "+5"}
-      ],
   
       "damage_resistances": ["acid"],
   
-      "condition_immunities": [],
-  
-      "languages": ["common", "draconic", "orc"],
-  
-      "species_related_spellcasting": {}
+      "condition_immunities": []
     }
-  }
-  ,
+  },
 
   "class": [
     {
@@ -140,10 +61,56 @@
         "name": "",
         "lore": {},
         "level_attributes": []
-      },
-      
+      }
+    }
+  ],
 
-      "actions": [
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 18,
+      "armor_class_details": "18 (plate)",
+      "hit_points": 45,
+      "hit_points_details": "45 (7d8 + 14)",
+      "speed": "30 ft.",
+
+      "senses": [
+        {"passive_perception": "10"}
+      ],
+
+      "proficiency": [],
+  
+      "ability_scores": {
+        "str": 17,
+        "str_mod": "+3",
+        "dex": 8,
+        "dex_mod": "-1",
+        "con": 14,
+        "con_mod": "+2",
+        "int": 10,
+        "int_mod": "+0",
+        "wis": 10, 
+        "wis_mod": "+0",
+        "cha": 16,
+        "cha_mod": "+3"
+      },
+
+        
+      "saving_throws": [
+        {"wis": "+2"},
+        {"cha": "+5"}
+      ],
+  
+      "skills": [
+        {"history": "+2"},
+        {"insight": "+2"},
+        {"intimidation": "+5"},
+        {"persuasion": "+5"}
+      ]
+  
+    },
+  
+    "character_actions": {
+      "actions": [ 
         {
           "title": "Greatsword",
           "description": {
@@ -173,6 +140,21 @@
             "damage_type": "slashing",
             "recharge": ""
           }
+        },
+        {
+          "title": "Acid Vomit",
+          "description": {
+            "text": "Donaar regurgitates acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 7 (2d6) acid damage on a failed save, or half as much damage on a successful one.",
+            "type": "Breadth Weapon",
+            "to_hit": "",
+            "reach": "30-foot line that is 5 feet wide",
+            "target": 0,
+            "saving_thows": "DC 12 Dexterity",
+            "hit": 7,
+            "hit_details": "7 (2d6)",
+            "damage_type": "acid",
+            "recharge": ""
+          }
         }
       ],
 
@@ -191,45 +173,58 @@
           }
         }
       ],
-
+    
       "reactions": [],
 
+      "special_abilities": [
+        {
+          "title": "Multiattack",
+          "description": "Donaar makes two attacks with his greatsword or his whip."
+        }
+      ],
+    
       "legendary_actions": [],
-
-      "special_abilities": [],
+  
+      "lair_actions": [],
+  
+      "regional_effects": [],
+  
+      "species_related_spellcasting": {},
 
       "class_related_spellcasting": {
-          "details": "Donaar is a 5th-level spellcaster.",
-          "spell_casting_ability": "charisma",
-          "spell_save": "DC 13",
-          "hit_advantages": " +5",
-          "spell_list": {
+        "details": "Donaar is a 5th-level spellcaster.",
+        "spell_casting_ability": "charisma",
+        "spell_save": "DC 13",
+        "hit_advantages": " +5",
+        "spell_list": {
 
-            "cantrip": ["command", "compelled due", "cure wounds", "wrathful smite"],
-            "cantrip_details": "at will",
-        
-            "1st_lvl": ["aid", "branding smite", "lesser restoration", "warding bond", "zone of truth"],
-            "1st_lvl_slots": "4",
-        
-            "2nd_lvl": [],
-            "2nd_lvl_slots": "2",
-        
-            "3rd_lvl": [],
-            "3rd_lvl_slots": "",
-        
-            "4th_lvl": [], 
-            "4th_lvl_slots": "",
-        
-            "5th_lvl": [],
-            "5th_lvl_slots": ""
-          }
+          "cantrip": ["command", "compelled due", "cure wounds", "wrathful smite"],
+          "cantrip_details": "at will",
+      
+          "1st_lvl": ["aid", "branding smite", "lesser restoration", "warding bond", "zone of truth"],
+          "1st_lvl_slots": "4",
+      
+          "2nd_lvl": [],
+          "2nd_lvl_slots": "2",
+      
+          "3rd_lvl": [],
+          "3rd_lvl_slots": "",
+      
+          "4th_lvl": [], 
+          "4th_lvl_slots": "",
+      
+          "5th_lvl": [],
+          "5th_lvl_slots": ""
         }
+      }
     }
-  ],
+  },
 
   "located": [],
 
   "affiliates": [],
+
+  "languages": ["common", "draconic", "orc"],
   
   "inventory": []
 }
