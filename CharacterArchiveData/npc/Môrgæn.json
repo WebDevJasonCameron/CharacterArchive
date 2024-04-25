@@ -161,6 +161,7 @@
       "title": "ranger",
       "source": "d&d player's handbook 5e",
       "game": "d&d 5e",
+      "class_level": "?",
       "descriptions": [],
       "class_features": {
         "level_attributes": []
