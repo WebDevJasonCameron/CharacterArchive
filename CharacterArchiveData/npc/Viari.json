@@ -124,6 +124,7 @@
             "hit": 9,
             "hit_details": "9 (1d8 + 5)",
             "damage_type": "piercing",
+            "time": "",
             "recharge": ""
           }
         },
@@ -139,6 +140,7 @@
             "hit": 9,
             "hit_details": "9 (1d8 + 5)",
             "damage_type": "piercing",
+            "time": "",
             "recharge": ""
           }
         },
@@ -154,6 +156,7 @@
             "hit": 7,
             "hit_details": "7 (1d4 + 5)",
             "damage_type": "piercing",
+            "time": "",
             "recharge": ""
           }
         }
@@ -173,6 +176,7 @@
             "saving_thows": "",            
             "hit": "",
             "damage_type": "",
+            "time": "",
             "recharge": ""
           }
         }

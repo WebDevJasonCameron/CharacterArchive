@@ -119,6 +119,7 @@
             "hit": 7,
             "hit_details": "7 (1d6 + 4) or 8 (1d8 + 4) if used with two hands",
             "damage_type": "bludgeoning",
+            "time": "",
             "recharge": ""
           }
         },
@@ -134,6 +135,7 @@
             "hit": 6,
             "hit_details": "6 (1d6 + 3)",
             "damage_type": "bludgeoning, magical",
+            "time": "",
             "recharge": ""
           }
         }
@@ -151,6 +153,7 @@
             "saving_thows": "",            
             "hit": "",
             "damage_type": "",
+            "time": "",
             "recharge": ""
           }
         }
@@ -168,6 +171,7 @@
             "saving_thows": "",            
             "hit": "",
             "damage_type": "",
+            "time": "",
             "recharge": ""
           }
         }

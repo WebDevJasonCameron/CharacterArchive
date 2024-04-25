@@ -10,6 +10,7 @@
     "hit": 0,
     "hit_details": "",
     "damage_type": "",
+    "time": "",
     "recharge": ""
   }
 }
