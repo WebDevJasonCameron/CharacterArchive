@@ -11,58 +11,12 @@
       "monster_tag": [],
       "enviornment": [],
       "alignment_according_to_source": "",
-      "armor_class": 0,
-      "armor_class_details": "",
-      "hit_points": 0,
-      "hit_points_details": "",
-      "speed": "",
-      "senses": [],
-      "proficiency": "",
       "challenge_rating": "",
       "xp": 0
     },
 
-    "ability_scores": {
-      "str": 0,
-      "str_mod": "",
-      "dex": 0,
-      "dex_mod": "",
-      "con": 0,
-      "con_mod": "",
-      "int": 0,
-      "int_mod": "",
-      "wis": 0, 
-      "wis_mod": "",
-      "cha": 0,
-      "cha_mod": ""
-    },
-    
-    "actions": [],
-
-    "bonus_actions": [],
-
-    "reactions": [],
-
-    "legendary_actions": {},
-
-    "lair_actions": [],
-
-    "regional_effects": [],
-
-    "special_abilities": [],
-
     "lore": {},
-
-    "saving_throws": [],
-
-    "skills": [],
-
     "damage_resistances": [],
-
-    "condition_immunities": [],
-
-    "languages": [],
-
-    "species_related_spellcasting": []
+    "condition_immunities": []
   }
 }

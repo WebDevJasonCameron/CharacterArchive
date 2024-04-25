@@ -12,17 +12,5 @@
     "name": "",
     "lore": {},
     "level_attributes": []
-  },
-
-  "actions": [],
-
-  "bonus_actions": [],
-
-  "reactions": [],
-
-  "legendary_actions": [],
-
-  "special_abilities": [],
-
-  "class_related_spellcasting": {}
+  }
 }

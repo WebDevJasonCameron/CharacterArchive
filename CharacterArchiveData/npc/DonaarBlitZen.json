@@ -34,14 +34,17 @@
         "monster_tag": [],
         "enviornment": [],
         "alignment_according_to_source": "any",
+        
         "armor_class": 18,
         "armor_class_details": "18 (plate)",
         "hit_points": 45,
         "hit_points_details": "45 (7d8 + 14)",
         "speed": "30 ft.",
+
         "senses": [
           {"passive_perception": "10"}
         ],
+
         "proficiency": "",
         "challenge_rating": "3",
         "xp": 700
@@ -62,37 +65,7 @@
         "cha_mod": "+3"
       },
 
-      "actions": [
-        {
-          "title": "Greatsword",
-          "description": {
-            "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. Whenever Donaar rolls a 1 or 2 on a damage die, he can reroll the die and must use the new roll.",
-            "type": "Melee Weapon Attack",
-            "to_hit": "+5",
-            "reach": "5 ft.",
-            "target": 1,
-            "saving_thows": "",            
-            "hit": 10,
-            "hit_details": "10 (2d6 + 3)",
-            "damage_type": "slashing",
-            "recharge": ""
-          }
-        },
-        {
-          "title": "Whip",
-          "description": {
-            "text": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d4 + 3) slashing damage.",
-            "type": "Melee Weapon Attack",
-            "to_hit": "+5",
-            "reach": "10 ft.",
-            "target": 1,
-            "saving_thows": "",            
-            "hit": 5,
-            "hit_details": "5 (1d4 + 3)",
-            "damage_type": "slashing",
-            "recharge": ""
-          }
-        }, 
+      "actions": [ 
         {
           "title": "Acid Vomit",
           "description": {
@@ -110,21 +83,7 @@
         }
       ],
   
-      "bonus_actions": [
-        {
-          "title": "Champion Challenge",
-          "description": {
-            "text": "As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a DC 13 Wisdom saving throw. On a failure, a creature can’t willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is incapacitated or dies, or if the creature is moved more than 30 feet away from him.",
-            "type": "",
-            "to_hit": "",
-            "reach": "30 ft.",
-            "target": 0,
-            "hit": "",
-            "damage_type": "",
-            "recharge": "Recharges after a Short or Long Rest"
-          }
-        }
-      ],
+      "bonus_actions": [],
   
       "reactions": [],
   
@@ -184,9 +143,54 @@
       },
       
 
-      "actions": [],
+      "actions": [
+        {
+          "title": "Greatsword",
+          "description": {
+            "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. Whenever Donaar rolls a 1 or 2 on a damage die, he can reroll the die and must use the new roll.",
+            "type": "Melee Weapon Attack",
+            "to_hit": "+5",
+            "reach": "5 ft.",
+            "target": 1,
+            "saving_thows": "",            
+            "hit": 10,
+            "hit_details": "10 (2d6 + 3)",
+            "damage_type": "slashing",
+            "recharge": ""
+          }
+        },
+        {
+          "title": "Whip",
+          "description": {
+            "text": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d4 + 3) slashing damage.",
+            "type": "Melee Weapon Attack",
+            "to_hit": "+5",
+            "reach": "10 ft.",
+            "target": 1,
+            "saving_thows": "",            
+            "hit": 5,
+            "hit_details": "5 (1d4 + 3)",
+            "damage_type": "slashing",
+            "recharge": ""
+          }
+        }
+      ],
 
-      "bonus_actions": [],
+      "bonus_actions": [
+        {
+          "title": "Champion Challenge",
+          "description": {
+            "text": "As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a DC 13 Wisdom saving throw. On a failure, a creature can’t willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is incapacitated or dies, or if the creature is moved more than 30 feet away from him.",
+            "type": "",
+            "to_hit": "",
+            "reach": "30 ft.",
+            "target": 0,
+            "hit": "",
+            "damage_type": "",
+            "recharge": "Recharges after a Short or Long Rest"
+          }
+        }
+      ],
 
       "reactions": [],
 
