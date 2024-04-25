@@ -178,7 +178,8 @@
       },
   
 
-      "class_related_spellcasting": {
+      "class_related_spellcasting": [{
+        "spells_class": "range",
         "details": "Môrgæn is a 9th-level spellcaster.",
         "spell_casting_ability": "wisdom",
         "spell_save": "DC 12",
@@ -204,7 +205,7 @@
           "5th_lvl_slots": ""
 
         }
-      }
+      }]
     }
   },
 
