@@ -1,6 +1,5 @@
 {
   "title": "",
-  "specialized_species": "",
   "source": "",
   "game": "",
   "images": [],
@@ -37,6 +36,7 @@
       "cha": 0,
       "cha_mod": ""
     },
+    
     "actions": [],
 
     "bonus_actions": [],
@@ -51,7 +51,7 @@
 
     "special_abilities": [],
 
-    "lore": [],
+    "lore": {},
 
     "saving_throws": [],
 
@@ -63,6 +63,6 @@
 
     "languages": [],
 
-    "species_related_spellcasting": {}
+    "species_related_spellcasting": []
   }
 }

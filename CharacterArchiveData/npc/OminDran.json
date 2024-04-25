@@ -112,7 +112,7 @@
         }
       ],
   
-      "lore": [],
+      "lore": {},
   
       "saving_throws": [
         {"wis": "+7"},
@@ -143,13 +143,26 @@
       "game": "d&d 5e",
       "class_level": "?",
       "descriptions": [],
+      "lore": {},
       "class_features": {
         "level_attributes": []
       },
       "sub_class": {
         "name": "",
+        "lore": {},
         "level_attributes": []
       },
+
+      "actions": [],
+
+      "bonus_actions": [],
+    
+      "reactions": [],
+    
+      "legendary_actions": [],
+    
+      "special_abilities": [],
+
       "class_related_spellcasting": {
           "details": "Omin is a 9th-level spellcaster",
           "spell_casting_ability": "wisdom",

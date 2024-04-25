@@ -92,7 +92,7 @@
   
       "special_abilities": [],
   
-      "lore": [],
+      "lore": {},
   
       "saving_throws": [
         {"int": "+5"},
@@ -122,14 +122,27 @@
       "source": "d&d player's handbook 5e",
       "game": "d&d 5e",
       "class_level": "?",
+      "lore": {},
       "descriptions": [],
       "class_features": {
         "level_attributes": []
       },
       "sub_class": {
         "name": "",
+        "lore": {},
         "level_attributes": []
       },
+
+      "actions": [],
+
+      "bonus_actions": [],
+
+      "reactions": [],
+
+      "legendary_actions": [],
+
+      "special_abilities": [],
+
       "class_related_spellcasting": {
           "details": "Flabbergast is a 9th-level spellcaster.",
           "spell_casting_ability": "intelligence",

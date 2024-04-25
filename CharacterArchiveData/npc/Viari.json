@@ -147,7 +147,7 @@
         }
       ],
   
-      "lore": [],
+      "lore": {},
   
       "saving_throws": [
         {"dex": "+8"},
@@ -180,12 +180,14 @@
       "source": "d&d player's handbook 5e",
       "game": "d&d 5e",
       "class_level": "?",
+      "lore": {},
       "descriptions": [],
       "class_features": {
         "level_attributes": []
       },
       "sub_class": {
         "name": "",
+        "lore": {},
         "level_attributes": []
       },
       "class_related_spellcasting": {}
