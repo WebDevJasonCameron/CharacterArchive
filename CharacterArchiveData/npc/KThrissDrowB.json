@@ -2,10 +2,13 @@
   "npc_name": "K'Thriss Drow'B",  
   "phonetic-name": "k th-riss drow b",
   "character_source": "acquisitions incorporated",
+
   "sex": "m",
   "alignment": "chaotic neutral",
   "total_level": "?",
   "avatar_img": "https://www.dndbeyond.com/avatars/thumbnails/6221/800/400/517/636953237219335109.png",
+
+  "titles_and_professions": [],
 
   "background": {
     "summary": "",
@@ -199,6 +202,8 @@
       }]
     }
   },
+
+  "details": {},
 
   "located": [],
 

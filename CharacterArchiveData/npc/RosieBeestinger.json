@@ -2,10 +2,13 @@
   "npc_name": "Rosie Beestinger",  
   "phonetic-name": "rose-ee bee-sting-er",
   "character_source": "acquisitions incorporated",
+
   "sex": "f",
   "alignment": "chaotic good",
   "total_level": "?",
   "avatar_img": "https://www.dndbeyond.com/avatars/thumbnails/6221/810/320/413/636953238397675166.png",
+
+  "titles_and_professions": [],
 
   "background": {
     "summary": "",
@@ -212,6 +215,8 @@
       "class_related_spellcasting": []
     }
   },
+
+  "details": {},
 
   "located": [],
 

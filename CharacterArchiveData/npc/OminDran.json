@@ -2,10 +2,14 @@
   "npc_name": "Omin Dran",  
   "phonetic-name": "Omen Dran",
   "character_source": "acquisitions incorporated",
+
   "sex": "m",
   "alignment": "lawful neutral",
   "total_level": "?",
   "avatar_img": "https://www.dndbeyond.com/avatars/6221/765/636953233676878157.png",
+
+  "titles_and_professions": [],
+
   "background": {
     "summary": "",
     "their_story": "Ominifis Hereward Dran spent his formative years in the small waystop of Red Larch, where his mother, Prophetess, ran a popular inn and restaurant. In the brief periods of respite afforded by working the family business, Omin and his sisters, Auspicia and Portentia, were wont to wander the hills and trails around town, dreaming of adventure. But adventure of the wrong kind came calling for the trio one day, when an underground ruin they had often explored -- actually a creature called the Wandering Crypt — took Auspicia from the world. Omin Dran built the organization called Acquisitions Incorporated to facilitate and expand his quest to find his true sister, at least in part. For despite his unprecedented success in establishing the market for franchised adventuring across the Sword Coast and beyond, Omin’s full measure eludes most people. He is known to be a worshiper of Tymora, ruthless in matters of business, feckless in matters of love, and hopeless in games of chance. Omin is also often accused of being one of the Masked Lords of Waterdeep, though this bit of fancy earns little more than a chuckle in response. And even if the rumor were true, Omin would never leverage such a position for greater financial gain and power. Because that would be wrong …",
@@ -18,6 +22,7 @@
     "skills": "",
     "relationships": ["Auspicia", "Portentia"]
   },
+
   "species": {
     "title": "half-elf",
     "specialized_species": "",
@@ -188,11 +193,12 @@
 
           "5th_lvl": ["dispel evil and good", "flame strike", "hold monster", "greater restoration", "legend lore"],
           "5th_lvl_slots": "1"
-
         }
       }]
     }
   },
+
+  "details": {},
 
   "located": [],
 
