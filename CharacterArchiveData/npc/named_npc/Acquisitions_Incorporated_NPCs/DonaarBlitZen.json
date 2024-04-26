@@ -128,7 +128,8 @@
             "hit_details": "10 (2d6 + 3)",
             "damage_type": "slashing",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         },
         {
@@ -144,7 +145,8 @@
             "hit_details": "5 (1d4 + 3)",
             "damage_type": "slashing",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         },
         {
@@ -160,7 +162,8 @@
             "hit_details": "7 (2d6)",
             "damage_type": "acid",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],
@@ -178,7 +181,8 @@
             "hit_details": "",
             "damage_type": "",
             "time": "",
-            "recharge": "Recharges after a Short or Long Rest"
+            "recharge": "Recharges after a Short or Long Rest",
+            "sequential_actions": []
           }
         }
       ],

@@ -125,7 +125,8 @@
             "hit_details": "7 (1d6 + 4)",
             "damage_type": "slashing",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         },
         {
@@ -141,7 +142,8 @@
             "hit_details": "7 (1d8 + 3)",
             "damage_type": "piercing",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],
@@ -160,7 +162,8 @@
             "hit_details": "",
             "damage_type": "magical",
             "time": "3 hours or until she reverts to her normal form as a bonus action",
-            "recharge": "Recharges after a Short or Long rest"
+            "recharge": "Recharges after a Short or Long rest",
+            "sequential_actions": []
           }
         },
         {
@@ -175,7 +178,8 @@
             "hit": "",
             "damage_type": "",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],

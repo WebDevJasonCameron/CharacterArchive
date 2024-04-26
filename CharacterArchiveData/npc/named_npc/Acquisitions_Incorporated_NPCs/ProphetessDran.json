@@ -137,7 +137,8 @@
             "hit_details": "9 (2d6 + 2)",
             "damage_type": "bludgeoning",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],
@@ -156,7 +157,8 @@
             "hit_details": "extra 10 (3d6) or higher, the extra damage increases by 1d6 for each level above 1st.",
             "damage_type": "",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],

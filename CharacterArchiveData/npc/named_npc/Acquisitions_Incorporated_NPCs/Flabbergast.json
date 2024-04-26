@@ -124,7 +124,8 @@
             "hit_details": "4 (1d4 + 2)",
             "damage_type": "",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],

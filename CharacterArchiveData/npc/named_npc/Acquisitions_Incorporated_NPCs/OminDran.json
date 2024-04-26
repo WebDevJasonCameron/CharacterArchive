@@ -125,7 +125,8 @@
           "hit_details": "10 (2d6 + 3)",
           "damage_type": "bludgeoning",
           "time": "",
-          "recharge": ""
+          "recharge": "",
+          "sequential_actions": []
         }
       }],
   
@@ -144,7 +145,8 @@
             "hit": "",
             "damage_type": "",
             "time": "",
-            "recharge": "Recharges after a Short or Long Rest"
+            "recharge": "Recharges after a Short or Long Rest",
+            "sequential_actions": []
           }
         }],
 

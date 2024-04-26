@@ -121,7 +121,8 @@
             "hit_details": "7 (1d6 + 4) or 8 (1d8 + 4) if used with two hands",
             "damage_type": "bludgeoning",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         },
         {
@@ -137,7 +138,8 @@
             "hit_details": "6 (1d6 + 3)",
             "damage_type": "bludgeoning, magical",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],
@@ -156,7 +158,8 @@
             "hit_details": "",
             "damage_type": "",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],
@@ -174,7 +177,8 @@
             "hit": "",
             "damage_type": "",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],

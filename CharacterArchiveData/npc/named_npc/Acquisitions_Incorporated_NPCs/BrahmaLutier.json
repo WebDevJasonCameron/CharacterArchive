@@ -119,7 +119,8 @@
             "hit_details": "5 (1d6 + 2)",
             "damage_type": "slashing",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         },
         {
@@ -135,7 +136,8 @@
             "hit_details": "",
             "damage_type": "",
             "time": "1 minute, 1 hour",
-            "recharge": "3 per day"
+            "recharge": "3 per day",
+            "sequential_actions": []
           }
         }
       ],
@@ -154,7 +156,8 @@
             "hit_details": "",
             "damage_type": "",
             "time": "until the start of Brahma’s next turn",
-            "recharge": "2 per Day"
+            "recharge": "2 per Day",
+            "sequential_actions": []
           }
         }
       ],

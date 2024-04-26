@@ -102,7 +102,8 @@
             "hit_details": "",
             "damage_type": "slashing",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],

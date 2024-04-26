@@ -127,7 +127,8 @@
             "hit_details": "7 (1d6 + 4)",
             "damage_type": "slashing",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         },
         {
@@ -143,7 +144,8 @@
             "hit_details": "8 (1d8 + 4)",
             "damage_type": "piercing",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],

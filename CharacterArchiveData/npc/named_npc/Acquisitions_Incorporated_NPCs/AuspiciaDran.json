@@ -118,7 +118,8 @@
             "hit_details": "7 (1d8 + 3) or 8 (1d10 + 3) if used with two hands",
             "damage_type": "slashing",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         },
         {
@@ -134,7 +135,8 @@
             "hit_details": "6 (1d8 + 2)",
             "damage_type": "piercing",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],

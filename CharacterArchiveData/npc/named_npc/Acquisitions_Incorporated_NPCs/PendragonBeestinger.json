@@ -118,7 +118,8 @@
             "hit_details": "5 (1d6 + 2)",
             "damage_type": "piercing",
             "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": []
           }
         }
       ],
@@ -137,7 +138,8 @@
             "hit_details": "",
             "damage_type": "",
             "time": "",
-            "recharge": "1 per day"
+            "recharge": "1 per day",
+            "sequential_actions": []
           }
         }
       ],
