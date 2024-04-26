@@ -1,0 +1,150 @@
+{
+  "npc_name": "Ligotti",  
+  "phonetic-name": "li-goe-tee",
+  "character_source": "acquisitions incorporated",
+
+  "sex": "",
+  "alignment": "",
+  "total_level": "",
+  "avatar_img": "",
+
+  "titles_and_professions": [],
+
+  "background": {
+    "summary": "",
+    "their_story": "K’thriss’s familiar, Ligotti, is a semisapient remnant of a tentacle attack, spawned by the warlock’s intercessor patron god. Though entirely alien to the material plane (and often appearing in the form of a staff), Ligotti uses the stat block of a poisonous snake with changes",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "flaws": "",
+    "skills": "",
+    "relationships": ["K’thriss Drow’b"]
+  },
+
+  "species": {
+    "title": "poisonous snake",
+    "specialized_species": "",  
+    "source": "d&d player's handbook 5e",
+    "game": "d&d 5e",
+    "images": [],
+  
+    "template": {
+      "attributes": {
+        "size": "tiny",
+        "creature_type": "beast",
+        "monster_tag": ["misc creature"],
+        "enviornment": ["coastal", "desert", "forest", "grassland", "hill", "swamp"],
+        "alignment_according_to_source": "unaligned",
+        "challenge_rating": "1/8",
+        "xp": 25
+      },
+  
+      "lore": {},
+      "damage_resistances": [],
+      "condition_immunities": []
+    }
+  },
+
+  "class": [],
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 0,
+      "armor_class_details": "", 
+      "hit_points": 0,
+      "hit_points_details": "",
+      "speed": "",
+      "senses": [
+        {"blindsight": "10 ft."},
+        {"passive_perception": "10"}
+      ],
+      "proficiency": ["+2"],
+  
+      "ability_scores": {
+        "str": 2,
+        "str_mod": "-4",
+        "dex": 16,
+        "dex_mod": "+3",
+        "con": 11,
+        "con_mod": "+0",
+        "int": 12,
+        "int_mod": "+2",
+        "wis": 10, 
+        "wis_mod": "+0",
+        "cha": 3,
+        "cha_mod": "-4"
+      },
+  
+      "saving_thows": [],
+  
+      "skills": []
+  
+    },
+  
+    "character_actions": {
+      "actions": [
+        {
+          "title": "Bite",
+          "description": {
+            "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
+            "type": "Melee Weapon Attack",
+            "to_hit": "+5",
+            "reach": "5 ft.",
+            "target": 1,
+            "saving_thows": "",    
+            "hit": 1,
+            "hit_details": "",
+            "damage_type": "piercing",
+            "time": "",
+            "recharge": ""
+          }
+        },
+        {
+          "title": "Bite Poison",
+          "description": {
+            "text": "Completed during a Bite Attack Action. The target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.",
+            "type": "Melee Weapon Attack",
+            "to_hit": "",
+            "reach": "",
+            "target": 0,
+            "saving_thows": "DC 10 Constitution",    
+            "hit": 5,
+            "hit_details": "5 (2d4) or half as much damage on a successful save",
+            "damage_type": "poison",
+            "time": "",
+            "recharge": ""
+          }
+        }
+      ],
+  
+      "bonus_actions": [],
+  
+      "reactions": [],
+  
+      "special_abilities": [],
+  
+      "legendary_actions": [],
+  
+      "lair_actions": [],
+  
+      "regional_effects": [],
+  
+      "species_related_spellcasting": {},
+  
+      "class_related_spellcasting": []
+    }
+  },
+
+  "details": {},
+
+  "located": [],
+
+  "affiliates": [],
+
+  "languages": ["telepathy out to a range of 30 ft."],
+  
+  "inventory": []
+}
