@@ -99,23 +99,25 @@
             "hit_details": "",
             "damage_type": "piercing",
             "time": "",
-            "recharge": ""
-          }
-        },
-        {
-          "title": "Bite Poison",
-          "description": {
-            "text": "Completed during a Bite Attack Action. The target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.",
-            "type": "Melee Weapon Attack",
-            "to_hit": "",
-            "reach": "",
-            "target": 0,
-            "saving_thows": "DC 10 Constitution",    
-            "hit": 5,
-            "hit_details": "5 (2d4) or half as much damage on a successful save",
-            "damage_type": "poison",
-            "time": "",
-            "recharge": ""
+            "recharge": "",
+            "sequential_actions": [
+              {
+                "title": "Bite Poison",
+                "description": {
+                  "text": "Completed during a Bite Attack Action. The target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.",
+                  "type": "Melee Weapon Attack",
+                  "to_hit": "",
+                  "reach": "",
+                  "target": 0,
+                  "saving_thows": "DC 10 Constitution",    
+                  "hit": 5,
+                  "hit_details": "5 (2d4) or half as much damage on a successful save",
+                  "damage_type": "poison",
+                  "time": "",
+                  "recharge": ""
+                }
+              }
+            ]
           }
         }
       ],

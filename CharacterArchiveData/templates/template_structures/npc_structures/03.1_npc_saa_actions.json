@@ -12,6 +12,6 @@
     "damage_type": "",
     "time": "",
     "recharge": "",
-    "sequential_actions": {}
+    "sequential_actions": []
   }
 }

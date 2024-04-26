@@ -10,6 +10,7 @@
     "hit": "",
     "damage_type": "",
     "time": "",
-    "recharge": ""
+    "recharge": "",
+    "sequential_actions": []
   }
 }
