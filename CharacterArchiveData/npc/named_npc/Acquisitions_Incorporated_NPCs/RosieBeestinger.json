@@ -224,9 +224,9 @@
 
   "details": {},
 
-  "located": [],
+  "located": ["Red Larch, residing at the Dran & Courtier inn"],
 
-  "affiliates": ["Acquisitions Incorporated"],
+  "affiliates": ["Acquisitions Incorporated", "The \"C\" Team"],
   
   "languages": ["common", "draconic", "elvish", "halfling"],
   

@@ -8,7 +8,9 @@
   "total_level": "?",
   "avatar_img": "https://www.dndbeyond.com/avatars/thumbnails/6221/770/350/452/636953234295220419.png",
   
-  "titles_and_professions": [],
+  "titles_and_professions": [
+    {"full_name": "James Winifred Darkmagic III"}
+  ],
 
   "background": {
     "summary": "",
