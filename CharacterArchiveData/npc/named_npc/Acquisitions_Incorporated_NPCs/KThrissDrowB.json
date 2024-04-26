@@ -21,7 +21,10 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": ["Ligotti"]
+    "relationships": [
+      {"familiars": ["Ligotti"]},
+      {"coworkers": ["Walnut Dangrass", "Donaar Blit'zen", "Rosie Beestinger"]}
+    ]
   },
 
   "species": {

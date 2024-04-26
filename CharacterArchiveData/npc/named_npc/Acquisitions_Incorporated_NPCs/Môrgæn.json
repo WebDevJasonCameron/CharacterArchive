@@ -55,7 +55,7 @@
       "title": "ranger",
       "source": "d&d player's handbook 5e",
       "game": "d&d 5e",
-      "class_level": "?",
+      "class_level": "",
       "descriptions": [],
       "lore": {},
       "class_features": {
@@ -219,7 +219,7 @@
 
   "details": {},
 
-  "located": [],
+  "located": ["forest"],
 
   "affiliates": ["Acquisitions Incorporated"],
 

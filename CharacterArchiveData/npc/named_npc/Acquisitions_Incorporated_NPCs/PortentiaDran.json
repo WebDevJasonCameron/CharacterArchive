@@ -21,7 +21,11 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": []
+    "relationships": [
+      {"sisters": ["Auspicia Dran"]},
+      {"brothers": ["Omin Dran"]},
+      {"mother": ["Prophetess Dran"]}
+    ]
   },
 
   "species": {

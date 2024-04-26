@@ -21,7 +21,10 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": ["Chronaar"]
+    "relationships": [
+      {"god_daughters": ["Chronaar"]},
+      {"coworkers": ["Walnut Dangrass", "Rosie Beestinger", "K'thriss Drow'd"]}
+    ]
   },
 
   "species": {

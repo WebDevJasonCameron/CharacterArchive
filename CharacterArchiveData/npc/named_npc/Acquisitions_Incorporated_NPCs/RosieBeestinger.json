@@ -8,7 +8,9 @@
   "total_level": "?",
   "avatar_img": "https://www.dndbeyond.com/avatars/thumbnails/6221/810/320/413/636953238397675166.png",
 
-  "titles_and_professions": [],
+  "titles_and_professions": [
+    {"nicknames": ["Grandmother Night"]}
+  ],
 
   "background": {
     "summary": "",
@@ -21,7 +23,10 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": []
+    "relationships": [
+      {"adopted_sons": ["Pendragon Beestinger"]},
+      {"coworkers": ["Walnut Dangrass", "Donaar Blit'zen", "K'thriss Drow'd"]}
+    ]
   },
 
   "species": {

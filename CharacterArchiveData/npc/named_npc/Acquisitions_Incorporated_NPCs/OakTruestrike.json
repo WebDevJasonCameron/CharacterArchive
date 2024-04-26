@@ -21,7 +21,10 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": []
+    "relationships": [
+      {"coworkers": ["Phoenix Anvil", "Pendragon Beestinger"]},
+      {"x_coworkers": "Brahma Lutier"}
+    ]
   },
 
   "species": {
@@ -194,7 +197,7 @@
 
   "located": [],
 
-  "affiliates": ["Acquisitions Incorporated"],
+  "affiliates": ["Acquisitions Incorporated", "The \"B\" Team"],
 
   "languages": ["common"],
   

@@ -21,7 +21,9 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": ["K’thriss Drow’b"]
+    "relationships": [
+      {"owners": ["K’thriss Drow’b"]}
+    ]
   },
 
   "species": {

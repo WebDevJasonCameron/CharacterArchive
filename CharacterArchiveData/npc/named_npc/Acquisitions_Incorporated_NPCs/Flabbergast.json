@@ -21,7 +21,10 @@
     "bonds": "",
     "flaws": "",
     "skills": "diplomat",
-    "relationships": ["Mister Snibbly", "Portentia Dran"]
+    "relationships": [
+      {"familiars": ["Mister Snibbly"]}, 
+      {"x_employer": ["Portentia Dran"]}
+    ]
   },
 
   "species": {

@@ -21,7 +21,9 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": ["Omin Dran"]
+    "relationships": [
+      {"brothers": ["Omin Dran"]}
+    ]
   },
 
   "species": {

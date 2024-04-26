@@ -1,6 +1,6 @@
 {
-  "npc_name": "",  
-  "phonetic-name": "",
+  "npc_name": "Prophetess Dran",  
+  "phonetic-name": "prof-fet-ess dran",
   "character_source": "acquisitions incorporated",
 
   "sex": "f",
@@ -21,7 +21,10 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": []
+    "relationships": [
+      {"daughters": ["Portentia Dran", "Auspicia Dran"]},
+      {"sons": ["Omin Dran"]}
+    ]
   },
 
   "species": {
@@ -214,7 +217,7 @@
 
   "details": {},
 
-  "located": ["Village of Red Larch"],
+  "located": ["Red Larch Village", "Dran & Courtier Inn"],
 
   "affiliates": ["Acquisitions Incorporated"],
 

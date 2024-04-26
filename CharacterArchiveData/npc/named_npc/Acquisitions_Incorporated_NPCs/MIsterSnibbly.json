@@ -21,7 +21,9 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": ["Flabbergast"]
+    "relationships": [
+      {"owners": ["Flabbergast"]}
+    ]
   },
 
   "species": {

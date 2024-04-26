@@ -21,7 +21,9 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": []
+    "relationships": [
+      {"coworkers": ["Rosie Beestinger", "Donaar Blit'zen", "K'thriss Drow'd"]}
+    ]
   },
 
   "species": {

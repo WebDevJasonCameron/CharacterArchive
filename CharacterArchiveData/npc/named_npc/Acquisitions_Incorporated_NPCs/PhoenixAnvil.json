@@ -20,7 +20,10 @@
     "secrets": "",
     "bonds": "",
     "skills": "",
-    "relationships": []
+    "relationships": [
+      {"coworkers": ["Oak Truestrike", "Pendragon Beestinger"]},
+      {"x_coworkers": ["Brahma Lutier"]}
+    ]
   },
 
   "species": {
@@ -198,7 +201,7 @@
 
   "located": [],
 
-  "affiliates": ["Acquisitions Incorporated"],
+  "affiliates": ["Acquisitions Incorporated", "The \"B\" Team"],
 
   "languages": ["common", "elvish"],
   

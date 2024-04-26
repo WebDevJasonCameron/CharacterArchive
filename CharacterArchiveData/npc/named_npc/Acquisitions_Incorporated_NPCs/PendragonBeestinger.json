@@ -21,7 +21,11 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": []
+    "relationships": [
+      {"mother": ["Rosie Beestinger"]},
+      {"coworkers": ["Oak Truestrike", "Oak Truestrike"]},
+      {"x_coworkers": "Brahma Lutier"}
+    ]
   },
 
   "species": {
@@ -192,7 +196,7 @@
 
   "located": [],
 
-  "affiliates": ["Acquisitions Incorporated"],
+  "affiliates": ["Acquisitions Incorporated", "The \"B\" Team"],
 
   "languages": ["common", "draconic", "elvish", "halfling"],
   

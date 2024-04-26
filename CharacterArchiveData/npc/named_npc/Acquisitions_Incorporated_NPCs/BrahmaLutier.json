@@ -21,7 +21,10 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": ["Audra Courtier", "Oak Truestrike"]
+    "relationships": [
+      {"tutors": ["Audra Courtier"]}, 
+      {"x_friends": ["Oak Truestrike", "Phoenix Anvil", "Pendragon Beestinger"]}
+    ]
   },
 
   "species": {
@@ -215,7 +218,7 @@
 
   "located": [],
 
-  "affiliates": ["Acquisitions Incorporated"],
+  "affiliates": ["Acquisitions Incorporated", "The \"B\" Team"],
 
   "languages": ["common", "elvish"],
   

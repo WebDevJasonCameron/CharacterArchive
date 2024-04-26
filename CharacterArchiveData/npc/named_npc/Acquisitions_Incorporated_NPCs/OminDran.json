@@ -8,7 +8,9 @@
   "total_level": "?",
   "avatar_img": "https://www.dndbeyond.com/avatars/6221/765/636953233676878157.png",
 
-  "titles_and_professions": [],
+  "titles_and_professions": [
+    {"full_name": "Ominifis Hereward Dran"}
+  ],
 
   "background": {
     "summary": "",
@@ -21,7 +23,10 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": ["Auspicia", "Portentia"]
+    "relationships": [
+      {"sisters": ["Auspicia Dran", "Portentia Dran"]}, 
+      {"mother": ["Prophetes Dran"]}
+    ]
   },
 
   "species": {
