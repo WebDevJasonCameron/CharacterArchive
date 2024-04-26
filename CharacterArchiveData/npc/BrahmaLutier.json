@@ -46,10 +46,26 @@
       "damage_resistances": [],
       "condition_immunities": []
     }
-  }
-  ,
+  },
 
-  "class": [],
+  "class": [
+    {
+      "title": "bard",
+      "source": "d&d player's handbook 5e",
+      "game": "d&d 5e",
+      "class_level": "",
+      "lore": {},
+      "descriptions": [],
+      "class_features": {
+        "level_attributes": []
+      },
+      "sub_class": {
+        "name": "",
+        "lore": {},
+        "level_attributes": []
+      }
+    }
+  ],
 
   "stats_and_actions": {
     "stats": {
