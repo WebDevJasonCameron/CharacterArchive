@@ -150,7 +150,8 @@
             "reach": "30 ft.",
             "target": 0,
             "saving_thows": "DC 13 Charisma",            
-            "hit": "",
+            "hit": 0,
+            "hit_details": "",
             "damage_type": "",
             "time": "until the start of Brahma’s next turn",
             "recharge": "2 per Day"

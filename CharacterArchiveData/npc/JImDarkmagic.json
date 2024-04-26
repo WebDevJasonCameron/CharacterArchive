@@ -153,7 +153,8 @@
             "to_hit": "",
             "reach": "",
             "target": 0,
-            "hit": "",
+            "hit": 0,
+            "hit_details": "",
             "damage_type": "",
             "time": "",
             "recharge": "Recharges after Jim Casts a Conjuration Spell of 1st Level or Higher"

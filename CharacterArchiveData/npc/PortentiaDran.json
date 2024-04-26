@@ -1,0 +1,179 @@
+{
+  "npc_name": "Portentia Dran",  
+  "phonetic-name": "port-tent-sha drahn",
+  "character_source": "",
+
+  "sex": "f",
+  "alignment": "lawful evil",
+  "total_level": "",
+  "avatar_img": "",
+
+  "titles_and_professions": [],
+
+  "background": {
+    "summary": "",
+    "their_story": "Now the owner and driving force behind Dran Enterprises — perhaps Acquisitions Incorporated’s most notable rival in the adventuring-for-profit-and-power biz — Portentia Dran is more than she appears to be. Quite literally. The person known as Portentia is actually a changeling, who took the place of the real Portentia before her fifth year. [\n]The changeling Portentia can affect a range of disguises, and has spent long years engaged in a mission of manipulating the members of the Dran family. Years ago, it was Portentia who tricked her sister Auspicia into exploring the depths of the Wandering Crypt. And she would have been successful in arranging for Omin to be claimed by that creature as well if he hadn’t fled immediately in search of a weapon to aid his captured sister.     [\n]Whether in combat or social encounters, Portentia shifts frequently between different forms and mindsets, only some of which are fully humanoid. She fights to maim, with a cruel combat style that emphasizes surprise and painful instruction. She is willing to affect any appearance or attitude to achieve her goals. But what those goals are — for herself and Dran Enterprises alike — remain a secret known only to her.",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "flaws": "",
+    "skills": "",
+    "relationships": []
+  },
+
+  "species": {
+    "title": "changeling",
+    "specialized_species": "",  
+    "source": "d&d player's handbook 5e",
+    "game": "d&d 5e",
+    "images": [],
+  
+    "template": {
+      "attributes": {
+        "size": "medium",
+        "creature_type": "monstrosity",
+        "monster_tag": ["shapechanger"],
+        "enviornment": [],
+        "alignment_according_to_source": "",
+        "challenge_rating": "3",
+        "xp": 700
+      },
+  
+      "lore": {},
+      "damage_resistances": [],
+      "condition_immunities": ["charmed"]
+    }
+  },
+
+  "class": [
+    {
+      "title": "rogue",
+      "source": "d&d player's handbook 5e",
+      "game": "d&d 5e",
+      "class_level": "",
+      "lore": {},
+      "descriptions": [],
+      "class_features": {
+        "level_attributes": []
+      },
+      "sub_class": {
+        "name": "",
+        "lore": {},
+        "level_attributes": []
+      }
+    }
+  ],
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 17,
+      "armor_class_details": "17 (chain shirt)", 
+      "hit_points": 45,
+      "hit_points_details": "45 (6d8 + 18)",
+      "speed": "30 ft.",
+      "senses": [
+        {"darkvision": "60 ft."},
+        {"passive_perception": "13"}
+      ],
+      "proficiency": [],
+  
+      "ability_scores": {
+        "str": 12,
+        "str_mod": "+1",
+        "dex": 18,
+        "dex_mod": "+4",
+        "con": 16,
+        "con_mod": "+3",
+        "int": 13,
+        "int_mod": "+1",
+        "wis": 12, 
+        "wis_mod": "+1",
+        "cha": 14,
+        "cha_mod": "+4"
+      },
+  
+      "saving_thows": [],
+  
+      "skills": [
+        {"deception": "+6"},
+        {"insight": "+3"},
+        {"perception": "+3"}
+      ]
+    },
+  
+    "character_actions": {
+      "actions": [
+        {
+          "title": "Shortsword",
+          "description": {
+            "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.",
+            "type": "Melee Weapon Attack",
+            "to_hit": "+6",
+            "reach": "5 ft.",
+            "target": 1,
+            "saving_thows": "",    
+            "hit": 7,
+            "hit_details": "7 (1d6 + 4) ",
+            "damage_type": "slashing",
+            "time": "",
+            "recharge": ""
+          }
+        },
+        {
+          "title": "Change Shape",
+          "description": {
+            "text": "Portentia magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than her own, or back into her true form. Any equipment she is wearing or carrying is absorbed or borne by the new form (her choice). In a new form, Portentia retains her game statistics and ability to speak, but her AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and she gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that she lacks.",
+            "type": "",
+            "to_hit": "",
+            "reach": "",
+            "target": 0,
+            "saving_thows": "",    
+            "hit": 0,
+            "hit_details": "",
+            "damage_type": "",
+            "time": "",
+            "recharge": ""
+          }
+        }
+      ],
+  
+      "bonus_actions": [],
+  
+      "reactions": [],
+  
+      "special_abilities": [
+        {
+          "title": "Sneak Attack",
+          "description": "1/Turn, Portentia deals an extra 14 (4d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Portentia that isn’t incapacitated and Portentia doesn’t have disadvantage on the attack roll."
+        },
+        {
+          "title": "Multiattack",
+          "description": "Portentia makes three melee attacks."
+        }
+      ],
+  
+      "legendary_actions": [],
+  
+      "lair_actions": [],
+  
+      "regional_effects": [],
+  
+      "species_related_spellcasting": {},
+  
+      "class_related_spellcasting": []
+    }
+  },
+
+  "details": {},
+
+  "located": [],
+
+  "affiliates": [],
+
+  "languages": ["common", "elvish"],
+  
+  "inventory": []
+}
