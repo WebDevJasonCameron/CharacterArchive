@@ -1,0 +1,114 @@
+{
+  "npc_name": "Phoenix Anvil",  
+  "phonetic-name": "feen-ix an-vil",
+  "character_source": "acquisitions incorporated",
+
+  "sex": "m",
+  "alignment": "lawful neutral",
+  "total_level": "",
+  "avatar_img": "",
+
+  "titles_and_professions": [],
+
+  "background": {
+    "summary": "",
+    "their_story": "",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "skills": "",
+    "relationships": []
+  },
+
+  "species": {
+    "title": "",
+    "specialized_species": "",    
+    "source": "d&d player's handbook 5e",
+    "game": "d&d 5e",
+    "images": [],
+  
+    "template": {
+      "attributes": {
+        "size": "",
+        "creature_type": "",
+        "monster_tag": [],
+        "enviornment": [],
+        "alignment_according_to_source": "",
+        "challenge_rating": "",
+        "xp": 0
+      },
+  
+      "lore": {},
+      "damage_resistances": [],
+      "condition_immunities": []
+    }
+  }
+  ,
+
+  "class": [],
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 0,
+      "armor_class_details": "", 
+      "hit_points": 0,
+      "hit_points_details": "",
+      "speed": "",
+      "senses": [],
+      "proficiency": [],
+  
+      "ability_scores": {
+        "str": 0,
+        "str_mod": "",
+        "dex": 0,
+        "dex_mod": "",
+        "con": 0,
+        "con_mod": "",
+        "int": 0,
+        "int_mod": "",
+        "wis": 0, 
+        "wis_mod": "",
+        "cha": 0,
+        "cha_mod": ""
+      },
+  
+      "saving_thows": [],
+  
+      "skills": []
+  
+    },
+  
+    "character_actions": {
+      "actions": [],
+  
+      "bonus_actions": [],
+  
+      "reactions": [],
+  
+      "special_abilities": [],
+  
+      "legendary_actions": [],
+  
+      "lair_actions": [],
+  
+      "regional_effects": [],
+  
+      "species_related_spellcasting": {},
+  
+      "class_related_spellcasting": []
+    }
+  },
+
+  "details": {},
+
+  "located": [],
+
+  "affiliates": [],
+
+  "languages": [],
+  
+  "inventory": []
+}
