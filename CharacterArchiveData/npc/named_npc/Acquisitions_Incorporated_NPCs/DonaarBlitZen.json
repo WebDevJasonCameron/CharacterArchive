@@ -21,7 +21,7 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": []
+    "relationships": ["Chronaar"]
   },
 
   "species": {
@@ -234,9 +234,9 @@
 
   "located": [],
 
-  "affiliates": [],
+  "affiliates": ["Acquisitions Incorporated", "clan bear"],
 
   "languages": ["common", "draconic", "orc"],
   
-  "inventory": []
+  "inventory": ["greatsword", "whip", "toothbrush", "floss"]
 }

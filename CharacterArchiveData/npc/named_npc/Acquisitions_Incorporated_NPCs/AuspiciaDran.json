@@ -21,7 +21,7 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": []
+    "relationships": ["Omin Dran"]
   },
 
   "species": {
@@ -178,7 +178,7 @@
 
   "located": [],
 
-  "affiliates": [],
+  "affiliates": ["Acquisitions Incorporated"],
 
   "languages": ["common", "elvish"],
   

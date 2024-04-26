@@ -8,7 +8,7 @@
   "total_level": "",
   "avatar_img": "",
 
-  "titles_and_professions": [],
+  "titles_and_professions": ["cartographer", "spy", "troubadour"],
 
   "background": {
     "summary": "",
@@ -21,7 +21,7 @@
     "bonds": "",
     "flaws": "",
     "skills": "",
-    "relationships": []
+    "relationships": ["Audra Courtier", "Oak Truestrike"]
   },
 
   "species": {
@@ -212,9 +212,9 @@
 
   "located": [],
 
-  "affiliates": [],
+  "affiliates": ["Acquisitions Incorporated"],
 
-  "languages": [],
+  "languages": ["common", "elvish"],
   
-  "inventory": ["common", "elvish"]
+  "inventory": ["war lute"]
 }
