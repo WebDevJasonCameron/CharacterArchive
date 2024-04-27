@@ -1,0 +1,18 @@
+{
+  "species_title": "",
+  "species_specialized_title": "",
+  "source": "",
+  "species_type": "",
+  "expected_alignment": "",
+  "challenge_rating": "",
+  "xp": 0,
+
+  "images": [""],
+  "monster_tag": [""],
+  "enviornments": [""],
+  "condition_immunities": [""],
+
+  "damage_resistances": [{}],
+
+  "lore": [{}]
+}

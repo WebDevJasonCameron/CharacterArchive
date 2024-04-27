@@ -107,9 +107,9 @@ The Following is the total template for NPCs
 
         - actions [{}]
           title ""
+          text ""
 
-          - description
-            text ""
+          - description {}
             type ""
             to hit ""
             reach ""
@@ -120,10 +120,12 @@ The Following is the total template for NPCs
             damage type ""
             time ""
             recharge ""
+
             - sequential actions [{}]
               title ""
-              - description
-                text ""
+              text ""
+
+              - description {}
                 type ""
                 to hit ""
                 reach ""
@@ -137,9 +139,9 @@ The Following is the total template for NPCs
 
         - bonus actions [{}]
           title ""
+          text ""
 
-          - description
-            text ""
+          - description {}
             type ""
             to hit ""
             reach ""
@@ -154,9 +156,9 @@ The Following is the total template for NPCs
 
         - reactions [{}]
           title ""
+          text ""
 
-          - description
-            text ""
+          - description {}
             type ""
             to hit ""
             reach ""
@@ -169,11 +171,12 @@ The Following is the total template for NPCs
             recharge ""
             - sequential actions [{}] ...
 
-        - legendary actions [{}]
+        - legendary action {}
           title ""
+          text ""
+          lore ""
 
-          - description
-            text ""
+          - description [{}]
             type ""
             to hit ""
             reach ""
@@ -186,41 +189,49 @@ The Following is the total template for NPCs
             recharge ""
             - sequential actions [{}] ...
 
-        - lair actions {}
+        - lair action {}
           title ""
-          description ""
+          text ""
+          lair ""
 
-          - actions [{}]
+          - lair actions [{}]
+            title ""
             text ""
-            type ""
-            to hit ""
-            reach ""
-            target #
-            saving throws ""
-            hit #
-            hit details ""
-            damage type ""
-            time ""
-            recharge ""
-            - sequential actions [{}] ...
 
-        - regional effects [{}]
+            - description {}
+              type ""
+              to hit ""
+              reach ""
+              target #
+              saving throws ""
+              hit #
+              hit details ""
+              damage type ""
+              time ""
+              recharge ""
+              - sequential actions [{}] ...
+
+        - regional effect {}
           title ""
-          description ""
+          text ""
+          region ""
 
-          - actions [{}]
+          - effects [{}]
+            title ""
             text ""
-            type ""
-            to hit ""
-            reach ""
-            target #
-            saving throws ""
-            hit #
-            hit details ""
-            damage type ""
-            time ""
-            recharge ""
-            - sequential actions [{}] ...
+
+        - species related spellcasting {}
+          details ""
+          spell casting ability ""
+          spell save ""
+          hit advantages ""
+
+          - spell list {}
+            type: name ""
+            at will spells [""]
+
+            other spells [""]
+            other spells details ""
 
         - class related spellcasting [{}]
           spells class ""
@@ -247,19 +258,6 @@ The Following is the total template for NPCs
 
             5th lvl [""]
             5th lvl slots ""
-
-        - species related spellcasting {}
-          details ""
-          spell casting ability ""
-          spell save ""
-          hit advantages ""
-
-          - spell list {}
-            type: name ""
-            at will spells [""]
-
-            other spells [""]
-            other spells details ""
 
     - characteristics {}
       alignment ""
