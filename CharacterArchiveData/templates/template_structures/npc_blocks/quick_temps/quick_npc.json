@@ -1,0 +1,180 @@
+{
+  "name": "",  
+  "phonetic_name": "",
+  "source": "",
+  "total_level": "",
+  "avatar_img": "",
+
+  "titles_names_and_professions": [{}],
+
+  "background": {
+    "their_story": "",
+    "natural_state": "",
+    "quirks": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "flaws": "",
+    "talents": "",
+  
+    "relationships": [
+      {
+        "type": "",
+        "names": [""],
+        "exposition": [""]
+      }
+    ],
+  
+    "background_summary": {
+      "title": "",
+      "text": ""
+    }
+  },
+
+  "entity": {
+    "entity_title": "",
+    "source": "",
+  
+    "affiliates": [""],
+  
+    "located": [""],
+  
+    "languages": [""],
+    
+    "inventory": [""],
+  
+    "species": {
+      "species_title": "",
+      "species_specialized_title": "",
+      "source": "",
+      "species_type": "",
+      "expected_alignment": "",
+      "challenge_rating": "",
+      "xp": 0,
+    
+      "images": [""],
+      "monster_tag": [""],
+      "enviornments": [""],
+      "condition_immunities": [""],
+    
+      "damage_resistances": [{}],
+    
+      "lore": [{}]
+    },
+  
+    "stats_and_actions": {
+      "stats": {
+        "armor_class": 0,
+        "armor_class_details": "",
+        "hit_points": 0,
+        "hit_points_details": "",
+        "speed": "",
+        "proficiency_bonus": "",
+      
+        "senses": [
+          { 
+            "type": "",
+            "name": ""
+          }
+        ],
+      
+        "saving_throws": [
+          { 
+            "type": "",
+            "name": ""
+          }
+        ],
+      
+        "skills": [
+          { 
+            "type": "",
+            "name": ""
+          }
+        ],
+      
+        "ability_scores": {
+          "str": 0,
+          "str_mod": "",
+          "dex": 0,
+          "dex_mod": "",
+          "con": 0,
+          "con_mod": "",
+          "int": 0,
+          "int_mod": "",
+          "wis": 0, 
+          "wis_mod": "",
+          "cha": 0,
+          "cha_mod": ""
+        }
+      },
+    
+      "potential_actions": {
+        "special_abilities": [{}],
+      
+        "actions": [{}],
+      
+        "bonus_actions": [{}],
+      
+        "reactions": [{}],
+      
+        "legendary_actions": [{}],
+      
+        "lair_action": {},
+      
+        "regional_effect": {},
+      
+        "class_related_spellcasting": [{}], 
+      
+        "species_related_spellcasting": {}
+      }
+    },
+  
+    "characteristics": {
+      "alignment": "",
+      "gender": "",
+      "eyes": "",
+      "size": "",
+      "height": "",
+      "faith": "",
+      "hair": "",
+      "skin": "",
+      "age": "",
+      "weight": "",
+      "appearance": ""
+    },
+  
+    "class": [
+      {
+        "class_title": "",
+        "sub_class_title": "",
+        "source": "",
+        "class_level": "",
+      
+        "class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "sub_class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "class_lore": [
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+}

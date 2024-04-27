@@ -6,5 +6,18 @@
   "secrets": "",
   "bonds": "",
   "flaws": "",
-  "talents": ""
+  "talents": "",
+
+  "relationships": [
+    {
+      "type": "",
+      "names": [""],
+      "exposition": [""]
+    }
+  ],
+
+  "background_summary": {
+    "title": "",
+    "text": ""
+  }
 }
