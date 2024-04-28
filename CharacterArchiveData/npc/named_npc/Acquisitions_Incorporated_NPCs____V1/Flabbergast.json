@@ -1,0 +1,189 @@
+{
+  "npc_name": "Flabbergast",  
+  "phonetic-name": "flab-ber-gast",
+  "character_source": "acquisitions incorporated",
+
+  "sex": "m",
+  "alignment": "lawful neutral",
+  "total_level": "?",
+  "avatar_img": "https://www.dndbeyond.com/avatars/thumbnails/6221/781/400/517/636953235648001537.png",
+
+  "titles_and_professions": [],
+
+  "background": {
+    "summary": "",
+    "their_story": "Not much is known of the mysterious and aloof majordomo of Acquisitions Incorporated Head Office, the mage known as Flabbergast. It’s said that he hails from Neverwinter, and that his wealthy family helped erect and carve the famous Dolphin Bridge in that city. Although he detests physical labor, Flabbergast is a bit of a bridge builder in his own way, always striving to bring people together and flexing his diplomatic muscles. A pacifist bureaucrat, he abhors violence, and rarely puts his magical prowess on display.[/n]One thing that is known (though it’s seldom spoken of) is that Flabbergast once worked for Dran Enterprises, and specifically for Portentia Dran. He carries a certain amount of guilt around being complicit in certain Dran Enterprises’ dealings, and helped Acquisitions Incorporated on the side even before taking up an official role with the company. Though Head Office certainly trusts him, others might wonder where his true loyalties lie.[/n]Flabbergast’s familiar, Mister Snibbly, uses the cat stat block.",
+    "natural_state": "",
+    "quirks": "pacifist bureaucrat",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "flaws": "",
+    "skills": "diplomat",
+    "relationships": [
+      {"familiars": ["Mister Snibbly"]}, 
+      {"x_employer": ["Portentia Dran"]}
+    ]
+  },
+
+  "species": {
+    "title": "human",
+    "specialized_species": "",
+    "source": "d&d player's handbook 5e",
+    "game": "d&d 5e",
+    "images": [],
+  
+    "template": {
+      "attributes": {
+        "size": "medium",
+        "creature_type": "humanoid",
+        "monster_tag": [],
+        "enviornment": [],
+        "alignment_according_to_source": "any",
+        "challenge_rating": "4",
+        "xp": 1100
+      },
+  
+      "lore": {},
+  
+      "damage_resistances": [],
+  
+      "condition_immunities": []
+    }
+  },
+
+  "class": [
+    {
+      "title": "wizard",
+      "source": "d&d player's handbook 5e",
+      "game": "d&d 5e",
+      "class_level": "?",
+      "lore": {},
+      "descriptions": [],
+      "class_features": {
+        "level_attributes": []
+      },
+      "sub_class": {
+        "name": "",
+        "lore": {},
+        "level_attributes": []
+      }
+    }
+  ],
+
+  "stats_and_actions": {
+    "stats": {
+
+      "armor_class": 12,
+      "armor_class_details": "12 (15 with mage armor)",
+      "hit_points": 40,
+      "hit_points_details": "40 (9d8)0",
+      "speed": "30 ft.",
+      "senses": [
+        {"passive_perception": "13"}
+      ],
+      "proficiency": [],
+  
+      "ability_scores": {
+        "str": 10,
+        "str_mod": "+0",
+        "dex": 14,
+        "dex_mod": "+2",
+        "con": 10,
+        "con_mod": "+0",
+        "int": 17,
+        "int_mod": "+3",
+        "wis": 13, 
+        "wis_mod": "+1",
+        "cha": 13,
+        "cha_mod": "+1"
+      },
+
+      "saving_throws": [
+        {"int": "+5"},
+        {"wis": "+3"}
+      ],
+  
+      "skills": [
+        {"arcana": "+5"},
+        {"history": "+5"},
+        {"perception": "+3"}
+      ]
+    },
+  
+    "character_actions": {
+      "actions": [
+        {
+          "title": "Dagger",
+          "description": {
+            "text": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+            "type": "Melee or Ranged Weapon Attack",
+            "to_hit": "+4",
+            "reach": "5 ft. or range 20/60 ft.",
+            "target": 1,
+            "saving_thows": "",            
+            "hit": 4,
+            "hit_details": "4 (1d4 + 2)",
+            "damage_type": "",
+            "time": "",
+            "recharge": "",
+            "sequential_actions": []
+          }
+        }
+      ],
+  
+      "bonus_actions": [],
+  
+      "reactions": [],
+  
+      "special_abilities": [],
+  
+      "legendary_actions": [],
+  
+      "lair_actions": [],
+  
+      "regional_effects": [],
+  
+      "species_related_spellcasting": {},
+  
+      "class_related_spellcasting": [{
+        "spells_class": "wizard",
+        "details": "Flabbergast is a 9th-level spellcaster.",
+        "spell_casting_ability": "intelligence",
+        "spell_save": "DC 13",
+        "hit_advantages": "+5",
+        "spell_list": {
+
+          "cantrip": ["fire bolt", "light", "mage hand", "prestidigitation"],
+          "cantrip_details": "at will",
+
+          "1st_lvl": ["detect magic", "mage armor", "distort value", "sleep"],
+          "1st_lvl_slots": "4",
+
+          "2nd_lvl": ["gift of gab", "misty step", "suggestion"],
+          "2nd_lvl_slots": "3",
+
+          "3rd_lvl": ["fast friends", "fly", "lignthing bolt"],
+          "3rd_lvl_slots": "3",
+
+          "4th_lvl": ["greater invisibility"], 
+          "4th_lvl_slots": "3",
+
+          "5th_lvl": ["cone of cold"],
+          "5th_lvl_slots": "1"
+        }
+      }]
+    }
+  },
+
+  "details": {},
+
+  "located": [],
+
+  "affiliates": ["Acquisitions Incorporated", "Acquisitions Incorporated Head Office", "Dran Enterprises (Formally)"],
+
+  "languages": ["common", "draconic", "elvish", "gnomish"],
+  
+  "inventory": []
+}

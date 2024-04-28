@@ -11,6 +11,7 @@
     "their_story": "",
     "natural_state": "",
     "quirks": "",
+    "quotes": "",
     "motivations": "",
     "secrets": "",
     "bonds": "",
@@ -45,9 +46,10 @@
   
     "species": {
       "species_title": "",
-      "species_specialized_title": "",
+      "sub_species_title": "",
       "source": "",
       "species_type": "",
+      "species_size": "",
       "expected_alignment": "",
       "challenge_rating": "",
       "xp": 0,
@@ -56,8 +58,7 @@
       "monster_tag": [""],
       "enviornments": [""],
       "condition_immunities": [""],
-    
-      "damage_resistances": [{}],
+      "damage_resistances": [""],
     
       "lore": [{}]
     },

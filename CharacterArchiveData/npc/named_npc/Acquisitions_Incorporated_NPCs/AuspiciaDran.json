@@ -1,17 +1,13 @@
 {
-  "npc_name": "Auspicia Dran",  
-  "phonetic-name": "ah-spisha drah-n",
+  "name": "Auspicia Dran",  
+  "phonetic_name": "ah-spisha drah-n",
   "character_source": "acquisitions incorporated",
-
-  "sex": "f",
-  "alignment": "",
   "total_level": "",
   "avatar_img": "",
 
-  "titles_and_professions": [],
+  "titles_names_and_professions": [{}],
 
   "background": {
-    "summary": "",
     "their_story": "The youngest sister of Omin Dran, the half-elf Auspicia Dran had her life torn apart as a child when she was seized by a mysterious creature called the Wandering Crypt. Having spent long years in a kind of dark dream within the crypt, she was saved in the end by her brother Omin’s tireless efforts and the valor of his handpicked “C” Team. Now returned safely to the world — and with the false Auspicia of the crypt’s creation slain — she focuses on trying to discover her own identity and to work through the ongoing complications arising from her ordeal. [\n]When Auspicia emerged from the Wandering Crypt, she carried within her a growing level of psionic power. She can’t help but read others’ minds, but finds that wearing a diamond earring helps tamp that unwitting ability down. This magic has also left her connected to the crypt in a way she doesn’t understand, even as it grants her occasional memories of others still trapped there and an awareness of faraway places. In combat, she manifests an instinctive knowledge of events before they happen, often making use of this ability to bring a fight to a standstill that encourages parley. But she has only just begun to explore her full precognitive potential.",
     "natural_state": "",
     "quirks": "",
@@ -20,171 +16,222 @@
     "secrets": "",
     "bonds": "",
     "flaws": "",
-    "skills": "",
+    "talents": "",
+  
     "relationships": [
-      {"brothers": ["Omin Dran"]}
-    ]
-  },
-
-  "species": {
-    "title": "half-elf",
-    "specialized_species": "neutral good",  
-    "source": "d&d player's handbook 5e",
-    "game": "d&d 5e",
-    "images": [],
-  
-    "template": {
-      "attributes": {
-        "size": "medium",
-        "creature_type": "humanoid",
-        "monster_tag": [],
-        "enviornment": [],
-        "alignment_according_to_source": "any",
-        "challenge_rating": "2",
-        "xp": 450
-      },
-  
-      "lore": {},
-      "damage_resistances": [],
-      "condition_immunities": []
-    }
-  },
-
-  "class": [
-    {
-      "title": "unknown",
-      "source": "",
-      "game": "",
-      "class_level": "",
-      "lore": {},
-      "descriptions": [],
-      "class_features": {
-        "level_attributes": []
-      },
-      "sub_class": {
-        "name": "",
-        "lore": {},
-        "level_attributes": []
+      {
+        "type": "brothers",
+        "names": ["Omin Dran"],
+        "exposition": [""]
       }
+    ],
+  
+    "background_summary": {
+      "title": "",
+      "text": ""
     }
-  ],
+  },
 
-  "stats_and_actions": {
-    "stats": {
-      "armor_class": 15,
-      "armor_class_details": "15 (chain shirt)", 
-      "hit_points": 52,
-      "hit_points_details": "52 (8d8 + 16)",
-      "speed": "30 ft.",
-      "senses": [
-        {"passive_perception": "13"}
-      ],
-      "proficiency": [],
+  "entity": {
+    "entity_title": "half-elf",
+    "source": "",
   
-      "ability_scores": {
-        "str": 16,
-        "str_mod": "+3",
-        "dex": 14,
-        "dex_mod": "+2",
-        "con": 14,
-        "con_mod": "+2",
-        "int": 15,
-        "int_mod": "+2",
-        "wis": 12, 
-        "wis_mod": "+1",
-        "cha": 10,
-        "cha_mod": "+0"
-      },
+    "affiliates": ["Acquisitions Incorporated"],
   
-      "saving_thows": [],
+    "located": [""],
   
-      "skills": [
-        {"athletics": "+5"},
-        {"perception": "+3"}
-      ]
+    "languages": ["common", "elvish"],
+    
+    "inventory": [""],
   
+    "species": {
+      "species_title": "half-elf",
+      "sub_species_title": "",
+      "source": "d&d player's handbook 5e",
+      "species_type": "humanoid",
+      "species_size": "medium",
+      "expected_alignment": "any",
+      "challenge_rating": "2",
+      "xp": 250,
+    
+      "images": [""],
+      "monster_tag": [""],
+      "enviornments": [""],
+      "condition_immunities": [""],
+      "damage_resistances": [""],
+    
+      "lore": [{}]
     },
   
-    "character_actions": {
-      "actions": [
-        {
-          "title": "Longsword",
-          "description": {
-            "text": " Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
-            "type": "Melee Weapon Attack",
-            "to_hit": "+5",
-            "reach": "5 ft.",
-            "target": 1,
-            "saving_thows": "",    
-            "hit": 7,
-            "hit_details": "7 (1d8 + 3) or 8 (1d10 + 3) if used with two hands",
-            "damage_type": "slashing",
-            "time": "",
-            "recharge": "",
-            "sequential_actions": []
-          }
-        },
-        {
-          "title": "Light Crossbow",
-          "description": {
-            "text": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
-            "type": "Ranged Weapon Attack",
-            "to_hit": "+4",
-            "reach": "80.320 ft.",
-            "target": 1,
-            "saving_thows": "",    
-            "hit": 6,
-            "hit_details": "6 (1d8 + 2)",
-            "damage_type": "piercing",
-            "time": "",
-            "recharge": "",
-            "sequential_actions": []
-          }
-        }
-      ],
-  
-      "bonus_actions": [],
-  
-      "reactions": [],
-  
-      "special_abilities": [
-        {
-          "title": "Multiattack",
-          "description": "Auspicia makes two attacks."
-        }
-      ],
-  
-      "legendary_actions": [],
-  
-      "lair_actions": [],
-  
-      "regional_effects": [],
-  
-      "species_related_spellcasting": {
-        "details": "Innate Spellcasting (Psionics). She can innately cast the following spells, requiring no components",
-        "spell_casting_ability": "intelligence",
-        "spell_save": "",
-        "hit_advantages": "",
-        "spell_list": {
-          "spell_type": "innate",
-          "at_will_spells": ["detect thoughts"],
+    "stats_and_actions": {
+      "stats": {
+        "armor_class": 15,
+        "armor_class_details": "15 (chain shirt)",
+        "hit_points": 52,
+        "hit_points_details": "52 (8d8 + 16)",
+        "speed": "30 ft.",
+        "proficiency_bonus": "",
       
-          "other_spells": ["augury"],
-          "other_spells_details": "1/day"
+        "senses": [
+          { 
+            "type": "passive perception",
+            "name": "13"
+          }
+        ],
+      
+        "saving_throws": [{}],
+      
+        "skills": [
+          { 
+            "type": "athletics",
+            "name": "+5"
+          },
+          { 
+            "type": "perception",
+            "name": "+3"
+          }
+        ],
+      
+        "ability_scores": {
+          "str": 16,
+          "str_mod": "+3",
+          "dex": 14,
+          "dex_mod": "+2",
+          "con": 14,
+          "con_mod": "+2",
+          "int": 15,
+          "int_mod": "+2",
+          "wis": 12, 
+          "wis_mod": "+1",
+          "cha": 10,
+          "cha_mod": "+0"
         }
       },
+    
+      "potential_actions": {
+        "special_abilities": [
+          {
+            "title": "Multiattack",
+            "description": "Auspicia makes two attacks."
+          }
+        ],
+      
+        "actions": [
+          {
+            "title": "Longsword",
+            "text": " Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
+          
+            "description": {
+              "type": "Melee Weapon Attack",
+              "to_hit": "+5",
+              "reach": "5 ft.",
+              "target": 1,
+              "saving_throws": "",
+              "hit": 7,
+              "hit_details": "7 (1d8 + 3) or 8 (1d10 + 3) if used with two hands",
+              "damage_type": "slashing",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          },
+          {
+            "title": "Light Crossbow",
+            "text": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+          
+            "description": {
+              "type": "Ranged Weapon Attack",
+              "to_hit": "+4",
+              "reach": "80/320 ft.",
+              "target": 1,
+              "saving_throws": "",
+              "hit": 6,
+              "hit_details": "6 (1d8 + 2)",
+              "damage_type": "piercing",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "bonus_actions": [{}],
+      
+        "reactions": [{}],
+      
+        "legendary_actions": [{}],
+      
+        "lair_action": {},
+      
+        "regional_effect": {},
+      
+        "class_related_spellcasting": [{}], 
+      
+        "species_related_spellcasting": {
+          "details": "Innate Spellcasting (Psionics). She can innately cast the following spells, requiring no components",
+          "spell_casting_ability": "intelligence",
+          "spell_save": "",
+          "hit_advantages": "",
+        
+          "spell_list": {
+            "type_name": "innate",
+            "at_will_spells": ["detect thoughts"],
+        
+            "other_spells": ["augury"],
+            "other_spells_details": "1/day"
+          }
+        }
+      }
+    },
   
-      "class_related_spellcasting": []
-    }
-  },
-
-  "details": {},
-
-  "located": [],
-
-  "affiliates": ["Acquisitions Incorporated"],
-
-  "languages": ["common", "elvish"],
+    "characteristics": {
+      "alignment": "",
+      "gender": "f",
+      "eyes": "",
+      "size": "",
+      "height": "",
+      "faith": "",
+      "hair": "",
+      "skin": "",
+      "age": "",
+      "weight": "",
+      "appearance": ""
+    },
   
-  "inventory": []
+    "class": [
+      {
+        "class_title": "unknown",
+        "sub_class_title": "",
+        "source": "",
+        "class_level": "",
+      
+        "class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "sub_class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "class_lore": [
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
 }

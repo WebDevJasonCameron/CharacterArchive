@@ -1,8 +1,9 @@
 {
   "species_title": "",
-  "species_specialized_title": "",
+  "sub_species_title": "",
   "source": "",
   "species_type": "",
+  "species_size": "",
   "expected_alignment": "",
   "challenge_rating": "",
   "xp": 0,
@@ -12,7 +13,7 @@
   "enviornments": [""],
   "condition_immunities": [""],
 
-  "damage_resistances": [{}],
+  "damage_resistances": [""],
 
   "lore": [{}]
 }
