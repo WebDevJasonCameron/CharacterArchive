@@ -1,7 +1,7 @@
 {
-  "name": "Donaar Blit'zen",  
+  "character_name": "Donaar Blit'zen",  
   "phonetic_name": "don-air blit-tzen",
-  "source": "acquisitions incorporated",
+  "character_source": "acquisitions incorporated",
   "total_level": "",
   "avatar_img": "https://www.dndbeyond.com/avatars/thumbnails/6221/794/400/517/636953236705926018.pn",
 
@@ -39,7 +39,7 @@
 
   "entity": {
     "entity_title": "dragonborn",
-    "source": "d&d player's handbook 5e",
+    "entity_source": "d&d player's handbook 5e",
 
     "affiliates": ["Acquisitions Incorporated", "clan bear", "The \"C\" Team"],
   
@@ -52,7 +52,7 @@
     "species": {
       "species_title": "dragonborn",
       "species_specialized_title": "",
-      "source": "d&d player's handbook 5e",
+      "species_source": "d&d player's handbook 5e",
       "species_type": "humanoid",
       "species_size": "medium",
       "expected_alignment": "any",
@@ -279,7 +279,7 @@
       {
         "class_title": "paladin",
         "sub_class_title": "",
-        "source": "d&d player's handbook 5e",
+        "class_source": "d&d player's handbook 5e",
         "class_level": "",
       
         "class_features": {

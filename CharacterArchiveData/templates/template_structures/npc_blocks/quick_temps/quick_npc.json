@@ -1,7 +1,7 @@
 {
-  "name": "",  
+  "character_name": "",  
   "phonetic_name": "",
-  "source": "",
+  "character_source": "",
   "total_level": "",
   "avatar_img": "",
 
@@ -34,7 +34,7 @@
 
   "entity": {
     "entity_title": "",
-    "source": "",
+    "entity_source": "",
   
     "affiliates": [""],
   
@@ -47,7 +47,7 @@
     "species": {
       "species_title": "",
       "sub_species_title": "",
-      "source": "",
+      "species_source": "",
       "species_type": "",
       "species_size": "",
       "expected_alignment": "",
@@ -148,7 +148,7 @@
       {
         "class_title": "",
         "sub_class_title": "",
-        "source": "",
+        "class_source": "",
         "class_level": "",
       
         "class_features": {

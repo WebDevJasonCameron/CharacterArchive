@@ -1,7 +1,7 @@
 {
-  "name": "Brahma Lutier",  
+  "character_name": "Brahma Lutier",  
   "phonetic_name": "bra-ma loot-ee-er",
-  "source": "acquisitions incorporated",
+  "character_source": "acquisitions incorporated",
   "total_level": "",
   "avatar_img": "",
 
@@ -39,7 +39,7 @@
 
   "entity": {
     "entity_title": "elf",
-    "source": "d&d player's handbook 5e",
+    "entity_source": "d&d player's handbook 5e",
 
     "affiliates": ["Acquisitions Incorporated", "The \"B\" Team"],
   
@@ -269,7 +269,7 @@
       {
         "class_title": "bard",
         "sub_class_title": "",
-        "source": "d&d player's handbook 5e",
+        "class_source": "d&d player's handbook 5e",
         "class_level": "",
       
         "class_features": {

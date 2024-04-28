@@ -1,5 +1,5 @@
 {
-  "name": "Auspicia Dran",  
+  "character_name": "Auspicia Dran",  
   "phonetic_name": "ah-spisha drah-n",
   "character_source": "acquisitions incorporated",
   "total_level": "",
@@ -34,7 +34,7 @@
 
   "entity": {
     "entity_title": "half-elf",
-    "source": "",
+    "entity_source": "",
   
     "affiliates": ["Acquisitions Incorporated"],
   
@@ -47,7 +47,7 @@
     "species": {
       "species_title": "half-elf",
       "sub_species_title": "",
-      "source": "d&d player's handbook 5e",
+      "species_source": "d&d player's handbook 5e",
       "species_type": "humanoid",
       "species_size": "medium",
       "expected_alignment": "any",
@@ -204,7 +204,7 @@
       {
         "class_title": "unknown",
         "sub_class_title": "",
-        "source": "",
+        "class_source": "",
         "class_level": "",
       
         "class_features": {
