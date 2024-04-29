@@ -1,0 +1,175 @@
+{
+  "entity_title": "chaos quadrapod",
+  "entity_source": "acquisitions incorporated",
+
+  "affiliates": [""],
+
+  "located": [""],
+
+  "languages": [""],
+  
+  "inventory": [""],
+
+  "species": {
+    "species_title": "chaos quadrapod",
+    "sub_species_title": "",
+    "species_source": "acquisitions incorporated",
+    "species_type": "aberration",
+    "species_size": "large",
+    "expected_alignment": "chaotic evil",
+    "challenge_rating": "4",
+    "xp": 1100,
+  
+    "images": [""],
+    "monster_tag": [""],
+    "enviornments": [""],
+    "condition_immunities": [""],
+  
+    "damage_resistances": [""],
+  
+    "lore": [
+      { 
+        "title": "Description",
+        "text": "A cluster of four suckered tentacles with a pulsing mass of ethereal light as its central body, the chaos quadrapod is a creature of the Far Realm, and it channels the anarchic power of that plane as it destroys all in its path. The quadrapod ambulates by flinging its mucus-covered tentacles out and dragging itself along, creating a horrid slurping sound as it advances relentlessly toward its prey."
+      }
+    ]
+  },
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 14,
+      "armor_class_details": "14 (natural)",
+      "hit_points": 52,
+      "hit_points_details": "52 (7d10 + 14)",
+      "speed": "40 ft., climb 40 ft.",
+      "proficiency_bonus": "",
+    
+      "senses": [
+        { 
+          "type": "blindsight",
+          "details": "120 ft. (blind beyond this radius)"
+        },
+        { 
+          "type": "passive perception",
+          "details": "14"
+        }
+      ],
+    
+      "saving_throws": [{}],
+    
+      "skills": [
+        { 
+          "type": "acrobatics",
+          "details": "+5"
+        },
+        { 
+          "type": "perception",
+          "details": "+4"
+        }
+      ],
+    
+      "ability_scores": {
+        "str": 18,
+        "str_mod": "+4",
+        "dex": 13,
+        "dex_mod": "+1",
+        "con": 15,
+        "con_mod": "+2",
+        "int": 6,
+        "int_mod": "-2",
+        "wis": 10, 
+        "wis_mod": "+0",
+        "cha": 4,
+        "cha_mod": "-3"
+      }
+    },
+  
+    "potential_actions": {
+      "special_abilities": [
+        {
+          "title": "Magic Resistance",
+          "description": "The chaos quadrapod has advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "title": "Multiattack",
+          "description": "The chaos quadrapod makes up to two tentacle attacks."
+        }
+      ],
+    
+      "actions": [
+        {
+          "title": "Tentacle",
+          "text": "Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. If the target is a creature, it is grappled (escape DC 14). Until this grapple ends, the target is restrained. The chaos quadrapod can grapple no more than two targets at a time.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+6",
+            "reach": "15 ft.",
+            "target": 1,
+            "saving_throws": "DC 14",
+            "hit": 11,
+            "hit_details": "11 (2d6 + 4)",
+            "damage_type": "bludgeoning, grappled",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [
+              {
+                "title": "Restrained",
+                "text": "A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed. [\n]Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage. [\n]The creature has disadvantage on Dexterity saving throws.",
+              
+                "description": {
+                  "type": "",
+                  "to_hit": "",
+                  "reach": "",
+                  "target": 0,
+                  "saving_throws": "DC 14",
+                  "hit": 0,
+                  "hit_details": "",
+                  "damage_type": "",
+                  "time": "",
+                  "recharge": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "Chaos Cloud",
+          "text": "The chaos quadrapod shoots forth a knot of roiling ethereal light that explodes at a point it can see within 60 feet of it. Each creature in a 20-foot-radius sphere centered on that point must succeed on a DC 14 Charisma saving throw or be stunned until the end of its next turn.",
+        
+          "description": {
+            "type": "",
+            "to_hit": "",
+            "reach": "60 ft., 20-foot-radius sphere centered on that point",
+            "target": 0,
+            "saving_throws": "DC 14 Charisma",
+            "hit": 0,
+            "hit_details": "",
+            "damage_type": "stunned",
+            "time": "Until the end of its next turn",
+            "recharge": "Recharges after a Short or Long Rest",
+        
+            "sequential_actions": [{}]
+          }
+        }
+      ],
+    
+      "bonus_actions": [{}],
+    
+      "reactions": [{}],
+    
+      "legendary_actions": [{}],
+    
+      "lair_action": {},
+    
+      "regional_effect": {},
+    
+      "class_related_spellcasting": [{}], 
+    
+      "species_related_spellcasting": {}
+    }
+  },
+
+  "class": [{}]
+}
