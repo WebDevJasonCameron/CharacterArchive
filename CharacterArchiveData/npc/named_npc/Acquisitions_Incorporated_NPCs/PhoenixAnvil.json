@@ -1,0 +1,266 @@
+{
+  "character_name": "Phoenix Anvil",  
+  "phonetic_name": "feen-ix an-vil",
+  "character_source": "acquisitions incorporated",
+  "total_level": "",
+  "avatar_img": "",
+
+  "titles_names_and_professions": [{}],
+
+  "background": {
+    "their_story": "The “B” Team hoards­person, Phoenix Anvil is a servant of Waukeen and a soft-spoken sort. Really soft. Like, he talks so infrequently that even he might not recognize his own voice. Phoenix comes from the streets, where he grew up a fighter until a job sweeping the steps of a small temple of Waukeen showed him a new path. His hunger for coin as an adventurer is thus guided by his knowledge of what it is to do without. [\n]More of an object individual than a people person, Phoenix is obsessively dedicated to the franchise’s assets and accounts. Thankfully, he includes his fellow members among those assets, making him fiercely loyal. However, Oak Truestrike is the only team member he’s ever really warmed to, which doesn’t do either of them any good.",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "flaws": "",
+    "talents": "",
+  
+    "relationships": [
+      {
+        "type": "co-workers",
+        "names": ["Oak Truestrike", "Pendragon Beestinger"],
+        "exposition": ["Part of the \"B\" Team"]
+      },
+      {
+        "type": "x-co-workers",
+        "names": ["Brahma Lutier"],
+        "exposition": [""]
+      }
+    ],
+  
+    "background_summary": {
+      "title": "",
+      "text": ""
+    }
+  },
+
+  "entity": {
+    "entity_title": "",
+    "entity_source": "",
+  
+    "affiliates": ["Acquisitions Incorporated", "The \"B\" Team"],
+  
+    "located": [""],
+  
+    "languages": ["common", "elvish"],
+    
+    "inventory": [""],
+  
+    "species": {
+      "species_title": "human",
+      "sub_species_title": "",
+      "species_source": "d&d player's handbook 5e",
+      "species_type": "humanoid",
+      "species_size": "medium",
+      "expected_alignment": "",
+      "challenge_rating": "2",
+      "xp": 450,
+    
+      "images": [""],
+      "monster_tag": [""],
+      "enviornments": [""],
+      "condition_immunities": [""],
+      "damage_resistances": [""],
+    
+      "lore": [{}]
+    },
+  
+    "stats_and_actions": {
+      "stats": {
+        "armor_class": 18,
+        "armor_class_details": "18 (chain mail and shield)", 
+        "hit_points": 27,
+        "hit_points_details": "27 (5d8 + 5)",
+        "speed": "30 ft.",
+        "proficiency_bonus": "",
+      
+        "senses": [
+          { 
+            "type": "passive perception",
+            "details": "13"
+          }
+        ],
+      
+        "saving_throws": [{}],
+      
+        "skills": [
+          { 
+            "type": "athletics",
+            "details": "+4"
+          },
+          { 
+            "type": "performance",
+            "details": "+3"
+          },
+          { 
+            "type": "persuasion",
+            "details": "+3"
+          },
+          { 
+            "type": "religion",
+            "details": "+3"
+          }
+        ],
+      
+        "ability_scores": {
+          "str": 15,
+          "str_mod": "+2",
+          "dex": 10,
+          "dex_mod": "+0",
+          "con": 12,
+          "con_mod": "+1",
+          "int": 13,
+          "int_mod": "+1",
+          "wis": 16, 
+          "wis_mod": "+3",
+          "cha": 13,
+          "cha_mod": "+1"
+        }
+      },
+    
+      "potential_actions": {
+        "special_abilities": [
+          {
+            "title": "Multiattack",
+            "description": "Phoenix makes two melee attacks."
+          }
+        ],
+      
+        "actions": [
+          {
+            "title": "Warhammer",
+            "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target must succeed on a DC 12 Strength saving throw or be pushed 5 feet.",
+          
+            "description": {
+              "type": "Melee Weapon Attack",
+              "to_hit": "+4",
+              "reach": "5 ft.",
+              "target": 1,
+              "saving_throws": "DC 12 Strength",    
+              "hit": 6,
+              "hit_details": "6 (1d8 + 2)",
+              "damage_type": "bludgeoning",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "bonus_actions": [
+          {
+            "title": "Divine Display",
+            "text": "As a bonus action, Phoenix causes his shield to flare with divine light. Each creature of his choice within 30 feet of him must succeed on a DC 13 Wisdom saving throw or be blinded for 1 minute. A creature can repeat the save at the end of each of its turns, ending the effect on itself with a success.",
+          
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "30 ft.",
+              "target": 0,
+              "saving_throws": "DC 13 Wisdom",            
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "1 minute",
+              "recharge": "1/day",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "reactions": [{}],
+      
+        "legendary_actions": [{}],
+      
+        "lair_action": {},
+      
+        "regional_effect": {},
+      
+        "class_related_spellcasting": [
+          {
+            "spells_class": "cleric",
+            "details": "Phoenix is a 4th-level spellcaster.",
+            "spell_casting_ability": "wisdom",
+            "spell_save": "DC 13",
+            "hit_advantages": "+5",
+          
+            "spell_lists": {
+              "cantrip": ["guidance", "light", "mending", "sacred flame"],
+              "cantrip_details": "at will",
+          
+              "1st_lvl": ["bane", "cure wounds", "guiding bolt"],
+              "1st_lvl_slots": "4",
+          
+              "2nd_lvl": ["hold person", "spiritual weapon"],
+              "2nd_lvl_slots": "3",
+          
+              "3rd_lvl": [],
+              "3rd_lvl_slots": "",
+          
+              "4th_lvl": [], 
+              "4th_lvl_slots": "",
+          
+              "5th_lvl": [],
+              "5th_lvl_slots": ""
+            }
+          }
+        ], 
+      
+        "species_related_spellcasting": {}
+      }
+    },
+  
+    "characteristics": {
+      "alignment": "lawful neutral",
+      "gender": "m",
+      "eyes": "",
+      "size": "medium",
+      "height": "",
+      "faith": "",
+      "hair": "",
+      "skin": "",
+      "age": "",
+      "weight": "",
+      "appearance": ""
+    },
+  
+    "class": [
+      {
+        "class_title": "cleric",
+        "sub_class_title": "",
+        "class_source": "d&d player's handbook 5e",
+        "class_level": "",
+      
+        "class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "sub_class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "class_lore": [
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+}

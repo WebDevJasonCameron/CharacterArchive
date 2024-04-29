@@ -80,37 +80,37 @@
         "senses": [
           { 
             "type": "passive perception",
-            "name": "10"
+            "details": "10"
           }
         ],
       
         "saving_throws": [
           { 
             "type": "wis",
-            "name": "+2"
+            "details": "+2"
           },
           { 
             "type": "cha",
-            "name": "+5"
+            "details": "+5"
           }
         ],
       
         "skills": [
           { 
             "type": "history",
-            "name": "+2"
+            "details": "+2"
           },
           { 
             "type": "insight",
-            "name": "+2"
+            "details": "+2"
           },
           { 
             "type": "intimidation",
-            "name": "+5"
+            "details": "+5"
           },
           { 
             "type": "persuasion",
-            "name": "+5"
+            "details": "+5"
           }
         ],
       

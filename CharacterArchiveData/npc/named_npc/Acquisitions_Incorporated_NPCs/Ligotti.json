@@ -1,0 +1,181 @@
+{
+  "character_name": "Ligotti",  
+  "phonetic_name": "li-goe-tee",
+  "character_source": "acquisitions incorporated",
+  "total_level": "",
+  "avatar_img": "",
+
+  "titles_names_and_professions": [{}],
+
+  "background": {
+    "their_story": "K’thriss’s familiar, Ligotti, is a semisapient remnant of a tentacle attack, spawned by the warlock’s intercessor patron god. Though entirely alien to the material plane (and often appearing in the form of a staff), Ligotti uses the stat block of a poisonous snake with changes",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "flaws": "",
+    "talents": "",
+  
+    "relationships": [
+      {
+        "type": "owners",
+        "names": ["K’thriss Drow’b"],
+        "exposition": [""]
+      }
+    ],
+  
+    "background_summary": {
+      "title": "",
+      "text": ""
+    }
+  },
+
+  "entity": {
+    "entity_title": "semisapient remnant of a tentacle",
+    "entity_source": "acquisitions incorporated",
+  
+    "affiliates": [""],
+  
+    "located": [""],
+  
+    "languages": ["telepathy out to a range of 30 ft."],
+    
+    "inventory": [""],
+  
+    "species": {
+      "species_title": "poisonous snake",
+      "sub_species_title": "",
+      "species_source": "d&d player's handbook 5e",
+      "species_type": "beast",
+      "species_size": "tiny",
+      "expected_alignment": "unaligned",
+      "challenge_rating": "1/8",
+      "xp": 25,
+    
+      "images": [""],
+      "monster_tag": ["misc creature"],
+      "enviornments": ["coastal", "desert", "forest", "grassland", "hill", "swamp"],
+      "condition_immunities": [""],
+      "damage_resistances": [""],
+    
+      "lore": [{}]
+    },
+  
+    "stats_and_actions": {
+      "stats": {
+        "armor_class": 0,
+        "armor_class_details": "",
+        "hit_points": 0,
+        "hit_points_details": "",
+        "speed": "",
+        "proficiency_bonus": "+2",
+      
+        "senses": [
+          { 
+            "type": "blindsight",
+            "details": "10 ft"
+          },
+          { 
+            "type": "passive perception",
+            "details": "10"
+          }
+        ],
+      
+        "saving_throws": [{}],
+      
+        "skills": [{}],
+      
+        "ability_scores": {
+          "str": 2,
+          "str_mod": "-4",
+          "dex": 16,
+          "dex_mod": "+3",
+          "con": 11,
+          "con_mod": "+0",
+          "int": 12,
+          "int_mod": "+2",
+          "wis": 10, 
+          "wis_mod": "+0",
+          "cha": 3,
+          "cha_mod": "-4"
+        }
+      },
+    
+      "potential_actions": {
+        "special_abilities": [{}],
+      
+        "actions": [
+          {
+            "title": "Bite",
+            "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
+          
+            "description": {
+              "type": "Melee Weapon Attack",
+              "to_hit": "+5",
+              "reach": "5 ft.",
+              "target": 1,
+              "saving_throws": "",    
+              "hit": 1,
+              "hit_details": "",
+              "damage_type": "piercing",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [
+                {
+                  "title": "Bite Poison",
+                  "text": "Completed during a Bite Attack Action. The target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.",
+                
+                  "description": {
+                    "type": "Melee Weapon Attack",
+                    "to_hit": "",
+                    "reach": "",
+                    "target": 0,
+                    "saving_throws": "DC 10 Constitution",    
+                    "hit": 5,
+                    "hit_details": "5 (2d4) or half as much damage on a successful save",
+                    "damage_type": "poison",
+                    "time": "",
+                    "recharge": ""
+                  }
+                }
+              ]
+            }
+          }
+        ],
+      
+        "bonus_actions": [{}],
+      
+        "reactions": [{}],
+      
+        "legendary_actions": [{}],
+      
+        "lair_action": {},
+      
+        "regional_effect": {},
+      
+        "class_related_spellcasting": [{}], 
+      
+        "species_related_spellcasting": {}
+      }
+    },
+  
+    "characteristics": {
+      "alignment": "",
+      "gender": "",
+      "eyes": "",
+      "size": "tiny",
+      "height": "",
+      "faith": "",
+      "hair": "",
+      "skin": "",
+      "age": "",
+      "weight": "",
+      "appearance": ""
+    },
+  
+    "class": [{}]
+  }
+}

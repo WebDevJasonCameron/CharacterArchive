@@ -1,0 +1,301 @@
+{
+  "character_name": "Omin Dran",  
+  "phonetic_name": "o-men dran",
+  "character_source": "acquisitions incorporated",
+  "total_level": "",
+  "avatar_img": "https://www.dndbeyond.com/avatars/6221/765/636953233676878157.png",
+
+  "titles_names_and_professions": [
+    { 
+      "type": "full name",
+      "name": "Ominifis Hereward Dran",
+      "reason": ""
+    }
+  ],
+
+  "background": {
+    "their_story": "Ominifis Hereward Dran spent his formative years in the small waystop of Red Larch, where his mother, Prophetess, ran a popular inn and restaurant. In the brief periods of respite afforded by working the family business, Omin and his sisters, Auspicia and Portentia, were wont to wander the hills and trails around town, dreaming of adventure. But adventure of the wrong kind came calling for the trio one day, when an underground ruin they had often explored -- actually a creature called the Wandering Crypt — took Auspicia from the world. Omin Dran built the organization called Acquisitions Incorporated to facilitate and expand his quest to find his true sister, at least in part. For despite his unprecedented success in establishing the market for franchised adventuring across the Sword Coast and beyond, Omin’s full measure eludes most people. He is known to be a worshiper of Tymora, ruthless in matters of business, feckless in matters of love, and hopeless in games of chance. Omin is also often accused of being one of the Masked Lords of Waterdeep, though this bit of fancy earns little more than a chuckle in response. And even if the rumor were true, Omin would never leverage such a position for greater financial gain and power. Because that would be wrong …",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "My duty, first and foremost, is to my shareholders. And I am the only shareholder._",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "flaws": "",
+    "talents": "",
+  
+    "relationships": [
+      {
+        "type": "sisters",
+        "names": ["Auspicia Dran", "Portentia Dran"],
+        "exposition": [""]
+      },
+      {
+        "type": "monther",
+        "names": ["Prophetes Dran"],
+        "exposition": [""]
+      }
+    ],
+  
+    "background_summary": {
+      "title": "",
+      "text": ""
+    }
+  },
+
+  "entity": {
+    "entity_title": "half-elf",
+    "entity_source": "d&d player's handbook 5e",
+  
+    "affiliates": ["Acquisitions Incorporated"],
+  
+    "located": [""],
+  
+    "languages": ["common", "dwarvish", "elvish", "goblin"],
+    
+    "inventory": [""],
+  
+    "species": {
+      "species_title": "half-elf",
+      "sub_species_title": "",
+      "species_source": "d&d player's handbook 5e",
+      "species_type": "humanoid",
+      "species_size": "medium",
+      "expected_alignment": "any",
+      "challenge_rating": "5",
+      "xp": 1800,
+    
+      "images": [""],
+      "monster_tag": [""],
+      "enviornments": [""],
+      "condition_immunities": [""],
+      "damage_resistances": [""],
+    
+      "lore": [{}]
+    },
+  
+    "stats_and_actions": {
+      "stats": {
+        "armor_class": 18,
+        "armor_class_details": "18 (plate)",
+        "hit_points": 65,
+        "hit_points_details": "65 (10d8 + 20)",
+        "speed": "30 ft.",
+        "proficiency_bonus": "",
+      
+        "senses": [
+          { 
+            "type": "darkvision",
+            "details": "60 ft"
+          },
+          { 
+            "type": "passive perception",
+            "details": "17"
+          }
+        ],
+      
+        "saving_throws": [
+          { 
+            "type": "wis",
+            "details": "+7"
+          },
+          { 
+            "type": "cha",
+            "details": "+4"
+          }
+        ],
+      
+        "skills": [
+          { 
+            "type": "deception",
+            "details": "+4"
+          },
+          { 
+            "type": "insight",
+            "details": "+7"
+          },
+          { 
+            "type": "intimidation",
+            "details": "+4"
+          },
+          { 
+            "type": "medicine",
+            "details": "+7"
+          },
+          { 
+            "type": "perception",
+            "details": "+7"
+          },
+          { 
+            "type": "persuasion",
+            "details": "+4"
+          }
+        ],
+      
+        "ability_scores": {
+          "str": 16,
+          "str_mod": "+3",
+          "dex": 8,
+          "dex_mod": "-1",
+          "con": 14,
+          "con_mod": "+2",
+          "int": 11,
+          "int_mod": "+0",
+          "wis": 18, 
+          "wis_mod": "+4",
+          "cha": 12,
+          "cha_mod": "+1"
+        }
+      },
+    
+      "potential_actions": {
+        "special_abilities": [
+          {
+            "title": "Divine Strike",
+            "description": "Once on each of his turns when he hits a creature with a weapon attack, Omin can cause the attack to deal an extra 4 (1d8) damage of the same type dealt by the weapon."
+          },
+          {
+            "title": "Fey Ancestry",
+            "description": "Omin has advantage on saving throws against being charmed and magic can’t put him to sleep."
+          },
+          {
+            "title": "Multiattack",
+            "description": "Omin makes two attacks with his maul."
+          }
+        ],
+      
+        "actions": [
+          {
+            "title": "Maul",
+            "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.",
+          
+            "description": {
+              "type": "Melee Weapon Attack",
+              "to_hit": "+6",
+              "reach": "5 ft.",
+              "target": 1,
+              "saving_throws": "",            
+              "hit": 10,
+              "hit_details": "10 (2d6 + 3)",
+              "damage_type": "bludgeoning",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "bonus_actions": [{}],
+      
+        "reactions": [
+          {
+            "title": "War God’s Blessing",
+            "text": "When a creature within 30 feet of Omin makes an attack roll, but before learning whether it hits or misses, Omin can grant the creature a +10 bonus to that roll.",
+          
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "30 ft.",
+              "target": 0,
+              "saving_throws": "",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "",
+              "recharge": "Recharges after a Short or Long Rest",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "legendary_actions": [{}],
+      
+        "lair_action": {},
+      
+        "regional_effect": {},
+      
+        "class_related_spellcasting": [
+          {
+            "spells_class": "cleric",
+            "details": "Omin is a 9th-level spellcaster",
+            "spell_casting_ability": "wisdom",
+            "spell_save": "CD 15",
+            "hit_advantages": "+7",
+          
+            "spell_lists": {
+              "cantrip": ["guidance", "sacred flame", "spare the dying", "thaumaturgy"],
+              "cantrip_details": "at will",
+    
+              "1st_lvl": ["bless", "command", "divine favor", "shield of faith"],
+              "1st_lvl_slots": "4",
+    
+              "2nd_lvl": ["enhance ability", "hold person", "magic weapon", "silence", "spiritual weapon"],
+              "2nd_lvl_slots": "3",
+    
+              "3rd_lvl": ["beacon of hope", "crusader's mantle", "dispel magic", "mass healing word", "spirit guardians"],
+              "3rd_lvl_slots": "3",
+    
+              "4th_lvl": ["death ward", "freedom of meovement", "locate creature", "stoneskin"], 
+              "4th_lvl_slots": "3",
+    
+              "5th_lvl": ["dispel evil and good", "flame strike", "hold monster", "greater restoration", "legend lore"],
+              "5th_lvl_slots": "1"
+            }
+          }
+        ], 
+      
+        "species_related_spellcasting": {}
+      }
+    },
+  
+    "characteristics": {
+      "alignment": "lawful neutral",
+      "gender": "m",
+      "eyes": "",
+      "size": "medium",
+      "height": "",
+      "faith": "",
+      "hair": "",
+      "skin": "",
+      "age": "",
+      "weight": "",
+      "appearance": ""
+    },
+  
+    "class": [
+      {
+        "class_title": "cleric",
+        "sub_class_title": "",
+        "class_source": "d&d player's handbook 5e",
+        "class_level": "",
+      
+        "class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "sub_class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "class_lore": [
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "character_name": "Mister Snibbly",  
+  "phonetic_name": "mis-ster snib-blee",
+  "character_source": "acquisitions incorporated",
+  "total_level": "",
+  "avatar_img": "",
+
+  "titles_names_and_professions": [{}],
+
+  "background": {
+    "their_story": "",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "flaws": "",
+    "talents": "",
+  
+    "relationships": [
+      {
+        "type": "owners",
+        "names": ["Flabbergast"],
+        "exposition": [""]
+      }
+    ],
+  
+    "background_summary": {
+      "title": "",
+      "text": ""
+    }
+  },
+
+  "entity": {
+    "entity_title": "cat",
+    "entity_source": "d&d player's handbook 5e",
+  
+    "affiliates": ["Acquisitions Incorporated"],
+  
+    "located": [""],
+  
+    "languages": [""],
+    
+    "inventory": [""],
+  
+    "species": {
+      "species_title": "cat",
+      "sub_species_title": "",
+      "species_source": "d&d player's handbook 5e",
+      "species_type": "beast",
+      "species_size": "tiny",
+      "expected_alignment": "unaligned",
+      "challenge_rating": "0",
+      "xp": 10,
+    
+      "images": [""],
+      "monster_tag": ["misc creature"],
+      "enviornments": ["desert", "forest", "grassland", "urban"],
+      "condition_immunities": [""],
+      "damage_resistances": [""],
+    
+      "lore": [{}]
+    },
+  
+    "stats_and_actions": {
+      "stats": {
+        "armor_class": 0,
+        "armor_class_details": "",
+        "hit_points": 0,
+        "hit_points_details": "",
+        "speed": "",
+        "proficiency_bonus": "",
+      
+        "senses": [
+          { 
+            "type": "passive perception",
+            "details": "13"
+          }
+        ],
+      
+        "saving_throws": [{}],
+      
+        "skills": [
+          { 
+            "type": "peception",
+            "details": "+3"
+          },
+          { 
+            "type": "stealth",
+            "details": "+4"
+          }
+        ],
+      
+        "ability_scores": {
+          "str": 3,
+          "str_mod": "-4",
+          "dex": 15,
+          "dex_mod": "+2",
+          "con": 10,
+          "con_mod": "+0",
+          "int": 3,
+          "int_mod": "-4",
+          "wis": 12, 
+          "wis_mod": "+1",
+          "cha": 7,
+          "cha_mod": "-2"
+        }
+      },
+    
+      "potential_actions": {
+        "special_abilities": [
+          {
+            "title": "Keen Smell",
+            "description": "The cat has advantage on Wisdom (Perception) checks that rely on smell."
+          }
+        ],
+      
+        "actions": [
+          {
+            "title": "Claws",
+            "text": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.",
+          
+            "description": {
+              "type": "Melee Weapon Attack",
+              "to_hit": "+0",
+              "reach": "+5 ft.",
+              "target": 1,
+              "saving_throws": "",    
+              "hit": 1,
+              "hit_details": "",
+              "damage_type": "slashing",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "bonus_actions": [{}],
+      
+        "reactions": [{}],
+      
+        "legendary_actions": [{}],
+      
+        "lair_action": {},
+      
+        "regional_effect": {},
+      
+        "class_related_spellcasting": [{}], 
+      
+        "species_related_spellcasting": {}
+      }
+    },
+  
+    "characteristics": {
+      "alignment": "",
+      "gender": "m",
+      "eyes": "",
+      "size": "tiny",
+      "height": "",
+      "faith": "",
+      "hair": "",
+      "skin": "",
+      "age": "",
+      "weight": "",
+      "appearance": ""
+    },
+  
+    "class": [{}]
+  }
+}

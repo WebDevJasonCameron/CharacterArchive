@@ -80,33 +80,33 @@
         "senses": [
           { 
             "type": "passive perception",
-            "name": "13"
+            "details": "13"
           }
         ],
       
         "saving_throws": [
           { 
             "type": "int",
-            "name": "+5"
+            "details": "+5"
           },
           { 
             "type": "wis",
-            "name": "+3"
+            "details": "+3"
           }
         ],
       
         "skills": [
           { 
             "type": "arcana",
-            "name": "+3"
+            "details": "+3"
           },
           { 
             "type": "history",
-            "name": "+5"
+            "details": "+5"
           },
           { 
             "type": "perception",
-            "name": "+3"
+            "details": "+3"
           }
         ],
       

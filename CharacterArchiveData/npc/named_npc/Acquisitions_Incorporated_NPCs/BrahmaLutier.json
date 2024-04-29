@@ -80,29 +80,29 @@
         "senses": [
           { 
             "type": "passive perception",
-            "name": "13"
+            "details": "13"
           }
         ],
       
         "saving_throws": [
           { 
             "type": "",
-            "name": ""
+            "details": ""
           }
         ],
       
         "skills": [
           { 
             "type": "perception",
-            "name": "+3"
+            "details": "+3"
           },
           { 
             "type": "performance",
-            "name": "+5"
+            "details": "+5"
           },
           { 
             "type": "persuasion",
-            "name": "+5"
+            "details": "+5"
           }
         ],
       

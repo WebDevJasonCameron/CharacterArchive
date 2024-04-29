@@ -1,0 +1,293 @@
+{
+  "character_name": "Prophetess Dran",  
+  "phonetic_name": "prof-fet-ess dran",
+  "character_source": "acquisitions incorporated",
+  "total_level": "",
+  "avatar_img": "",
+
+  "titles_names_and_professions": [{}],
+
+  "background": {
+    "their_story": "The elf matriarch of the Dran clan, Prophetess is a retired paladin of Tymora who now runs the inn known as the Dran & Courtier. Formerly owned by her parents (and once called the Omindran), the inn has been a central feature of the village of Red Larch since before there was a Red Larch. [\n]Prophetess spent long years haunted by the fate of her daughter, Auspicia. She never fully believed Omin’s stories about the strange creature that had seized his sister, then created a false Auspicia in her stead. Having long attempted to simply make her peace with the loss, she was overwhelmed by the real Auspicia’s dramatic and unexpected return to the world. Through all that time and currently, Prophetess has maintained a challenging relationship with her faith. [\n]Though retired from active service to her deity, Prophetess can call on her spells and abilities in times of need, and remains in constant practice with Confessor, her maul. At her core, she believes that the gods help those who help themselves, and that people have a responsibility to their community. A practical sort who prefers to do things on her own, she doesn’t like to fuss with prayer if she doesn’t need to, as if bothering Tymora with trifles might seem rude.",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "flaws": "",
+    "talents": "",
+  
+    "relationships": [
+      {
+        "type": "daughters",
+        "names": ["Portentia Dran", "Auspicia Dran"],
+        "exposition": [""]
+      },
+      {
+        "type": "sons",
+        "names": ["Omin Dran"],
+        "exposition": [""]
+      }
+    ],
+  
+    "background_summary": {
+      "title": "",
+      "text": ""
+    }
+  },
+
+  "entity": {
+    "entity_title": "elf",
+    "entity_source": "d&d player's handbook 5e",
+  
+    "affiliates": ["Acquisitions Incorporated"],
+  
+    "located": ["Red Larch Village", "Dran & Courtier Inn"],
+  
+    "languages": ["common", "elvish"],
+    
+    "inventory": [""],
+  
+    "species": {
+      "species_title": "elf",
+      "sub_species_title": "",
+      "species_source": "d&d player's handbook 5e",
+      "species_type": "humanoid",
+      "species_size": "medium",
+      "expected_alignment": "any",
+      "challenge_rating": "",
+      "xp": 0,
+    
+      "images": [""],
+      "monster_tag": [""],
+      "enviornments": [""],
+      "condition_immunities": [""],
+      "damage_resistances": [""],
+    
+      "lore": [{}]
+    },
+  
+    "stats_and_actions": {
+      "stats": {
+        "armor_class": 14,
+        "armor_class_details": "14 (breastplate)", 
+        "hit_points": 27,
+        "hit_points_details": "27 (5d8 + 5)",
+        "speed": "",
+        "proficiency_bonus": "",
+      
+        "senses": [
+          { 
+            "type": "darkvision",
+            "details": "60 ft."
+          }
+        ],
+      
+        "saving_throws": [{}],
+      
+        "skills": [
+          { 
+            "type": "medicine",
+            "details": "+7"
+          },
+          { 
+            "type": "persuasion",
+            "details": "+3"
+          },
+          { 
+            "type": "religion",
+            "details": "+5"
+          }
+        ],
+      
+        "ability_scores": {
+          "str": 14,
+          "str_mod": "+4",
+          "dex": 10,
+          "dex_mod": "+0",
+          "con": 12,
+          "con_mod": "+1",
+          "int": 13,
+          "int_mod": "+1",
+          "wis": 16, 
+          "wis_mod": "+3",
+          "cha": 13,
+          "cha_mod": "+1"
+        }
+      },
+    
+      "potential_actions": {
+        "special_abilities": [
+          {
+            "title": "Racial traits",
+            "description": "Prophetess has advantage on saving throws against being charmed, and magic can’t put her to sleep."
+          }
+        ],
+      
+        "actions": [
+          {
+            "title": "Maul",
+            "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage.",
+          
+            "description": {
+              "type": "Melee Weapon Attack",
+              "to_hit": "+4",
+              "reach": "5 ft.",
+              "target": 1,
+              "saving_throws": "",    
+              "hit": 9,
+              "hit_details": "9 (2d6 + 2)",
+              "damage_type": "bludgeoning",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "bonus_actions": [
+          {
+            "title": "Divine Eminence",
+            "text": "As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.",
+          
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "",            
+              "hit": 10,
+              "hit_details": "extra 10 (3d6) or higher, the extra damage increases by 1d6 for each level above 1st.",
+              "damage_type": "",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "reactions": [{}],
+      
+        "legendary_actions": [{}],
+      
+        "lair_action": {},
+      
+        "regional_effect": {},
+      
+        "class_related_spellcasting": [
+          {
+            "spells_class": "priest",
+            "details": "The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks).",
+            "spell_casting_ability": "wisdom",
+            "spell_save": "DC 13",
+            "hit_advantages": "+5",
+          
+            "spell_lists": {
+              "cantrip": ["light", "sacred flame", "thaumaturgy"],
+              "cantrip_details": "at will",
+          
+              "1st_lvl": ["cure wounds", "guiding bolt", "sanctuary"],
+              "1st_lvl_slots": "4",
+          
+              "2nd_lvl": ["lesser restoration", "spiritual weapon"],
+              "2nd_lvl_slots": "3",
+          
+              "3rd_lvl": ["dispel magic", "sprit guardians"],
+              "3rd_lvl_slots": "2",
+          
+              "4th_lvl": [], 
+              "4th_lvl_slots": "",
+          
+              "5th_lvl": [],
+              "5th_lvl_slots": ""
+            }
+          }
+        ], 
+      
+        "species_related_spellcasting": {}
+      }
+    },
+  
+    "characteristics": {
+      "alignment": "lawful good",
+      "gender": "f",
+      "eyes": "",
+      "size": "medium",
+      "height": "",
+      "faith": "",
+      "hair": "",
+      "skin": "",
+      "age": "",
+      "weight": "",
+      "appearance": ""
+    },
+  
+    "class": [
+      {
+        "class_title": "paladin",
+        "sub_class_title": "",
+        "class_source": "d&d player's handbook 5e",
+        "class_level": "",
+      
+        "class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "sub_class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "class_lore": [
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "class_title": "priest",
+        "sub_class_title": "",
+        "class_source": "d&d player's handbook 5e",
+        "class_level": "",
+      
+        "class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": "Priests bring the teachings of their gods to the common folk. They are the spiritual leaders of temples and shrines and often hold positions of influence in their communities. Evil priests might work openly under a tyrant, or they might be the leaders of religious sects hidden in the shadows of good society, overseeing depraved rites. A priest typically has one or more acolytes to help with religious ceremonies and other sacred duties."
+            }
+          ]
+        },
+      
+        "sub_class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "class_lore": [
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+}
