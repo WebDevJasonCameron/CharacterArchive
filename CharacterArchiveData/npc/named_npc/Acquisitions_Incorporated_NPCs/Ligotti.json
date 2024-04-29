@@ -26,10 +26,21 @@
       }
     ],
   
-    "background_summary": {
-      "title": "",
-      "text": ""
-    }
+    "background_summary": {}
+  },
+
+  "characteristics": {
+    "alignment": "",
+    "gender": "",
+    "eyes": "",
+    "size": "tiny",
+    "height": "",
+    "faith": "",
+    "hair": "",
+    "skin": "",
+    "age": "",
+    "weight": "",
+    "appearance": ""
   },
 
   "entity": {
@@ -160,20 +171,6 @@
       
         "species_related_spellcasting": {}
       }
-    },
-  
-    "characteristics": {
-      "alignment": "",
-      "gender": "",
-      "eyes": "",
-      "size": "tiny",
-      "height": "",
-      "faith": "",
-      "hair": "",
-      "skin": "",
-      "age": "",
-      "weight": "",
-      "appearance": ""
     },
   
     "class": [{}]

@@ -1,0 +1,131 @@
+{
+  "entity_title": "",
+  "entity_source": "acquisitions incorporated",
+
+  "affiliates": [""],
+
+  "located": [""],
+
+  "languages": [""],
+  
+  "inventory": [""],
+
+  "species": {
+    "species_title": "",
+    "sub_species_title": "",
+    "species_source": "",
+    "species_type": "",
+    "species_size": "",
+    "expected_alignment": "",
+    "challenge_rating": "",
+    "xp": 0,
+  
+    "images": [""],
+    "monster_tag": [""],
+    "enviornments": [""],
+    "condition_immunities": [""],
+  
+    "damage_resistances": [""],
+  
+    "lore": [
+      { 
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 0,
+      "armor_class_details": "",
+      "hit_points": 0,
+      "hit_points_details": "",
+      "speed": "",
+      "proficiency_bonus": "",
+    
+      "senses": [
+        { 
+          "type": "",
+          "details": ""
+        }
+      ],
+    
+      "saving_throws": [
+        { 
+          "type": "",
+          "details": ""
+        }
+      ],
+    
+      "skills": [
+        { 
+          "type": "",
+          "details": ""
+        }
+      ],
+    
+      "ability_scores": {
+        "str": 0,
+        "str_mod": "",
+        "dex": 0,
+        "dex_mod": "",
+        "con": 0,
+        "con_mod": "",
+        "int": 0,
+        "int_mod": "",
+        "wis": 0, 
+        "wis_mod": "",
+        "cha": 0,
+        "cha_mod": ""
+      }
+    },
+  
+    "potential_actions": {
+      "special_abilities": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+    
+      "actions": [
+        {
+          "title": "",
+          "text": "",
+        
+          "description": {
+            "type": "",
+            "to_hit": "",
+            "reach": "",
+            "target": 0,
+            "saving_throws": "",
+            "hit": 0,
+            "hit_details": "",
+            "damage_type": "",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        }
+      ],
+    
+      "bonus_actions": [{}],
+    
+      "reactions": [{}],
+    
+      "legendary_actions": [{}],
+    
+      "lair_action": {},
+    
+      "regional_effect": {},
+    
+      "class_related_spellcasting": [{}], 
+    
+      "species_related_spellcasting": {}
+    }
+  },
+
+  "class": [{}]
+}

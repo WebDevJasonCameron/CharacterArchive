@@ -31,10 +31,21 @@
       }
     ],
   
-    "background_summary": {
-      "title": "",
-      "text": ""
-    }
+    "background_summary": {}
+  },
+
+  "characteristics": {
+    "alignment": "lawful good",
+    "gender": "f",
+    "eyes": "",
+    "size": "medium",
+    "height": "",
+    "faith": "",
+    "hair": "",
+    "skin": "",
+    "age": "",
+    "weight": "",
+    "appearance": ""
   },
 
   "entity": {
@@ -209,20 +220,6 @@
       
         "species_related_spellcasting": {}
       }
-    },
-  
-    "characteristics": {
-      "alignment": "lawful good",
-      "gender": "f",
-      "eyes": "",
-      "size": "medium",
-      "height": "",
-      "faith": "",
-      "hair": "",
-      "skin": "",
-      "age": "",
-      "weight": "",
-      "appearance": ""
     },
   
     "class": [

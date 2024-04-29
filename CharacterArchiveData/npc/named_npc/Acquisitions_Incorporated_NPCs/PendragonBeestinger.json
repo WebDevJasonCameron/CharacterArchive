@@ -36,10 +36,22 @@
       }
     ],
   
-    "background_summary": {
-      "title": "",
-      "text": ""
-    }
+    "background_summary": {}
+  },
+
+    
+  "characteristics": {
+    "alignment": "neutral evil",
+    "gender": "m",
+    "eyes": "",
+    "size": "",
+    "height": "",
+    "faith": "",
+    "hair": "",
+    "skin": "",
+    "age": "",
+    "weight": "",
+    "appearance": ""
   },
 
   "entity": {
@@ -209,20 +221,6 @@
       
         "species_related_spellcasting": {}
       }
-    },
-  
-    "characteristics": {
-      "alignment": "neutral evil",
-      "gender": "m",
-      "eyes": "",
-      "size": "",
-      "height": "",
-      "faith": "",
-      "hair": "",
-      "skin": "",
-      "age": "",
-      "weight": "",
-      "appearance": ""
     },
   
     "class": [

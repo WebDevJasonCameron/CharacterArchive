@@ -32,6 +32,20 @@
     }
   },
 
+  "characteristics": {
+    "alignment": "",
+    "gender": "",
+    "eyes": "",
+    "size": "",
+    "height": "",
+    "faith": "",
+    "hair": "",
+    "skin": "",
+    "age": "",
+    "weight": "",
+    "appearance": ""
+  },
+
   "entity": {
     "entity_title": "",
     "entity_source": "",
@@ -128,20 +142,6 @@
       
         "species_related_spellcasting": {}
       }
-    },
-  
-    "characteristics": {
-      "alignment": "",
-      "gender": "",
-      "eyes": "",
-      "size": "",
-      "height": "",
-      "faith": "",
-      "hair": "",
-      "skin": "",
-      "age": "",
-      "weight": "",
-      "appearance": ""
     },
   
     "class": [

@@ -1,0 +1,27 @@
+{
+  "title": "",
+  "text": "",
+  "lair": "",
+
+  "lair_actions": [
+    {
+      "title": "",
+      "text": "",
+
+      "description": {
+        "type": "",
+        "to_hit": "",
+        "reach": "",
+        "target": 0,
+        "saving_throws": "",
+        "hit": 0,
+        "hit_details": "",
+        "damage_type": "",
+        "time": "",
+        "recharge": "",
+
+        "sequential_actions": [{}]
+      }
+    }
+  ]
+}

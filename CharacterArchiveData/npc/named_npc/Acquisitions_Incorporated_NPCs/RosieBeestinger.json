@@ -35,10 +35,21 @@
       }
     ],
   
-    "background_summary": {
-      "title": "",
-      "text": ""
-    }
+    "background_summary": {}
+  },
+
+  "characteristics": {
+    "alignment": "chaotic good",
+    "gender": "f",
+    "eyes": "",
+    "size": "small",
+    "height": "",
+    "faith": "",
+    "hair": "",
+    "skin": "",
+    "age": "",
+    "weight": "",
+    "appearance": ""
   },
 
   "entity": {
@@ -253,20 +264,6 @@
           }
         }
       }
-    },
-  
-    "characteristics": {
-      "alignment": "chaotic good",
-      "gender": "f",
-      "eyes": "",
-      "size": "small",
-      "height": "",
-      "faith": "",
-      "hair": "",
-      "skin": "",
-      "age": "",
-      "weight": "",
-      "appearance": ""
     },
   
     "class": [

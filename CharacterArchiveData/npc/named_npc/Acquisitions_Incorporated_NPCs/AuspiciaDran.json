@@ -29,6 +29,20 @@
     "background_summary": {}
   },
 
+  "characteristics": {
+    "alignment": "",
+    "gender": "f",
+    "eyes": "",
+    "size": "",
+    "height": "",
+    "faith": "",
+    "hair": "",
+    "skin": "",
+    "age": "",
+    "weight": "",
+    "appearance": ""
+  },
+
   "entity": {
     "entity_title": "half-elf",
     "entity_source": "",
@@ -181,20 +195,6 @@
           }
         }
       }
-    },
-  
-    "characteristics": {
-      "alignment": "",
-      "gender": "f",
-      "eyes": "",
-      "size": "",
-      "height": "",
-      "faith": "",
-      "hair": "",
-      "skin": "",
-      "age": "",
-      "weight": "",
-      "appearance": ""
     },
   
     "class": [

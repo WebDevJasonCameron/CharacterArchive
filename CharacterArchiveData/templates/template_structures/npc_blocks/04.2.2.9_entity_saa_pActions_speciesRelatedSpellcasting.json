@@ -1,0 +1,14 @@
+{
+  "details": "",
+  "spell_casting_ability": "",
+  "spell_save": "",
+  "hit_advantages": "",
+
+  "spell_list": {
+    "type_name": "",
+    "at_will_spells": [""],
+
+    "other_spells": [""],
+    "other_spells_details": ""
+  }
+}
