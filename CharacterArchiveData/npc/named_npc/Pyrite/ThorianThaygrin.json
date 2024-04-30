@@ -1,0 +1,207 @@
+{
+  "character_name": "Thorian",  
+  "phonetic_name": "thor-ian  thay-grin",
+  "character_source": "smash",
+  "total_level": "",
+  "avatar_img": "",
+
+  "titles_names_and_professions": [{}],
+
+  "background": {
+    "their_story": "",
+    "natural_state": "Quiet and reserved, but fiercely loyal to his family",
+    "quirks": "",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "Thorian has been secretly saving money to send his son to study under a master blacksmith in a distant city, hoping to provide him with better opportunities than he had.",
+    "bonds": "Thorian's bond is with his family, especially his son, whom he wants to see succeed in life.",
+    "flaws": "Despite his dedication to his family, Thorian can be stubborn and resistant to change, sometimes causing friction in his relationships.",
+    "talents": "",
+  
+    "relationships": [
+      {
+        "type": "brothers",
+        "names": ["Lyra"],
+        "exposition": ["They share a close bond forged through years of working together to support their family"]
+      },
+      {
+        "type": "wife",
+        "names": ["Elara"],
+        "exposition": ["He is married to a woman named Lyra, who helps manage the household and occasionally assists him in the forge."]
+      }
+    ],
+  
+    "background_summary": {
+      "title": "",
+      "text": ""
+    }
+  },
+
+  "characteristics": {
+    "alignment": "Lawful Good",
+    "gender": "m",
+    "eyes": "",
+    "size": "medium",
+    "height": "",
+    "faith": "",
+    "hair": "",
+    "skin": "",
+    "age": "",
+    "weight": "",
+    "appearance": ""
+  },
+
+  "entity": {
+    "entity_title": "human blacksmith",
+    "entity_source": "",
+  
+    "affiliates": [""],
+  
+    "located": [""],
+  
+    "languages": ["common"],
+    
+    "inventory": ["smithing tools", "hammer", "anvil", "leather apron"],
+  
+    "species": {
+      "species_title": "human",
+      "sub_species_title": "",
+      "species_source": "d&d player's handbook 5e",
+      "species_type": "humanoid",
+      "species_size": "medium",
+      "expected_alignment": "any",
+      "challenge_rating": "1/4",
+      "xp": 50,
+    
+      "images": [""],
+      "monster_tag": [""],
+      "enviornments": [""],
+      "condition_immunities": [""],
+      "damage_immunities": [""],
+      "damage_resistances": [""],
+    
+      "lore": [{}]
+    },
+  
+    "stats_and_actions": {
+      "stats": {
+        "armor_class": 11,
+        "armor_class_details": "11 (leather armor)",
+        "hit_points": 32,
+        "hit_points_details": "32 (5d8 + 10)",
+        "speed": "30 ft.",
+        "proficiency_bonus": "+2",
+      
+        "senses": [
+          { 
+            "type": "passive perception",
+            "details": "10"
+          }
+        ],
+      
+        "saving_throws": [{}],
+      
+        "skills": [
+          { 
+            "type": "smith's tools",
+            "details": "+6"
+          }
+        ],
+      
+        "ability_scores": {
+          "str": 16,
+          "str_mod": "+3",
+          "dex": 12,
+          "dex_mod": "+1",
+          "con": 14,
+          "con_mod": "+2",
+          "int": 10,
+          "int_mod": "+0",
+          "wis": 12, 
+          "wis_mod": "+1",
+          "cha": 10,
+          "cha_mod": "+0"
+        }
+      },
+    
+      "potential_actions": {
+        "special_abilities": [
+          {
+            "title": "",
+            "description": ""
+          }
+        ],
+      
+        "actions": [
+          {
+            "title": "Light Hammer",
+            "text": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4 + 2) bludgeoning damage.",
+          
+            "description": {
+              "type": "Melee or Ranged Weapon Attack",
+              "to_hit": "+4",
+              "reach": "5 ft.,  20/60 ft.",
+              "target": 1,
+              "saving_throws": "",
+              "hit": 2,
+              "hit_details": "2 (1d4 + 2)",
+              "damage_type": "bludgeoning",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "bonus_actions": [{}],
+      
+        "reactions": [{}],
+      
+        "legendary_action": {},
+      
+        "lair_action": {},
+      
+        "regional_effect": {},
+      
+        "class_related_spellcasting": [{}], 
+      
+        "species_related_spellcasting": {}
+      }
+    },
+  
+    "class": [
+      {
+        "class_title": "",
+        "sub_class_title": "",
+        "class_source": "",
+        "class_level": "",
+      
+        "class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "sub_class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "class_lore": [
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+}

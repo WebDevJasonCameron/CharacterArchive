@@ -25,7 +25,7 @@
     "enviornments": [""],
     "condition_immunities": [""],
     "damage_immunities": [""],
-    "damage_resistances": ["bludgeoning", "piercing", "slashing", "nonmagical attacks"],
+    "damage_resistances": ["bludgeoning from nonmagical attacks", "piercing from nonmagical attacks", "slashing from nonmagical attacks"],
 
 
     "lore": [

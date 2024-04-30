@@ -1,0 +1,231 @@
+{
+  "character_name": "Elara",  
+  "phonetic_name": "el-air-a",
+  "character_source": "smash",
+  "total_level": "",
+  "avatar_img": "",
+
+  "titles_names_and_professions": [
+    { 
+      "type": "profession",
+      "name": "innkeeper",
+      "reason": "owns and runs the inn in Pyrite"
+    }
+  ],
+
+  "background": {
+    "their_story": "Elara grew up in Pyrite and inherited the inn from her parents. She has always had a passion for hospitality and enjoys nothing more than making her guests feel welcome. Over the years, she has developed a reputation for her delicious home-cooked meals and cozy accommodations, drawing travelers from far and wide to her inn.",
+    "natural_state": "Elara believes in providing a warm and comfortable place for travelers to rest, regardless of their background or circumstances.",
+    "quirks": "Highly organized and meticulous in managing her inn",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "The Inn - Elara's inn is her pride and joy. She has poured her heart and soul into making it a home away from home for weary travelers.",
+    "flaws": "Overprotective - Elara can be overly cautious and sometimes worries excessively about the safety and well-being of her guests, often going to great lengths to ensure their comfort and security.",
+    "talents": "",
+  
+    "relationships": [
+      {
+        "type": "",
+        "names": [""],
+        "exposition": [""]
+      }
+    ],
+  
+    "background_summary": {
+      "title": "Well-Traveled",
+      "text": "Elara has met travelers from all walks of life and has picked up useful information and stories along the way. She can often provide useful tidbits of information to adventurers passing through Pyrite."
+    }
+  },
+
+  "characteristics": {
+    "alignment": "neutral good",
+    "gender": "f",
+    "eyes": "",
+    "size": "medium",
+    "height": "",
+    "faith": "",
+    "hair": "",
+    "skin": "",
+    "age": "",
+    "weight": "",
+    "appearance": ""
+  },
+
+  "entity": {
+    "entity_title": "human innkeeper",
+    "entity_source": "https://www.worldanvil.com/block/789421e",
+  
+    "affiliates": ["innkeeper's Guild"],
+  
+    "located": ["Pyrite", "The Rocky Hearth"],
+  
+    "languages": ["common"],
+    
+    "inventory": ["common clothes", "apron", "set of keys for the inn", "coin puch with 25 gold pieces"],
+  
+    "species": {
+      "species_title": "human",
+      "sub_species_title": "",
+      "species_source": "d&d player's handbook 5e",
+      "species_type": "humanoid",
+      "species_size": "medium",
+      "expected_alignment": "any",
+      "challenge_rating": "1/8",
+      "xp": 10,
+    
+      "images": [""],
+      "monster_tag": [""],
+      "enviornments": [""],
+      "condition_immunities": [""],
+      "damage_immunities": [""],
+      "damage_resistances": [""],
+    
+      "lore": [{}]
+    },
+  
+    "stats_and_actions": {
+      "stats": {
+        "armor_class": 11,
+        "armor_class_details": "11(padded)",
+        "hit_points": 22,
+        "hit_points_details": "22 (4d8 +4)",
+        "speed": "",
+        "proficiency_bonus": "",
+      
+        "senses": [
+          { 
+            "type": "passive perception",
+            "details": "16"
+          }
+        ],
+      
+        "saving_throws": [{}],
+      
+        "skills": [
+          { 
+            "type": "",
+            "details": ""
+          }
+        ],
+      
+        "ability_scores": {
+          "str": 10,
+          "str_mod": "+0",
+          "dex": 12,
+          "dex_mod": "+1",
+          "con": 14,
+          "con_mod": "+2",
+          "int": 12,
+          "int_mod": "+1",
+          "wis": 15, 
+          "wis_mod": "+2",
+          "cha": 14,
+          "cha_mod": "+12"
+        }
+      },
+    
+      "potential_actions": {
+        "special_abilities": [
+          {
+            "title": "The first to know",
+            "description": "All the gossip from the city cames to the tavern first."
+          },
+          {
+            "title": "I know a guy",
+            "description": "Due to her job, an innkeeper has some known contacts on the underworld. With a proper gold or persuation, she can make things happen."
+          }
+        ],
+      
+        "actions": [
+          {
+            "title": "Dagger",
+            "text": "Melee Weapon Attack +2 to hit, range 20/60ft, one target. Hit: 2 (1d4 +0) piercing damage. Properties: Thrown: range 20/60ft, Finesse, Light, It's actually a kitchen knife,",
+          
+            "description": {
+              "type": "Melee Weapon Attac",
+              "to_hit": "+2",
+              "reach": "20/60 ft.",
+              "target": 1,
+              "saving_throws": "",
+              "hit": 2,
+              "hit_details": "2 (1d4 +0)",
+              "damage_type": "piercing",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          },
+          {
+            "title": "Unarmed strike",
+            "text": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 (1 +0) bludgeoning damage.",
+          
+            "description": {
+              "type": "Melee Weapon Attack",
+              "to_hit": "+2",
+              "reach": "5 ft.",
+              "target": 1,
+              "saving_throws": "",
+              "hit": 1,
+              "hit_details": "1 (1 +0)",
+              "damage_type": "",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "bonus_actions": [{}],
+      
+        "reactions": [{}],
+      
+        "legendary_action": {},
+      
+        "lair_action": {},
+      
+        "regional_effect": {},
+      
+        "class_related_spellcasting": [{}], 
+      
+        "species_related_spellcasting": {}
+      }
+    },
+  
+    "class": [
+      {
+        "class_title": "innkeeper",
+        "sub_class_title": "",
+        "class_source": "https://www.worldanvil.com/block/789421",
+        "class_level": "",
+      
+        "class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "sub_class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "class_lore": [
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+}
