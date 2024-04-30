@@ -1,0 +1,212 @@
+{
+  "entity_title": "Deep Crow",
+  "entity_source": "acquisitions incorporated",
+
+  "affiliates": [""],
+
+  "located": [""],
+
+  "languages": ["deep crow"],
+  
+  "inventory": [""],
+
+  "species": {
+    "species_title": "Deep Crow",
+    "sub_species_title": "",
+    "species_source": "acquisitions incorporated",
+    "species_type": "monstrosity",
+    "species_size": "large",
+    "expected_alignment": "unaligned",
+    "challenge_rating": "9",
+    "xp": 5000,
+  
+    "images": ["https://www.dndbeyond.com/attachments/thumbnails/5/659/400/1036/appendix-b-01.png"],
+    "monster_tag": [""],
+    "enviornments": [""],
+    "condition_immunities": [""],
+  
+    "damage_resistances": [""],
+  
+    "lore": [
+      { 
+        "title": "Quote",
+        "text": "The only warning you’ll get is that fearsome, far-off caw, echoing from the darkness like a death knell. For by the time those glowing red eyes fix on you, it’s far too late to run …"
+      },
+      { 
+        "title": "Description",
+        "text": "Some adventurers and sages whisper that deep crows were first spawned as the familiars of evil arcane casters, abandoned in the subterranean depths and left to grow to enormous size. Others claim these creatures were once normal crows transmuted by vile essence and viler powers. But one thing all agree on is that ending up a meal for one of these monstrosities is a too-real threat for those who stumble into their deadly lairs. [\n]Though the deep crow most immediately resembles a massive version of its namesake bird, this creature is a unique form of avian insect. Seen up close, it can easily be discerned from any other giant bird by its insectoid maw, its four-clawed feet, and the cluster of red eyes that are the most unsettling part of its appearance."
+      },
+      { 
+        "title": "Terror from Above",
+        "text": "The deep crow’s most fearsome attack is the bite of its mandibles, which can seize and hold almost any creature. Their preferred attack is a snatch-and-grab that sees a deep crow flying off with a living victim before its companions have any chance of counterattack. Provided the doomed prey doesn’t struggle, the deep crow takes it back to its lair to be devoured at leisure. Creatures that do struggle might be repeatedly dropped from a height to soften them up a bit."
+      },
+      { 
+        "title": "Family Ties",
+        "text": "Deep crows live alone for an unknown length of years, emerging from the lair only to hunt, to look for potential threats, and to mate. Mating is a once-in-a-lifetime urge that sees each deep crow involved in the pairing produce a cluster of four to eight eggs. Incubation lasts a year, followed by a year during which the fledgling deep crows stay close by their parent’s side. The young then set out to establish lairs of their own."
+      },
+      { 
+        "title": "Unknown and Inscrutable",
+        "text": "The mindset of these intelligent yet alien creatures is a mystery, but some who have encountered them relate that they are quick to hold a grudge. For years. Of even greater importance, they can teach their chicks to harbor the same resentments, instilling a cross-generational hatred of chosen foes that can last for centuries."
+      }
+    ]
+  },
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 17,
+      "armor_class_details": "17 (natural armor)",
+      "hit_points": 133,
+      "hit_points_details": "133 (14d10 + 56)",
+      "speed": "20 ft., fly 80 ft.",
+      "proficiency_bonus": "",
+    
+      "senses": [
+        { 
+          "type": "blindsight",
+          "details": "30 ft."
+        },
+        { 
+          "type": "darkvision",
+          "details": "120 ft."
+        },
+        { 
+          "type": "passive perception",
+          "details": "16"
+        }
+      ],
+    
+      "saving_throws": [
+        { 
+          "type": "con",
+          "details": "+8"
+        },
+        { 
+          "type": "wis",
+          "details": "+6"
+        }
+      ],
+    
+      "skills": [
+        { 
+          "type": "perception",
+          "details": "+6"
+        },
+        { 
+          "type": "stealth",
+          "details": "+11"
+        }
+      ],
+    
+      "ability_scores": {
+        "str": 20,
+        "str_mod": "+5",
+        "dex": 16,
+        "dex_mod": "+3",
+        "con": 18,
+        "con_mod": "+4",
+        "int": 8,
+        "int_mod": "-1",
+        "wis": 15, 
+        "wis_mod": "+2",
+        "cha": 14,
+        "cha_mod": "+2"
+      }
+    },
+  
+    "potential_actions": {
+      "special_abilities": [
+        {
+          "title": "Magic Resistance",
+          "description": "The deep crow has advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "title": "Shadow Stealth",
+          "description": "While in dim light or darkness, the deep crow can take the Hide action as a bonus action."
+        },
+        {
+          "title": "Sunlight Sensitivity",
+          "description": "While in sunlight, the deep crow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+        },
+        {
+          "title": "Multiattack",
+          "description": "The deep crow makes three attacks: one with its mandibles and two with its claws."
+        }
+      ],
+    
+      "actions": [
+        {
+          "title": "Mandibles",
+          "text": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage, and the target is grappled (escape DC 17). Until this grapple ends, the target is, and the deep crow can’t use its mandibles on another target.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+9",
+            "reach": "10 ft.",
+            "target": 0,
+            "saving_throws": "DC 17",
+            "hit": 16,
+            "hit_details": "16 (2d10 + 5)",
+            "damage_type": "piercing",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [
+              {
+                "title": "restrained",
+                "text": "A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed. [\n]Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage. [\n]The creature has disadvantage on Dexterity saving throws.",
+              
+                "description": {
+                  "type": "",
+                  "to_hit": "",
+                  "reach": "",
+                  "target": 0,
+                  "saving_throws": "",
+                  "hit": 0,
+                  "hit_details": "",
+                  "damage_type": "",
+                  "time": "",
+                  "recharge": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "Claw",
+          "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+9",
+            "reach": "5 ft.",
+            "target": 1,
+            "saving_throws": "",
+            "hit": 12,
+            "hit_details": "12 (2d6 + 5)",
+            "damage_type": "slashing",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        }
+      ],
+    
+      "bonus_actions": [{}],
+    
+      "reactions": [{}],
+    
+      "legendary_action": {},
+    
+      "lair_action": {},
+    
+      "regional_effect": {},
+    
+      "class_related_spellcasting": [{}], 
+    
+      "species_related_spellcasting": {}
+    }
+  },
+
+  "class": [{}]
+}

@@ -1,0 +1,218 @@
+{
+  "entity_title": "Ancient Deep Crow",
+  "entity_source": "acquisitions incorporated",
+
+  "affiliates": [""],
+
+  "located": [""],
+
+  "languages": ["deep crow"],
+  
+  "inventory": [""],
+
+  "species": {
+    "species_title": "Ancient Deep Crow",
+    "sub_species_title": "",
+    "species_source": "acquisitions incorporated",
+    "species_type": "monstrosity",
+    "species_size": "huge",
+    "expected_alignment": "unaligned",
+    "challenge_rating": "15",
+    "xp": 13000,
+  
+    "images": [""],
+    "monster_tag": [""],
+    "enviornments": [""],
+    "condition_immunities": [""],
+    "damage_resistances": ["bludgeoning", "piercing", "slashing", "nonmagical attacks"],
+  
+    "lore": [
+      { 
+        "title": "Description",
+        "text": "So little is known of the deep crows that even less is known of their monstrous leviathan cousins, the ancient deep crows. Whether these gargantuan specimens are elder deep crows grown to great size or some higher form that holds lesser deep crows in thrall remains to be determined. Ideally by someone else. Seriously, stay away from these things."
+      }
+    ]
+  },
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 18,
+      "armor_class_details": "18 (natural armor)",
+      "hit_points": 187,
+      "hit_points_details": "187 (15d12 + 90)",
+      "speed": "20 ft., fly 80 ft.",
+      "proficiency_bonus": "",
+    
+      "senses": [
+        { 
+          "type": "blindsight",
+          "details": "60 ft."
+        },
+        { 
+          "type": "darkvision",
+          "details": "120 ft."
+        },
+        { 
+          "type": "passive perception",
+          "details": "17"
+        }
+      ],
+    
+      "saving_throws": [
+        { 
+          "type": "con",
+          "details": "+11"
+        },
+        { 
+          "type": "wis",
+          "details": "+7"
+        }
+      ],
+    
+      "skills": [
+        { 
+          "type": "perception",
+          "details": "+7"
+        },
+        { 
+          "type": "stealth",
+          "details": "+13"
+        }
+      ],
+    
+      "ability_scores": {
+        "str": 23,
+        "str_mod": "+6",
+        "dex": 16,
+        "dex_mod": "+3",
+        "con": 23,
+        "con_mod": "+6",
+        "int": 10,
+        "int_mod": "+0",
+        "wis": 15, 
+        "wis_mod": "+2",
+        "cha": 19,
+        "cha_mod": "+4"
+      }
+    },
+  
+    "potential_actions": {
+      "special_abilities": [
+        {
+          "title": "Magic Resistance",
+          "description": "The ancient deep crow has advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "title": "Shadow Stealth",
+          "description": "While in dim light or darkness, the ancient deep crow can take the Hide action as a bonus action."
+        },
+        {
+          "title": "Multiattack",
+          "description": "The ancient deep crow makes three attacks: one with its mandibles and two with its claws."
+        }
+      ],
+    
+      "actions": [
+        {
+          "title": "Mandibles",
+          "text": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the ancient deep crow can’t use its mandibles on another target.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+11",
+            "reach": "10 ft.",
+            "target": 0,
+            "saving_throws": "DC 19v",
+            "hit": 17,
+            "hit_details": "17 (2d10 + 6)",
+            "damage_type": "piercing",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [
+              {
+                "title": "restrained",
+                "text": "A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed. [\n]Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage. [\n]The creature has disadvantage on Dexterity saving throws.",
+              
+                "description": {
+                  "type": "",
+                  "to_hit": "",
+                  "reach": "",
+                  "target": 0,
+                  "saving_throws": "",
+                  "hit": 0,
+                  "hit_details": "",
+                  "damage_type": "",
+                  "time": "",
+                  "recharge": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "Claw",
+          "text": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+11",
+            "reach": "5 ft.",
+            "target": 0,
+            "saving_throws": "",
+            "hit": 13,
+            "hit_details": "13 (2d6 + 6)",
+            "damage_type": "slashing",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        },
+        {
+          "title": "Shadow Caw",
+          "text": "The ancient deep crow releases an ear-splitting caw. Each creature within 60 feet of the crow and able to hear it must make a DC 17 Constitution saving throw. On a failure, a creature takes 10 (3d6) psychic damage.",
+
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "",
+            "reach": "60 ft.",
+            "target": 0,
+            "saving_throws": "DC 17 Constitution",
+            "hit": 10,
+            "hit_details": "10 (3d6)",
+            "damage_type": "psychic",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        }
+        
+      ],
+    
+      "bonus_actions": [{}],
+    
+      "reactions": [{}],
+    
+      "legendary_action": 
+      {
+        "title": "",
+        "text": "",
+        "lore": "",
+      
+        "legendary_actions": [{}]
+      },
+    
+      "lair_action": {},
+    
+      "regional_effect": {},
+    
+      "class_related_spellcasting": [{}], 
+    
+      "species_related_spellcasting": {}
+    }
+  },
+
+  "class": [{}]
+}
