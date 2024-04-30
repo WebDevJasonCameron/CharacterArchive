@@ -69,6 +69,7 @@
       "monster_tag": ["misc creature"],
       "enviornments": ["coastal", "desert", "forest", "grassland", "hill", "swamp"],
       "condition_immunities": [""],
+      "damage_immunities": [""],
       "damage_resistances": [""],
     
       "lore": [{}]

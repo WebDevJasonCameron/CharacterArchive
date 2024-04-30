@@ -1,0 +1,135 @@
+{
+  "entity_title": "keg robot",
+  "entity_source": "acquisitions incorporated",
+
+  "affiliates": [""],
+
+  "located": [""],
+
+  "languages": [""],
+  
+  "inventory": [""],
+
+  "species": {
+    "species_title": "keg robot",
+    "sub_species_title": "",
+    "species_source": "acquisitions incorporated",
+    "species_type": "construct",
+    "species_size": "medium",
+    "expected_alignment": "unaligned",
+    "challenge_rating": "2",
+    "xp": 450,
+  
+    "images": [""],
+    "monster_tag": [""],
+    "enviornments": [""],
+    "condition_immunities": ["charmed", "exhaustion", "frightened", "paralyzed", "petrified", "poisoned"],
+    "damage_immunities": ["poison", "psychic"],
+    "damage_resistances": ["bludgeoning", "piercing", "slashing from nonmagical attacks"],
+  
+    "lore": [
+      { 
+        "title": "quote",
+        "text": "This beer is delicious. But did the spigot really have to be placed in that spot?"
+      },
+      { 
+        "title": "description",
+        "text": "A keg robot is a stout wood-and-metal construct, vaguely reminiscent of a dwarf wearing a horned helm and possessing a barrel for a body. These constructs are another achievement of the Heuristic Arcane Research and Development (HARD) department of Acquisitions Incorporated. These devices have a number of practical purposes, including the ability to be filled with a variety of substances of use to an adventuring party. Specific models are nominally named for their primary function, including “ambulatory fermenter,” “mobile alchemical dispensary,” and so forth. But their prominent use as portable beer dispensers has placed the name “keg robot” firmly into public consciousness. [\n]A keg robot can hold up to three different kinds of liquid in its body cavity, from water and other potables to alchemical substances and lamp oil. Its individual storage compartments can leak, providing drinkable liquids with a unique but mostly safe flavor. These constructs have a rudimentary intellect that allows them to operate independently and discern friend from foe — and which sometimes causes them to operate with a crass sense of humor that has never been fully explained."
+      }
+    ]
+  },
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 14,
+      "armor_class_details": "14 (natural armor)",
+      "hit_points": 39,
+      "hit_points_details": "39 (6d8 + 12)",
+      "speed": "30 ft.",
+      "proficiency_bonus": "",
+    
+      "senses": [
+        { 
+          "type": "",
+          "details": ""
+        }
+      ],
+    
+      "saving_throws": [
+        { 
+          "type": "",
+          "details": ""
+        }
+      ],
+    
+      "skills": [
+        { 
+          "type": "perception",
+          "details": "+1"
+        }
+      ],
+    
+      "ability_scores": {
+        "str": 16,
+        "str_mod": "+3",
+        "dex": 16,
+        "dex_mod": "+3",
+        "con": 15,
+        "con_mod": "+2",
+        "int": 6,
+        "int_mod": "-2",
+        "wis": 8, 
+        "wis_mod": "-1",
+        "cha": 5,
+        "cha_mod": "-3"
+      }
+    },
+  
+    "potential_actions": {
+      "special_abilities": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+    
+      "actions": [
+        {
+          "title": "",
+          "text": "",
+        
+          "description": {
+            "type": "",
+            "to_hit": "",
+            "reach": "",
+            "target": 0,
+            "saving_throws": "",
+            "hit": 0,
+            "hit_details": "",
+            "damage_type": "",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        }
+      ],
+    
+      "bonus_actions": [{}],
+    
+      "reactions": [{}],
+    
+      "legendary_action": {},
+    
+      "lair_action": {},
+    
+      "regional_effect": {},
+    
+      "class_related_spellcasting": [{}], 
+    
+      "species_related_spellcasting": {}
+    }
+  },
+
+  "class": [{}]
+}

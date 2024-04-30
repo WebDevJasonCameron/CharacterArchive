@@ -1,5 +1,5 @@
 {
-  "entity_title": "Ancient Deep Crow",
+  "entity_title": "ancient deep crow",
   "entity_source": "acquisitions incorporated",
 
   "affiliates": [""],
@@ -11,7 +11,7 @@
   "inventory": [""],
 
   "species": {
-    "species_title": "Ancient Deep Crow",
+    "species_title": "ancient deep crow",
     "sub_species_title": "",
     "species_source": "acquisitions incorporated",
     "species_type": "monstrosity",
@@ -24,8 +24,10 @@
     "monster_tag": [""],
     "enviornments": [""],
     "condition_immunities": [""],
+    "damage_immunities": [""],
     "damage_resistances": ["bludgeoning", "piercing", "slashing", "nonmagical attacks"],
-  
+
+
     "lore": [
       { 
         "title": "Description",
@@ -195,18 +197,101 @@
     
       "reactions": [{}],
     
-      "legendary_action": 
-      {
+      "legendary_action": {
         "title": "",
-        "text": "",
-        "lore": "",
+        "text": "The ancient deep crow can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The ancient deep crow regains spent legendary actions at the start of its turn.",
+        "lair": "",
       
-        "legendary_actions": [{}]
+        "lair_actions": [
+          {
+            "title": "Detect",
+            "text": "The deep crow makes a Wisdom (Perception) check.",
+      
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "",
+              "recharge": "",
+      
+              "sequential_actions": [{}]
+            }
+          },
+          {
+            "title": "Shadow Caw (Costs 2 Actions)",
+            "text": "The ancient deep crow uses Shadow Caw.",
+      
+            "description": {
+              "type": "Melee Weapon Attack",
+              "to_hit": "",
+              "reach": "60 ft.",
+              "target": 0,
+              "saving_throws": "DC 17 Constitution",
+              "hit": 10,
+              "hit_details": "10 (3d6)",
+              "damage_type": "psychic",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          },
+          {
+            "title": "Wing Attack (Costs 2 Actions)",
+            "text": "The ancient deep crow beats its wings. Each creature within 10 feet of the deep crow must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The ancient deep crow can then fly up to half its flying speed.",
+      
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "10 ft.",
+              "target": 0,
+              "saving_throws": "DC 19 Dexterity",
+              "hit": 13,
+              "hit_details": "13 (2d6 + 6)",
+              "damage_type": "bludgeoning, and be knocked prone",
+              "time": "",
+              "recharge": "",
+      
+              "sequential_actions": [{}]
+            }
+          }
+        ]
       },
     
-      "lair_action": {},
+      "lair_action": {
+        "title": "A Deep Crow’s Lair",
+        "text": "Deep crows and ancient deep crows roost in places both deep and warm, favoring sites with access to exposed lava. The spires of volcanic rock the creatures prize as roosts are common in such places, whose ambient warmth provides constant temperature regulation for the creature’s eggs.",
+        "lair": "",
+      
+        "lair_actions": [{}
+        ]
+      },
     
-      "regional_effect": {},
+      "regional_effect": {
+        "title": "Description",
+        "text": "The region containing an ancient deep crow’s lair is transformed by the creature’s presence, which creates one or more of the following effects",
+        "region": "",
+      
+        "region_effects": [
+          {
+            "title": "Supernatural shadow",
+            "text": "Supernatural shadow turns all bright light to dim light in underground regions within 6 miles of the lair."
+          },
+          {
+            "title": "Echoing caws",
+            "text": "Intermittent, echoing caws can be heard coming from all directions within 6 miles of the lair."
+          },
+          {
+            "title": "Subterranean beasts",
+            "text": "Subterranean beasts within 1 mile of the ancient deep crow’s lair serve as the creature’s eyes and ears, alerting it to the presence of intruders and making it all but impossible to surprise the ancient deep crow."
+          }
+        ]
+      },
     
       "class_related_spellcasting": [{}], 
     

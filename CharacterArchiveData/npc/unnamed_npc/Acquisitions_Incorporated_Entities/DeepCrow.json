@@ -1,5 +1,5 @@
 {
-  "entity_title": "Deep Crow",
+  "entity_title": "deep crow",
   "entity_source": "acquisitions incorporated",
 
   "affiliates": [""],
@@ -11,7 +11,7 @@
   "inventory": [""],
 
   "species": {
-    "species_title": "Deep Crow",
+    "species_title": "deep crow",
     "sub_species_title": "",
     "species_source": "acquisitions incorporated",
     "species_type": "monstrosity",
@@ -24,7 +24,7 @@
     "monster_tag": [""],
     "enviornments": [""],
     "condition_immunities": [""],
-  
+    "damage_immunities": [""],
     "damage_resistances": [""],
   
     "lore": [

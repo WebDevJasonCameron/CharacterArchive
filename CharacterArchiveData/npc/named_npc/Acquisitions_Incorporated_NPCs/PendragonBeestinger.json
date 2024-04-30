@@ -80,6 +80,7 @@
       "monster_tag": [""],
       "enviornments": [""],
       "condition_immunities": [""],
+      "damage_immunities": [""],
       "damage_resistances": [""],
     
       "lore": [{}]

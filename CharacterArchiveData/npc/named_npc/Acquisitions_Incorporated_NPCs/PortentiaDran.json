@@ -79,6 +79,7 @@
       "monster_tag": [""],
       "enviornments": [""],
       "condition_immunities": ["charmed"],
+      "damage_immunities": [""],
       "damage_resistances": [""],
     
       "lore": [{}]
