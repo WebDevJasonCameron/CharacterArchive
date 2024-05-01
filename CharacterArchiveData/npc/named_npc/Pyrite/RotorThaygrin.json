@@ -145,14 +145,14 @@
             }
           },
           {
-            "title": "",
-            "text": "",
+            "title": "Hand Lick",
+            "text": "Rotor licks the hand of one willing creature within 5 feet with encouragment and affection.  for the next minute the target creature can roll 1d4 and add the number rolled to any Wisdom saving throw",
           
             "description": {
               "type": "",
               "to_hit": "",
-              "reach": "",
-              "target": 0,
+              "reach": "5 ft.",
+              "target": 1,
               "saving_throws": "",
               "hit": 0,
               "hit_details": "",

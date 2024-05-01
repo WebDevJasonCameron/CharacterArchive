@@ -1,0 +1,207 @@
+{
+  "character_name": "Aldric Ironwood",  
+  "phonetic_name": "al-dric i-ron-wood",
+  "character_source": "smash",
+  "total_level": "",
+  "avatar_img": "",
+
+  "titles_names_and_professions": [{}],
+
+  "background": {
+    "their_story": "",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "flaws": "",
+    "talents": "",
+  
+    "relationships": [
+      {
+        "type": "",
+        "names": [""],
+        "exposition": [""]
+      }
+    ],
+  
+    "background_summary": {
+      "title": "",
+      "text": ""
+    }
+  },
+
+  "characteristics": {
+    "alignment": "Lawful Neutral",
+    "gender": "m",
+    "eyes": "",
+    "size": "medium",
+    "height": "",
+    "faith": "",
+    "hair": "",
+    "skin": "",
+    "age": "",
+    "weight": "",
+    "appearance": ""
+  },
+
+  "entity": {
+    "entity_title": "dwarf mayor",
+    "entity_source": "",
+  
+    "affiliates": [""],
+  
+    "located": [""],
+  
+    "languages": [""],
+    
+    "inventory": ["fine clothes", "ornate ceremonial mace", "signet ring"],
+  
+    "species": {
+      "species_title": "dwarf",
+      "sub_species_title": "",
+      "species_source": "",
+      "species_type": "d&d player's handbook 5e",
+      "species_size": "",
+      "expected_alignment": "",
+      "challenge_rating": "",
+      "xp": 0,
+    
+      "images": [""],
+      "monster_tag": [""],
+      "enviornments": [""],
+      "condition_immunities": [""],
+      "damage_immunities": [""],
+      "damage_resistances": [""],
+    
+      "lore": [{}]
+    },
+  
+    "stats_and_actions": {
+      "stats": {
+        "armor_class": 0,
+        "armor_class_details": "",
+        "hit_points": 0,
+        "hit_points_details": "",
+        "speed": "",
+        "proficiency_bonus": "",
+      
+        "senses": [
+          { 
+            "type": "",
+            "details": ""
+          }
+        ],
+      
+        "saving_throws": [
+          { 
+            "type": "",
+            "details": ""
+          }
+        ],
+      
+        "skills": [
+          { 
+            "type": "",
+            "details": ""
+          }
+        ],
+      
+        "ability_scores": {
+          "str": 14,
+          "str_mod": "+2",
+          "dex": 10,
+          "dex_mod": "+0",
+          "con": 16,
+          "con_mod": "+3",
+          "int": 12,
+          "int_mod": "+1",
+          "wis": 14, 
+          "wis_mod": "+2",
+          "cha": 16,
+          "cha_mod": "+3"
+        }
+      },
+    
+      "potential_actions": {
+        "special_abilities": [
+          {
+            "title": "",
+            "description": ""
+          }
+        ],
+      
+        "actions": [
+          {
+            "title": "",
+            "text": "",
+          
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "bonus_actions": [{}],
+      
+        "reactions": [{}],
+      
+        "legendary_action": {},
+      
+        "lair_action": {},
+      
+        "regional_effect": {},
+      
+        "class_related_spellcasting": [{}], 
+      
+        "species_related_spellcasting": {}
+      }
+    },
+  
+    "class": [
+      {
+        "class_title": "mayor (noble)",
+        "sub_class_title": "https://www.dndbeyond.com/monsters/16966-noble",
+        "class_source": "",
+        "class_level": "",
+      
+        "class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "sub_class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "class_lore": [
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+}
