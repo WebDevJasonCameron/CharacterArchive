@@ -13,16 +13,21 @@
     "quirks": "",
     "quotes": "",
     "motivations": "",
-    "secrets": "",
-    "bonds": "",
-    "flaws": "",
+    "secrets": "Lysandra harbors a secret crush on a traveling bard who passes through Pyrite occasionally, but she has never worked up the courage to confess her feelings.",
+    "bonds": "Lysandra's bond is with nature and the healing arts, which she sees as her calling in life.",
+    "flaws": "Despite her knowledge and skills, Lysandra can be overly cautious and hesitant to take risks, sometimes leading to missed opportunities.",
     "talents": "",
   
     "relationships": [
       {
-        "type": "",
-        "names": [""],
-        "exposition": [""]
+        "type": "sisters",
+        "names": ["Elara Thaygrin"],
+        "exposition": ["Elara's is Lysandra older sister, and they share a deep sisterly bond, often confiding in each other and supporting one another in times of need."]
+      },
+      {
+        "type": "close friend",
+        "names": ["Agatha"],
+        "exposition": ["She is unmarried but has a close friendship with the village healer, a wise old woman named Agatha, who taught her the art of herbalism."]
       }
     ],
   
@@ -33,10 +38,10 @@
   },
 
   "characteristics": {
-    "alignment": "",
-    "gender": "",
+    "alignment": "neutral",
+    "gender": "m",
     "eyes": "",
-    "size": "",
+    "size": "medium",
     "height": "",
     "faith": "",
     "hair": "",
@@ -47,26 +52,26 @@
   },
 
   "entity": {
-    "entity_title": "",
-    "entity_source": "",
+    "entity_title": "human herbalist",
+    "entity_source": "https://www.worldanvil.com/block/274528",
   
     "affiliates": [""],
   
     "located": [""],
   
-    "languages": [""],
+    "languages": ["common"],
     
-    "inventory": [""],
+    "inventory": ["herbalism kit", "pouch of various herbs and ingredients", "mortar and pestle"],
   
     "species": {
-      "species_title": "",
+      "species_title": "human",
       "sub_species_title": "",
-      "species_source": "",
-      "species_type": "",
-      "species_size": "",
-      "expected_alignment": "",
-      "challenge_rating": "",
-      "xp": 0,
+      "species_source": "d&d player's handbook 5e",
+      "species_type": "humanoid",
+      "species_size": "medium",
+      "expected_alignment": "any",
+      "challenge_rating": "1/2",
+      "xp": 10,
     
       "images": [""],
       "monster_tag": [""],
@@ -80,72 +85,70 @@
   
     "stats_and_actions": {
       "stats": {
-        "armor_class": 0,
-        "armor_class_details": "",
-        "hit_points": 0,
-        "hit_points_details": "",
-        "speed": "",
+        "armor_class": 10,
+        "armor_class_details": "10",
+        "hit_points": 22,
+        "hit_points_details": "22 (5d8)",
+        "speed": "30 ft.",
         "proficiency_bonus": "",
       
         "senses": [
           { 
-            "type": "",
-            "details": ""
+            "type": "passive perception",
+            "details": "12"
           }
         ],
       
-        "saving_throws": [
-          { 
-            "type": "",
-            "details": ""
-          }
-        ],
+        "saving_throws": [{}],
       
         "skills": [
           { 
-            "type": "",
-            "details": ""
+            "type": "history",
+            "details": "+6"
+          },
+          { 
+            "type": "insight",
+            "details": "+4"
+          },
+          { 
+            "type": "investigation",
+            "details": "+6"
           }
         ],
       
         "ability_scores": {
-          "str": 0,
-          "str_mod": "",
-          "dex": 0,
-          "dex_mod": "",
-          "con": 0,
-          "con_mod": "",
-          "int": 0,
-          "int_mod": "",
-          "wis": 0, 
-          "wis_mod": "",
-          "cha": 0,
-          "cha_mod": ""
+          "str": 10,
+          "str_mod": "+0",
+          "dex": 14,
+          "dex_mod": "+2",
+          "con": 12,
+          "con_mod": "+1",
+          "int": 15,
+          "int_mod": "+2",
+          "wis": 16, 
+          "wis_mod": "+3",
+          "cha": 12,
+          "cha_mod": "+1"
         }
       },
     
       "potential_actions": {
-        "special_abilities": [
-          {
-            "title": "",
-            "description": ""
-          }
-        ],
+        "special_abilities": [{}],
       
         "actions": [
           {
-            "title": "",
-            "text": "",
+            "title": "Arcane Burst.",
+            "text": "Melee or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120 ft., one target. Hit: 10 (1d10 + 4) force damage.",
           
             "description": {
-              "type": "",
-              "to_hit": "",
-              "reach": "",
-              "target": 0,
+              "type": "Melee or Ranged Spell Attack",
+              "to_hit": "+6",
+              "reach": "5 ft. or range 120 ft.",
+              "target": 1,
               "saving_throws": "",
-              "hit": 0,
-              "hit_details": "",
-              "damage_type": "",
+              "hit": 10,
+              "hit_details": "10 (1d10 + 4)",
+              "damage_type": "force",
               "time": "",
               "recharge": "",
           
@@ -164,7 +167,35 @@
       
         "regional_effect": {},
       
-        "class_related_spellcasting": [{}], 
+        "class_related_spellcasting": [
+          {
+            "spells_class": "sage", 
+            "details": "The sage casts one of the following spells, using Intelligence as the spellcasting ability (save DC 14, +6 to hit with spell attacks):",
+            "spell_casting_ability": "intelligence",
+            "spell_save": "DC 14",
+            "hit_advantages": "+6",
+          
+            "spell_lists": {
+              "cantrip": ["light", "mage hand", "mending"],
+              "cantrip_details": "at will",
+          
+              "1st_lvl": ["comprehend languages", "detect magic", "identify"],
+              "1st_lvl_slots": "3",
+          
+              "2nd_lvl": ["dispel magic", "levitate", "locate object", "see invisibility", "sending", "tongues", "unseen servant"],
+              "2nd_lvl_slots": "1",
+          
+              "3rd_lvl": [],
+              "3rd_lvl_slots": "",
+          
+              "4th_lvl": [], 
+              "4th_lvl_slots": "",
+          
+              "5th_lvl": [],
+              "5th_lvl_slots": ""
+            }
+          }
+        ], 
       
         "species_related_spellcasting": {}
       }
@@ -172,35 +203,16 @@
   
     "class": [
       {
-        "class_title": "",
+        "class_title": "sage",
         "sub_class_title": "",
-        "class_source": "",
+        "class_source": "https://www.worldanvil.com/block/970436",
         "class_level": "",
       
-        "class_features": {
-          "level_attributes": [
-            {
-              "title": "",
-              "description": ""
-            }
-          ]
-        },
+        "class_features": {},
       
-        "sub_class_features": {
-          "level_attributes": [
-            {
-              "title": "",
-              "description": ""
-            }
-          ]
-        },
+        "sub_class_features": {},
       
-        "class_lore": [
-          {
-            "title": "",
-            "description": ""
-          }
-        ]
+        "class_lore": []
       }
     ]
   }

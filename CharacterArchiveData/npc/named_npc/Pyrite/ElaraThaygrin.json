@@ -1,6 +1,6 @@
 {
-  "character_name": "Elara",  
-  "phonetic_name": "el-air-a",
+  "character_name": "Elara Thaygrin",  
+  "phonetic_name": "el-air-a thay-grin",
   "character_source": "smash",
   "total_level": "",
   "avatar_img": "",
@@ -25,6 +25,16 @@
     "talents": "",
   
     "relationships": [
+      {
+        "type": "sisters",
+        "names": ["Lysandra Thaygrin"],
+        "exposition": ["Lysandra is Elara's younger sister, and they share a deep sisterly bond, often confiding in each other and supporting one another in times of need."]
+      },
+      {
+        "type": "",
+        "names": [""],
+        "exposition": [""]
+      },
       {
         "type": "",
         "names": [""],
@@ -201,30 +211,11 @@
         "class_source": "https://www.worldanvil.com/block/789421",
         "class_level": "",
       
-        "class_features": {
-          "level_attributes": [
-            {
-              "title": "",
-              "description": ""
-            }
-          ]
-        },
+        "class_features": {},
       
-        "sub_class_features": {
-          "level_attributes": [
-            {
-              "title": "",
-              "description": ""
-            }
-          ]
-        },
+        "sub_class_features": {},
       
-        "class_lore": [
-          {
-            "title": "",
-            "description": ""
-          }
-        ]
+        "class_lore": [{}]
       }
     ]
   }

@@ -31,10 +31,7 @@
       }
     ],
   
-    "background_summary": {
-      "title": "",
-      "text": ""
-    }
+    "background_summary": {}
   },
 
   "characteristics": {
@@ -125,12 +122,7 @@
       },
     
       "potential_actions": {
-        "special_abilities": [
-          {
-            "title": "",
-            "description": ""
-          }
-        ],
+        "special_abilities": [{}],
       
         "actions": [
           {
@@ -172,35 +164,16 @@
   
     "class": [
       {
-        "class_title": "",
+        "class_title": "blacksmith",
         "sub_class_title": "",
-        "class_source": "",
+        "class_source": "https://www.dandwiki.com/wiki/Blacksmith_(5e_Creature)",
         "class_level": "",
       
-        "class_features": {
-          "level_attributes": [
-            {
-              "title": "",
-              "description": ""
-            }
-          ]
-        },
+        "class_features": {},
       
-        "sub_class_features": {
-          "level_attributes": [
-            {
-              "title": "",
-              "description": ""
-            }
-          ]
-        },
+        "sub_class_features": {},
       
-        "class_lore": [
-          {
-            "title": "",
-            "description": ""
-          }
-        ]
+        "class_lore": [{}]
       }
     ]
   }

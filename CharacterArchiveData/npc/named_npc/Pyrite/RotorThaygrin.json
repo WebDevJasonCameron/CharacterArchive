@@ -1,0 +1,238 @@
+{
+  "character_name": "Rotor Thaygrin",  
+  "phonetic_name": "row-tore thay-grin",
+  "character_source": "smash",
+  "total_level": "",
+  "avatar_img": "",
+
+  "titles_names_and_professions": [{}],
+
+  "background": {
+    "their_story": "",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "loyal shepperd to farmer Garrick Thaygrin",
+    "flaws": "",
+    "talents": "",
+  
+    "relationships": [
+      {
+        "type": "owner",
+        "names": ["Garrick Thaygrin"],
+        "exposition": [""]
+      }
+    ],
+  
+    "background_summary": {}
+  },
+
+  "characteristics": {
+    "alignment": "lawfull good",
+    "gender": "m",
+    "eyes": "brown",
+    "size": "medium",
+    "height": "",
+    "faith": "",
+    "hair": "brown",
+    "skin": "",
+    "age": "5",
+    "weight": "90",
+    "appearance": ""
+  },
+
+  "entity": {
+    "entity_title": "shepperd dog",
+    "entity_source": "https://www.reddit.com/r/DnD/comments/sqsetv/oc_one_of_my_homebrew_pet_stat_blocks/#lightbox",
+  
+    "affiliates": [""],
+  
+    "located": [""],
+  
+    "languages": [""],
+    
+    "inventory": [""],
+  
+    "species": {
+      "species_title": "shepperd",
+      "sub_species_title": "",
+      "species_source": "https://www.reddit.com/r/DnD/comments/sqsetv/oc_one_of_my_homebrew_pet_stat_blocks/#lightbox",
+      "species_type": "beast",
+      "species_size": "medium",
+      "expected_alignment": "",
+      "challenge_rating": "1/8",
+      "xp": 25,
+    
+      "images": [""],
+      "monster_tag": [""],
+      "enviornments": [""],
+      "condition_immunities": [""],
+      "damage_immunities": [""],
+      "damage_resistances": [""],
+    
+      "lore": [{}]
+    },
+  
+    "stats_and_actions": {
+      "stats": {
+        "armor_class": 12,
+        "armor_class_details": "12",
+        "hit_points": 5,
+        "hit_points_details": "5 (1d8 -1)",
+        "speed": "40 ft.",
+        "proficiency_bonus": "+2",
+      
+        "senses": [
+          { 
+            "type": "passive perception",
+            "details": "+13"
+          }
+        ],
+      
+        "saving_throws": [{}],
+      
+        "skills": [
+          { 
+            "type": "perception",
+            "details": "+3"
+          }
+        ],
+      
+        "ability_scores": {
+          "str": 13,
+          "str_mod": "+1",
+          "dex": 14,
+          "dex_mod": "+2",
+          "con": 12,
+          "con_mod": "+1",
+          "int": 6,
+          "int_mod": "-2",
+          "wis": 12, 
+          "wis_mod": "+1",
+          "cha": 18,
+          "cha_mod": "+4"
+        }
+      },
+    
+      "potential_actions": {
+        "special_abilities": [
+          {
+            "title": "Good Boy",
+            "description": "Rotor is a well known good boy.  He has advantages on Charisma (Persuasion) checks when asking for treats."
+          }
+        ],
+      
+        "actions": [
+          {
+            "title": "Bite",
+            "text": "Melee WEapon Attack: +3 to hit, reach 5ft., one target.  Hit 4 (1d6 + 1) piercing damage.  If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
+          
+            "description": {
+              "type": "Melee WEapon Attack",
+              "to_hit": "+3",
+              "reach": "5 ft.",
+              "target": 1,
+              "saving_throws": "DC 11 Strength",
+              "hit": 4,
+              "hit_details": "4 (1d6 + 1)",
+              "damage_type": "piercing, prone",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          },
+          {
+            "title": "",
+            "text": "",
+          
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "bonus_actions": [
+          {
+            "title": "Zoomies",
+            "text": "Rotor can sommon intense bursts of speed and energy. Rotor can use a bonus action to double their movement sped until the end of their next turn",
+          
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "",
+              "recharge": "2/day",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "reactions": [{}],
+      
+        "legendary_action": {},
+      
+        "lair_action": {},
+      
+        "regional_effect": {},
+      
+        "class_related_spellcasting": [{}], 
+      
+        "species_related_spellcasting": {}
+      }
+    },
+  
+    "class": [
+      {
+        "class_title": "",
+        "sub_class_title": "",
+        "class_source": "",
+        "class_level": "",
+      
+        "class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "sub_class_features": {
+          "level_attributes": [
+            {
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+      
+        "class_lore": [
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+}
