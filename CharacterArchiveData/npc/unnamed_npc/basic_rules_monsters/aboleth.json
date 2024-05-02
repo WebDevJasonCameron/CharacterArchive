@@ -1,0 +1,343 @@
+{
+  "entity_title": "aboleth",
+  "entity_source": "d&d basic rulles 5e",
+
+  "affiliates": [""],
+
+  "located": [""],
+
+  "languages": ["deep speech", "telepathy 120 ft."],
+  
+  "inventory": [""],
+
+  "species": {
+    "species_title": "aboleth",
+    "sub_species_title": "",
+    "species_source": "d&d basic rulles 5e",
+    "species_type": "aberration",
+    "species_size": "large",
+    "expected_alignment": "lawful evil",
+    "challenge_rating": "10",
+    "xp": 5900,
+  
+    "images": [""],
+    "monster_tag": [""],
+    "enviornments": [""],
+    "condition_immunities": [""],
+    "damage_immunities": [""],
+    "damage_resistances": [""],
+  
+    "lore": [
+      { 
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 17,
+      "armor_class_details": "17 (natural armor)",
+      "hit_points": 135,
+      "hit_points_details": "135 (18d10 + 36)",
+      "speed": "10 ft., swim 40 ft.",
+      "proficiency_bonus": "",
+    
+      "senses": [
+        { 
+          "type": "history",
+          "details": "+12"
+        },
+        { 
+          "type": "perception",
+          "details": "+10"
+        }
+      ],
+    
+      "saving_throws": [
+        { 
+          "type": "con",
+          "details": "+6"
+        },
+        { 
+          "type": "int",
+          "details": "+8"
+        },
+        { 
+          "type": "wis",
+          "details": "+6"
+        }
+      ],
+    
+      "skills": [
+        { 
+          "type": "history",
+          "details": "+12"
+        },
+        { 
+          "type": "perception",
+          "details": "+10"
+        }
+      ],
+    
+      "ability_scores": {
+        "str": 21,
+        "str_mod": "+5",
+        "dex": 9,
+        "dex_mod": "-1",
+        "con": 15,
+        "con_mod": "+2",
+        "int": 18,
+        "int_mod": "+4",
+        "wis": 15, 
+        "wis_mod": "+2",
+        "cha": 18,
+        "cha_mod": "+4"
+      }
+    },
+  
+    "potential_actions": {
+      "special_abilities": [
+        {
+          "title": "Amphibious",
+          "description": "The aboleth can breathe air and water."
+        },
+        {
+          "title": "Mucous Cloud",
+          "description": "While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 feet of it must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater."
+        },
+        {
+          "title": "Probing Telepathy",
+          "description": "If a creature communicates telepathically with the aboleth, the aboleth learns the creature’s greatest desires if the aboleth can see the creature."
+        },
+        {
+          "title": "Multiattack",
+          "description": "The aboleth makes three tentacle attacks."
+        }
+      ],
+    
+      "actions": [
+        {
+          "title": "Tentacle",
+          "text": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+9",
+            "reach": "10 ft.",
+            "target": 1,
+            "saving_throws": "DC 14 Constitution",
+            "hit": 12,
+            "hit_details": "12 (2d6 + 5)",
+            "damage_type": "bludgeoning",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [
+              {
+                "title": "Disease",
+                "text": "The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature’s skin becomes translucent and slimy, the creature can’t regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.",
+              
+                "description": {
+                  "type": "",
+                  "to_hit": "",
+                  "reach": "",
+                  "target": 0,
+                  "saving_throws": "",
+                  "hit": 0,
+                  "hit_details": "6 (1d12)",
+                  "damage_type": "acid",
+                  "time": "every 10 minutes unless moisture is applied to the skin before 10 minutes have passed",
+                  "recharge": ""              
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "Tail",
+          "text": "Melee Weapon Attack: +9 to hit, reach 10 ft. one target. Hit: 15 (3d6 + 5) bludgeoning damage.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+9",
+            "reach": "10 ft.",
+            "target": 1,
+            "saving_throws": "",
+            "hit": 15,
+            "hit_details": "15 (3d6 + 5",
+            "damage_type": "bludgeoning",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        },
+        {
+          "title": "Enslave",
+          "text": "The aboleth targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth’s control and can’t take reactions, and the aboleth and the target can communicate telepathically with each other over any distance. [\n]Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.",
+        
+          "description": {
+            "type": "",
+            "to_hit": "",
+            "reach": "30 ft.",
+            "target": 0,
+            "saving_throws": "DC 14 Wisdom",
+            "hit": 0,
+            "hit_details": "",
+            "damage_type": "charmed",
+            "time": "until the aboleth dies or until it is on a different plane of existence from the target",
+            "recharge": "3/Day",
+        
+            "sequential_actions": [{}]
+          }
+        }
+      ],
+    
+      "bonus_actions": [{}],
+    
+      "reactions": [{}],
+    
+      "legendary_action": {
+        "title": "Legendary Actions",
+        "text": "The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The aboleth regains spent legendary actions at the start of its turn.",
+        "lore": "",
+      
+        "legendary_actions": [
+          {
+            "title": "Detect",
+            "text": "The aboleth makes a Wisdom (Perception) check.",
+      
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "",
+              "recharge": "",
+      
+              "sequential_actions": [{}]
+            }
+          },
+          {
+            "title": "Tail Swipe",
+            "text": "The aboleth makes one tail attack.",
+      
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "",
+              "recharge": "",
+      
+              "sequential_actions": [{}]
+            }
+          },
+          {
+            "title": "Psychic Drain (Costs 2 Actions)",
+            "text": "One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.",
+      
+            "description": {
+              "type": "Charmed effects",
+              "to_hit": "",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "",
+              "hit": 10,
+              "hit_details": "10 (3d6)",
+              "damage_type": "psychic",
+              "time": "",
+              "recharge": "",
+      
+              "sequential_actions": [{}]
+            }
+          }
+        ]
+      },
+    
+      "lair_action": {
+        "title": "Lair Actions",
+        "text": "When fighting inside its lair, an aboleth can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the aboleth takes a lair action to cause one of the following effects",
+        "lair": "Aboleths lair in subterranean lakes or the rocky depths of the ocean, often surrounded by the ruins of an ancient, fallen aboleth city. An aboleth spends most of its existence underwater, surfacing occasionally to treat with visitors or worshipers.",
+      
+        "lair_actions": [
+          {
+            "title": "Aboleth Phantasmal Force",
+            "text": "The aboleth casts phantasmal force (no components required) on any number of creatures it can see within 60 feet of it. While maintaining concentration on this effect, the aboleth can’t take other lair actions. If a target succeeds on the saving throw or if the effect ends for it, the target is immune to the aboleth’s phantasmal force lair action for the next 24 hours, although such a creature can choose to be affected.",
+      
+            "description": {
+              "type": "phantasmal force",
+              "to_hit": "",
+              "reach": "60 ft.",
+              "target": 0,
+              "saving_throws": "",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "",
+              "recharge": "",
+      
+              "sequential_actions": [{}]
+            }
+          },
+          {
+            "title": "",
+            "text": "",
+      
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "",
+              "recharge": "",
+      
+              "sequential_actions": [{}]
+            }
+          },
+          {
+            "title": "",
+            "text": "",
+      
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "",
+              "recharge": "",
+      
+              "sequential_actions": [{}]
+            }
+          }
+        ]
+      },
+    
+      "regional_effect": {},
+    
+      "class_related_spellcasting": [{}], 
+    
+      "species_related_spellcasting": {}
+    }
+  },
+
+  "class": [{}]
+}

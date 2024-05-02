@@ -1,0 +1,225 @@
+{
+  "character_name": "Splugoth the Returned",  
+  "phonetic_name": "splug-oth the returned",
+  "character_source": "acquisitions incorporated",
+  "total_level": "",
+  "avatar_img": "https://www.dndbeyond.com/avatars/thumbnails/6221/906/400/517/636953254029369723.png",
+
+  "titles_names_and_professions": [{}],
+
+  "background": {
+    "their_story": "Sometimes a goblin can’t catch a break. First, you fall in with a cult that works for the release of a death god. Then you get taken prisoner by a group of sociopathic adventurers who end up letting you die after you save their sorry lives. One minute, you’re a dead goblin named Splug. And then you’re alive again, and it seems like a really good idea to play up the drama of resurrection with a cool new name — and a master plan for cold, cold revenge against those who betrayed you. [\n]Every once in a while, the (accidentally) capricious and (totally unintentionally) self-centered nature of an Acquisitions Incorporated franchise might incur some collateral damage among followers, hirelings, and staff. When that happens, the collateral damage sometimes inspires some collateral damage of its own. No one is entirely sure how many times Splugoth the Returned has actually returned from the dead. But as the point goblin for the group known as the Six (see “Factions and Rivals” in chapter 3), he’s made vengeance against Acq Inc and Omin Dran his life’s work. And then the work of his next life. And the one after that.",
+    "natural_state": "",
+    "quirks": "",
+    "quotes": "I’m going to give you a piece of advice. Don’t trust Acquisitions Incorporated. And never, ever, ever trust Omin Dran. Wait, that’s two pieces of advice. You owe me.",
+    "motivations": "",
+    "secrets": "",
+    "bonds": "",
+    "flaws": "",
+    "talents": "",
+  
+    "relationships": [{}],
+  
+    "background_summary": {}
+  },
+
+  "characteristics": {
+    "alignment": "",
+    "gender": "",
+    "eyes": "",
+    "size": "",
+    "height": "",
+    "faith": "",
+    "hair": "",
+    "skin": "",
+    "age": "",
+    "weight": "",
+    "appearance": ""
+  },
+
+  "entity": {
+    "entity_title": "splugoth",
+    "entity_source": "d&d player's handbook 5e",
+  
+    "affiliates": [""],
+  
+    "located": [""],
+  
+    "languages": ["common", "draconic", "elvish", "goblin"],
+    
+    "inventory": [""],
+  
+    "species": {
+      "species_title": "goblin",
+      "sub_species_title": "",
+      "species_source": "d&d player's handbook 5e",
+      "species_type": "humanoid (goblinoid)",
+      "species_size": "small",
+      "expected_alignment": "",
+      "challenge_rating": "2",
+      "xp": 450,
+    
+      "images": [""],
+      "monster_tag": ["goblinoid"],
+      "enviornments": [""],
+      "condition_immunities": [""],
+      "damage_immunities": [""],
+      "damage_resistances": [""],
+    
+      "lore": [{}]
+    },
+  
+    "stats_and_actions": {
+      "stats": {
+        "armor_class": 15,
+        "armor_class_details": "15 (natural armor)",
+        "hit_points": 27,
+        "hit_points_details": "27 (6d6 + 6)",
+        "speed": "30 ft.",
+        "proficiency_bonus": "+2",
+      
+        "senses": [
+          { 
+            "type": "darkvision",
+            "details": "60 ft."
+          },
+          { 
+            "type": "passive perception",
+            "details": "10"
+          }
+        ],
+      
+        "saving_throws": [
+          { 
+            "type": "int",
+            "details": "+4"
+          },
+          { 
+            "type": "wis",
+            "details": "+2"
+          }
+        ],
+      
+        "skills": [
+          { 
+            "type": "stealth",
+            "details": "+6"
+          }
+        ],
+      
+        "ability_scores": {
+          "str": 10,
+          "str_mod": "+0",
+          "dex": 14,
+          "dex_mod": "+2",
+          "con": 12,
+          "con_mod": "+1",
+          "int": 14,
+          "int_mod": "+2",
+          "wis": 11, 
+          "wis_mod": "+1",
+          "cha": 10,
+          "cha_mod": "+0"
+        }
+      },
+    
+      "potential_actions": {
+        "special_abilities": [
+          {
+            "title": "Defensive Advantage",
+            "description": "As long as two or more of Splugoth’s allies are within 5 feet of him and are not incapacitated, attack rolls against him are made with disadvantage."
+          },
+          {
+            "title": "Touch of Madness",
+            "description": "Splugoth has advantage on saving throws against being charmed or frightened."
+          },
+          {
+            "title": "Nimble Escape",
+            "description": "Splugoth can take the Disengage or Hide action as a bonus action on each of his turns."
+          },
+          {
+            "title": "Multiattack",
+            "description": "Splugoth makes two attacks with his dagger."
+          }
+        ],
+      
+        "actions": [
+          {
+            "title": "Dagger",
+            "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
+          
+            "description": {
+              "type": "Melee Weapon Attack",
+              "to_hit": "+4",
+              "reach": "5 ft.",
+              "target": 1,
+              "saving_throws": "",
+              "hit": 4,
+              "hit_details": "4 (1d4 + 2)",
+              "damage_type": "slashing",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          },
+          {
+            "title": "Word From Beyond",
+            "text": "Splugoth remembers and repeats aloud a few words from a place he entered while walking back from the next world to this one. Each creature of his choice within 30 feet of him that can hear him must succeed on a DC 12 Wisdom saving throw or be stunned until the end of its next turn.",
+          
+            "description": {
+              "type": "",
+              "to_hit": "30 ft.",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "DC 12 Wisdom",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "stunned",
+              "time": "until the end of its next turn",
+              "recharge": "1/day",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "bonus_actions": [
+          {
+            "title": "Absorb Attack",
+            "text": "When a creature Splugoth can see hits him with a melee weapon attack, the weapon snags on a pocket of residual resurrectional energy and is caught fast. The attack is negated and the weapon cannot be used until the creature succeeds on a DC 12 Strength (Athletics) check as an action to pull it out of Splugoth. Natural weapons can have their attacks negated by this feature, but can then be retracted automatically at the end of the attacking creature’s turn.",
+          
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "DC 12 Strength",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ],
+      
+        "reactions": [{}],
+      
+        "legendary_action": {},
+      
+        "lair_action": {},
+      
+        "regional_effect": {},
+      
+        "class_related_spellcasting": [{}], 
+      
+        "species_related_spellcasting": {}
+      }
+    },
+  
+    "class": []
+  }
+}
