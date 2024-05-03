@@ -1,0 +1,275 @@
+{
+  "entity_title": "adult blure dragon",
+  "entity_source": "d&d basic rulles 5e",
+
+  "affiliates": [""],
+
+  "located": [""],
+
+  "languages": [""],
+  
+  "inventory": [""],
+
+  "species": {
+    "species_title": "dragon",
+    "sub_species_title": "adult blue dragon",
+    "species_source": "d&d basic rulles 5e",
+    "species_type": "",
+    "species_size": "",
+    "expected_alignment": "",
+    "challenge_rating": "16",
+    "xp": 15000,
+  
+    "images": [""],
+    "monster_tag": [""],
+    "enviornments": [""],
+    "condition_immunities": [""],
+    "damage_immunities": [""],
+    "damage_resistances": [""],
+  
+    "lore": [
+      { 
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 19,
+      "armor_class_details": "19 (natural armor)",
+      "hit_points": 225,
+      "hit_points_details": "225 (18d12 + 108)",
+      "speed": "40 ft., burrow 30 ft., fly 80 ft.",
+      "proficiency_bonus": "",
+    
+      "senses": [
+        { 
+          "type": "",
+          "details": ""
+        }
+      ],
+    
+      "saving_throws": [
+        { 
+          "type": "",
+          "details": ""
+        }
+      ],
+    
+      "skills": [
+        { 
+          "type": "",
+          "details": ""
+        }
+      ],
+    
+      "ability_scores": {
+        "str": 23,
+        "str_mod": "+6",
+        "dex": 14,
+        "dex_mod": "+2",
+        "con": 21,
+        "con_mod": "+5",
+        "int": 14,
+        "int_mod": "+2",
+        "wis": 13, 
+        "wis_mod": "+1",
+        "cha": 17,
+        "cha_mod": "+3"
+      }
+    },
+  
+    "potential_actions": {
+      "special_abilities": [
+        {
+          "title": "Legendary Resistance (3/Day)",
+          "description": "If the dragon fails a saving throw, it can choose to succeed instead."
+        },
+        {
+          "title": "Multiattack",
+          "description": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+        }
+      ],
+    
+      "actions": [
+        {
+          "title": "Bite",
+          "text": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 5 (1d10) lightning damage.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+12",
+            "reach": "10 ft.",
+            "target": 1,
+            "saving_throws": "",
+            "hit": 23,
+            "hit_details": "18 (2d10 + 7) + 5 (1d10)",
+            "damage_type": "piercing + lightning",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        },
+        {
+          "title": "Claw",
+          "text": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+12",
+            "reach": "5 ft.",
+            "target": 1,
+            "saving_throws": "",
+            "hit": 14,
+            "hit_details": "14 (2d6 + 7)",
+            "damage_type": "slashing",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        },
+        {
+          "title": "Tail",
+          "text": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+12",
+            "reach": "15 ft.",
+            "target": 1,
+            "saving_throws": "",
+            "hit": 16,
+            "hit_details": "16 (2d8 + 7) ",
+            "damage_type": "bludgeoning",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        },
+        {
+          "title": "Frightful Presence",
+          "text": "Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.",
+        
+          "description": {
+            "type": "",
+            "to_hit": "",
+            "reach": "120 ft.",
+            "target": 0,
+            "saving_throws": "DC 17 Wisdom",
+            "hit": 0,
+            "hit_details": "",
+            "damage_type": "frighted",
+            "time": "1 minute, each creature can repeat the saving throw at the end of each of its turns.",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        },
+        {
+          "title": "Lightning Breath",
+          "text": "The dragon exhales lightning in a 90-foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.",
+        
+          "description": {
+            "type": "",
+            "to_hit": "",
+            "reach": "90 ft. long, 5 ft. wide",
+            "target": 0,
+            "saving_throws": "DC 19 Dexterity",
+            "hit": 66,
+            "hit_details": "66 (12d10) or half on saves",
+            "damage_type": "",
+            "time": "",
+            "recharge": "Recharge 5-6",
+        
+            "sequential_actions": [{}]
+          }
+        }
+      ],
+    
+      "bonus_actions": [{}],
+    
+      "reactions": [{}],
+    
+      "legendary_action": {
+        "title": "Adult Blue Dragon Legendary Actions",
+        "text": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn.",
+        "lore": "",
+      
+        "legendary_actions": [
+          {
+            "title": "Detect",
+            "text": "The dragon makes a Wisdom (Perception) check.",
+          
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "",
+              "target": 0,
+              "saving_throws": "",
+              "hit": 0,
+              "hit_details": "",
+              "damage_type": "",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          },
+          {
+            "title": "Tail Attack",
+            "text": "The dragon makes a tail attack.",
+          
+            "description": {
+              "type": "Melee Weapon Attack",
+              "to_hit": "+12",
+              "reach": "15 ft.",
+              "target": 1,
+              "saving_throws": "",
+              "hit": 16,
+              "hit_details": "16 (2d8 + 7) ",
+              "damage_type": "bludgeoning",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          },
+          {
+            "title": "Wing Attack (Costs 2 Actions)",
+            "text": "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked ßprone. The dragon can then fly up to half its flying speed.",
+          
+            "description": {
+              "type": "",
+              "to_hit": "",
+              "reach": "10 ft.",
+              "target": 0,
+              "saving_throws": "DC 20 Dexterity",
+              "hit": 14,
+              "hit_details": "14 (2d6 + 7)",
+              "damage_type": "bludgeoning",
+              "time": "",
+              "recharge": "",
+          
+              "sequential_actions": [{}]
+            }
+          }
+        ]
+      },
+    
+      "lair_action": {},
+    
+      "regional_effect": {},
+    
+      "class_related_spellcasting": [{}], 
+    
+      "species_related_spellcasting": {}
+    }
+  },
+
+  "class": [{}]
+}
