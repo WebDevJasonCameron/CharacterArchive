@@ -215,9 +215,7 @@
               "hit_details": "",
               "damage_type": "",
               "time": "",
-              "recharge": "",
-          
-              "sequential_actions": [{}]
+              "recharge": ""
             }
           },
           {
@@ -234,9 +232,7 @@
               "hit_details": "16 (2d8 + 7) ",
               "damage_type": "bludgeoning",
               "time": "",
-              "recharge": "",
-          
-              "sequential_actions": [{}]
+              "recharge": ""
             }
           },
           {
@@ -253,9 +249,7 @@
               "hit_details": "14 (2d6 + 7)",
               "damage_type": "bludgeoning",
               "time": "",
-              "recharge": "",
-          
-              "sequential_actions": [{}]
+              "recharge": ""
             }
           }
         ]

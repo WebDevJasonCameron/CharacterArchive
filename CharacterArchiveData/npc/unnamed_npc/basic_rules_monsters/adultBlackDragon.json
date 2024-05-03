@@ -258,9 +258,7 @@
               "hit_details": "",
               "damage_type": "",
               "time": "",
-              "recharge": "",
-          
-              "sequential_actions": [{}]
+              "recharge": ""
             }
           },
           {
@@ -277,9 +275,7 @@
               "hit_details": "15 (2d8 + 6)",
               "damage_type": "bludgeoning",
               "time": "",
-              "recharge": "",
-          
-              "sequential_actions": [{}]
+              "recharge": ""
             }
           },
           {
@@ -296,9 +292,7 @@
               "hit_details": "13 (2d6 + 6)",
               "damage_type": "bludgeoning and be nocked prone",
               "time": "",
-              "recharge": "",
-          
-              "sequential_actions": [{}]
+              "recharge": ""
             }
           }
         ]

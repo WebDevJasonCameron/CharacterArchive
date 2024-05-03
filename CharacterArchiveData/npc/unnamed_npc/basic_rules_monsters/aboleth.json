@@ -219,9 +219,7 @@
               "hit_details": "",
               "damage_type": "",
               "time": "",
-              "recharge": "",
-      
-              "sequential_actions": [{}]
+              "recharge": ""
             }
           },
           {
@@ -238,9 +236,7 @@
               "hit_details": "",
               "damage_type": "",
               "time": "",
-              "recharge": "",
-      
-              "sequential_actions": [{}]
+              "recharge": ""
             }
           },
           {
@@ -257,9 +253,7 @@
               "hit_details": "10 (3d6)",
               "damage_type": "psychic",
               "time": "",
-              "recharge": "",
-      
-              "sequential_actions": [{}]
+              "recharge": ""
             }
           }
         ]
@@ -285,9 +279,7 @@
               "hit_details": "",
               "damage_type": "",
               "time": "",
-              "recharge": "",
-      
-              "sequential_actions": [{}]
+              "recharge": ""
             }
           },
           {
@@ -304,9 +296,7 @@
               "hit_details": "",
               "damage_type": "",
               "time": "",
-              "recharge": "",
-      
-              "sequential_actions": [{}]
+              "recharge": ""
             }
           },
           {
@@ -323,9 +313,7 @@
               "hit_details": "",
               "damage_type": "",
               "time": "",
-              "recharge": "",
-      
-              "sequential_actions": [{}]
+              "recharge": ""
             }
           }
         ]

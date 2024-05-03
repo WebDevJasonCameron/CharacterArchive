@@ -1,5 +1,5 @@
 {
-  "entity_title": "adult copper dragon",
+  "entity_title": "adult red dragon",
   "entity_source": "d&d basic rulles 5e",
 
   "affiliates": [""],
@@ -12,19 +12,19 @@
 
   "species": {
     "species_title": "dragon",
-    "sub_species_title": "adult copper dragon",
+    "sub_species_title": "adult red dragon",
     "species_source": "d&d basic rulles 5e",
     "species_type": "dragon",
     "species_size": "huge",
-    "expected_alignment": "chaotic good",
-    "challenge_rating": "14",
-    "xp": 11500,
+    "expected_alignment": "lawful good",
+    "challenge_rating": "16",
+    "xp": 15000,
   
     "images": [""],
     "monster_tag": [""],
     "enviornments": [""],
     "condition_immunities": [""],
-    "damage_immunities": [""],
+    "damage_immunities": ["cold"],
     "damage_resistances": [""],
   
     "lore": [
@@ -37,11 +37,11 @@
 
   "stats_and_actions": {
     "stats": {
-      "armor_class": 18,
-      "armor_class_details": "18 (natural armor)",
-      "hit_points": 184,
-      "hit_points_details": "184 (16d12 + 80)",
-      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "armor_class": 19,
+      "armor_class_details": "19 (natural armor)",
+      "hit_points": 243,
+      "hit_points_details": "243 (18d12 + 126)",
+      "speed": "40 ft., fly 80 ft.",
       "proficiency_bonus": "",
     
       "senses": [
@@ -54,58 +54,62 @@
           "details": "120 ft."
         },
         { 
-          "type": "passive perception",
-          "details": "22"
+          "type": "stealth",
+          "details": "+5"
         }
       ],
     
       "saving_throws": [
         { 
           "type": "dex",
-          "details": "+6"
+          "details": "+5"
         },
         { 
           "type": "con",
-          "details": "10"
+          "details": "+12"
         },
         { 
           "type": "wis",
-          "details": "+7"
+          "details": "+6"
         },
         { 
           "type": "cha",
-          "details": "+8"
+          "details": "10"
         }
       ],
     
       "skills": [
         { 
-          "type": "deception",
+          "type": "arcana",
+          "details": "+8"
+        },
+        { 
+          "type": "history",
           "details": "+8"
         },
         { 
           "type": "perception",
-          "details": "+12"
+          "details": "+11"
         },
         { 
           "type": "stealth",
-          "details": "+6"
+          "details": "+5"
         }
       ],
     
       "ability_scores": {
-        "str": 23,
-        "str_mod": "+6",
-        "dex": 12,
-        "dex_mod": "+1",
-        "con": 21,
-        "con_mod": "+5",
-        "int": 18,
-        "int_mod": "+4",
-        "wis": 15, 
-        "wis_mod": "+2",
-        "cha": 17,
-        "cha_mod": "+3"
+        "str": 27,
+        "str_mod": "+8",
+        "dex": 10,
+        "dex_mod": "+0",
+        "con": 25,
+        "con_mod": "+7",
+        "int": 16,
+        "int_mod": "+3",
+        "wis": 13, 
+        "wis_mod": "+1",
+        "cha": 21,
+        "cha_mod": "+5"
       }
     },
   
@@ -124,16 +128,16 @@
       "actions": [
         {
           "title": "Bite",
-          "text": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage.",
+          "text": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage.",
         
           "description": {
             "type": "Melee Weapon Attack",
-            "to_hit": "+11",
+            "to_hit": "+13",
             "reach": "10 ft.",
             "target": 1,
             "saving_throws": "",
-            "hit": 17,
-            "hit_details": "17 (2d10 + 6)",
+            "hit": 19,
+            "hit_details": "19 (2d10 + 8)",
             "damage_type": "piercing",
             "time": "",
             "recharge": "",
@@ -143,16 +147,16 @@
         },
         {
           "title": "Claw",
-          "text": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.",
+          "text": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) slashing damage.",
         
           "description": {
             "type": "Melee Weapon Attack",
-            "to_hit": "+11",
+            "to_hit": "+13",
             "reach": "5 ft.",
             "target": 1,
             "saving_throws": "",
-            "hit": 0,
-            "hit_details": "13 (2d6 + 6)",
+            "hit": 15,
+            "hit_details": "15 (2d6 + 8)",
             "damage_type": "slashing",
             "time": "",
             "recharge": "",
@@ -162,16 +166,16 @@
         },
         {
           "title": "Tail",
-          "text": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage.",
+          "text": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage.",
         
           "description": {
             "type": "Melee Weapon Attack",
-            "to_hit": "+11",
+            "to_hit": "+13",
             "reach": "15 ft.",
-            "target": 1,
+            "target": 0,
             "saving_throws": "",
-            "hit": 15,
-            "hit_details": "15 (2d8 + 6)",
+            "hit": 17,
+            "hit_details": "17 (2d8 + 8)",
             "damage_type": "bludgeoning",
             "time": "",
             "recharge": "",
@@ -181,29 +185,29 @@
         },
         {
           "title": "Frightful Presence",
-          "text": "Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.",
+          "text": "Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.",
         
           "description": {
             "type": "",
             "to_hit": "",
             "reach": "120 ft.",
             "target": 0,
-            "saving_throws": "DC 16 Wisdom",
+            "saving_throws": " DC 18 Wisdom",
             "hit": 0,
             "hit_details": "",
             "damage_type": "frightened",
-            "time": "1 minute, a creature can repeat the saving throw at the end of each of its turns",
+            "time": "1 minute, effected creatures can repeat the saving throw at the end of each of its turns",
             "recharge": "",
         
             "sequential_actions": [{}]
           }
         },
         {
-          "title": "Breath Weapons",
-          "text": "The dragon uses one of the following breath weapons.",
+          "title": "Breath Weapons**",
+          "text": "The dragon uses one of the following breath weapons. Choose from one of the sequential actions",
         
           "description": {
-            "type": "Choose one of the breadth weapons in from the sequential action",
+            "type": "",
             "to_hit": "",
             "reach": "",
             "target": 0,
@@ -216,40 +220,59 @@
         
             "sequential_actions": [
               {
-                "title": "Acid Breath",
-                "text": "The dragon exhales acid in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one.",
+                "title": "Cold Breath",
+                "text": "The dragon exhales an icy blast in a 60-foot cone. Each creature in that area must make a DC 20 Constitution saving throw, taking 58 (13d8) cold damage on a failed save, or half as much damage on a successful one.",
               
                 "description": {
                   "type": "Breath weapon",
                   "to_hit": "",
-                  "reach": "60 ft. long, 5 ft. wide",
+                  "reach": "60 ft. cone",
                   "target": 0,
-                  "saving_throws": "DC 18 Dexterity",
-                  "hit": 54,
-                  "hit_details": "54 (12d8) or half on a save",
-                  "damage_type": "acid",
+                  "saving_throws": "DC 20 Constitution",
+                  "hit": 58,
+                  "hit_details": "58 (13d8) or half on a save",
+                  "damage_type": "cold",
                   "time": "",
                   "recharge": ""
                 }
               },
               {
-                "title": "Slowing Breath",
-                "text": "The dragon exhales gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.",
+                "title": "Paralyzing Breath",
+                "text": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
               
                 "description": {
                   "type": "Breath weapon",
-                  "to_hit": "60 ft. cone",
-                  "reach": "",
+                  "to_hit": "",
+                  "reach": "60 ft. cone",
                   "target": 0,
-                  "saving_throws": "DC 18 Constitution",
+                  "saving_throws": "DC 20 Constitution",
                   "hit": 0,
                   "hit_details": "",
-                  "damage_type": "Slowed, ",
+                  "damage_type": "paralyzed",
                   "time": "1 minute, effected creatures can repeat the saving throw at the end of each of its turns",
                   "recharge": ""
                 }
               }
             ]
+          }
+        },
+        {
+          "title": "Change Shape",
+          "text": " dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice). [\n]In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.",
+        
+          "description": {
+            "type": "",
+            "to_hit": "",
+            "reach": "",
+            "target": 0,
+            "saving_throws": "",
+            "hit": 0,
+            "hit_details": "",
+            "damage_type": "",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
           }
         }
       ],
@@ -259,7 +282,7 @@
       "reactions": [{}],
     
       "legendary_action": {
-        "title": "Adult Copper Dragon Legendary Actions",
+        "title": "Adult Silver Dragon Legendary Actions",
         "text": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn.",
         "lore": "",
       
@@ -287,29 +310,29 @@
           
             "description": {
               "type": "Melee Weapon Attack",
-              "to_hit": "+11",
+              "to_hit": "+13",
               "reach": "15 ft.",
-              "target": 1,
+              "target": 0,
               "saving_throws": "",
-              "hit": 15,
-              "hit_details": "15 (2d8 + 6)",
+              "hit": 17,
+              "hit_details": "17 (2d8 + 8)",
               "damage_type": "bludgeoning",
               "time": "",
               "recharge": ""
             }
           },
           {
-            "title": "Wing Attack (Costs 2 Actions)",
-            "text": "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+            "title": "Wing Attack  (Costs 2 Actions)",
+            "text": "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
           
             "description": {
               "type": "",
               "to_hit": "",
               "reach": "10 ft.",
               "target": 0,
-              "saving_throws": "DC 19 Dexterity",
-              "hit": 13,
-              "hit_details": "13 (2d6 + 6)",
+              "saving_throws": "DC 21 Dexterity",
+              "hit": 15,
+              "hit_details": "15 (2d6 + 8)",
               "damage_type": "bludgeoning and prone",
               "time": "",
               "recharge": ""
