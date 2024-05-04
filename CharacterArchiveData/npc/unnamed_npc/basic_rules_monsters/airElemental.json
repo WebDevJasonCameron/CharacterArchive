@@ -1,0 +1,167 @@
+{
+  "entity_title": "air elemental",
+  "entity_source": "d&d basic rulles 5e",
+
+  "affiliates": [""],
+
+  "located": [""],
+
+  "languages": ["auran"],
+  
+  "inventory": [""],
+
+  "species": {
+    "species_title": "air elemental",
+    "sub_species_title": "",
+    "species_source": "d&d basic rulles 5e",
+    "species_type": "elemental",
+    "species_size": "large",
+    "expected_alignment": "neutral",
+    "challenge_rating": "5",
+    "xp": 1800,
+  
+    "images": [""],
+    "monster_tag": [""],
+    "enviornments": [""],
+    "condition_immunities": ["exhaustion", "grappled", "paralyzed", "petrified", "poisoned", "prone", "restrained", "unconscious"],
+    "damage_immunities": ["poison"],
+    "damage_resistances": ["lightning", "thunder", "bludgeoning from nonmagical attacks", "piercing from nonmagical attacks", "slashing from nonmagical attacks"],
+  
+    "lore": [
+      { 
+        "title": "description",
+        "text": "An air elemental is a funneling cloud of whirling air with a vague semblance of a face. It can turn itself into a screaming cyclone, creating a whirlwind that batters creatures even as it flings them away."
+      }
+    ]
+  },
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 15,
+      "armor_class_details": "15",
+      "hit_points": 90,
+      "hit_points_details": "90 (12d10 + 24)",
+      "speed": "0 ft., fly 90 ft. (hover)",
+      "proficiency_bonus": "",
+    
+      "senses": [
+        { 
+          "type": "darkvision",
+          "details": "60 ft."
+        },
+        { 
+          "type": "passive perception",
+          "details": "10"
+        }
+      ],
+    
+      "saving_throws": [{}],
+    
+      "skills": [{}],
+    
+      "ability_scores": {
+        "str": 14,
+        "str_mod": "+2",
+        "dex": 20,
+        "dex_mod": "+5",
+        "con": 14,
+        "con_mod": "+2",
+        "int": 6,
+        "int_mod": "-2",
+        "wis": 10, 
+        "wis_mod": "+0",
+        "cha": 6,
+        "cha_mod": "-2"
+      }
+    },
+  
+    "potential_actions": {
+      "special_abilities": [
+        {
+          "title": "Air Form",
+          "description": "The elemental can enter a hostile creature’s space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+        },
+        {
+          "title": "Multiattack",
+          "description": "The elemental makes two slam attacks."
+        }
+      ],
+    
+      "actions": [
+        {
+          "title": "Slam",
+          "text": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+8",
+            "reach": "5 ft.",
+            "target": 1,
+            "saving_throws": "",
+            "hit": 14,
+            "hit_details": "14 (2d8 + 5)",
+            "damage_type": "bludgeoning",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        },
+        {
+          "title": "Whirlwind",
+          "text": "Each creature in the elemental’s space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone. [\n]If the saving throw is successful, the target takes half the bludgeoning damage and isn’t flung away or knocked prone.",
+        
+          "description": {
+            "type": "",
+            "to_hit": "",
+            "reach": "",
+            "target": 0,
+            "saving_throws": "",
+            "hit": 0,
+            "hit_details": "",
+            "damage_type": "",
+            "time": "",
+            "recharge": "Recharge 4-6",
+        
+            "sequential_actions": [{}]
+          }
+        },
+        {
+          "title": "",
+          "text": "",
+        
+          "description": {
+            "type": "",
+            "to_hit": "",
+            "reach": "",
+            "target": 0,
+            "saving_throws": "",
+            "hit": 0,
+            "hit_details": "",
+            "damage_type": "",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        }
+      ],
+    
+      "bonus_actions": [{}],
+    
+      "reactions": [{}],
+    
+      "legendary_action": {},
+    
+      "lair_action": {},
+    
+      "regional_effect": {},
+    
+      "class_related_spellcasting": [{}], 
+    
+      "species_related_spellcasting": {}
+    }
+  },
+
+  "class": [{}]
+}

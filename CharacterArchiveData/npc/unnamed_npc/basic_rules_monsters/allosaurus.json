@@ -1,0 +1,145 @@
+{
+  "entity_title": "allosaurus",
+  "entity_source": "d&d basic rulles 5e",
+
+  "affiliates": [""],
+
+  "located": [""],
+
+  "languages": [""],
+  
+  "inventory": [""],
+
+  "species": {
+    "species_title": "allosaurus",
+    "sub_species_title": "",
+    "species_source": "d&d basic rulles 5e",
+    "species_type": "beast",
+    "species_size": "large",
+    "expected_alignment": "unaligned",
+    "challenge_rating": "2",
+    "xp": 450,
+  
+    "images": [""],
+    "monster_tag": [""],
+    "enviornments": [""],
+    "condition_immunities": [""],
+    "damage_immunities": [""],
+    "damage_resistances": [""],
+  
+    "lore": [
+      { 
+        "title": "description",
+        "text": "The allosaurus is a predator possessing great size, strength, and speed. It can run down almost any prey over open ground, pouncing to pull creatures down with its wicked claws."
+      }
+    ]
+  },
+
+  "stats_and_actions": {
+    "stats": {
+      "armor_class": 13,
+      "armor_class_details": "13 (natural armor)",
+      "hit_points": 51,
+      "hit_points_details": "51 (6d10 + 18)",
+      "speed": "60 ft.",
+      "proficiency_bonus": "",
+    
+      "senses": [
+        { 
+          "type": "passive perception",
+          "details": "15"
+        }
+      ],
+    
+      "saving_throws": [{}],
+    
+      "skills": [
+        { 
+          "type": "perception",
+          "details": "+5"
+        }
+      ],
+    
+      "ability_scores": {
+        "str": 19,
+        "str_mod": "+4",
+        "dex": 13,
+        "dex_mod": "+1",
+        "con": 17,
+        "con_mod": "+3",
+        "int": 2,
+        "int_mod": "-4",
+        "wis": 12, 
+        "wis_mod": "+1",
+        "cha": 5,
+        "cha_mod": "-3"
+      }
+    },
+  
+    "potential_actions": {
+      "special_abilities": [
+        {
+          "title": "Pounce",
+          "description": "If the allosaurus moves at least 30 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the allosaurus can make one bite attack against it as a bonus action."
+        }
+      ],
+    
+      "actions": [
+        {
+          "title": "Bite",
+          "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+6",
+            "reach": "5 ft.",
+            "target": 1,
+            "saving_throws": "",
+            "hit": 15,
+            "hit_details": "15 (2d10 + 4)",
+            "damage_type": "piercing",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        },        
+        {
+          "title": "Claw",
+          "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.",
+        
+          "description": {
+            "type": "Melee Weapon Attack",
+            "to_hit": "+6",
+            "reach": "5 ft.",
+            "target": 1,
+            "saving_throws": "",
+            "hit": 8,
+            "hit_details": "8 (1d8 + 4)",
+            "damage_type": "slashing",
+            "time": "",
+            "recharge": "",
+        
+            "sequential_actions": [{}]
+          }
+        }
+      ],
+    
+      "bonus_actions": [{}],
+    
+      "reactions": [{}],
+    
+      "legendary_action": {},
+    
+      "lair_action": {},
+    
+      "regional_effect": {},
+    
+      "class_related_spellcasting": [{}], 
+    
+      "species_related_spellcasting": {}
+    }
+  },
+
+  "class": [{}]
+}
