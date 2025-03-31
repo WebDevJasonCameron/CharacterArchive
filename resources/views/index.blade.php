@@ -38,28 +38,94 @@
         </nav>
 
         {{--Main--}}
-        <main class="container flex flex-row mx-auto p-4 mt-4 space-x-2">
+        <main class="container flex flex-col mx-auto p-4 mt-4 space-x-2">
 
-            <div id="character-attributes" class="bg-gray-500 y-400 basic-1/3  p-4 mt-4">
-                {{--Character Profile Section--}}
-                <section id="character-profile-section">
-                    <ul class="text-sm">
-                        <li>
-                            <img class="w-32 rounded-full overflow-hidden border-4 border-gray-300 shadow-lg"
+            <div id="character-attributes" class="flex flex-row bg-gray-500 y-400 basic-1/3 p-2">
+                {{--Top Banner--}}
+                <div id="top-banner" class="flex flex-row justify-between items-center">
+
+                    {{--Character Profile--}}
+                    <div id="character-profile" class="flex flex-row text-sm mr-4">
+                        <div class="mx-4">
+                            <img class="w-22 rounded-full overflow-hidden border-4 border-gray-300 shadow-lg"
                                  src="{{ asset('images/roskat_head_image.png') }}"
                                  alt="logo"/>
-                        </li>
-                        <li><strong class="text-red-300">Name:</strong> Roskat</li>
-                        <li><strong class="text-red-300">Level:</strong> 2</li>
-                        <li><strong class="text-red-300">Class Levels:</strong> Rogue 1 / Druid 1</li>
-                        <li><strong class="text-red-300">Species:</strong> Procyon</li>
-                        <li><strong class="text-red-300">Background:</strong> Haunted One</li>
-                        <li><strong class="text-red-300">XP:</strong> Milestones</li>
-                    </ul>
-                </section>
+                        </div>
+                        <ul  class="mx-4">
+                            <li class="text-xs"><strong class="text-red-300">Name:</strong> Roskat</li>
+                            <li class="text-xs"><strong class="text-red-300">Species:</strong> Procyon</li>
+                            <li class="text-xs"><strong class="text-red-300">Classes:</strong> Rogue 1 / Druid 1</li>
+                            <li class="text-xs"><strong class="text-red-300">Background:</strong> Haunted One</li>
+                        </ul>
+                        <ul class="mx-4">
+                            <li class="text-xs"><strong class="text-red-300">HP:</strong> 17</li>
+                            <li class="text-xs"><strong class="text-red-300">AC:</strong> 15</li>
+                            <li class="text-xs"><strong class="text-red-300">Init:</strong> +4</li>
+                        </ul>
+                        <ul class="mx-4">
+                            <li class="text-xs"><strong class="text-red-300">Hit Dice:</strong> 1d8 + 1d8</li>
+                            <li class="text-xs"><strong class="text-red-300">Prof. Bonus:</strong> +2</li>
+                            <li class="text-xs"><strong class="text-red-300">Ability Saves:</strong> -</li>
+                            <li class="text-xs"><strong class="text-red-300">XP:</strong> Milestones</li>
+                        </ul>
+                        <ul class="mx-4">
+                            <li class="text-xs"><strong class="text-red-300">Level:</strong> 2</li>
+                        </ul>
+
+                    </div>
+
+                    {{--View Mode Buttons--}}
+                    <div id="view-mode-buttons" class="flex flex-col">
+                        <div class="flex flex-row justify-between">
+                            <button
+                                type="button"
+                                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                                    Dark
+                            </button>
+                            <button
+                                type="button"
+                                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                                    Stats
+                            </button>
+                            <button
+                                type="button"
+                                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                                    Journal
+                            </button>
+                            <button
+                                type="button"
+                                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                                    Combat
+                            </button>
+                        </div>
+                        <div class="flex flex-row justify-between">
+                            <button
+                                type="button"
+                                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                                    Inventory
+                            </button>
+                            <button
+                                type="button"
+                                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                                    Relations
+                            </button>
+                            <button
+                                type="button"
+                                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                                    Spells
+                            </button>
+                            <button
+                                type="button"
+                                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                                    Art
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
-            <div id="character-details"  class="bg-gray-600 basic-2/3  p-4 mt-4">
+            <div id="character-details"  class="bg-gray-600 basic-2/3">
                 {{--CS Filter Tabs--}}
                 <div
                     id="cs-filter-tabs"
