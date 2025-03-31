@@ -168,7 +168,7 @@
                                             </td>
                                             {{--Notes--}}
                                             <td class="px-6 py-4">
-                                                V,S,M
+                                                V/S/M
                                             </td>
                                         </tr>
                                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
@@ -220,7 +220,7 @@
                                             </td>
                                             {{--Notes--}}
                                             <td class="px-6 py-4">
-                                                V,S
+                                                V/S
                                             </td>
                                         </tr>
 
@@ -261,13 +261,10 @@
                                                 Hit/DC
                                             </th>
                                             <th scope="col" class="px-6 py-3">
-                                                Comp
-                                            </th>
-                                            <th scope="col" class="px-6 py-3">
-                                                Dur
-                                            </th>
-                                            <th scope="col" class="px-6 py-3">
                                                 Effect
+                                            </th>
+                                            <th scope="col" class="px-6 py-3">
+                                                Notes
                                             </th>
                                         </tr>
                                     </thead>
@@ -289,23 +286,19 @@
                                             <td class="px-6 py-4">
                                                 --
                                             </td>
-                                            {{--Components--}}
-                                            <td class="px-6 py-4">
-                                                V,S
-                                            </td>
-                                            {{--Duration--}}
-                                            <td class="px-6 py-4">
-                                                Inst.
-                                            </td>
                                             {{--Effect--}}
                                             <td class="px-6 py-4">
                                                 2d8+3 <i class="fa-solid fa-heart"></i>
+                                            </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                V/S
                                             </td>
                                         </tr>
                                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
                                             {{--Name--}}
                                             <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                Elevated Sight
+                                                Elevated Sight <i class="fa-solid fa-copyright text-gray-500"></i>
                                             </th>
                                             {{--Time--}}
                                             <td class="px-6 py-4">
@@ -319,23 +312,19 @@
                                             <td class="px-6 py-4">
                                                 --
                                             </td>
-                                            {{--Components--}}
-                                            <td class="px-6 py-4">
-                                                V,S
-                                            </td>
-                                            {{--Duration--}}
-                                            <td class="px-6 py-4">
-                                                Con.
-                                            </td>
                                             {{--Effect--}}
                                             <td class="px-6 py-4">
-
+                                                D: 1m, V/S
+                                            </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                V/S
                                             </td>
                                         </tr>
                                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
                                             {{--Name--}}
                                             <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                Entangle
+                                                Entangle <i class="fa-solid fa-copyright text-gray-500"></i>
                                             </th>
                                             {{--Time--}}
                                             <td class="px-6 py-4">
@@ -347,25 +336,21 @@
                                             </td>
                                             {{--Hit/DC--}}
                                             <td class="px-6 py-4">
-                                                STR 13
-                                            </td>
-                                            {{--Components--}}
-                                            <td class="px-6 py-4">
-                                                1m, 20ft., V/S
-                                            </td>
-                                            {{--Duration--}}
-                                            <td class="px-6 py-4">
-                                                Con.
+                                                13 STR
                                             </td>
                                             {{--Effect--}}
                                             <td class="px-6 py-4">
                                                 Restrained
                                             </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                D: 1m, 20ft. <i class="fa-solid fa-cube"></i>, V/S
+                                            </td>
                                         </tr>
                                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
                                             {{--Name--}}
                                             <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                Faerie Fire <i class="fa-solid fa-copyright font-medium text-gray-600"></i>
+                                                Faerie Fire <i class="fa-solid fa-copyright text-gray-500"></i>
                                             </th>
                                             {{--Time--}}
                                             <td class="px-6 py-4">
@@ -373,23 +358,45 @@
                                             </td>
                                             {{--Range--}}
                                             <td class="px-6 py-4">
-                                                60 ft./20 ft. <i class="fa-solid fa-cube"></i>
+                                                60 ft.
                                             </td>
                                             {{--Hit/DC--}}
                                             <td class="px-6 py-4">
-                                                DEX 13
-                                            </td>
-                                            {{--Effect--}}
-                                            <td class="px-6 py-4">
-                                                V
-                                            </td>
-                                            {{--Note--}}
-                                            <td class="px-6 py-4">
-                                                Con.
+                                                13 DEX
                                             </td>
                                             {{--Effect--}}
                                             <td class="px-6 py-4">
                                                 Invisible
+                                            </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                D: 1m, 20ft. <i class="fa-solid fa-cube"></i>, V
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                            {{--Name--}}
+                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                Speak with Animals <i class="fa-solid fa-registered text-gray-500"></i>
+                                            </th>
+                                            {{--Time--}}
+                                            <td class="px-6 py-4">
+                                                1A
+                                            </td>
+                                            {{--Range--}}
+                                            <td class="px-6 py-4">
+                                                Self
+                                            </td>
+                                            {{--Hit/DC--}}
+                                            <td class="px-6 py-4">
+                                                --
+                                            </td>
+                                            {{--Effect--}}
+                                            <td class="px-6 py-4">
+                                                Communication*
+                                            </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                D: 10m, V/S
                                             </td>
                                         </tr>
 
