@@ -73,13 +73,13 @@
 
                 </div>
 
-                {{--View Mode Buttons--}}
-                <div id="view-mode-buttons" class="flex flex-col">
+                {{--View Buttons--}}
+                <div id="view-buttons" class="flex flex-col">
                     <div class="flex flex-row justify-between">
                         <button
                             type="button"
                             class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
-                                Dark
+                                CS
                         </button>
                         <button
                             type="button"
@@ -123,363 +123,431 @@
 
             </div>
 
-            {{--Views--}}
-            <div id="views">
+            {{--View Container--}}
+            <div id="view-container" class="flex flex-row">
 
-                {{--View Mode Filter Tabs--}}
-                <div class="md:flex">
-                    <div class="flex-column space-y space-y-4 text-xs font-medium text-gray-500 dark:text-gray-400 md:me-4 mb-4 md:mb-0">
-                        <div>
-                            <a href="#" class="inline-flex items-center px-4 py-1 mt-1 text-white bg-blue-700 rounded-lg active w-full dark:bg-blue-600" aria-current="page">
-                                <i class="fa-solid fa-chart-simple me-2"></i>
-                                Stats
-                            </a>
-
-                        </div>
-                        <div>
-                            <a href="#" class="inline-flex items-center px-4 py-1 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
-                                <i class="fa-solid fa-wand-sparkles me-2"></i>
-                                Spells
-                            </a>
-                        </div>
-
+                {{--View Filters--}}
+                <div id="view-filters" class="flex-column p-1 text-xs font-medium bg-gray-600  text-gray-500 dark:text-gray-400">
+                    <div>
+                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 text-gray-100 bg-red-300 rounded-lg active w-full dark:bg-red-400">
+                            <i class="fa-solid fa-chart-simple me-2"></i>
+                            Stats
+                        </a>
                     </div>
-                    <div class="p-6 bg-gray-50 text-medium text-gray-500 dark:text-gray-400 dark:bg-gray-800 rounded-lg w-full">
-                        <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Profile Tab</h3>
-                        <p class="mb-2">This is some placeholder content the Profile tab's associated content, clicking another tab will toggle the visibility of this one for the next.</p>
-                        <p>The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                    <div>
+                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                            <i class="fa-solid fa-wand-sparkles me-2"></i>
+                            Spells
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                            <i class="fa-solid fa-hand-fist me-2"></i>
+                            Combat
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                            <i class="fa-solid fa-wand-sparkles me-2"></i>
+                            Inventory
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                            <i class="fa-solid fa-hat-wizard me-2"></i>
+                            Class
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                            <i class="fa-solid fa-person me-2"></i>
+                            Specie
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                            <i class="fa-solid fa-trophy me-2"></i>
+                            Feat
+                        </a>
                     </div>
                 </div>
 
+                {{--View Data--}}
+                <tab id="view-data" class="w-full">
 
-
-
-
-
-
-
-
-                {{--CS Tab Content--}}
-                <tab id="cs-tab-content">
-                    {{--Spells Content--}}
+                    {{--Stat Content--}}
                     <div
+                        id="stat-content"
+                        class="grid grid-cols-3 text-xm  py-2 px-4 rounded-lg bg-gray-50 dark:bg-gray-800">
+
+                        {{--Attribute Stats--}}
+                        <div class="flex justify-between col-span-3 text-xs text-gray-500 dark:text-gray-400">
+                            <div class="h-20 w-20 text-center">
+                                <p>Strength</p>
+                                <p class="text-xl">+0</p>
+                                <p>10</p>
+                            </div>
+                            <div class="h-20 w-20 text-center">
+                                <p>Dexterity</p>
+                                <p class="text-xl">+2</p>
+                                <p>14</p>
+                            </div>
+                            <div class="h-20 w-20 text-center">
+                                <p>Constitution</p>
+                                <p class="text-xl">+2</p>
+                                <p>14</p>
+                            </div>
+                            <div class="h-20 w-20 text-center">
+                                <p>Intelligence</p>
+                                <p class="text-xl">+1</p>
+                                <p>12</p>
+                            </div>
+                            <div class="h-20 w-20 text-center">
+                                <p>Wisdom</p>
+                                <p class="text-xl">+3</p>
+                                <p>16</p>
+                            </div>
+                            <div class="h-20 w-20 text-center">
+                                <p>Charisma</p>
+                                <p class="text-xl">+1</p>
+                                <p>13</p>
+                            </div>
+                        </div>
+
+                        {{--Skill Stats--}}
+                        <p class="text-xs text-gray-500 dark:text-gray-400">
+                            Skill Stats
+                        </p>
+
+                        {{--Saving Throw Stats--}}
+                        <p class="text-xs text-gray-500 dark:text-gray-400">
+                            Saving Throw Stats
+                        </p>
+
+                        {{--Defense Stats--}}
+                        <p class="text-xs text-gray-500 dark:text-gray-400">
+                            Defense Stats (Resistances)
+                        </p>
+
+                        {{--Proficiency Stats--}}
+                        <p class="text-xs text-gray-500 dark:text-gray-400">
+                            Proficiency Stats (Armor, Weapons, Tools, Language)
+                        </p>
+
+                        {{--Senses Stats--}}
+                        <p class="text-xs text-gray-500 dark:text-gray-400">
+                            Senses Stats (Passive Perception, Passive Insight, Passive Investigation)
+                        </p>
+                    </div>
+
+                    {{--Spell Content--}}
+                    <div
+                        id="spell-content"
                         class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-                        id="spells"
                         role="tabpanel"
                         aria-labelledby="spells-tab">
 
-                            {{--Cantrips--}}
-                            <div id="detail-spells" class="">
+                        {{--Cantrips--}}
+                        <div id="spell-cantrip-details" class="">
+                            <h5 class="text-xs text-gray-400 m-2 pt-2">
+                                Cantrips
+                            </h5>
+                            <div class="bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
+                                <div class="relative overflow-x-auto">
+                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                                        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                        <tr>
+                                            <th scope="col" class="px-6 py-3">
+                                                Name
+                                            </th>
+                                            <th scope="col" class="px-6 py-3">
+                                                Time
+                                            </th>
+                                            <th scope="col" class="px-6 py-3">
+                                                Range
+                                            </th>
+                                            <th scope="col" class="px-6 py-3">
+                                                Hit/DC
+                                            </th>
+                                            <th scope="col" class="px-6 py-3">
+                                                Effect
+                                            </th>
+                                            <th scope="col" class="px-6 py-3">
+                                                Notes
+                                            </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="text-xs">
+                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                            {{--Name--}}
+                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                Mending
+                                            </th>
+                                            {{--Time--}}
+                                            <td class="px-6 py-4">
+                                                1m
+                                            </td>
+                                            {{--Range--}}
+                                            <td class="px-6 py-4">
+                                                Touch
+                                            </td>
+                                            {{--Hit/DC--}}
+                                            <td class="px-6 py-4">
+                                                --
+                                            </td>
+                                            {{--Effect--}}
+                                            <td class="px-6 py-4">
+                                                Utility
+                                            </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                V/S/M
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                            {{--Name--}}
+                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                Mold Earth
+                                            </th>
+                                            {{--Time--}}
+                                            <td class="px-6 py-4">
+                                                1A
+                                            </td>
+                                            {{--Range--}}
+                                            <td class="px-6 py-4">
+                                                30 ft.
+                                            </td>
+                                            {{--Hit/DC--}}
+                                            <td class="px-6 py-4">
+                                                --
+                                            </td>
+                                            {{--Effect--}}
+                                            <td class="px-6 py-4">
+                                                Control
+                                            </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                5ft. <i class="fa-solid fa-cube"></i>, S
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                            {{--Name--}}
+                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                Spare the Dying
+                                            </th>
+                                            {{--Time--}}
+                                            <td class="px-6 py-4">
+                                                1A
+                                            </td>
+                                            {{--Range--}}
+                                            <td class="px-6 py-4">
+                                                15 ft.
+                                            </td>
+                                            {{--Hit/DC--}}
+                                            <td class="px-6 py-4">
+                                                --
+                                            </td>
+                                            {{--Effect--}}
+                                            <td class="px-6 py-4">
+                                                Healing
+                                            </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                V/S
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{--1st Level--}}
+                        <div id="spell-level1-details" class="">
+                            <div class="flex justify-between">
                                 <h5 class="text-xs text-gray-400 m-2 pt-2">
-                                    Cantrips
+                                    1st Level
                                 </h5>
-                                <div class="bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
-                                    <div class="relative overflow-x-auto">
-                                        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                                            <tr>
-                                                <th scope="col" class="px-6 py-3">
-                                                    Name
-                                                </th>
-                                                <th scope="col" class="px-6 py-3">
-                                                    Time
-                                                </th>
-                                                <th scope="col" class="px-6 py-3">
-                                                    Range
-                                                </th>
-                                                <th scope="col" class="px-6 py-3">
-                                                    Hit/DC
-                                                </th>
-                                                <th scope="col" class="px-6 py-3">
-                                                    Effect
-                                                </th>
-                                                <th scope="col" class="px-6 py-3">
-                                                    Notes
-                                                </th>
-                                            </tr>
-                                            </thead>
-                                            <tbody class="text-xs">
-                                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                                                {{--Name--}}
-                                                <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                    Mending
-                                                </th>
-                                                {{--Time--}}
-                                                <td class="px-6 py-4">
-                                                    1m
-                                                </td>
-                                                {{--Range--}}
-                                                <td class="px-6 py-4">
-                                                    Touch
-                                                </td>
-                                                {{--Hit/DC--}}
-                                                <td class="px-6 py-4">
-                                                    --
-                                                </td>
-                                                {{--Effect--}}
-                                                <td class="px-6 py-4">
-                                                    Utility
-                                                </td>
-                                                {{--Notes--}}
-                                                <td class="px-6 py-4">
-                                                    V/S/M
-                                                </td>
-                                            </tr>
-                                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                                                {{--Name--}}
-                                                <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                    Mold Earth
-                                                </th>
-                                                {{--Time--}}
-                                                <td class="px-6 py-4">
-                                                    1A
-                                                </td>
-                                                {{--Range--}}
-                                                <td class="px-6 py-4">
-                                                    30 ft.
-                                                </td>
-                                                {{--Hit/DC--}}
-                                                <td class="px-6 py-4">
-                                                    --
-                                                </td>
-                                                {{--Effect--}}
-                                                <td class="px-6 py-4">
-                                                    Control
-                                                </td>
-                                                {{--Notes--}}
-                                                <td class="px-6 py-4">
-                                                    5ft. <i class="fa-solid fa-cube"></i>, S
-                                                </td>
-                                            </tr>
-                                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                                                {{--Name--}}
-                                                <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                    Spare the Dying
-                                                </th>
-                                                {{--Time--}}
-                                                <td class="px-6 py-4">
-                                                    1A
-                                                </td>
-                                                {{--Range--}}
-                                                <td class="px-6 py-4">
-                                                    15 ft.
-                                                </td>
-                                                {{--Hit/DC--}}
-                                                <td class="px-6 py-4">
-                                                    --
-                                                </td>
-                                                {{--Effect--}}
-                                                <td class="px-6 py-4">
-                                                    Healing
-                                                </td>
-                                                {{--Notes--}}
-                                                <td class="px-6 py-4">
-                                                    V/S
-                                                </td>
-                                            </tr>
-
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                <div class="my-2 mr-2">
+                                    <input class="accent-gray-400/25" type="checkbox" checked />
+                                    <input class="accent-gray-400/25" type="checkbox" checked />
                                 </div>
                             </div>
 
-                            {{--1st Level--}}
-                            <div id="detail-spells" class="">
-                                <div class="flex justify-between">
-                                    <h5 class="text-xs text-gray-400 m-2 pt-2">
-                                        1st Level
-                                    </h5>
-                                    <div class="my-2 mr-2">
-                                        <input class="accent-gray-400/25" type="checkbox" checked />
-                                        <input class="accent-gray-400/25" type="checkbox" checked />
-                                    </div>
-                                </div>
+                            {{--Spell Card 1--}}
+                            <div class="bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
+                                <div class="relative overflow-x-auto">
+                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                                        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                        <tr>
+                                            <th scope="col" class="px-6 py-3">
+                                                Name
+                                            </th>
+                                            <th scope="col" class="px-6 py-3">
+                                                Time
+                                            </th>
+                                            <th scope="col" class="px-6 py-3">
+                                                Range
+                                            </th>
+                                            <th scope="col" class="px-6 py-3">
+                                                Hit/DC
+                                            </th>
+                                            <th scope="col" class="px-6 py-3">
+                                                Effect
+                                            </th>
+                                            <th scope="col" class="px-6 py-3">
+                                                Notes
+                                            </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody class="text-xs">
+                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                            {{--Name--}}
+                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                Cure Wounds
+                                            </th>
+                                            {{--Time--}}
+                                            <td class="px-6 py-4">
+                                                1A
+                                            </td>
+                                            {{--Range--}}
+                                            <td class="px-6 py-4">
+                                                Touch
+                                            </td>
+                                            {{--Hit/DC--}}
+                                            <td class="px-6 py-4">
+                                                --
+                                            </td>
+                                            {{--Effect--}}
+                                            <td class="px-6 py-4">
+                                                2d8+3 <i class="fa-solid fa-heart"></i>
+                                            </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                V/S
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                            {{--Name--}}
+                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                Elevated Sight <i class="fa-solid fa-copyright text-gray-500"></i>
+                                            </th>
+                                            {{--Time--}}
+                                            <td class="px-6 py-4">
+                                                1A
+                                            </td>
+                                            {{--Range--}}
+                                            <td class="px-6 py-4">
+                                                Self
+                                            </td>
+                                            {{--Hit/DC--}}
+                                            <td class="px-6 py-4">
+                                                --
+                                            </td>
+                                            {{--Effect--}}
+                                            <td class="px-6 py-4">
+                                                D: 1m, V/S
+                                            </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                V/S
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                            {{--Name--}}
+                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                Entangle <i class="fa-solid fa-copyright text-gray-500"></i>
+                                            </th>
+                                            {{--Time--}}
+                                            <td class="px-6 py-4">
+                                                1A
+                                            </td>
+                                            {{--Range--}}
+                                            <td class="px-6 py-4">
+                                                90 ft.
+                                            </td>
+                                            {{--Hit/DC--}}
+                                            <td class="px-6 py-4">
+                                                13 STR
+                                            </td>
+                                            {{--Effect--}}
+                                            <td class="px-6 py-4">
+                                                Restrained
+                                            </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                D: 1m, 20ft. <i class="fa-solid fa-cube"></i>, V/S
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                            {{--Name--}}
+                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                Faerie Fire <i class="fa-solid fa-copyright text-gray-500"></i>
+                                            </th>
+                                            {{--Time--}}
+                                            <td class="px-6 py-4">
+                                                1A
+                                            </td>
+                                            {{--Range--}}
+                                            <td class="px-6 py-4">
+                                                60 ft.
+                                            </td>
+                                            {{--Hit/DC--}}
+                                            <td class="px-6 py-4">
+                                                13 DEX
+                                            </td>
+                                            {{--Effect--}}
+                                            <td class="px-6 py-4">
+                                                Invisible
+                                            </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                D: 1m, 20ft. <i class="fa-solid fa-cube"></i>, V
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                            {{--Name--}}
+                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                Speak with Animals <i class="fa-solid fa-registered text-gray-500"></i>
+                                            </th>
+                                            {{--Time--}}
+                                            <td class="px-6 py-4">
+                                                1A
+                                            </td>
+                                            {{--Range--}}
+                                            <td class="px-6 py-4">
+                                                Self
+                                            </td>
+                                            {{--Hit/DC--}}
+                                            <td class="px-6 py-4">
+                                                --
+                                            </td>
+                                            {{--Effect--}}
+                                            <td class="px-6 py-4">
+                                                Communication*
+                                            </td>
+                                            {{--Notes--}}
+                                            <td class="px-6 py-4">
+                                                D: 10m, V/S
+                                            </td>
+                                        </tr>
 
-                                {{--Spell Card 1--}}
-                                <div class="bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
-                                    <div class="relative overflow-x-auto">
-                                        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                                            <tr>
-                                                <th scope="col" class="px-6 py-3">
-                                                    Name
-                                                </th>
-                                                <th scope="col" class="px-6 py-3">
-                                                    Time
-                                                </th>
-                                                <th scope="col" class="px-6 py-3">
-                                                    Range
-                                                </th>
-                                                <th scope="col" class="px-6 py-3">
-                                                    Hit/DC
-                                                </th>
-                                                <th scope="col" class="px-6 py-3">
-                                                    Effect
-                                                </th>
-                                                <th scope="col" class="px-6 py-3">
-                                                    Notes
-                                                </th>
-                                            </tr>
-                                            </thead>
-                                            <tbody class="text-xs">
-                                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                                                {{--Name--}}
-                                                <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                    Cure Wounds
-                                                </th>
-                                                {{--Time--}}
-                                                <td class="px-6 py-4">
-                                                    1A
-                                                </td>
-                                                {{--Range--}}
-                                                <td class="px-6 py-4">
-                                                    Touch
-                                                </td>
-                                                {{--Hit/DC--}}
-                                                <td class="px-6 py-4">
-                                                    --
-                                                </td>
-                                                {{--Effect--}}
-                                                <td class="px-6 py-4">
-                                                    2d8+3 <i class="fa-solid fa-heart"></i>
-                                                </td>
-                                                {{--Notes--}}
-                                                <td class="px-6 py-4">
-                                                    V/S
-                                                </td>
-                                            </tr>
-                                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                                                {{--Name--}}
-                                                <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                    Elevated Sight <i class="fa-solid fa-copyright text-gray-500"></i>
-                                                </th>
-                                                {{--Time--}}
-                                                <td class="px-6 py-4">
-                                                    1A
-                                                </td>
-                                                {{--Range--}}
-                                                <td class="px-6 py-4">
-                                                    Self
-                                                </td>
-                                                {{--Hit/DC--}}
-                                                <td class="px-6 py-4">
-                                                    --
-                                                </td>
-                                                {{--Effect--}}
-                                                <td class="px-6 py-4">
-                                                    D: 1m, V/S
-                                                </td>
-                                                {{--Notes--}}
-                                                <td class="px-6 py-4">
-                                                    V/S
-                                                </td>
-                                            </tr>
-                                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                                                {{--Name--}}
-                                                <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                    Entangle <i class="fa-solid fa-copyright text-gray-500"></i>
-                                                </th>
-                                                {{--Time--}}
-                                                <td class="px-6 py-4">
-                                                    1A
-                                                </td>
-                                                {{--Range--}}
-                                                <td class="px-6 py-4">
-                                                    90 ft.
-                                                </td>
-                                                {{--Hit/DC--}}
-                                                <td class="px-6 py-4">
-                                                    13 STR
-                                                </td>
-                                                {{--Effect--}}
-                                                <td class="px-6 py-4">
-                                                    Restrained
-                                                </td>
-                                                {{--Notes--}}
-                                                <td class="px-6 py-4">
-                                                    D: 1m, 20ft. <i class="fa-solid fa-cube"></i>, V/S
-                                                </td>
-                                            </tr>
-                                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                                                {{--Name--}}
-                                                <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                    Faerie Fire <i class="fa-solid fa-copyright text-gray-500"></i>
-                                                </th>
-                                                {{--Time--}}
-                                                <td class="px-6 py-4">
-                                                    1A
-                                                </td>
-                                                {{--Range--}}
-                                                <td class="px-6 py-4">
-                                                    60 ft.
-                                                </td>
-                                                {{--Hit/DC--}}
-                                                <td class="px-6 py-4">
-                                                    13 DEX
-                                                </td>
-                                                {{--Effect--}}
-                                                <td class="px-6 py-4">
-                                                    Invisible
-                                                </td>
-                                                {{--Notes--}}
-                                                <td class="px-6 py-4">
-                                                    D: 1m, 20ft. <i class="fa-solid fa-cube"></i>, V
-                                                </td>
-                                            </tr>
-                                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                                                {{--Name--}}
-                                                <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                    Speak with Animals <i class="fa-solid fa-registered text-gray-500"></i>
-                                                </th>
-                                                {{--Time--}}
-                                                <td class="px-6 py-4">
-                                                    1A
-                                                </td>
-                                                {{--Range--}}
-                                                <td class="px-6 py-4">
-                                                    Self
-                                                </td>
-                                                {{--Hit/DC--}}
-                                                <td class="px-6 py-4">
-                                                    --
-                                                </td>
-                                                {{--Effect--}}
-                                                <td class="px-6 py-4">
-                                                    Communication*
-                                                </td>
-                                                {{--Notes--}}
-                                                <td class="px-6 py-4">
-                                                    D: 10m, V/S
-                                                </td>
-                                            </tr>
-
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
-                    </div>
-
-                    {{--Stats Content--}}
-                    <div
-                        class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-                        id="stats"
-                        role="tabpanel"
-                        aria-labelledby="stats-tab">
-
-                        <p class="text-sm text-gray-500 dark:text-gray-400">
-                            Stats Content
-                        </p>
+                        </div>
                     </div>
 
                     {{--Combat Content--}}
                     <div
+                        id="combat-content"
                         class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-                        id="combat"
                         role="tabpanel"
                         aria-labelledby="combat-tab">
 
+                        {{--WIP--}}
                         <p class="text-sm text-gray-500 dark:text-gray-400">
                             Combat Content
                         </p>
@@ -487,55 +555,65 @@
 
                     {{--Inventory Content--}}
                     <div
+                        id="inventory-content"
                         class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-                        id="inventory"
                         role="tabpanel"
                         aria-labelledby="inventory-tab">
 
+                        {{--WIP--}}
                         <p class="text-sm text-gray-500 dark:text-gray-400">
                             Inventory Content
                         </p>
                     </div>
 
-                    {{--Class Features Content--}}
+                    {{--Class Content--}}
                     <div
+                        id="class-content"
                         class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-                        id="class-features"
                         role="tabpanel"
                         aria-labelledby="class-features-tab">
 
+                        {{--WIP--}}
                         <p class="text-sm text-gray-500 dark:text-gray-400">
-                            Class Features Content
+                            Class Content
                         </p>
                     </div>
 
-                    {{--Species Features Content--}}
+                    {{--Specie Content--}}
                     <div
+                        id="specie-content"
                         class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-                        id="species-features"
                         role="tabpanel"
                         aria-labelledby="species-features-tab">
 
+                        {{--WIP--}}
                         <p class="text-sm text-gray-500 dark:text-gray-400">
-                            Species Features Content
+                            Specie Content
                         </p>
                     </div>
 
-                    {{--Feats Content--}}
+                    {{--Feat Content--}}
                     <div
+                        id="feat-content"
                         class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-                        id="feats"
                         role="tabpanel"
                         aria-labelledby="feats-tab">
 
+                        {{--WIP--}}
                         <p class="text-sm text-gray-500 dark:text-gray-400">
                             Feats Content
                         </p>
                     </div>
 
                 </tab>
-
             </div>
+
+
+
+
+
+
+
         </main>
 
 
