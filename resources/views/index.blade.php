@@ -215,19 +215,387 @@
                         </div>
 
                         {{--Skill Stats--}}
-                        <p class="text-xs text-gray-500 dark:text-gray-400">
-                            Skill Stats
-                        </p>
+                        <div class="row-span-4">
+                            <div class="text-lg text-center rtl:text-right text-gray-500 ">
+                                Skill
+                            </div>
+                            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                                <thead class="text-xs">
+                                    <tr>
+                                        <th scope="col" class="p-1">
+                                            Prof
+                                        </th>
+                                        <th scope="col" class="p-1">
+                                            Mod
+                                        </th>
+                                        <th scope="col" class="p-1">
+                                            Skill
+                                        </th>
+                                        <th scope="col" class="p-1">
+                                            Bonus
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-xm ">
+                                    {{--Acrobatics--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-solid fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            DEX
+                                        </td>
+                                        <td class="px-1">
+                                            Acrobatics
+                                        </td>
+                                        <td class="px-1">
+                                            +4
+                                        </td>
+                                    </tr>
+                                    {{--Animal Handling--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-regular fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            WIS
+                                        </td>
+                                        <td class="px-1">
+                                            Animal Handling
+                                        </td>
+                                        <td class="px-1">
+                                            +3
+                                        </td>
+                                    </tr>
+                                    {{--Arcana--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-solid fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            INT
+                                        </td>
+                                        <td class="px-1">
+                                            Arcana
+                                        </td>
+                                        <td class="px-1">
+                                            +6
+                                        </td>
+                                    </tr>
+                                    {{--Athletics--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-regular fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            STR
+                                        </td>
+                                        <td class="px-1">
+                                            Athletics
+                                        </td>
+                                        <td class="px-1">
+                                            +0
+                                        </td>
+                                    </tr>
+                                    {{--Deception--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-regular fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            CHA
+                                        </td>
+                                        <td class="px-1">
+                                            Deception
+                                        </td>
+                                        <td class="px-1">
+                                            +1
+                                        </td>
+                                    </tr>
+                                    {{--History--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-regular fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            INT
+                                        </td>
+                                        <td class="px-1">
+                                            History
+                                        </td>
+                                        <td class="px-1">
+                                            +1
+                                        </td>
+                                    </tr>
+                                    {{--Insight--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-solid fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            WIS
+                                        </td>
+                                        <td class="px-1">
+                                            Insight
+                                        </td>
+                                        <td class="px-1">
+                                            +5
+                                        </td>
+                                    </tr>
+                                    {{--Intimidation--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-regular fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            CHA
+                                        </td>
+                                        <td class="px-1">
+                                            Intimidation
+                                        </td>
+                                        <td class="px-1">
+                                            +1
+                                        </td>
+                                    </tr>
+                                    {{--Investigation--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-regular fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            INT
+                                        </td>
+                                        <td class="px-1">
+                                            Investigation
+                                        </td>
+                                        <td class="px-1">
+                                            +1
+                                        </td>
+                                    </tr>
+                                    {{--Medicine--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-regular fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            WIS
+                                        </td>
+                                        <td class="px-1">
+                                            Medicine
+                                        </td>
+                                        <td class="px-1">
+                                            +3
+                                        </td>
+                                    </tr>
+                                    {{--Nature--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-regular fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            INT
+                                        </td>
+                                        <td class="px-1">
+                                            Nature
+                                        </td>
+                                        <td class="px-1">
+                                            +4
+                                        </td>
+                                    </tr>
+                                    {{--Perception--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-regular fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            WIS
+                                        </td>
+                                        <td class="px-1">
+                                            Perception
+                                        </td>
+                                        <td class="px-1">
+                                            +3
+                                        </td>
+                                    </tr>
+                                    {{--Performance--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-regular fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            CHA
+                                        </td>
+                                        <td class="px-1">
+                                            Performance
+                                        </td>
+                                        <td class="px-1">
+                                            +1
+                                        </td>
+                                    </tr>
+                                    {{--Persuasion--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-regular fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            CHA
+                                        </td>
+                                        <td class="px-1">
+                                            Persuasion
+                                        </td>
+                                        <td class="px-1">
+                                            +1
+                                        </td>
+                                    </tr>
+                                    {{--Religion--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-regular fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            INT
+                                        </td>
+                                        <td class="px-1">
+                                            Religion
+                                        </td>
+                                        <td class="px-1">
+                                            +1
+                                        </td>
+                                    </tr>
+                                    {{--Sleight of Hand--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-solid fa-circle-exclamation fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            DEX
+                                        </td>
+                                        <td class="px-1">
+                                            Sleight of Hand
+                                        </td>
+                                        <td class="px-1">
+                                            +6
+                                        </td>
+                                    </tr>
+                                    {{--Stealth--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-solid fa-circle-exclamation fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            DEX
+                                        </td>
+                                        <td class="px-1">
+                                            Stealth <i class="fa-solid fa-audio-description me-2 fa-sm"></i>
+                                        </td>
+                                        <td class="px-1">
+                                            +6
+                                        </td>
+                                    </tr>
+                                    {{--Survival--}}
+                                    <tr class="bg-white dark:bg-gray-800">
+                                        <td class="px-2">
+                                            <i class="fa-solid fa-circle fa-sm"></i>
+                                        </td>
+                                        <td class="px-1  text-gray-500">
+                                            WIS
+                                        </td>
+                                        <td class="px-1">
+                                            Survival
+                                        </td>
+                                        <td class="px-1">
+                                            +5
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
 
                         {{--Saving Throw Stats--}}
-                        <p class="text-xs text-gray-500 dark:text-gray-400">
-                            Saving Throw Stats
-                        </p>
+                        <div class="row-span-2 text-xs text-gray-500 dark:text-gray-400">
+                            <div class="text-lg text-center rtl:text-right text-gray-500 ">
+                                Saving Throws
+                            </div>
+                            <div
+                                id="saving-throw-content"
+                                class="grid grid-cols-2 text-xm py-2 px-4 rounded-lg bg-gray-50 dark:bg-gray-800">
+                                <div class="py-1 flex justify-evenly">
+                                    <div>
+                                        <i class="fa-regular fa-circle fa-sm"></i>
+                                    </div>
+                                    <div>
+                                        STR
+                                    </div>
+                                    <div>
+                                        +0
+                                    </div>
+                                </div>
+                                <div class="py-1 flex justify-evenly">
+                                    <div>
+                                        <i class="fa-solid fa-circle fa-sm"></i>
+                                    </div>
+                                    <div>
+                                        INT
+                                    </div>
+                                    <div>
+                                        +3
+                                    </div>
+                                </div>
+                                <div class="py-1 flex justify-evenly">
+                                    <div>
+                                        <i class="fa-solid fa-circle fa-sm"></i>
+                                    </div>
+                                    <div>
+                                        DEX
+                                    </div>
+                                    <div>
+                                        +4
+                                    </div>
+                                </div>
+                                <div class="py-1 flex justify-evenly">
+                                    <div>
+                                        <i class="fa-regular fa-circle fa-sm"></i>
+                                    </div>
+                                    <div>
+                                        WIS
+                                    </div>
+                                    <div>
+                                        +3
+                                    </div>
+                                </div>
+                                <div class="py-1 flex justify-evenly">
+                                    <div>
+                                        <i class="fa-regular fa-circle fa-sm"></i>
+                                    </div>
+                                    <div>
+                                        CON
+                                    </div>
+                                    <div>
+                                        +2
+                                    </div>
+                                </div>
+                                <div class="py-1 flex justify-evenly">
+                                    <div>
+                                        <i class="fa-regular fa-circle fa-sm"></i>
+                                    </div>
+                                    <div>
+                                        CHA
+                                    </div>
+                                    <div>
+                                        +1
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-audio-description me-2 fa-sm"></i> Poison
+                            </div>
+                        </div>
 
                         {{--Defense Stats--}}
-                        <p class="text-xs text-gray-500 dark:text-gray-400">
+                        <div class="text-xs text-gray-500 dark:text-gray-400">
                             Defense Stats (Resistances)
-                        </p>
+                        </div>
 
                         {{--Proficiency Stats--}}
                         <p class="text-xs text-gray-500 dark:text-gray-400">
