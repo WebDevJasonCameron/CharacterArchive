@@ -517,9 +517,7 @@
                             <div class="text-lg text-center rtl:text-right text-gray-500 ">
                                 Saving Throws
                             </div>
-                            <div
-                                id="saving-throw-content"
-                                class="grid grid-cols-2 text-xm py-2 px-4 rounded-lg bg-gray-50 dark:bg-gray-800">
+                            <div class="grid grid-cols-2 text-xm py-2 px-4 rounded-lg bg-gray-50 dark:bg-gray-800">
                                 <div class="py-1 flex justify-evenly">
                                     <div>
                                         <i class="fa-regular fa-circle fa-sm"></i>
@@ -587,8 +585,44 @@
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <div class="p-2 ml-6.5">
                                 <i class="fa-solid fa-audio-description me-2 fa-sm"></i> Poison
+                            </div>
+                        </div>
+
+                        {{--Senses Stats--}}
+                        <div class="row-span-2 text-xs text-gray-500 dark:text-gray-400">
+                            <div class="text-lg text-center rtl:text-right text-gray-500 ">
+                                Senses
+                            </div>
+                            <div class="flex flex-col text-xm py-2 px-4 rounded-lg bg-gray-50 dark:bg-gray-800">
+                                <div class="py-1 flex justify-between">
+                                    <div class="pl-5">
+                                        13
+                                    </div>
+                                    <div class="pr-5">
+                                        Passive Perception
+                                    </div>
+                                </div>
+                                <div class="py-1 flex justify-between">
+                                    <div class="pl-5">
+                                        11
+                                    </div>
+                                    <div class="pr-2.5">
+                                        Passive Investigation
+                                    </div>
+                                </div>
+                                <div class="py-1 flex justify-between">
+                                    <div class="pl-5">
+                                        15
+                                    </div>
+                                    <div class="pr-11">
+                                        Passive Insight
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-2 ml-7">
+                                <i class="fa-solid fa-eye-low-vision me-2 fa-sm"></i> Darkvision 60 ft.
                             </div>
                         </div>
 
@@ -602,10 +636,7 @@
                             Proficiency Stats (Armor, Weapons, Tools, Language)
                         </p>
 
-                        {{--Senses Stats--}}
-                        <p class="text-xs text-gray-500 dark:text-gray-400">
-                            Senses Stats (Passive Perception, Passive Insight, Passive Investigation)
-                        </p>
+
                     </div>
 
                     {{--Spell Content--}}
