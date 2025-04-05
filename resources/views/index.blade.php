@@ -219,8 +219,8 @@
                             <div class="text-lg text-center rtl:text-right text-gray-500 ">
                                 Skill
                             </div>
-                            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                <thead class="text-xs">
+                            <table class="w-full text-xs text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                                <thead>
                                     <tr>
                                         <th scope="col" class="p-1">
                                             Prof
@@ -236,7 +236,7 @@
                                         </th>
                                     </tr>
                                 </thead>
-                                <tbody class="text-xm ">
+                                <tbody>
                                     {{--Acrobatics--}}
                                     <tr class="bg-white dark:bg-gray-800">
                                         <td class="px-2">
@@ -512,8 +512,34 @@
                             </table>
                         </div>
 
+                        {{--Proficiency Stats--}}
+                        <div class="row-span-4 text-xs text-gray-500 dark:text-gray-400">
+                            <div class="text-lg text-center rtl:text-right text-gray-500 ">
+                                Proficiencies
+                            </div>
+                            <div class="w-full text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                                <div>
+                                    Armor
+                                    Light Armor, Shields
+                                </div>
+                                <div>
+                                    Weapons
+                                    Crossbow, Hand, Rapier, Scimitar, Shortsword, Simple Weapons, Whip
+                                </div>
+                                <div>
+                                    Tools
+                                    Thieves' Tools, Tinker's Tools
+                                </div>
+                                <div>
+                                    Languages
+                                    Abyssal, Celestial, Cervan, Druidic, Mapach, Primordial, Thieves' Cant
+                                </div>
+                            </div>
+
+                        </div>
+
                         {{--Saving Throw Stats--}}
-                        <div class="row-span-2 text-xs text-gray-500 dark:text-gray-400">
+                        <div class="text-xs text-gray-500 dark:text-gray-400">
                             <div class="text-lg text-center rtl:text-right text-gray-500 ">
                                 Saving Throws
                             </div>
@@ -591,7 +617,7 @@
                         </div>
 
                         {{--Senses Stats--}}
-                        <div class="row-span-2 text-xs text-gray-500 dark:text-gray-400">
+                        <div class=" text-xs text-gray-500 dark:text-gray-400">
                             <div class="text-lg text-center rtl:text-right text-gray-500 ">
                                 Senses
                             </div>
@@ -628,13 +654,13 @@
 
                         {{--Defense Stats--}}
                         <div class="text-xs text-gray-500 dark:text-gray-400">
-                            Defense Stats (Resistances)
+                            <div class="text-lg text-center rtl:text-right text-gray-500 ">
+                                Defenses
+                            </div>
+                            <div class="p-2 ml-6.5">
+                                Resistant to Poison
+                            </div>
                         </div>
-
-                        {{--Proficiency Stats--}}
-                        <p class="text-xs text-gray-500 dark:text-gray-400">
-                            Proficiency Stats (Armor, Weapons, Tools, Language)
-                        </p>
 
 
                     </div>
