@@ -519,20 +519,42 @@
                             </div>
                             <div class="w-full text-left rtl:text-right text-gray-500 dark:text-gray-400">
                                 <div>
-                                    Armor
-                                    Light Armor, Shields
+                                    <h5 class="text-gray-600 dark:text-gray-500">
+                                        Armor
+                                    </h5>
+                                    <p class="py-2">
+                                        Light Armor, Shields
+                                    </p>
+                                    <hr class="text-gray-600 dark:text-gray-500">
+
                                 </div>
                                 <div>
-                                    Weapons
-                                    Crossbow, Hand, Rapier, Scimitar, Shortsword, Simple Weapons, Whip
+                                    <h5 class="mt-2 text-gray-600 dark:text-gray-500">
+                                        Weapons
+                                    </h5>
+                                    <p class="py-2">
+                                        Crossbow, Hand, Rapier, Scimitar, Shortsword, Simple Weapons, Whip
+                                    </p>
+                                    <hr class="text-gray-600 dark:text-gray-500">
                                 </div>
                                 <div>
-                                    Tools
-                                    Thieves' Tools, Tinker's Tools
+                                    <h5 class="mt-2 text-gray-600 dark:text-gray-500">
+                                        Tools
+                                    </h5>
+                                    <p class="py-2">
+                                        Thieves' Tools, Tinker's Tools
+                                    </p>
+                                    <hr class="text-gray-600 dark:text-gray-500">
                                 </div>
                                 <div>
-                                    Languages
-                                    Abyssal, Celestial, Cervan, Druidic, Mapach, Primordial, Thieves' Cant
+                                    <h5 class="mt-2 text-gray-600 dark:text-gray-500">
+                                        Languages
+                                    </h5>
+                                    <p class="py-2">
+                                        Abyssal, Celestial, Cervan, Druidic, Mapach, Primordial, Thieves' Cant
+                                    </p>
+                                    <hr class="text-gray-600 dark:text-gray-500">
+
                                 </div>
                             </div>
 
