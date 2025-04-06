@@ -37,7 +37,7 @@
             </ul>
         </nav>
 
-        {{--Main--}}
+        {{--Character Main--}}
         <main class="container flex flex-col mx-auto p-4 mt-4 space-x-2">
 
             {{--Top Banner--}}
@@ -127,45 +127,45 @@
             <div id="view-container" class="flex flex-row">
 
                 {{--View Filters--}}
-                <div id="view-filters" class="flex-column p-1 text-xs font-medium bg-gray-600  text-gray-500 dark:text-gray-400">
+                <div id="view-filters" class="flex-column p-1 text-xs font-medium bg-gray-600 text-gray-500 dark:text-gray-400">
                     <div>
-                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 text-gray-100 bg-red-300 rounded-lg active w-full dark:bg-red-400">
+                        <a href="#" data-view="stat-content"class="view-filter inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
                             <i class="fa-solid fa-chart-simple me-2"></i>
                             Stats
                         </a>
                     </div>
                     <div>
-                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                        <a href="#" data-view="spell-content" class="view-filter inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
                             <i class="fa-solid fa-wand-sparkles me-2"></i>
                             Spells
                         </a>
                     </div>
                     <div>
-                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                        <a href="#" data-view="action-content" class="view-filter inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
                             <i class="fa-solid fa-hand-fist me-2"></i>
-                            Combat
+                            Action
                         </a>
                     </div>
                     <div>
-                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
-                            <i class="fa-solid fa-wand-sparkles me-2"></i>
+                        <a href="#" data-view="inventory-content" class="view-filter inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                            <i class="fa-solid fa-boxes-stacked me-2"></i>
                             Inventory
                         </a>
                     </div>
                     <div>
-                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                        <a href="#" data-view="class-content" class="view-filter inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
                             <i class="fa-solid fa-hat-wizard me-2"></i>
                             Class
                         </a>
                     </div>
                     <div>
-                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                        <a href="#" data-view="specie-content" class="view-filter inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
                             <i class="fa-solid fa-person me-2"></i>
                             Specie
                         </a>
                     </div>
                     <div>
-                        <a href="#" class="inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                        <a href="#" data-view="feat-content" class="view-filter inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
                             <i class="fa-solid fa-trophy me-2"></i>
                             Feat
                         </a>
@@ -987,16 +987,16 @@
                         </div>
                     </div>
 
-                    {{--Combat Content--}}
+                    {{--Action Content--}}
                     <div
-                        id="combat-content"
+                        id="action-content"
                         class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
                         role="tabpanel"
-                        aria-labelledby="combat-tab">
+                        aria-labelledby="action-tab">
 
                         {{--WIP--}}
                         <p class="text-sm text-gray-500 dark:text-gray-400">
-                            Combat Content
+                            Action Content
                         </p>
                     </div>
 
@@ -1055,12 +1055,6 @@
                 </tab>
             </div>
 
-
-
-
-
-
-
         </main>
 
 
@@ -1070,4 +1064,33 @@
         </foot>
 
     </body>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const filters = document.querySelectorAll('.view-filter');
+            const contentSections = document.querySelectorAll('#view-data > div');
+
+            filters.forEach(filter => {
+                filter.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    const targetId = filter.getAttribute('data-view');
+
+                    // Hide all content sections
+                    contentSections.forEach(section => section.classList.add('hidden'));
+
+                    // Show the selected content
+                    const targetSection = document.getElementById(targetId);
+                    if (targetSection) {
+                        targetSection.classList.remove('hidden');
+                    }
+
+                    // Update active state styling
+                    filters.forEach(f => f.classList.remove('bg-red-300', 'dark:bg-red-400', 'text-gray-100'));
+                    filter.classList.add('bg-red-300', 'dark:bg-red-400', 'text-gray-100');
+                });
+            });
+        });
+    </script>
+
 </html>
