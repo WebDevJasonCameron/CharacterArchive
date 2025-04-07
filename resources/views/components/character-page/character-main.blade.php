@@ -1,4 +1,12 @@
-{{--Character Main--}}
+{{--
+
+So, the Character component holds all the character data.  Switching between character view modes will require a different url, i.e. https://ca/johnsmith/charactername/charactersheet/active for the active character sheet of character name owned by john smith.  Another example would be https://ca/johnsmith/charactername/characterjournal/ for the character's journal
+
+At least that is what I'm thinking right now
+
+--}}
+
+{{--Character--}}
 <main class="container flex flex-col mx-auto p-4 mt-4 space-x-2">
 
     {{--Top Banner--}}
@@ -102,9 +110,9 @@
                 </a>
             </div>
             <div>
-                <a href="#" data-view="action-content" class="view-filter inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                <a href="#" data-view="combat-content" class="view-filter inline-flex items-center px-4 py-1.5 mt-2 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
                     <i class="fa-solid fa-hand-fist me-2"></i>
-                    Action
+                    Combat
                 </a>
             </div>
             <div>
@@ -948,16 +956,16 @@
                 </div>
             </div>
 
-            {{--Action Content--}}
+            {{--Combat Content--}}
             <div
-                id="action-content"
+                id="combat-content"
                 class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
                 role="tabpanel"
-                aria-labelledby="action-tab">
+                aria-labelledby="combat-tab">
 
                 {{--WIP--}}
                 <p class="text-sm text-gray-500 dark:text-gray-400">
-                    Action Content
+                    Combat Content
                 </p>
             </div>
 
