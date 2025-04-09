@@ -86,7 +86,17 @@
 
         </div>
 
+        {{--If CS--}}
         <x-view-container-cs/>
+        {{--If Spell Book--}}
+        {{--If Journal--}}
+        {{--If Full Inventory--}}
+        {{--If Class Lore--}}
+        {{--If Specie Lore--}}
+        {{--If Relationship--}}
+
+
+
 
 
     </main>
