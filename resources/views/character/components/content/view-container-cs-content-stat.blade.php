@@ -3,7 +3,7 @@
         ])
 
 <div
-    id="{{ $id  }}"
+    id="stat-content"
     class="grid grid-cols-3 text-xm  py-2 px-4 rounded-lg bg-gray-50 dark:bg-gray-800">
 
     {{--Attribute Stats--}}
