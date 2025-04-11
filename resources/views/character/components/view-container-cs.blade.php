@@ -87,3 +87,5 @@
 
     </div>
 </div>
+
+<script src="{{ asset('js/toggle-data.js') }}"></script>

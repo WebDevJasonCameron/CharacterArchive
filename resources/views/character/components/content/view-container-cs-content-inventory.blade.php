@@ -7,7 +7,7 @@
     aria-labelledby="inventory-tab">
 
     {{--Weapons--}}
-    <div id="spell-cantrip-details" class="">
+    <div id="inventory-weapons-details" class="">
         <h5 class="text-xs text-gray-400 m-2 pt-2">
             Weapons
         </h5>
@@ -156,7 +156,7 @@
     {{--Consumables (Food, Scrolls, Potions)--}}
 
     {{--Tools--}}
-    <div id="spell-cantrip-details" class="">
+    <div id="inventory-tools-details" class="">
         <h5 class="text-xs text-gray-400 m-2 pt-2">
             Tools
         </h5>
@@ -209,32 +209,31 @@
                             </td>
                             {{--Notes--}}
                             <td class="px-6 py-4">
-                                <p>
-                                    <strong>Includes:</strong>
-                                </p>
-                                <ul>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> small file
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> set of lock picks
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> small mirror mounted on a metal handle
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> set of narrow-bladed scissors
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> pair of pliers
-                                    </li>
-                                </ul>
-                                <p>
-                                    <strong>Instructions: </strong>
-                                </p>
-                                <p>
-                                    If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.
-                                </p>
+                                <div>
+                                    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+                                        Includes:
+                                    </div>
+                                    <div class="expand-content hidden pl-4 mt-1 text-xs text-gray-300">
+                                        <ul class="list-disc list-inside text-xs text-gray-300 space-y-1">
+                                            <li><i class="fa-regular fa-circle fa-2xs mr-1"></i>small file</li>
+                                            <li><i class="fa-regular fa-circle fa-2xs mr-1"></i>set of lock picks</li>
+                                            <li><i class="fa-regular fa-circle fa-2xs mr-1"></i>small mirror on metal handle</li>
+                                            <li><i class="fa-regular fa-circle fa-2xs mr-1"></i>narrow-bladed scissors</li>
+                                            <li><i class="fa-regular fa-circle fa-2xs mr-1"></i>pair of pliers</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="mt-2">
+                                    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+                                        Instructions:
+                                    </div>
+                                    <div class="expand-content hidden pl-4 mt-1 text-xs text-gray-300 transition-all duration-300 ease-in-out">
+                                        <p>
+                                            If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.
+                                        </p>
+                                    </div>
+                                </div>
                             </td>
                         </tr>
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
@@ -328,7 +327,7 @@
     {{--Instruments--}}
 
     {{--Personal Items--}}
-    <div id="spell-cantrip-details" class="">
+    <div id="inventory-personalItems-details" class="">
         <h5 class="text-xs text-gray-400 m-2 pt-2">
             Personal Items
         </h5>
@@ -394,9 +393,6 @@
 
 
     {{--Attuned Items--}}
-
-
-
 
 
 </div>

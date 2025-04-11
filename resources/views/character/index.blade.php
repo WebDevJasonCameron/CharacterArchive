@@ -102,4 +102,5 @@
     </main>
 
     <script src="{{ asset('js/filter-view.js') }}"></script>
+
 </x-layout>
