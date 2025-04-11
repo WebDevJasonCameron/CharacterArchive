@@ -259,65 +259,80 @@
                             </td>
                             {{--Notes--}}
                             <td class="px-6 py-4">
-                                <p>
-                                    <strong>Ability:</strong> Dexterity
-                                </p>
-                                <p>
-                                    <strong>Utilize: </strong> Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)
-                                </p>
-                                <p>
-                                    <strong>Craft: </strong>
-                                </p>
-                                <ul>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Musket
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Pistol
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Bell
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Bullseye Lantern
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Flask
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Hooded Lantern
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Hunter's Trap
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Lock
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Manacles
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Mirror
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Shovel
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Signal Whistle
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-circle fa-2xs"></i> Tinderbox
-                                    </li>
-                                </ul>
-                                <p>
-                                    <strong>Instructions: </strong>
-                                </p>
-                                <p>
-                                    If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.
-                                </p>
+                                <div>
+                                    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+                                        Ability:
+                                    </div>
+                                    <div class="expand-content hidden pl-4 mt-1 text-xs text-gray-300">
+                                        Dexterity
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+                                        Utilize:
+                                    </div>
+                                    <div class="expand-content hidden pl-4 mt-1 text-xs text-gray-300">
+                                        Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+                                        Craft:
+                                    </div>
+                                    <div class="expand-content hidden pl-4 mt-1 text-xs text-gray-300">
+                                        <ul>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Musket
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Pistol
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Bell
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Bullseye Lantern
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Flask
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Hooded Lantern
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Hunter's Trap
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Lock
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Manacles
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Mirror
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Shovel
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Signal Whistle
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-circle fa-2xs"></i> Tinderbox
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+                                        Instructions:
+                                    </div>
+                                    <div class="expand-content hidden pl-4 mt-1 text-xs text-gray-300">
+                                        If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.
+                                    </div>
+                                </div>
                             </td>
                         </tr>
-
                     </tbody>
                 </table>
             </div>
