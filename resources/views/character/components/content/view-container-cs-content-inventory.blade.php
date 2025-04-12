@@ -8,10 +8,12 @@
 
     {{--Weapons--}}
     <div id="inventory-weapons-details" class="">
-        <h5 class="text-xs text-gray-400 m-2 pt-2">
-            Weapons
-        </h5>
-        <div class="bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
+        <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+            <h5 class="text-xs text-gray-400 m-2 pt-2">
+                Weapons
+            </h5>
+        </div>
+        <div class="expand-content bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
             <div class="relative overflow-x-auto">
                 <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -156,13 +158,14 @@
     {{--Consumables (Food, Scrolls, Potions)--}}
 
     {{--Tools--}}
-    <div id="inventory-tools-details" class="">
-        <h5 class="text-xs text-gray-400 m-2 pt-2">
-            Tools
-        </h5>
-        <div class="bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
-            <div class="relative overflow-x-auto">
-                <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+    <div id="inventory-tools-details">
+        <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+            <h5 class="text-xs text-gray-400 m-2 pt-2">
+                Tools
+            </h5>
+        </div>
+        <div class="expand-content bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
+            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
                             <th scope="col" class="px-6 py-3">
@@ -210,25 +213,25 @@
                             {{--Notes--}}
                             <td class="px-6 py-4">
                                 <div>
-                                    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
-                                        Includes:
+                                    <div>
+                                        <strong>Includes:</strong>
                                     </div>
-                                    <div class="expand-content hidden pl-4 mt-1 text-xs text-gray-300">
-                                        <ul class="list-disc list-inside text-xs text-gray-300 space-y-1">
-                                            <li><i class="fa-regular fa-circle fa-2xs mr-1"></i>small file</li>
-                                            <li><i class="fa-regular fa-circle fa-2xs mr-1"></i>set of lock picks</li>
-                                            <li><i class="fa-regular fa-circle fa-2xs mr-1"></i>small mirror on metal handle</li>
-                                            <li><i class="fa-regular fa-circle fa-2xs mr-1"></i>narrow-bladed scissors</li>
-                                            <li><i class="fa-regular fa-circle fa-2xs mr-1"></i>pair of pliers</li>
+                                    <div>
+                                        <ul class="list-disc list-inside text-xs">
+                                            <li>small file</li>
+                                            <li>set of lock picks</li>
+                                            <li>small mirror on metal handle</li>
+                                            <li>narrow-bladed scissors</li>
+                                            <li>pair of pliers</li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="mt-2">
-                                    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
-                                        Instructions:
+                                    <div>
+                                        <strong>Instructions:</strong>
                                     </div>
-                                    <div class="expand-content hidden pl-4 mt-1 text-xs text-gray-300 transition-all duration-300 ease-in-out">
+                                    <div>
                                         <p>
                                             If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.
                                         </p>
@@ -260,82 +263,76 @@
                             {{--Notes--}}
                             <td class="px-6 py-4">
                                 <div>
-                                    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
-                                        Ability:
-                                    </div>
-                                    <div class="expand-content hidden pl-4 mt-1 text-xs text-gray-300">
-                                        Dexterity
-                                    </div>
+                                    <strong>Ability:</strong> Dexterity
                                 </div>
                                 <div>
-                                    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+                                    <strong>
                                         Utilize:
-                                    </div>
-                                    <div class="expand-content hidden pl-4 mt-1 text-xs text-gray-300">
+                                    </strong>
+                                    <div>
                                         Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
-                                        Craft:
+                                    <div>
+                                       <strong>Craft:</strong>
                                     </div>
                                     <div class="expand-content hidden pl-4 mt-1 text-xs text-gray-300">
-                                        <ul>
+                                        <ul class="list-disc list-inside text-xs">
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Musket
+                                                Musket
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Pistol
+                                                Pistol
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Bell
+                                                Bell
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Bullseye Lantern
+                                                Bullseye Lantern
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Flask
+                                                Flask
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Hooded Lantern
+                                                Hooded Lantern
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Hunter's Trap
+                                                Hunter's Trap
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Lock
+                                                Lock
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Manacles
+                                                Manacles
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Mirror
+                                                Mirror
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Shovel
+                                                Shovel
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Signal Whistle
+                                                Signal Whistle
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle fa-2xs"></i> Tinderbox
+                                                Tinderbox
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+                                    <strong>
                                         Instructions:
-                                    </div>
-                                    <div class="expand-content hidden pl-4 mt-1 text-xs text-gray-300">
+                                    </strong>
+                                    <p>
                                         If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.
-                                    </div>
+                                    </p>
                                 </div>
                             </td>
                         </tr>
                     </tbody>
                 </table>
-            </div>
         </div>
     </div>
 
@@ -343,10 +340,13 @@
 
     {{--Personal Items--}}
     <div id="inventory-personalItems-details" class="">
-        <h5 class="text-xs text-gray-400 m-2 pt-2">
-            Personal Items
-        </h5>
-        <div class="bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
+        <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+            <h5 class="text-xs text-gray-400 m-2 pt-2">
+                Personal Items
+            </h5>
+        </div>
+
+        <div class="expand-content bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
             <div class="relative overflow-x-auto">
                 <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -406,8 +406,6 @@
         </div>
     </div>
 
-
     {{--Attuned Items--}}
-
 
 </div>
