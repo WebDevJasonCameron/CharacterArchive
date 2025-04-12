@@ -7,11 +7,14 @@
     aria-labelledby="spells-tab">
 
     {{--Cantrips--}}
-    <div id="spell-cantrip-details" class="">
-        <h5 class="text-xs text-gray-400 m-2 pt-2">
-            Cantrips
-        </h5>
-        <div class="bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
+    <div id="spell-cantrip-details">
+        <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+            <h5 class="text-xs text-gray-400 m-2 pt-2">
+                Cantrips
+            </h5>
+        </div>
+
+        <div class="expand-content bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
             <div class="relative overflow-x-auto">
                 <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -123,8 +126,8 @@
     </div>
 
     {{--1st Level--}}
-    <div id="spell-level1-details" class="">
-        <div class="flex justify-between">
+    <div id="spell-level1-details">
+        <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition flex justify-between">
             <h5 class="text-xs text-gray-400 m-2 pt-2">
                 1st Level
             </h5>
@@ -133,7 +136,7 @@
                 <input class="accent-gray-400/25" type="checkbox" checked />
             </div>
         </div>
-        <div class="bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
+        <div class="expand-content bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
             <div class="relative overflow-x-auto">
                 <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
