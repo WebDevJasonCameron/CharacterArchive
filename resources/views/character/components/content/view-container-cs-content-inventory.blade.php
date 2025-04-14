@@ -331,6 +331,73 @@
                                 </div>
                             </td>
                         </tr>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                            {{--Active--}}
+                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                <i class="fa-solid fa-suitcase-rolling"></i>
+                            </th>
+                            {{--Name--}}
+                            <td class="px-6 py-4">
+                                Herbalism Kit
+                            </td>
+                            {{--Weight--}}
+                            <td class="px-6 py-4">
+                                3 lbs.
+                            </td>
+                            {{--Qty--}}
+                            <td class="px-6 py-4">
+                                1
+                            </td>
+                            {{--Cost--}}
+                            <td class="px-6 py-4">
+                                5 gp
+                            </td>
+                            {{--Notes--}}
+                            <td class="px-6 py-4">
+                                <div>
+                                    <strong>Ability:</strong> Intelligence
+                                </div>
+                                <div>
+                                    <strong>
+                                        Utilize:
+                                    </strong>
+                                    <div>
+                                        Identify a plant (DC 10)
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <strong>Craft:</strong>
+                                    </div>
+                                        <ul class="list-disc list-inside text-xs">
+                                            <li>
+                                                Antitoxin
+                                            </li>
+                                            <li>
+                                                Candle
+                                            </li>
+                                            <li>
+                                                Healer's Kit
+                                            </li>
+                                            <li>
+                                                Potion of Healing
+                                            </li>
+                                        </ul>
+                                    </div>
+                                <div>
+                                    <strong>
+                                        Instructions:
+                                    </strong>
+                                    <p>
+                                        A character who has proficiency with the Herbalism Kit can create a Potion of Healing. Doing so requires using this kit and 25 GP of raw material over the course of 1 day (8 hours of work).
+                                    </p>
+                                    <p>
+                                        If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+
                     </tbody>
                 </table>
         </div>
