@@ -6,6 +6,64 @@
     role="tabpanel"
     aria-labelledby="inventory-tab">
 
+    {{--Bullion--}}
+    <div id="inventory-weapons-details" class="">
+        <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+            <h5 class="text-xs text-gray-400 m-2 pt-2">
+                Bullion
+            </h5>
+        </div>
+        <div class="expand-content bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
+            <div class="relative overflow-x-auto">
+                <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">
+                                Platinum (pp)
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Gold (gp)
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Electrum (ep)
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Silver (sp)
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Copper (cp)
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-xs">
+                    <tr class="text-center bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Platinum--}}
+                        <td>
+                            0
+                        </td>
+                        {{--Gold--}}
+                        <td class="px-6 py-4">
+                            180
+                        </td>
+                        {{--Electrum--}}
+                        <td class="px-6 py-4">
+                            0
+                        </td>
+                        {{--Silver--}}
+                        <td class="px-6 py-4">
+                            0
+                        </td>
+                        {{--Copper--}}
+                        <td class="px-6 py-4">
+                            0
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
     {{--Weapons--}}
     <div id="inventory-weapons-details" class="">
         <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
