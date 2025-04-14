@@ -6,8 +6,21 @@
     role="tabpanel"
     aria-labelledby="species-features-tab">
 
-    {{--WIP--}}
-    <p class="text-sm text-gray-500 dark:text-gray-400">
-        Specie Content
-    </p>
+    {{--Mapach--}}
+    <div class="expand-toggle cursor-pointer text-blue-400 hover:text-blue-200 transition">
+        <h5 class="text-xs text-gray-400 m-2 pt-2">
+            Mapach
+        </h5>
+    </div>
+    <div class="expand-content bg-gray-500 rounded overflow-hidden shadow-md text-xs p-2">
+        <strong class="text-lg">
+            Ability Score Increase
+        </strong>
+        <p class="text-xs text-gray-400 m-2 pt-2">
+            HCS, pg. 27
+        </p>
+        <p>
+            Your Wisdom score increases by 2, and your Constitution score increases by 1.
+        </p>
+    </div>
 </div>
