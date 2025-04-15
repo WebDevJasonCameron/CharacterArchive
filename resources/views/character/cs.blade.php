@@ -39,48 +39,56 @@
             {{--View Buttons--}}
             <div id="view-buttons" class="flex flex-col">
                 <div class="flex flex-row justify-between">
-                    <button
+                    <a
                         type="button"
+                        href="{{ route('character.cs') }}"
                         class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
                         CS
-                    </button>
-                    <button
+                    </a>
+                    <a
                         type="button"
+                        href="#"
                         class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
-                        Stats
-                    </button>
-                    <button
+                        Spell Book
+                    </a>
+                    <a
                         type="button"
+                        href="{{ route('character.journal') }}"
                         class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
                         Journal
-                    </button>
-                    <button
+                    </a>
+                    <a
                         type="button"
+                        href="#"
                         class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
                         Combat
-                    </button>
+                    </a>
                 </div>
                 <div class="flex flex-row justify-between">
-                    <button
+                    <a
                         type="button"
+                        href="#"
                         class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
                         Inventory
-                    </button>
-                    <button
+                    </a>
+                    <a
                         type="button"
+                        href="#"
                         class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
                         Relations
-                    </button>
-                    <button
+                    </a>
+                    <a
                         type="button"
+                        href="#"
                         class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
                         Spells
-                    </button>
-                    <button
+                    </a>
+                    <a
                         type="button"
+                        href="#"
                         class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
                         Art
-                    </button>
+                    </a>
                 </div>
             </div>
 
