@@ -1,7 +1,7 @@
 <x-layout>
 
     {{--Character--}}
-    <main class="container flex flex-col mx-auto p-4 mt-4 space-x-2">
+    <main class="container flex flex-col mx-auto space-x-2">
 
         {{--Top Banner--}}
         <div id="top-banner" class="flex flex-row justify-between items-center bg-gray-500 p-2">

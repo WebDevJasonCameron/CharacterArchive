@@ -1,8 +1,7 @@
 {{--CS: Specie Content--}}
-
 <div
     id="specie-content"
-    class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
+    class="hidden px-4 rounded-lg bg-gray-50 dark:bg-gray-800"
     role="tabpanel"
     aria-labelledby="species-features-tab">
 
@@ -197,4 +196,5 @@
                 </p>
             </div>
         </div>
+    </div>
 </div>
