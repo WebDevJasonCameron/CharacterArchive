@@ -95,17 +95,26 @@
         </div>
 
         {{--If CS--}}
-        <x-view-container-cs/>
+{{--        <x-view-container-cs/>--}}
+
         {{--If Spell Book--}}
+        <x-view-container-spells/>
+
         {{--If Journal--}}
+        <x-view-container-journal/>
+
         {{--If Full Inventory--}}
+        <x-view-container-inventory/>
+
         {{--If Class Lore--}}
+
         {{--If Specie Lore--}}
+
         {{--If Relationship--}}
 
 
-
-
+        {{--Else--}}
+{{--        <h1>Nothing here</h1>--}}
 
     </main>
 

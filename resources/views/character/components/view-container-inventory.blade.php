@@ -1,0 +1,3 @@
+<div>
+    Full Inventory
+</div>

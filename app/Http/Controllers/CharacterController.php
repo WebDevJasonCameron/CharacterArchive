@@ -12,16 +12,8 @@ class CharacterController extends Controller
      * @route GET "/"
      * @return view
      */
-    public function cs(): View {
-        return view('character.cs');
+    public function index(): View {
+        return view('character.index');
     }
 
-    /** Show Journal Page
-     *
-     * @route GET "/"
-     * @return view
-     */
-    public function journal(): View {
-        return view('');
-    }
 }
