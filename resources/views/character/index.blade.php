@@ -98,20 +98,25 @@
 {{--        <x-view-container-cs/>--}}
 
         {{--If Spell Book--}}
-        <x-view-container-spells/>
+        <x-view-container-spells />
 
         {{--If Journal--}}
-        <x-view-container-journal/>
+        <x-view-container-journal />
 
         {{--If Full Inventory--}}
-        <x-view-container-inventory/>
+        <x-view-container-inventory />
 
         {{--If Class Lore--}}
+        <x-view-container-class />
 
         {{--If Specie Lore--}}
+        <x-view-container-specie />
 
         {{--If Relationship--}}
+        <x-view-container-relationships />
 
+        {{--If Description--}}
+        <x-view-container-description />
 
         {{--Else--}}
 {{--        <h1>Nothing here</h1>--}}
