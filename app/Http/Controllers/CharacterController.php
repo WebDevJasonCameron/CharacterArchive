@@ -12,7 +12,7 @@ class CharacterController extends Controller
      * @route GET "/"
      * @return view
      */
-    public function index(): View {
+    public function cs(): View {
         return view('character.index');
     }
 

@@ -95,7 +95,7 @@
         </div>
 
         {{--If CS--}}
-{{--        <x-view-container-cs/>--}}
+        <x-view-container-cs/>
 
         {{--If Spell Book--}}
         <x-view-container-spells />
