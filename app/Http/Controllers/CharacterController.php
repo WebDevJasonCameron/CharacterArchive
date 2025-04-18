@@ -2,18 +2,35 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use Illuminate\View\View;
+use Illuminate\Http\Request;
 
 class CharacterController extends Controller
 {
-    /** Show CS Page
+    /** Show a view of the Page
      *
+     * @param string $view
      * @route GET "/"
-     * @return view
+     * @return view`
      */
-    public function cs(): View {
-        return view('character.index');
+    public function show(string $view): View {
+
+        $allowedViews = [
+            'cs',
+            'journal',
+            'inventory',
+            'class',
+            'specie',
+            'relationship',
+            'description',
+        ];
+
+        // Fallback if an unknown view is passed
+        if (!in_array($view, $allowedViews)) {
+            abort(404);
+        }
+
+        return view('character.index', compact('view'));
     }
 
 }
