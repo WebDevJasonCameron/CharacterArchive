@@ -525,6 +525,371 @@
                             </p>
                         </td>
                     </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                            Half burnt incense
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                            Red thread and needle
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up: 1 foot long red thread tied to a swwing needle
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                           Four nails
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                            Black Feather
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                            Sword Stick
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up: A small palm size stick in the shape of a sword
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                            Polished rocks
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            11
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                            Crossbow bolt
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                            Fabric
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up: Fabric from a plaid shirt, with a blood stain on it
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                            Plaster Chips
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up: Small bits of plaster chips
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                            Bread Crust
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                            Vile of liquid
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up: A vial filled with a clear green liquid
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                            Bridle Bit
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                        {{--Active--}}
+                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <i class="fa-brands fa-get-pocket"></i>
+                        </th>
+                        {{--Name--}}
+                        <td class="px-6 py-4">
+                            Amber Glass
+                        </td>
+                        {{--Weight--}}
+                        <td class="px-6 py-4">
+                            --
+                        </td>
+                        {{--Qty--}}
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+                        {{--Cost--}}
+                        <td class="px-6 py-4">
+                            -
+                        </td>
+                        {{--Notes--}}
+                        <td class="px-6 py-4">
+                            <p>
+                                Blind Pick Up: Amber piece of glass
+                            </p>
+                        </td>
+                    </tr>
+
                     </tbody>
                 </table>
             </div>
