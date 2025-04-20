@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const targetId = filter.getAttribute('data-view');
 
-            // Hide all content sections
+            // Hide all cs-content sections
             contentSections.forEach(section => section.classList.add('hidden'));
 
-            // Show the selected content
+            // Show the selected cs-content
             const targetSection = document.getElementById(targetId);
             if (targetSection) {
                 targetSection.classList.remove('hidden');

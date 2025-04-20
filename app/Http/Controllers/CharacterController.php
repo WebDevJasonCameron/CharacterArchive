@@ -17,11 +17,12 @@ class CharacterController extends Controller
 
         $allowedViews = [
             'cs',
+            'spells',
             'journal',
             'inventory',
             'class',
             'specie',
-            'relationship',
+            'relationships',
             'description',
         ];
 

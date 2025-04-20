@@ -21,6 +21,6 @@ class viewContainerCSContentInventory extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('character.components.content.view-container-cs-content-inventory');
+        return view('character.components.cs-content.view-container-cs-content-inventory');
     }
 }

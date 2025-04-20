@@ -13,7 +13,6 @@
     </div>
 
     {{--Content--}}
-
     <div class="bg-gray-500 rounded overflow-hidden shadow-md text-xs text-gray-400 p-2">
         {{--Ability Score Increase--}}
         <div>
@@ -197,4 +196,5 @@
             </div>
         </div>
     </div>
+
 </div>

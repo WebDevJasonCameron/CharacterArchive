@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     toggles.forEach((toggle) => {
         toggle.addEventListener("click", () => {
             const content = toggle.nextElementSibling;
-            if (content && content.classList.contains("expand-content")) {
+            if (content && content.classList.contains("expand-cs-content")) {
                 content.classList.toggle("hidden");
                 content.classList.toggle("block"); // <-- Add this line
             }
