@@ -68,22 +68,22 @@
         <x-view-container-cs-content-stat/>
 
         {{--Spell Content--}}
-        <x-view-container-c-s-content-spell/>
+        <x-view-container-cs-content-spell/>
 
         {{--Combat Content--}}
-        <x-view-container-c-s-content-combat/>
+        <x-view-container-cs-content-combat/>
 
         {{--Inventory Content--}}
-        <x-view-container-c-s-content-inventory/>
+        <x-view-container-cs-content-inventory/>
 
         {{--Class Content--}}
-        <x-view-container-c-s-content-class/>
+        <x-view-container-cs-content-class/>
 
         {{--Specie Content--}}
-        <x-view-container-c-s-content-specie/>
+        <x-view-container-cs-content-specie/>
 
         {{--Feat Content--}}
-        <x-view-container-c-s-content-feat/>
+        <x-view-container-cs-content-feat/>
 
     </div>
 </div>

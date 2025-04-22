@@ -26,9 +26,9 @@
 
         {{--Cantrips--}}
         <x-view-container-spells-content-cantrip />
-        <x-view-container-spells-content-cantrip />
 
         {{--1st--}}
+        <x-view-container-spells-content-level01 />
 
     </div>
 </div>
