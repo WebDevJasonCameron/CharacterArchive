@@ -17,15 +17,9 @@ CREATE TABLE spells (
                             spell_save_type varchar(255),
                             spell_description text,
                             spell_image_url varchar(255),
-
-                            -- source (Gotten from the sources table)
-                            spell_source_id bigint,
-                            FOREIGN KEY (spell_source_id) REFERENCES sources(source_id),
-
-                            -- condition list
-                            -- availability (class) list
-                            -- tags list
-                            -- type list
+                            spell_source varchar(255),
+                            spell_tags varchar(999),
+                            spell_class_association varchar(999),
 
                             PRIMARY KEY (spell_id)
 );
