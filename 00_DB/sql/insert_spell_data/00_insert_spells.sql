@@ -46,4 +46,11 @@ VALUES
      **Sculpt Element.** You cause dirt, sand, fire, smoke, mist, or water that can fit in a 1-foot Cube to assume a crude shape (such as that of a creature) for 1 hour.', '', 'Player’s Handbook (2024), pg. 267', '', ''),
 
     ('Frostbite', 'Cantrip', '1 action', '60 ft.', true, true, false, '', 'Instantaneous', false, false, 'Evocation', 'CON', 'You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn.\n
-     The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).' , '', 'Elemental Evil Player''s Companion, pg. 156', 'damage, debuff', '')
+     The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).' , '', 'Elemental Evil Player''s Companion, pg. 156', 'damage, debuff', ''),
+
+    ('Guidance', 'Cantrip','1 action', 'Touch', true, true, false, '', 'Concentration, up to 1 minute', true, false, 'Divination', '', 'You touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.', '', 'D&D Free Rules (2024), pg. 282', 'buff', ''),
+
+    ('Gust', 'Cantrip', '1 action', '30 ft.',  true, true, false, '', 'Instantaneous', false, false, 'Transmutation', 'STR', 'You seize the air and compel it to create one of the following effects at a point you can see within range:\n
+     One Medium or smaller creature that you choose must succeed on a Strength saving throw or be pushed up to 5 feet away from you./n
+     You create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 5 pounds. The object is pushed up to 10 feet away from you. It isn’t pushed with enough force to cause damage./n
+     You create a harmless sensory effect using air, such as causing leaves to rustle, wind to slam shutters shut, or your clothing to ripple in a breeze.', '', 'Elemental Evil Player''s Companion, pg. 157', 'control', '')
