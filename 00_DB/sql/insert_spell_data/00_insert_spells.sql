@@ -103,4 +103,16 @@ VALUES
      **Cantrip Upgrade.** The range doubles when you reach levels 5 (30 feet), 11 (60 feet), and 17 (120 feet).', '', 'D&D Free Rules (2024), pg. 318', 'healing', ''),
 
     ('Starry Wisp', 'Cantrip', '1 action', '60 ft.', true, true, false, '', 'Instantaneous', false, false, 'Evocation', '', 'You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Radiant damage, and until the end of your next turn, it emits Dim Light in a 10-foot radius and can’t benefit from the Invisible condition.\n
-     **Cantrip Upgrade.** The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).', '', 'D&D Free Rules (2024), pg. 320', '', '')
+     **Cantrip Upgrade.** The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).', '', 'D&D Free Rules (2024), pg. 320', '', ''),
+
+    ('Thorn Whip', 'Cantrip', '1 action', '30 ft.', true, true, true, 'the stem of a plant with thorns', 'Instantaneous', false, false, 'Transmutation', '', 'You create a vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. On a hit, the target takes 1d6 Piercing damage, and if it is Large or smaller, you can pull it up to 10 feet closer to you.\n
+     **Cantrip Upgrade.** The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).', '', 'Player’s Handbook (2024), pg. 333', 'damage, control', ''),
+
+    ('Thunderclap', 'Cantrip', '1 action', 'Self/5 ft. cube', false, true, false, '', 'Instantaneous', false, false, 'Evocation', '', 'Each creature in a 5-foot Emanation originating from you must succeed on a Constitution saving throw or take 1d6 Thunder damage. The spell’s thunderous sound can be heard up to 100 feet away.\n
+     **Cantrip Upgrade.** The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).', '', 'Player’s Handbook (2024), pg. 333', 'damage', ''),
+
+    ('Thunderclap (Legacy)', 'Cantrip', '1 action', '5 ft.', false, true, false, '', 'Instantaneous', false, false, 'Evocation', '', 'You create a burst of thunderous sound that can be heard up to 100 feet away. Each creature within range, other than you, must succeed on a Constitution saving throw or take 1d6 thunder damage.\n
+     The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).', '', 'Elemental Evil Player''s Companion, pg. 168', 'damage', ''),
+
+    ('Absorb Elements', '1st', '1 reaction, which you take when you take acid, cold, fire, lightning, or thunder damage', 'Self', false, true, false, '', '1 round', false, false, 'Abjuration', '', 'The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.\n
+     **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st', '', 'Elemental Evil Player''s Companion, pg. 150', 'damage, warding', '')
