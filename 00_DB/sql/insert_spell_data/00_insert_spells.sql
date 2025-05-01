@@ -163,4 +163,10 @@ VALUES
      **Using a Higher-Level Spell Slot.** The healing increases by 2d4 for each spell slot level above 1.', '', 'D&D Free Rules (2024), pg. 284', 'healing', ''),
 
     ('Ice Knife', '1st', '1 action', '60 ft./5 ft. cube', false, true, true, 'a drop of water or a piece of ice', 'Instantaneous', false, false, 'Conjuration', 'DEX 13', 'You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.\n
-     **Using a Higher-Level Spell Slot.** The Cold damage increases by 1d6 for each spell slot level above 1.', '', 'Player’s Handbook (2024), pg. 287', 'damage', '')
+     **Using a Higher-Level Spell Slot.** The Cold damage increases by 1d6 for each spell slot level above 1.', '', 'Player’s Handbook (2024), pg. 287', 'damage', ''),
+
+    ('Ice Knife (Legacy)', '1st', '1 action', '60 ft./5 ft. cube', false, true, true, 'a drop of water or a piece of ice', 'Instantaneous', false, false, 'Conjuration', 'DEX 13', 'You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 cold damage.\n
+     **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st.', '','Elemental Evil Player''s Companion, pg. 157', 'damage', ''),
+
+    ('Jump', '1st', '1 bonus action', 'Touch', true, true, true, 'a grasshopper’s hind leg', '1 minute', false, false, 'Transmutation', '', 'You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.\n
+     **Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 1.', '', 'Player’s Handbook, pg. 290', 'movement', '')
