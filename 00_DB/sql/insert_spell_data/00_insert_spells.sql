@@ -154,4 +154,13 @@ VALUES
      Attack rolls against an affected creature or object have Advantage if the attacker can see it.', '', 'D&D Free Rules (2024), pg. 271', 'debuff', ''),
 
     ('Fog Cloud', '1st', '1 action', '120 ft./20 ft. cube', true, true, false, '', 'Concentration, up to 1 hour', true, false, 'Conjuration', '', 'You create a 20-foot-radius Sphere of fog centered on a point within range. The Sphere is Heavily Obscured. It lasts for the duration or until a strong wind (such as one created by Gust of Wind) disperses it.\n
-     **Using a Higher-Level Spell Slot.** The fog’s radius increases by 20 feet for each spell slot level above 1.', '', 'D&D Free Rules (2024), pg. 276', 'control, environment', '')
+     **Using a Higher-Level Spell Slot.** The fog’s radius increases by 20 feet for each spell slot level above 1.', '', 'D&D Free Rules (2024), pg. 276', 'control, environment', ''),
+
+    ('Goodberry', '1st', '1 action', 'Self', true, true, true, 'a sprig of mistletoe', '24 hours', false, false, 'Conjuration', '', 'Ten berries appear in your hand and are infused with magic for the duration. A creature can take a Bonus Action to eat one berry. Eating a berry restores 1 Hit Point, and the berry provides enough nourishment to sustain a creature for one day.\n
+     Uneaten berries disappear when the spell ends.', '', 'D&D Free Rules (2024), pg. 280', 'healing', ''),
+
+    ('Healing Word', '1st', '1 bonus action', '60 ft.', true, false, false, '', 'Instantaneous', false, false, 'Abjuration', '', 'A creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier.\n
+     **Using a Higher-Level Spell Slot.** The healing increases by 2d4 for each spell slot level above 1.', '', 'D&D Free Rules (2024), pg. 284', 'healing', ''),
+
+    ('Ice Knife', '1st', '1 action', '60 ft./5 ft. cube', false, true, true, 'a drop of water or a piece of ice', 'Instantaneous', false, false, 'Conjuration', 'DEX 13', 'You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.\n
+     **Using a Higher-Level Spell Slot.** The Cold damage increases by 1d6 for each spell slot level above 1.', '', 'Player’s Handbook (2024), pg. 287', 'damage', '')
