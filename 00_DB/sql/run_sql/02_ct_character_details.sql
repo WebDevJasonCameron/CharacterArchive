@@ -25,3 +25,6 @@ CREATE TABLE character_details (
                                    character_enemies TEXT,
                                    character_notes TEXT
 );
+
+ALTER TABLE character_details
+    ADD CONSTRAINT unique_character_id UNIQUE (character_id);
