@@ -1,4 +1,4 @@
-CREATE TABLE inventory_items (
+CREATE TABLE inventory (
                                  item_id SERIAL PRIMARY KEY,
                                  character_id INT NOT NULL REFERENCES characters(character_id) ON DELETE CASCADE,
 
