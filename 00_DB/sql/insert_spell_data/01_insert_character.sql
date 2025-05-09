@@ -184,4 +184,4 @@ VALUES ('Roskat',
         'Darkvision 60 ft.',
 
         'poison resistance'
-       )
+       );
