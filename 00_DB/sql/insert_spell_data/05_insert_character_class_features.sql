@@ -107,6 +107,9 @@ VALUES (
            '',
            ''
        ),
+
+
+
        (
            '1',
            'rogue',
@@ -120,12 +123,54 @@ VALUES (
            ''
        ),
        (
-           '',
-           '',
-           '',
-           '',
-           '',
+           '1',
+           'rogue',
+           'Expertise',
+           'free-rules, pg. 129',
+           'You gain Expertise in two of your skill proficiencies of your choice.\n
+            - Stealth\n
+            - Slight of Hand',
            '',
            ''
        ),
-
+       (
+           '1',
+           'rogue',
+           'Sneak Attack',
+           'free-rules, pg. 129',
+           'Once per turn you can deal an extra 1d6 damage to one creature you hit with an attack if you have Advantage on the roll and the attack uses a Finesse or Ranged weapon. The extra damage’s type is the same as the weapon’s type.\n
+            You don’t need Advantage on the attack if at least one of your allies is within 5 ft. of the target, the ally doesn’t have the Incapacitated condition, and you don’t have Disadvantage on the attack roll.\,
+            - Sneak Attack: 1 Action',
+           '',
+           ''
+       ),
+       (
+           '1',
+           'rogue',
+           'Thieves'' Cant',
+           'free-rules, pg. 129',
+           'You know Thieves’ Cant and one other language of your choice.\n
+            - Celestial',
+           '',
+           ''
+       ),
+       (
+           '1',
+           'rogue',
+           'Weapon Mastery',
+           'PHB-2024, pg. 129',
+           '',
+           'Dagger (Nick)',
+           'When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. This extra attack can only be made once per turn.\n
+            - 1 Action'
+       ),
+       (
+           '1',
+           'rogue',
+           'Weapon Mastery',
+           'PHB-2024, pg. 129',
+           '',
+           'Hand Crossbow (Vex)',
+           'If you hit a creature with a Hand Crossbow and deal damage to it, you have Advantage on your next attack roll against that creature before the end of your next turn.\n
+            - 1 Action'
+       )
