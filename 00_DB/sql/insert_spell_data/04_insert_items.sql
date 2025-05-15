@@ -141,4 +141,4 @@ If you have proficiency with a tool, add your Proficiency Bonus to any ability c
         '', '', '', '', '', '', '', '',
         '', '', '',
         'healing, utility', ''
-    );
+    ),
