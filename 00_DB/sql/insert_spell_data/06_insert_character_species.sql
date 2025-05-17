@@ -8,7 +8,7 @@ INSERT INTO character_species (
              1,
              'Mapach',
              '{
-                 "attribute_1": {
+                 "attribute_01": {
                     "name": "ability score increase",
                     "detail_type": "bullet",
                     "details": {
@@ -16,7 +16,7 @@ INSERT INTO character_species (
                         "Constitution":1
                     }
                  },
-                 "attribute_2": {
+                 "attribute_02": {
                      "name": "age",
                      "detail_type": "bullet",
                      "details": {
@@ -24,7 +24,7 @@ INSERT INTO character_species (
                          "lifespan": "Typically up to just past 60 years"
                      }
                  },
-                 "attribute_3": {
+                 "attribute_03": {
                      "name": "alignment",
                      "detail_type": "bullet",
                      "details": {
@@ -32,7 +32,7 @@ INSERT INTO character_species (
                          "leaning": "Chaotic alignments"
                      }
                  },
-                 "attribute_4": {
+                 "attribute_04": {
                      "name": "size",
                      "detail_type": "bullet",
                      "details": {
@@ -40,14 +40,14 @@ INSERT INTO character_species (
                          "category": "Medium"
                      }
                  },
-                 "attribute_5": {
+                 "attribute_05": {
                      "name": "speed",
                      "detail_type": "bullet",
                      "details": {
                          "walking": "30 feet"
                      }
                  },
-                 "attribute_6": {
+                 "attribute_06": {
                      "name": "darkvision",
                      "detail_type": "bullet",
                      "details": {
@@ -55,14 +55,14 @@ INSERT INTO character_species (
                          "note": "Dim light = bright light, darkness = dim light, grayscale only"
                      }
                  },
-                 "attribute_7": {
+                 "attribute_07": {
                      "name": "resilience",
                      "detail_type": "bullet",
                      "details": {
                          "poison": "Advantage on saving throws against poison and resistance to poison damage"
                      }
                  },
-                 "attribute_8": {
+                 "attribute_08": {
                      "name": "scroungecraft",
                      "detail_type": "bullet",
                      "details": {
@@ -72,7 +72,7 @@ INSERT INTO character_species (
                          "permanence": "Can convert temporary items into permanent with 8 hours and materials",
                          "repair": "Can be used to repair broken equipment"                     }
                  },
-                 "attribute_9": {
+                 "attribute_09": {
                      "name": "skulker",
                      "detail_type": "bullet",
                      "details": {

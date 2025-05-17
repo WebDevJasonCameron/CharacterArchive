@@ -5,60 +5,178 @@ INSERT INTO character_class_features (
     class_details,
     source_book,
     is_custom
-) VALUES
-      (
+    )
+
+VALUES (
           1,
           'Druid',
           1,
           '{
-              "features": [
-                  {
+              "feature_01": {
                       "name": "Core Druid Traits",
-                      "source": "free-rules, pg. 79",
-                      "description": "Gain all the traits in the Core Druid Traits table. Gain the Druid''s level 1 features, which are listed in the Druid Features table."
-                  },
-                  {
-                      "name": "Spellcasting",
-                      "source": "free-rules, pg. 79",
-                      "description": "You have learned to cast spells through studying the mystical forces of nature.",
-                      "details": {
-                          "cantrips_known": 2,
-                          "cantrips_progression": {
-                              "level_4": 3,
-                              "level_10": 4
-                          },
-                          "prepared_spells_start": 4,
-                          "spellcasting_ability": "Wisdom",
-                          "spellcasting_focus": "Druidic Focus",
-                          "change_prepared_spells": "Allowed after a Long Rest"
-                      }
-                  },
-                  {
-                      "name": "Druidic",
-                      "source": "free-rules, pg. 80",
-                      "description": "You know Druidic and always have Speak with Animals prepared. You can use Druidic to leave hidden messages.",
-                      "abilities": [
-                          "Leave Druidic Message (No Action)",
-                          "Speak with Animals (1st) (Ritual)"
-                      ],
-                      "mechanics": {
-                          "detection_dc": 15,
-                          "language_detection": "Requires DC 15 Intelligence (Investigation) check"
-                      }
-                  },
-                  {
-                      "name": "Primal Order",
-                      "source": "free-rules, pg. 80",
-                      "description": "You have dedicated yourself to one of the sacred roles.",
-                      "roles": {
-                          "Magician": {
-                              "extra_cantrip": 1,
-                              "bonus_checks": "+3 bonus to Intelligence (Arcana or Nature) checks"
+                      "source": "PHB-2024, pg. 79",
+                      "description": "You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the Speak with Animals spell prepared.\nYou can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message’s presence with a successful DC 15 Intelligence (Investigation) check but can’t decipher it without magic.",
+                      "detail_type": "table",
+                      "details": [
+                          {
+                              "column_01": "Primary Ability",
+                              "column_02": "Wisdom"
+                          }, {
+                              "column_01": "Hit Point Die",
+                              "column_02": "D8 per Druid level"
+                          }, {
+                              "column_01": "Saving Throw Proficiencies",
+                              "column_02": "Intelligence and Wisdom"
+                          }, {
+                              "column_01": "Skill Proficiencies",
+                              "column_02": "Choose 2: Animal Handling, Arcana, Insight, Medicine, Nature, Perception, Religion, or Survival"
+                          }, {
+                              "column_01": "Weapon Proficiencies",
+                              "column_02": "Simple weapons"
+                          }, {
+                              "column_01": "Tool Proficiencies",
+                              "column_02": "Herbalism Kit"
+                          }, {
+                              "column_01": "Armor Training",
+                              "column_02": "Light armor and Shields"
+                          }, {
+                              "column_01": "Starting Equipment",
+                              "column_02": "Choose A or B: (A) Leather Armor, Shield, Sickle, Druidic Focus (Quarterstaff), Explorer’s Pack, Herbalism Kit, and 9 GP; or (B) 50 GP"
                           }
+                        ]
+                    },
+              "feature_02": {
+                      "name": "Spellcasting",
+                      "source": "PHB-2024, pg. 79",
+                      "description": "You have learned to cast spells through studying the mystical forces of nature.",
+                      "detail_type": "subs",
+                      "details": [
+                          {
+                            "sub_title": "Cantrips",
+                            "text": "You know two cantrips of your choice from the Druid spell list.\nWhenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list.\nWhen you reach Druid levels 4 and 10, you learn another cantrip of your choice from the Druid spell list, as shown in the Cantrips column of the Druid Features table."
+                          }, {
+                            "sub_title": "Spell Slots",
+                            "text": "The Druid Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest."
+                          }, {
+                            "sub_title": "Prepared Spells of Level 1+",
+                            "text": "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list.\nThe number of spells on your list increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid Features table. Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.\nIf another Druid feature gives you spells that you always have prepared, those spells don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Druid spells for you."
+                          }, {
+                            "sub_title": "Changing Your Prepared Spells",
+                            "text": " Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells with other Druid spells for which you have spell slots"
+                          }, {
+                            "sub_title": "Spellcasting Ability",
+                            "text": "Wisdom is your spellcasting ability for your Druid spells."
+                          }, {
+                            "sub_title": "Spellcasting Focus",
+                            "text": "You can use a Druidic Focus as a Spellcasting Focus for your Druid spells."
+                          }
+                        ]
+                    },
+              "feature_03": {
+                      "name": "Druidic",
+                      "source": "PHB-2024, pg. 80",
+                      "description": "You know Druidic and always have Speak with Animals prepared. You can use Druidic to leave hidden messages.",
+                      "detail_type" : "subs",
+                      "details": [
+                          {
+                            "sub_title": "Leave Druidic Message",
+                            "text": "(No Action)"
+                          }, {
+                            "sub_title": "Speak with Animals",
+                            "text": "(1st) (Ritual)"
+                          }
+                      ]
+                  },
+              "feature_04": {
+                      "name": "Primal Order",
+                      "source": "PHB-2024, pg. 80",
+                      "description": "You have dedicated yourself to one of the following sacred roles of your choice.",
+                      "detail_type": "subs",
+                      "details": [
+                          {
+                            "sub_title": "Magician",
+                            "text": "You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1)"
+                          }
+                      ]
+                  },
+              "feature_05": {
+                  "name": "Wild Shape",
+                  "source": "PHB-2024, pg. 80",
+                  "description": "The power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see “Known Forms” below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action..",
+                  "detail_type": "subs",
+                  "details": [
+                      {
+                          "sub_title": "Action Type",
+                          "text" : "1 Bonus Action"
+                      },
+                      {
+                          "sub_title": "Range/Area",
+                          "text" : "--ft. Reach"
+                      },
+                      {
+                          "sub_title": "Number of Uses",
+                          "text" : "You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\nYou gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid Features table."
+                      },
+                      {
+                          "sub_title": "Known Forms",
+                          "text" : "You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.\nWhen you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.\nWhen choosing known forms, you may look in the Monster Manual or elsewhere for eligible Beasts if the Dungeon Master permits you to do so."
+                      },
+                      {
+                          "sub_title": "Rules While Shape-Shifted",
+                          "text" : "While in a form, you retain your personality, memories, and ability to speak, and the following rules apply."
+                      },
+                      {
+                          "sub_title": "Temporary Hit Points",
+                          "text" : "When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level."
+                      },
+                      {
+                          "sub_title": "Game Statistics",
+                          "text" : "Your game statistics are replaced by the Beast’s stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast’s stat block is higher than yours, use the one in the stat block."
+                      },
+                      {
+                          "sub_title": "No SpellcastingNo Spellcasting",
+                          "text" : "You can’t cast spells, but shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast."
+                      },
+                      {
+                          "sub_title": "Objects",
+                          "text" : "Your ability to handle objects is determined by the form’s limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it’s practical for the new form to wear a piece of equipment based on the creature’s size and shape. Your equipment doesn’t change size or shape to match the new form, and any equipment that the new form can’t wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you’re in that form."
                       }
-                  }
-              ]
-          }'::jsonb,
+                  ]
+              },
+              "feature_06": {
+                  "name": "Beast Shapes",
+                  "source": "",
+                  "description": "",
+                  "detail_type": "table",
+                  "details": [
+                      {
+                          "column_01": "Druid Level",
+                          "column_02": "Known Forms",
+                          "column_03": "Max CR",
+                          "column_04": "Fly Speed"
+                      }, {
+                          "column_01": "2",
+                          "column_02": "4",
+                          "column_03": "1/4",
+                          "column_04": "No"
+                      },{
+                          "column_01": "4",
+                          "column_02": "6",
+                          "column_03": "1/2",
+                          "column_04": "No"
+                      },{
+                          "column_01": "8",
+                          "column_02": "8",
+                          "column_03": "1",
+                          "column_04": "Yes"
+                      }
+                  ],
+"             feature_07": {
+                                }
+              }
+
+
+              }'::jsonb,
           'free-rules, pg. 79-80',
           false
       ),
