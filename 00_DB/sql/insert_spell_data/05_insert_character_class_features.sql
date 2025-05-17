@@ -10,7 +10,7 @@ INSERT INTO character_class_features (
 VALUES (
           1,
           'Druid',
-          1,
+          2,
           '{
               "feature_01": {
                       "name": "Core Druid Traits",
@@ -170,13 +170,21 @@ VALUES (
                           "column_03": "1",
                           "column_04": "Yes"
                       }
-                  ],
-"             feature_07": {
-                                }
+                  ]
+              },
+              "feature_07": {
+                  "name": "Wild Companion",
+                  "source": "PHB-2024, pg. 81",
+                  "description": "You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the Find Familiar spell without Material components.\nWhen you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.",
+                  "detail_type": "sub",
+                  "details": [
+                      {
+                          "sub_title": "Find Familiar",
+                          "text": "Ritual (1st)"
+                      }
+                  ]
               }
-
-
-              }'::jsonb,
+          }'::jsonb,
           'free-rules, pg. 79-80',
           false
       ),
@@ -185,58 +193,99 @@ VALUES (
           'Rogue',
           1,
           '{
-              "features": [
-                  {
+              "feature_01": {
                       "name": "Core Rogue Traits",
-                      "source": "free-rules, pg. 129",
-                      "skills": [
+                      "source": "PHB-2024, pg. 129",
+                      "description": "As a Level 1 Character, gain the Rogue’s level 1 features.",
+                      "detail_type": "list",
+                      "details": [
                           "Acrobatics",
                           "Insight",
                           "Stealth",
                           "Sleight of Hand"
                       ]
                   },
-                  {
-                      "name": "Expertise",
-                      "source": "free-rules, pg. 129",
-                      "description": "You gain Expertise in two of your skill proficiencies of your choice.",
-                      "selected_skills": [
-                          "Stealth",
-                          "Sleight of Hand"
+              "feature_02": {
+                      "name": "Core Rogue Trait Table",
+                      "source": "PHB-2024, pg. 129",
+                      "description": "As a Level 1 Character, gain all the traits in the Core Rogue Traits table.",
+                      "detail_type": "table",
+                      "details": [
+                         {
+                            "column_01": "Primary Ability",
+                            "column_02": "Dexterity"
+                        }, {
+                            "column_01": "Hit Point Die",
+                            "column_02": "D8 per Rogue level"
+                        }, {
+                            "column_01": "Saving Throw Proficiencies",
+                            "column_02": "Dexterity and Intelligence"
+                        }, {
+                            "column_01": "Skill Proficiencies",
+                            "column_02": "Choose 4: Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, or Stealth"
+                        }, {
+                            "column_01": "Weapon Proficiencies",
+                            "column_02": "Simple weapons and Martial weapons that have the Finesse or Light property"
+                        }, {
+                            "column_01": "Tool Proficiencies",
+                            "column_02": "Thieves’ Tools"
+                        }, {
+                              "column_01": "Armor Training",
+                              "column_02": "Light armor"
+                        }, {
+                              "column_01": "Starting Equipment",
+                              "column_02": "Choose A or B: (A) Leather Armor, 2 Daggers, Shortsword, Shortbow, 20 Arrows, Quiver, Thieves’ Tools, Burglar’s Pack, and 8 GP; or (B) 100 GP"
+                        }
                       ]
                   },
-                  {
+              "feature_03": {
+                      "name": "Expertise",
+                      "source": "PHB-2024, pg. 129",
+                      "description": "You gain Expertise in two of your skill proficiencies of your choice.\nAt Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.",
+                      "detail_type": "list",
+                      "details": [
+                            "Stealth",
+                            "Sleight of Hand"
+                      ]
+                  },
+              "feature_04": {
                       "name": "Sneak Attack",
-                      "source": "free-rules, pg. 129",
-                      "description": "Once per turn you can deal an extra 1d6 damage to one creature you hit with an attack if you have Advantage on the roll and the attack uses a Finesse or Ranged weapon. The extra damage''s type is the same as the weapon''s type. You don''t need Advantage on the attack if an ally is within 5 ft. of the target, isn''t Incapacitated, and you don''t have Disadvantage.",
-                      "action_type": "1 Action"
+                      "source": "PHB-2024, pg. 129",
+                      "description": "Once per turn you can deal an extra 1d6 damage to one creature you hit with an attack if you have Advantage on the roll and the attack uses a Finesse or Ranged weapon. The extra damage’s type is the same as the weapon’s type.\nYou don’t need Advantage on the attack if at least one of your allies is within 5 ft. of the target, the ally doesn’t have the Incapacitated condition, and you don’t have Disadvantage on the attack roll.",
+                      "detail_list": "sub",
+                      "details": [
+                            {
+                                "sub_title": "Sneak Attack",
+                                "text": "1 Action"
+                            }
+                      ]
                   },
-                  {
-                      "name": "Thieves'' Cant",
-                      "source": "free-rules, pg. 129",
-                      "description": "You know Thieves'' Cant and one other language of your choice.",
-                      "additional_language": "Celestial"
-                  },
-                  {
+              "feature_05": {
+                      "name": "Thieves’ Cant",
+                      "source": "PHB-2024, pg. 129",
+                      "description": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice.",
+                      "detail_list": "list",
+                      "details": [
+                            "Celestial"
+                      ]
+              },
+              "feature_06": {
                       "name": "Weapon Mastery",
                       "source": "PHB-2024, pg. 129",
-                      "description": "You gain mastery with specific weapons that give you unique benefits.",
-                      "mastery": [
-                          {
-                              "weapon": "Dagger",
-                              "property": "Nick",
-                              "effect": "Make the extra Light attack as part of the Attack action instead of as a Bonus Action. Only once per turn.",
-                              "action_type": "1 Action"
-                          },
-                          {
-                              "weapon": "Hand Crossbow",
-                              "property": "Vex",
-                              "effect": "If you hit a creature and deal damage, gain Advantage on next attack roll against it before the end of your next turn.",
-                              "action_type": "1 Action"
-                          }
+                      "description": "",
+                      "detail_list": "sub",
+                      "details": [
+                            {
+                                "sub_title": "Dagger (Nick)",
+                                "text": "Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. This extra attack can only be made once per turn."
+                            },
+                            {
+                                "sub_title": "Hand Crossbow (Vex)",
+                                "text": "Vex. If you hit a creature with a Hand Crossbow and deal damage to it, you have Advantage on your next attack roll against that creature before the end of your next turn.\nNick (Dagger): 1 Action\nVex (Hand Crossbow): 1 Action"
+                            }
                       ]
-                  }
-              ]
+              }
+
           }'::jsonb,
           'free-rules, pg. 129; PHB-2024, pg. 129',
           false
