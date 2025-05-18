@@ -1,0 +1,36 @@
+INSERT INTO character_background_attributes (
+    character_id,
+    character_alignment,
+    character_gender,
+    character_eyes,
+    character_size,
+    character_height,
+    character_faith,
+    character_hair,
+    character_skin,
+    character_age,
+    character_weight,
+    character_personality_traits,
+    character_ideals,
+    character_bonds,
+    character_flaws,
+    character_appearance
+)
+VALUES (
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        ''
+       );

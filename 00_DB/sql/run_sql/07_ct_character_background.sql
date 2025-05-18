@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS character_background_attributes(
+    background_id                   SERIAL PRIMARY KEY,
+    character_id                    INT NOT NULL,
+    character_alignment             VARCHAR(255),
+    character_gender                VARCHAR(255),
+    character_eyes                  VARCHAR(255),
+    character_size                  VARCHAR(255),
+    character_height                VARCHAR(255),
+    character_faith                 VARCHAR(255),
+    character_hair                  VARCHAR(255),
+    character_skin                  VARCHAR(255),
+    character_age                   VARCHAR(255),
+    character_weight                VARCHAR(255),
+    character_personality_traits    VARCHAR(255),
+    character_ideals                VARCHAR(255),
+    character_bonds                 VARCHAR(255),
+    character_flaws                 VARCHAR(255),
+    character_appearance            TEXT
+);

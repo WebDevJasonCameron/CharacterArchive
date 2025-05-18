@@ -4,7 +4,9 @@ INSERT INTO character_species (
     specie_details,
     specie_source,
     is_custom
-) VALUES (
+)
+
+VALUES (
              1,
              'Mapach',
              '{
