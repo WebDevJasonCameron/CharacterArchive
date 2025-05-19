@@ -1,5 +1,7 @@
 INSERT INTO character_background_attributes (
     character_id,
+    character_background_title,
+    character_background_details,
     character_alignment,
     character_gender,
     character_eyes,
@@ -17,6 +19,8 @@ INSERT INTO character_background_attributes (
     character_appearance
 )
 VALUES (
+        '1',
+        'Haunted One',
         '',
         '',
         '',
