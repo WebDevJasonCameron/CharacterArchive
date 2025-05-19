@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS character_background_attributes(
     background_id                   SERIAL PRIMARY KEY,
     character_id                    INT NOT NULL,
     character_background_title      VARCHAR(255),
-    character_background_details    TEXT,
+    character_background_features   JSONB,
     character_alignment             VARCHAR(255),
     character_gender                VARCHAR(255),
     character_eyes                  VARCHAR(255),
