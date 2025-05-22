@@ -36,4 +36,7 @@ class Spells extends Model
         'tags',
         'classAssociation'
     ];
+
+    // METHs
+    // Relation
 }
