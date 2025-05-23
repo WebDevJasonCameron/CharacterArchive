@@ -1,4 +1,4 @@
-{{--Spells: Spell Content--}}
+{{--Spell: Spell Content--}}
 <div
     id="cantrip-content"
     class="px-4 rounded-lg bg-gray-50 dark:bg-gray-800"

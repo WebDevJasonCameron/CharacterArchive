@@ -1,4 +1,4 @@
-{{--Spells: Spell Content--}}
+{{--Spell: Spell Content--}}
 <div
     id="level01-content"
     class="hidden px-4 rounded-lg bg-gray-50 dark:bg-gray-800"

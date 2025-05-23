@@ -12,10 +12,7 @@ use Illuminate\Notifications\Notifiable;
 
 class Character extends Model
 {
-    /** The attributes that are mass assignable
-     *
-     * @var list<string>
-     */
+    // PROPs
     protected $fillable = [
         'name',
         'level',
@@ -108,4 +105,10 @@ class Character extends Model
 
         'defenses'
     ];
+
+    // METHs
+    // Relation to spells (one to many)
+    public function spells(){
+        return $this->hasMany(Spell::class);
+    }
 }

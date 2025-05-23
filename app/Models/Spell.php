@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Notifications\Notifiable;
 
-class Spells extends Model
+class Spell extends Model
 {
     /** The attributes that are mass assignable
      *
@@ -38,5 +38,8 @@ class Spells extends Model
     ];
 
     // METHs
-    // Relation
+    public function character(): BelongsTo
+    {
+        return $this->belongsTo(Character::class);
+    }
 }
