@@ -17,24 +17,24 @@ class Spell extends Model
      * @var list<string>
      */
     protected $fillable = [
-        'name',
-        'level',
-        'castingTime',
-        'rangeArea',
-        'componentVisual',
-        'componentSemantic',
-        'componentMaterial',
-        'componentMaterials',
-        'duration',
-        'concentration',
-        'ritual',
-        'school',
-        'saveType',
-        'description',
-        'imageUrl',
-        'source',
-        'tags',
-        'classAssociation'
+        'spell_name',
+        'spell_level',
+        'spell_castingTime',
+        'spell_rangeArea',
+        'spell_componentVisual',
+        'spell_componentSemantic',
+        'spell_componentMaterial',
+        'spell_componentMaterials',
+        'spell_duration',
+        'spell_concentration',
+        'spell_ritual',
+        'spell_school',
+        'spell_saveType',
+        'spell_description',
+        'spell_imageUrl',
+        'spell_source',
+        'spell_tags',
+        'spell_classAssociation'
     ];
 
     // METHs
