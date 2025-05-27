@@ -15,6 +15,6 @@ Route::redirect('/character', '/character/cs');
 // Dynamic Character View
 Route::get('/character/{view}', [CharacterController::class, 'show'])->name('character.view');
 
-//
+// Spells
 Route::get('/spells', [SpellController::class, 'index']);
 

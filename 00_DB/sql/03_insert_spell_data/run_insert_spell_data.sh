@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the path to the postgresql file directory
-FILES_DIR="/Users/jasoncameron/Herd/CharacterArchive/00_DB/sql/run_sql"
+FILES_DIR="/Users/jasoncameron/Herd/CharacterArchive/00_DB/sql/03_insert_spell_data/"
 
 # Loop through the files and execute them
 for FILE in "$FILES_DIR"/*.sql;
