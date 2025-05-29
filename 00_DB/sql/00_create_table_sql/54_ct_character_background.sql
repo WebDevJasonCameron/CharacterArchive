@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS character_background_attributes(
+CREATE TABLE IF NOT EXISTS character_background(
     background_id                   SERIAL PRIMARY KEY,
     character_id                    INT NOT NULL,
     character_background_title      VARCHAR(255),

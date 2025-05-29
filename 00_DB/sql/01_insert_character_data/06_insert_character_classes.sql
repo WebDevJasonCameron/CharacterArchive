@@ -1,6 +1,6 @@
-INSERT INTO character_class_features (
+INSERT INTO character_classes (
     character_id,
-    class_name,
+    class_id,
     class_level,
     class_details,
     source_book,
@@ -9,7 +9,7 @@ INSERT INTO character_class_features (
 
 VALUES (
           1,
-          'Druid',
+          '1',
           2,
           '{
               "feature_01": {

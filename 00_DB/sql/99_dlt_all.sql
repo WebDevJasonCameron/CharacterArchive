@@ -3,7 +3,6 @@ DROP TABLE IF EXISTS item_types;
 DROP TABLE IF EXISTS item_tags;
 DROP TABLE IF EXISTS item_notes;
 DROP TABLE IF EXISTS item_conditions;
-DROP TABLE IF EXISTS item_sources;
 DROP TABLE IF EXISTS item_spells;
 DROP TABLE IF EXISTS item_effects;
 
@@ -14,7 +13,7 @@ DROP TABLE IF EXISTS spell_classes;
 
 DROP TABLE IF EXISTS character_details;
 DROP TABLE IF EXISTS character_classes;
-DROP TABLE IF EXISTS characte_species;
+DROP TABLE IF EXISTS character_species;
 DROP TABLE IF EXISTS character_background;
 DROP TABLE IF EXISTS character_inventory;
 DROP TABLE IF EXISTS character_unique_items;
@@ -32,6 +31,7 @@ DROP TABLE IF EXISTS sources;
 DROP TABLE IF EXISTS spells;
 DROP TABLE IF EXISTS items;
 DROP TABLE IF EXISTS characters;
+DROP TABLE IF EXISTS item_sources;
 
 -- Drop DB Last
 -- Unable in Laravel because it depends on other migrated tables
