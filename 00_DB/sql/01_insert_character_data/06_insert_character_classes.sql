@@ -3,7 +3,7 @@ INSERT INTO character_classes (
     class_id,
     class_level,
     class_details,
-    source_book,
+    source_location,
     is_custom
     )
 

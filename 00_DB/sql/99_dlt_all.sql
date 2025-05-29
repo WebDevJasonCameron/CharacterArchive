@@ -27,11 +27,11 @@ DROP TABLE IF EXISTS conditions;
 DROP TABLE IF EXISTS damagetypes;
 DROP TABLE IF EXISTS effects;
 DROP TABLE IF EXISTS rpg_classes;
-DROP TABLE IF EXISTS sources;
 DROP TABLE IF EXISTS spells;
 DROP TABLE IF EXISTS items;
 DROP TABLE IF EXISTS characters;
-DROP TABLE IF EXISTS item_sources;
+DROP TABLE IF EXISTS sources;
+
 
 -- Drop DB Last
 -- Unable in Laravel because it depends on other migrated tables

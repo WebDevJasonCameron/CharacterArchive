@@ -4,6 +4,7 @@ CREATE TABLE IF NOT EXISTS character_classes(
                 class_id         INT NOT NULL,
                 class_level      INT NOT NULL,
                 class_details    JSONB NOT NULL,
+                source_location  VARCHAR(255),
 
     -- Optional Metadata
                 is_custom        BOOLEAN DEFAULT FALSE,
