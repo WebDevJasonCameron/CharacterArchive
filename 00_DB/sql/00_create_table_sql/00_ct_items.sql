@@ -1,35 +1,39 @@
-CREATE SEQUENCE items_seq start with 1;
-
 CREATE TABLE items (
-                          item_id bigint NOT NULL DEFAULT nextval('items_seq'),
-                          item_name varchar(255) NOT NULL,
-                          item_ttrpg varchar(255),                           --  5
-                          item_rarity varchar(255),                          -- rarity
-                          item_renowned_quality varchar(255),                -- renowned_quality
-                          item_requires_attunement bool,                     -- req_attunement
-                          item_has_charges bool,                             -- Read description for "charges"
-                          item_is_cursed bool,
-                          item_cost double precision,
-                          item_weight varchar(255),
-                          item_description text,
-                          item_image_url varchar(255),
-                          item_magic_bonus_plus_1 bool,                      -- Read the description to get these
-                          item_magic_bonus_plus_2 bool,
-                          item_magic_bonus_plus_3 bool,
-                          item_description_notes text,                        -- If doc has "Notes:"
+                     item_id SERIAL PRIMARY KEY,
+                     item_name VARCHAR(100) NOT NULL,
+                     item_ttrpg varchar(255),
+                     item_weight VARCHAR(20),
+                     item_cost VARCHAR(20),
+                     item_description TEXT,
+                     item_description_notes text,                        -- If doc has "Notes:"
+                     item_source VARCHAR(255),
+                     item_types TEXT,
+                     item_rarity VARCHAR(255),
+                     item_renowned_quality varchar(255),
 
-                          item_source_id bigint,
+                     item_magical BOOLEAN,
+                     item_requires_attunement bool,
+                     item_is_cursed bool,
+                     item_magic_bonus_plus_1 bool,                      -- Read the description to get these
+                     item_magic_bonus_plus_2 bool,
+                     item_magic_bonus_plus_3 bool,
+                     item_has_charges bool,                             -- Read description for "charges"
 
-                          PRIMARY KEY (item_id)
+                     item_weapon_attack_type VARCHAR(255),
+                     item_weapon_range VARCHAR(255),
+                     item_weapon_damage VARCHAR(255),
+                     item_weapon_damage_type VARCHAR(255),
+                     item_weapon_properties VARCHAR(255),
+                     item_weapon_type VARCHAR(255),
+                     item_weapon_notes TEXT,
+
+                     item_armor_class VARCHAR(255),
+                     item_armor_type VARCHAR(255),
+                     item_armor_notes TEXT,
+
+                     item_attached_spells TEXT,
+                     item_tags TEXT,
+                     item_image_url VARCHAR(500),
+
+                     item_source_id bigint
 );
-
-ALTER SEQUENCE items_seq OWNED BY items.item_id;
-
-ALTER SEQUENCE items_seq RESTART WITH 1;
-
-/*
-INSERT INTO items (name, ttrpg, rarity, renowned_quality, requires_attunement, has_charges, is_cursed, cost, weight, description, image_url)
-VALUES
-    ('TEST Name', 'TEST TTRPG', 'TEST RARITY', 'TEST RENOWNED QUALITY', false, false, false, 2.55, 'TEST WEIGHT', 'TEST DESCRIPTION', 'TEST IMAGE URL');
-
- */
