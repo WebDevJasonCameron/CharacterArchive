@@ -1,4 +1,4 @@
-INSERT INTO character_background_attributes (
+INSERT INTO character_background (
     character_id,
     character_background_title,
     character_background_features,

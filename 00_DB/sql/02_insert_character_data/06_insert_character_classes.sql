@@ -9,7 +9,7 @@ INSERT INTO character_classes (
 
 VALUES (
           1,
-          '1',
+          46,
           2,
           '{
               "feature_01": {
@@ -190,7 +190,7 @@ VALUES (
       ),
       (
           1,
-          'Rogue',
+          1,
           1,
           '{
               "feature_01": {

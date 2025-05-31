@@ -42,4 +42,8 @@ class Spell extends Model
     {
         return $this->belongsTo(Character::class);
     }
+
+    public function classes(): BelongsToMany {
+        return $this->belongsToMany(RPGClass::class, 'spell_classes', 'spells_spell_id', 'classes_class_id');
+    }
 }
