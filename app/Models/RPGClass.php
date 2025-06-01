@@ -3,11 +3,10 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class RPGClass extends Model
 {
-    protected $table = 'classes';
+    protected $table = 'rpg_classes';  // 🟢 Fix this line
     protected $primaryKey = 'class_id';
 
     public function spells(){
