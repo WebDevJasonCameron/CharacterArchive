@@ -3,12 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Spell;
-use Illuminate\Http\Request;
 
 class SpellController extends Controller
 {
     public function index(){
-        $spells = Spell::with('classes')->get(); // 🟢 Eager load classes
+        $spells = Spell::with('classes')->get();
         return view('spells.index', compact('spells'));
     }
 }
