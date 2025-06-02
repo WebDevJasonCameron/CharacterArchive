@@ -3,7 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class RPGClass extends Model
 {
@@ -16,7 +16,12 @@ class RPGClass extends Model
         'class_description',
     ];
 
-    public function spells(): HasMany
+    public function spells(): BelongsToMany
     {
-        return $this->hasMany(Spells::class);    }
+        return $this->belongsToMany(Spell::class, 'spell_classes', 'classes_class_id', 'spells_spell_id');
+    }
+
+
+
+
 }

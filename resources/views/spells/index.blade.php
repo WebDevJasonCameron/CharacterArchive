@@ -5,7 +5,7 @@
         <div>Spell Id: {{ $spell->spell_id }}</div>
         <ul>
             @foreach($spell->classes as $class)
-                <li>{{ $spell->class_name }}</li>
+                <li>{{ $class->class_name }}</li>
             @endforeach
         </ul>
 
