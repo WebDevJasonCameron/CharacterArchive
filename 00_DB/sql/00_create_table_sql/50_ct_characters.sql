@@ -1,7 +1,7 @@
 CREATE SEQUENCE character_seq start 1;
 
 CREATE TABLE characters (
-                            character_id SERIAL PRIMARY KEY,
+                            id SERIAL PRIMARY KEY,
                             character_name VARCHAR(100) NOT NULL,
                             character_level INT NOT NULL,
                             character_active_level BOOLEAN NOT NULL,

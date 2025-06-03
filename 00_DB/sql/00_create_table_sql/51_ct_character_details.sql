@@ -1,5 +1,5 @@
 CREATE TABLE character_details (
-                                   character_id INT PRIMARY KEY REFERENCES characters(character_id) ON DELETE CASCADE,
+                                  id INT PRIMARY KEY REFERENCES characters(id) ON DELETE CASCADE,
 
                                    background_origin VARCHAR(100),
                                    background_story TEXT,
@@ -27,4 +27,4 @@ CREATE TABLE character_details (
 );
 
 ALTER TABLE character_details
-    ADD CONSTRAINT unique_character_id UNIQUE (character_id);
+    ADD CONSTRAINT unique_character_id UNIQUE (id);

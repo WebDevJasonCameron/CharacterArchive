@@ -8,10 +8,9 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Spell extends Model
 {
-    /** The attributes that are mass assignable
-     *
-     * @var list<string>
-     */
+    protected $primaryKey = 'spell_id';
+    protected $table = 'spells';
+
     protected $fillable = [
         'spell_name',
         'spell_level',
@@ -39,7 +38,15 @@ class Spell extends Model
         return $this->belongsTo(Character::class);
     }
 
-    public function classes(): BelongsToMany {
-        return $this->belongsToMany(RPGClass::class, 'spell_classes', 'spells_spell_id', 'classes_class_id');
+    public function classes(): BelongsToMany
+    {
+        return $this->belongsToMany(
+            RPGClass::class,
+            'spell_classes',
+            'spells_spell_id',
+            'classes_class_id',
+            'spell_id',
+            'class_id'
+        );
     }
 }

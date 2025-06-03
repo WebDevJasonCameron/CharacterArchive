@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS character_classes(
-                character_class_id SERIAL PRIMARY KEY,
+                id SERIAL PRIMARY KEY,
                 character_id     INT NOT NULL,
                 class_id         INT NOT NULL,
                 class_level      INT NOT NULL,
@@ -11,9 +11,9 @@ CREATE TABLE IF NOT EXISTS character_classes(
 
                 CONSTRAINT fk_character
                     FOREIGN KEY (character_id)
-                        REFERENCES characters(character_id)
+                        REFERENCES characters(id)
                         ON DELETE CASCADE,
                     FOREIGN KEY (class_id)
-                        REFERENCES rpg_classes(class_id)
+                        REFERENCES rpg_classes(id)
                         ON DELETE CASCADE
 );

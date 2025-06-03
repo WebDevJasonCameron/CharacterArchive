@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS character_background(
-    background_id                   SERIAL PRIMARY KEY,
+    id                              SERIAL PRIMARY KEY,
     character_id                    INT NOT NULL,
     character_background_title      VARCHAR(255),
     character_background_features   JSONB,

@@ -1,7 +1,7 @@
 CREATE SEQUENCE spell_seq start 1;
 
 CREATE TABLE spells (
-                        spell_id bigint NOT NULL DEFAULT nextval('spell_seq'),
+                        id bigint NOT NULL DEFAULT nextval('spell_seq'),
                         spell_name varchar(999) NOT NULL UNIQUE ,
                         spell_level varchar(255) NOT NULL,
                         spell_casting_time varchar(255),
@@ -20,16 +20,16 @@ CREATE TABLE spells (
 
     -- source (Gotten from the sources table)
                         spell_source_id bigint,
-                        FOREIGN KEY (spell_source_id) REFERENCES sources(source_id),
+                        FOREIGN KEY (spell_source_id) REFERENCES sources(id),
 
     -- condition list
     -- availability (class) list
     -- tags list
     -- type list
 
-                        PRIMARY KEY (spell_id)
+                        PRIMARY KEY (id)
 );
 
-ALTER SEQUENCE spell_seq OWNED BY spells.spell_id;
+ALTER SEQUENCE spell_seq OWNED BY spells.id;
 
 ALTER SEQUENCE spell_seq RESTART WITH 1;

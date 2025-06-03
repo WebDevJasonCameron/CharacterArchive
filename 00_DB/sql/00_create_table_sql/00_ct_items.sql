@@ -1,5 +1,5 @@
 CREATE TABLE items (
-                     item_id SERIAL PRIMARY KEY,
+                     id SERIAL PRIMARY KEY,
                      item_name VARCHAR(100) NOT NULL,
                      item_ttrpg varchar(255),
                      item_weight VARCHAR(20),

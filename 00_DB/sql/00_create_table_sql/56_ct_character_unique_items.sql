@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS character_unique_items (
-                                        item_id SERIAL PRIMARY KEY,
+                                        id SERIAL PRIMARY KEY,
                                         character_id INT NOT NULL,
 
                                         item_name VARCHAR(100) NOT NULL,
@@ -31,6 +31,6 @@ CREATE TABLE IF NOT EXISTS character_unique_items (
 
                                         CONSTRAINT fk_character
                                             FOREIGN KEY (character_id)
-                                                REFERENCES characters(character_id)
+                                                REFERENCES characters(id)
                                                 ON DELETE CASCADE
 );
