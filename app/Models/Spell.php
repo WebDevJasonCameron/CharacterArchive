@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Spell extends Model
 {
-    protected $primaryKey = 'spell_id';
     protected $table = 'spells';
 
     protected $fillable = [
@@ -43,10 +42,8 @@ class Spell extends Model
         return $this->belongsToMany(
             RPGClass::class,
             'spell_classes',
-            'spells_spell_id',
-            'classes_class_id',
-            'spell_id',
-            'class_id'
+            'spells_spell_id',    // foreign key on pivot (this model)
+            'classes_class_id'    // foreign key on pivot (related model)
         );
     }
 }
