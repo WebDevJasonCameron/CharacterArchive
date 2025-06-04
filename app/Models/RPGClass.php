@@ -9,12 +9,14 @@ class RPGClass extends Model
 {
     protected $table = 'rpg_classes';
 
+    // FILLs
     protected $fillable = [
         'class_name',
         'class_subclass_name',
         'class_description',
     ];
 
+    // METHs
     public function spells(): BelongsToMany
     {
         return $this->belongsToMany(
@@ -24,10 +26,4 @@ class RPGClass extends Model
             'spells_spell_id'     // foreign key on pivot (related model)
         );
     }
-
-
-
-
-
-
 }

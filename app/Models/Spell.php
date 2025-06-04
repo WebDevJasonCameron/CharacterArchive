@@ -5,11 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Spell extends Model
 {
+    // METAs
     protected $table = 'spells';
 
+    // FILLs
     protected $fillable = [
         'spell_name',
         'spell_level',
@@ -31,7 +34,7 @@ class Spell extends Model
         'spell_classAssociation'
     ];
 
-    // METHs
+    // RELATIONs
     public function character(): BelongsTo
     {
         return $this->belongsTo(Character::class);
@@ -45,5 +48,13 @@ class Spell extends Model
             'spells_spell_id',    // foreign key on pivot (this model)
             'classes_class_id'    // foreign key on pivot (related model)
         );
+    }
+
+    public function tags(): BelongsToMany {
+        return $this->belongsToMany(
+            Tag::class,
+            'spell_tags',
+            'spells_spell_id',
+            'tags_tag_id');
     }
 }
