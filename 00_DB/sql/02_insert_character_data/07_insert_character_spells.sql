@@ -10,10 +10,5 @@ VALUES (
         116,
         true,
         true
-       ),
-       (1,
-        1,
-        true,
-        false
        )
 
