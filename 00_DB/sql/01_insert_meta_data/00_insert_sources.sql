@@ -84,5 +84,6 @@ VALUES
     ('Waterdeep: Dungeon of the Mad Mage', '2018-11-20'),
     ('Wayfinders Guide to Eberron', '2018-07-24'),
     ('White Plume Mountain', '1979-01-01'),
-    ('Xanathars Guide to Everything', '2017-11-21')
+    ('Xanathars Guide to Everything', '2017-11-21'),
+    ('Humblewood Campaign Setting', '2020-04-01')
 ;

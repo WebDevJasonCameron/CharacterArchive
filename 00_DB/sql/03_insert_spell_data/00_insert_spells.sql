@@ -18,7 +18,12 @@ INSERT INTO spells
     spell_source_id
 )
 VALUES
-    ('Druidcraft', 'cantrip', '1 action', '30 ft', 'True', 'True', 'False', '', 'instantaneous', 'False', 'False', 'transmutation', 'none', 'Whispering to the spirits of nature, you create one of the following effects within range:
+    (
+     'Druidcraft',
+     'cantrip',
+     '1 action',
+     '30 ft',
+     'True', 'True', 'False', '', 'instantaneous', 'False', 'False', 'transmutation', 'none', 'Whispering to the spirits of nature, you create one of the following effects within range:
 -   You create a tiny, harmless sensory Effect that predicts what the weather will be at your location for the next 24 hours. The Effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This Effect persists for 1 round.
 -   You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.
 -   You create an instantaneous, harmless sensory Effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The Effect must fit in a 5-foot cube.
@@ -1121,10 +1126,10 @@ Sample Creatures
      '',
      'none',
      'You choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways:
-        You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.
-        You instantaneously extinguish the flames within the cube.
-        You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.
-        You cause simple shapes—such as the vague form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The shapes last for 1 hour.
+        -   You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.
+        -   You instantaneously extinguish the flames within the cube.
+        -   You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.
+        -   You cause simple shapes—such as the vague form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The shapes last for 1 hour.
         If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.',
      'transmutation',
      '20'
@@ -1169,4 +1174,60 @@ Sample Creatures
             Sculpt Element. You cause dirt, sand, fire, smoke, mist, or water that can fit in a 1-foot Cube to assume a crude shape (such as that of a creature) for 1 hour.',
        '',
        '53'
+    ), (
+        'Frostbite',
+        'cantrip',
+        '1 action',
+        '60 ft',
+        true,
+        true,
+        false,
+        '',
+        'instantaneous',
+        false,
+        false,
+        'evocation',
+        'con save',
+        'You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn.
+            The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).',
+        '',
+        '20'
+    ),(
+       'Gust',
+       'cantrip',
+       '1 action',
+       '30 ft',
+       true,
+       true,
+       false,
+       '',
+       'instantaneous',
+       false,
+       false,
+       'transmutation',
+       'str save',
+       'You seize the air and compel it to create one of the following effects at a point you can see within range:
+            -   One Medium or smaller creature that you choose must succeed on a Strength saving throw or be pushed up to 5 feet away from you.
+            -   You create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 5 pounds. The object is pushed up to 10 feet away from you. It isn’t pushed with enough force to cause damage.
+            -   You create a harmless sensory effect using air, such as causing leaves to rustle, wind to slam shutters shut, or your clothing to ripple in a breeze.',
+       '',
+       '20'
+    ),(
+       'Gust Barrier',
+       'cantrip',
+       '1 action',
+       'self',
+       false,
+       true,
+       false,
+       '',
+       '1 round',
+       false,
+       false,
+       'evocation',
+       'con save',
+       'You spread your arms wide, allowing yourself to become enveloped by the air around you. Until the end of your next turn, any ranged attack against you is made with disadvantage.
+            Melee attackers who successfully hit you must make a Constitution saving throw against your spell save DC. On a failure, the attacker is flung away from you up to 10 feet and is knocked prone.',
+       '',
+       '85'
     )
