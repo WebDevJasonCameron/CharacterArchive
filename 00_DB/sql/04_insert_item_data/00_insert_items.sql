@@ -2573,11 +2573,261 @@ VALUES(
                | 4 | The spell’s effect is contrary to its normal one, but neither harmful nor beneficial. For instance, a fireball might produce an area of harmless cold. |
                | 5 | The caster suffers a minor but bizarre effect related to the spell. Such effects last only as long as the original spell’s duration, or 1d10 minutes for spells that take effect instantaneously. For example, a fireball might cause smoke to billow from the caster’s ears for 1d10 minutes. |
                | 6 | The spell activates after 1d12 hours. If the caster was the intended target, the spell takes effect normally. If the caster was not the intended target, the spell goes off in the general direction of the intended target, up to the spell’s maximum range, if the target has moved away.',
-          'Dungeon Master’s Guide, pg. 305',
+          null,
           'varies',
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+     ),(
+          'Spell Scroll (0 - Cantrip)',
+          'DND5E',
+          null,
+          null,
+          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
+                This scroll contains a cantrip. The spell''s saving throw DC is 13 and attack bonus is +5.',
+          null,
+          null,
+          'common',
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+),(
+          'Spell Scroll (1st Level)',
+          'DND5E',
+          null,
+          null,
+          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
+                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 11. On a failed check, the spell disappears from the scroll with no other effect.
+                This scroll contains a 1st level spell. The spell''s saving throw DC is 13 and attack bonus is +5.
+                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 11. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
+          'Utility, Consumable',
+          null,
+          'common',
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+),(
+          'Spell Scroll (2nd Level)',
+          'DND5E',
+          null,
+          null,
+          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
+                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 12. On a failed check, the spell disappears from the scroll with no other effect.
+                This scroll contains a 2nd level spell. The spell''s saving throw DC is 13 and attack bonus is +5.
+                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 12. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
+          'Utility, Consumable',
+          'common',
           null,
 
           true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+),(
+          'Spell Scroll (3rd Leve)',
+          'DND5E',
+          null,
+          null,
+          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
+                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 13. On a failed check, the spell disappears from the scroll with no other effect.
+                This scroll contains a 3rd level spell. The spell''s saving throw DC is 15 and attack bonus is +7.
+                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 13. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
+          'Utility, Consumable',
+          null,
+          'uncommon',
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+),(
+          'Spell Scroll (4th Level)',
+          'DND5E',
+          null,
+          null,
+          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
+                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 14. On a failed check, the spell disappears from the scroll with no other effect.
+                This scroll contains a 4th level spell. The spell''s saving throw DC is 15 and attack bonus is +7.
+                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 14. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
+          'Utility, Consumable',
+          null,
+          'rare',
+          true,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+),(
+          'Spell Scroll (5th Level)',
+          'DND5E',
+          null,
+          null,
+          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
+                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 15. On a failed check, the spell disappears from the scroll with no other effect.
+                This scroll contains a 5th level spell. The spell''s saving throw DC is 17 and attack bonus is +9.
+                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 15. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
+          null,
+          null,
+          'rare',
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+),(
+          'Spell Scroll (6th Level)',
+          'DND5E',
+          null,
+          null,
+          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
+                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 16. On a failed check, the spell disappears from the scroll with no other effect.
+                This scroll contains a 6th level spell. The spell''s saving throw DC is 17 and attack bonus is +9.
+                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 16. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
+          'Utility, Consumable',
+          null,
+          'very rare',
+          null,
+
           false,
           false,
           false,
@@ -2600,7 +2850,115 @@ VALUES(
 
           null,
           5
-      ),(
+),(
+          'Spell Scroll (7th Level)',
+          'DND5E',
+          null,
+          null,
+          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
+                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 17. On a failed check, the spell disappears from the scroll with no other effect.
+                This scroll contains a 7th level spell. The spell''s saving throw DC is 18 and attack bonus is +10.
+                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 17. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
+          'Utility, Consumable',
+          null,
+          'very rare',
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+),(
+          'Spell Scroll (8th Level)',
+          'DND5E',
+          null,
+          null,
+          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
+                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 18. On a failed check, the spell disappears from the scroll with no other effect.
+                This scroll contains an 8th level spell. The spell''s saving throw DC is 18 and attack bonus is +10.
+                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 18. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
+          'Utility, Consumable',
+          null,
+          'very rare',
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+),(
+          'Spell Scroll (9th Level)',
+          'DND5E',
+          null,
+          null,
+          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
+                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 19. On a failed check, the spell disappears from the scroll with no other effect.
+                This scroll contains a 9th level spell. The spell''s saving throw DC is 19 and attack bonus is +11.
+                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 19. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
+          'Utility, Consumable',
+          null,
+          'legendary',
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+),(
           'Carpenter''s Tools',
           'DND5E',
           '6 lbs',
@@ -2788,9 +3146,9 @@ VALUES(
          'DND5E',
          null, null,
          'You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.
-Curse.This axe is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the axe, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear.
-Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.
-Proficiency with a handaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, bonus: hit points per level, combat, cursed, light, thrown',
+                Curse.This axe is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the axe, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear.
+                Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.
+                Proficiency with a handaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, bonus: hit points per level, combat, cursed, light, thrown',
          null,
          null,
          'rare',
