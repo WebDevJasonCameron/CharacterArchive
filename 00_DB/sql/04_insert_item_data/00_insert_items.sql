@@ -1581,12 +1581,12 @@ VALUES(
           null,
           '',
           17
-      ),(
-          'Horn of Valhalla',
-          'DND5E',
-          null,
-          null,
-          'You can use an action to blow this horn. In response, warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a berserker. They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can''t be used again until 7 days have passed.
+      ),
+      ('Horn of Valhalla',
+       'DND5E',
+       null,
+       null,
+       'You can use an action to blow this horn. In response, warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a berserker. They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can''t be used again until 7 days have passed.
                Four types of horn of Valhalla are known to exist, each made of a different metal. The horn''s type determines how many berserkers answer its summons, as well as the requirement for its use. The GM chooses the horn''s type or determines it randomly.
 
                | *d100* | *Horn Type* | *Berserkers Summoned* | *Requirement* |
@@ -1598,66 +1598,131 @@ VALUES(
                If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.
 
    ',
-          'summoning',
-          'Basic Rules (2014), pg. 175',
-          'varies'
-              'Wondrous Item',
-
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
+       'summoning',
+       'Basic Rules (2014), pg. 175',
+       'varies'
+           'Wondrous Item',
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       5
       ),(
-          'Spell Scroll',
+          'Berserker Handaxe',
           'DND5E',
           null,
           null,
-          'A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn’t lost.
-               If the spell is on your spell list but of a higher level than you can normally cast, you make an ability check using your spellcasting ability to determine whether you cast the spell. The DC equals 10 plus the spell’s level. On a failed check, the spell disappears from the scroll with no other effect.
-               The level of the spell on the scroll determines the spell’s saving throw DC and attack bonus, as well as the scroll’s rarity, as shown in the following table.
-
-               *Spell Scroll*
-               | *Spell Level* | *Rarity* | *Save DC* | *Attack Bonus* |
-               | --- | --- | --- | --- |
-               | Cantrip | Common | 13 | +5 |
-               | 1st | Common | 13 | +5 |
-               | 2nd | Uncommon | 13 | +5 |
-               | 3rd | Uncommon | 15 | +7 |
-               | 4th | Rare | 15 | +7 |
-               | 5th | Rare | 17 | +9 |
-               | 6th | Very rare |	17 | +9 |
-               | 7th | Very rare |	18 | +10 |
-               | 8th | Very rare |	18 | +10 |
-               | 9th | Legendary | 19 | +11 |
-               Copying a Scroll into a Spellbook. A Wizard spell on a Spell Scroll can be copied into a spellbook. When a spell is copied in this way, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell’s level. On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed.',
-          'Utility, Consumable',
-          'Dungeon Master’s Guide, pg. 305',
-          'varies',
+          'You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.
+                   *Curse.* This axe is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the axe, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear.
+                   Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.
+                   Proficiency with a Handaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                   ---
+                   This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                   *Vex.* If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Bonus: Hit Points per Level, Combat, Cursed, Light, Thrown, Vex',
+          null,
+          'rare',
           null,
 
+          true,
+          true,
+          false,
           true,
           false,
           false,
           false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          17
+      ),(
+         'Berserker Battleaxe',
+        'DND5E',
+        null,
+        null,
+        'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.
+            *Curse.* This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one.
+            Whenever another creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.
+            While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you’re unable to get close enough to the creature to attack it with the weapon, your turn ends after you’ve used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.
+            Proficiency with a Battleaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+            ---
+            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+            *Topple.* If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+        'Bonus: Magic, Bonus: Hit Points per Level, Combat, Cursed, Versatile, Topple',
+        null,
+         'rare',
+        null,
+
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+        null,
+
+        null,
+        17
+      ),(
+          'Berserker Greataxe',
+          'DND5E',
+          null,
+          null,
+          'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.
+                *Curse.* This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one.
+                Whenever another creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.
+                While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you’re unable to get close enough to the creature to attack it with the weapon, your turn ends after you’ve used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.
+                Proficiency with a Greataxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                *Cleave.* If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.',
+          'Bonus: Magic, Bonus: Hit Points per Level, Combat, Cursed, Heavy, Two-Handed, Cleave',
+          null,
+          'rare',
+          null,
+
+          true,
+          true,
+          true,
           false,
           false,
           false,
@@ -1676,7 +1741,43 @@ VALUES(
           null,
 
           null,
-          5
+          17
+      ),(
+          'Berserker Halberd',
+          'DND5E',
+          null,
+          null,
+          'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.
+                *Curse.* This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one.
+                Whenever another creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.
+                While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you’re unable to get close enough to the creature to attack it with the weapon, your turn ends after you’ve used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.',
+          'Bonus: Magic, Bonus: Hit Points per Level, Combat, Cursed, Heavy, Reach, Two-Handed, Cleave',
+          'Dungeon Master’s Guide, pg. 236',
+          'rare',
+          true,
+
+          true,
+          false,
+          true,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          17
       ),(
           'Instant Fortress',
           'DND5E',
@@ -3068,7 +3169,7 @@ VALUES(
           null,
           5
       ),(
-          'Wand of the War Mage, +1',
+          'Wand of the War Mage',
           'DND5E',
           null,
           null,
@@ -3082,6 +3183,108 @@ VALUES(
           'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
           'Dungeon Master’s Guide, pg. 212',
           'varies',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          17
+      ),(
+          'Wand of the War Mage, +1',
+          'DND5E',
+          null,
+          null,
+          'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
+          'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
+          null,
+          'uncommon',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          17
+      ),(
+          'Wand of the War Mage, +2',
+          'DND5E',
+          null,
+          null,
+          'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
+          'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          17
+      ),(
+          'Wand of the War Mage, +3',
+          'DND5E',
+          null,
+          null,
+          'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
+          'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
+          null,
+          'very rare',
           null,
 
           true,
@@ -3142,24 +3345,25 @@ VALUES(
           null,
           5
       ),(
-         'Berserker Handaxe',
+         'Flask or Tankard',
          'DND5E',
-         null, null,
-         'You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.
-                Curse.This axe is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the axe, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear.
-                Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.
-                Proficiency with a handaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, bonus: hit points per level, combat, cursed, light, thrown',
+         '1 lb',
+         '2 cp',
+         'A flask or tankard can hold 1 pint of liquid.',
          null,
          null,
-         'rare',
-         'yes',
-         false,
-         true,
-         false,
-         true,
+         null,
+         null,
+
          false,
          false,
          false,
+         false,
+         false,
+         false,
+         false,
+         null,
+
          null,
          null,
          null,
@@ -3167,19 +3371,52 @@ VALUES(
          null,
          null,
          null,
+
          null,
          null,
          null,
+
          null,
          5
-      ),('Flask or Tankard',
-         'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),('Rod of Alertness', 'DND5E', null, null, 'This rod has a flanged head and the following properties.
-Alertness.While holding the rod, you have advantage on Wisdom ([Perception](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception)) checks and on rolls for initiative.
-Spells.While holding the rod, you can use an action to cast one of the following spells from it:detect evil and good,detect magic,detect poison and disease, orsee invisibility.
-Protective Aura.As an action, you can plant the haft end of the rod in the ground, whereupon the rodnulls head sheds bright light in a 60-foot radius and dim light for an additional 60 feet. While in that bright light, you and any creature that is friendly to you gain a +1 bonus to AC and saving throws and can sense the location of any invisible hostile creature that is also in the bright light.
-The rodnulls head stops glowing and the Effect ends after 10 minutes, or when a creature uses an action to pull the rod from the ground. This property cannullt be used again until the next dawn.', 'advantage: perception, advantage: initiative, bonus: passive perception, detection, utility, warding', null, null, 'very rare', null, false, true, false, true, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),('Trident of Fish Command', 'DND5E', null, null, 'Weapon (trident), uncommon (requires attunement)
+      ),('Rod of Alertness',
+         'DND5E',
+         null,
+         null,
+         'This rod has a flanged head and the following properties.
+                *Alertness.* While holding the rod, you have advantage on Wisdom (Perception) checks and on rolls for initiative.
+                *Spells.* While holding the rod, you can use an action to cast one of the following spells from it: detect evil and good, detect magic, detect poison and disease, or see invisibility.
+                *Protective Aura.* As an action, you can plant the haft end of the rod in the ground, whereupon the rod''s head sheds bright light in a 60-foot radius and dim light for an additional 60 feet. While in that bright light, you and any creature that is friendly to you gain a +1 bonus to AC and saving throws and can sense the location of any invisible hostile creature that is also in the bright light.
+                The rod''s head stops glowing and the effect ends after 10 minutes, or when a creature uses an action to pull the rod from the ground. This property can''t be used again until the next dawn.',
+         'Advantage: Perception, Advantage: Initiative, Bonus: Passive Perception, Detection, Utility, Warding',
+         'Basic Rules (2014), pg. 196',
+         'very rare',
+         null,
+
+         true,
+         true,
+         false,
+         false,
+         true,
+         false,
+         false,
+         null,
+
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+
+         null,
+         null,
+         null,
+
+         null,
+         5
+      ),('Trident of Fish Command',
+         'DND5E', null, null, 'Weapon (trident), uncommon (requires attunement)
 This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to castdominate beast(save DC 15) from it on a beast that has an innate swimming speed. The trident regains 1d3 expended charges daily at dawn.
 Proficiency with a trident allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage, control, combat, thrown, versatile', null, NULL, 'uncommon', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),('Carpet of Flying', 'DND5E', null, null, 'You can speak the carpetnulls command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.
