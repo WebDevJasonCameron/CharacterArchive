@@ -3754,16 +3754,331 @@ VALUES(
          null,
          17
       ),(
+          'Mithral Chain Shirt',
+          'DND5E',
+          '20 lb',
+          null,
+          'Mithral is a light, flexible metal. A mithral chain shirt can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn''t.
+                Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer''s upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.',
+          'Stealth Disadvantage: Remove, Combat, Warding',
+          null,
+          'uncommon',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          13,
+          null,
+          null,
+
+          null,
+          17
+      ),(
+          'Mithral Scale Mail',
+          'DND5E',
+          '45 lb',
+          null,
+          'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn''t.
+                This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.',
+          'Stealth Disadvantage: Remove, Combat, Warding',
+          null,
+          'uncommon',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          14,
+          null,
+          null,
+
+          null,
+          17
+      ),(
+          'Mithral Breastplate',
+          'DND5E',
+          '20 lb',
+          null,
+          'Mithral is a light, flexible metal. A mithral breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn''t.
+                This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer''s vital organs while leaving the wearer relatively unencumbered.',
+          'Stealth Disadvantage: Remove, Combat, Warding',
+          null,
+          'uncommon',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          14,
+          null,
+          null,
+
+          null,
+          17
+      ),(
+          'Mithral Half Plate',
+          'DND5E',
+          '40 lb',
+          null,
+          'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn''t.
+                Half plate consists of shaped metal plates that cover most of the wearer''s body. It does not include leg protection beyond simple greaves that are attached with leather straps.',
+          'Stealth Disadvantage: Remove, Combat, Warding',
+          null,
+          'uncommon',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          15,
+          null,
+          null,
+
+          null,
+          17
+      ),(
+          'Mithral Ring Mail',
+          'DND5E',
+          '40 lb',
+          null,
+          'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn''t.
+                This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it''s usually worn only by those who can''t afford better armor.',
+          'Stealth Disadvantage: Remove, Combat, Warding',
+          null,
+          'uncommon',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          14,
+          null,
+          null,
+
+          null,
+          17
+      ),(
+          'Mithral Chain Mail',
+          'DND5E',
+          '55 lb',
+          null,
+          'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn''t.
+                Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.',
+          'Stealth Disadvantage: Remove, Combat, Warding, Str. 13 Required, Stealth Disadvantage',
+          null,
+          'uncommon',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          16,
+          null,
+          null,
+
+          null,
+          17
+      ),(
+          'Mithral Splint',
+          'DND5E',
+          '60 lb',
+          null,
+          'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn''t.
+                This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.',
+          'Stealth Disadvantage: Remove, Combat, Warding, Str. 15 Required, Stealth Disadvantage',
+          null,
+          'uncommon',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          17,
+          null,
+          null,
+
+          null,
+          17
+      ),(
+          'Mithral Plate',
+          'DND5E',
+          '65 lb',
+          null,
+          'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn''t.
+                Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.',
+          'Stealth Disadvantage: Remove, Combat, Warding, Str. 15 Required, Stealth Disadvantage',
+          null,
+          'uncommon',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          18,
+          null,
+          null,
+
+          null,
+          17
+      ),(
          'Frost Brand Scimitar',
+         'DND5E',
+         '3 lb',
+         null,
+         'When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.
+            In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
+            When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour.
+            Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+            ---
+            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+            *Nick.* When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.' ,
+         'Damage: Cold, Resistance: Fire, Damage, Combat, Warding, Finesse, Light, Nick',
+         null,
+         'very rare',
+         null,
+
+         true,
+         true,
+         true,
+         false,
+         false,
+         false,
+         false,
+         null,
+
+         'slashing, frost',
+         '5 ft',
+         '1d6+3 (1d6 frost)',
+         null,
+         'Finesse, Light, Nick',
+         null,
+         null,
+
+         null,
+         null,
+         null,
+
+         null,
+         5
+      ),(
+         'Potion of Force Resistance',
          'DND5E',
          null,
          null,
-         'When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.
-In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
-When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour.
-Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: cold, resistance: fire, damage, combat, warding, finesse, light', null, null, 'very rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Potion of Force Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to force damage for 1 hour.', 'resistance: force, warding, consumable', null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
+         'When you drink this potion, you gain resistance to force damage for 1 hour.', 'resistance: force, warding, consumable', null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Rope, Silk (50 feet)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
