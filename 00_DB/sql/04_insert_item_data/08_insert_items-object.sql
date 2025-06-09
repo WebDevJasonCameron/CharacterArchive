@@ -18,16 +18,13 @@ INSERT INTO items (
     item_has_charges,
     item_number_of_charges,
 
-    item_weapon_attack_type,
     item_weapon_range,
-    item_weapon_damage,
+    item_weapon_damage_calc,
     item_weapon_damage_type,
     item_weapon_properties,
-    item_weapon_type,
     item_weapon_notes,
 
     item_armor_class,
-    item_armor_type,
     item_armor_notes,
 
     item_image_url,
@@ -49,16 +46,12 @@ VALUES(
           false,
           false,
           false,
-          false,
           null,
 
           null,
           null,
           null,
           null,
-          null,
-          null,
-
           null,
           null,
 
@@ -95,8 +88,6 @@ VALUES(
 
           null,
           null,
-
-          null,
           null,
           null,
           5
@@ -125,19 +116,18 @@ VALUES(
           false,
           false,
           true,
-          null,
+          10,
 
           'melee',
-          null,
+          '5 ft',
           '1d6 (Two-handed: 1d8)',
           'bludgeoning',
-          'versatile',
-          'staff',
-
-          null,
+          '10/10 Charges, Simple, Versatile, Topple',
           null,
 
           null,
+          null,
+
           null,
           17
       ),(
@@ -161,7 +151,6 @@ VALUES(
           false,
           null,
 
-          null,
           null,
           null,
           null,
@@ -4059,10 +4048,10 @@ VALUES(
          false,
          null,
 
-         'slashing, frost',
+         'melee',
          '5 ft',
          '1d6+3 (1d6 frost)',
-         null,
+         'slashing, frost',
          'Finesse, Light, Nick',
          null,
          null,
@@ -4078,15 +4067,304 @@ VALUES(
          'DND5E',
          null,
          null,
-         'When you drink this potion, you gain resistance to force damage for 1 hour.', 'resistance: force, warding, consumable', null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
+         'When you drink this potion, you gain resistance to force damage for 1 hour.',
+         'resistance: force, warding, consumable',
+         null,
+         'uncommon',
+         null,
+
+         true,
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         null,
+
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+
+         null,
+         null,
+         null,
+
+         null,
+         17
       ),(
-         'Rope, Silk (50 feet)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
+         'Rope Silk (50 feet)',
+         'DND5E',
+         '5 lbs',
+         '10 gp',
+         'Rope, has 2 hit points and can be burst with a DC 17 Strength check.',
+         null,
+         null,
+         null,
+         null,
+
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         null,
+
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+
+         null,
+         null,
+         null,
+
+         null,
+         5
       ),(
-         'Greatsword of Wounding', 'DND5E', null, null, 'Hit points lost to this weaponnulls damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
-Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creaturenulls turns, it takes 1d4 necrotic damage for each time younullve wounded it, and it can then make a DC 15 Constitution saving throw, ending the Effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the Effect of such wounds on it on a success.
-Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: necrotic, damage, combat, heavy, two-handed', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
+         'Sword of Wounding',
+         'DND5E',
+         null,
+         null,
+         'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
+                Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature''s turns, it takes 1d4 necrotic damage for each time you''ve wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.
+
+                *Applicable Weapons:*
+                | Name | Type | Damage | Properties |
+                | --- | --- | --- | --- |
+                | Greatsword | Martial Melee | 2d6 slashing | Heavy, two-handed |
+                | Longsword | Martial Melee | 1d8 slashing | Versatile (1d10) |
+                | Rapier | Martial Melee | 1d8 piercing | Finesse |
+                | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
+                | Shortsword | Martial Melee | 1d6 piercing | Finesse, light |',
+         'Damage: Necrotic, Damage, Combat',
+         'Basic Rules (2014), pg. 207',
+         'rare',
+         null,
+
+         true,
+         true,
+         false,
+         false,
+         false,
+         false,
+         false,
+         null,
+
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+         null,
+
+         null,
+         null,
+         null,
+
+         null,
+         5
       ),(
-         'Dragon Scale Mail (Gold)', 'DND5E', null, null, 'Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.
+          'Greatsword of Wounding',
+          'DND5E',
+          '6 lb',
+          null,
+          'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
+                Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature''s turns, it takes 1d4 necrotic damage for each time you''ve wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.
+
+                Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                *Graze.* If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+          'Damage: Necrotic, Damage, Combat',
+          null,
+          'rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          'melee',
+          '5 ft',
+          '2d6+3 (1d4 necrotic)',
+          'slashing, necrotic',
+          'Heavy, Two-Handed, Graze',
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+      ),(
+          'Longsword of Wounding',
+          'DND5E',
+          '3 lb',
+          null,
+          'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
+                Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature''s turns, it takes 1d4 necrotic damage for each time you''ve wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.
+
+                Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Damage: Necrotic, Damage, Combat, Versatile, Sap',
+          null,
+          'rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          'melee',
+          '5 ft',
+          '1d8+3 (two-handed: 1d10+3) (1d4 necrotic)',
+          'slashing, necrotic',
+          'Versatile (1d10), Sap',
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+      ),(
+          'Rapier of Wounding',
+          'DND5E',
+          '2 lb',
+          null,
+          'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
+                Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature''s turns, it takes 1d4 necrotic damage for each time you''ve wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.
+                Proficiency with a Rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn',
+          'Damage: Necrotic, Damage, Combat, Finesse, Vex',
+          null,
+          'rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          'melee',
+          '5 ft',
+          '1d8+3 (1d4 necrotic)',
+          'piercing, necrotic',
+          'Finesse, Vex',
+          null,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+      ),(
+          '--- of Wounding',
+          'DND5E',
+          '',
+          null,
+          '',
+          'Damage: Necrotic, Damage, Combat',
+          null,
+          'rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '',
+          '',
+          '',
+          '',
+          '',
+          '',
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+      ),(
+          '--- of Wounding',
+          'DND5E',
+          '',
+          null,
+          '',
+          'Damage: Necrotic, Damage, Combat',
+          null,
+          'rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '',
+          '',
+          '',
+          '',
+          '',
+          '',
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          5
+      ),(
+         'Dragon Scale Mail (Gold)',
+         'DND5E',
+         null, null, 'Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.
 While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.
 Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest gold dragon within 30 miles of you. This special action cannullt be used again until the next dawn.
 This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'bonus: armor class, resistance: fire, advantage: saving throws, detection, combat, warding, stealth disadvantage', null, null, 'very rare', null, false, true, false, true, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
