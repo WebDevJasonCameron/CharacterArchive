@@ -30,3 +30,34 @@ INSERT INTO items (
     item_image_url,
     item_source_id)
 VALUES(
+          'Scale, Merchant''s',
+          'DND5E',
+          '3 lbs',
+          '5 gp',
+          'A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.',
+          null,
+          'Basic Rules (2014)',
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      )

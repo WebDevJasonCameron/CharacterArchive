@@ -30,3 +30,33 @@ INSERT INTO items (
     item_image_url,
     item_source_id)
 VALUES(
+          'Crystal',
+          'DND5E',
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+          null,
+          5
+      )
