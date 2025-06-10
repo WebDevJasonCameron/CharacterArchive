@@ -60,4 +60,165 @@ VALUES(
 
           null,
           5
+      ),
+      (
+          'Tent, Two-Person',
+          'DND5E',
+          '20 lbs',
+          '2 gp',
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Bottle, Glass',
+          'DND5E',
+          '2 lbs',
+          '2 gp',
+          'A bottle can hold 1 1/2 pints of liquid.',
+          null,
+          'Basic Rules (2014)',
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Pick, Miner''s',
+          'DND5E',
+          '10 lbs',
+          '2 gp',
+          'A miner''s pick is designed to concentrate the force of its blow on a small area.',
+          null,
+          null,
+          'common',
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Saddle, Pack',
+          'DND5E',
+          '15 lbs',
+          '5 gp',
+          'A standard saddle for a pack mount.',
+          null,
+          null,
+          'common',
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Spikes, Iron (10)',
+          'DND5E',
+          '5 lbs',
+          '1 gp',
+          'Standard iron spikes typically used with a hammer.',
+          null,
+          null,
+          'common',
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       )

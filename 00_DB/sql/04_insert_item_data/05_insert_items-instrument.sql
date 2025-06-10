@@ -200,4 +200,37 @@ VALUES(
 
           null,
           53
+      ),
+      (
+          'Viol',
+          'DND5E',
+          '1 lb',
+          '30 gp',
+          '*Ability:* Charisma
+               *Utilize:* Play a known tune (DC 10), or improvise a song (DC 15)',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       )
