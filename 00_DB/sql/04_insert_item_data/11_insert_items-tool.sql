@@ -94,4 +94,40 @@ VALUES (
 
        null,
        5
+       ),
+       (
+           'Carpenter''s Tools',
+           'DND5E',
+           '6 lbs',
+           '8 gp',
+           '*Ability:* Strength
+                *Utilize:* Seal or pry open a door or container (DC 20)
+                *Craft:* Club, Greatclub, Quarterstaff, Barrel, Chest, Ladder, Pole, Portable Ram, Torch
+                ---
+                If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.',
+           null,
+           null,
+           null,
+           null,
+
+           false,
+           false,
+           false,
+           false,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           null,
+           null,
+
+           null,
+           5
        )

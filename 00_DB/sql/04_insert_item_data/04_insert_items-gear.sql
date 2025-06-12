@@ -285,4 +285,68 @@ VALUES(
 
           null,
           5
+      ),
+      (
+          'Soap',
+          'DND5E',
+          null,
+          '2 cp',
+          'A commodity used for bathing.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Saddle, Military',
+          'DND5E',
+          '30 lbs',
+          '20 gp',
+          'A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       )

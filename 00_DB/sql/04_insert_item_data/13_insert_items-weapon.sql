@@ -1057,5 +1057,176 @@ VALUES(
 
     null,
     5
+    ),
+    (
+    'Vicious Trident',
+    'DND5E',
+    null,
+    null,
+    'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+        Proficiency with a Trident allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        *Topple.* If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+    ' Damage: Additional, Damage, Combat, Thrown, Versatile, Topple',
+    null,
+    'rare',
+    null,
+
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    null,
+
+    null,
+    null,
+    null,
+    null,
+    null,
+
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Wands of the War Mage',
+    'DND5E',
+    null,
+    null,
+    'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.
+
+        | RARITY | BONUS |
+        | --- | --- |
+        | Uncommon| +1 |
+        | Rare| +2 |
+        | Very Rare| +3 | ',
+    'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
+    'Dungeon Master’s Guide, pg. 212',
+    'varies',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    null,
+
+    null,
+    null,
+    null,
+    null,
+    null,
+
+    null,
+    null,
+
+    null,
+    17
+    ),
+    (
+    'Wand of the War Mage, +1',
+    'DND5E',
+    null,
+    null,
+    'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
+    'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
+    null,
+    'uncommon',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    null,
+
+    null,
+    null,
+    null,
+    null,
+    null,
+
+    null,
+    null,
+
+    null,
+    17
+    ),
+    (
+    'Wand of the War Mage, +2',
+    'DND5E',
+    null,
+    null,
+    'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
+    'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
+    null,
+    'very rare',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    null,
+
+    null,
+    null,
+    null,
+    null,
+    null,
+
+    null,
+    null,
+
+    null,
+    17
+    ),
+    (
+    'Wand of the War Mage, +3',
+    'DND5E',
+    null,
+    null,
+    'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
+    'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
+    null,
+    'very rare',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    null,
+
+    null,
+    null,
+    null,
+    null,
+    null,
+
+    null,
+    null,
+
+    null,
+    17
     )
+
 
