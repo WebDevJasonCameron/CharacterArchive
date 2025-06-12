@@ -29,43 +29,76 @@ INSERT INTO items (
 
     item_image_url,
     item_source_id)
-VALUES(
-          'Longship',
-          'DND5E',
-          null,
-          '10000 gp',
-          'Longships have the following statistics:
-               ---
-               *AC* 15
-               *HP* 300
-               *Speed* 3 mph
-               *Damage Threshold* 15
-               *Crew* 40
-               *Passengers* 150
-               *Cargo (Tons)* 10',
-          null,
-          null,
-          null,
-          null,
+VALUES
+        (
+        'Longship',
+        'DND5E',
+        null,
+        '10000 gp',
+        'Longships have the following statistics:
+           ---
+           *AC* 15
+           *HP* 300
+           *Speed* 3 mph
+           *Damage Threshold* 15
+           *Crew* 40
+           *Passengers* 150
+           *Cargo (Tons)* 10',
+        null,
+        null,
+        null,
+        null,
 
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
 
-          null,
-          null,
-          null,
-          null,
-          null,
+        null,
+        null,
+        null,
+        null,
+        null,
 
-          null,
-          null,
+        null,
+        null,
 
-          null,
-          53
-      )
+        null,
+        53
+        ),
+        (
+        'Wagon',
+        'DND5E',
+        '400 lbs',
+        '35 gp',
+        'If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        )

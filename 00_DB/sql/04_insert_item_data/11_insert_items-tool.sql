@@ -28,7 +28,8 @@ INSERT INTO items (item_name,
 
                    item_image_url,
                    item_source_id)
-VALUES ('Cartographer''s Tools',
+VALUES (
+        'Cartographer''s Tools',
         'DND5E',
         '6 lbs',
         '15 gp',
@@ -60,4 +61,37 @@ VALUES ('Cartographer''s Tools',
         null,
 
         null,
-        53)
+        53
+       ),
+       (
+       'Glassblower''s Tools',
+       'DND5E',
+       '5 lbs',
+       '30 gp',
+       'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+       )

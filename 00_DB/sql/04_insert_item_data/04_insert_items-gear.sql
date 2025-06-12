@@ -221,4 +221,68 @@ VALUES(
 
           null,
           5
+      ),
+      (
+          'Lamp',
+          'DND5E',
+          '1 lb',
+          '5 sp',
+          'A Lamp burns Oil as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ball Bearings',
+          'DND5E',
+          '2 lbs',
+          '1 gp',
+          'As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       )

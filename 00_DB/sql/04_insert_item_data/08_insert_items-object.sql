@@ -30,558 +30,18 @@ INSERT INTO items (
     item_image_url,
     item_source_id)
 VALUES(
-          'Goggles of Night',
-          'DND5E',
-          null,
-          null,
-          'While wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the goggles increases its range by 60 feet.',
-          'sense: darkvision, detection, eyewear',
-          'Dungeon Master’s Guide',
-          'uncommon',
-          'Wondrous Item',
-
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-
-          null,
-          17
-      ),
-    (
-          'Figurine of Wondrous Power',
-          'DND5E',
-          null,
-          null,
-          'A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn''t enough space for the creature, the figurine doesn''t become a creature.
-               The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
-               The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can''t be used again until a certain amount of time has passed, as specified in the figurine''s description.
-               *Bronze Griffon(Rare).* This bronze statuette is of a griffon rampant. It can become a griffon for up to 6 hours. Once it has been used, it can''t be used again until 5 days have passed.
-               *Ebony Fly(Rare).* This ebony statuette is carved in the likeness of a horsefly. It can become a giant fly for up to 12 hours and can be ridden as a mount. Once it has been used, it can''t be used again until 2 days have passed.
-               *Golden Lions (Rare).* These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a lion for up to 1 hour. Once a lion has been used, it can''t be used again until 7 days have passed.
-               *Ivory Goats(Rare).*  These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:
-               - The goat of traveling can become a Large goat with the same statistics as a riding horse. It has 24 charges, and each hour or portion thereof it spends in beast form costs 1 charge. While it has charges, you can use it as often as you wish. When it runs out of charges, it reverts to a figurine and can''t be used again until 7 days have passed, when it regains all its charges.
-               - The goat of travail becomes a giant goat for up to 3 hours. Once it has been used, it can''t be used again until 30 days have passed.
-               - The goat of terror becomes a giant goat for up to 3 hours. The goat can''t attack, but you can remove its horns and use them as weapons. One horn becomes a lance, +1, and the other becomes a longsword, +2. Removing a horn requires an action, and the weapons disappear and the horns return when the goat reverts to figurine form. In addition, the goat radiates a 30-foot-radius aura of terror while you are riding it. Any creature hostile to you that starts its turn in the aura must succeed on a DC 15 Wisdom saving throw or be frightened of the goat for 1 minute, or until the goat reverts to figurine form. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it successfully saves against the effect, a creature is immune to the goat''s aura for the next 24 hours. Once the figurine has been used, it can''t be used again until 15 days have passed.
-               *Marble Elephant(Rare).* This marble statuette is about 4 inches high and long. It can become an elephant for up to 24 hours. Once it has been used, it can''t be used again until 7 days have passed.
-               *Obsidian Steed(Very Rare).* This polished obsidian horse can become a nightmare for up to 24 hours. The nightmare fights only to defend itself. Once it has been used, it can''t be used again until 5 days have passed.
-               If you have a good alignment, the figurine has a 10 percent chance each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the nightmare while it is ignoring your orders, you and the nightmare are instantly transported to a random location on the plane of Hades, where the nightmare reverts to figurine form.
-               *Onyx Dog(Rare).* This onyx statuette of a dog can become a mastiff for up to 6 hours. The mastiff has an Intelligence of 8 and can speak Common. It also has darkvision out to a range of 60 feet and can see invisible creatures and objects within that range. Once it has been used, it can''t be used again until 7 days have passed.
-               *Serpentine Owl (Rare).* This serpentine statuette of an owl can become a giant owl for up to 8 hours. Once it has been used, it can''t be used again until 2 days have passed. The owl can telepathically communicate with you at any range if you and it are on the same plane of existence.
-               *Silver Raven(Uncommon).* This silver statuette of a raven can become a raven for up to 12 hours. Once it has been used, it can''t be used again until 2 days have passed. While in raven form, the figurine allows you to cast the animal messenger spell on it at will.',
-          'Summoning',
-          'Basic Rules (2014), pg. 169',
-          'varies',
-          'Wondrous Item',
-
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Potion of Clairvoyance',
-          'DND5E',
-          null,
-          null,
-          'When you drink this potion, you gain the Effect of the clairvoyance spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.',
-          'Scrying, detection, consumable',
-          null,
-          null,
-          'rare',
-
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          17
-      ),(
-          'Blowgun Needles',
-          'DND5E',
-          '1 lb',
-          '1 gp',
-          'Blowgun needles are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.',
-          null,
-          null,
-          null,
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Berserker Axe',
-          'DND5E',
-          null,
-          null,
-          'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.
-               *Curse.* This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one.
-               Whenever another creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.
-               While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you’re unable to get close enough to the creature to attack it with the weapon, your turn ends after you’ve used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.
-               *Applicable Weapons:*
-               | *Name* | *Type* | *Damage* | *Properties* |
-               | --- | --- | --- | ---|
-               | Handaxe | Simple Melee | 1d6 Slashing | Light, thrown (20/60) |
-               | Battleaxe | Martial Melee | 1d8 Slashing | Versatile (1d10) |
-               | Greataxe | Martial Melee | 1d12 Slashing | Heavy, two-handed |
-               | Halberd | Martial Melee | 1d10 Slashing | Heavy, Reach, Two-Handed' |,
-          'bonus: magic, bonus: hit points per level, combat, cursed, versatile',
-          null,
-          null,
-          'rare',
-
-          true,
-          true,
-          true,
-          true,
-          true,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Lamp',
-          'DND5E',
-          '1 lb',
-          '5 sp',
-          'A Lamp burns Oil as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.',
-          null,
-          null,
-          null,
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          53
-      ),(
-          'Ring of Fire Elemental Command',
-          'DND5E',
-          null,
-          null,
-          'This ring is linked to the Elemental Plane of Fire.
-               While wearing this ring, you have advantage on attack rolls against fire elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Fire.
-               The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.
-               You can expend 2 of the ring''s charges to cast dominate monster on a fire elemental. In addition, you have resistance to fire damage. You can also speak and understand Ignan.
-               - You are immune to fire damage.
-               - You can cast the following spells from the ring, expending the necessary number of charges: burning hands (1 charge), fireball (2 charges), and wall of fire (3 charges).',
-          'Resistance: Fire, Immunity: Fire, Damage, Control, Warding, Jewelry',
-          'Basic Rules (2014), pg. 190',
-          'legendary',
-          null,
-
-          true,
-          true,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),('Wagon',
-         'DND5E',
-         '400 lbs',
-         '35 gp',
-         'An animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, add their carrying capacities together.',
-         null,
-         null,
-         null,
-         null,
-
-         false,
-         false,
-         false,
-         false,
-         false,
-         false,
-         false,
-         null,
-
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-         null,
-
-         null,
-         null,
-         null,
-
-         null,
-         53
-      ),(
-          'Ball Bearings',
-          'DND5E',
-          '2 lbs',
-          '1 gp',
-          'As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings.',
-          null,
-          null,
-          null,
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Ring of Animal Influence',
-          'DND5E',
-          null,
-          null,
-          'This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can expend 1 charge to cast one of the following spells (save DC 13) from it:
-               - Animal Friendship
-               - Fear (affects Beasts only)
-               - Speak with Animals',
-          null,
-          'Dungeon Master’s Guide, pg. 292',
-          'rare',
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          '',
-          5
-      ),(
-          'Glassblower''s Tools',
-          'DND5E',
-          '5 lbs',
-          '30 gp',
-          '*Ability:* Intelligence
-               *Utilize:* Discern what a glass object held in the past 24 hours (DC 15)
-               *Craft:* Glass Bottle, Magnifying Glass, Spyglass, Vial
-               ---
-               If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.',
-          null,
-          null,
-          null,
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Luck Blade',
-          'DND5E',
-          null,
-          null,
-          'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. While the weapon is on your person, you also gain a +1 bonus to saving throws.
-               *Luck.* If the weapon is on your person, you can call on its luck (no action required) to reroll one failed D20 Test if you don’t have the Incapacitated condition. You must use the second roll. Once used, this property can’t be used again until the next dawn.
-               *Wish.* The weapon has 1d3 charges. While holding it, you can expend 1 charge and cast Wish from it. Once used, this property can’t be used again until the next dawn. The weapon loses this property if it has no charges.
-
-               *Applicable Weapons*
-               | Name | Damage | Properties | | Mastery |
-               | Glaive | 1d10 Slashing | Heavy, Reach, Two-Handed | Graze |
-               | Greatsword | 2d6 Slashing | Heavy, Two-Handed | Graze |
-               | Longsword | 1d8 Slashing | Versatile (1d10) | Sap |
-               | Rapier | 1d8 Piercing | Finesse | Vex |
-               | Scimitar | 1d6 Slashing | Finesse, Light | Nick |
-               | Sickle | 1d6 Slashing | Finesse, Light | Nick |
-               | Shortsword | 1d6 Piercing | Finesse, Light | Vex |',
-          'Bonus: Magic, Bonus: Saving Throws',
-          'Dungeon Master’s Guide, pg. 275',
-          null,
-          'legendary',
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-          '',
-          17
-      ),
-      ('Horn of Valhalla',
-       'DND5E',
-       null,
-       null,
-       'You can use an action to blow this horn. In response, warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a berserker. They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can''t be used again until 7 days have passed.
-               Four types of horn of Valhalla are known to exist, each made of a different metal. The horn''s type determines how many berserkers answer its summons, as well as the requirement for its use. The GM chooses the horn''s type or determines it randomly.
-
-               | *d100* | *Horn Type* | *Berserkers Summoned* | *Requirement* |
-               | --- | --- | --- | --- |
-               | 01-40 | Silver | 2d4 + 2 | None |
-               | 41-75 | Brass | 3d4 + 3 | Proficiency with all simple weapons |
-               | 76-90 | Bronze | 4d4 + 4 | Proficiency with all medium armor |
-               | 91-100 | Iron | 5d4 + 5 | Proficiency with all martial weapons |
-               If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.
-
-   ',
-       'summoning',
-       'Basic Rules (2014), pg. 175',
-       'varies'
-           'Wondrous Item',
-       true,
-       false,
-       false,
-       false,
-       false,
-       false,
-       false,
-       null,
-       null,
-       null,
-       null,
-       null,
-       null,
-       null,
-       null,
-       null,
-       null,
-       null,
-       null,
-       5
-      ),(
-          'Berserker Handaxe',
-          'DND5E',
-          null,
-          null,
-          'You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.
-                   *Curse.* This axe is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the axe, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear.
-                   Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.
-                   Proficiency with a Handaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
-                   ---
-                   This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
-                   *Vex.* If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
-          'Bonus: Magic, Bonus: Hit Points per Level, Combat, Cursed, Light, Thrown, Vex',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          true,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          17
-      ),(
-         'Berserker Battleaxe',
+        'Goggles of Night',
         'DND5E',
         null,
         null,
-        'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.
-            *Curse.* This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one.
-            Whenever another creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.
-            While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you’re unable to get close enough to the creature to attack it with the weapon, your turn ends after you’ve used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.
-            Proficiency with a Battleaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
-            ---
-            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
-            *Topple.* If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
-        'Bonus: Magic, Bonus: Hit Points per Level, Combat, Cursed, Versatile, Topple',
-        null,
-         'rare',
-        null,
+        'While wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the goggles increases its range by 60 feet.',
+        'sense: darkvision, detection, eyewear',
+        'Dungeon Master’s Guide',
+        'uncommon',
+        'Wondrous Item',
 
         true,
-        true,
-        true,
+        false,
         false,
         false,
         false,
@@ -595,1370 +55,204 @@ VALUES(
         null,
         null,
 
-        null,
         null,
         null,
 
         null,
         17
-      ),(
-          'Berserker Greataxe',
-          'DND5E',
-          null,
-          null,
-          'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.
-                *Curse.* This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one.
-                Whenever another creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.
-                While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you’re unable to get close enough to the creature to attack it with the weapon, your turn ends after you’ve used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.
-                Proficiency with a Greataxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
-                ---
-                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
-                *Cleave.* If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.',
-          'Bonus: Magic, Bonus: Hit Points per Level, Combat, Cursed, Heavy, Two-Handed, Cleave',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          true,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          17
-      ),(
-          'Berserker Halberd',
-          'DND5E',
-          null,
-          null,
-          'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.
-                *Curse.* This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one.
-                Whenever another creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.
-                While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you’re unable to get close enough to the creature to attack it with the weapon, your turn ends after you’ve used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.',
-          'Bonus: Magic, Bonus: Hit Points per Level, Combat, Cursed, Heavy, Reach, Two-Handed, Cleave',
-          'Dungeon Master’s Guide, pg. 236',
-          'rare',
-          true,
-
-          true,
-          false,
-          true,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          17
-      ),(
-          'Instant Fortress',
-          'DND5E',
-          null,
-          null,
-          'You can use an action to place this 1-inch metal cube on the ground and speak its command word. The cube rapidly grows into a fortress that remains until you use an action to speak the command word that dismisses it, which works only if the fortress is empty.
-               The fortress is a square tower, 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors, with a ladder running along one wall to connect them. The ladder ends at a trapdoor leading to the roof. When activated, the tower has a small door on the side facing you. The door opens only at your command, which you can speak as a bonus action. It is immune to the knock spell and similar magic, such as that of a chime of opening.
-               Each creature in the area where the fortress appears must make a DC 15 Dexterity saving throw, taking 10d10 bludgeoning damage on a failed save, or half as much damage on a successful one. In either case, the creature is pushed to an unoccupied space outside but next to the fortress. Objects in the area that aren''t being worn or carried take this damage and are pushed automatically.
-               The tower is made of adamantine, and its magic prevents it from being tipped over. The roof, the door, and the walls each have 100 hit points, immunity to damage from nonmagical weapons excluding siege weapons, and resistance to all other damage. Only a wish spell can repair the fortress (this use of the spell counts as replicating a spell of 8th level or lower). Each casting of wish causes the roof, the door, or one wall to regain 50 hit points.',
-          'Utility, Warding',
-          null,
-          'rare',
-          'Wondrous Item',
-
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Luck Blade Greatsword',
-          'DND5E',
-          null,
-          null,
-          'You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.
-               *Luck.* If the sword is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll. This property can''t be used again until the next dawn.
-               *Wish.* The sword has 1d4–1 charges. While holding it, you can use an action to expend 1 charge and cast the wish spell from it. This property can''t be used again until the next dawn. The sword loses this property if it has no charges.
-               Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
-               ---
-               This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
-               *Graze.* If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
-          'Bonus: Magic, Bonus: Saving Throws, Damage, Control, Buff, Combat, Heavy, Two-Handed, Graze',
-          'Basic Rules (2014)',
-          'legendary',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          '',
-          5
-      ),(
-          'Wand of Magic Missiles',
-          'DND5E',
-          null,
-          null,
-          'This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast Magic Missile from it. For 1 charge, you cast the level 1 version of the spell. You can increase the spell’s level by 1 for each additional charge you expend.
-               *Regaining Charges.* The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.',
-          null,
-          'Dungeon Master’s Guide, pg. 320',
-          'uncommon',
-          null,
-
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Potion of Vitality',
-          'DND5E',
-          null,
-          null,
-          'When you drink this potion, it removes any Exhaustion levels you have and ends the Poisoned condition on you. For the next 24 hours, you regain the maximum number of Hit Points for any Hit Point Die you spend.
-               This potion’s crimson liquid regularly pulses with dull light, calling to mind a heartbeat.',
-          'Cures Disease, Removes Poison, Max HP from Hit Dice, Healing, Consumable',
-          'Dungeon Master’s Guide, pg. 188',
-          'very rare',
-          null,
-
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Sprig of Mistletoe',
-          'DND5E',
-          null,
-          '1 gp',
-          'A Sprig of Mistletoe is a Druidic Focus that is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use this item as a Spellcasting Focus',
-          null,
-          null,
-          null,
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Dragon Scale Mail',
-          'DND5E',
-          null,
-          null,
-          'Dragon Scale Mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them. Other times, hunters carefully preserve the hide of a dead dragon. In either case, Dragon Scale Mail is highly valued.
-               While wearing this armor, you gain a +1 bonus to Armor Class, you have Advantage on saving throws against the breath weapons of Dragons, and you have Resistance to one damage type determined by the kind of dragon that provided the scales (see the accompanying table).
-               Additionally, you can focus your senses as a Magic action to discern the distance and direction to the closest dragon within 30 miles of yourself that is of the same type as the armor. This action can’t be used again until the next dawn.
-
-               | *Dragon* | *Resistance* |
-               | Black | Acid |
-               | Blue | Lightning |
-               | Brass | Fire |
-               | Bronze | Lightning |
-               | Copper | Acid |
-               | Gold | Fire |
-               | Green | Poison |
-               | Red | Fire |
-               | Silver | Cold |
-               | White | Cold |
-               Notes: Bonus: Armor Class, Advantage: Saving Throws, Resistance: Acid, Resistance: Cold, Resistance: Fire, Resistance: Lightning, Resistance: Poison, Stealth Disadvantage',
-          'bonus: armor class, advantage: saving throws, resistance: acid, resistance: cold, resistance: fire, resistance: lightning, resistance: poison, detection, combat, warding, stealth disadvantage',
-          'Dungeon Master’s Guide, pg. 254',
-          'very rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Vicious Revolver',
-          'DND5E',
-          null,
-          null,
-          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-               It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
-               ---
-               This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
-               *Sap.* If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
-          'Damage: Additional, Damage, Combat, Range, Ammunition (Firearms), Reload, Sap',
-          'Basic Rules (2014), pg. 209',
-          'rare',
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Ring of Fire Resistance',
-          'DND5E',
-          null,
-          null,
-          'You have resistance to fire damage while wearing this garnet ring.',
-          'Resistance: Fire, Warding, Jewelry',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Amulet of the Planes',
-          'DND5E',
-          null,
-          null,
-          'While wearing this amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast theplane shiftspell. On a failure, you and each creature and object within 15 feet of you travel to a random destination. Roll a d100. On a 1–60, you travel to a random location on the plane you named. On a 61–100, you travel to a randomly determined plane of existence.',
-          'Teleportation, Exploration, Jewelry',
-          'Basic Rules (2014), pg. 150',
-          'very rare',
-          null,
-
-          true,
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Oathbow',
-          'DND5E',
-          null,
-          null,
-          'When you nock an arrow on this bow, it whispers in Elvish, "Swift defeat to my enemies." When you use this weapon to make a ranged attack, you can, as a command phrase, say, "Swift death to you who have wronged me." The target of your attack becomes your sworn enemy until it dies or until dawn seven days later. You can have only one such sworn enemy at a time. When your sworn enemy dies, you can choose a new one after the next dawn.
-   When you make a ranged attack roll with this weapon against your sworn enemy, you have advantage on the roll. In addition, your target gains no benefit from cover, other than total cover, and you suffer no disadvantage due to long range. If the attack hits, your sworn enemy takes an extra 3d6 piercing damage.
-   While your sworn enemy lives, you have disadvantage on attack rolls with all other weapons.
-   Proficiency with a longbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.',
-          'Damage: Piercing, Damage, Combat, Bane',
-          'Dungeon Master’s Guide, pg. 282',
-          'very rare',
-          null,
-
-          true,
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          17
-      ),(
-          'Ring of Resistance',
-          'DND5E',
-          null,
-          null,
-          'You have resistance to one damage type while wearing this ring. The gem in the ring indicates the type, which the DM chooses or determines randomly.
-               | *d10* | *Damage Type* | *Gem*        |
-               | 1   | Ring of Resistance - Acid     | Pearl      |
-               | 2   | Ring of Resistance - Cold     | Tourmaline |
-               | 3   | Ring of Resistance - Fire     | Garnet     |
-               | 4   | Ring of Resistance - Force    | Sapphire   |
-               | 5   | Ring of Resistance - Lightning | Citrine    |
-               | 6   | Ring of Resistance - Necrotic | Jet        |
-               | 7   | Ring of Resistance - Poison   | Amethyst   |
-               | 8   | Ring of Resistance - Psychic  | Jade       |
-               | 9   | Ring of Resistance - Radiant  | Topaz      |
-               | 10  | Ring of Resistance - Thunder  | Spinel     |',
-          'Resistance: Acid, Resistance: Cold, Resistance: Fire, Resistance: Force, Resistance: Lightning, Resistance: Necrotic, Resistance: Poison, Resistance: Psychic, Resistance: Radiant, Resistance: Thunder, Warding, Jewelry',
-          'Dungeon Master’s Guide, pg. 294',
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-    ),(
-          'Ring of Acid Resistance',
-          'DND5E',
-          null,
-          null,
-          'You have resistance to acid damage while wearing this pearl ring.',
-          'Resistance: Acid, Warding, Jewelry',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Ring of Cold Resistance',
-          'DND5E',
-          null,
-          null,
-          'You have resistance to cold damage while wearing this tourmaline ring.',
-          'Resistance: Cold, Warding, Jewelry',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Ring of Fire Resistance',
-          'DND5E',
-          null,
-          null,
-          'You have resistance to fire damage while wearing this garnet ring.',
-          'Resistance: Fire, Warding, Jewelry',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Ring of Force Resistance',
-          'DND5E',
-          null,
-          null,
-          'You have resistance to force damage while wearing this sapphire ring.',
-          'Resistance: Force, Warding, Jewelry',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Ring of Lightning Resistance',
-          'DND5E',
-          null,
-          null,
-          'You have resistance to lightning damage while wearing this citrine ring.',
-          'Resistance: Lightning, Warding, Jewelry',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Ring of Necrotic Resistance',
-          'DND5E',
-          null,
-          null,
-          'You have resistance to necrotic damage while wearing this jet ring.',
-          'Resistance: Necrotic, Warding, Jewelry',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Ring of Poison Resistance',
-          'DND5E',
-          null,
-          null,
-          'You have resistance to poison damage while wearing this amethyst ring.',
-          'Resistance: Poison, Warding, Jewelry',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Ring of Psychic Resistance',
-          'DND5E',
-          null,
-          null,
-          'You have resistance to psychic damage while wearing this jade ring.',
-          'Resistance: Psychic, Warding, Jewelry',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Ring of Radiant Resistance',
-          'DND5E',
-          null,
-          null,
-          'You have resistance to radiant damage while wearing this topaz ring.',
-          'Resistance: Radiant, Warding, Jewelry',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Ring of Thunder Resistance',
-          'DND5E',
-          null,
-          null,
-          'You have resistance to thunder damage while wearing this spinel ring.',
-          'Resistance: Thunder, Warding, Jewelry',
-          null,
-          'rare',
-          null,
-
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Potion of Diminution',
-          'DND5E',
-          null,
-          null,
-          'When you drink this potion, you gain the “reduce” effect of the Enlarge/Reduce spell for 1d4 hours (no Concentration required).
-               The red in the potion’s liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.',
-          'Control, Utility, Consumable',
-          'Dungeon Master’s Guide, pg. 187',
-          'rare',
-          null,
-
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Efficient Quiver',
-          'DND5E',
-          null,
-          null,
-          'Each of the quiver''s three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to sixty arrows, bolts, or similar objects. The midsize compartment holds up to eighteen javelins or similar objects. The longest compartment holds up to six long objects, such as bows, quarterstaffs, or spears.
-               You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.',
-          'Utility, Container',
-          null,
-          'uncommon',
-          null,
-
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Cubic Gate',
-          'DND5E',null,
-          null,
-          'This cube is 3 inches across and radiates palpable magical energy. The six sides of the cube are each keyed to a different plane of existence, one of which is the Material Plane. The other sides are linked to planes determined by the DM.
-               The cube has 3 charges and regains 1d3 expended charges daily at dawn. As a Magic action, you can expend 1 of the cube’s charges to cast one of the following spells using the cube.
-               *Gate.* Pressing one side of the cube, you cast Gate, opening a portal to the plane of existence keyed to that side.
-               *Plane Shift.* Pressing one side of the cube twice, you cast Plane Shift, transporting the targets to the plane of existence keyed to that side.',
-          'teleportation, exploration',
-          'Dungeon Master’s Guide, pg. 247',
-          'legendary',
-          'Wondrous Item',
-
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-      ),(
-          'Spell Scroll',
-          'DND5E',
-          null,
-          null,
-          'A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn’t lost.
-               If the spell is on your spell list but of a higher level than you can normally cast, you make an ability check using your spellcasting ability to determine whether you cast the spell. The DC equals 10 plus the spell’s level. On a failed check, the spell disappears from the scroll with no other effect.
-               The level of the spell on the scroll determines the spell’s saving throw DC and attack bonus, as well as the scroll’s rarity, as shown in the following table.
-
-               *Spell Scroll*
-               | *Spell Level* | *Rarity* | *Save DC* | *Attack Bonus* |
-               | --- | --- | --- | --- |
-               | Cantrip | Common | 13	 | 5 |
-               | 1st | Common | 13	 | 5 |
-               | 2nd | Uncommon | 13 | +5 |
-               | 3rd | Uncommon | 15 | +7 |
-               | 4th | Rare | 15 | +7 |
-               | 5th | Rare | 17 | +9 |
-               | 6th | Very rare | 17 | +9 |
-               | 7th | Very rare | 18 | +10 |
-               | 8th | Very rare | 18 | +10 |
-               | 9th | Legendary | 19 | +11 |
-               Copying a Scroll into a Spellbook. A Wizard spell on a Spell Scroll can be copied into a spellbook. When a spell is copied in this way, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell’s level. On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed.
-               *VARIANT: SCROLL MISHAPS*
-
-               A creature who tries and fails to cast a spell from a spell scroll must make a DC 10 Intelligence saving throw. If the saving throw fails, roll on the Scroll Mishap table.
-
-               *Scroll Mishap*
-               *d6*	*Result*
-               | 1 | A surge of magical energy deals the caster 1d6 force damage per level of the spell. |
-               | 2 | The spell affects the caster or an ally (determined randomly) instead of the intended target, or it affects a rando m target nearby if the caster was the intended target. |
-               | 3 | The spell affects a random location within the spell’s range. |
-               | 4 | The spell’s effect is contrary to its normal one, but neither harmful nor beneficial. For instance, a fireball might produce an area of harmless cold. |
-               | 5 | The caster suffers a minor but bizarre effect related to the spell. Such effects last only as long as the original spell’s duration, or 1d10 minutes for spells that take effect instantaneously. For example, a fireball might cause smoke to billow from the caster’s ears for 1d10 minutes. |
-               | 6 | The spell activates after 1d12 hours. If the caster was the intended target, the spell takes effect normally. If the caster was not the intended target, the spell goes off in the general direction of the intended target, up to the spell’s maximum range, if the target has moved away.',
-          null,
-          'varies',
-          null,
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-     ),(
-          'Spell Scroll (0 - Cantrip)',
-          'DND5E',
-          null,
-          null,
-          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
-                This scroll contains a cantrip. The spell''s saving throw DC is 13 and attack bonus is +5.',
-          null,
-          null,
-          'common',
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Spell Scroll (1st Level)',
-          'DND5E',
-          null,
-          null,
-          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
-                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 11. On a failed check, the spell disappears from the scroll with no other effect.
-                This scroll contains a 1st level spell. The spell''s saving throw DC is 13 and attack bonus is +5.
-                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 11. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
-          'Utility, Consumable',
-          null,
-          'common',
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Spell Scroll (2nd Level)',
-          'DND5E',
-          null,
-          null,
-          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
-                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 12. On a failed check, the spell disappears from the scroll with no other effect.
-                This scroll contains a 2nd level spell. The spell''s saving throw DC is 13 and attack bonus is +5.
-                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 12. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
-          'Utility, Consumable',
-          'common',
-          null,
-
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Spell Scroll (3rd Leve)',
-          'DND5E',
-          null,
-          null,
-          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
-                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 13. On a failed check, the spell disappears from the scroll with no other effect.
-                This scroll contains a 3rd level spell. The spell''s saving throw DC is 15 and attack bonus is +7.
-                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 13. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
-          'Utility, Consumable',
-          null,
-          'uncommon',
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Spell Scroll (4th Level)',
-          'DND5E',
-          null,
-          null,
-          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
-                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 14. On a failed check, the spell disappears from the scroll with no other effect.
-                This scroll contains a 4th level spell. The spell''s saving throw DC is 15 and attack bonus is +7.
-                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 14. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
-          'Utility, Consumable',
-          null,
-          'rare',
-          true,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Spell Scroll (5th Level)',
-          'DND5E',
-          null,
-          null,
-          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
-                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 15. On a failed check, the spell disappears from the scroll with no other effect.
-                This scroll contains a 5th level spell. The spell''s saving throw DC is 17 and attack bonus is +9.
-                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 15. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
-          null,
-          null,
-          'rare',
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Spell Scroll (6th Level)',
-          'DND5E',
-          null,
-          null,
-          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
-                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 16. On a failed check, the spell disappears from the scroll with no other effect.
-                This scroll contains a 6th level spell. The spell''s saving throw DC is 17 and attack bonus is +9.
-                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 16. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
-          'Utility, Consumable',
-          null,
-          'very rare',
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Spell Scroll (7th Level)',
-          'DND5E',
-          null,
-          null,
-          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
-                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 17. On a failed check, the spell disappears from the scroll with no other effect.
-                This scroll contains a 7th level spell. The spell''s saving throw DC is 18 and attack bonus is +10.
-                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 17. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
-          'Utility, Consumable',
-          null,
-          'very rare',
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Spell Scroll (8th Level)',
-          'DND5E',
-          null,
-          null,
-          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
-                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 18. On a failed check, the spell disappears from the scroll with no other effect.
-                This scroll contains an 8th level spell. The spell''s saving throw DC is 18 and attack bonus is +10.
-                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 18. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
-          'Utility, Consumable',
-          null,
-          'very rare',
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
-          'Spell Scroll (9th Level)',
-          'DND5E',
-          null,
-          null,
-          'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
-                If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 19. On a failed check, the spell disappears from the scroll with no other effect.
-                This scroll contains a 9th level spell. The spell''s saving throw DC is 19 and attack bonus is +11.
-                A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 19. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
-          'Utility, Consumable',
-          null,
-          'legendary',
-          null,
-
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          null,
-
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-
-          null,
-          null,
-          null,
-
-          null,
-          5
-),(
+        ),
+        (
+        'Figurine of Wondrous Power',
+        'DND5E',
+        null,
+        null,
+        'A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn''t enough space for the creature, the figurine doesn''t become a creature.
+            The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
+            The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can''t be used again until a certain amount of time has passed, as specified in the figurine''s description.
+            *Bronze Griffon(Rare).* This bronze statuette is of a griffon rampant. It can become a griffon for up to 6 hours. Once it has been used, it can''t be used again until 5 days have passed.
+            *Ebony Fly(Rare).* This ebony statuette is carved in the likeness of a horsefly. It can become a giant fly for up to 12 hours and can be ridden as a mount. Once it has been used, it can''t be used again until 2 days have passed.
+            *Golden Lions (Rare).* These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a lion for up to 1 hour. Once a lion has been used, it can''t be used again until 7 days have passed.
+            *Ivory Goats(Rare).*  These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:
+            - The goat of traveling can become a Large goat with the same statistics as a riding horse. It has 24 charges, and each hour or portion thereof it spends in beast form costs 1 charge. While it has charges, you can use it as often as you wish. When it runs out of charges, it reverts to a figurine and can''t be used again until 7 days have passed, when it regains all its charges.
+            - The goat of travail becomes a giant goat for up to 3 hours. Once it has been used, it can''t be used again until 30 days have passed.
+            - The goat of terror becomes a giant goat for up to 3 hours. The goat can''t attack, but you can remove its horns and use them as weapons. One horn becomes a lance, +1, and the other becomes a longsword, +2. Removing a horn requires an action, and the weapons disappear and the horns return when the goat reverts to figurine form. In addition, the goat radiates a 30-foot-radius aura of terror while you are riding it. Any creature hostile to you that starts its turn in the aura must succeed on a DC 15 Wisdom saving throw or be frightened of the goat for 1 minute, or until the goat reverts to figurine form. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it successfully saves against the effect, a creature is immune to the goat''s aura for the next 24 hours. Once the figurine has been used, it can''t be used again until 15 days have passed.
+            *Marble Elephant(Rare).* This marble statuette is about 4 inches high and long. It can become an elephant for up to 24 hours. Once it has been used, it can''t be used again until 7 days have passed.
+            *Obsidian Steed(Very Rare).* This polished obsidian horse can become a nightmare for up to 24 hours. The nightmare fights only to defend itself. Once it has been used, it can''t be used again until 5 days have passed.
+            If you have a good alignment, the figurine has a 10 percent chance each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the nightmare while it is ignoring your orders, you and the nightmare are instantly transported to a random location on the plane of Hades, where the nightmare reverts to figurine form.
+            *Onyx Dog(Rare).* This onyx statuette of a dog can become a mastiff for up to 6 hours. The mastiff has an Intelligence of 8 and can speak Common. It also has darkvision out to a range of 60 feet and can see invisible creatures and objects within that range. Once it has been used, it can''t be used again until 7 days have passed.
+            *Serpentine Owl (Rare).* This serpentine statuette of an owl can become a giant owl for up to 8 hours. Once it has been used, it can''t be used again until 2 days have passed. The owl can telepathically communicate with you at any range if you and it are on the same plane of existence.
+            *Silver Raven(Uncommon).* This silver statuette of a raven can become a raven for up to 12 hours. Once it has been used, it can''t be used again until 2 days have passed. While in raven form, the figurine allows you to cast the animal messenger spell on it at will.',
+        'Summoning',
+        'Basic Rules (2014), pg. 169',
+        'varies',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Instant Fortress',
+        'DND5E',
+        null,
+        null,
+        'You can use an action to place this 1-inch metal cube on the ground and speak its command word. The cube rapidly grows into a fortress that remains until you use an action to speak the command word that dismisses it, which works only if the fortress is empty.
+            The fortress is a square tower, 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors, with a ladder running along one wall to connect them. The ladder ends at a trapdoor leading to the roof. When activated, the tower has a small door on the side facing you. The door opens only at your command, which you can speak as a bonus action. It is immune to the knock spell and similar magic, such as that of a chime of opening.
+            Each creature in the area where the fortress appears must make a DC 15 Dexterity saving throw, taking 10d10 bludgeoning damage on a failed save, or half as much damage on a successful one. In either case, the creature is pushed to an unoccupied space outside but next to the fortress. Objects in the area that aren''t being worn or carried take this damage and are pushed automatically.
+            The tower is made of adamantine, and its magic prevents it from being tipped over. The roof, the door, and the walls each have 100 hit points, immunity to damage from nonmagical weapons excluding siege weapons, and resistance to all other damage. Only a wish spell can repair the fortress (this use of the spell counts as replicating a spell of 8th level or lower). Each casting of wish causes the roof, the door, or one wall to regain 50 hit points.',
+        'Utility, Warding',
+        null,
+        'rare',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Sprig of Mistletoe',
+        'DND5E',
+        null,
+        '1 gp',
+        'A Sprig of Mistletoe is a Druidic Focus that is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use this item as a Spellcasting Focus',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Amulet of the Planes',
+        'DND5E',
+        null,
+        null,
+        'While wearing this amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast theplane shiftspell. On a failure, you and each creature and object within 15 feet of you travel to a random destination. Roll a d100. On a 1–60, you travel to a random location on the plane you named. On a 61–100, you travel to a randomly determined plane of existence.
+
+            | 1d100 | Destination |
+            | --- | --- |
+            | 01–60 | Random location on the plane you named |
+            | 61–70 | Random location on an Inner Plane determined by rolling 1d6: on a 1, the Plane of Air; on a 2, the Plane of Earth; on a 3, the Plane of Fire; on a 4, the Plane of Water; on a 5, the Feywild; on a 6, the Shadowfell |
+            | 71–80 | Random location on an Outer Plane determined by rolling 1d8: on a 1, Arborea; on a 2, Arcadia; on a 3, the Beastlands; on a 4, Bytopia; on a 5, Elysium; on a 6, Mechanus; on a 7, Mount Celestia; on an 8, Ysgard |
+            | 81–90 | Random location on an Outer Plane determined by rolling 1d8: on a 1, the Abyss; on a 2, Acheron; on a 3, Carceri; on a 4, Gehenna; on a 5, Hades; on a 6, Limbo; on a 7, the Nine Hells; on an 8, Pandemonium |
+            | 91–00 | Random location on the Astral Plane',
+        'Teleportation, Exploration, Jewelry',
+        'Basic Rules (2014), pg. 150',
+        'very rare',
+        null,
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Cubic Gate',
+        'DND5E',null,
+        null,
+        'This cube is 3 inches across and radiates palpable magical energy. The six sides of the cube are each keyed to a different plane of existence, one of which is the Material Plane. The other sides are linked to planes determined by the DM.
+            The cube has 3 charges and regains 1d3 expended charges daily at dawn. As a Magic action, you can expend 1 of the cube’s charges to cast one of the following spells using the cube.
+            *Gate.* Pressing one side of the cube, you cast Gate, opening a portal to the plane of existence keyed to that side.
+            *Plane Shift.* Pressing one side of the cube twice, you cast Plane Shift, transporting the targets to the plane of existence keyed to that side.',
+        'teleportation, exploration',
+        'Basic Rules (2014), pg. 160',
+        'legendary',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        3,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+
+
+
+    (
           'Carpenter''s Tools',
           'DND5E',
           '6 lbs',
@@ -3271,14 +1565,8 @@ VALUES(
 
           null,
           5
-      ),(
-         'Dragon Scale Mail (Gold)',
-         'DND5E',
-         null, null, 'Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.
-While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.
-Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest gold dragon within 30 miles of you. This special action cannullt be used again until the next dawn.
-This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'bonus: armor class, resistance: fire, advantage: saving throws, detection, combat, warding, stealth disadvantage', null, null, 'very rare', null, false, true, false, true, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
+      ),
+    (
          'Navigatornulls Tools', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Vorpal Greatsword', 'DND5E', null, null, 'You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.
@@ -3518,12 +1806,8 @@ Proficiency with a shortsword allows you to add your proficiency bonus to the at
          'Elemental Gem (Yellow Diamond)', 'DND5E', null, null, 'This yellow diamondcontains a mote of elemental energy. When you use an action to break the gem, anearth elementalis summoned as if you had cast theconjure elementalspell, and the gemnulls magic is lost.', 'summoning', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Manual of Gainful Exercise', 'DND5E', null, null, 'This book describes fitness exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the booknulls contents and practicing its guidelines, your Strength score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.', 'bonus: strength score, bonus: ability score maximum, buff', NULL, NULL, null, 'very rare', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dragon Scale Mail (Green)', 'DND5E', null, null, 'Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.
-While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to poison damage.
-Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest green dragon within 30 miles of you. This special action cannullt be used again until the next dawn.
-This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'bonus: armor class, resistance: poison, advantage: saving throws, detection, combat, warding, stealth disadvantage', NULL, NULL, null, null, false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+    (
          'Sword of Sharpness', 'DND5E', null, null, 'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
 When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the targetnulls limbs, with the Effect of such loss determined by the GM. If the creature has no limb to sever, you lop off a portion of its body instead.
 In addition, you can speak the swordnulls command word to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light.
@@ -3532,12 +1816,10 @@ Applicable Weapons:
 | Sword of Sharpness - Greatsword | Martial Melee | 2d6 slashing | [Heavy](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[two-handed](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
 | Sword of Sharpness - Longsword | Martial Melee | 1d8 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10) |
 | Sword of Sharpness - Scimitar | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |', 'damage: slashing, damage, combat', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Luck Blade Rapier', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.
-Luck.If the sword is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll. This property cannullt be used again until the next dawn.
-Wish.The sword has 1d4 – 1 charges. While holding it, you can use an action to expend 1 charge and cast thewishspell from it. This property cannullt be used again until the next dawn. The sword loses this property if it has no charges.
-Proficiency with a rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, bonus: saving throws, damage, control, buff, combat, finesse', NULL, NULL, null, 'legendary', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+
+
+    (
          'Vicious Greataxe', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
 Proficiency with a greataxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, heavy, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -3579,12 +1861,8 @@ When the time runs out or you use an action to end it, all visitors reappear in 
 | Chain Mail | Heavy |  16 |  Strength 13 |  Disadvantage |
 | Splint | Heavy |  17 |  Strength 15 |  Disadvantage |
 | Plate | Heavy |  18 |  Strength 15 |  Disadvantage |', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dragon Scale Mail (Black)', 'DND5E', null, null, 'Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.
-While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.
-Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest black dragon within 30 miles of you. This special action cannullt be used again until the next dawn.
-This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'resistance: acid, bonus: armor class, advantage: saving throws, detection, combat, warding, stealth disadvantage', NULL, NULL, 'very rare', null, false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+    (
          'Mithral Plate', 'DND5E', null, null, 'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
 Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'stealth disadvantage: remove, combat, warding, str 15 required, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -3679,12 +1957,8 @@ Six types of magic beads exist. The GM decides the type of each bead on the neck
 You can use an action to touch the token to a body of water at least 60 feet in diameter. The token disappears, and a 50-foot-long, 20-foot- wide boat shaped like a swan takes its place. The boat is self-propelled and moves across water at a speed of 6 miles per hour. You can use an action while on the boat to command it to move or to turn up to 90 degrees. The boat can carry up to thirty-two Medium or smaller creatures. A Large creature counts as four Medium creatures, while a Huge creature counts as nine. The boat remains for 24 hours and then disappears. You can dismiss the boat as an action.', 'movement, utility, exploration, consumable', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Fishing Tackle', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dragon Scale Mail (White)', 'DND5E', null, null, 'Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.
-While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.
-Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest white dragon within 30 miles of you. This special action cannullt be used again until the next dawn.
-This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'bonus: armor class, resistance: cold, advantage: saving throws, detection, combat, warding, stealth disadvantage', NULL, NULL, null, null, false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+    (
          'Climbernulls Kit', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Nine Lives Stealer Scimitar', 'DND5E', null, null, 'You gain a +2 bonus to attack and damage rolls made with this magic weapon.
@@ -3695,9 +1969,12 @@ Proficiency with a scimitar allows you to add your proficiency bonus to the atta
       ),(
          'Vicious Quarterstaff', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
 Proficiency with a quarterstaff allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, versatile', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Horn of Valhalla (Silver)', 'DND5E', null, null, 'You can use an action to blow this horn. In response, 2d4+2 warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a[berserker](https://www.dndbeyond.com/monsters/16805-berserker). They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it cannullt be used again until 7 days have passed.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+
+
+
+
+       ,(
          'Mithral Chain Shirt', 'DND5E', null, null, 'Mithral is a light, flexible metal. A mithral chain shirt can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
 Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearernulls upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.', 'stealth disadvantage: remove, combat, warding', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -3847,12 +2124,8 @@ In addition, the robe has 4d4 other patches. The GM chooses the patches or deter
 Proficiency with a heavy crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, ammunition, heavy, loading, range, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Sailing Ship', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dragon Scale Mail (Blue)', 'DND5E', null, null, 'Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.
-While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.
-Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest blue dragon within 30 miles of you. This special action cannullt be used again until the next dawn.
-This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'bonus: armor class, resistance: lightning, advantage: saving throws, detection, combat, warding, stealth disadvantage', NULL, NULL, 'very rare', null, false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+    (
          'Poison, Basic (vial)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Saddlebags', 'DND5E', null, null, 'Type:Adventuring Gear
@@ -3979,12 +2252,8 @@ Proficiency with a whip allows you to add your proficiency bonus to the attack r
          'Barrel', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Forgery Kit', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dragon Scale Mail (Red)', 'DND5E', null, null, 'Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.
-While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.
-Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest red dragon within 30 miles of you. This special action cannullt be used again until the next dawn.
-This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'bonus: armor class, resistance: fire, advantage: saving throws, detection, combat, warding, stealth disadvantage', NULL, NULL, null, null, false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+    (
          'Potion of Healing', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Vicious Antimatter Rifle', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -4230,20 +2499,13 @@ Applicable Weapons:
 | Nine Lives Stealer - Rapier     | Martial Melee | 1d8 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)                                                                                                |
 | Nine Lives Stealer - Scimitar   | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |
 | Nine Lives Stealer - Shortsword | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |', 'bonus: magic, damage, combat, versatile', NULL, NULL, 'very rare', null, false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Luck Blade Shortsword', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.
-Luck.If the sword is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll. This property cannullt be used again until the next dawn.
-Wish.The sword has 1d4 – 1 charges. While holding it, you can use an action to expend 1 charge and cast the[wish](https://www.dndbeyond.com/spells/wish)spell from it. This property cannullt be used again until the next dawn. The sword loses this property if it has no charges.
-Proficiency with a shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, bonus: saving throws, damage, control, buff, combat, finesse, light', NULL, NULL, null, 'legendary', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+
+    (
          'Vicious Maul', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
 Proficiency with a maul allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, heavy, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dragon Scale Mail (Brass)', 'DND5E', null, null, 'Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.
-While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.
-Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest brass dragon within 30 miles of you. This special action cannullt be used again until the next dawn.
-This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'bonus: armor class, resistance: fire, advantage: saving throws, detection, combat, warding, stealth disadvantage', NULL, NULL, 'very rare', null, false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+    (
          'Vicious Light Hammer', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
 Proficiency with a light hammer allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, light, thrown', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -4314,12 +2576,8 @@ The boots regain 2 hours of flying capability for every 12 hours they arennullt 
       ),(
          'Vicious Flail', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
 Proficiency with a flail allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dragon Scale Mail (Copper)', 'DND5E', null, null, 'Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.
-While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.
-Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest copper dragon within 30 miles of you. This special action cannullt be used again until the next dawn.
-This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'bonus: armor class, resistance: acid, advantage: saving throws, detection, combat, warding, stealth disadvantage', NULL, NULL, null, null, false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+    (
          'Gauntlets of Ogre Power', 'DND5E', null, null, 'Your Strength score is 19 while you wear these gauntlets. They have no Effect on you if your Strength is 19 or higher without them.', 'set: strength score, buff, handwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Holy Avenger Rapier', 'DND5E', null, null, 'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
@@ -4629,12 +2887,8 @@ Ivory Goats.These ivory statuettes of goats are always created in sets of three.
       ),(
          'Ring of X-ray Vision', 'DND5E', null, null, 'While wearing this ring, you can use an action to speak its command word. When you do so, you can see into and through solid matter for 1 minute. This vision has a radius of 30 feet. To you, solid objects within that radius appear transparent and donnullt prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead.
 Whenever you use the ring again before taking a long rest, you must succeed on a DC 15 Constitution saving throw or gain one level of[exhaustion](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Exhaustion).', 'see into and through solid matter within 30 feet, detection, utility, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dragon Scale Mail (Bronze)', 'DND5E', null, null, 'Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.
-While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.
-Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest bronze dragon within 30 miles of you. This special action cannullt be used again until the next dawn.
-This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'bonus: armor class, resistance: lightning, advantage: saving throws, detection, combat, warding, stealth disadvantage', NULL, NULL, 'very rare', null, false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+    (
          'Boots of Levitation', 'DND5E', null, null, null, 'movement, utility, footwear', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Potion of Animal Friendship', 'DND5E', null, null, 'When you drink this potion, you can cast theanimal friendshipspell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.', 'control, communication, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -5239,17 +3493,6 @@ This armor is made of narrow vertical strips of metal riveted to a backing of le
       ),(
          'Caltrops (bag of 20)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Luck Blade', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.
-Luck.If the sword is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll. This property cannullt be used again until the next dawn.
-Wish.The sword has 1d4–1 charges. While holding it, you can use an action to expend 1 charge and cast thewishspell from it. This property cannullt be used again until the next dawn. The sword loses this property if it has no charges.
-Applicable Weapons:
-| Name | Type | Damage | Properties |
-| Luck Blade - Greatsword | Martial Melee | 2d6 slashing | [Heavy](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[two-handed](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Luck Blade - Longsword | Martial Melee | 1d8 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10) |
-| Luck Blade - Rapier | Martial Melee | 1d8 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Luck Blade - Scimitar | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Luck Blade - Shortsword | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |', 'bonus: magic, bonus: saving throws, damage, control, buff, combat', NULL, NULL, null, 'legendary', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Dimensional Shackles', 'DND5E', null, null, 'You can use an action to place these shackles on an[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated)creature. The shackles adjust to fit a creature of Small to Large size. In addition to serving as mundane manacles, the shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They donnullt prevent the creature from passing through an interdimensional portal.
 You and any creature you designate when you use the shackles can use an action to remove them. Once every 30 days, the bound creature can make a DC 30 Strength ([Athletics](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Athletics)) check. On a success, the creature breaks free and destroys the shackles.', 'control, utility', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -5433,10 +3676,11 @@ You have a 50 percent chance to instantly travel to a random plane of existence,
 | 21 to 30 ft. away | 4 x the number of charges in the staff |', 'bonus: magic, bonus: spell attacks, advantage: saving throws, sorcerer, warlock, or wizard, damage, control, detection, combat, deception, warding', NULL, NULL, 'legendary', null, false, false, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Clothes, Fine', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Horn of Valhalla (Bronze)', 'DND5E', null, null, 'You can use an action to blow this horn. In response, 4d4+4 warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a[berserker](https://www.dndbeyond.com/monsters/16805-berserker). They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it cannullt be used again until 7 days have passed.
-If you blow the horn without having proficiency with all medium armor, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.', 'summoning', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+
+
+
+    (
          'Sack', 'DND5E', null, null, 'Type:Adventuring GearCost:
 Weight:1/2 lb
 A sack can hold1 cubic foot/ 30 pounds of gear.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -5480,15 +3724,14 @@ Plate consists of shaped, interlocking metal plates to cover the entire body. A 
          'Eyes of the Eagle', 'DND5E', null, null, 'These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom ([Perception](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception)) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.', 'advantage: perception, detection, utility, eyewear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Mirror, Steel', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Luck Blade Scimitar', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.
-Luck.If the sword is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll. This property cannullt be used again until the next dawn.
-Wish.The sword has 1d4 – 1 charges. While holding it, you can use an action to expend 1 charge and cast thewishspell from it. This property cannullt be used again until the next dawn. The sword loses this property if it has no charges.
-Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, bonus: saving throws, damage, control, buff, combat, finesse, light', NULL, NULL, null, 'legendary', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Horn of Valhalla (Brass)', 'DND5E', null, null, 'You can use an action to blow this horn. In response, 3d4+3 warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a[berserker](https://www.dndbeyond.com/monsters/16805-berserker). They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it cannullt be used again until 7 days have passed.
-If you blow the horn without having proficiency with all simple weapons, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+      ),
+
+
+
+
+
+
+    (
          'Censer of Controlling Air Elementals', 'DND5E', null, null, 'While incense is burning in this censer, you can use an action to speak the censernulls command word and summon anair elemental, as if you had cast theconjure elementalspell. The censer cannullt be used this way again until the next dawn.
 This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. It weighs 1 pound.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(

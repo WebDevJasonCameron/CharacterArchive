@@ -30,3 +30,100 @@ INSERT INTO items (
     item_image_url,
     item_source_id)
 VALUES(
+          'Potion of Clairvoyance',
+          'DND5E',
+          null,
+          null,
+          'When you drink this potion, you gain the Effect of the clairvoyance spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.',
+          'Scrying, Detection, Consumable',
+          'Dungeon Master’s Guide, pg. 187',
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Potion of Vitality',
+          'DND5E',
+          null,
+          null,
+          'When you drink this potion, it removes any Exhaustion levels you have and ends the Poisoned condition on you. For the next 24 hours, you regain the maximum number of Hit Points for any Hit Point Die you spend.
+               This potion’s crimson liquid regularly pulses with dull light, calling to mind a heartbeat.',
+          'Cures Disease, Removes Poison, Max HP from Hit Dice, Healing, Consumable',
+          'Dungeon Master’s Guide, pg. 188',
+          'very rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Potion of Diminution',
+          'DND5E',
+          null,
+          null,
+          'When you drink this potion, you gain the “reduce” effect of the Enlarge/Reduce spell for 1d4 hours (no Concentration required).
+               The red in the potion’s liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.',
+          'Control, Utility, Consumable',
+          'Dungeon Master’s Guide, pg. 187',
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      )

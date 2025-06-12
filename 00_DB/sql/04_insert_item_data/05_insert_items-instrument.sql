@@ -49,7 +49,7 @@ VALUES(
           'varies',
           'Wondrous Item',
 
-          false,
+          true,
           false,
           false,
           false,
@@ -81,7 +81,7 @@ VALUES(
           'rare',
           'Wondrous Item',
 
-          false,
+          true,
           false,
           false,
           false,
@@ -114,7 +114,7 @@ VALUES(
           'rare',
           'Wondrous Item',
 
-          false,
+          true,
           false,
           false,
           false,
@@ -147,7 +147,7 @@ VALUES(
           'very rare',
           'Wondrous Item',
 
-          false,
+          true,
           false,
           false,
           false,
@@ -180,7 +180,7 @@ VALUES(
           'legendary',
           'Wondrous Item',
 
-          false,
+          true,
           false,
           false,
           false,
