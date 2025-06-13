@@ -126,4 +126,36 @@ VALUES(
 
           null,
           5
+      ),
+      (
+          'Potion of Force Resistance',
+          'DND5E',
+          null,
+          null,
+          'When you drink this potion, you gain resistance to force damage for 1 hour.',
+          'Resistance: Force, Warding, Consumable',
+          null,
+          'uncommon',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
       )

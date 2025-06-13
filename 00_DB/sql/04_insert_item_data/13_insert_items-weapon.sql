@@ -1227,6 +1227,272 @@ VALUES(
 
     null,
     17
+    ),
+    (
+    'Trident of Fish Command',
+    'DND5E',
+    '4 lb',
+    null,
+    'This magic weapon has 3 charges, and it regains 1d3 expended charges daily at dawn. While you carry it, you can expend 1 charge to cast Dominate Beast (save DC 15) from it on a Beast that has a Swim Speed.
+         Proficiency with a Trident allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+         ---
+         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+         *Topple.* If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+    'Damage, Control, Combat, Thrown, Versatile, Topple',
+    'Dungeon Master’s Guide, pg. 209',
+    'uncommon',
+    null,
+
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    3,
+
+    'melee',
+    '20 ft / 60 ft',
+    '1d8+3(1d10+3)',
+    'piercing',
+    'Thrown, Versatile (1d10), Topple',
+
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Swords of Wounding',
+    'DND5E',
+    null,
+    null,
+    'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
+         Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature''s turns, it takes 1d4 necrotic damage for each time you''ve wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.
+
+         *Applicable Weapons:*
+         | Name | Type | Damage | Properties |
+         | --- | --- | --- | --- |
+         | Greatsword | Martial Melee | 2d6 slashing | Heavy, two-handed |
+         | Longsword | Martial Melee | 1d8 slashing | Versatile (1d10) |
+         | Rapier | Martial Melee | 1d8 piercing | Finesse |
+         | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
+         | Shortsword | Martial Melee | 1d6 piercing | Finesse, light |',
+    'Damage: Necrotic, Damage, Combat',
+    'Basic Rules (2014), pg. 207',
+    'rare',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    null,
+
+    null,
+    null,
+    null,
+    null,
+    null,
+
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Greatsword of Wounding',
+    'DND5E',
+    '6 lb',
+    null,
+    'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
+        Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature''s turns, it takes 1d4 necrotic damage for each time you''ve wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.
+
+        Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        *Graze.* If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+    'Damage: Necrotic, Damage, Combat',
+    null,
+    'rare',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    null,
+
+    '5 ft',
+    '2d6 (1d4 necrotic)',
+    'slashing, necrotic',
+    'Heavy, Two-Handed, Graze',
+     null,
+
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Longsword of Wounding',
+    'DND5E',
+    '3 lb',
+    null,
+    'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
+        Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature''s turns, it takes 1d4 necrotic damage for each time you''ve wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.
+
+        Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+    'Damage: Necrotic, Damage, Combat, Versatile, Sap',
+    null,
+    'rare',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    null,
+
+    '5 ft',
+    '1d8 (two-handed: 1d10) (1d4 necrotic)',
+    'slashing, necrotic',
+    'Versatile (1d10), Sap',
+     null,
+
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Rapier of Wounding',
+    'DND5E',
+    '2 lb',
+    null,
+    'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
+        Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature''s turns, it takes 1d4 necrotic damage for each time you''ve wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.
+        Proficiency with a Rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn',
+    'Damage: Necrotic, Damage, Combat, Finesse, Vex',
+    null,
+    'rare',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    null,
+
+    '5 ft',
+    '1d8 (1d4 necrotic)',
+    'piercing, necrotic',
+    'Finesse, Vex',
+    null,
+
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Scimitar of Wounding',
+    'DND5E',
+    '3 lb',
+    null,
+    'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
+        Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature''s turns, it takes 1d4 necrotic damage for each time you''ve wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.
+        Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        *Nick.* When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+    'Damage: Necrotic, Damage, Combat, Finesse, Light, Nick',
+    null,
+    'rare',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    null,
+
+    '5 ft',
+    '1d6+3 (1d4 necrotic)',
+    'slashing, necrotic',
+    'Finesse, Light, Nick',
+    null,
+
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Shortsword of Wounding',
+    'DND5E',
+    '2 lb',
+    null,
+    'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
+        Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature''s turns, it takes 1d4 necrotic damage for each time you''ve wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.
+        Proficiency with a Shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        *Vex.* If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+    'Damage: Necrotic, Damage, Combat, Finesse, Light, Vex',
+    null,
+    'rare',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    null,
+
+    '5 ft',
+    '1d6+3 (1d4 necrotic)',
+    'piercing, necrotic',
+    'Finesse, Light, Vex',
+    null,
+
+    null,
+    null,
+
+    null,
+    5
     )
+
 
 

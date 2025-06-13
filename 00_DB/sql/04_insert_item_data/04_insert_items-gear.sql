@@ -349,4 +349,68 @@ VALUES(
 
           null,
           5
+      ),
+      (
+          'Flask or Tankard',
+          'DND5E',
+          '1 lb',
+          '2 cp',
+          'A flask or tankard can hold 1 pint of liquid.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Rope Silk (50 feet)',
+          'DND5E',
+          '5 lbs',
+          '10 gp',
+          'Rope, has 2 hit points and can be burst with a DC 17 Strength check.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       )
