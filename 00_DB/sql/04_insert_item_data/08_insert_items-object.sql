@@ -353,26 +353,7 @@ VALUES(
 
         null,
         5
-        ),
-
-    (
-         'Navigatornulls Tools', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Vorpal Greatsword', 'DND5E', null, null, 'You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.
-When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creaturenulls heads. The creature dies if it cannullt survive without the lost head. A creature is immune to this Effect if it is immune to slashing damage, doesnnullt have or need a head, has legendary actions, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.
-Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage, combat, heavy, two-handed', null, null, 'legendary', null, false, true, false, false, false, true, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Vicious Dagger', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, finesse, light, thrown', null, null, 'rare', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Bracers of Archery', 'DND5E', null, null, 'While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.', 'proficiency: longbow, proficiency: shortbow, damage: shortbow, damage: longbow, damage, buff, combat, wristwear', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Water Breathing', 'DND5E', null, null, 'You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.', 'breathe underwater, buff, utility, consumable', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Pan Flute', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Basket', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+        ),(
          '[Mastiff](https://www.dndbeyond.com/monsters/16953-mastiff)', 'DND5E', null, null, '| 13(+1) | 14(+2) | 12(+1) | 3(-4) | 12(+1) | 7(-2) |
 Skills[Perception](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception)+3
 Sens*es*Passive Perception 13

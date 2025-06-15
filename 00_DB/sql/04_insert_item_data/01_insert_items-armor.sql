@@ -1065,4 +1065,36 @@ VALUES (
 
            null,
            5
+       ),
+       (
+           'Bracers of Archery',
+           'DND5E',
+           null,
+           null,
+           'While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.',
+           'Proficiency: Longbow, Proficiency: Shortbow, Damage: Shortbow, Damage: Longbow, Damage, Buff, Combat, Wristwear',
+           'Dungeon Master’s Guide, pg. 156',
+           'uncommon',
+           'Wondrous Item',
+
+           true,
+           true,
+           false,
+           false,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           null,
+           null,
+
+           null,
+           17
        )

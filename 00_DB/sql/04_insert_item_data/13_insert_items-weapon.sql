@@ -1492,6 +1492,192 @@ VALUES(
 
     null,
     5
+    ),
+    (
+    'Vorpal Greatsword',
+    'DND5E',
+    null,
+    null,
+    'You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.
+        When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature''s heads. The creature dies if it can''t survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn''t have or need a head, has legendary actions, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.
+        Applicable Weapons:
+
+        * Name * Type | Damage | Properties |
+        * Greatsword * Martial Melee | 2d6 + 3 slashing | Heavy, two-handed |
+        * Longsword * Martial Melee | 1d8 + 3 slashing | Versatile (1d10) |
+        * Scimitar * Martial Melee | 1d6 + 3 slashing | Finesse, light |',
+    'Bonus: Magic, Damage, Combat',
+    'Basic Rules (2014), pg. 209',
+    'legendary',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    null,
+
+    null,
+    null,
+    null,
+    null,
+    null,
+
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Vorpal Greatsword',
+    'DND5E',
+    '6 lb',
+    null,
+    'You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.
+        When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature''s heads. The creature dies if it can''t survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn''t have or need a head, has legendary actions, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.
+        Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        *Graze.* If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+    'Bonus: Magic, Damage, Combat, Heavy, Two-Handed, Graze',
+    null,
+    'legendary',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    null,
+
+    '5 ft',
+    '2d6',
+    'slashing',
+    'Heavy, Two-Handed, Graze',
+    null,
+
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Vorpal Longsword',
+    'DND5E',
+    '3 lb',
+    null,
+    'You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.
+        When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature''s heads. The creature dies if it can''t survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn''t have or need a head, has legendary actions, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.
+        Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        *Sap.* If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+    'Bonus: Magic, Damage, Combat, Versatile, Sap',
+    null,
+    'legendary',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    null,
+
+    '5 ft',
+    '1d8 (1d10 two-handed)',
+    'slashing',
+    'Versatile (1d10), Sap',
+    null,
+
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Vorpal Scimitar',
+    'DND5E',
+    '3 lb',
+    null,
+    'You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.
+        When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature''s heads. The creature dies if it can''t survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn''t have or need a head, has legendary actions, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.
+        Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        *Nick.* When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+    'Bonus: Magic, Damage, Combat, Finesse, Light, Nick',
+    null,
+    'legendary',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    null,
+
+    '5 ft',
+    '1d6',
+    'slashing',
+    'Finesse, Light, Nick',
+    null,
+
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Vicious Dagger',
+    'DND5E',
+    '1 lb',
+    null,
+    'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+        Proficiency with a Dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+    'Damage: Additional, Damage, Combat, Finesse, Light, Thrown, Nick',
+    null,
+    'rare',
+    null,
+
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    null,
+
+    '20 ft/60 ft',
+    '1d4',
+    'piercing',
+    'Finesse, Light, Thrown, Nick',
+    null,
+
+    null,
+    null,
+
+    null,
+    5
     )
 
 

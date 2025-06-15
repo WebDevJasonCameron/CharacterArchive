@@ -233,4 +233,39 @@ VALUES(
 
           null,
           5
+      ),
+      (
+          'Pan Flute',
+          'DND5E',
+          '2 lbs',
+          '12 gp',
+          '*Ability:* Charisma
+                *Utilize:* Play a known tune (DC 10), or improvise a song (DC 15)
+                ---
+                If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       )

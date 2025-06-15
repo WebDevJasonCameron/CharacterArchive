@@ -130,4 +130,39 @@ VALUES (
 
            null,
            5
+       ),
+       (
+        'Navigator''s Tools',
+        'DND5E',
+        '2 lbs',
+        '25 gp',
+        '*Ability:* Wisdom
+            *Utilize:* Plot a course (DC 10), or determine position by stargazing (DC 15)
+            ---
+            This set of instruments is used for navigation at sea. Proficiency with navigator''s tools lets you chart a ship''s course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )

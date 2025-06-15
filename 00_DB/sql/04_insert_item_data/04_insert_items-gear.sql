@@ -245,7 +245,7 @@ VALUES(
           null,
           null,
           null,
-          null,,
+          null,
           null,
 
           null,
@@ -411,6 +411,36 @@ VALUES(
           null,
           null,
 
+          null,
+          5
+      ),
+      (
+          'Basket',
+          'DND5E',
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           5
       )
