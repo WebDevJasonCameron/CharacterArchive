@@ -1029,44 +1029,6 @@ VALUES (
            17
        ),
        (
-           'Frost Brand Scimitar',
-           'DND5E',
-           '3 lb',
-           null,
-           'When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.
-              In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
-              When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour.
-              Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
-              ---
-              This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
-              *Nick.* When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.' ,
-           'Damage: Cold, Resistance: Fire, Damage, Combat, Warding, Finesse, Light, Nick',
-           null,
-           'very rare',
-           null,
-
-           true,
-           true,
-           true,
-           false,
-           false,
-           false,
-           false,
-           null,
-
-           'melee',
-           '5 ft',
-           '1d6+3 (1d6 frost)',
-           'slashing, frost',
-           'Finesse, Light, Nick',
-
-           null,
-           null,
-
-           null,
-           5
-       ),
-       (
            'Bracers of Archery',
            'DND5E',
            null,
@@ -1097,4 +1059,37 @@ VALUES (
 
            null,
            17
+       ),
+       (
+           'Plate Armor of Etherealness',
+           'DND5E',
+           '65 lb',
+           null,
+           'While you''re wearing this armor, you can speak its command word as an action to gain the effect of the etherealness spell, which last for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can''t be used again until the next dawn.
+                Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.',
+           'Utility, Combat, Warding, Str. 15 Required, Stealth Disadvantage',
+           'Basic Rules (2014), pg. 185',
+           'legendary',
+           null,
+
+           true,
+           true,
+           false,
+           false,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           18,
+           null,
+
+           null,
+           5
        )

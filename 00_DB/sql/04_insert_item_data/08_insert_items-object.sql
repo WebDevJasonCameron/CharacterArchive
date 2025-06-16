@@ -353,37 +353,80 @@ VALUES(
 
         null,
         5
+        ),
+        (
+        'Figurine of Wondrous Power (Golden Lions)',
+        'DND5E',
+        null,
+        null,
+        'A *figurine of wondrous power* is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn''t enough space for the creature, the figurine doesn''t become a creature.
+            The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
+            The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can''t be used again until a certain amount of time has passed, as specified in the figurine''s description.
+            *Golden Lions.* These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a lion for up to 1 hour. Once a lion has been used, it can''t be used again until 7 days have passed.',
+        'Summoning',
+        null,
+        'rare',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+          'Feather Token (Whip)',
+        'DND5E',
+        null,
+        null,
+        'This tiny object looks like a feather.
+        You can use an action to throw the token to a point within 10 feet of you. The token disappears, and a floating whip takes its place. You can then use a bonus action to make a melee spell attack against a creature within 10 feet of the whip, with an attack bonus of +9. On a hit, the target takes 1d6 + 5 force damage.
+        As a bonus action on your turn, you can direct the whip to fly up to 20 feet and repeat the attack against a creature within 10 feet of it. The whip disappears after 1 hour, when you use an action to dismiss it, or when you are[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated)or die.',
+        'Damage, Utility, Combat, Consumable',
+        null,
+        'rare',
+        'Wondrous Item',
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
         ),(
-         '[Mastiff](https://www.dndbeyond.com/monsters/16953-mastiff)', 'DND5E', null, null, '| 13(+1) | 14(+2) | 12(+1) | 3(-4) | 12(+1) | 7(-2) |
-Skills[Perception](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception)+3
-Sens*es*Passive Perception 13
-Languages--
-Proficiency Bonus+2
-Keen Hearing and Smell.The mastiff has advantage on Wisdom ([Perception](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception)) checks that rely on hearing or smell.
-## Actions
-Bite.Melee Weapon Attack:+3to hit, reach 5 ft., one target.Hit:4(1d6 + 1)piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone).
----
-### Description
----
-Mastiffs are impressive hounds prized by humanoids for their loyalty and keen senses. Mastiffs can be trained as guard dogs, hunting dogs, and war dogs. Halflings and other Small humanoids ride them as mounts.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Figurine of Wondrous Power (Golden Lions)', 'DND5E', null, null, 'Afigurine of wondrous poweris a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isnnullt enough space for the creature, the figurine doesnnullt become a creature.
-The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
-The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property cannullt be used again until a certain amount of time has passed, as specified in the figurinenulls description.
-Golden Lions.These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become alionfor up to 1 hour. Once a lion has been used, it cannullt be used again until 7 days have passed.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Feather Token (Whip)', 'DND5E', null, null, 'This tiny object looks like a feather.
-You can use an action to throw the token to a point within 10 feet of you. The token disappears, and a floating whip takes its place. You can then use a bonus action to make a melee spell attack against a creature within 10 feet of the whip, with an attack bonus of +9. On a hit, the target takes 1d6 + 5 force damage.
-As a bonus action on your turn, you can direct the whip to fly up to 20 feet and repeat the attack against a creature within 10 feet of it. The whip disappears after 1 hour, when you use an action to dismiss it, or when you are[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated)or die.', 'damage, utility, combat, consumable', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Plate Armor of Etherealness', 'DND5E', null, null, 'While younullre wearing this armor, you can speak its command word as an action to gain the Effect of theetherealnessspell, which last for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor cannullt be used again until the next dawn.
-Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'utility, combat, warding, str 15 required, stealth disadvantage', NULL, NULL, null, null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Giant Slayer Battleaxe', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
 When you hit a giant with it, the giant takes an extra 2d6 damage of the weaponnulls type and must succeed on a DC 15 Strength saving throw or fall[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
-Proficiency with a battleaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, prone, damage, combat, versatile', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Proficiency with a battleaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, prone, damage, combat, versatile', null, null, 'rare', null, false, false, false, true, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Backpack', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Backpack', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Crystal Ball', 'DND5E', null, null, 'The typicalcrystal ball, a very rare item, is about 6 inches in diameter. While touching it, you can cast thescryingspell (save DC 17) with it.
 The followingcrystal ballvariants are legendary items and have additional properties.
