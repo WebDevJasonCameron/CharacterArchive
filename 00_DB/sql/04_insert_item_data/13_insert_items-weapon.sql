@@ -1716,7 +1716,154 @@ VALUES(
 
     null,
     5
+    ),
+    (
+    'Giant Slayer Battleaxe',
+    'DND5E',
+    '4 lb',
+    null,
+    'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+        When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon''s type and must succeed on a DC 15 Strength saving throw or fall prone. For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
+        Proficiency with a Battleaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        *Topple.* If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+    'Bonus: Magic, Damage: Additional, Prone, Damage, Combat, Versatile, Topple',
+    null,
+    'rare',
+    null,
+
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    null,
+
+    '5 ft',
+    '1d8 (1d10 two handed)',
+    'slashing',
+    'Versatile (1d10), Topple',
+    null,
+
+    null,
+    null,
+
+    null,
+    17
+    ),
+    (
+      'Scimitar of Speed',
+    'DND5E',
+    '3 lb',
+    null,
+    'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon. In addition, you can make one attack with it as a Bonus Action on each of your turns.
+        Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+    'Bonus: Magic, Extra Attack as Bonus Action, Damage, Combat, Finesse, Light, Nick',
+    'Dungeon Master’s Guide, pg. 199',
+    'very rare',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    null,
+
+    '5 ft',
+    '1d6',
+    'slashing',
+    'Finesse, Light, Nick',
+    null,
+
+    null,
+    null,
+
+    null,
+    17
+    ),
+    (
+    'Giant Slayer Longsword',
+    'DND5E',
+    '3 lb',
+    null,
+    'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+            When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon''s type and must succeed on a DC 15 Strength saving throw or fall prone. For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
+            Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+            ---
+            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+            Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+    'bonus: magic, damage: additional, prone, damage, combat, versatile',
+    null,
+    'rare',
+    null,
+
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    null,
+
+    '5 ft',
+    '1d8 (1d10 two handed)',
+    'slashing',
+    'Versatile (1d10), Sap',
+    null,
+
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Dwarven Thrower',
+    'DND5E',
+    '5 lb',
+    null,
+    'You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. It has the Thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra 1d8 Force damage, or an extra 2d8 Force damage if the target is a Giant. Immediately after hitting or missing, the weapon flies back to your hand.
+        Proficiency with a Warhammer allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        *Push.* If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
+    'Bonus: Magic, Damage: Additional, Damage: Additional, Dwarf or a Creature Attuned to a Belt of Dwarvenkind, Damage, Combat, Versatile, Push',
+    'Dungeon Master’s Guide, pg. 167',
+    'very rare',
+    null,
+
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    null,
+
+    '5 ft',
+    '1d8 (1d10 two handed)',
+    'bludgeoning',
+    'Versatile (1d10), Push',
+    null,
+
+    null,
+    null,
+
+    null,
+    5
     )
+
 
 
 

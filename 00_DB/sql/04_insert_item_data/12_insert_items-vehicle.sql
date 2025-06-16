@@ -272,4 +272,44 @@ VALUES
 
             null,
             5
+        ),
+        (
+            'Galley',
+            'DND5E',
+            null,
+            '30,000 gp',
+            'Galleys are long vessels that rely on sails and sizable rowing crews to move. These ships can carry siege weapons and soldiers to war or transport large amounts of cargo for merchants. No matter the ship''s purpose, the crew almost always hires extra protection, since galleys make large, cargo-rich targets for pirates.
+                Galleys have the following statistics:
+                *AC* 15
+                *HP* 500
+                *Speed* 4 mph
+                *Damage* Threshold 20
+                *Crew* 80
+                *Passengers* —
+                *Cargo (Tons)* 150',
+            null,
+            null,
+            null,
+            null,
+
+            null,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+
+            null,
+            null,
+            null,
+            null,
+            null,
+
+            null,
+            null,
+
+            null,
+            5
         )
