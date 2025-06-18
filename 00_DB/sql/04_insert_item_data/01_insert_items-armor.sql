@@ -1092,4 +1092,68 @@ VALUES (
 
            null,
            5
+       ),
+       (
+           'Clothes, Costume',
+           'DND5E',
+           '4 lb',
+           '5 gp',
+           'This set of clothes is fashioned after a particular costume, typically meant for entertaining.',
+           null,
+           null,
+           null,
+           null,
+
+           false,
+           false,
+           false,
+           false,
+           false,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+
+           null,
+           null,
+
+           null,
+           5
+       ),
+       (
+           'Helm of Teleportation',
+           'DND5E',
+           null,
+           null,
+           'This helm has 3 charges. While wearing it, you can expend 1 charge to cast Teleport from it. The helm regains 1d3 expended charges daily at dawn.',
+           'Teleportation, Headwear',
+           'Dungeon Master’s Guide, pg. 174',
+           'rare',
+           'Wondrous Item',
+
+           true,
+           true,
+           false,
+           false,
+           false,
+           false,
+           false,
+           true,
+           3,
+
+           null,
+           null,
+           null,
+           null,
+
+           null,
+           null,
+
+           null,
+           17
        )

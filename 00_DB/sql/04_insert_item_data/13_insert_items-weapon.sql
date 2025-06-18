@@ -1862,8 +1862,73 @@ VALUES(
 
     null,
     5
-    )
+    ),
+    (
+    'Yew Wand',
+    'DND5E',
+    '1 lb',
+    '10 gp',
+    'A druid can use a Yew Wand as a spellcasting focus, as described in the Spellcasting section.',
+    null,
+    null,
+    null,
+    null,
 
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    null,
 
+    null,
+    null,
+    null,
+    null,
+    null,
 
+    null,
+    null,
+
+    null,
+    5
+    ),
+    (
+    'Vicious Greatclub',
+     'DND5E',
+     '10 lb',
+     null,
+     'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+        Proficiency with a Greatclub allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        *Push.* If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller',
+     'Damage: Additional, Damage, Combat, Two-Handed, Push',
+     null,
+     'rare',
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     '5 ft',
+     '1d8+3',
+     'bludgeoning',
+     'Two-Handed, Push',
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      )
 

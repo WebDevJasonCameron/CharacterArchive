@@ -509,38 +509,71 @@ VALUES(
           null,
           5
       ),
+
       (
-       'Bag of Holding',
-       'DND5E',
-       '5 lb',
-       null,
-       'This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.
-            If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.
-            Placing a bag of holding inside an extradimensional space created by a handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can’t be reopened.
-            *Capacity:* 500lb.',
-       'Utility, Container',
-       'Dungeon Master’s Guide, pg. 234',
-       'uncommon',
-       'Wondrous Item',
+          'Bag of Holding',
+          'DND5E',
+          '5 lb',
+          null,
+          'This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.
+               If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.
+               Placing a bag of holding inside an extradimensional space created by a handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can’t be reopened.
+               *Capacity:* 500lb.',
+          'Utility, Container',
+          'Dungeon Master’s Guide, pg. 234',
+          'uncommon',
+          'Wondrous Item',
 
-       true,
-       false,
-       false,
-       false,
-       false,
-       false,
-       false,
-       null,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
 
-       null,
-       null,
-       null,
-       null,
-       null,
+          null,
+          null,
+          null,
+          null,
+          null,
 
-       null,
-       null,
+          null,
+          null,
 
-       null,
-       17
+          null,
+          17
+      ),
+      (
+          'Three-Dragon Ante Set',
+          'DND5E',
+          null,
+          '1 gp',
+          'If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       )

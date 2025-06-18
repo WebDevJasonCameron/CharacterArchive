@@ -62,7 +62,7 @@ VALUES(
         17
         ),
         (
-        'Figurine of Wondrous Power',
+        'Figurines of Wondrous Power',
         'DND5E',
         null,
         null,
@@ -96,6 +96,324 @@ VALUES(
         null,
 
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Figurine of Wondrous Power (Golden Lions)',
+        'DND5E',
+        null,
+        null,
+        'A *figurine of wondrous power* is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn''t enough space for the creature, the figurine doesn''t become a creature.
+            The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
+            The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can''t be used again until a certain amount of time has passed, as specified in the figurine''s description.
+            *Golden Lions.* These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a lion for up to 1 hour. Once a lion has been used, it can''t be used again until 7 days have passed.',
+        'Summoning',
+        null,
+        'rare',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Figurine of Wondrous Power (Ebony Fly)',
+        'DND5E',
+        null,
+        null,
+            'A Figurine of Wondrous Power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn’t enough space for the creature, the figurine doesn’t become a creature.
+            The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
+            The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can’t be used again until a certain amount of time has passed, as specified in the figurine’s description.
+            *Ebony Fly.* This ebony statuette is carved in the likeness of a horsefly. It can become a giant fly for up to 12 hours and can be ridden as a mount. Once it has been used, it can’t be used again until 2 days have passed.',
+        'Summoning',
+        null,
+        'rare',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Figurine of Wondrous Power (Obsidian Steed)',
+        'DND5E',
+        null,
+        null,
+        'A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn''t enough space for the creature, the figurine doesn''t become a creature.
+            The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
+            The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can''t be used again until a certain amount of time has passed, as specified in the figurine''s description.
+            *Obsidian Steed.* This polished obsidian horse can become a nightmare for up to 24 hours. The nightmare fights only to defend itself. Once it has been used, it can''t be used again until 5 days have passed.
+            If you have a good alignment, the figurine has a 10 percent chance each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the nightmare while it is ignoring your orders, you and the nightmare are instantly transported to a random location on the plane of Hades, where the nightmare reverts to figurine form.',
+        'Summoning',
+        null,
+        'very rare',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Figurine of Wondrous Power (Serpentine Owl)',
+        'DND5E',
+        null,
+        null,
+        'A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn''t enough space for the creature, the figurine doesn''t become a creature.
+            The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
+            The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can''t be used again until a certain amount of time has passed, as specified in the figurine''s description.
+            Serpentine Owl. This serpentine statuette of an owl can become a giant owl for up to 8 hours. Once it has been used, it can''t be used again until 2 days have passed. The owl can telepathically communicate with you at any range if you and it are on the same plane of existence.',
+        'Summoning',
+        null,
+        'rare',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Figurine of Wondrous Power (Marble Elephant)',
+        'DND5E',
+        null,
+        null,
+        'A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn''t enough space for the creature, the figurine doesn''t become a creature.
+            The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
+            The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can''t be used again until a certain amount of time has passed, as specified in the figurine''s description.
+            *Marble Elephant.* This marble statuette is about 4 inches high and long. It can become an elephant for up to 24 hours. Once it has been used, it can''t be used again until 7 days have passed.',
+        'summoning',
+        null,
+        'rare',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Figurine of Wondrous Power (Silver Raven)',
+        'DND5E',
+        null,
+        null,
+        'A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn''t enough space for the creature, the figurine doesn''t become a creature.
+            The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
+            The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can''t be used again until a certain amount of time has passed, as specified in the figurine''s description.
+            Silver Raven. This silver statuette of a raven can become a raven for up to 12 hours. Once it has been used, it can''t be used again until 2 days have passed. While in raven form, the figurine allows you to cast the animal messenger spell on it at will.',
+        'Summoning',
+        null,
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Figurine of Wondrous Power (Bronze Griffon)',
+        'DND5E',
+        null,
+        null,
+        'A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn''t enough space for the creature, the figurine doesn''t become a creature.
+            The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
+            The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can''t be used again until a certain amount of time has passed, as specified in the figurine''s description.
+            Bronze Griffon. This bronze statuette is of a griffon rampant. It can become a griffon for up to 6 hours. Once it has been used, it can''t be used again until 5 days have passed.',
+        'Summoning',
+        null,
+        'rare',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Figurine of Wondrous Power (Ivory Goats)',
+        'DND5E',
+        null,
+        null,
+        'A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn''t enough space for the creature, the figurine doesn''t become a creature.
+            The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
+            The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can''t be used again until a certain amount of time has passed, as specified in the figurine''s description.
+            *Ivory Goats.* These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:
+            - The goat of traveling can become a Large goat with the same statistics as a riding horse. It has 24 charges, and each hour or portion thereof it spends in beast form costs 1 charge. While it has charges, you can use it as often as you wish. When it runs out of charges, it reverts to a figurine and can''t be used again until 7 days have passed, when it regains all its charges.
+            - The goat of travail becomes a giant goat for up to 3 hours. Once it has been used, it can''t be used again until 30 days have passed.
+            - The goat of terror becomes a giant goat for up to 3 hours. The goat can''t attack, but you can remove its horns and use them as weapons. One horn becomes a lance, +1, and the other becomes a longsword, +2. Removing a horn requires an action, and the weapons disappear and the horns return when the goat reverts to figurine form. In addition, the goat radiates a 30-foot-radius aura of terror while you are riding it. Any creature hostile to you that starts its turn in the aura must succeed on a DC 15 Wisdom saving throw or be frightened of the goat for 1 minute, or until the goat reverts to figurine form. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it successfully saves against the effect, a creature is immune to the goat''s aura for the next 24 hours. Once the figurine has been used, it can''t be used again until 15 days have passed.',
+        'Summoning',
+        null,
+        'rare',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Figurine of Wondrous Power (Onyx Dog)',
+        'DND5E',
+        null,
+        null,
+        'A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn''t enough space for the creature, the figurine doesn''t become a creature.
+            The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
+            The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can''t be used again until a certain amount of time has passed, as specified in the figurine''s description.
+            *Onyx Dog.* This onyx statuette of a dog can become a mastiff for up to 6 hours. The mastiff has an Intelligence of 8 and can speak Common. It also has darkvision out to a range of 60 feet and can see invisible creatures and objects within that range. Once it has been used, it can''t be used again until 7 days have passed.',
+        'summoning',
+        null,
+        'rare',
+        'Wondrous Item',
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
         null,
         null,
         null,
@@ -355,42 +673,7 @@ VALUES(
         5
         ),
         (
-        'Figurine of Wondrous Power (Golden Lions)',
-        'DND5E',
-        null,
-        null,
-        'A *figurine of wondrous power* is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn''t enough space for the creature, the figurine doesn''t become a creature.
-            The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
-            The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can''t be used again until a certain amount of time has passed, as specified in the figurine''s description.
-            *Golden Lions.* These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a lion for up to 1 hour. Once a lion has been used, it can''t be used again until 7 days have passed.',
-        'Summoning',
-        null,
-        'rare',
-        'Wondrous Item',
-
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        null,
-
-        null,
-        null,
-        null,
-        null,
-        null,
-
-        null,
-        null,
-
-        null,
-        5
-        ),
-        (
-          'Feather Token (Whip)',
+        'Feather Token (Whip)',
         'DND5E',
         null,
         null,
@@ -871,53 +1154,125 @@ VALUES(
         null,
         82
         ),
+        (
+        'Reliquary',
+        'DND5E',
+        '2 lb',
+        '5 gp',
+        'A holy symbol is a representation of a god or pantheon. A cleric or paladin can use a holy symbol as a spellcasting focus, as described in the Spellcasting section. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.',
+        null,
+        null,
+        null,
+        null,
 
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
 
+        null,
+        null,
+        null,
+        null,
+        null,
 
-    (
-         'Spell Scroll (8th Level)', 'DND5E', null, null, 'Aspell scrollbears the words of a single spell, written in a mysticalcipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
-If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 18. On a failed check, the spell disappears from the scroll with no other Effect.
-This scroll contains an 8th level spell. The spellnulls saving throw DC is 18 and attack bonus is +10.
-A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence ([Arcana](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Arcana)) check with a DC equal to 18. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.', 'utility, consumable', null, null, 'very rare', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Clothes, Costume', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Yew Wand', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Reliquary', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Greatclub', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a greatclub allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Abacus', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Three-Dragon Ante Set', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Helm of Teleportation', 'DND5E', null, null, 'This helm has 3 charges. While wearing it, you can use an action and expend 1 charge to cast theteleportspell from it. The helm regains 1d3 expended charges daily at dawn.', 'teleportation, headwear', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Figurine of Wondrous Power (Ebony Fly)', 'DND5E', null, null, 'AFigurine of Wondrous Poweris a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn’t enough space for the creature, the figurine doesn’t become a creature.
-The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
-The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can’t be used again until a certain amount of time has passed, as specified in the figurine’s description.
-Ebony Fly.This ebony statuette is carved in the likeness of a horsefly. It can become agiant flyfor up to 12 hours and can be ridden as a mount. Once it has been used, it can’t be used again until 2 days have passed.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Invisibility', 'DND5E', null, null, 'This potionnulls container looks empty but feels as though it holds liquid. When you drink it, you become[invisible](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Invisible)for 1 hour. Anything you wear or carry is[invisible](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Invisible)with you. The Effect ends early if you attack or cast a spell.', 'invisible, deception, consumable', NULL, NULL, 'very rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Climbing', 'DND5E', null, null, 'When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength ([Athletics](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Athletics)) checks you make to climb. The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.', 'set: innate speed (climbing), advantage: athletics, buff, movement, consumable', NULL, NULL, 'common', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to one type of damage for 1 hour. The DM chooses the type or determines it randomly from the options below.
-| d10 | Damage Type   |
-| 1   | Potion of Resistance - Acid      |
-| 2   | Potion of Resistance - Cold      |
-| 3   | Potion of Resistance - Fire      |
-| 4   | Potion of Resistance - Force     |
-| 5   | Potion of Resistance - Lightning |
-| 6   | Potion of Resistance - Necrotic  |
-| 7   | Potion of Resistance - Poison    |
-| 8   | Potion of Resistance - Psychic   |
-| 9   | Potion of Resistance - Radiant   |
-| 10  | Potion of Resistance - Thunder   |
-Item Tags:WARDINGCONSUMABLE', 'resistance: acid, resistance: cold, resistance: fire, resistance: force, resistance: lightning, resistance: necrotic, resistance: poison, resistance: psychic, resistance: radiant, resistance: thunder, warding, consumable', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Abacus',
+        'DND5E',
+        '2 lb',
+        '2 gp',
+        'A standard tool used to make calculations.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+        ),
+        (
+        'Occultant Abacus',
+        'DND5E',
+        null,
+        null,
+        'Head office grants you the use of a unique item known as an occultant abacus (sometimes just referred to as an occultant), whose beads resemble tiny skulls.
+            *Read the Kill*
+            Also at rank 1, your occultant abacus not only tracks your franchise’s kills, it helps you determine the impact of those kills on the franchise’s fate. Over a period of 1 minute, you can study a creature killed by someone in your franchise within the last 24 hours, then grant the character who slew it a d10. Once within the next hour, that character can add the d10 to an attack roll, ability check, or saving throw. If it’s not clear who administered the killing blow, you grant this benefit to a random creature involved in the fight. Once you use this feature, you can’t use it again until you finish a long rest.
+
+            *Ways to Read the Kill*
+            | *d6* | *Reading* |
+            | --- | --- |
+            | 1 | Using a tiny bellows to pump one last breath into a corpse. |
+            | 2 | Reading the entrails with special reading-the-entrails glasses. |
+            | 3 | Burning a small piece of the body and looking for shapes in the smoke. |
+            | 4 | A cautious, reasoned, professional guesstimate. |
+            | 5 | Careful measurements. The distance between nostrils. The difference between the index finger and the middle finger. The elasticity of the ear lobe. |
+            | 6 | You take a long, careful look, and then decide based on which fellow franchisee has been nice to you lately. |
+            *Eldritch Occultant*
+            Starting at rank 2, your occultant abacus becomes an uncommon magic item that can track lives both eliminated and saved. While holding your occultant abacus within 5 feet of a creature killed within the past 24 hours, you can cast the augury spell. The course of action you inquire about with the spell does not need to have any connection to the dead creature. This property of the occultant abacus can’t be used again until the next dawn.
+            *Bring Out Your Dead*
+            Also at rank 2, you regain the use of your Read the Kill feature after you finish a short or long rest.
+            *Bead of Instant Karma*
+            At rank 3, one of the beads on your occultant abacus channels the power of instant karma, turning the occultant abacus into a rare magic item. As a reaction, you can target one creature you can see that is about to attempt an ability check, attack roll, or saving throw, either granting advantage or imposing disadvantage on the roll. The bead crumbles to dust when used, reappearing on your occultant abacus at the next dawn.
+            *Bead of Diverted Karma*
+            At rank 4, one of the beads on your occultant abacus allows you to divert karma to where it’s needed, turning the occultant abacus into a very rare magic item. While the bead is unused, you know automatically when any creature you can see is about to make an ability check, attack roll, or saving throw with disadvantage. When such a roll is made, you can use a reaction to grant a d10 to a different creature you can see. That creature can add the d10 to any ability check, attack roll, or saving throw it makes within the next minute. The bead crumbles to dust when used, reappearing on your occultant abacus at the next dawn.
+            *Correct the Balance*
+            As a rank 4 occultant, you learn that sometimes the death of a creature has unintended consequences. Within seven days of a creature’s death, you can use your occultant abacus to divine ways to reverse or mitigate events resulting from that death. As an action, make a DC 15 Intelligence (Religion) check. On a success, you learn the relevant information based on the nature of the creature and its place in the world.
+            If you fail the check, this property of the occultant abacus can’t be used again until the next dawn. If you succeed on the check, this property can’t be used again until dawn seven days later.',
+        null,
+        'Acquisitions Incorporated, pg. 31',
+        'varies',
+        'Wondrous item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        1,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        1
+        ),(
          'Flame Tongue Scimitar', 'DND5E', null, null, 'You can use a bonus action to speak this magic swordnulls command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
 Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: fire, damage, combat, finesse, light', NULL, NULL, null, null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -1127,12 +1482,6 @@ Applicable Weapons:
 | Vorpal Sword - Longsword | Martial Melee | 1d8 + 3 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10) |
 | Vorpal Sword - Scimitar | Martial Melee | 1d6 + 3 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |', 'bonus: magic, damage, combat', NULL, NULL, 'legendary', null, false, true, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Figurine of Wondrous Power (Obsidian Steed)', 'DND5E', null, null, 'Afigurine of wondrous poweris a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isnnullt enough space for the creature, the figurine doesnnullt become a creature.
-The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
-The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property cannullt be used again until a certain amount of time has passed, as specified in the figurinenulls description.
-Obsidian Steed.This polished obsidian horse can become anightmarefor up to 24 hours. Thenightmarefights only to defend itself. Once it has been used, it cannullt be used again until 5 days have passed.
-If you have a good alignment, the figurine has a 10 percent chance each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the nightmare while it is ignoring your orders, you and thenightmareare instantly transported to a random location on the plane of Hades, where thenightmarereverts to figurine form.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Universal Solvent', 'DND5E', null, null, 'This tube holds milky liquid with a strong alcohol smell. You can use an action to pour the contents of the tube onto a surface within reach. The liquid instantly dissolves up to 1 square foot of adhesive it touches, includingSovereign Glue.', 'utility, consumable', NULL, NULL, 'legendary', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Staff of Fire', 'DND5E', null, null, 'You have resistance to fire damage while you hold this staff.
@@ -1183,11 +1532,6 @@ Proficiency with a rapier allows you to add your proficiency bonus to the attack
          'Bit and Bridle', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Pot, Iron', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Figurine of Wondrous Power (Serpentine Owl)', 'DND5E', null, null, 'Afigurine of wondrous poweris a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isnnullt enough space for the creature, the figurine doesnnullt become a creature.
-The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
-The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property cannullt be used again until a certain amount of time has passed, as specified in the figurinenulls description.
-Serpentine Owl.This serpentine statuette of an owl can become agiant owlfor up to 8 hours. Once it has been used, it cannullt be used again until 2 days have passed. The owl can telepathically communicate with you at any range if you and it are on the same plane of existence.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Apparatus of the Crab', 'DND5E', null, null, 'This item first appears to be a Large sealed iron barrel weighing 500 pounds. The barrel has a hidden catch, which can be found with a successful DC 20 Intelligence ([Investigation](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Investigation)) check. Releasing the catch unlocks a hatch at one end of the barrel, allowing two Medium or smaller creatures to crawl inside. Ten levers are set in a row at the far end, each in a neutral position, able to move either up or down. When certain levers are used, the apparatus transforms to resemble a giant lobster. The apparatus of the Crab is a Large object with the following statistics:
 Armor Class:20
@@ -1327,11 +1671,6 @@ Proficiency with a heavy crossbow allows you to add your proficiency bonus to th
          'Saddlebags', 'DND5E', null, null, 'Type:Adventuring Gear
 Weight:8 lbs
 Standard saddlebags that can be attached to a mountnulls saddle.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Figurine of Wondrous Power (Marble Elephant)', 'DND5E', null, null, 'Afigurine of wondrous poweris a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isnnullt enough space for the creature, the figurine doesnnullt become a creature.
-The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
-The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property cannullt be used again until a certain amount of time has passed, as specified in the figurinenulls description.
-Marble ElephantThis marble statuette is about 4 inches high and long. It can become anelephantfor up to 24 hours. Once it has been used, it cannullt be used again until 7 days have passed.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Bag of Beans', 'DND5E', null, null, 'Inside this heavy cloth bag are 3d4 dry beans. The bag weighs 1/2 pound plus 1/4 pound for each bean it contains.
 If you dump the bagnulls contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that arennullt being worn or carried.
@@ -1874,11 +2213,6 @@ Proficiency with a scimitar allows you to add your proficiency bonus to the atta
          'Staff of Withering', 'DND5E', null, null, 'This staff has 3 charges and regains 1d3 expended charges daily at dawn.
 The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to deal an extra 2d10 necrotic damage to the target. In addition, the target must succeed on a DC 15 Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.', 'damage: necrotic, cleric, druid, or warlock, damage, debuff, combat', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Figurine of Wondrous Power (Silver Raven)', 'DND5E', null, null, 'Afigurine of wondrous poweris a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isnnullt enough space for the creature, the figurine doesnnullt become a creature.
-The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
-The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property cannullt be used again until a certain amount of time has passed, as specified in the figurinenulls description.
-Silver Raven.This silver statuette of a raven can become aravenfor up to 12 hours. Once it has been used, it cannullt be used again until 2 days have passed. While in raven form, the figurine allows you to cast theanimal messengerspell on it at will.', 'summoning', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Spell Scroll (3rd Level)', 'DND5E', null, null, 'Aspell scrollbears the words of a single spell, written in a mysticalcipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
 If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 13. On a failed check, the spell disappears from the scroll with no other Effect.
 This scroll contains a 3rd level spell. The spellnulls saving throw DC is 15 and attack bonus is +7.
@@ -2022,11 +2356,6 @@ You have disadvantage when you use a lance to attack a target within 5 feet of y
          'Carpet of Flying (5 ft. x 7 ft.)', 'DND5E', null, null, 'You can speak the carpetnulls command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.
 This carpet is 5feet by 7 feet and has a flying speed of 40feet. It can carry up to 1,200pounds, but its flying speed becomes 20feet while carrying over 600pounds.', 'set: speed (flying), movement, utility, exploration', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Figurine of Wondrous Power (Bronze Griffon)', 'DND5E', null, null, 'Afigurine of wondrous poweris a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isnnullt enough space for the creature, the figurine doesnnullt become a creature.
-The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
-The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property cannullt be used again until a certain amount of time has passed, as specified in the figurinenulls description.
-Bronze Griffon.This bronze statuette is of a griffon rampant. It can become agriffonfor up to 6 hours. Once it has been used, it cannullt be used again until 5 days have passed.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Potion of Cold Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to cold damage for 1 hour.', 'resistance: cold, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Adamantine Breastplate', 'DND5E', null, null, 'This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While younullre wearing it, any critical hit against you becomes a normal hit.
@@ -2066,14 +2395,6 @@ When you suspect a trap, you can put the end of your 10-foot pole through that h
          'Smithnulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Alchemistnulls Fire (flask)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Figurine of Wondrous Power (Ivory Goats)', 'DND5E', null, null, 'Afigurine of wondrous poweris a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isnnullt enough space for the creature, the figurine doesnnullt become a creature.
-The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
-The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property cannullt be used again until a certain amount of time has passed, as specified in the figurinenulls description.
-Ivory Goats.These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:
--   Thegoat of travelingcan become a Large goat with the same statistics as aRiding horse. It has 24 charges, and each hour or portion thereof it spends in beast form costs 1 charge. While it has charges, you can use it as often as you wish. When it runs out of charges, it reverts to a figurine and cannullt be used again until 7 days have passed, when it regains all its charges.
--   Thegoat of travailbecomes agiant goatfor up to 3 hours. Once it has been used, it cannullt be used again until 30 days have passed.
--   Thegoat of terrorbecomes agiant goatfor up to 3 hours. The goat cannullt attack, but you can remove its horns and use them as weapons. One horn becomes alance, +1, and the other becomes alongsword, +2. Removing a horn requires an action, and the weapons disappear and the horns return when the goat reverts to figurine form. In addition, the goat radiates a 30-foot-radius aura of terror while you are riding it. Any creature hostile to you that starts its turn in the aura must succeed on a DC 15 Wisdom saving throw or befrightenedof the goat for 1 minute, or until the goat reverts to figurine form. Thefrightenedcreature can repeat the saving throw at the end of each of its turns, ending the Effect on itself on a success. Once it successfully saves against the Effect, a creature is immune to the goatnulls aura for the next 24 hours. Once the figurine has been used, it cannullt be used again until 15 days have passed.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Potion of Acid Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to acid damage for 1 hour.', 'resistance: acid, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2123,11 +2444,6 @@ While you hold the drawn sword, it creates an aura in a 10-foot radius around yo
 Proficiency with a shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: radiant, advantage: saving throws, paladin, damage, combat, warding, finesse, light', NULL, NULL, null, 'legendary', false, true, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Elemental Gem (Blue Sapphire)', 'DND5E', null, null, 'This blue sapphire contains a mote of elemental energy. When you use an action to break the gem, anair elementalis summoned as if you had cast theconjure elementalspell, and the gemnulls magic is lost.', 'summoning', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Figurine of Wondrous Power (Onyx Dog)', 'DND5E', null, null, 'Afigurine of wondrous poweris a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isnnullt enough space for the creature, the figurine doesnnullt become a creature.
-The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.
-The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property cannullt be used again until a certain amount of time has passed, as specified in the figurinenulls description.
-Onyx Dog.This onyx statuette of a dog can become aMastifffor up to 6 hours. TheMastiffhas an Intelligence of 8 and can speak Common. It also has01DnD/02DnDAssets/Rules/Mechanics/Senses/darkvisionout to a range of 60 feet and can see invisible creatures and objects within that range. Once it has been used, it cannullt be used again until 7 days have passed.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Necklace of Adaptation', 'DND5E', null, null, 'While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such ascloudkillandstinking cloudeffects, inhaled poisons, and the breath weapons of some dragons).', 'advantage: saving throws, buff, warding, jewelry', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(

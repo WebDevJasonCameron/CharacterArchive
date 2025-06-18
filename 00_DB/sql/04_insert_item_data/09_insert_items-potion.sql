@@ -191,4 +191,23 @@ VALUES
 
     null,
     5
+    ),
+    (
+        'Potion of Invisibility', 'DND5E', null, null, 'This potionnulls container looks empty but feels as though it holds liquid. When you drink it, you become[invisible](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Invisible)for 1 hour. Anything you wear or carry is[invisible](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Invisible)with you. The Effect ends early if you attack or cast a spell.', 'invisible, deception, consumable', null, null, 'very rare', null, false, false, false, false, false, false, false, null, null, null, null, null, null, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+    ),(
+        'Potion of Climbing', 'DND5E', null, null, 'When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength ([Athletics](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Athletics)) checks you make to climb. The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.', 'set: innate speed (climbing), advantage: athletics, buff, movement, consumable', NULL, NULL, 'common', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+    ),(
+        'Potion of Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to one type of damage for 1 hour. The DM chooses the type or determines it randomly from the options below.
+| d10 | Damage Type   |
+| 1   | Potion of Resistance - Acid      |
+| 2   | Potion of Resistance - Cold      |
+| 3   | Potion of Resistance - Fire      |
+| 4   | Potion of Resistance - Force     |
+| 5   | Potion of Resistance - Lightning |
+| 6   | Potion of Resistance - Necrotic  |
+| 7   | Potion of Resistance - Poison    |
+| 8   | Potion of Resistance - Psychic   |
+| 9   | Potion of Resistance - Radiant   |
+| 10  | Potion of Resistance - Thunder   |
+Item Tags:WARDINGCONSUMABLE', 'resistance: acid, resistance: cold, resistance: fire, resistance: force, resistance: lightning, resistance: necrotic, resistance: poison, resistance: psychic, resistance: radiant, resistance: thunder, warding, consumable', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
     )
