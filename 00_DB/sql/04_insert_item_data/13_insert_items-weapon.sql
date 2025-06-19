@@ -1930,5 +1930,272 @@ VALUES(
 
      null,
      5
+      ),
+      (
+          'Staff of Frost',
+          'DND5E',
+          null,
+          null,
+          'You have resistance to cold damage while you hold this staff.
+              The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: cone of cold (5 charges), fog cloud (1 charge), ice storm (4 charges), or wall of ice (4 charges).
+              The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns to water and is destroyed.
+              You have Resistance to Cold damage while you hold this staff.
+
+              Spells. The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.
+
+              | Spell | Charge Cost |
+              | --- | --- |
+              |  Cone of Cold | 	5 |
+              | Fog Cloud | 1 |
+              | Ice Storm | 4 |
+              | Wall of Ice | 4 |
+              Regaining Charges.The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff turns to water and is destroyed.',
+          'Resistance: Cold, Druid, Sorcerer, Warlock, or Wizard, Damage, Control, Combat, Warding',
+          'Dungeon Master’s Guide, pg. 308',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          10,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Flame Tongues',
+          'DND5E',
+          null,
+          null,
+          'You can use a bonus action to speak this magic sword''s command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
+                *Applicable Weapons:*
+
+                | *Name* | *Type* | *Damage* | *Properties* |
+                | --- | --- | --- | --- |
+                | Greatsword | Martial Melee | 2d6 slashing | Heavy, two-handed |
+                | Longsword | Martial Melee | 1d8 slashing | Versatile (1d10) |
+                | Rapier | Martial Melee | 1d8 piercing | Finesse |
+                | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
+                | Shortsword | Martial Melee | 1d6 piercing | Finesse, light |',
+          'Basic Rules (2014), pg. 170',
+          null,
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6 (2d6 while flaming)',
+          'slashing',
+          'Finesse, Light, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+       'Flame Tongue Greatsword',
+       'DND5E',
+       '6 lb',
+       null,
+       'While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.
+            Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+            ---
+            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+            Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.
+            ',
+       'Damage: Fire, Damage, Combat, Heavy, Two-Handed, Graze',
+       null,
+       'rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       '5 ft',
+       '2d6 (2d6 while flaming)',
+       'slashing',
+       'Heavy, Two-Handed, Graze',
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+    (
+     'Flame Tongue Longsword',
+     'DND5E',
+     '3 lb',
+     null,
+     'While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.
+        Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+        ---
+        This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+        Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+     'Damage: Fire, Damage, Combat, Versatile, Sap',
+     null,
+     'rare',
+     null,
+
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     '5 ft',
+     '1d8 (1d10 two handed)(2d6 while flaming)',
+     'slashing',
+     'Versatile (1d10), Sap',
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+      (
+       'Flame Tongue Rapier',
+       'DND5E',
+       '2 ft',
+       null,
+       'While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.
+            Proficiency with a Rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+            ---
+            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+            Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.
+            Notes: Damage: Fire, Damage, Combat, Finesse, Vex',
+       'Damage: Fire, Damage, Combat, Finesse, Vex',
+       null,
+       'rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       '5 ft',
+       '1d8 (2d6 while flaming)',
+       'piercing',
+       'Finesse, Vex',
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+          'Flame Tongue Scimitar',
+          'DND5E',
+          '3 lb',
+          null,
+          'While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.
+               Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+               ---
+               This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+               Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Damage: Fire, Damage, Combat, Finesse, Light, Nick',
+          null,
+          null,
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6 (2d6 while flaming)',
+          'slashing',
+          'Finesse, Light, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+       'Flame Tongue Shortsword',
+       'DND5E',
+       '2 lb',
+       null,
+       'While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.
+            Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+            ---
+            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+            Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+       'Fire, Damage, Combat, Finesse, Light, Nick',
+       null,
+       'rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       '5 ft',
+       '1d6 (2d6 while flaming)',
+       'piercing',
+       'Finesse, Light, Vex',
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
 

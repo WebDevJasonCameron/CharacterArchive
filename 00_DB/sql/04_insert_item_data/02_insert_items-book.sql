@@ -460,5 +460,37 @@ VALUES(
 
           null,
           5
+      ),
+      (
+       'Manual of Bodily Health',
+       'DND5E',
+       null,
+       null,
+       'This book contains health and diet tips, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the booknulls contents and practicing its guidelines, your Constitution score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.',
+       'Bonus: Constitution Score, Bonus: Ability Score Maximum, Buff',
+       'Dungeon Master’s Guide, pg. 180',
+       'very rare',
+       'Wondrous Item',
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
 
