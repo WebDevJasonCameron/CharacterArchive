@@ -2163,18 +2163,59 @@ VALUES(
           5
       ),
       (
-       'Flame Tongue Shortsword',
+           'Flame Tongue Shortsword',
+           'DND5E',
+           '2 lb',
+           null,
+           'While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.
+                Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+           'Fire, Damage, Combat, Finesse, Light, Nick',
+           null,
+           'rare',
+           null,
+
+           true,
+           true,
+           false,
+           false,
+           false,
+           false,
+           false,
+           null,
+
+           '5 ft',
+           '1d6 (2d6 while flaming)',
+           'piercing',
+           'Finesse, Light, Vex',
+           null,
+
+           null,
+           null,
+
+           null,
+            5
+      ),
+      (
+       'Holy Avenger',
        'DND5E',
-       '2 lb',
        null,
-       'While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.
-            Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
-            ---
-            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
-            Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
-       'Fire, Damage, Combat, Finesse, Light, Nick',
        null,
-       'rare',
+       'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
+            While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
+            *Applicable Weapons:*
+            | *Name* | *Type* | *Damage* | *Properties* |
+            | --- | --- | --- | --- |
+            | Greatsword | Martial Melee | 2d6 slashing | Heavy, two-handed |
+            | Longsword | Martial Melee | 1d8 slashing | Versatile (1d10) |
+            | Rapier | Martial Melee | 1d8 piercing | Finesse |
+            | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
+            | Shortsword | Martial Melee | 1d6 piercing | Finesse, light| |',
+       'Bonus: Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Versatile, Sap',
+       null,
+       'legendary',
        null,
 
        true,
@@ -2186,10 +2227,10 @@ VALUES(
        false,
        null,
 
-       '5 ft',
-       '1d6 (2d6 while flaming)',
-       'piercing',
-       'Finesse, Light, Vex',
+       null,
+       null,
+       null,
+       null,
        null,
 
        null,
@@ -2197,5 +2238,2124 @@ VALUES(
 
        null,
        5
+      ),
+      (
+          'Holy Avenger Greatsword',
+          'DND5E',
+          '6 ft',
+          null,
+          'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
+                While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
+                Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+          'Bonus: Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Heavy, Two-Handed, Graze',
+          null,
+          'legendary',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '2d6 (2d10 against fiends or undead)',
+          'slashing',
+          'Heavy, Two-Handed, Graze',
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+
+      (
+          'Holy Avenger Longsword',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
+                While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
+                Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Versatile, Sap',
+          null,
+          'legendary',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8 (1d10 two handed) (2d10 against fiends or undead)',
+          'slashing',
+          'Versatile (1d10), Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+
+      (
+          'Holy Avenger Rapier',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
+                While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
+                Proficiency with a Rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Finesse, Vex',
+          null,
+          'legendary',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8 (2d10 against fiends or undead)',
+          'piercing',
+          'Finesse, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+
+      (
+          'Holy Avenger Scimitar',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
+                While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
+                Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Finesse, Light, Nick',
+          null,
+          'legendary',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6 (2d10 against fiends or undead)',
+          'Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Finesse, Light, Nick',
+          'Finesse, Light, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+
+      (
+          'Holy Avenger Shortsword',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
+                While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
+                Proficiency with a Shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Finesse, Light, Vex',
+          null,
+          'legendary',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6 (2d10 against fiends or undead)',
+          'piercing',
+          'Finesse, Light, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+       'Wand of Binding',
+       'DND5E',
+       null,
+       null,
+       'This wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
+            *Spells.* While holding the wand, you can use an action to expend some of its charges to cast one of the following spells (save DC 17): hold monster (5 charges) or hold person (2 charges).
+            *Assisted Escape.* While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being paralyzed or restrained, or you can expend 1 charge and gain advantage on any check you make to escape a grapple.',
+       'Advantage: Saving Throws, Advantage: Acrobatics, Advantage: Athletics, Spellcaster, Control, Buff',
+       'Basic Rules (2014), pg. 209',
+       'rare',
+       null,
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       true,
+       7,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+          'Vicious Weapons',
+          'DND5E',
+          null,
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+
+                *Applicable Weapons:*
+
+                | *Name* | *Type* | *Damage* | *Properties* |
+                | --- | --- | --- | --- |
+                | Club |Simple Melee | 1d4 bludgeoning | Light |
+                | Dagger |Simple Melee | 1d4 piercing | Finesse, light, thrown (range 20/60) |
+                | Greatclub |Simple Melee | 1d8 bludgeoning | Two-handed |
+                | Handaxe |Simple Melee | 1d6 slashing | Light, thrown (range 20/60) |
+                | Javelin |Simple Melee | 1d6 piercing | Thrown (range 30/120) |
+                | Light hammer | Simple Melee | 1d4 bludgeoning | Light, thrown (range 20/60) |
+                | Mace |Simple Melee | 1d6 bludgeoning | -- |
+                | Quarterstaff |Simple Melee | 1d6 bludgeoning | Versatile (1d8) |
+                | Sickle |Simple Melee | 1d4 slashing | Light |
+                | Spear |Simple Melee | 1d6 piercing | Thrown (range 20/60), versatile (1d8) |
+                | Yklwa |Simple Melee | 1d8 piercing | Thrown (range 10/30) |
+
+                | *Name* | *Type* | *Damage* | *Properties* |
+                | --- | --- | --- | --- |
+                | Crossbow light | Simple Ranged | 1d8 piercing | Ammunition, (range 80/320), loading, two-handed |
+                | Dart | Simple Ranged | 1d4 piercing | Finesse, thrown (range 20/60) |
+                | Shortbow | Simple Ranged | 1d6 piercing | Ammunition, (range 80/320), two-handed |
+                | Sling | Simple Ranged | 1d4 bludgeoning | Ammunition, (range 30/120) |
+
+                | *Name* | *Type* | * Damage* | *Properties* |
+                | --- | --- | --- | --- |
+                | Battleaxe | Martial Melee |  1d8 slashing | Versatile (1d10) |
+                | Flail | Martial Melee |  1d8 bludgeoning | -- |
+                | Glaive | Martial Melee |  1d10 slashing | Heavy, reach, two-handed |
+                | Greataxe | Martial Melee |  1d12 slashing | Heavy, two-handed |
+                | Greatsword | Martial Melee |  2d6 slashing | Heavy, two-handed |
+                | Halberd | Martial Melee |  1d10 slashing | Heavy, reach, two-handed |
+                | Lance | Martial Melee |  1d12 piercing | Reach, special |
+                | Longsword | Martial Melee |  1d8 slashing | Versatile (1d10) |
+                | Maul | Martial Melee |  2d6 bludgeoning | Heavy, two-handed |
+                | Morningstar | Martial Melee |  1d8 piercing | -- |
+                | Pike | Martial Melee |  1d10 piercing | Heavy, reach, two-handed |
+                | Rapier | Martial Melee |  1d8 piercing | Finesse |
+                | Scimitar | Martial Melee |  1d6 slashing | Finesse, light |
+                | Shortsword | Martial Melee |  1d6 piercing | Finesse, light |
+                | Trident | Martial Melee |  1d6 piercing | Thrown (range 20/60), versatile (1d8) |
+                | War pick | Martial Melee |  1d8 piercing | -- |
+                | Warhammer | Martial Melee |  1d8 bludgeoning | Versatile (1d10) |
+                | Whip | Martial Melee |  1d4 slashing | Finesse, reach |
+
+                | *Name* | *Type* |	*Damage* | *Properties* |
+                | --- | --- | --- | --- |
+                | Blowgun | Martial Ranged | 1 piercing | Ammunition, (range 25/100), loading |
+                | Crossbow  hand | Martial Ranged | 1d6 piercing | Ammunition, (range 30/120), light, loading |
+                | Crossbow heavy | Martial Ranged | 1d10 piercing | Ammunition, (range 100/400), heavy, loading, two-handed |
+                | Longbow | Martial Ranged | 1d8 piercing | Ammunition, (range 150/600), heavy, two-handed |
+                | Net | Martial Ranged | -- | Special, thrown (range 5/15) |
+
+                | *Name* | *Type* | *Damage* | *Properties* |
+                | --- | --- | --- | --- |
+                | Pistol | Martial Ranged | 1d10 piercing | Ammunition (range 30/90), loading |
+                | Musket | Martial Ranged | 1d12 piercing | Ammunition (range 40/120), loading, two-handed |
+
+                | *Name* | *Type* | *Damage* | *Properties* |
+                | --- | --- | --- | --- |
+                | Pistol, automatic | Martial Ranged | 2d6 piercing | Ammunition (range 50/150), reload (15 shots) |
+                | Revolver | Martial Ranged | 2d8 piercing | Ammunition (range 40/120), reload (6 shots) |
+                | Rifle, hunting | Martial Ranged | 2d10 piercing | Ammunition (range 80/240), reload (5 shots), two-handed |
+                | Rifle, automatic | Martial Ranged | 2d8 piercing | Ammunition (range 80/240), burst fire, reload (30 shots), two-handed |
+                | Shotgun | Martial Ranged | 2d8 piercing | Ammunition (range 30/90), reload (2 shots), two-handed |
+
+                | *Name* | *Type* | *Damage* | *Properties* |
+                | --- | --- | --- | --- |
+                | Laser pistol | Martial Ranged | 3d6 radiant | Ammunition (range 40/120), reload (50 shots) |
+                | Antimatter rifle | Martial Ranged | 6d8 necrotic | Ammunition (range 120/360), reload (2 shots), two-handed |
+                | Laser rifle | Martial Ranged | 3d8 radiant | Ammunition (range 100/300), reload (30 shots), two-handed |',
+          'Damage: Additional, Damage, Combat',
+          'Basic Rules (2014), pg. 209',
+          'rare',
+          null,
+          true,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Club',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Club allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Damage: Additional, Damage, Combat, Light, Slow',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d4',
+          'bludgeoning',
+          'Light, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Dagger',
+          'DND5E',
+          '1 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Damage: Additional, Damage, Combat, Finesse, Light, Thrown, Nick',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft (20 ft/60 ft reach',
+          '1d4',
+          'piercing',
+          'Finesse, Light, Thrown, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Greatclub',
+          'DND5E',
+          '10 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Greatclub allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
+          'Damage: Additional, Damage, Combat, Two-Handed, Push',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8',
+          'bludgeoning',
+          'Two-Handed, Push',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Handaxe',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Handaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage: Additional, Damage, Combat, Light, Thrown, Vex',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft (20 ft/60 ft range)',
+          '1d6',
+          'slashing',
+          'Light, Thrown, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Javelin',
+          'DND5E',
+          '2 lb',
+          null,
+          '
+                When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Javelin allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Damage: Additional, Damage, Combat, Thrown, Slow',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft (30 ft/120 ft range)',
+          '1d6',
+          'piercing',
+          'Thrown, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Light Hammer',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Light Hammer allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Damage: Additional, Damage, Combat, Light, Thrown, Nick',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft (20 ft/60 ft range)',
+          '1d4',
+          'bludgeoning',
+          'Light, Thrown, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Mace',
+          'DND5E',
+          '4 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Mace allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Notes: Damage: Additional, Damage, Combat, Sap',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6',
+          'bludgeoning',
+          'Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Quarterstaff',
+          'DND5E',
+          '4 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Quarterstaff allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+          'Damage: Additional, Damage, Combat, Versatile, Topple',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6 (1d8 two handed)',
+          'bludgeoning',
+          'Versatile (1d8), Topple',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Sickle',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Sickle allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Damage: Additional, Damage, Combat, Light, Nick',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d4',
+          'slashing',
+          'Light, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Spear',
+          'DND5E',
+          null,
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Spear allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Damage: Additional, Damage, Combat, Thrown, Versatile, Sap',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '',
+          '',
+          '',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Yklwa',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. It costs 1 gp, and it deals 1d8 piercing damage on a hit. Although it has the thrown weapon property, the yklwa is not well balanced for throwing (range 10/30 ft.).',
+          'Damage: Additional, Damage, Combat, Thrown',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft (10 ft/30 ft range)',
+          '1d8',
+          'piercing',
+          'Thrown',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Crossbow, Light',
+          'DND5E',
+          '5 ft',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Light Crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Damage: Additional, Damage, Combat, Ammunition, Loading, Range, Two-Handed, Slow',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '80 ft/320 ft range',
+          '1d8',
+          'piercing',
+          'Ammunition, Loading, Range, Two-Handed, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Dart',
+          'DND5E',
+          '0.25 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Dart allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage: Additional, Damage, Combat, Finesse, Thrown, Vex',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '20 ft/60 ft range',
+          '1d4',
+          'piercing',
+          'Finesse, Thrown, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Shortbow',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Shortbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage: Additional, Damage, Combat, Ammunition, Range, Two-Handed, Vex',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '80 ft/320 ft range',
+          '1d6',
+          'piercing',
+          'Ammunition, Range, Two-Handed, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Sling',
+          'DND5E',
+          null,
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Sling allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Damage: Additional, Damage, Combat, Ammunition, Range, Slow',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '30 ft/120 ft range',
+          '1d4',
+          'bludgeoning',
+          'Ammunition, Range, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Battleaxe',
+          'DND5E',
+          '4 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Battleaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition',
+          'Damage: Additional, Damage, Combat, Versatile, Topple',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8 (1d10 two handed)',
+          'slashing',
+          'Versatile (1d10), Topple',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Flail',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Flail allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Damage: Additional, Damage, Combat, Sap',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8',
+          'bludgeoning',
+          'Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Glaive',
+          'DND5E',
+          '6 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Glaive allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+          'Damage: Additional, Damage, Combat, Heavy, Reach, Two-Handed, Graze',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '10 ft',
+          '1d10',
+          'slashing',
+          'Heavy, Reach, Two-Handed, Graze',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Greataxe',
+          'DND5E',
+          '7 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Greataxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Cleave. If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.',
+          'Damage: Additional, Damage, Combat, Heavy, Two-Handed, Cleave',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d12',
+          'slashing',
+          'Heavy, Two-Handed, Cleave',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Greatsword',
+          'DND5E',
+          '6 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+          'Damage: Additional, Damage, Combat, Heavy, Two-Handed, Graze',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '2d6',
+          'slashing',
+          'Heavy, Two-Handed, Graze',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Halberd',
+          'DND5E',
+          '6 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Halberd allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Cleave. If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.',
+          'Damage: Additional, Damage, Combat, Heavy, Reach, Two-Handed, Cleave',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '10 ft',
+          '1d10',
+          'slashing',
+          'Heavy, Reach, Two-Handed, Cleave',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Lance',
+          'DND5E',
+          '6 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Lance allows you to add your proficiency bonus to the attack roll for any attack you make with it. A Lance requires two hands to wield when you aren''t mounted.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+          'Damage: Additional, Damage, Combat, Heavy, Reach, Two-Handed, Topple',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '10 ft',
+          '1d10',
+          'piercing',
+          'Reach, Topple, Heavy, Two-Handed (unless mounted)',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Longsword',
+          'DND5E',
+          '3 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Damage: Additional, Damage, Combat, Versatile, Sap',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8 (1d10 two handed)',
+          'slashing',
+          'Versatile (1d10), Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Maul',
+          'DND5E',
+          '10 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Maul allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+          'Damage: Additional, Damage, Combat, Heavy, Two-Handed, Topple',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '2d6',
+          'bludgeoning',
+          'Heavy, Two-Handed, Topple',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Morningstar',
+          'DND5E',
+          '4 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Morningstar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Damage: Additional, Damage, Combat, Sap',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8',
+          'piercing',
+
+          'Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Pike',
+          'DND5E',
+          '18 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Pike allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
+          'Damage: Additional, Damage, Combat, Heavy, Reach, Two-Handed, Push',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d10',
+          'piercing',
+          'Heavy, Reach, Two-Handed, Push',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Rapier',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage: Additional, Damage, Combat, Finesse, Vex',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8',
+          'piercing',
+          'Finesse, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Scimitar',
+          'DND5E',
+          '3 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Damage: Additional, Damage, Combat, Finesse, Light, Nick',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6',
+          'slashing',
+          'Finesse, Light, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Shortsword',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage: Additional, Damage, Combat, Finesse, Light, Vex',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6',
+          'piercing',
+          'Finesse, Light, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Trident',
+          'DND5E',
+          '4 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Trident allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+          'Damage: Additional, Damage, Combat, Thrown, Versatile, Topple',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft (20 ft/60 ft range)',
+          '1d8 (1d10 two handed)',
+          'piercing',
+          'Thrown, Versatile (1d10), Topple',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious War Pick',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a War Pick allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Damage: Additional, Damage, Combat, Versatile, Sap',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8 (1d10 two handed)',
+          'piercing',
+          'Sap, Versatile (1d10)',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Warhammer',
+          'DND5E',
+          '5 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Warhammer allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
+          'Damage: Additional, Damage, Combat, Versatile, Push',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8 (1d10 two handed)',
+          'bludgeoning',
+          'Versatile (1d10), Push',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Whip',
+          'DND5E',
+          '3 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Whip allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Damage: Additional, Damage, Combat, Finesse, Reach, Slow',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '10 ft',
+          '1d4',
+          'slashing',
+          'Finesse, Reach, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Blowgun',
+          'DND5E',
+          '1 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Blowgun allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage: Additional, Damage, Combat, Ammunition, Loading, Range, Vex',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '25 ft/100 ft range',
+          '1',
+          'piercing',
+          'Ammunition, Loading, Range, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Crossbow, Hand',
+          'DND5E',
+          '3 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Hand Crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage: Additional, Damage, Combat, Ammunition, Light, Loading, Range, Vex',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '30 ft/120 ft range',
+          '1d6',
+          'piercing',
+          'Ammunition, Range, Light, Loading, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Crossbow, Heavy',
+          'DND5E',
+          '18 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Heavy Crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
+          'Damage: Additional, Damage, Combat, Ammunition, Heavy, Loading, Range, Two-Handed, Push',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '(100 ft/400 ft range)',
+          '1d10',
+          'piercing',
+          'Ammunition, Heavy, Loading, Range, Two-Handed, Push',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Longbow',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Longbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Damage: Additional, Damage, Combat, Ammunition, Heavy, Range, Two-Handed, Slow',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '150 ft/600 ft range',
+          '1d8',
+          'piercing',
+          'Ammunition, Heavy, Range, Two-Handed, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Net',
+          'DND5E',
+          '3 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a net allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.
+                When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.',
+          'Damage: Additional, Damage, Combat, Special, Thrown',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft/15 ft range',
+          null,
+          'bludgeoning',
+          'Special, Thrown',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Pistol',
+          'DND5E',
+          null,
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Pistol allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage: Additional, Damage, Combat, Loading, Range, Ammunition (Firearms), Vex',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '30 ft/90 ft range',
+          '1d10',
+          'piercing',
+          'Ammunition (Firearms), Range, Loading, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Musket',
+          'DND5E',
+          '10 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                Proficiency with a Musket allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Damage: Additional, Damage, Combat, Loading, Range, Two-Handed, Ammunition (Firearms), Slow',
+          'Player’s Handbook (2014), pg. 209',
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '40 ft/120 ft range',
+          '1d12',
+          'piercing',
+          'Ammunition (Firearms), Range, Loading, Two-Handed, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Vicious Pistol, Automatic',
+          'DND5E',
+          '3 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.',
+          'Damage: Additional, Damage, Combat, Range, Ammunition (Firearms), Reload',
+          'Basic Rules (2014), pg. 209',
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '50 ft/150 ft range',
+          '2d6',
+          'piercing',
+          'Ammunition (Firearms), Range, Reload',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Revolver',
+          'DND5E',
+          '3 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Damage: Additional, Damage, Combat, Range, Ammunition (Firearms), Reload, Sap',
+          'Basic Rules (2014), pg. 209',
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '40 ft/120 ft range',
+          '2d8',
+          'piercing',
+          'Ammunition (Firearms), Range, Reload, Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Rifle, Hunting',
+          'DND5E',
+          '8 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Slow',
+          'Basic Rules (2014), pg. 209',
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '80 ft/240 ft range',
+          '2d10',
+          'piercing',
+          'Ammunition (Firearms), Range, Reload, Two-Handed, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Rifle, Automatic',
+          'DND5E',
+          '8 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Burst Fire,',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '80 ft/240 ft range',
+          '2d8',
+          'piercing',
+          'Ammunition (Firearms), Range, Reload, Two-Handed, Burst Fire, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Shotgun',
+          'DND5E',
+          '7 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
+          'Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Push',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '30 ft/90 ft range',
+          '2d8',
+          'piercing',
+          'Ammunition (Firearms), Range, Reload, Two-Handed, Push',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Laser Pistol',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage: Additional, Damage, Combat, Range, Ammunition (Firearms), Reload, Vex',
+          'Basic Rules (2014), pg. 209',
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '40 ft/120 ft range',
+          '3d6',
+          'radiant',
+          'Ammunition (Firearms), Range, Reload, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Antimatter Rifle',
+          'DND5E',
+          null,
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Sap',
+          'Basic Rules (2014), pg. 203',
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '120 ft/360 ft range',
+          '6d8',
+          'necrotic',
+          'Ammunition (Firearms), Range, Reload, Two-Handed, Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Vicious Laser Rifle',
+          'DND5E',
+          '7 lb',
+          null,
+          'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Slow',
+          'Basic Rules (2014), pg. 209',
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '100 ft/300 ft range',
+          '3d8',
+          'radiant',
+          'Ammunition (Firearms), Range, Reload, Two-Handed, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+
+      (
+          'Vicious ---',
+          'DND5E',
+          null,
+          null,
+          '',
+          '',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '',
+          '',
+          '',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       )
 
+
+
+
+
+
+      (
+          'Vicious ---',
+          'DND5E',
+          null,
+          null,
+          '',
+          '',
+          null,
+          'rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '',
+          '',
+          '',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      )

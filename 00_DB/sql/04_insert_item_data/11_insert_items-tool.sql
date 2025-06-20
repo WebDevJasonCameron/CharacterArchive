@@ -165,4 +165,35 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Masons Tools',
+        'DND5E',
+        '8 lb',
+        '10 gp',
+        '*Ability:* Strength
+            *Utilize:* Chisel a symbol or hole in stone (DC 10)
+            *Craft:* Block and Tackle
+            If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.',
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        53
        )

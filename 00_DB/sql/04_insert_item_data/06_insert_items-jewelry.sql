@@ -536,6 +536,102 @@ VALUES(
 
            null,
            5
+      ),
+      (
+       'Signet Ring',
+       'DND5E',
+       null,
+       '5 gp',
+       'Each signet ring has a distinctive design carved into it. When you press this ring into warm sealing wax, you leave an identifying mark.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Ring of Telekinesis',
+       'DND5E',
+       null,
+       null,
+       'While wearing this ring, you can cast the telekinesis spell at will, but you can target only objects that aren''t being worn or carried.',
+       'Control, Utility, Jewelry',
+       'Dungeon Master’s Guide, pg. 295',
+       'very rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Talisman of the Sphere',
+       'DND5E',
+       null,
+       null,
+       'When you make an Intelligence (Arcana) check to control a sphere of annihilation while you are holding this talisman, you double your proficiency bonus on the check. In addition, when you start your turn with control over a sphere of annihilation, you can use an action to levitate it 10 feet plus a number of additional feet equal to 10 × your Intelligence modifier.',
+       'Control, Buff, Utility',
+       'Dungeon Master’s Guide, pg. 315',
+       'legendary',
+       'Wondrous Item',
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
       )
 
 

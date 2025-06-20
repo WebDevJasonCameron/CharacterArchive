@@ -1273,72 +1273,6 @@ VALUES(
         null,
         1
         ),(
-         'Potion of Gaseous Form', 'DND5E', null, null, 'When you drink this potion, you gain the Effect of thegaseous formspell for 1 hour (no concentration required) or until you end the Effect as a bonus action. This potionnulls container seems to hold fog that moves and pours like water.
-Item Tags:MOVEMENTUTILITYWARDINGCONSUMABLE', 'movement, utility, warding, consumable', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Masonnulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Holy Avenger', 'DND5E', null, null, 'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
-While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
-Applicable Weapons:
-| Name | Type | Damage | Properties |
-| Holy Avenger - Greatsword | Martial Melee | 2d6 slashing | [Heavy](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[two-handed](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Holy Avenger - Longsword | Martial Melee | 1d8 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10) |
-| Holy Avenger - Rapier | Martial Melee | 1d8 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Holy Avenger - Scimitar | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Holy Avenger - Shortsword | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](htt |', 'bonus: magic, damage: radiant, advantage: saving throws, paladin, damage, combat, warding, versatile', NULL, NULL, null, 'legendary', false, true, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Scimitar of Life Stealing', 'DND5E', null, null, 'When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isnnullt a construct or an undead. You also gain 10 temporary hit points.
-Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: necrotic, bonus: temporary hit points, healing, damage, combat, finesse, light', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Mac-Fuirmidh Cittern', 'DND5E', null, null, null, 'bard, healing, control, buff, utility, combat, warding, instrument', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Wand of Binding', 'DND5E', null, null, '(requires attunement by a Spellcaster)
-This wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
-Spells.While holding the wand, you can use an action to expend some of its charges to cast one of the following spells (save DC 17):hold monster(5 charges) orhold person(2 charges).
-Assisted Escape.While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being[paralyzed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Paralyzed)or[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained), or you can expend 1 charge and gain advantage on any check you make to escape a[grapple](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Grappled).', 'advantage: saving throws, advantage: acrobatics, advantage: athletics, spellcaster, control, buff', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Mirror, Steel', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Oil of Sharpness', 'DND5E', null, null, 'This clear, gelatinous oil sparkles with tiny, ultrathin silver shards. The oil can coat one slashing or piercing weapon or up to 5 pieces of slashing or piercing ammunition. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +3 bonus to attack and damage rolls.', 'bonus: magic, damage, buff, combat, consumable', NULL, NULL, 'very rare', null, false, false, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Clothes, Travelernulls', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Iron Flask', 'DND5E', null, null, 'This iron bottle has a brass stopper. You can use an action to speak the flasknulls command word, targeting a creature that you can see within 60 feet of you. If the target is native to a plane of existence other than the one younullre on, the target must succeed on a DC 17 Wisdom saving throw or be trapped in the flask. If the target has been trapped by the flask before, it has advantage on the saving throw. Once trapped, a creature remains in the flask until released. The flask can hold only one creature at a time. A creature trapped in the flask doesnnullt need to breathe, eat, or drink and doesnnullt age.
-You can use an action to remove the flasknulls stopper and release the creature the flask contains. The creature is friendly to you and your companions for 1 hour and obeys your commands for that duration. If you give no commands or give it a command that is likely to result in its death, it defends itself but otherwise takes no actions. At the end of the duration, the creature acts in accordance with its normal disposition and alignment.
-Anidentifyspell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask. A newly discovered bottle might already contain a creature chosen by the GM or determined randomly.
-| d100  | Contents        | d100  | Contents                 |
-| 1-50  | Empty           | 77-78 | Elemental (any)          |
-| 51    | Arcanaloth  | 79    | Githyanki knight     |
-| 52    | Cambion     | 80    | Githzerai zerth      |
-| 53-54 | Dao         | 81-82 | Invisible Stalker    |
-| 55-57 | Demon (type 1)  | 83-84 | Marid                |
-| 58-60 | Demon (type 2)  | 85-86 | Mezzoloth            |
-| 61-62 | Demon (type 3)  | 87-88 | Night hag            |
-| 63-64 | Demon (type 4)  | 89-90 | Nycaloth             |
-| 65    | Demon (type 5)  | 91    | Planetar             |
-| 66    | Demon (type 6)  | 92-93 | Salamander           |
-| 67    | Deva        | 94-95 | Slaad (any)              |
-| 68-69 | Devil (greater) | 96    | Solar                |
-| 70-72 | Devil (lesser)  | 97-98 | Succubus/incubus |
-| 73-74 | Djinni      | 99    | Ultroloth            |
-| 75-76 | Efreeti     | 00    | Xorn                 |', 'control', NULL, NULL, 'legendary', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Signet Ring', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Adamantine Chain Shirt', 'DND5E', null, null, 'This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While younullre wearing it, any critical hit against you becomes a normal hit.
-Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearernulls upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.', 'immunity: critical hits, combat, warding', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Telekinesis', 'DND5E', null, null, 'While wearing this ring, you can cast thetelekinesisspell at will, but you can target only objects that arennullt being worn or carried.', 'control, utility, jewelry', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Talisman of the Sphere', 'DND5E', null, null, 'When you make an Intelligence ([Arcana](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Arcana)) check to control asphere of annihilationwhile you are holding this talisman, you double your proficiency bonus on the check. In addition, when you start your turn with control over asphere of annihilation, you can use an action to levitate it 10 feet plus a number of additional feet equal to 10 × your Intelligence modifier.', 'control, buff, utility', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious War Pick', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a war pick allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Shortsword', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, finesse, light', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Elemental Gem (Yellow Diamond)', 'DND5E', null, null, 'This yellow diamondcontains a mote of elemental energy. When you use an action to break the gem, anearth elementalis summoned as if you had cast theconjure elementalspell, and the gemnulls magic is lost.', 'summoning', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Manual of Gainful Exercise', 'DND5E', null, null, 'This book describes fitness exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the booknulls contents and practicing its guidelines, your Strength score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.', 'bonus: strength score, bonus: ability score maximum, buff', NULL, NULL, null, 'very rare', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -1352,12 +1286,6 @@ Applicable Weapons:
 | Sword of Sharpness - Greatsword | Martial Melee | 2d6 slashing | [Heavy](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[two-handed](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
 | Sword of Sharpness - Longsword | Martial Melee | 1d8 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10) |
 | Sword of Sharpness - Scimitar | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |', 'damage: slashing, damage, combat', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),
-
-
-    (
-         'Vicious Greataxe', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a greataxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, heavy, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Vial', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -1369,9 +1297,6 @@ You have a +2 bonus to attack and damage rolls made with this magic weapon.
 Proficiency with a longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage, combat, versatile', NULL, NULL, null, null, false, false, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Lantern, Bullseye', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Morningstar', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a morningstar allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Fochlucan Bandore', 'DND5E', null, null, null, 'bard, damage, control, buff, utility, combat, instrument', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -1497,14 +1422,6 @@ Proficiency with a scimitar allows you to add your proficiency bonus to the atta
       ),(
          'Amulet of Proof against Detection and Location', 'DND5E', null, null, 'While wearing this amulet, you are hidden from divination magic. You cannullt be targeted by such magic or perceived through magical scrying sensors.', 'deception, jewelry', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Quarterstaff', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a quarterstaff allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, versatile', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),
-
-
-
-
-       ,(
          'Mithral Chain Shirt', 'DND5E', null, null, 'Mithral is a light, flexible metal. A mithral chain shirt can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
 Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearernulls upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.', 'stealth disadvantage: remove, combat, warding', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -1645,9 +1562,6 @@ In addition, the robe has 4d4 other patches. The GM chooses the patches or deter
 | 91-96 | Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach                                                                                             |
 | 97-00 | Portable ram                                                                                                                                                                                  |', 'utility, outerwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Crossbow, Heavy', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a heavy crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, ammunition, heavy, loading, range, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Sailing Ship', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),
     (
@@ -1712,15 +1626,6 @@ Lightning Strike.You can use an action to cause a bolt of lightning to leap from
 Thunderclap.You can use an action to cause the staff to issue a deafening thunderclap, audible out to 600 feet. Each creature within 60 feet of you (not including you) must make a DC 17 Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and becomes[deafened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Deafened)for 1 minute. On a successful save, a creature takes half damage and isnnullt[deafened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Deafened).
 Thunder and Lightning.You can use an action to use the Lightning Strike and Thunderclap properties at the same time. Doing so doesnnullt expend the daily use of those properties, only the use of this one.', 'bonus: magic, deafened, stunned, damage, control, debuff, combat', NULL, NULL, 'very rare', null, false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Javelin', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a javelin allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, thrown', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Rapier of Life Stealing', 'DND5E', null, null, 'When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isnnullt a construct or an undead. You also gain 10 temporary hit points.
-Proficiency with a rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: necrotic, bonus: temporary hit points, healing, damage, combat, finesse', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Rifle, Hunting', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in thePlayer’s Handbookto acquire proficiency, assuming that they have enough ammunition to keep the weapons working while masteringtheir use.', 'damage: additional, damage, combat, range, two-handed, ammunition (firearms), reload', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Longsword of Sharpness', 'DND5E', null, null, 'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
 When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the targetnulls limbs, with the Effect of such loss determined by the GM. If the creature has no limb to sever, you lop off a portion of its body instead.
 In addition, you can speak the swordnulls command word to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light.
@@ -1761,9 +1666,6 @@ Potions of Healing
 | Superior healing | Rare | 8d4 + 8 |
 | Supreme healing | Very rare | 10d4 + 20 |', 'bonus: hit points, healing, consumable', NULL, NULL, 'common', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Whip', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a whip allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, finesse, reach', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Oil of Sharpness', 'DND5E', null, null, 'This clear, gelatinous oil sparkles with tiny, ultrathin silver shards. The oil can coat one slashing or piercing weapon or up to 5 pieces of slashing or piercing ammunition. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +3 bonus to attack and damage rolls.', 'bonus: magic, damage, buff, combat, consumable', NULL, NULL, 'very rare', null, false, false, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Barrel', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -1772,9 +1674,6 @@ Proficiency with a whip allows you to add your proficiency bonus to the attack r
       ),
     (
          'Potion of Healing', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Antimatter Rifle', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the[Player’s Handbook](https://www.dndbeyond.com/sources/phb)to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.', 'damage: additional, damage, combat, range, two-handed, ammunition (firearms), reload', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Ring of Spell Storing', 'DND5E', null, null, 'This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains 1d6 − 1 levels of stored spells chosen by the GM.
 Any creature can cast a spell of 1st through 5th level into the ring by touching the ring as the spell is cast. The spell has no Effect, other than to be stored in the ring. If the ring cannullt hold the spell, the spell is expended without Effect. The level of the slot used to cast the spell determines how much space it uses.
@@ -1837,9 +1736,6 @@ Uses:
 | 7   | Giant hyena  |
 | 8   | Tiger        |', null, NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Longbow', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a longbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, ammunition, heavy, range, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Ring of Psychic Resistance', 'DND5E', null, null, 'You have resistance to psychic damage while wearing this jade ring.', 'resistance: psychic, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Robe of Stars', 'DND5E', null, null, 'This black or dark blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.
@@ -1855,9 +1751,6 @@ Applicable Weapons:
 | Dragon Slayer - Rapier     | Martial Melee | 1d8 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)                                                                                                |
 | Dragon Slayer - Scimitar   | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |
 | Dragon Slayer - Shortsword | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |', 'bonus: magic, damage: additional, damage, combat, versatile', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Rapier', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, finesse', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Bedroll', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -1881,9 +1774,6 @@ ItemTags:: UTILITYCONTAINER', 'utility, container', NULL, NULL, null, null, fals
       ),(
          'Spellguard Shield', 'DND5E', null, null, 'While holding this shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you.
 A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.', 'advantage: saving throws, combat, warding', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Yklwa', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. It costs 1 gp, and it deals 1d8 piercing damage on a hit. Although it has the[thrown](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)weapon property, the yklwa is not well balanced for throwing (range 10/30 ft.).', 'damage: additional, damage, combat, thrown', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Wand of Fear', 'DND5E', null, null, 'This wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
 Command.While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with thecommandspell (save DC 15).
@@ -1923,12 +1813,6 @@ Once you finish creating the golem, the book is consumed in eldritch flames. The
 | Red Corundum | Fire Elemental |
 | Emerald | Water Elemental |
 Item Tags:SUMMONING', 'summoning', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Musket', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in thePlayer’s Handbookto acquire proficiency, assuming that they have enough ammunition to keep the weapons working while masteringtheir use.', 'damage: additional, damage, combat, loading, range, two-handed, ammunition (firearms)', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Glaive', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a glaive allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, heavy, reach, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Tome of Clear Thought', 'DND5E', null, null, 'This book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the booknulls contents and practicing its guidelines, your Intelligence score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.', 'bonus: intelligence score, bonus: ability score maximum, buff', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -1984,19 +1868,12 @@ Proficiency with a maul allows you to add your proficiency bonus to the attack r
 When you hit a giant with it, the giant takes an extra 2d6 damage of the weaponnulls type and must succeed on a DC 15 Strength saving throw or fall[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
 Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, prone, damage, combat, finesse, light', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Holy Avenger Longsword', 'DND5E', null, null, 'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
-While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
-Proficiency with a longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: radiant, advantage: saving throws, paladin, damage, combat, warding, versatile', NULL, NULL, null, 'legendary', false, true, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Alchemistnulls Supplies', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Robe of the Archmagi', 'DND5E', null, null, 'This elegant garment is made from exquisite cloth of white, gray, or black and adorned with silvery runes. The robenulls color corresponds to the alignment for which the item was created. A white robe was made for good, gray for neutral, and black for evil. You cannullt attune to arobe of the archmagithat doesnnullt correspond to your alignment. You gain these benefits while wearing the robe:
 -   If you arennullt wearing armor, your base Armor Class is 15 + your Dexterity modifier.
 -   You have advantage on saving throws against spells and other magical effects.
 -   Your spell save DC and spell attack bonus each increase by 2.', 'set: unarmored armor class, advantage: saving throws, bonus: spell attacks, bonus: spell save dc, sorcerer, warlock, or wizard, buff, warding, outerwear', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Greatsword of Life Stealing', 'DND5E', null, null, 'When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isnnullt a construct or an undead. You also gain 10 temporary hit points.
-Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: necrotic, bonus: temporary hit points, healing, damage, combat, heavy, two-handed', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Nine Lives Stealer', 'DND5E', null, null, 'You gain a +2 bonus to attack and damage rolls made with this magic weapon.
 The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property.
@@ -2007,15 +1884,6 @@ Applicable Weapons:
 | Nine Lives Stealer - Rapier     | Martial Melee | 1d8 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)                                                                                                |
 | Nine Lives Stealer - Scimitar   | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |
 | Nine Lives Stealer - Shortsword | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |', 'bonus: magic, damage, combat, versatile', NULL, NULL, 'very rare', null, false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),
-
-    (
-         'Vicious Maul', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a maul allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, heavy, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),
-    (
-         'Vicious Light Hammer', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a light hammer allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, light, thrown', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Wooden Staff', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2081,21 +1949,11 @@ In a similar way, you can use an action to speak a second command word and free 
 The boots regain 2 hours of flying capability for every 12 hours they arennullt in use.', 'set: innate speed (flying), movement, footwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Potion of Radiant Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to radiant damage for 1 hour.', 'resistance: radiant, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Flail', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a flail allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),
     (
          'Gauntlets of Ogre Power', 'DND5E', null, null, 'Your Strength score is 19 while you wear these gauntlets. They have no Effect on you if your Strength is 19 or higher without them.', 'set: strength score, buff, handwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Holy Avenger Rapier', 'DND5E', null, null, 'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
-While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
-Proficiency with a rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: radiant, advantage: saving throws, paladin, damage, combat, warding, finesse', NULL, NULL, null, 'legendary', false, true, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Tinderbox', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Warhammer', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a warhammer allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, versatile', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Berserker Battleaxe', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.
 Curse.This axe is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the axe, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear.
@@ -2105,9 +1963,6 @@ Proficiency with a battleaxe allows you to add your proficiency bonus to the att
          'Talisman of Pure Good', 'DND5E', null, null, 'This talisman is a mighty symbol of goodness. A creature that is neither good nor evil in alignment takes 6d6 radiant damage upon touching the talisman. An evil creature takes 8d6 radiant damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.
 If you are a good cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.
 The talisman has 7 charges. If you are wearing or holding it, you can use an action to expend 1 charge from it and choose one creature you can see on the ground within 120 feet of you. If the target is of evil alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed.', 'bonus: spell attacks, creature of good alignment, control, buff, jewelry', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Blowgun', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a blowgun allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, ammunition, loading, range', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Wand of Fireballs', 'DND5E', null, null, 'This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast thefireballspell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
 The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.', 'spellcaster, damage, combat', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -2119,9 +1974,6 @@ When the box becomes a vessel, its weight becomes that of a normal vessel its si
 The third command word causes thefolding boatto fold back into a box, provided that no creatures are aboard. Any objects in the vessel that cannullt fit inside the box remain outside the box as it folds. Any objects in the vessel that can fit inside the box do so.', 'movement, utility, exploration', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Candle', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Pistol, Automatic', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in thePlayer’s Handbookto acquire proficiency, assuming that they have enough ammunition to keep the weapons working while masteringtheir use.', 'damage: additional, damage, combat, range, ammunition (firearms), reload', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Lyre', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2152,14 +2004,6 @@ Proficiency with a longsword allows you to add your proficiency bonus to the att
          'Rope, Hempen (50 feet)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Ring of Protection', 'DND5E', null, null, null, 'bonus: armor class, bonus: saving throws, warding, jewelry', NULL, NULL, 'x', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Net', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a net allows you to add your proficiency bonus to the attack roll for any attack you make with it.
-A Large or smaller creature hit by a net is[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained)until it is freed. A net has no Effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the Effect and destroying the net.
-When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.', 'damage: additional, damage, combat, special, thrown', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Adamantine Ring Mail', 'DND5E', null, null, 'This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While younullre wearing it, any critical hit against you becomes a normal hit.
-This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and itnulls usually worn only by those who cannullt afford better armor.', 'immunity: critical hits, combat, warding, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Clothes, Common', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2306,9 +2150,6 @@ Applicable Weapons:
 | Giant Slayer - Scimitar | Martial Melee | 1d6 + 1 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
 | Giant Slayer - Shortsword | Martial Melee | 1d6 + 1 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |', 'bonus: magic, damage: additional, damage, combat, versatile', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Sickle', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a sickle allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, light', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Eyes of Charming', 'DND5E', null, null, 'These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast thecharm personspell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn.', 'control, social, eyewear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Warship', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -2330,9 +2171,6 @@ You have disadvantage when you use a lance to attack a target within 5 feet of y
 This carpet is 5feet by 7 feet and has a flying speed of 40feet. It can carry up to 1,200pounds, but its flying speed becomes 20feet while carrying over 600pounds.', 'set: speed (flying), movement, utility, exploration', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Potion of Cold Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to cold damage for 1 hour.', 'resistance: cold, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Adamantine Breastplate', 'DND5E', null, null, 'This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While younullre wearing it, any critical hit against you becomes a normal hit.
-This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearernulls vital organs while leaving the wearer relatively unencumbered.', 'immunity: critical hits, combat, warding', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Ring of Radiant Resistance', 'DND5E', null, null, 'You have resistance to radiant damage while wearing this topaz ring.', 'resistance: radiant, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2383,15 +2221,9 @@ Whenever you use the ring again before taking a long rest, you must succeed on a
       ),(
          'Potion of Animal Friendship', 'DND5E', null, null, 'When you drink this potion, you can cast theanimal friendshipspell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.', 'control, communication, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Halberd', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a halberd allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, heavy, reach, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Spyglass', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Hammer', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Shortbow', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a shortbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, ammunition, range, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Blanket', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2411,10 +2243,6 @@ Proficiency with a dagger allows you to add your proficiency bonus to the attack
       ),(
          'Bowl of Commanding Water Elementals', 'DND5E', null, null, 'While this bowl is filled with water, you can use an action to speak the bowlnulls command word and summon aWater elemental, as if you had cast theconjure elementalspell. The bowl cannullt be used this way again until the next dawn.
 The bowl is about 1 foot in diameter and half as deep. It weighs 3 pounds and holds about 3 gallons.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Holy Avenger Shortsword', 'DND5E', null, null, 'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
-While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
-Proficiency with a shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: radiant, advantage: saving throws, paladin, damage, combat, warding, finesse, light', NULL, NULL, null, 'legendary', false, true, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Elemental Gem (Blue Sapphire)', 'DND5E', null, null, 'This blue sapphire contains a mote of elemental energy. When you use an action to break the gem, anair elementalis summoned as if you had cast theconjure elementalspell, and the gemnulls magic is lost.', 'summoning', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2516,9 +2344,6 @@ Plate consists of shaped, interlocking metal plates to cover the entire body. A 
       ),(
          'Parchment (one sheet)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Rifle, Automatic', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in thePlayer’s Handbookto acquire proficiency, assuming that they have enough ammunition to keep the weapons working while masteringtheir use.', 'damage: additional, damage, combat, range, two-handed, ammunition (firearms), burst fire, reload', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Talisman of Ultimate Evil', 'DND5E', null, null, 'This item symbolizes unrepentant evil. A creature that is neither good nor evil in alignment takes 6d6 necrotic damage upon touching the talisman. A good creature takes 8d6 necrotic damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.
 If you are an evil cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.
 The talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed.', 'bonus: spell attacks, creature of evil alignment, control, buff, jewelry', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -2526,9 +2351,6 @@ The talisman has 6 charges. If you are wearing or holding it, you can use an act
          'Flute', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Boots of Striding and Springing', 'DND5E', null, null, null, 'set: innate speed (walking), speed reduction: remove, buff, movement, utility, footwear', NULL, NULL, 'uncommon', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Pike', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a pike allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, heavy, reach, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Woodcarvernulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2636,9 +2458,6 @@ A bullseye lantern casts bright light in a 60-foot cone and dim light for an add
          'Feather Token (Bird)', 'DND5E', null, null, 'This tiny object looks like a feather.
 You can use an action to toss the token 5 feet into the air. The token disappears and an enormous, multicolored bird takes its place. The bird has the statistics of aroc, but it obeys your simple commands and cannullt attack. It can carry up to 500 pounds while flying at its maximum speed (16 miles an hour for a maximum of 144 miles per day, with a one-hour rest for every 3 hours of flying), or 1,000 pounds at half that speed. The bird disappears after flying its maximum distance for a day or if it drops to 0 hit points. You can dismiss the bird as an action.', 'summoning, movement, utility, exploration, consumable', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Pistol', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in thePlayer’s Handbookto acquire proficiency, assuming that they have enough ammunition to keep the weapons working while masteringtheir use.', 'damage: additional, damage, combat, loading, range, ammunition (firearms)', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Necklace of Fireballs', 'DND5E', null, null, 'This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-levelfireballspell (save DC 15).
 You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of thefireballby 1 for each bead beyond the first.', 'damage, combat, jewelry', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2647,9 +2466,6 @@ You can hurl multiple beads, or even the whole necklace, as one action. When you
          'Canaith Mandolin', 'DND5E', null, null, null, 'bard, healing, control, buff, utility, combat, warding, instrument', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Spellbook', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Adamantine Splint', 'DND5E', null, null, 'This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While younullre wearing it, any critical hit against you becomes a normal hit.
-This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.', 'immunity: critical hits, combat, warding, str 15 required, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Javelin of Lightning', 'DND5E', null, null, 'This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking 4d6 lightning damage on a failed save, and half as much damage on a successful one. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus 4d6 lightning damage.
 The javelinnulls property cannullt be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon.
@@ -2667,19 +2483,10 @@ After the hovering sword attacks for the fourth time, it flies up to 30 feet and
 | [Scimitar]   | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |
 | [Shortsword] | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |', null, NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Longsword', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, versatile', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Potion of Poison', 'DND5E', null, null, 'This concoction looks, smells, and tastes like aPotion of Healingor other beneficial potion. However, it is actually poison masked by illusion magic. An[identify](https://www.dndbeyond.com/spells/identify)spell reveals its true nature.
 If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned). At the start of each of your turns while you are[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned)in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.', 'consumable, cursed', NULL, NULL, 'uncommon', null, false, false, true, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Laser Rifle', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in thePlayer’s Handbookto acquire proficiency, assuming that they have enough ammunition to keep the weapons working while masteringtheir use.', 'damage: additional, damage, combat, range, two-handed, ammunition (firearms), reload', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Wand of the War Mage, +3', 'DND5E', null, null, 'While holding this wand, you gain a +3 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack.', 'bonus: spell attacks, spellcaster, buff, combat', NULL, NULL, 'very rare', 'yes', false, false, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Adamantine Plate', 'DND5E', null, null, 'This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While younullre wearing it, any critical hit against you becomes a normal hit.
-Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'immunity: critical hits, combat, warding, str 15 required, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Ring of Cold Resistance', 'DND5E', null, null, 'You have resistance to cold damage while wearing this tourmaline ring.', 'resistance: cold, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2711,15 +2518,6 @@ Curse.This axe is cursed, and becoming attuned to it extends the curse to you. A
 Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.
 Proficiency with a greataxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, bonus: hit points per level, combat, cursed, heavy, two-handed', NULL, NULL, 'rare', 'yes', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Sword of Life Stealing', 'DND5E', null, null, 'When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isnnullt a construct or an undead. You also gain 10 temporary hit points.
-Applicable Weapons:
-| Name | Type | Damage | Properties |
-| Sword of Life Stealing - Greatsword | Martial Melee | 2d6 slashing | [Heavy](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[two-handed](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Sword of Life Stealing - Longsword | Martial Melee | 1d8 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10) |
-| Sword of Life Stealing - Rapier | Martial Melee | 1d8 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Sword of Life Stealing - Scimitar | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Sword of Life Stealing - Shortsword | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |', 'damage: necrotic, bonus: temporary hit points, healing, damage, combat', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Mithral Armor', 'DND5E', null, null, 'Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes.
 If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
 Applicable Armor:
@@ -2744,13 +2542,7 @@ Proficiency with a shortsword allows you to add your proficiency bonus to the at
       ),(
          'Potion of Lightning Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to lightning damage for 1 hour.', 'resistance: lightning, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Battleaxe', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a battleaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, versatile', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Elemental Gem (Emerald)', 'DND5E', null, null, 'This red corundumcontains a mote of elemental energy. When you use an action to break the gem, aWater elementalis summoned as if you had cast theconjure elementalspell, and the gemnulls magic is lost.', 'summoning', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Sling', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a sling allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, ammunition, range', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Potion of Thunder Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to thunder damage for 1 hour.', 'resistance: thunder, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2766,9 +2558,6 @@ Hooves.Melee Weapon Attack:+4to hit, reach 5 ft., one target.Hit:7(2d4 + 2)bludg
       ),(
          'Potion of Storm Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 29 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
 This potionnulls transparent liquid has floating in it a sliver of fingernail from a storm giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Scimitar', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, finesse, light', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Emblem', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2838,51 +2627,12 @@ AnOrb of Dragonkindappears fragile but is impervious to most damage, including t
           5
       ),(
 
-          'Vicious Weapon',
-          'DND5E',
-          null,
-          null,
-          'This magic weapon deals an extra 2d6 damage to any creature it hits. This extra damage is of the same type as the weapon’s normal damage.',
-          'Damage: All',
-          'Dungeon Master’s Guide, pg. 318',
-          NULL,
-          'rare',
-          null,
-          true,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          null,
-          17
-      ),(
-
           'Ring of Free Action', 'DND5E', null, null, 'While you wear this ring, difficult terrain doesnnullt cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be[paralyzed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Paralyzed)or[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained).', 'negates difficult terrain, magical speed reduction, immune: paralyzed or restrained (magical sources), movement, warding, jewelry', NULL, NULL, null, null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Mithral Ring Mail', 'DND5E', null, null, 'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
 This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and itnulls usually worn only by those who cannullt afford better armor.', 'stealth disadvantage: remove, combat, warding, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Dart', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a dart allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, finesse, thrown', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Bagpipes', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Handaxe', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a handaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, light, thrown', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Book', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2913,9 +2663,6 @@ Proficiency with a dagger allows you to add your proficiency bonus to the attack
 | 2 gp       | 1d4 piercing                                                                                                                                                                                                                                                                                                                                                                             |
 | 1 lb       | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[Light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[Thrown](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)([range](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)20/60) |', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Adamantine Scale Mail', 'DND5E', null, null, 'This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While younullre wearing it, any critical hit against you becomes a normal hit.
-This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'immunity: critical hits, combat, warding, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Robe of Scintillating Colors', 'DND5E', null, null, 'This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can use an action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Creatures that can see you have disadvantage on attack rolls against you. In addition, any creature in the bright light that can see you when the robenulls power is activated must succeed on a DC 15 Wisdom saving throw or become[stunned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Stunned)until the Effect ends.', 'stunned, control, debuff, outerwear', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Amulet', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -2942,9 +2689,6 @@ Proficiency with a longsword allows you to add your proficiency bonus to the att
          'Brooch of Shielding', 'DND5E', null, null, 'While wearing this brooch, you have resistance to force damage, and you have immunity to damage from themagic missilespell.', 'resistance: force, warding, jewelry', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Herbalism Kit', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Mace', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a mace allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Horn of Blasting', 'DND5E', null, null, 'You can use an action to speak the hornnulls command word and then blow the horn, which emits a thunderous blast in a 30-foot cone that is audible 600 feet away. Each creature in the cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 5d6 thunder damage and is[deafened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Deafened)for 1 minute. On a successful save, a creature takes half as much damage and isnnullt[deafened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Deafened). Creatures and objects made of glass or crystal have disadvantage on the saving throw and take 10d6 thunder damage instead of 5d6.
 Each use of the hornnulls magic has a 20 percent chance of causing the horn to explode. The explosion deals 10d6 fire damage to the blower and destroys the horn.', 'damage: thunder, deafened, damage, debuff, combat', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -3013,23 +2757,6 @@ Item Tags:MOVEMENTSHAPECHANGINGDECEPTIONOUTERWEAR', 'advantage: stealth, set: in
       ),(
          'Tinkernulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Adamantine Armor', 'DND5E', null, null, '(but not hide),
-This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While younullre wearing it, any critical hit against you becomes a normal hit.
-Applicable Armor:
-| Name                                                                             | Type   | AC                        | Strength    | Stealth      |
-| Adamantine Chain Shirt | Medium | 13 + Dex modifier (max 2) | --          | --           |
-| Adamantine Scale Mail  | Medium | 14 + Dex modifier (max 2) | --          | Disadvantage |
-| Adamantine Breastplate| Medium | 14+ Dex modifier (max 2)  | --          | --           |
-| Adamantine Half Plate   | Medium | 15+ Dex modifier (max 2)  | --          | Disadvantage |
-| Adamantine Ring Mail     | Heavy  | 14                        | --          | Disadvantage |
-| Adamantine Chain Mail   | Heavy  | 16                        | Strength 13 | Disadvantage |
-| Adamantine Splint           | Heavy  | 17                        | Strength 15 | Disadvantage |
-| Adamantine Plate             | Heavy  | 18                        | Strength 15 | Disadvantage |', 'immunity: critical hits, combat, warding', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Holy Avenger Greatsword', 'DND5E', null, null, 'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
-While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
-Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: radiant, advantage: saving throws, paladin, damage, combat, warding, heavy, two-handed', NULL, NULL, null, 'legendary', false, true, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Cli Lyre', 'DND5E', null, null, '(requires attunement by a bard)
 Aninstrument of the bardsis an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college.A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
 You can use an action to play the instrument and cast one of its spells:Fly,Invisibility,Levitate,Protection from Evil and Good,Stone Shape,Wall of Fire,Wind Wall. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
@@ -3040,18 +2767,11 @@ You can play the instrument while casting a spell that causes any of its targets
       ),(
          'Shovel', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Holy Avenger Scimitar', 'DND5E', null, null, 'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
-While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
-Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: radiant, advantage: saving throws, paladin, damage, combat, warding, finesse, light', NULL, NULL, null, 'legendary', false, true, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Potion of Frost Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
 This potionnulls transparent liquid has floating in it a sliver of fingernail from a frost giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Mithral Scale Mail', 'DND5E', null, null, 'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
 This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'stealth disadvantage: remove, combat, warding, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Laser Pistol', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in thePlayer’s Handbookto acquire proficiency, assuming that they have enough ammunition to keep the weapons working while masteringtheir use.', 'damage: additional, damage, combat, range, ammunition (firearms), reload', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Sealing Wax', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -3114,13 +2834,6 @@ You have a 50 percent chance to instantly travel to a random plane of existence,
       ),(
          'Eyes of Minute Seeing', 'DND5E', null, null, 'These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence ([Investigation](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Investigation)) checks that rely on sight while searching an area or studying an object within that range.', 'advantage: investigation, detection, utility, eyewear', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Club', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a club allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, light', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Lance', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a lance allows you to add your proficiency bonus to the attack roll for any attack you make with it.
-You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you arennullt mounted.', 'damage: additional, damage, combat, reach, special', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Ring of Regeneration', 'DND5E', null, null, 'While wearing this ring, you regain 1d6 hit points every 10 minutes, provided that you have at least 1 hit point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after 1d6 + 1 days if you have at least 1 hit point the whole time.', 'regain 1d6 hit points every 10 minutes, regrow lost body parts, healing, jewelry', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Ring of Jumping', 'DND5E', null, null, 'While wearing this ring, you can cast thejumpspell from it as a bonus action at will, but can target only yourself when you do so.', 'buff, movement, jewelry', NULL, NULL, 'uncommon', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -3139,9 +2852,6 @@ Applicable Weapons:
       ),(
          'Carpet of Flying (6 ft. x 9 ft.)', 'DND5E', null, null, 'You can speak the carpetnulls command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.
 This carpet is 6feet by 9feet and has a flying speed of 30feet. It can carry up to 1,600 pounds, but its flying speed becomes 15feet while carrying over 800 pounds.', 'set: speed (flying), movement, utility, exploration', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Crossbow, Light', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a light crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, ammunition, loading, range, two-handed', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Grappling Hook', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -3237,9 +2947,6 @@ If the snake is reduced to 0 hit points, it dies and reverts to its staff form. 
       ),(
          'Gloves of Missile Snaring', 'DND5E', null, null, 'These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while younullre wearing them, you can use your reaction to reduce the damage by 1d10 + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.', 'warding, handwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Crossbow, Hand', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a hand crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, ammunition, light, loading, range', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Potion of Healing (Superior)', 'DND5E', null, null, 'You regain 8d4 + 8 hit points when you drink this potion. The potionnulls red liquid glimmers when agitated.
 Craft Time 100 days
 Level Required 6', 'bonus: hit points, healing, consumable', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -3249,9 +2956,6 @@ Level Required 6', 'bonus: hit points, healing, consumable', NULL, NULL, 'rare',
          'Periapt of Proof against Poison', 'DND5E', null, null, 'This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, poisons have no Effect on you. You are immune to the[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned)condition and have immunity to poison damage.', 'immunity: poison, immunity: poisoned, warding, jewelry', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Playing Card Set', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Adamantine Chain Mail', 'DND5E', null, null, 'This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While younullre wearing it, any critical hit against you becomes a normal hit.
-Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.', 'immunity: critical hits, combat, warding, str 13 required, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Potternulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -3345,9 +3049,6 @@ You can use an action to unfold and place thewell of many worldson a solid surfa
 Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creaturenulls turns, it takes 1d4 necrotic damage for each time younullve wounded it, and it can then make a DC 15 Constitution saving throw, ending the Effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the Effect of such wounds on it on a success.
 Proficiency with a longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: necrotic, damage, combat, versatile', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Vicious Shotgun', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in thePlayer’s Handbookto acquire proficiency, assuming that they have enough ammunition to keep the weapons working while masteringtheir use.', 'damage: additional, damage, combat, range, two-handed, ammunition (firearms), reload', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Handy Haversack', 'DND5E', null, null, 'Wondrous Item, rare
 This backpack has a central pouch and two side pouches, each of which is an extradimensional space. Each side pouch can hold up to 20 pounds of material, not exceeding a volume of 2 cubic feet. The large central pouch can hold up to 8 cubic feet or 80 pounds of material. The backpack always weighs 5 pounds, regardless of its contents.
 Placing an object in the haversack follows the normal rules for interacting with objects. Retrieving an item from the haversack requires you to use an action. When you reach into the haversack for a specific item, the item is always magically on top.
@@ -3372,9 +3073,6 @@ You can release the creature by using a bonus action to speak a second command w
 The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed.', 'restrained, control', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Ring of Acid Resistance', 'DND5E', null, null, 'You have resistance to aciddamage while wearing this pearl ring.', 'resistance: acid, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vicious Spear', 'DND5E', null, null, 'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
-Proficiency with a spear allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: additional, damage, combat, thrown, versatile', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Mace of Disruption', 'DND5E', null, null, 'When you hit a fiend or an undead with this magic weapon, that creature takes an extra 2d6 radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened)of you until the end of your next turn.
 While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.

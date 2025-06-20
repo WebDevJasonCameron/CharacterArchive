@@ -591,34 +591,68 @@ VALUES
         17
     ),
     (
-     'Potion of Thunder Resistance ',
-    'DND5E',
-    null,
-    null,
-    'When you drink this potion, you gain resistance to thunder damage for 1 hour.',
-    'Resistance: Thunder, Warding, Consumable',
-    null,
-    'uncommon',
-    null,
+        'Potion of Thunder Resistance ',
+        'DND5E',
+        null,
+        null,
+        'When you drink this potion, you gain resistance to thunder damage for 1 hour.',
+        'Resistance: Thunder, Warding, Consumable',
+        null,
+        'uncommon',
+        null,
 
-    true,
-    false,
-    false,
-    false,
-    false,
-    false,
-    true,
-    1,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        1,
 
-    null,
-    null,
-    null,
-    null,
-    null,
+        null,
+        null,
+        null,
+        null,
+        null,
 
-    null,
-    null,
+        null,
+        null,
 
-    null,
-    17
-)
+        null,
+        17
+    ),
+    (
+        'Potion of Gaseous Form',
+        'DND5E',
+        null,
+        null,
+        'When you drink this potion, you gain the effect of the Gaseous Form spell for 1 hour (no Concentration required) or until you end the effect as a Bonus Action.
+           This potion’s container seems to hold fog that moves and pours like water.',
+        'Movement, Utility, Warding, Consumable',
+        'Dungeon Master’s Guide, pg. 187',
+        'rare',
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+    )
+

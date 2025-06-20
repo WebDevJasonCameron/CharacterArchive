@@ -1156,4 +1156,36 @@ VALUES (
 
            null,
            17
+       ),
+       (
+        'Clothes, Travelers',
+        'DND5E',
+        '4 lb',
+        '2 gp',
+        'This set of clothes could consist of boots, a wool skirt or breeches, a sturdy belt, a shirt (perhaps with a vest or jacket), and an ample cloak with a hood.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )

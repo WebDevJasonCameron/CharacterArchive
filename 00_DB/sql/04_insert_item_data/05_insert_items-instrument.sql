@@ -268,4 +268,47 @@ VALUES(
 
           null,
           5
+      ),
+      (
+       'Mac-Fuirmidh Cittern',
+       'DND5E',
+       null,
+       null,
+       'An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
+            You can use an action to play the instrument and cast one of its spells: Fly, Invisibility, Levitate, Protection from Evil and Good, Barkskin, Cure Wounds, Fog Cloud. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
+            You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.
+            | *Spell* | *Level* | *Charges* |
+            | --- | --- | --- |
+            | Barkskin(2nd) | Legacy | 1 Charge |
+            | Cure    Wounds(1st) | Legacy | 1 Charge |
+            | Fly(3rd) | Legacy | 1 Charge |
+            | Fog Cloud(1st) | Legacy | 1 Charge |
+            | Invisibility(2nd) | Legacy | 1 Charge |
+            | Levitate(2nd) | Legacy | 1 Charge |
+            | Protection from Evil and Good(1st) | Legacy 1 Charge |',
+       '',
+       'Dungeon Master’s Guide (2014), pg. 176',
+       'uncommon',
+       'Wondrous Item',
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       true,
+       7,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
       )
