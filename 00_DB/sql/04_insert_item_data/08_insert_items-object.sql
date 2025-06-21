@@ -1273,38 +1273,9 @@ VALUES(
         null,
         1
         ),(
-         'Elemental Gem (Yellow Diamond)', 'DND5E', null, null, 'This yellow diamondcontains a mote of elemental energy. When you use an action to break the gem, anearth elementalis summoned as if you had cast theconjure elementalspell, and the gemnulls magic is lost.', 'summoning', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Manual of Gainful Exercise', 'DND5E', null, null, 'This book describes fitness exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the booknulls contents and practicing its guidelines, your Strength score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.', 'bonus: strength score, bonus: ability score maximum, buff', NULL, NULL, null, 'very rare', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),
-    (
-         'Sword of Sharpness', 'DND5E', null, null, 'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
-When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the targetnulls limbs, with the Effect of such loss determined by the GM. If the creature has no limb to sever, you lop off a portion of its body instead.
-In addition, you can speak the swordnulls command word to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light.
-Applicable Weapons:
-| Name | Type | Damage | Properties |
-| Sword of Sharpness - Greatsword | Martial Melee | 2d6 slashing | [Heavy](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[two-handed](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Sword of Sharpness - Longsword | Martial Melee | 1d8 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10) |
-| Sword of Sharpness - Scimitar | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |', 'damage: slashing, damage, combat', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Vial', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Poison Resistance', 'DND5E', null, null, 'You have resistance to poison damage while wearing this amethyst ring.', 'resistance: poison, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Longsword, +2', 'DND5E', null, null, 'WeaponType:: longsword
-Common:: rare
-You have a +2 bonus to attack and damage rolls made with this magic weapon.
-Proficiency with a longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage, combat, versatile', NULL, NULL, null, null, false, false, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Lantern, Bullseye', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Fochlucan Bandore', 'DND5E', null, null, null, 'bard, damage, control, buff, utility, combat, instrument', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Rod of Security', 'DND5E', null, null, 'While holding this rod, you can use an action to activate it. The rod then instantly transports you and up to 199 other willing creatures you can see to a paradise that exists in an extraplanar space. You choose the form that the paradise takes. It could be a tranquil garden, lovely glade, cheery tavern, immense palace, tropical island, fantastic carnival, or whatever else you can imagine. Regardless of its nature, the paradise contains enough water and food to sustain its visitors. Everything else that can be interacted with inside the extraplanar space can exist only there. For example, a flower picked from a garden in the paradise disappears if it is taken outside the extraplanar space.
 For each hour spent in the paradise, a visitor regains hit points as if it had spent 1 Hit Die. Also, creatures donnullt age while in the paradise, although time passes normally. Visitors can remain in the paradise for up to 200 days divided by the number of creatures present (round down).
 When the time runs out or you use an action to end it, all visitors reappear in the location they occupied when you activated the rod, or an unoccupied space nearest that location. The rod cannullt be used again until ten days have passed.', 'healing, teleportation, utility', NULL, NULL, 'very rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Elemental Gem (Red Diamond)', 'DND5E', null, null, 'This red corundumcontains a mote of elemental energy. When you use an action to break the gem, afire elementalis summoned as if you had cast theconjure elementalspell, and the gemnulls magic is lost.', 'summoning', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Case, Crossbow Bolt', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -1626,11 +1597,6 @@ Lightning Strike.You can use an action to cause a bolt of lightning to leap from
 Thunderclap.You can use an action to cause the staff to issue a deafening thunderclap, audible out to 600 feet. Each creature within 60 feet of you (not including you) must make a DC 17 Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and becomes[deafened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Deafened)for 1 minute. On a successful save, a creature takes half damage and isnnullt[deafened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Deafened).
 Thunder and Lightning.You can use an action to use the Lightning Strike and Thunderclap properties at the same time. Doing so doesnnullt expend the daily use of those properties, only the use of this one.', 'bonus: magic, deafened, stunned, damage, control, debuff, combat', NULL, NULL, 'very rare', null, false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Longsword of Sharpness', 'DND5E', null, null, 'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
-When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the targetnulls limbs, with the Effect of such loss determined by the GM. If the creature has no limb to sever, you lop off a portion of its body instead.
-In addition, you can speak the swordnulls command word to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light.
-Proficiency with a longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: slashing, maximize weapon damage, damage, combat, versatile', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Rod of Lordly Might', 'DND5E', null, null, 'This rod has a flanged head, and it functions as a magic mace that grants a +3 bonus to attack and damage rolls made with it. The rod has properties associated with six different buttons that are set in a row along the haft. It has three other properties as well, detailed below.
 Six Buttons.You can press one of the rodnulls six buttons as a bonus action. A buttonnulls Effect lasts until you push a different button or until you push the same button again, which causes the rod to revert to its normal form.
 If you pressbutton 1, the rod becomes aflame tongue, as a fiery blade sprouts from the end opposite the rodnulls flanged head (you choose the type of sword).
@@ -1665,8 +1631,6 @@ Potions of Healing
 | Greater healing | Uncommon | 4d4 + 4 |
 | Superior healing | Rare | 8d4 + 8 |
 | Supreme healing | Very rare | 10d4 + 20 |', 'bonus: hit points, healing, consumable', NULL, NULL, 'common', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Oil of Sharpness', 'DND5E', null, null, 'This clear, gelatinous oil sparkles with tiny, ultrathin silver shards. The oil can coat one slashing or piercing weapon or up to 5 pieces of slashing or piercing ammunition. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +3 bonus to attack and damage rolls.', 'bonus: magic, damage, buff, combat, consumable', NULL, NULL, 'very rare', null, false, false, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Barrel', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -1805,14 +1769,6 @@ To create a flesh golem, you must spend 60 days, working without interruption wi
 Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.', null, NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Wand of Secrets', 'DND5E', null, null, 'The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains 1d3 expended charges daily at dawn.', 'detection', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Elemental Gem', 'DND5E', null, null, 'This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast theconjure elementalspell, and the gemnulls magic is lost. The type of gem determines the elemental summoned by the spell.
-| Gem | Summoned Elemental |
-| Blue Sapphire | Air Elemental |
-| Yellow Diamond | Earth Elemental |
-| Red Corundum | Fire Elemental |
-| Emerald | Water Elemental |
-Item Tags:SUMMONING', 'summoning', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Tome of Clear Thought', 'DND5E', null, null, 'This book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the booknulls contents and practicing its guidelines, your Intelligence score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.', 'bonus: intelligence score, bonus: ability score maximum, buff', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2244,8 +2200,6 @@ Proficiency with a dagger allows you to add your proficiency bonus to the attack
          'Bowl of Commanding Water Elementals', 'DND5E', null, null, 'While this bowl is filled with water, you can use an action to speak the bowlnulls command word and summon aWater elemental, as if you had cast theconjure elementalspell. The bowl cannullt be used this way again until the next dawn.
 The bowl is about 1 foot in diameter and half as deep. It weighs 3 pounds and holds about 3 gallons.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Elemental Gem (Blue Sapphire)', 'DND5E', null, null, 'This blue sapphire contains a mote of elemental energy. When you use an action to break the gem, anair elementalis summoned as if you had cast theconjure elementalspell, and the gemnulls magic is lost.', 'summoning', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Necklace of Adaptation', 'DND5E', null, null, 'While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such ascloudkillandstinking cloudeffects, inhaled poisons, and the breath weapons of some dragons).', 'advantage: saving throws, buff, warding, jewelry', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Signal Whistle', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -2542,8 +2496,6 @@ Proficiency with a shortsword allows you to add your proficiency bonus to the at
       ),(
          'Potion of Lightning Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to lightning damage for 1 hour.', 'resistance: lightning, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Elemental Gem (Emerald)', 'DND5E', null, null, 'This red corundumcontains a mote of elemental energy. When you use an action to break the gem, aWater elementalis summoned as if you had cast theconjure elementalspell, and the gemnulls magic is lost.', 'summoning', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Potion of Thunder Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to thunder damage for 1 hour.', 'resistance: thunder, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Dulcimer', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -2589,42 +2541,6 @@ While you control the orb, you can use an action to cause the artifact to issue 
 AnOrb of Dragonkindappears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. Adisintegratespell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.', 'healing, summoning, control, scrying, detection', NULL, NULL, 'artifact', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Chest', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-
-          'Greatsword of Sharpness',
-          'DND5E',
-          null,
-          null,
-          'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
-             When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the targetnulls limbs, with the Effect of such loss determined by the GM. If the creature has no limb to sever, you lop off a portion of its body instead.
-             In addition, you can speak the swordnulls command word to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light.
-             Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.',
-          'damage: slashing, maximize weapon damage, damage, combat, heavy, two-handed',
-          NULL,
-          NULL,
-          'very rare',
-          null,
-          false,
-          true,
-          false,
-          false,
-          false,
-          false,
-          false,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          NULL,
-          null,
-          5
       ),(
 
           'Ring of Free Action', 'DND5E', null, null, 'While you wear this ring, difficult terrain doesnnullt cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be[paralyzed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Paralyzed)or[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained).', 'negates difficult terrain, magical speed reduction, immune: paralyzed or restrained (magical sources), movement, warding, jewelry', NULL, NULL, null, null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5

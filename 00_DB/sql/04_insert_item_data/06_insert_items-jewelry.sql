@@ -632,6 +632,205 @@ VALUES(
 
        null,
        17
+      ),
+      (
+       'Elemental Gems',
+       'DND5E',
+       null,
+       null,
+       'This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the conjure elemental spell, and the gem''s magic is lost. The type of gem determines the elemental summoned by the spell.
+            | Gem | Summoned Elemental |
+            | --- | --- |
+            | Blue Sapphire | Air Elemental |
+            | Yellow Diamond | Earth Elemental |
+            | Red Corundum | Fire Elemental |
+            | Emerald | Water Elemental |',
+       'Summoning',
+       null,
+       'uncommon',
+       'Wondrous Item',
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+          'Elemental Gem (Blue Sapphire)',
+          'DND5E',
+          null,
+          null,
+          'This blue sapphire contains a mote of elemental energy. When you use an action to break the gem, an air elemental is summoned as if you had cast the conjure elemental spell, and the gem''s magic is lost.',
+          'Summoning',
+          null,
+          'uncommon',
+          'Wondrous Item',
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Elemental Gem (Yellow Diamond)',
+          'DND5E',
+          null,
+          null,
+          'This yellow diamond contains a mote of elemental energy. When you use an action to break the gem, an earth elemental is summoned as if you had cast the conjure elemental spell, and the gem''s magic is lost.',
+          'Summoning',
+          null,
+          'uncommon',
+          'Wondrous Item',
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Elemental Gem (Red Corundum)',
+          'DND5E',
+          null,
+          null,
+          'This red corundum contains a mote of elemental energy. When you use an action to break the gem, a fire elemental is summoned as if you had cast the conjure elemental spell, and the gem''s magic is lost.',
+          'Summoning',
+          null,
+          'uncommon',
+          'Wondrous Item',
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Elemental Gem (Emerald)',
+          'DND5E',
+          null,
+          null,
+          'This emerald contains a mote of elemental energy. When you use an action to break the gem, a water elemental is summoned as if you had cast the conjure elemental spell, and the gem’s magic is lost.',
+          'Summoning',
+          null,
+          'uncommon',
+          'Wondrous Item',
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+       'Ring of Poison Resistance',
+       'DND5E',
+       null,
+       null,
+       'You have resistance to poison damage while wearing this amethyst ring.',
+       'Resistance: Poison, Warding, Jewelry',
+       null,
+       'rare',
+       null,
+
+       null,
+       false,
+       true,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
+
 
 

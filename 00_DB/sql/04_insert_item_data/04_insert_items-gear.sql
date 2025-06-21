@@ -658,4 +658,36 @@ VALUES(
 
          null,
          5
+      ),
+      (
+       'Vial',
+       'DND5E',
+       null,
+       '1 gp',
+       'A vial can hold 4 ounces of liquid.',
+       null,
+       null,
+       null,
+       null,
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

@@ -311,4 +311,32 @@ VALUES(
 
        null,
        17
+      ),
+      (
+       'Fochlucan Bandore',
+       'DND5E',
+       null,
+       null,
+       null,
+       'bard, damage, control, buff, utility, combat, instrument',
+       null,
+       'uncommon',
+       'Wondrous Item',
+       true,
+       false,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       5
       )

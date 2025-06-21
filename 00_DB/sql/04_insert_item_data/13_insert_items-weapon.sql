@@ -4288,20 +4288,65 @@ VALUES(
           null,
           5
       ),
-
       (
-          'Vicious ---',
+          'Swords of Sharpness',
           'DND5E',
           null,
           null,
-          '',
-          '',
-          null,
-          'rare',
+          'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
+               When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the target''s limbs, with the effect of such loss determined by the GM. If the creature has no limb to sever, you lop off a portion of its body instead.
+               In addition, you can speak the sword''s command word to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light.
+               *Applicable Weapons:*
+               | Name | Type | Damage | Properties |
+               | --- | --- | --- | --- |
+               | Greatsword | Martial Melee | 2d6 slashing | Heavy, two-handed |
+               | Longsword | Martial Melee | 1d8 slashing | Versatile (1d10) |
+               | Scimitar | Martial Melee | 1d6 slashing | Finesse, light',
+          'Damage: Slashing, Damage, Combat',
+          'Basic Rules (2014), pg. 206',
+          'very rare',
           null,
 
           true,
+          true,
           false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Greatsword of Sharpness',
+          'DND5E',
+          '6 lb',
+          null,
+          'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
+                When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the target''s limbs, with the effect of such loss determined by the GM. If the creature has no limb to sever, you lop off a portion of its body instead.
+                In addition, you can speak the sword''s command word to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light.
+                Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+          'Damage: Slashing, Maximize Weapon Damage, Damage, Combat, Heavy, Two-Handed, Graze',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
           false,
           false,
           false,
@@ -4310,9 +4355,9 @@ VALUES(
           null,
 
           '5 ft',
-          '',
-          '',
-          '',
+          '2d6 (+14 if 20 on the attack roll)',
+          'slashing',
+          'Heavy, Two-Handed, Graze',
           null,
 
           null,
@@ -4320,26 +4365,26 @@ VALUES(
 
           null,
           5
-      )
-
-
-
-
-
-
+      ),
       (
-          'Vicious ---',
+          'Longsword of Sharpness',
           'DND5E',
+          '8 lb',
           null,
+          'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
+                When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the target''s limbs, with the effect of such loss determined by the GM. If the creature has no limb to sever, you lop off a portion of its body instead.
+                In addition, you can speak the sword''s command word to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light.
+                Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Damage: Slashing, Maximize Weapon Damage, Damage, Combat, Versatile, Sap',
           null,
-          '',
-          '',
-          null,
-          'rare',
+          'very rare',
           null,
 
           true,
-          false,
+          true,
           false,
           false,
           false,
@@ -4348,9 +4393,9 @@ VALUES(
           null,
 
           '5 ft',
-          '',
-          '',
-          '',
+          '2d8 (1d10 two handed) (+14 if 20 on the attack roll)',
+          'slashing',
+          'Versatile (1d10), Sap',
           null,
 
           null,
@@ -4358,4 +4403,114 @@ VALUES(
 
           null,
           5
+      ),
+      (
+          'Scimitar of Sharpness',
+          'DND5E',
+          '3 lb',
+          null,
+          'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
+                When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the target''s limbs, with the effect of such loss determined by the GM. If the creature has no limb to sever, you lop off a portion of its body instead.
+                In addition, you can speak the sword''s command word to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light.
+                Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Damage: Slashing, Maximize Weapon Damage, Damage, Combat, Finesse, Light, Nick',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6 (+14 if 20 on the attack roll)',
+          'slashing',
+          'Finesse, Light, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Longsword, +2',
+       'DND5E',
+       null,
+       null,
+       'You have a +2 bonus to attack and damage rolls made with this magic weapon.
+            Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+            ---
+            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+            Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+       'Bonus: Magic, Damage, Combat, Versatile, Sap',
+       null,
+       'rare',
+       null,
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       true,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Lantern, Bullseye',
+       'DND5E',
+       '2 lb',
+       '10 gp',
+       'A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
+
+
+
+
