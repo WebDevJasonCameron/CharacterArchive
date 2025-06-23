@@ -1273,13 +1273,42 @@ VALUES(
         null,
         1
         ),(
-         'Rod of Security', 'DND5E', null, null, 'While holding this rod, you can use an action to activate it. The rod then instantly transports you and up to 199 other willing creatures you can see to a paradise that exists in an extraplanar space. You choose the form that the paradise takes. It could be a tranquil garden, lovely glade, cheery tavern, immense palace, tropical island, fantastic carnival, or whatever else you can imagine. Regardless of its nature, the paradise contains enough water and food to sustain its visitors. Everything else that can be interacted with inside the extraplanar space can exist only there. For example, a flower picked from a garden in the paradise disappears if it is taken outside the extraplanar space.
-For each hour spent in the paradise, a visitor regains hit points as if it had spent 1 Hit Die. Also, creatures donnullt age while in the paradise, although time passes normally. Visitors can remain in the paradise for up to 200 days divided by the number of creatures present (round down).
-When the time runs out or you use an action to end it, all visitors reappear in the location they occupied when you activated the rod, or an unoccupied space nearest that location. The rod cannullt be used again until ten days have passed.', 'healing, teleportation, utility', NULL, NULL, 'very rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Rod of Security',
+           'DND5E',
+           null,
+           null,
+           'While holding this rod, you can use an action to activate it. The rod then instantly transports you and up to 199 other willing creatures you can see to a paradise that exists in an extraplanar space. You choose the form that the paradise takes. It could be a tranquil garden, lovely glade, cheery tavern, immense palace, tropical island, fantastic carnival, or whatever else you can imagine. Regardless of its nature, the paradise contains enough water and food to sustain its visitors. Everything else that can be interacted with inside the extraplanar space can exist only there. For example, a flower picked from a garden in the paradise disappears if it is taken outside the extraplanar space.
+                For each hour spent in the paradise, a visitor regains hit points as if it had spent 1 Hit Die. Also, creatures don''t age while in the paradise, although time passes normally. Visitors can remain in the paradise for up to 200 days divided by the number of creatures present (round down).
+                When the time runs out or you use an action to end it, all visitors reappear in the location they occupied when you activated the rod, or an unoccupied space nearest that location. The rod can''t be used again until ten days have passed.',
+           'healing, teleportation, utility',
+           'Dungeon Master’s Guide, pg. 301',
+           'very rare',
+           null,
+
+           true,
+           false,
+           false,
+           false,
+           false,
+           false,
+           true,
+           1,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           null,
+           null,
+
+           null,
+           17
       ),(
-         'Case, Crossbow Bolt', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Case, Crossbow Bolt', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Chariot', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Chariot', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Barding', 'DND5E', null, null, '| Padded | Light |  11 + Dex modifier |  -- | Disadvantage |
 | Leather | Light |  11 + Dex modifier |  -- |  -- |
@@ -1292,17 +1321,17 @@ When the time runs out or you use an action to end it, all visitors reappear in 
 | Ring Mail | Heavy |  14 |  -- |  Disadvantage |
 | Chain Mail | Heavy |  16 |  Strength 13 |  Disadvantage |
 | Splint | Heavy |  17 |  Strength 15 |  Disadvantage |
-| Plate | Heavy |  18 |  Strength 15 |  Disadvantage |', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+| Plate | Heavy |  18 |  Strength 15 |  Disadvantage |', null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),
     (
          'Mithral Plate', 'DND5E', null, null, 'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
-Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'stealth disadvantage: remove, combat, warding, str 15 required, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'stealth disadvantage: remove, combat, warding, str 15 required, stealth disadvantage', null, null, 'uncommon', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Giant Slayer Greatsword', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
 When you hit a giant with it, the giant takes an extra 2d6 damage of the weaponnulls type and must succeed on a DC 15 Strength saving throw or fall[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
-Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, prone, damage, combat, heavy, two-handed', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, prone, damage, combat, heavy, two-handed', null, null, 'rare', null, false, false, false, true, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Saddle, Riding', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Saddle, Riding', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Dragon Slayer Rapier', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
 When you hit a dragon with this weapon, the dragon takes an extra 3d6 points of piercing damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
