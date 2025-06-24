@@ -1685,8 +1685,6 @@ Proficiency with a longsword allows you to add your proficiency bonus to the att
          'Potion of Stone Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
 This potionnulls transparent liquid has floating in it a sliver of fingernail from a stone giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Doss Lute', 'DND5E', null, null, null, 'bard, control, buff, utility, combat, warding, instrument', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Potion of Hill Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
 This potionnulls transparent liquid has floating in it a sliver of fingernail from a hill giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2005,8 +2003,6 @@ After thedjinnideparts, it cannullt be summoned again for 24 hours, and the ring
 -   The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you. The creature must succeed on a DC 15 Constitution saving throw or become[blinded](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Blinded)for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the Effect on itself on a success.
 -   The third command word expends 5 charges and causes the gem to flare with blinding light in a 30- foot cone originating from it. Each creature in the cone must make a saving throw as if struck by the beam created with the second command word.
 When all of the gemnulls charges are expended, the gem becomes a nonmagical jewel worth 50 gp.', 'blinded, control, debuff', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Anstruth Harp', 'DND5E', null, null, null, null, NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Scimitar of Wounding', 'DND5E', null, null, 'Hit points lost to this weaponnulls damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
 Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creaturenulls turns, it takes 1d4 necrotic damage for each time younullve wounded it, and it can then make a DC 15 Constitution saving throw, ending the Effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the Effect of such wounds on it on a success.
@@ -2446,8 +2442,6 @@ You can hurl multiple beads, or even the whole necklace, as one action. When you
       ),(
          'Potion of Mind Reading', 'DND5E', null, null, 'When you drink this potion, you gain the Effect of thedetect thoughtsspell (save DC 13). The potionnulls dense, purple liquid has an ovoid cloud of pink floating in it.', 'control, detection, consumable', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Canaith Mandolin', 'DND5E', null, null, null, 'bard, healing, control, buff, utility, combat, warding, instrument', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Spellbook', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Javelin of Lightning', 'DND5E', null, null, 'This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking 4d6 lightning damage on a failed save, and half as much damage on a successful one. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus 4d6 lightning damage.
@@ -2701,12 +2695,6 @@ While wearing the cloak in an area of dim light or darkness, you can use your ac
 Item Tags:MOVEMENTSHAPECHANGINGDECEPTIONOUTERWEAR', 'advantage: stealth, set: innate speed (flying), movement, shapechanging, deception, outerwear', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Tinkernulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Cli Lyre', 'DND5E', null, null, '(requires attunement by a bard)
-Aninstrument of the bardsis an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college.A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
-You can use an action to play the instrument and cast one of its spells:Fly,Invisibility,Levitate,Protection from Evil and Good,Stone Shape,Wall of Fire,Wind Wall. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
-You can play the instrument while casting a spell that causes any of its targets to be[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)on a failed saving throw, thereby imposing disadvantage on the save. This Effect applies only if the spell has a somatic or a material component.
-[![Cli Lyre | 400](https://www.dndbeyond.com/avatars/thumbnails/8/566/1000/1000/636311310442934475.jpeg)](https://www.dndbeyond.com/avatars/thumbnails/8/566/1000/1000/636311310442934475.jpeg)', 'bard, damage, control, buff, utility, exploration, combat, instrument', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Lock', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -3022,5 +3010,4 @@ The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as 
          'Mace of Disruption', 'DND5E', null, null, 'When you hit a fiend or an undead with this magic weapon, that creature takes an extra 2d6 radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened)of you until the end of your next turn.
 While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
 Proficiency with a mace allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: radiant, damage, bane', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Mac-Fuirmidh Cittern', 'DND5E', null, null, null, 'bard, healing, control, buff, utility, combat, warding, instrument', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5);
+      )

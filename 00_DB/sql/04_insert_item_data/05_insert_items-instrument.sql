@@ -270,6 +270,313 @@ VALUES(
           5
       ),
       (
+          'Instrument of the Bards',
+          'DND5E',
+          null,
+          null,
+          'An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. The following table lists the spells common to all instruments, as well as the spells specific to each one and its rarity. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
+                You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can''t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
+                You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.
+                | *Instrument* | *Rarity* | *Spells* |
+                | --- | --- |
+                | All | - | Fly, Invisibility, Levitate, Protection from Evil and Good, plus the spells listed for the particular instrument|
+                | Anstruth harp | Very rare | Control Weather, Cure Wounds (5th level), Wall of Thorns |
+                | Canaith mandolin | Rare | Cure Wounds (3rd level), Dispel Magic, Protection from Energy (lightning only) |
+                | Cli lyre | Rare | Stone Shape, Wall of Fire, Wind Wall |
+                | Doss lute | Uncommon | Animal Friendship, Protection from Energy (fire only), Protection from Poison |
+                | Fochlucan bandore | Uncommon | Entangle, Faerie Fire, Shillelagh, Speak with Animals |
+                | Mac-Fuirmidh cittern | Uncommon | Barkskin, Cure Wounds, Fog Cloud |
+                | Ollamh harp | Legendary | Confusion, Control Weather, Fire Storm |',
+          'requires attunement by a bard',
+          null,
+          null,
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Ollamh Harp',
+          'DND5E',
+          null,
+          null,
+          'An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
+                You can use an action to play the instrument and cast one of its spells: Fly, Invisibility, Levitate, Protection from Evil and Good, Confusion, Control Weather, Fire Storm. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
+                You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.
+                | spell | charge |
+                | --- | --- |
+                | Confusion(4th) • Legacy | 1 Charge |
+                | Control Weather(8th) • Legacy | 1 Charge |
+                | Fire Storm(7th) • Legacy | 1 Charge |
+                | Fly(3rd) • Legacy | 1 Charge |
+                | Invisibility(2nd) • Legacy | 1 Charge |
+                | Levitate(2nd) • Legacy | 1 Charge |
+                | Protection from Evil and Good(1st) • Legacy | 1 Charge |',
+          'requires attunement by a bard',
+          'Dungeon Master’s Guide (2014), pg. 176',
+          'legendary',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          7,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+
+      (
+          'Anstruth Harp',
+          'DND5E',
+          null,
+          null,
+          'An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
+                You can use an action to play the instrument and cast one of its spells: Fly, Invisibility, Levitate, Protection from Evil and Good, Control Weather, Cure Wounds (5th level), Wall of Thorns. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
+                You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.
+                | spell | charge |
+                | --- | --- |
+                | Control Weather(8th) • Legacy | 1 Charge |
+                | Cure Wounds(1st) • Legacy | 1 Charge |
+                | Fly(3rd) • Legacy | 1 Charge |
+                | Invisibility(2nd) • Legacy | 1 Charge |
+                | Levitate(2nd) • Legacy | 1 Charge |
+                | Protection from Evil and Good(1st) • Legacy | 1 Charge |
+                | Wall of Thorns(6th) • Legacy | 1 Charge |',
+          'requires attunement by a bard',
+          'Dungeon Master’s Guide (2014), pg. 176',
+          'very rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          7,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+
+      (
+          'Canaith Mandolin',
+          'DND5E',
+          null,
+          null,
+          'An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
+                You can use an action to play the instrument and cast one of its spells: Fly, Invisibility, Levitate, Protection from Evil and Good, Cure Wounds (3rd level), Dispel Magic, Protection from Energy (lightning only). Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
+                You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.
+                | spell | charge |
+                | --- | --- |
+                | Cure Wounds(1st) • Legacy | 1 Charge |
+                | Dispel Magic(3rd) • Legacy | 1 Charge |
+                | Fly(3rd) • Legacy | 1 Charge |
+                | Invisibility(2nd) • Legacy 1 Charge
+                | Levitate(2nd) • Legacy 1 Charge
+                | Protection from Energy(3rd) • Legacy | 1 Charge |
+                | Protection from Evil and Good(1st) • Legacy | 1 Charge |',
+          'requires attunement by a bard',
+          'Dungeon Master’s Guide (2014), pg. 176',
+          'rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          7,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Cli Lyre',
+          'DND5E',
+          null,
+          null,
+          'An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
+                You can use an action to play the instrument and cast one of its spells: Fly, Invisibility, Levitate, Protection from Evil and Good, Stone Shape, Wall of Fire, Wind Wall. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
+                You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.
+                | spell | charge |
+                | --- | --- |
+                | Fly(3rd) • Legacy | 1 Charge |
+                | Invisibility(2nd) • Legacy | 1 Charge |
+                | Levitate(2nd) • Legacy | 1 Charge |
+                | Protection from Evil and Good(1st) • Legacy | 1 Charge |
+                | Stone Shape(4th) • Legacy | 1 Charge |
+                | Wall of Fire(4th) • Legacy | 1 Charge |
+                | Wind Wall(3rd) • Legacy | 1 Charge |',
+          'requires attunement by a bard',
+          'Dungeon Master’s Guide (2014), pg. 176',
+          'rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          7,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+
+      (
+          'Doss Lute',
+          'DND5E',
+          null,
+          null,
+          'An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
+                You can use an action to play the instrument and cast one of its spells: Fly, Invisibility, Levitate, Protection from Evil and Good, Animal Friendship, Protection from Energy (fire only), Protection from Poison. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
+                You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.
+                | spell | charge |
+                | --- | --- |
+                | Animal Friendship(1st) • Legacy | 1 Charge |
+                | Fly(3rd) • Legacy | 1 Charge |
+                | Invisibility(2nd) • Legacy | 1 Charge |
+                | Levitate(2nd) • Legacy | 1 Charge |
+                | Protection from Energy(3rd) • Legacy | 1 Charge |
+                | Protection from Evil and Good(1st) • Legacy | 1 Charge |
+                | Protection from Poison(2nd) • Legacy | 1 Charge |',
+          'requires attunement by a bard',
+          'Dungeon Master’s Guide (2014), pg. 176',
+          'uncommon',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          7,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+
+      (
+          'Fochlucan Bandore',
+          'DND5E',
+          null,
+          null,
+          'An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.
+                You can use an action to play the instrument and cast one of its spells: Fly, Invisibility, Levitate, Protection from Evil and Good, Entangle, Faerie Fire, Shillelagh, Speak with Animals. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
+                You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.
+                | spell | charge |
+                | --- | --- |
+                | Entangle(1st) • Legacy | 1 Charge |
+                | Faerie Fire(1st) • Legacy | 1 Charge |
+                | Fly(3rd) • Legsacy | 1 Charge |
+                | Invisibility(2nd) • Legacy | 1 Charge |
+                | Levitate(2nd) • Legacy | 1 Charge |
+                | Protection from Evil and Good(1st) • Legacy | 1 Charge |
+                | Shillelagh(Cantrip) • Legacy | 1 Charge |
+                | Speak with Animals(1st) • Legacy | 1 Charge |',
+          'requires attunement by a bard',
+          'Dungeon Master’s Guide (2014), pg. 176',
+          'uncommon',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          7,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
        'Mac-Fuirmidh Cittern',
        'DND5E',
        null,
@@ -278,15 +585,15 @@ VALUES(
             You can use an action to play the instrument and cast one of its spells: Fly, Invisibility, Levitate, Protection from Evil and Good, Barkskin, Cure Wounds, Fog Cloud. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
             You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.
             | *Spell* | *Level* | *Charges* |
-            | --- | --- | --- |
-            | Barkskin(2nd) | Legacy | 1 Charge |
-            | Cure    Wounds(1st) | Legacy | 1 Charge |
-            | Fly(3rd) | Legacy | 1 Charge |
-            | Fog Cloud(1st) | Legacy | 1 Charge |
-            | Invisibility(2nd) | Legacy | 1 Charge |
-            | Levitate(2nd) | Legacy | 1 Charge |
+            | --- | --- |
+            | Barkskin(2nd) • Legacy | 1 Charge |
+            | Cure Wounds(1st) • Legacy | 1 Charge |
+            | Fly(3rd) | Legacy • 1 Charge |
+            | Fog Cloud(1st) • Legacy | 1 Charge |
+            | Invisibility(2nd) • Legacy | 1 Charge |
+            | Levitate(2nd) • Legacy | 1 Charge |
             | Protection from Evil and Good(1st) | Legacy 1 Charge |',
-       '',
+       'requires attunement by a bard',
        'Dungeon Master’s Guide (2014), pg. 176',
        'uncommon',
        'Wondrous Item',
@@ -311,32 +618,4 @@ VALUES(
 
        null,
        17
-      ),
-      (
-       'Fochlucan Bandore',
-       'DND5E',
-       null,
-       null,
-       null,
-       'bard, damage, control, buff, utility, combat, instrument',
-       null,
-       'uncommon',
-       'Wondrous Item',
-       true,
-       false,
-       true,
-       false,
-       false,
-       false,
-       false,
-       false,
-       null,
-       null,
-       null,
-       null,
-       null,
-       null,
-       null,
-       null,
-       5
       )
