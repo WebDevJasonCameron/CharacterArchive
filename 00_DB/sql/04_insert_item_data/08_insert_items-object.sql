@@ -1306,8 +1306,6 @@ VALUES(
            null,
            17
       ),(
-         'Saddle, Riding', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Dragon Slayer Rapier', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
 When you hit a dragon with this weapon, the dragon takes an extra 3d6 points of piercing damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
 Proficiency with a rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, damage, combat, finesse', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5

@@ -6195,4 +6195,229 @@ VALUES(
        null,
        null,
        17
+      ),
+      (
+       'Dragon Slayers',
+       'DND5E',
+       null,
+       null,
+       'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+            When you hit a dragon with this weapon, the dragon takes an extra 3d6 damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
+            *Applicable Weapons:*
+            | Name | Type | Damage | Properties |
+            | --- | --- | --- | --- |
+            | Greatsword | Martial Melee | 2d6 slashing | Heavy, two-handed |
+            | Longsword | Martial Melee | 1d8 slashing | Versatile (1d10) |
+            | Rapier | Martial Melee | 1d8 piercing | Finesse |
+            | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
+            | Shortsword | Martial Melee | 1d6 piercing | Finesse, light |',
+       'bonus: magic, damage: additional, damage, combat, finesse',
+       null,
+       'rare',
+       null,
+
+       true,
+       false,
+       false,
+       false,
+       true,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+          'Dragon Slayer Dragon Slayer Greatsword',
+          'DND5E',
+          '6 lb',
+          null,
+          'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+                When you hit a dragon with this weapon, the dragon takes an extra 3d6 slashing damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
+                Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+          'Bonus: Magic, Damage: Additional, Damage, Combat, Heavy, Two-Handed, Graze',
+          'rare',
+          null,
+          true,
+
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          null,
+
+          '5ft',
+          '2d6+1',
+          'slashing',
+          'Heavy, Two-Handed, Graze',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Dragon Slayer Longsword',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+                When you hit a dragon with this weapon, the dragon takes an extra 3d6 points of slashing damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
+                Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Bonus: Magic, Damage: Additional, Damage, Combat, Versatile, Sap',
+          'rare',
+          null,
+          true,
+
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8+1 (1d10+1 two handed)',
+          'slashing',
+          'Versatile (1d10), Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Dragon Slayer Rapier',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+                When you hit a dragon with this weapon, the dragon takes an extra 3d6 points of piercing damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
+                Proficiency with a Rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage: Additional, Damage, Combat, Finesse, Vex',
+          'rare',
+          null,
+          true,
+
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8+1',
+          'piercing',
+          'Finesse, Vex',
+          null,
+
+          null,
+          null
+          ,
+          null,
+          5
+      ),
+      (
+          'Dragon Slayer Scimitar',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+                When you hit a dragon with this weapon, the dragon takes an extra 3d6 points of slashing damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
+                Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Bonus: Magic, Damage: Additional, Damage, Combat, Finesse, Light, Nick',
+          'rare',
+          null,
+          true,
+
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6+1',
+          'slashing',
+          'Finesse, Light, Nick',
+          null,
+
+          null,
+          null
+          ,
+          null,
+          5
+      ),
+      (
+          'Dragon Slayer Shortsword',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+                When you hit a dragon with this weapon, the dragon takes an extra 3d6 points of piercing damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
+                Proficiency with a Shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage: Additional, Damage, Combat, Finesse, Light, Vex',
+          'rare',
+          null,
+          true,
+
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6+1',
+          'piercing',
+          'Finesse, Light, Vex',
+          null,
+
+          null,
+          null
+          ,
+          null,
+          5
       )

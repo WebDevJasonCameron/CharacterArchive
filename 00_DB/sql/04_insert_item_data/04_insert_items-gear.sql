@@ -754,4 +754,36 @@ VALUES(
 
           null,
           5
+      ),
+      (
+       'Saddle, Riding',
+       'DND5E',
+       '25 lb',
+       '10 gp',
+       'A standard saddle for a riding mount.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
