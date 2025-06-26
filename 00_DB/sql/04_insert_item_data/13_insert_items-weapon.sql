@@ -4519,7 +4519,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d4',
+          '1d4+1',
           'bludgeoning',
           'Light, Slow',
           null,
@@ -4556,7 +4556,7 @@ VALUES(
           null,
 
           '5 ft (20 ft/60 ft range)',
-          '1d4',
+          '1d4+1',
           'piercing',
           'Finesse, Light, Thrown, Nick',
           null,
@@ -4593,7 +4593,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d8',
+          '1d8+1',
           'bludgeoning',
           'Two-Handed, Push',
           null,
@@ -4630,7 +4630,7 @@ VALUES(
           null,
 
           '5 ft (20 ft/60 ft range)',
-          '1d6',
+          '1d6+1',
           'slashing',
           'Light, Thrown, Vex',
           null,
@@ -4668,9 +4668,9 @@ VALUES(
           null,
 
           '5 ft (30 ft/120 ft range)',
-          '',
-          '',
-          '',
+          '1d6+1',
+          'piercing',
+          'Thrown, Slow',
           null,
 
           null,
@@ -4705,7 +4705,7 @@ VALUES(
           null,
 
           '5 ft (20 ft/60 ft range)',
-          '1d4',
+          '1d4+1',
           'bludgeoning',
           'Light, Thrown, Nick',
           null,
@@ -4742,7 +4742,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d6',
+          '1d6+1',
           'bludgeoning',
           'Sap',
           null,
@@ -4779,7 +4779,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d6 (1d8 two handed)',
+          '1d6+1 (1d8+1 two handed)',
           'bludgeoning',
           'Versatile (1d8), Topple',
           null,
@@ -4816,7 +4816,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d4',
+          '1d4+1',
           'slashing',
           'Light, Nick',
           null,
@@ -4853,7 +4853,7 @@ VALUES(
           null,
 
           '5 ft (20 ft/60 ft range)',
-          '1d6 (1d8 two handed)',
+          '1d6+1 (1d8+1 two handed)',
           'piercing',
           'Thrown, Versatile (1d8), Sap',
           null,
@@ -4890,7 +4890,7 @@ VALUES(
           null,
 
           '20 ft/60 ft range',
-          '1d4',
+          '1d4+1',
           'piercing',
           'Finesse, Thrown, Vex',
           null,
@@ -4927,7 +4927,7 @@ VALUES(
           null,
 
           '80 ft/320 ft range',
-          '1d8',
+          '1d8+1',
           'piercing',
           'Ammunition, Loading, Range, Two-Handed, Slow',
           null,
@@ -4964,7 +4964,7 @@ VALUES(
           null,
 
           '80 ft/320 ft range',
-          '1d6',
+          '1d6+1',
           'piercing',
           'Ammunition, Range, Two-Handed, Vex',
           null,
@@ -5001,7 +5001,7 @@ VALUES(
           null,
 
           '30 ft/120 ft range',
-          '1d4',
+          '1d4+1',
           'bludgeoning',
           'Ammunition, Range, Slow',
           null,
@@ -5038,7 +5038,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d8 (1d10 two handed)',
+          '1d8+1 (1d10+1 two handed)',
           'slashing',
           'Versatile (1d10), Topple',
           null,
@@ -5075,7 +5075,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d8',
+          '1d8+1',
           'bludgeoning',
           'Sap',
           null,
@@ -5112,7 +5112,7 @@ VALUES(
           null,
 
           '10 ft',
-          '1d10',
+          '1d10+1',
           'slashing',
           'Heavy, Reach, Two-Handed, Graze',
           null,
@@ -5149,7 +5149,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d12',
+          '1d12+1',
           'slashing',
           'Heavy, Two-Handed, Cleave',
           null,
@@ -5186,7 +5186,7 @@ VALUES(
           null,
 
           '5 ft',
-          '2d6',
+          '2d6+1',
           'slashing',
           'Heavy, Two-Handed, Graze',
           null,
@@ -5223,7 +5223,7 @@ VALUES(
           null,
 
           '10 ft',
-          '1d10',
+          '1d10+1',
           'slashing',
           'Heavy, Reach, Two-Handed, Cleave',
           null,
@@ -5260,7 +5260,7 @@ VALUES(
           null,
 
           '10 ft',
-          '1d10',
+          '1d10+1',
           'piercing',
           'Reach, Topple, Heavy, Two-Handed (unless mounted)',
           null,
@@ -5297,7 +5297,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d8 (1d10 two handed)',
+          '1d8+1 (1d10+1 two handed)',
           'slashing',
           'Versatile (1d10), Sap',
           null,
@@ -5334,7 +5334,7 @@ VALUES(
           null,
 
           '5 ft',
-          '2d6',
+          '2d6+1',
           'bludgeoning',
           'Heavy, Two-Handed, Topple',
           null,
@@ -5371,7 +5371,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d8',
+          '1d8+1',
           'piercing',
           'Sap',
           null,
@@ -5408,7 +5408,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d10',
+          '1d10+1',
           'piercing',
           'Heavy, Reach, Two-Handed, Push',
           null,
@@ -5445,7 +5445,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d8',
+          '1d8+1',
           'piercing',
           'Finesse, Vex',
           null,
@@ -5483,7 +5483,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d6',
+          '1d6+1',
           'slashing',
           'Finesse, Light, Nick',
           null,
@@ -5520,7 +5520,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d6',
+          '1d6+1',
           'piercing',
           'Finesse, Light, Vex',
           null,
@@ -5557,7 +5557,7 @@ VALUES(
           null,
 
           '5 ft (20 ft/60 ft range)',
-          '1d8 (1d10 two handed)',
+          '1d8+1 (1d10+1 two handed)',
           'piercing',
           'Thrown, Versatile (1d10), Topple',
           null,
@@ -5594,7 +5594,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d8 (1d10 two handed)',
+          '1d8+1 (1d10+1 two handed)',
           'bludgeoning',
           'Versatile (1d10), Push',
           null,
@@ -5631,7 +5631,7 @@ VALUES(
           null,
 
           '5 ft',
-          '1d8 (1d10 two handed)',
+          '1d8+1 (1d10+1 two handed)',
           'piercing',
           'Sap, Versatile (1d10)',
           null,
@@ -5668,7 +5668,7 @@ VALUES(
           null,
 
           '10 ft',
-          '1d4',
+          '1d4+1',
           'slashing',
           'Finesse, Reach, Slow',
           null,

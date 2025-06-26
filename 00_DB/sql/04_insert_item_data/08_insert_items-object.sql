@@ -1306,10 +1306,6 @@ VALUES(
            null,
            17
       ),(
-         'Giant Slayer Greatsword', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a giant with it, the giant takes an extra 2d6 damage of the weaponnulls type and must succeed on a DC 15 Strength saving throw or fall[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
-Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, prone, damage, combat, heavy, two-handed', null, null, 'rare', null, false, false, false, true, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
          'Saddle, Riding', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Dragon Slayer Rapier', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -1431,10 +1427,6 @@ A creature in the compartment can use an action to move as many as two of the ap
 | 8     | Eyelike fixtures emit bright light in a 30-foot radius and dim light for an additional 30 feet.                                  | The light turns off.                                                                                                                                                                                                               |
 | 9     | The apparatus sinks as much as 20 feet in liquid.                                                                                | The apparatus rises up to 20 feet in liquid.                                                                                                                                                                                       |
 | 10    | The rear hatch unseals and opens.                                                                                                | The rear hatch closes and seals.                                                                                                                                                                                                                                    |', 'utility, exploration, combat', NULL, NULL, 'legendary', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Giant Slayer Shortsword', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a giant with it, the giant takes an extra 2d6 damage of the weaponnulls type and must succeed on a DC 15 Strength saving throw or fall[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
-Proficiency with a shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, prone, damage, combat, finesse, light', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Dust of Dryness', 'DND5E', null, null, 'This small packet contains 1d6 + 4 pinches of dust. You can use an action to sprinkle a pinch of it over water. The dust turns a cube of water 15 feet on a side into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pelletnulls weight is negligible.
 Someone can use an action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so ends that pelletnulls magic.
@@ -1613,10 +1605,6 @@ If you pressbutton 6, the rod assumes or remains in its normal form and indicate
 Drain Life.When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failure, the target takes an extra 4d6 necrotic damage, and you regain a number of hit points equal to half that necrotic damage. This property cannullt be used again until the next dawn.
 Paralyze.When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Strength saving throw. On a failure, the target is[paralyzed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Paralyzed)for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the Effect on a success. This property cannullt be used again until the next dawn.
 Terrify.While holding the rod, you can use an action to force each creature you can see within 30 feet of you to make a DC 17 Wisdom saving throw. On a failure, a target is[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened)of you for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the Effect on itself on a success. This property cannullt be used again until the next dawn.', 'damage, control, utility, exploration, combat', NULL, NULL, 'legendary', null, false, true, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Giant Slayer Handaxe', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a giant with it, the giant takes an extra 2d6 damage of the weaponnulls type and must succeed on a DC 15 Strength saving throw or fall[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
-Proficiency with a handaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, prone, damage, combat, light, thrown', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Belt of Stone Giant Strength', 'DND5E', null, null, 'While wearing this belt, your Strength score changes to 23. The item has no Effect on you if your Strength without the belt is equal to or greater than 23.', 'set: strength score, buff, belt', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -1823,10 +1811,6 @@ Proficiency with a maul allows you to add your proficiency bonus to the attack r
       ),(
          'Chain (10 feet)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Giant Slayer Scimitar', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a giant with it, the giant takes an extra 2d6 damage of the weaponnulls type and must succeed on a DC 15 Strength saving throw or fall[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
-Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, prone, damage, combat, finesse, light', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Alchemistnulls Supplies', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Robe of the Archmagi', 'DND5E', null, null, 'This elegant garment is made from exquisite cloth of white, gray, or black and adorned with silvery runes. The robenulls color corresponds to the alignment for which the item was created. A white robe was made for good, gray for neutral, and black for evil. You cannullt attune to arobe of the archmagithat doesnnullt correspond to your alignment. You gain these benefits while wearing the robe:
@@ -1877,10 +1861,6 @@ This potionnulls transparent liquid has floating in it a sliver of fingernail fr
       ),(
          'Glamoured Studded Leather', 'DND5E', null, null, 'While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armornulls command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor.
 Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.', 'bonus: armor class, utility, combat, deception, warding', NULL, NULL, null, null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Giant Slayer Greataxe', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a giant with it, the giant takes an extra 2d6 damage of the weaponnulls type and must succeed on a DC 15 Strength saving throw or fall[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
-Proficiency with a greataxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, prone, damage, combat, heavy, two-handed', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          '[Draft Horse](https://www.dndbeyond.com/monsters/16844-draft-horse)', 'DND5E', null, null, '| 18(+4) | 10(+0) | 12(+1) | 2(-4) | 11(+0) | 7(-2) |
 SensesPassive Perception 10
@@ -2093,19 +2073,6 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandn
       ),(
          'Broom of Flying', 'DND5E', null, null, 'This wooden broom, which weighs 3 pounds, functions like a mundane broom until you stand astride it and speak its command word. It then hovers beneath you and can be ridden in the air. It has a flying speed of 50 feet. It can carry up to 400 pounds, but its flying speed becomes 30 feet while carrying over 200 pounds. The broom stops hovering when you land.
 You can send the broom to travel alone to a destination within 1 mile of you if you speak the command word, name the location, and are familiar with that place. The broom comes back to you when you speak another command word, provided that the broom is still within 1 mile of you.', 'set: speed (flying), movement, utility, exploration', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Giant Slayer', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a giant with it, the giant takes an extra 2d6 damage of the weaponnulls type and must succeed on a DC 15 Strength saving throw or fall[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
-Applicable Weapons:
-| Name | Type | Damage | Properties |
-| Giant Slayer - Handaxe | Simple Melee | 1d6 + 1 slashing | [Light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[thrown](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(20/60) |
-| Giant Slayer - Battleaxe | Martial Melee | 1d8 + 1 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10) |
-| Giant Slayer - Greataxe | Martial Melee | 1d12 + 1 slashing | [Heavy](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[two-handed](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Giant Slayer - Greatsword | Martial Melee | 2d6 + 1 slashing | [Heavy](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[two-handed](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Giant Slayer - Longsword | Martial Melee | 1d8 + 1 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10) |
-| Giant Slayer - Rapier | Martial Melee | 1d8 + 1 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Giant Slayer - Scimitar | Martial Melee | 1d6 + 1 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Giant Slayer - Shortsword | Martial Melee | 1d6 + 1 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |', 'bonus: magic, damage: additional, damage, combat, versatile', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Eyes of Charming', 'DND5E', null, null, 'These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast thecharm personspell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn.', 'control, social, eyewear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2810,10 +2777,6 @@ Plate consists of shaped, interlocking metal plates to cover the entire body. A 
 This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. It weighs 1 pound.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Torch', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Giant Slayer Rapier', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a giant with it, the giant takes an extra 2d6 damage of the weaponnulls type and must succeed on a DC 15 Strength saving throw or fall[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
-Proficiency with a rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, prone, damage, combat, finesse', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Wand', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
