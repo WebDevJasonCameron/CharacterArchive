@@ -1306,27 +1306,6 @@ VALUES(
            null,
            17
       ),(
-         'Case, Crossbow Bolt', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Chariot', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Barding', 'DND5E', null, null, '| Padded | Light |  11 + Dex modifier |  -- | Disadvantage |
-| Leather | Light |  11 + Dex modifier |  -- |  -- |
-| Studded Leather | Light |  12 + Dex modifier |  -- |  -- |
-| Hide | Medium |  12 + Dex modifier (max 2) |  -- |  -- |
-| Chain Shirt | Medium |  13 + Dex modifier (max 2) |  -- |  -- |
-| Scale Mail | Medium |  14 + Dex modifier (max 2) |  -- |  Disadvantage |
-| Breastplate | Medium |  14 + Dex modifier (max 2) |  -- |  -- |
-| Half Plate | Medium |  15 + Dex modifier (max 2) |  -- | Disadvantage |
-| Ring Mail | Heavy |  14 |  -- |  Disadvantage |
-| Chain Mail | Heavy |  16 |  Strength 13 |  Disadvantage |
-| Splint | Heavy |  17 |  Strength 15 |  Disadvantage |
-| Plate | Heavy |  18 |  Strength 15 |  Disadvantage |', null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),
-    (
-         'Mithral Plate', 'DND5E', null, null, 'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
-Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'stealth disadvantage: remove, combat, warding, str 15 required, stealth disadvantage', null, null, 'uncommon', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
          'Giant Slayer Greatsword', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
 When you hit a giant with it, the giant takes an extra 2d6 damage of the weaponnulls type and must succeed on a DC 15 Strength saving throw or fall[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
 Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, prone, damage, combat, heavy, two-handed', null, null, 'rare', null, false, false, false, true, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
@@ -1421,9 +1400,6 @@ The sword has 1d8 + 1 charges. If you score a critical hit against a creature th
 Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage, combat, finesse, light', NULL, NULL, 'very rare', null, false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Amulet of Proof against Detection and Location', 'DND5E', null, null, 'While wearing this amulet, you are hidden from divination magic. You cannullt be targeted by such magic or perceived through magical scrying sensors.', 'deception, jewelry', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Mithral Chain Shirt', 'DND5E', null, null, 'Mithral is a light, flexible metal. A mithral chain shirt can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
-Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearernulls upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.', 'stealth disadvantage: remove, combat, warding', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Potion of Heroism', 'DND5E', null, null, 'For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the Effect of theblessspell (no concentration required). This blue potion bubbles and steams as if boiling.', 'bonus: temporary hit points, healing, buff, consumable', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2495,19 +2471,6 @@ Curse.This axe is cursed, and becoming attuned to it extends the curse to you. A
 Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.
 Proficiency with a greataxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, bonus: hit points per level, combat, cursed, heavy, two-handed', NULL, NULL, 'rare', 'yes', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Mithral Armor', 'DND5E', null, null, 'Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes.
-If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
-Applicable Armor:
-| Name                  | Type | AC                    | Strength | Stealth  |
-| Mithral - Chain Shirt | Medium   | 13 + Dex modifier (max 2) | --           | --           |
-| Mithral - Scale Mail  | Medium   | 14 + Dex modifier (max 2) | --           | Disadvantage |
-| Mithral - Breastplate | Medium   | 14+ Dex modifier (max 2) | --           | --           |
-| Mithral - Half Plate  | Medium   | 15+ Dex modifier (max 2) | --           | Disadvantage |
-| Mithral - Ring Mail   | Heavy    | 14                        | --           | Disadvantage |
-| Mithral - Chain Mail  | Heavy    | 16                        | Strength 13  | Disadvantage |
-| Mithral - Splint      | Heavy    | 17                        | Strength 15  | Disadvantage |
-| Mithral - Plate       | Heavy    | 18                        | Strength 15  | Disadvantage |', 'stealth disadvantage: remove, combat, warding', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Piton', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Frost Brand Shortsword', 'DND5E', null, null, 'When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.
@@ -2567,9 +2530,6 @@ AnOrb of Dragonkindappears fragile but is impervious to most damage, including t
       ),(
 
           'Ring of Free Action', 'DND5E', null, null, 'While you wear this ring, difficult terrain doesnnullt cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be[paralyzed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Paralyzed)or[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained).', 'negates difficult terrain, magical speed reduction, immune: paralyzed or restrained (magical sources), movement, warding, jewelry', NULL, NULL, null, null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Mithral Ring Mail', 'DND5E', null, null, 'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
-This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and itnulls usually worn only by those who cannullt afford better armor.', 'stealth disadvantage: remove, combat, warding, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Bagpipes', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2651,9 +2611,6 @@ You can use an action to touch the token to a boat or ship. For the next 24 hour
       ),(
          'Robes', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Mithral Splint', 'DND5E', null, null, 'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
-This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.', 'stealth disadvantage: remove, combat, warding, str 15 required, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Ring of Thunder Resistance', 'DND5E', null, null, 'You have resistance to thunder damage while wearing this spinel ring.', 'resistance: thunder, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Caltrops (bag of 20)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -2702,9 +2659,6 @@ Item Tags:MOVEMENTSHAPECHANGINGDECEPTIONOUTERWEAR', 'advantage: stealth, set: in
       ),(
          'Potion of Frost Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
 This potionnulls transparent liquid has floating in it a sliver of fingernail from a frost giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Mithral Scale Mail', 'DND5E', null, null, 'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
-This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.', 'stealth disadvantage: remove, combat, warding, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Sealing Wax', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2817,9 +2771,6 @@ A wizard spell on a spell scroll can be copied just as spells in spellbooks can 
       ),(
          'Belt of Frost Giant Strength', 'DND5E', null, null, 'While wearing this belt, your Strength score changes to 23. The item has no Effect on you if your Strength without the belt is equal to or greater than 23.', 'set: strength score, buff, belt', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Mithral Chain Mail', 'DND5E', null, null, 'Mithral is a light, flexible metal. If the armor normally imposes disadvantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks or has a Strength requirement, the mithral version of the armor doesnnullt.
-Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.', 'stealth disadvantage: remove, combat, warding, str 13 required, stealth disadvantage', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Ring of Water Elemental Command', 'DND5E', null, null, 'This ring is linked to the Elemental Plane of Water.
 While wearing this ring, you have advantage on attack rolls against water elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Water.
 The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.
@@ -2843,8 +2794,6 @@ Curse.Once you don this cursed armor, you can’t doff it unless you are targete
 Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'bonus: armor class, language: abyssal, damage, combat, warding, cursed, str 15 required, stealth disadvantage', NULL, NULL, 'very rare', null, false, true, true, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Jewelernulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Mithral Breastplate', 'DND5E', null, null, null, 'stealth disadvantage: remove, combat, warding', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Eyes of the Eagle', 'DND5E', null, null, 'These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom ([Perception](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception)) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.', 'advantage: perception, detection, utility, eyewear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(

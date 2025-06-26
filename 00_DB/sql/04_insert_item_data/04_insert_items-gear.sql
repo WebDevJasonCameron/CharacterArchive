@@ -690,4 +690,68 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Case, Crossbow Bolt',
+       'DND5E',
+       '1 lb',
+       '1 gp',
+       'This wooden case can hold up to twenty crossbow bolts.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+          'Lantern, Bullseye',
+          'DND5E',
+          '2 lb',
+          '10 gp',
+          'A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       )
