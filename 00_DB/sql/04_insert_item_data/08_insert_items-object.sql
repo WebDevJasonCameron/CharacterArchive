@@ -1306,33 +1306,43 @@ VALUES(
            null,
            17
       ),(
-         'Horn', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Rod', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ram, Portable', 'DND5E', null, null, 'Type:Adventuring Gear
-Weight:35 lbs
-You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Wind Fan', 'DND5E', null, null, 'While holding this fan, you can use an action to cast thegust of windspell (save DC 13) from it. Once used, the fan shouldnnullt be used again until the next dawn. Each time it is used again before then, it has a cumulative 20 percent chance of not working and tearing into useless, nonmagical tatters.', 'control', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Lantern, Hooded', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Pipes of Haunting', 'DND5E', null, null, 'You must be proficient with wind instruments to use these pipes. They have 3 charges. You can use an action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play must succeed on a DC 15 Wisdom saving throw or become[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened)of you for 1 minute. If you wish, all creatures in the area that arennullt hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the Effect on itself on a success. A creature that succeeds on its saving throw is immune to the Effect of these pipes for 24 hours. The pipes regain 1d3 expended charges daily at dawn.', 'frightened, control, instrument', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Sack', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Gloves of Swimming and Climbing', 'DND5E', null, null, 'While wearing these gloves, climbing and swimming donnullt cost you extra movement, and you gain a +5 bonus to Strength ([Athletics](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Athletics)) checks made to climb or swim.', 'buff, movement, exploration', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Carpet of Flying (4 ft. x 6 ft.)', 'DND5E', null, null, 'You can speak the carpetnulls command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.
-This carpet is 4feet by 6feet and has a flying speed of60feet. It can carry up to 800pounds, but its flying speed becomes 30feet while carrying over 400 pounds.', 'set: speed (flying), movement, utility, exploration', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Wind Fan',
+         'DND5E',
+         null,
+         null,
+         'While holding this fan, you can cast Gust of Wind (save DC 13) from it. Each subsequent time the fan is used before the next dawn, it has a cumulative 20 percent chance of not working; if the fan fails to work, it tears into useless, nonmagical tatters.',
+         'Control',
+         'Dungeon Master’s Guide, pg. 213',
+         'uncommon',
+         'Wondrous Item',
+
+         true,
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         null,
+
+         null,
+         null,
+         null,
+         null,
+         null,
+
+         null,
+         null,
+
+         null,
+         5
       ),(
          'Bag of Devouring', 'DND5E', null, null, 'This bag superficially resembles a bag of holding but is a feeding orifice for a gigantic extradimensional creature. Turning the bag inside out closes the orifice.
 The extradimensional creature attached to the bag can sense whatever is placed inside the bag. Animal or vegetable matter placed wholly in the bag is devoured and lost forever. When part of a living creature is placed in the bag, as happens when someone reaches inside it, there is a 50 percent chance that the creature is pulled inside the bag. A creature inside the bag can use its action to try to escape with a successful DC 15 Strength check. Another creature can use its action to reach into the bag to pull a creature out, doing so with a successful DC 20 Strength check (provided it isnnullt pulled inside the bag first). Any creature that starts its turn inside the bag is devoured, its body destroyed.
 Inanimate objects can be stored in the bag, which can hold a cubic foot of such material. However, once each day, the bag swallows any objects inside it and spits them out into another plane of existence. The GM determines the time and plane.
-If the bag is pierced or torn, it is destroyed, and anything contained within it is transported to a random location on the Astral Plane.', 'control, utility, combat, container', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+If the bag is pierced or torn, it is destroyed, and anything contained within it is transported to a random location on the Astral Plane.', 'control, utility, combat, container', null, null, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Helm of Comprehending Languages', 'DND5E', null, null, 'While wearing this helm, you can use an action to cast thecomprehend languagesspell from it at will.', 'communication, headwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Helm of Comprehending Languages', 'DND5E', null, null, 'While wearing this helm, you can use an action to cast thecomprehend languagesspell from it at will.', 'communication, headwear', null, null, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Spell Scroll (7th Level)', 'DND5E', null, null, 'Aspell scrollbears the words of a single spell, written in a mysticalcipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
 If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 17. On a failed check, the spell disappears from the scroll with no other Effect.

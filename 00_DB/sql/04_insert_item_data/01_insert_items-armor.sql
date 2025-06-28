@@ -1222,4 +1222,36 @@ VALUES (
 
         null,
         17
+       ),
+       (
+        'Gloves of Swimming and Climbing',
+        'DND5E',
+        null,
+        null,
+        'While wearing these gloves, climbing and swimming don''t cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.',
+        'Buff, Movement, Exploration',
+        'Dungeon Master’s Guide, pg. 172',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
        )

@@ -786,4 +786,132 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Rod',
+       'DND5E',
+       '2 lb',
+       '10 gp',
+       'An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Ram, Portable',
+       'DND5E',
+       '35 lb',
+       '4 gp',
+       'You can use a portable ram to break down doors.  When doing so, you gain a +4 bonus on the Strength check.  One other character can help you use the ram, giving you advantage on this check.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Lantern, Hooded',
+       'DND5E',
+       '2 lb',
+       '5 gp',
+       'A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Sack',
+       'DND5E',
+       '1/2 lb',
+       '1 cp',
+       'A sack can hold 1 cubic foot/ 30 pounds of gear.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

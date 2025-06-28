@@ -344,4 +344,180 @@ VALUES
 
              null,
              5
+        ),
+        (
+         'Carpets of Flying',
+         'DND5E',
+         null,
+         null,
+         'You can speak the carpet''s command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.
+                Four sizes of carpet of flying exist. The DM chooses the size of a given carpet or determines it randomly.
+                | Size | Capacity | Flying Speed |
+                | --- | --- | --- | --- |
+                | 3 ft. x 5 ft. | 200 lb. | 80 feet |
+                | 4 ft. x 6 ft. | 400 lb. | 60 feet |
+                | 5 ft. x 7 ft. | 600 lb. | 40 feet |
+                | 6 ft. x 9 ft. | 800 lb. | 30 feet |
+                A carpet can carry up to twice the weight shown on the table, but it flies at half speed if it carries more than its normal capacity.',
+         'Set: Speed (Flying), Movement, Utility, Exploration',
+         'Basic Rules (2014), pg. 157',
+         'very rare',
+         'Wondrous Item',
+
+         true,
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         null,
+
+         null,
+         null,
+         null,
+         null,
+         null,
+
+         null,
+         null,
+
+         null,
+         5
+        ),
+        (
+            'Carpet of Flying (3 ft. x 5 ft.)',
+            'DND5E',
+            null,
+            null,
+            'You can speak the carpet''s command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.
+                This carpet is 3 feet by 5 feet and has a flying speed of 80 feet. It can carry up to 400 pounds, but its flying speed becomes 40 feet while carrying over 200 pounds.
+                *Capacity:* 400 lb',
+            'Set: Speed (Flying), Movement, Utility, Exploration',
+            null,
+            'very rare',
+            'Wondrous Item',
+
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            null,
+
+            null,
+            null,
+            null,
+            null,
+            null,
+
+            null,
+            null,
+
+            null,
+            5
+        ),
+        (
+            'Carpet of Flying (4 ft. x 6 ft.)',
+            'DND5E',
+            null,
+            null,
+            'You can speak the carpet''s command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.
+                    This carpet is 4 feet by 6 feet and has a flying speed of 60 feet. It can carry up to 800 pounds, but its flying speed becomes 30 feet while carrying over 400 pounds.
+                    *Capacity:* 800 lb',
+            'Set: Speed (Flying), Movement, Utility, Exploration',
+            null,
+            'very rare',
+            'Wondrous Item',
+
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            null,
+
+            null,
+            null,
+            null,
+            null,
+            null,
+
+            null,
+            null,
+
+            null,
+            5
+        ),
+        (
+            'Carpet of Flying (5 ft. x 7 ft.)',
+            'DND5E',
+            null,
+            null,
+            'You can speak the carpet''s command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.
+                This carpet is 5 feet by 7 feet and has a flying speed of 40 feet. It can carry up to 1,200 pounds, but its flying speed becomes 20 feet while carrying over 600 pounds.
+                *Capacity:* 1200 lb',
+            'Set: Speed (Flying), Movement, Utility, Exploration',
+            null,
+            'very rare',
+            'Wondrous Item',
+
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            null,
+
+            null,
+            null,
+            null,
+            null,
+            null,
+
+            null,
+            null,
+
+            null,
+            5
+        ),
+        (
+            'Carpet of Flying (6 ft. x 9 ft.)',
+            'DND5E',
+            null,
+            null,
+            'You can speak the carpet''s command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.
+                This carpet is 6 feet by 9 feet and has a flying speed of 30 feet. It can carry up to 1,600 pounds, but its flying speed becomes 15 feet while carrying over 800 pounds.
+                *Capacity:* 1600 lb',
+            'Set: Speed (Flying), Movement, Utility, Exploration',
+            null,
+            'very rare',
+            'Wondrous Item',
+
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            null,
+
+            null,
+            null,
+            null,
+            null,
+            null,
+
+            null,
+            null,
+
+            null,
+            5
         )
