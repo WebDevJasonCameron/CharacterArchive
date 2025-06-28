@@ -1494,7 +1494,7 @@ VALUES(
     5
     ),
     (
-    'Vorpal Greatsword',
+    'Vorpal Swords',
     'DND5E',
     null,
     null,
