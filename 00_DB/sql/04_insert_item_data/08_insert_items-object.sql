@@ -1306,17 +1306,6 @@ VALUES(
            null,
            17
       ),(
-         'Dragon Slayer Rapier', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a dragon with this weapon, the dragon takes an extra 3d6 points of piercing damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
-Proficiency with a rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, damage, combat, finesse', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dust of Sneezing and Choking', 'DND5E', null, null, 'Found in a small container, this powder resembles very fine sand. It appears to bedust of disappearance, and anidentifyspell reveals it to be such. There is enough of it for one use.
-When you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe, while sneezing uncontrollably. A creature affected in this way is[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated)and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the Effect on it on a success. Thelesser restorationspell can also end the Effect on a creature.', 'incapacitated, control, debuff', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Shield of Missile Attraction', 'DND5E', null, null, 'While holding this shield, you have resistance to damage from ranged weapon attacks.
-Curse.This shield is cursed. Attuning to it curses you until you are targeted by theremove cursespell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead.
-A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.', 'resistance: ranged attacks, warding, cursed', NULL, NULL, 'rare', null, false, true, true, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Horn', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Rod', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -1695,16 +1684,6 @@ Uses:
 Six stars, located on the robenulls upper front portion, are particularly large. While wearing this robe, you can use an action to pull off one of the stars and use it to castmagic missileas a 5th-level spell. Daily at dusk, 1d6 removed stars reappear on the robe.
 While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space.', 'bonus: saving throws, teleportation, damage, combat, warding, outerwear', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Dragon Slayer', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a dragon with this weapon, the dragon takes an extra 3d6 damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
-Applicable Weapons:
-| Name                           | Type          | Damage       | Properties                                                                                                                                                                                  |
-| Dragon Slayer - Greatsword | Martial Melee | 2d6 slashing | [Heavy](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[two-handed](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Dragon Slayer - Longsword      | Martial Melee | 1d8 piercing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10)                                                                                       |
-| Dragon Slayer - Rapier     | Martial Melee | 1d8 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)                                                                                                |
-| Dragon Slayer - Scimitar   | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |
-| Dragon Slayer - Shortsword | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |', 'bonus: magic, damage: additional, damage, combat, versatile', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Bedroll', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Animated Shield', 'DND5E', null, null, 'While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this Effect, or until you are[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated)or die, at which point the shield falls to the ground or into your hand if you have one free.
@@ -1914,10 +1893,6 @@ The third command word causes thefolding boatto fold back into a box, provided t
       ),(
          'Lyre', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Dragon Slayer Shortsword', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a dragon with this weapon, the dragon takes an extra 3d6 points of piercing damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
-Proficiency with a shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, damage, combat, finesse, light', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Belt of Dwarvenkind', 'DND5E', null, null, 'While wearing this belt, you gain the following benefits:
 -   Your Constitution score increases by 2, to a maximum of 20.
 -   You have advantage on Charisma ([Persuasion](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Persuasion)) checks made to interact with dwarves.
@@ -1971,10 +1946,6 @@ This scroll contains a 3rd level spell. The spellnulls saving throw DC is 15 and
 A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence ([Arcana](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Arcana)) check with a DC equal to 13. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.', 'utility, consumable', NULL, NULL, 'common', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Cloak of Displacement', 'DND5E', null, null, 'While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while you are[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated),[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained), or otherwise unable to move.', 'disadvantage: attack rolls against you, deception, warding, outerwear', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dragon Slayer Longsword', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a dragon with this weapon, the dragon takes an extra 3d6 points of slashing damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
-Proficiency with a longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, damage, combat, versatile', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Arrows', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2252,10 +2223,6 @@ Once you finish creating the golem, the book is consumed in eldritch flames. The
       ),(
          'Brazier of Commanding Fire Elementals', 'DND5E', null, null, 'While a fire burns in this brass brazier, you can use an action to speak the brazier’s command word and summon aFire elemental, as if you had cast theconjure elementalspell. The brazier can’t be used this way again until the next dawn.
 The brazier weighs 5 pounds.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dragon Slayer Scimitar', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a dragon with this weapon, the dragon takes an extra 3d6 points of slashing damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
-Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, damage, combat, finesse, light', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Disguise Kit', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2902,10 +2869,6 @@ Placing the haversack inside an extradimensional space created by a[bag of holdi
       ),(
          'Potion of Cloud Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 27 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
 This potionnulls transparent liquid has floating in it a sliver of fingernail from a cloud giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dragon Slayer Greatsword', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-When you hit a dragon with this weapon, the dragon takes an extra 3d6 slashing damage. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
-Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage: additional, damage, combat, heavy, two-handed', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Rope of Climbing', 'DND5E', null, null, 'This 60-foot length of silk rope weighs 3 pounds and can hold up to 3,000 pounds. If you hold one end of the rope and use an action to speak the command word, the rope animates. As a bonus action, you can command the other end to move toward a destination you choose. That end moves 10 feet on your turn when you first command it and 10 feet on each of your turns until reaching its destination, up to its maximum length away, or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.
 If you tell the rope to knot, large knots appear at 1- foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants advantage on checks made to climb it.
