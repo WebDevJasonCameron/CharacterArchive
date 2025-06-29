@@ -125,4 +125,36 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Universal Solvent',
+       'DND5E',
+       null,
+       null,
+       'This tube holds milky liquid with a strong alcohol smell. You can use an action to pour the contents of the tube onto a surface within reach. The liquid instantly dissolves up to 1 square foot of adhesive it touches, including sovereign glue.',
+       'Utility, Consumable',
+       'Basic Rules (2014), pg. 209',
+       'legendary',
+       'Wondrous Item',
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

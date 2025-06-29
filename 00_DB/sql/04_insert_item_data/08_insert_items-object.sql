@@ -1272,7 +1272,8 @@ VALUES(
 
         null,
         1
-        ),(
+        ),
+    (
          'Rod of Security',
            'DND5E',
            null,
@@ -1305,7 +1306,8 @@ VALUES(
 
            null,
            17
-      ),(
+      ),
+    (
          'Wind Fan',
          'DND5E',
          null,
@@ -1336,22 +1338,6 @@ VALUES(
 
          null,
          5
-      ),(
-         'Universal Solvent', 'DND5E', null, null, 'This tube holds milky liquid with a strong alcohol smell. You can use an action to pour the contents of the tube onto a surface within reach. The liquid instantly dissolves up to 1 square foot of adhesive it touches, includingSovereign Glue.', 'utility, consumable', NULL, NULL, 'legendary', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Staff of Fire', 'DND5E', null, null, 'You have resistance to fire damage while you hold this staff.
-The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC:burning hands(1 charge),fireball(3 charges), orwall of fire(4 charges).
-The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff blackens, crumbles into cinders, and is destroyed.', 'resistance: fire, druid, sorcerer, warlock, or wizard, damage, control, combat, warding', NULL, NULL, 'very rare', 'yes', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Necklace of Prayer Beads', 'DND5E', null, null, 'This necklace has 1d4 + 2 magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.
-Six types of magic beads exist. The GM decides the type of each bead on the necklace or determines it randomly. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic beadnulls spell is cast, that bead cannullt be used again until the next dawn.
-| d20   | Bead of...   | Spell                                                         |
-| 1-6   | Blessing     | Bless                                                 |
-| 7-12  | Curing       | Cure wounds(2nd level) orlesser restoration |
-| 13-16 | Favor        | Greater restoration                                   |
-| 17-18 | Smiting      | Branding smite                                        |
-| 19    | Summons      | Planar ally                                           |
-| 20    | Wind walking | Wind walk                                             |', 'cleric, druid, or paladin, healing, summoning, damage, buff, movement, jewelry', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Feather Token (Swan Boat)', 'DND5E', null, null, 'This tiny object looks like a feather.
 You can use an action to touch the token to a body of water at least 60 feet in diameter. The token disappears, and a 50-foot-long, 20-foot- wide boat shaped like a swan takes its place. The boat is self-propelled and moves across water at a speed of 6 miles per hour. You can use an action while on the boat to command it to move or to turn up to 90 degrees. The boat can carry up to thirty-two Medium or smaller creatures. A Large creature counts as four Medium creatures, while a Huge creature counts as nine. The boat remains for 24 hours and then disappears. You can dismiss the boat as an action.', 'movement, utility, exploration, consumable', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
