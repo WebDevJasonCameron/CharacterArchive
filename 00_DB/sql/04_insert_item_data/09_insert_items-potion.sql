@@ -654,5 +654,38 @@ VALUES
 
         null,
         17
+    ),
+    (
+     'Potion of Heroism',
+     'DND5E',
+     null,
+     null,
+     'When you drink this potion, you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no Concentration required).
+            This potion’s blue liquid bubbles and steams as if boiling.',
+     'Bonus: Temporary Hit Points, Healing, Buff, Consumable',
+     'Dungeon Master’s Guide, pg. 188',
+     'rare',
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
     )
 
