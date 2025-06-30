@@ -6454,4 +6454,1830 @@ VALUES(
 
        null,
        17
+      ),
+      (
+       'Nine Lives Stealer''s',
+       'DND5E',
+       null,
+       null,
+       'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+            Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+
+            *Weapons*
+            | *Name* | *Damage* | *Properties* | *Mastery* |
+            | **Simple Melee Weapons** |
+            | Club | 1d4 Bludgeoning | Light | Slow |
+            | Dagger | 1d4 Piercing | Finesse, Light, Thrown (Range 20/60) | Nick |
+            | Greatclub | 1d8 Bludgeoning | Two-Handed | Vex |
+            | Handaxe | 1d6 Slashing | Light, Thrown (Range 20/60) | Vex |
+            | Javelin | 1d6 Piercing | Thrown (Range 30/120) | Slow |
+            | Light Hammer | 1d4 Bludgeoning | Light, Thrown (Range 20/60) | Nick |
+            | Mace | 1d6 Bludgeoning | - | Sap |
+            | Quarterstaff | 1d6 Bludgeoning | Versatile (1d8) | Topple |
+            | Sickle | 1d4 Slashing | Light | Nick |
+            | Spear | 1d6 Piercing | Thrown (Range 20/60), Versatile (1d8) | Sap |
+
+            | **Simple Ranged Weapons** |
+            | Dart | 1d4 Piercing | Finesse, Thrown (Range 20/60) | Vex |
+            | Light Crossbow | 1d8 Piercing | Ammunition (Range 80/320; Bolt), Loading, Two-Handed | Slow |
+            | Shortbow | 1d6 Piercing | Ammunition (Range 80/320; Arrow), Two-Handed | Vex |
+            | Sling | 1d4 Bludgeoning | Ammunition (Range 30/120; Bullet) | Slow |
+
+            | **Martial Melee Weapons** |
+            | Battleaxe | 1d8 Slashing | Versatile (1d10) | Topple |
+            | Flail | 1d8 Bludgeoning | - | Sap |
+            | Glaive | 1d10 Slashing | Heavy, Reach, Two-Handed | Graze |
+            | Greataxe | 1d12 Slashing | Heavy, Two-Handed | Cleave |
+            | Greatsword | 2d6 Slashing | Heavy, Two-Handed | Graze |
+            | Halberd | 1d10 Slashing | Heavy, Reach, Two-Handed | Cleave |
+            | Lance | 1d10 Piercing | Heavy, Reach, Two-Handed (unless mounted) | Topple |
+            | Longsword | 1d8 Slashing | Versatile (1d10) | Sap |
+            | Maul | 2d6 Bludgeoning | Heavy, Two-Handed | Topple |
+            | Morningstar | 1d8 Piercing | - | Sap |
+            | Pike | 1d10 Piercing | Heavy, Reach, Two-Handed | Push |
+            | Rapier | 1d8 Piercing	Finesse	Vex
+            | Scimitar | 1d6 Slashing | Finesse, Light | Nick |
+            | Shortsword | 1d6 Piercing | Finesse, Light | Vex |
+            | Trident | 1d8 Piercing | Thrown (Range 20/60), Versatile (1d10) | Topple |
+            | Warhammer | 1d8 Bludgeoning | Versatile (1d10) | Push |
+            | War Pick | 1d8 Piercing | Versatile (1d10) | Sap |
+            | Whip | 1d4 Slashing | Finesse, Reach | Slow |
+
+            | **Martial Ranged Weapons** |
+            | Blowgun | 1 Piercing | Ammunition (Range 25/100; Needle), Loading | Vex |
+            | Hand Crossbow | 1d6 Piercing | Ammunition (Range 30/120; Bolt), Light, Loading | Vex |
+            | Heavy Crossbow | 1d10 Piercing | Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed | Push |
+            | Longbow | 1d8 Piercing | Ammunition (Range 150/600; Arrow), Heavy, Two-Handed | Slow |
+            | Musket | 1d12 Piercing | Ammunition (Range 40/120; Bullet), Loading, Two-Handed | Slow |
+            | Pistol | 1d10 Piercing | Ammunition (Range 30/90; Bullet), Loading | Vex |
+            | Automatic Rifle | 2d8 Piercing | Ammunition, (Range 80/240; Bullet), Burst Fire, Reload (30 shots), Two-Handed | Slow |
+            | Hunting Rifle | 2d10 Piercing | Ammunition (Range 80/240; Bullet), Reload (5 shots), Two-Handed | Slow |
+            | Revolver | 2d8 Piercing | Ammunition (Range 40/120; Bullet), Reload (6 shots) | Sap |
+            | Semiautomatic Pistol | 2d6 Piercing | Ammunition (Range 50/150; Bullet), Reload (15 shots) | Vex |
+            | Shotgun | 2d8 Piercing | Ammunition (Range 30/90; Bullet), Reload (2 shots), Two-Handed | Push |
+            | Antimatter Rifle | 6d8 Necrotic | Ammunition (Range 120/360; Energy Cell), Reload(2 shots), Two-Handed | Sap |
+            | Laser Pistol | 3d6 Radiant | Ammunition (Range 40/120; Energy Cell), Reload (50 shots) | Vex |
+            | Laser Rifle | 3d8 Radiant | Ammunition (Range 100/300; Energy Cell), Reload (30 shots), Two-Handed |',
+       'Notes: Bonus: Magic, Damage, Combat, Versatile, Sap',
+       null,
+       'very rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       true,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+          'Nine Lives Stealer Club',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Club allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Bonus: Magic, Damage, Combat, Light, Slow',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d4+2',
+          'bludgeoning',
+          'Light, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Dagger',
+          'DND5E',
+          '1 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn',
+          'Bonus: Magic, Damage, Combat, Finesse, Light, Thrown, Nick',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft (20 ft/60 ft range)',
+          '1d4+2',
+          'piercing',
+          'Finesse, Light, Thrown, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Greatclub',
+          'DND5E',
+          '10 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Greatclub allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
+          'Magic, Damage, Combat, Two-Handed, Push',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d8+2',
+          'bludgeoning',
+          'Two-Handed, Push',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Handaxe',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Handaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage, Combat, Light, Thrown, Vex',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft (20 ft/60 ft range)',
+          '1d6+2',
+          'slashing',
+          'Light, Thrown, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Javelin',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Javelin allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Bonus: Magic, Damage, Combat, Thrown, Slow',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft (30 ft/120 ft range)',
+          '1d6+2',
+          'piercing',
+          'Thrown, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Light Hammer',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Light Hammer allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Bonus: Magic, Damage, Combat, Light, Thrown, Nick',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft (20 ft/60 ft range)',
+          '1d4+2',
+          'bludgeoning',
+          'Light, Thrown, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Mace',
+          'DND5E',
+          '4 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Mace allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Bonus: Magic, Damage, Combat, Sap',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d6+2',
+          'bludgeoning',
+          'Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Quarterstaff',
+          'DND5E',
+          '4 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Quarterstaff allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+          'Bonus: Magic, Damage, Combat, Versatile, Topple',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d6+2 (1d8+2 two handed)',
+          'bludgeoning',
+          'Versatile (1d8), Topple',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Sickle',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Sickle allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Bonus: Magic, Damage, Combat, Light, Nick',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d4+2',
+          'slashing',
+          'Light, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Spear',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Spear allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Bonus: Magic, Damage, Combat, Thrown, Versatile, Sap',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft (20 ft/60 ft range)',
+          '1d6+2 (1d8+2 range)',
+          'piercing',
+          'Thrown, Versatile (1d8), Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Dart',
+          'DND5E',
+          '0.25 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Dart allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage, Combat, Finesse, Thrown, Vex',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '20 ft/60 ft range',
+          '1d4+2',
+          'piercing',
+          'Finesse, Thrown, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Light Crossbow',
+          'DND5E',
+          '5 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Light Crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Bonus: Magic, Damage, Combat, Ammunition, Loading, Range, Two-Handed, Slow',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '80 ft/320 ft range',
+          '1d8',
+          'piercing',
+          'Ammunition, Loading, Range, Two-Handed, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Shortbow',
+          'DND5E',
+          '',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Shortbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage, Combat, Ammunition, Range, Two-Handed, Vex',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '80 ft/320 ft range',
+          '1d6',
+          'piercing',
+          'Ammunition, Range, Two-Handed, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Sling',
+          'DND5E',
+          '',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Sling allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Bonus: Magic, Damage, Combat, Ammunition, Range, Slow',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '30 ft/120 ft range',
+          '1d4',
+          'bludgeoning',
+          'Ammunition, Range, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Battleaxe',
+          'DND5E',
+          '4 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Battleaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+          'Bonus: Magic, Damage, Combat, Versatile, Topple',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d8+2 (1d10+2 two handed)',
+          'slashing',
+          'Versatile (1d10), Topple',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Flail',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Flail allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Bonus: Magic, Damage, Combat, Sap',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d8+2',
+          'bludgeoning',
+          'Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Glaive',
+          'DND5E',
+          '6 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Glaive allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+          'Bonus: Magic, Damage, Combat, Heavy, Reach, Two-Handed, Graze',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '10 ft',
+          '1d10+2',
+          'slashing',
+          'Heavy, Reach, Two-Handed, Graze',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Greataxe',
+          'DND5E',
+          '7 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Greataxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Cleave. If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.',
+          'Bonus: Magic, Damage, Combat, Heavy, Two-Handed, Cleave',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d12+2',
+          'slashing',
+          'Heavy, Two-Handed, Cleave',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Greatsword',
+          'DND5E',
+          '6 lb',
+          null,
+          'You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+                The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property.
+                Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+          'Bonus: Magic, Damage, Combat, Heavy, Two-Handed, Graze',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '2d6+2',
+          'slashing',
+          'Heavy, Two-Handed, Graze',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Halberd',
+          'DND5E',
+          '6 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Halberd allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Cleave. If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.',
+          'Bonus: Magic, Damage, Combat, Heavy, Reach, Two-Handed, Cleave',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '10 ft',
+          '1d10+2',
+          'slashing',
+          'Heavy, Reach, Two-Handed, Cleave',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Lance',
+          'DND5E',
+          '6 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Lance allows you to add your proficiency bonus to the attack roll for any attack you make with it. A Lance requires two hands to wield when you aren''t mounted.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+          'Bonus: Magic, Damage, Combat, Heavy, Reach, Two-Handed, Topple',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '10 ft',
+          '1d10+2',
+          'piercing',
+          'Reach, Topple, Heavy, Two-Handed (unless mounted)',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Longsword',
+          'DND5E',
+          '3 lb',
+          null,
+          '
+                You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+                The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property.
+                Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Bonus: Magic, Damage, Combat, Versatile, Sap',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d8+2 (1d10+2 two handed)',
+          'slashing',
+          'Versatile (1d10), Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Maul',
+          'DND5E',
+          '10 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Maul allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+          'Bonus: Magic, Damage, Combat, Heavy, Two-Handed, Topple',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '2d6+2',
+          'bludgeoning',
+          'Heavy, Two-Handed, Topple',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Morningstar',
+          'DND5E',
+          '4 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Morningstar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Bonus: Magic, Damage, Combat, Sap',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d8+2',
+          'piercing',
+          'Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Pike',
+          'DND5E',
+          '18 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Pike allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
+          'Bonus: Magic, Damage, Combat, Heavy, Reach, Two-Handed, Push',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '10 ft',
+          '1d10+2',
+          'piercing',
+          'Heavy, Reach, Two-Handed, Push',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Rapier',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+                The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property.
+                Proficiency with a Rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage, Combat, Finesse, Vex',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d8+2',
+          'piercing',
+          'Finesse, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Scimitar',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+                The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property.
+                Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Bonus: Magic, Damage, Combat, Finesse, Light, Nick',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d6+2',
+          'slashing',
+          'Finesse, Light, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Shortsword',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+                The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property.
+                Proficiency with a Shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage, Combat, Finesse, Light, Vex',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d6+2',
+          'piercing',
+          'Finesse, Light, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Trident',
+          'DND5E',
+          '4 lb',
+          null,
+          '
+                You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Trident allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+          'Bonus: Magic, Damage, Combat, Thrown, Versatile, Topple',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft (20 ft/60 ft range)',
+          '1d8+2 (1d10+2 range)',
+          'piercing',
+          'Thrown, Versatile (1d10), Topple',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Warhammer',
+          'DND5E',
+          '5 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Warhammer allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
+          'Bonus: Magic, Damage, Combat, Versatile, Push',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d8+2 (1d10+2 two handed)',
+          'bludgeoning',
+          'Versatile (1d10), Push',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer War Pick',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a War Pick allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Bonus: Magic, Damage, Combat, Versatile, Sap',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '1d8+2 (1d10+2 two handed)',
+          'piercing',
+          'Sap, Versatile (1d10)',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Whip',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Whip allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Bonus: Magic, Damage, Combat, Finesse, Reach, Slow',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '10 ft',
+          '1d4+2',
+          'slashing',
+          'Finesse, Reach, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Blowgun',
+          'DND5E',
+          '1 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Blowgun allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage, Combat, Ammunition, Loading, Range, Vex',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '25 ft/100 ft range',
+          '1',
+          'piercing',
+          'Ammunition, Loading, Range, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Hand Crossbow',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Hand Crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage, Combat, Ammunition, Light, Loading, Range, Vex',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '30 ft/120 ft range',
+          '1d6',
+          'piercing',
+          'Ammunition, Range, Light, Loading, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Heavy Crossbow',
+          'DND5E',
+          '18 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Heavy Crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
+          'Bonus: Magic, Damage, Combat, Ammunition, Heavy, Loading, Range, Two-Handed, Push',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '100 ft/400 ft range',
+          '1d10',
+          'piercing',
+          'Ammunition, Heavy, Loading, Range, Two-Handed, Push',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Longbow',
+          'DND5E',
+          '',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Longbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'onus: Magic, Damage, Combat, Ammunition, Heavy, Range, Two-Handed, Slow',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '150 ft/600 ft range',
+          '1d8',
+          'piercing',
+          'Ammunition, Heavy, Range, Two-Handed, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Musket',
+          'DND5E',
+          '10 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Musket allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Bonus: Magic, Damage, Combat, Loading, Range, Two-Handed, Ammunition (Firearms), Slow',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '40 ft/120 ft range',
+          '1d12',
+          'piercing',
+          'Ammunition (Firearms), Range, Loading, Two-Handed, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Pistol',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                Proficiency with a Pistol allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage, Combat, Loading, Range, Ammunition (Firearms), Vex',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '30 ft/90 ft range',
+          '1d10',
+          'piercing',
+          'Ammunition (Firearms), Range, Loading, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Automatic Rifle',
+          'DND5E',
+          '8 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Bonus: Magic, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Burst Fire, Reload, Slow',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '80 ft/240 ft range',
+          '2d8',
+          'piercing',
+          'Ammunition (Firearms), Range, Reload, Two-Handed, Burst Fire, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Hunting Rifle',
+          'DND5E',
+          '8 lb',
+          null,
+          '
+                You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Bonus: Magic, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Slow',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '80 ft/240 ft range',
+          '2d10',
+          'piercing',
+          'Ammunition (Firearms), Range, Reload, Two-Handed, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Revolver',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Bonus: Magic, Damage, Combat, Range, Ammunition (Firearms), Reload, Sap',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '40 ft/120 ft range',
+          '2d8',
+          'piercing',
+          'Ammunition (Firearms), Range, Reload, Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Semiautomatic Pistol',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage, Combat, Range, Ammunition (Firearms), Reload, Vex',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '50 ft/150 ft range',
+          '2d6',
+          'piercing',
+          'Ammunition (Firearms), Range, Reload, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Shotgun',
+          'DND5E',
+          '7 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
+          'Bonus: Magic, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Push',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '30 ft/90 ft range',
+          '2d8',
+          'piercing',
+          'Ammunition (Firearms), Range, Reload, Two-Handed, Push',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer ---',
+          'DND5E',
+          '',
+          null,
+          '',
+          '',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '5 ft',
+          '',
+          '',
+          '',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Antimatter Rifle',
+          'DND5E',
+          '10 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Bonus: Magic, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Sap',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '120 ft/360 ft range',
+          '6d8',
+          'necrotic',
+          'Ammunition (Firearms), Range, Reload, Two-Handed, Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Laser Pistol',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage, Combat, Range, Ammunition (Firearms), Reload, Vex',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '40 ft/120 ft range',
+          '3d6',
+          'radiant',
+          'Ammunition (Firearms), Range, Reload, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Nine Lives Stealer Laser Rifle',
+          'DND5E',
+          '7 lb',
+          null,
+          'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
+                Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
+                It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+          'Bonus: Magic, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Slow',
+          'Dungeon Master’s Guide, pg. 281',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          null,
+
+          '100 ft/300 ft range',
+          '3d8',
+          'radiant',
+          'Ammunition (Firearms), Range, Reload, Two-Handed, Slow',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
       )

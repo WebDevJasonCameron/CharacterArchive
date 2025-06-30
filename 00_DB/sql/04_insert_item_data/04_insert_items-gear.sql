@@ -948,4 +948,68 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Fishing Tackle',
+       'DND5E',
+       '4 lb',
+       '1 gp',
+       'This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Climber''s Kit',
+       'DND5E',
+       '12 lb',
+       '25 gp',
+       'A climber''s kit includes special pitons, boot tips, gloves, and a harness. You can use the climber''s kit as an action to anchor yourself; when you do, you can''t fall more than 25 feet from the point where you anchored yourself, and you can''t climb more than 25 feet away from that point without undoing the anchor.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

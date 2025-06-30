@@ -1338,19 +1338,8 @@ VALUES(
 
          null,
          5
-      ),(
-         'Feather Token (Swan Boat)', 'DND5E', null, null, 'This tiny object looks like a feather.
-You can use an action to touch the token to a body of water at least 60 feet in diameter. The token disappears, and a 50-foot-long, 20-foot- wide boat shaped like a swan takes its place. The boat is self-propelled and moves across water at a speed of 6 miles per hour. You can use an action while on the boat to command it to move or to turn up to 90 degrees. The boat can carry up to thirty-two Medium or smaller creatures. A Large creature counts as four Medium creatures, while a Huge creature counts as nine. The boat remains for 24 hours and then disappears. You can dismiss the boat as an action.', 'movement, utility, exploration, consumable', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Fishing Tackle', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),
     (
-         'Climbernulls Kit', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Nine Lives Stealer Scimitar', 'DND5E', null, null, 'You gain a +2 bonus to attack and damage rolls made with this magic weapon.
-The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property.
-Proficiency with a scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage, combat, finesse, light', NULL, NULL, 'very rare', null, false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Amulet of Proof against Detection and Location', 'DND5E', null, null, 'While wearing this amulet, you are hidden from divination magic. You cannullt be targeted by such magic or perceived through magical scrying sensors.', 'deception, jewelry', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Potion of Heroism', 'DND5E', null, null, 'For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the Effect of theblessspell (no concentration required). This blue potion bubbles and steams as if boiling.', 'bonus: temporary hit points, healing, buff, consumable', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -1411,9 +1400,6 @@ Bite.Melee Weapon Attack:+5to hit, reach 5 ft., one target.Hit:2(1d4)bludgeoning
          'Ring of Invisibility', 'DND5E', null, null, 'While wearing this ring, you can turn[invisible](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Invisible)as an action. Anything you are wearing or carrying is invisible with you. You remain[invisible](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Invisible)until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again.', 'invisible, deception, jewelry', NULL, NULL, null, null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Cloak of the Manta Ray', 'DND5E', null, null, 'While wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action.', 'set: innate speed (swimming), buff, movement, outerwear', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Feather Token (Fan)', 'DND5E', null, null, 'This tiny object looks like a feather.
-If you are on a boat or ship, you can use an action to toss the token up to 10 feet in the air. The token disappears, and a giant flapping fan takes its place. The fan floats and creates a wind strong enough to fill the sails of one ship, increasing its speed by 5 miles per hour for 8 hours. You can dismiss the fan as an action.', 'control, utility, exploration, consumable', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Holy Water (flask)', 'DND5E', null, null, 'Weight:1 lb
 As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.
@@ -2271,9 +2257,6 @@ The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last
 Weight:2 lbs
 A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Feather Token (Bird)', 'DND5E', null, null, 'This tiny object looks like a feather.
-You can use an action to toss the token 5 feet into the air. The token disappears and an enormous, multicolored bird takes its place. The bird has the statistics of aroc, but it obeys your simple commands and cannullt attack. It can carry up to 500 pounds while flying at its maximum speed (16 miles an hour for a maximum of 144 miles per day, with a one-hour rest for every 3 hours of flying), or 1,000 pounds at half that speed. The bird disappears after flying its maximum distance for a day or if it drops to 0 hit points. You can dismiss the bird as an action.', 'summoning, movement, utility, exploration, consumable', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Necklace of Fireballs', 'DND5E', null, null, 'This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-levelfireballspell (save DC 15).
 You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of thefireballby 1 for each bead beyond the first.', 'damage, combat, jewelry', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2460,9 +2443,6 @@ Each use of the hornnulls magic has a 20 percent chance of causing the horn to e
          'Stone of Good Luck (Luckstone)', 'DND5E', null, null, 'While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.', 'bonus: ability checks, bonus: saving throws, bonus: initiative, buff', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Rations (1 day)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Feather Token (Anchor)', 'DND5E', null, null, 'This tiny object looks like a feather.
-You can use an action to touch the token to a boat or ship. For the next 24 hours, the vessel cannullt be moved by any means. Touching the token to the vessel again ends the Effect. When the Effect ends, the token disappears.', 'utility, consumable', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Ring of Force Resistance', 'DND5E', null, null, 'You have resistance to force damage while wearing this sapphire ring.', 'resistance: force, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2749,9 +2729,6 @@ The sword has 1d8 + 1 charges. If you score a critical hit against a creature th
 Proficiency with a rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage, combat, finesse', NULL, NULL, 'very rare', null, false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Component Pouch', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Feather Token (Tree)', 'DND5E', null, null, 'This tiny object looks like a feather.
-You must be outdoors to use this token. You can use an action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.', 'creation, utility, consumable', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Potion of Flying', 'DND5E', null, null, 'When you drink this potion, you gain a flying speed equal to your walking speed for 1 hour and can hover. If younullre in the air when the potion wears off, you fall unless you have some other means of staying aloft. This potionnulls clear liquid floats at the top of its container and has cloudy white impurities drifting in it.', 'set: innate speed (flying), movement, utility, consumable', NULL, NULL, 'very rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
