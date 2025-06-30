@@ -1012,4 +1012,68 @@ VALUES(
 
        null,
        5
+      ),
+      (
+          'Bit and Bridle',
+          'DND5E',
+          '1 lb',
+          '2 gp',
+          'Standard equipment used to direct a mount.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+       'Pot, Iron',
+       'DND5E',
+       '10 lb',
+       '2 gp',
+       'An iron pot can hold 1 gallon of liquid.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

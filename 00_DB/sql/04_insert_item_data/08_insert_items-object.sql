@@ -1307,83 +1307,54 @@ VALUES(
            null,
            17
       ),
-    (
-         'Wind Fan',
-         'DND5E',
-         null,
-         null,
-         'While holding this fan, you can cast Gust of Wind (save DC 13) from it. Each subsequent time the fan is used before the next dawn, it has a cumulative 20 percent chance of not working; if the fan fails to work, it tears into useless, nonmagical tatters.',
-         'Control',
-         'Dungeon Master’s Guide, pg. 213',
-         'uncommon',
-         'Wondrous Item',
+      (
+          'Wind Fan',
+          'DND5E',
+          null,
+          null,
+          'While holding this fan, you can cast Gust of Wind (save DC 13) from it. Each subsequent time the fan is used before the next dawn, it has a cumulative 20 percent chance of not working; if the fan fails to work, it tears into useless, nonmagical tatters.',
+          'Control',
+          'Dungeon Master’s Guide, pg. 213',
+          'uncommon',
+          'Wondrous Item',
 
-         true,
-         false,
-         false,
-         false,
-         false,
-         false,
-         false,
-         null,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
 
-         null,
-         null,
-         null,
-         null,
-         null,
+          null,
+          null,
+          null,
+          null,
+          null,
 
-         null,
-         null,
+          null,
+          null,
 
-         null,
-         5
+          null,
+          5
       ),
-(
-         'Bit and Bridle', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Pot, Iron', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Apparatus of the Crab', 'DND5E', null, null, 'This item first appears to be a Large sealed iron barrel weighing 500 pounds. The barrel has a hidden catch, which can be found with a successful DC 20 Intelligence ([Investigation](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Investigation)) check. Releasing the catch unlocks a hatch at one end of the barrel, allowing two Medium or smaller creatures to crawl inside. Ten levers are set in a row at the far end, each in a neutral position, able to move either up or down. When certain levers are used, the apparatus transforms to resemble a giant lobster. The apparatus of the Crab is a Large object with the following statistics:
-Armor Class:20
-Hit Points:200
-Speed:30 ft., swim 30 ft. (or 0 ft. for both if the legs and tail arennullt extended)
-Damage Immunities:poison, psychic
-To be used as a vehicle, the apparatus requires one pilot. While the apparatusnulls hatch is closed, the compartment is airtight and watertight. The compartment holds enough air for 10 hours of breathing, divided by the number of breathing creatures inside.
-The apparatus floats on water. It can also go underwater to a depth of 900 feet. Below that, the vehicle takes 2d6 bludgeoning damage per minute from pressure.
-A creature in the compartment can use an action to move as many as two of the apparatusnulls levers up or down. After each use, a lever goes back to its neutral position. Each lever, from left to right, functions as shown in the Apparatus of the Crab Levers table.
-### Apparatus of the Crab Levers
-| Lever | Up                                                                                                                               | Down                                                                                                                                                                                                                               |
-| 1     | Legs and tail extend, allowing the apparatus to walk and swim.                                                                   | Legs and tail retract, reducing the apparatus’s speed to 0 and making it unable to benefit from bonuses to speed.                                                                                                                  |
-| 2     | Forward window shutter opens.                                                                                                    | Forward window shutter closes.                                                                                                                                                                                                     |
-| 3     | Side window shutters open (two per side).                                                                                        | Side window shutters close (two per side).                                                                                                                                                                                         |
-| 4     | Two claws extend from the front sides of the apparatus.                                                                          | The claws retract.                                                                                                                                                                                                                 |
-| 5     | Each extended claw makes the following melee weapon attack: +8 to hit, reach 5 ft., one target. Hit: 7 (2d6) bludgeoning damage. | Each extended claw makes the following melee weapon attack: +8 to hit, reach 5 ft., one target. Hit: The target is [grappled](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Grappled) (escape DC15) |
-| 6     | The apparatus walks or swims forward.                                                                                            | The apparatus walks or swims backward.                                                                                                                                                                                             |
-| 7     | The apparatus turns 90 degrees left.                                                                                             | The apparatus turns 90 degrees right.                                                                                                                                                                                              |
-| 8     | Eyelike fixtures emit bright light in a 30-foot radius and dim light for an additional 30 feet.                                  | The light turns off.                                                                                                                                                                                                               |
-| 9     | The apparatus sinks as much as 20 feet in liquid.                                                                                | The apparatus rises up to 20 feet in liquid.                                                                                                                                                                                       |
-| 10    | The rear hatch unseals and opens.                                                                                                | The rear hatch closes and seals.                                                                                                                                                                                                                                    |', 'utility, exploration, combat', NULL, NULL, 'legendary', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dust of Dryness', 'DND5E', null, null, 'This small packet contains 1d6 + 4 pinches of dust. You can use an action to sprinkle a pinch of it over water. The dust turns a cube of water 15 feet on a side into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pelletnulls weight is negligible.
-Someone can use an action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so ends that pelletnulls magic.
-An elemental composed mostly of water that is exposed to a pinch of the dust must make a DC 13 Constitution saving throw, taking 10d6 necrotic damage on a failed save, or half as much damage on a successful one.', 'damage: necrotic, damage, control, combat, consumable', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Weavernulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+    (
+         'Weavernulls Tools', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Gem of Seeing', 'DND5E', null, null, 'This gem has 3 charges. As an action, you can speak the gemnulls command word and expend 1 charge. For the next 10 minutes, you have[truesight](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Truesight)out to 120 feet when you peer through the gem.
-The gem regains 1d3 expended charges daily at dawn.', 'sense: truesight, detection', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+The gem regains 1d3 expended charges daily at dawn.', 'sense: truesight, detection', null, null, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Boots of the Winterlands', 'DND5E', null, null, 'These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:
 -   You have resistance to cold damage.
--   You ignore difficult terrain created by ice or snow. You can tolerate temperatures as low as −50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as −100 degrees Fahrenheit.', 'resistance: cold, buff, utility, warding, footwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+-   You ignore difficult terrain created by ice or snow. You can tolerate temperatures as low as −50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as −100 degrees Fahrenheit.', 'resistance: cold, buff, utility, warding, footwear', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          '[Camel](https://www.dndbeyond.com/monsters/16819-camel)', 'DND5E', null, null, '| 16(+3) | 8(-1) | 14(+2) | 2(-4) | 8(-1) | 5(-3) |
 SensesPassive Perception 9
 Languages--
 Proficiency Bonus+2
 ## Actions
-Bite.Melee Weapon Attack:+5to hit, reach 5 ft., one target.Hit:2(1d4)bludgeoning damage.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Bite.Melee Weapon Attack:+5to hit, reach 5 ft., one target.Hit:2(1d4)bludgeoning damage.', null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Horseshoes of Speed', 'DND5E', null, null, 'These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they increase the creaturenulls walking speed by 30 feet.', 'buff, movement, exploration', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
