@@ -1340,54 +1340,69 @@ VALUES(
           5
       ),
     (
-         'Weavernulls Tools', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Gem of Seeing', 'DND5E', null, null, 'This gem has 3 charges. As an action, you can speak the gemnulls command word and expend 1 charge. For the next 10 minutes, you have[truesight](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Truesight)out to 120 feet when you peer through the gem.
-The gem regains 1d3 expended charges daily at dawn.', 'sense: truesight, detection', null, null, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Boots of the Winterlands', 'DND5E', null, null, 'These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:
--   You have resistance to cold damage.
--   You ignore difficult terrain created by ice or snow. You can tolerate temperatures as low as −50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as −100 degrees Fahrenheit.', 'resistance: cold, buff, utility, warding, footwear', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         '[Camel](https://www.dndbeyond.com/monsters/16819-camel)', 'DND5E', null, null, '| 16(+3) | 8(-1) | 14(+2) | 2(-4) | 8(-1) | 5(-3) |
-SensesPassive Perception 9
-Languages--
-Proficiency Bonus+2
-## Actions
-Bite.Melee Weapon Attack:+5to hit, reach 5 ft., one target.Hit:2(1d4)bludgeoning damage.', null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Horseshoes of Speed', 'DND5E', null, null, 'These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they increase the creaturenulls walking speed by 30 feet.', 'buff, movement, exploration', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ladder (10 foot)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Invisibility', 'DND5E', null, null, 'While wearing this ring, you can turn[invisible](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Invisible)as an action. Anything you are wearing or carrying is invisible with you. You remain[invisible](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Invisible)until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again.', 'invisible, deception, jewelry', NULL, NULL, null, null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Cloak of the Manta Ray', 'DND5E', null, null, 'While wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action.', 'set: innate speed (swimming), buff, movement, outerwear', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Holy Water (flask)', 'DND5E', null, null, 'Weight:1 lb
-As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.
-A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Mind Shielding', 'DND5E', null, null, 'While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.
-You can use an action to cause the ring to become invisible until you use another action to make it visible, until you remove the ring, or until you die.
-If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer cannullt prevent this telepathic communication.', 'deception, warding, jewelry', NULL, NULL, 'uncommon', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Hourglass', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Oil (flask)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Paper (one sheet)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Frost Brand', 'DND5E', null, null, 'When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.
-In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
-When you draw this weapon, you can extinguish all non-magical flames within 30 feet of you. This property can be used no more than once per hour.
-Applicable Weapons:
-| Name | Type | Damage | Properties |
-| Frost Brand - Greatsword | Martial Melee | 2d6 slashing | [Heavy](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[two-handed](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Frost Brand - Longsword | Martial Melee | 1d8 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10) |
-| Frost Brand - Rapier | Martial Melee | 1d8 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Frost Brand - Scimitar | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Frost Brand - Shortsword | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |', 'damage: cold, resistance: fire, damage, combat, versatile', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+     'Horseshoes of Speed',
+     'DND5E',
+     null,
+     null,
+     'These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they increase the creature''s walking speed by 30 feet.',
+     'Buff, Movement, Exploration',
+     'Basic Rules (2014), pg. 175',
+     'rare',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
+     'Holy Water (flask)',
+     'DND5E',
+     '1 lb',
+     '25 gp',
+     'As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.
+            A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.',
+     null,
+     null,
+     null,
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
       ),
     ('Potion of Speed', 'DND5E', null, null, 'When you drink this potion, you gain the Effect of the[haste](https://www.dndbeyond.com/spells/haste)spell for 1 minute (no concentration required). The potionnulls yellow fluid is streaked with black and swirls on its own.', 'buff, movement, consumable', NULL, NULL, 'very rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(

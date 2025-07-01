@@ -1076,4 +1076,68 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Ladder (10 foot)',
+       'DND5E',
+       '25 lb',
+       '1 sp',
+       'This item is a straight, simple wooden ladder.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+          'Hourglass',
+          'DND5E',
+          '1 lb',
+          '25 gp',
+          'A standard hourglass used to measure the passage of time.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       )

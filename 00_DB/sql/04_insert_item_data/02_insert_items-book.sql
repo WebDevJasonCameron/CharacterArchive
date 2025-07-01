@@ -524,5 +524,37 @@ VALUES(
 
        null,
        17
+      ),
+      (
+       'Paper (one sheet)',
+       'DND5E',
+       null,
+       '2 sp',
+       'A sheet of standard paper is made from cloth fibers.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
 

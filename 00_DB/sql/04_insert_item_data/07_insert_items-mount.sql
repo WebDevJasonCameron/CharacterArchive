@@ -30,3 +30,39 @@ INSERT INTO items (
     item_image_url,
     item_source_id)
 VALUES(
+       'Camel',
+       'DND5E',
+       null,
+       '50 gp',
+       'Camel Stat Block
+                *Capacity:* 450lb.
+                *Speed:* 50 ft.
+                *Carrying Capacity:* 450 lb.
+                ---
+                A good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      )

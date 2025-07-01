@@ -8603,4 +8603,276 @@ VALUES(
 
           null,
           5
+      ),
+      (
+       'Frost Brand',
+       'DND5E',
+       null,
+       null,
+       'When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.
+                In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
+                When you draw this weapon, you can extinguish all non-magical flames within 30 feet of you. This property can be used no more than once per hour.
+
+                *Applicable Weapons:*
+
+                | Name | Type | Damage | Properties |
+                | --- | --- | --- | --- |
+                | Greatsword | Martial Melee | 2d6 slashing | Heavy, two-handed |
+                | Longsword | Martial Melee | 1d8 slashing | Versatile (1d10) |
+                | Rapier | Martial Melee | 1d8 piercing | Finesse |
+                | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
+                | Shortsword | Martial Melee | 1d6 piercing	 | Finesse, light |',
+       'Damage: Cold, Resistance: Fire, Damage, Combat, Versatile, Sap',
+       'Basic Rules (2014), pg. 171',
+       'very rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+          'Frost Brand Greatsword',
+          'DND5E',
+          '6 lb',
+          null,
+          'When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
+                In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.
+                When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can’t be used again for 1 hour.
+                Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+          'Damage: Cold, Resistance: Fire, Damage, Combat, Warding, Heavy, Two-Handed, Graze',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '2d6 (1d6 frost)',
+          'slashing',
+          'Heavy, Two-Handed, Graze',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Frost Brand Longsword',
+          'DND5E',
+          '3 lb',
+          null,
+          'When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
+                In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.
+                When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can’t be used again for 1 hour.
+                Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Damage: Cold, Resistance: Fire, Damage, Combat, Warding, Versatile, Sap',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+          null,
+
+          '5 ft',
+          '1d8 (1d10 two hand) (1d6 frost)',
+          'slashing',
+          'Versatile (1d10), Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Frost Brand Rapier',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
+                In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.
+                When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can’t be used again for 1 hour.
+                Proficiency with a Rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage: Cold, Resistance: Fire, Damage, Combat, Warding, Finesse, Vex',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+          null,
+
+          '5 ft',
+          '1d8 (1d6 frost)',
+          'piercing',
+          'Finesse, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Frost Brand Scimitar',
+          'DND5E',
+          '3 lb',
+          null,
+          'When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
+                In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.
+                When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can’t be used again for 1 hour.
+                Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Damage: Cold, Resistance: Fire, Damage, Combat, Warding, Finesse, Light, Nick',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+          null,
+
+          '5 ft',
+          '1d6 (1d6 frost)',
+          'slashing',
+          'Finesse, Light, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Frost Brand Shortsword',
+          'DND5E',
+          '2 lb',
+          null,
+          'When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
+                In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.
+                When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can’t be used again for 1 hour.
+                Proficiency with a Shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage: Cold, Resistance: Fire, Damage, Combat, Warding, Finesse, Light, Vex',
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+          null,
+
+          '5 ft',
+          '1d6 (1d6 frost)',
+          'piercing',
+          'Finesse, Light, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Frost Brand Glaive',
+          'DND5E',
+          '6 lb',
+          null,
+          'When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
+                In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.
+                When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can’t be used again for 1 hour.
+                Proficiency with a Glaive allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+          'Damage: Cold, Resistance: Fire, Heavy, Reach, Two-Handed, Graze',
+          'Dungeon Master’s Guide, pg. 263',
+          'very rare',
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+          null,
+
+          '10 ft',
+          '1d10 (1d6 frost)',
+          'slashing',
+          'Heavy, Reach, Two-Handed, Graze',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       )

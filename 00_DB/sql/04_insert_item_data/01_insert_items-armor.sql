@@ -1323,4 +1323,72 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Boots of the Winterlands',
+        'DND5E',
+        null,
+        null,
+        'These furred boots are snug and feel warm. While wearing them, you gain the following benefits.
+            *Cold Resistance.* You have Resistance to Cold damage and can tolerate temperatures of 0 degrees Fahrenheit or lower without any additional protection.
+            *Winter Strider.* You ignore Difficult Terrain created by ice or snow.',
+        'Notes: Resistance: Cold, Buff, Utility, Warding, Footwear',
+        'Dungeon Master’s Guide, pg. 156',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Cloak of the Manta Ray',
+        'DND5E',
+        null,
+        null,
+        'While wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action.',
+        'Set: Innate Speed (Swimming), Buff, Movement, Outerwear',
+        'Basic Rules (2014), pg. 159',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )
+
