@@ -65,4 +65,39 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Elephant',
+       'DND5E',
+       null,
+       '200 gp',
+       'Elephant Stat Block
+            *Speed:* 40 ft.
+            *Carrying Capacity:* 1,320 lb.
+            A good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

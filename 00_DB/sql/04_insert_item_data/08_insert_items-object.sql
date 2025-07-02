@@ -1403,74 +1403,55 @@ VALUES(
 
      null,
      5
-      ),(
-         'Bag of Beans', 'DND5E', null, null, 'Inside this heavy cloth bag are 3d4 dry beans. The bag weighs 1/2 pound plus 1/4 pound for each bean it contains.
-If you dump the bagnulls contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that arennullt being worn or carried.
-If you remove a bean from the bag, plant it in dirt or sand, and then water it, the bean produces an Effect 1 minute later from the ground where it was planted. The GM can choose an Effect from the following table, determine it randomly, or create an Effect.
-| d100 | Effect |
-| 01 | 5d4 toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take 5d6 poison damage and become[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned)for 1 hour. On an even roll, the eater gains 5d6 temporary hit points for 1 hour. |
-| 02-10 | A geyser erupts and spouts water, beer, berry juice, tea, vinegar, wine, or oil (GMnulls choice) 30 feet into the air for 1d12 rounds. |
-| 11-20 | Atreantsprouts. Therenulls a 50 percent chance that the treant is chaotic evil and attacks. |
-| 21-30 | An animate, immobile stone statue in your likeness rises. It makes verbal threats against you. If you leave it and others come near, it describes you as the most heinous of villains and directs the newcomers to find and attack you. If you are on the same plane of existence as the statue, it knows where you are. The statue becomes inanimate after 24 hours. |
-| 31-40 | A campfire with blue flames springs forth and burns for 24 hours (or until it is extinguished). |
-| 41-50 | 1d6 + 6shriekerssprout |
-| 51-60 | 1d4 + 8 bright pink toads crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the GMnulls choice. The monster remains for 1 minute, then disappears in a puff of bright pink smoke. |
-| 61-70 | A hungrybuletteburrows up and attacks. |
-| 71-80 | A fruit tree grows. It has 1d10 + 20 fruit, 1d8 of which act as randomly determined magic potions, while one acts as an ingested poison of the GMnulls choice. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days. |
-| 81-90 | A nest of 1d4 + 3 eggs springs up. Any creature that eats an egg must make a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores. On a failed save, the creature takes 10d6 force damage from an internal magical explosion. |
-| 91-99 | A pyramid with a 60-foot‐square base bursts upward. Inside is a sarcophagus containing amummy lord. The pyramid is treated as the mummy lordnulls lair, and its sarcophagus contains treasure of the GMnulls choice. |
-| 00 | A giant beanstalk sprouts, growing to a height of the GMnulls choice. The top leads where the GM chooses, such as to a great view, a cloud giantnulls castle, or a different plane of existence. |', 'damage, control, utility, combat', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of the Ram', 'DND5E', null, null, 'This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to make a ranged spell attack against one creature you can see within 60 feet of you. The ring produces a spectral ramnulls head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 force damage and is pushed 5 feet away from you.
-Alternatively, you can expend 1 to 3 of the ringnulls charges as an action to try to break an object you can see within 60 feet of you that isnnullt being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend.', 'damage: force, damage, control, combat, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ink Pen', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Rope, Hempen (50 feet)', 'DND5E', null, null, 'Type:Adventuring Gear
-Weight:10 lbs
-Rope,has 2 hit points and can be burst with a DC 17 Strength check.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Wand of Enemy Detection', 'DND5E', null, null, 'This wand has 7 charges. While holding it, you can use an action and expend 1 charge to speak its command word. For the next minute, you know the direction of the nearest creature hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of hostile creatures that are ethereal, invisible, disguised, or hidden, as well as those in plain sight. The Effect ends if you stop holding the wand.
-The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.', 'detection', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Circlet of Blasting', 'DND5E', null, null, 'While wearing this circlet, you can use an action to cast the[scorching ray](https://www.dndbeyond.com/spells/scorching-ray)spell with it. When you make the spellnulls attacks, you do so with an attack bonus of +5. The circlet cannullt be used this way again until the next dawn.', 'damage, combat, headwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Rowboat', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dust of Disappearance', 'DND5E', null, null, 'Found in a small packet, this powder resembles very fine sand. There is enough of it for one use. When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become[invisible](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Invisible)for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes Effect. If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature.
-Item Tags:', 'invisible, utility, deception, consumable', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Crossbow Bolts', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Staff of Thunder and Lightning', 'DND5E', null, null, 'This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. It also has the following additional properties. When one of these properties is used, it cannullt be used again until the next dawn.
-Lightning.When you hit with a melee attack using the staff, you can cause the target to take an extra 2d6 lightning damage.
-Thunder.When you hit with a melee attack using the staff, you can cause the staff to emit a crack of thunder, audible out to 300 feet. The target you hit must succeed on a DC 17 Constitution saving throw or become[stunned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Stunned)until the end of your next turn.
-Lightning Strike.You can use an action to cause a bolt of lightning to leap from the staffnulls tip in a line that is 5 feet wide and 120 feet long. Each creature in that line must make a DC 17 Dexterity saving throw, taking 9d6 lightning damage on a failed save, or half as much damage on a successful one.
-Thunderclap.You can use an action to cause the staff to issue a deafening thunderclap, audible out to 600 feet. Each creature within 60 feet of you (not including you) must make a DC 17 Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and becomes[deafened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Deafened)for 1 minute. On a successful save, a creature takes half damage and isnnullt[deafened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Deafened).
-Thunder and Lightning.You can use an action to use the Lightning Strike and Thunderclap properties at the same time. Doing so doesnnullt expend the daily use of those properties, only the use of this one.', 'bonus: magic, deafened, stunned, damage, control, debuff, combat', NULL, NULL, 'very rare', null, false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Rod of Lordly Might', 'DND5E', null, null, 'This rod has a flanged head, and it functions as a magic mace that grants a +3 bonus to attack and damage rolls made with it. The rod has properties associated with six different buttons that are set in a row along the haft. It has three other properties as well, detailed below.
-Six Buttons.You can press one of the rodnulls six buttons as a bonus action. A buttonnulls Effect lasts until you push a different button or until you push the same button again, which causes the rod to revert to its normal form.
-If you pressbutton 1, the rod becomes aflame tongue, as a fiery blade sprouts from the end opposite the rodnulls flanged head (you choose the type of sword).
-If you pressbutton 2, the rodnulls flanged head folds down and two crescent-shaped blades spring out, transforming the rod into a magic battleaxe that grants a +3 bonus to attack and damage rolls made with it.
-If you pressbutton 3, the rodnulls flanged head folds down, a spear point springs from the rodnulls tip, and the rodnulls handle lengthens into a 6-foot haft, transforming the rod into a magic spear that grants a +3 bonus to attack and damage rolls made with it.
-If you pressbutton 4, the rod transforms into a climbing pole up to 50 feet long, as you specify. In surfaces as hard as granite, a spike at the bottom and three hooks at the top anchor the pole. Horizontal bars 3 inches long fold out from the sides, 1 foot apart, forming a ladder. The pole can bear up to 4,000 pounds. More weight or lack of solid anchoring causes the rod to revert to its normal form.
-If you pressbutton 5, the rod transforms into a handheld battering ram and grants its user a +10 bonus to Strength checks made to break through doors, barricades, and other barriers.
-If you pressbutton 6, the rod assumes or remains in its normal form and indicates magnetic north. (Nothing happens if this function of the rod is used in a location that has no magnetic north.) The rod also gives you knowledge of your approximate depth beneath the ground or your height above it.
-Drain Life.When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failure, the target takes an extra 4d6 necrotic damage, and you regain a number of hit points equal to half that necrotic damage. This property cannullt be used again until the next dawn.
-Paralyze.When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Strength saving throw. On a failure, the target is[paralyzed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Paralyzed)for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the Effect on a success. This property cannullt be used again until the next dawn.
-Terrify.While holding the rod, you can use an action to force each creature you can see within 30 feet of you to make a DC 17 Wisdom saving throw. On a failure, a target is[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened)of you for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the Effect on itself on a success. This property cannullt be used again until the next dawn.', 'damage, control, utility, exploration, combat', NULL, NULL, 'legendary', null, false, true, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Belt of Stone Giant Strength', 'DND5E', null, null, 'While wearing this belt, your Strength score changes to 23. The item has no Effect on you if your Strength without the belt is equal to or greater than 23.', 'set: strength score, buff, belt', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         '[Elephant](https://www.dndbeyond.com/monsters/16855-elephant)', 'DND5E', null, null, '| 22(+6) | 9(-1) | 17(+3) | 3(-4) | 11(+0) | 6(-2) |
-SensesPassive Perception 10
-Languages--
-Proficiency Bonus+2
-Trampling Charge.If the elephant moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). If the target is[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone), the elephant can make one stomp attack against it as a bonus action.
-## Actions
-Gore.Melee Weapon Attack:+8to hit, reach 5 ft., one target.Hit:19(3d8 + 6)piercing damage.
-Stomp.Melee Weapon Attack:+8to hit, reach 5 ft., one[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone)creature.Hit:22(3d10 + 6)bludgeoning damage.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+      ),
+      (
+          'Bag of Beans',
+          'DND5E',
+          null,
+          null,
+          'Inside this heavy cloth bag are 3d4 dry beans. The bag weighs 1/2 pound plus 1/4 pound for each bean it contains.
+                 If you dump the bag''s contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren''t being worn or carried.
+                 If you remove a bean from the bag, plant it in dirt or sand, and then water it, the bean produces an effect 1 minute later from the ground where it was planted. The GM can choose an effect from the following table, determine it randomly, or create an effect.
+
+                 | *d100* | *Effect* |
+                 | --- | --- |
+                 | 01 | 5d4 toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take 5d6 poison damage and become poisoned for 1 hour. On an even roll, the eater gains 5d6 temporary hit points for 1 hour. |
+                 | 02-10 | A geyser erupts and spouts water, beer, berry juice, tea, vinegar, wine, or oil (GM''s choice) 30 feet into the air for 1d12 rounds. |
+                 | 11-20 | A treant sprouts. There''s a 50 percent chance that the treant is chaotic evil and attacks. |
+                 | 21-30 | An animate, immobile stone statue in your likeness rises. It makes verbal threats against you. If you leave it and others come near, it describes you as the most heinous of villains and directs the newcomers to find and attack you. If you are on the same plane of existence as the statue, it knows where you are. The statue becomes inanimate after 24 hours. |
+                 | 31-40 | A campfire with blue flames springs forth and burns for 24 hours (or until it is extinguished). |
+                 | 41-50 | 1d6 + 6 shriekers sprout |
+                 | 51-60 | 1d4 + 8 bright pink toads crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the GM''s choice. The monster remains for 1 minute, then disappears in a puff of bright pink smoke. |
+                 | 61-70 | A hungry bulette burrows up and attacks. |
+                 | 71-80 | A fruit tree grows. It has 1d10 + 20 fruit, 1d8 of which act as randomly determined magic potions, while one acts as an ingested poison of the GM''s choice. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days. |
+                 | 81-90 | A nest of 1d4 + 3 eggs springs up. Any creature that eats an egg must make a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores. On a failed save, the creature takes 10d6 force damage from an internal magical explosion. |
+                 | 91-99 | A pyramid with a 60-foot‐square base bursts upward. Inside is a sarcophagus containing a mummy lord. The pyramid is treated as the mummy lord''s lair, and its sarcophagus contains treasure of the GM''s choice. |
+                 | 00 | A giant beanstalk sprouts, growing to a height of the GM''s choice. The top leads where the GM chooses, such as to a great view, a cloud giant''s castle, or a different plane of existence. |',
+          'Damage, Control, Utility, Combat',
+          'Basic Rules (2014), pg. 152',
+          'rare',
+          'Wondrous Item',
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       ),(
          'Potion of Healing', 'DND5E', null, null, 'You regain hit points when you drink this potion. The number of hit points depends on the potion’s rarity, as shown in the Potions of Healing table. Whatever its potency, the potion’s red liquid glimmers whenagitated.
 Potions of Healing
@@ -2464,8 +2445,6 @@ You have a 50 percent chance to instantly travel to a random plane of existence,
          'Sack', 'DND5E', null, null, 'Type:Adventuring GearCost:
 Weight:1/2 lb
 A sack can hold1 cubic foot/ 30 pounds of gear.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Belt of Frost Giant Strength', 'DND5E', null, null, 'While wearing this belt, your Strength score changes to 23. The item has no Effect on you if your Strength without the belt is equal to or greater than 23.', 'set: strength score, buff, belt', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Ring of Water Elemental Command', 'DND5E', null, null, 'This ring is linked to the Elemental Plane of Water.
 While wearing this ring, you have advantage on attack rolls against water elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Water.

@@ -1172,4 +1172,68 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Ink Pen',
+       'DND5E',
+       null,
+       '2 cp',
+       'An ink pen is a wooden stick with a special tip on the end. The tip draws ink in when dipped in a vial and leaves an ink trail when drawn across a surface.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Rope, Hempen (50 feet)',
+       'DND5E',
+       '10 lb',
+       '1 gp',
+       'Rope, has 2 hit points and can be burst with a DC 17 Strength check.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

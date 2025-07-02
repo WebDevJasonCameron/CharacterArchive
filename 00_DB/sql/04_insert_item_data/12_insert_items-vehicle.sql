@@ -614,4 +614,37 @@ VALUES
 
          null,
          5
+        ),
+        (
+         'Rowboat',
+         'DND5E',
+         '100 lb',
+         '50 gp',
+         'If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.
+            Rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can’t be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land.',
+         null,
+         null,
+         null,
+         null,
+
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         null,
+
+         null,
+         null,
+         null,
+         null,
+         null,
+
+         null,
+         null,
+
+         null,
+         5
         )
