@@ -687,5 +687,102 @@ VALUES
 
      null,
      5
+    ),
+    (
+     'Potion of Speed',
+     'DND5E',
+     null,
+     null,
+     'When you drink this potion, you gain the effect of the haste spell for 1 minute (no concentration required). The potion''s yellow fluid is streaked with black and swirls on its own.',
+     'Buff, Movement, Consumable',
+     'Basic Rules (2014), pg. 188',
+     'very rare',
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+    ),
+    (
+     'Antitoxin',
+     'DND5E',
+     null,
+     '50 gp',
+     'As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour.',
+     null,
+     null,
+     null,
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+    ),
+    (
+     'Potion of Fire Resistance',
+     'DND5E',
+     null,
+     null,
+     'When you drink this potion, you gain resistance to fire damage for 1 hour.',
+     'Resistance: Fire, Warding, Consumable',
+     null,
+     null,
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     17
     )
+
 

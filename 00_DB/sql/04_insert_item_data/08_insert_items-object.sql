@@ -1403,61 +1403,6 @@ VALUES(
 
      null,
      5
-      ),
-    ('Potion of Speed', 'DND5E', null, null, 'When you drink this potion, you gain the Effect of the[haste](https://www.dndbeyond.com/spells/haste)spell for 1 minute (no concentration required). The potionnulls yellow fluid is streaked with black and swirls on its own.', 'buff, movement, consumable', NULL, NULL, 'very rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Antitoxin', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Belt of Giant Strength', 'DND5E', null, null, 'Common:: Wondrous Item
-ArmorType:: varies
-Attunement:: required
-While wearing this belt, your Strength score changes to a score granted by the belt. The item has no Effect on you if your Strength without the belt is equal to or greater than the belt’s score.
-Six varieties of this belt exist, corresponding with and having rarity according to the six kinds of true giants. The belt of stone giant strength and the belt of frost giant strength look different, but they have the same Effect.
-| Type                                                                                                    | Strength | Rarity    |
-| [Belt of Hill Giant Strength](https://www.dndbeyond.com/magic-items/4585-belt-of-hill-giant-strength)   | 21       | Rare      |
-| [Belt of Frost Giant Strength](https://www.dndbeyond.com/magic-items/4827-belt-of-frost-giant-strength) | 23       | Very Rare |
-| [Belt of Stone Giant Strength](https://www.dndbeyond.com/magic-items/4826-belt-of-stone-giant-strength) | 23       | Very Rare |
-| [Belt of Fire Giant Strength](https://www.dndbeyond.com/magic-items/4828-belt-of-fire-giant-strength)   | 25       | Very Rare |
-| [Belt of Cloud Giant Strength](https://www.dndbeyond.com/magic-items/4829-belt-of-cloud-giant-strength) | 27       | Legendary |
-| [Belt of Storm Giant Strength](https://www.dndbeyond.com/magic-items/4830-belt-of-storm-giant-strength) | 29       | Legendary |
-Notes
-Set:: Strength Score, Buff, Belt
-ItemTags:: BUFFBELT', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Fire Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to fire damage for 1 hour.', 'resistance: fire, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Robe of Useful Items', 'DND5E', null, null, 'This robe has cloth patches of various shapes and colors covering it. While wearing the robe, you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.
-The robe has two of each of the following patches:
--   Dagger
--   Bullseye lantern(filled and lit)
--   Steel mirror
--   10-foot pole
--   Hempen rope (50 feet, coiled)
--   Sack
-In addition, the robe has 4d4 other patches. The GM chooses the patches or determines them randomly.
-| d100  | Patch                                                                                                                                                                                             |
-| 01-08 | Bag of 100 gp                                                                                                                                                                                     |
-| 09-15 | Silver coffer (1 foot long, 6 inches wide and deep) worth 500 gp                                                                                                                                  |
-| 16-22 | Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself |
-| 23-30 | 10 gems worth 100 gp each                                                                                                                                                                         |
-| 31-44 | Wooden ladder(24 feet long)                                                                                                                                                                  |
-| 45-51 | ARiding horsewithsaddle bags                                                                                                                                                           |
-| 52-59 | Pit (a cube 10 feet on a side), which you can place on the ground within 10 feet of you                                                                                                           |
-| 60-68 | Potion of healing(4)                                                                                                                                                                         |
-| 69-75 | Rowboat (12 feet long)                                                                                                                                                                            |
-| 76-83 | Spell scrollcontaining one spell of 1st to 3rd level                                                                                                                                         |
-| 84-90 | Mastiff(2)                                                                                                                                                                                   |
-| 91-96 | Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach                                                                                             |
-| 97-00 | Portable ram                                                                                                                                                                                  |', 'utility, outerwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Sailing Ship', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),
-    (
-         'Poison, Basic (vial)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Saddlebags', 'DND5E', null, null, 'Type:Adventuring Gear
-Weight:8 lbs
-Standard saddlebags that can be attached to a mountnulls saddle.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Bag of Beans', 'DND5E', null, null, 'Inside this heavy cloth bag are 3d4 dry beans. The bag weighs 1/2 pound plus 1/4 pound for each bean it contains.
 If you dump the bagnulls contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that arennullt being worn or carried.
@@ -1795,11 +1740,6 @@ If you arennullt a dwarf, you gain the following additional benefits while weari
 -   You have[darkvision](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Darkvision)out to a range of 60 feet.
 -   You can speak, read, and write Dwarvish.', 'bonus: constitution score, advantage: persuasion, advantage: saving throws, resistance: poison, set base: darkvision, language: dwarvish, buff, social, utility, belt', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Frost Brand Longsword', 'DND5E', null, null, 'When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.
-In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
-When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour.
-Proficiency with a longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: cold, resistance: fire, damage, combat, warding, versatile', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Drum', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Ring of Warmth', 'DND5E', null, null, 'While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as −50 degrees Fahrenheit.', 'resistance: cold, exploration, warding, jewelry', NULL, NULL, 'uncommon', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -1925,11 +1865,6 @@ You can send the broom to travel alone to a destination within 1 mile of you if 
          'Eyes of Charming', 'DND5E', null, null, 'These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast thecharm personspell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn.', 'control, social, eyewear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Warship', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Frost Brand Rapier', 'DND5E', null, null, 'When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.
-In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
-When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour.
-Proficiency with a rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: cold, resistance: fire, damage, combat, warding, finesse', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Bucket', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2106,11 +2041,6 @@ The talisman has 6 charges. If you are wearing or holding it, you can use an act
       ),(
          'Stone of Controlling Earth Elementals', 'DND5E', null, null, 'If the stone is touching the ground, you can use an action to speak its command word and summon anearth elemental, as if you had cast theconjure elementalspell. The stone cannullt be used this way again until the next dawn. The stone weighs 5 pounds.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Frost Brand Greatsword', 'DND5E', null, null, 'When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.
-In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
-When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour.
-Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: cold, resistance: fire, damage, combat, warding, heavy, two-handed', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Ring of Spell Turning', 'DND5E', null, null, 'While wearing this ring, you have advantage on saving throws against any spell that targets only you (not in an area of Effect). In addition, if you roll a 20 for the save and the spell is 7th level or lower, the spell has no Effect on you and instead targets the caster, using the slot level, spell save DC, attack bonus, and spellcasting ability of the caster.', 'advantage: saving throws, warding, jewelry', NULL, NULL, 'legendary', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Lute', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -2258,11 +2188,6 @@ Whenever a hostile creature damages you while the axe is in your possession, you
 Proficiency with a greataxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, bonus: hit points per level, combat, cursed, heavy, two-handed', NULL, NULL, 'rare', 'yes', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Piton', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Frost Brand Shortsword', 'DND5E', null, null, 'When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.
-In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
-When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour.
-Proficiency with a shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: cold, resistance: fire, damage, combat, warding, finesse, light', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Ring of Three Wishes', 'DND5E', null, null, 'While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the[wish](https://www.dndbeyond.com/spells/wish)spell from it. The ring becomes nonmagical when you use the last charge.', 'buff, utility, consumable, jewelry', NULL, NULL, 'legendary', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
