@@ -1453,25 +1453,6 @@ VALUES(
           null,
           5
       ),(
-         'Potion of Healing', 'DND5E', null, null, 'You regain hit points when you drink this potion. The number of hit points depends on the potion’s rarity, as shown in the Potions of Healing table. Whatever its potency, the potion’s red liquid glimmers whenagitated.
-Potions of Healing
-| Potion of … | Rarity | HP Regained |
-| Healing | Common | 2d4 + 2 |
-| Greater healing | Uncommon | 4d4 + 4 |
-| Superior healing | Rare | 8d4 + 8 |
-| Supreme healing | Very rare | 10d4 + 20 |', 'bonus: hit points, healing, consumable', NULL, NULL, 'common', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Barrel', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Forgery Kit', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),
-    (
-         'Potion of Healing', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Spell Storing', 'DND5E', null, null, 'This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains 1d6 − 1 levels of stored spells chosen by the GM.
-Any creature can cast a spell of 1st through 5th level into the ring by touching the ring as the spell is cast. The spell has no Effect, other than to be stored in the ring. If the ring cannullt hold the spell, the spell is expended without Effect. The level of the slot used to cast the spell determines how much space it uses.
-While wearing this ring, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the ring is no longer stored in it, freeing up space.', 'buff, utility, jewelry', NULL, NULL, null, null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Amulet of Health', 'DND5E', null, null, 'Your Constitution score is 19 while you wear this amulet. It has no Effect on you if your Constitution is already 19 or higher without it.', 'set: constitution score, buff, jewelry', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Periapt of Wound Closure', 'DND5E', null, null, 'While you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you roll a Hit Die to regain hit points, double the number of hit points it restores.', 'healing, warding, jewelry', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -1596,10 +1577,6 @@ The cloud persists as long as the bottle is open. Closing the bottle requires yo
          'Bead of Force', 'DND5E', null, null, 'This small black sphere measures 3/4 of an inch in diameter and weighs an ounce. Typically, 1d4 + 4beads of forceare found together.
 You can use an action to throw the bead up to 60 feet. The bead explodes on impact and is destroyed. Each creature within a 10-foot radius of where the bead landed must succeed on a DC 15 Dexterity saving throw or take 5d4 force damage. A sphere of transparent force then encloses the area for 1 minute. Any creature that failed the save and is completely within the area is trapped inside this sphere. Creatures that succeeded on the save, or are partially within the area, are pushed away from the center of the sphere until they are no longer inside it. Only breathable air can pass through the spherenulls wall. No attack or other Effect can.
 An enclosed creature can use its action to push against the spherenulls wall, moving the sphere up to half the creaturenulls walking speed. The sphere can be picked up, and its magic causes it to weigh only 1 pound, regardless of the weight of creatures inside.', 'damage: force, damage, control, combat, consumable', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Healing (Supreme)', 'DND5E', null, null, 'You regain 10d4 + 20 hit points when you drink this potion. The potionnulls red liquid glimmers when agitated.
-Craft Time 1000 days
-Level Required 11', 'bonus: hit points, healing, consumable', NULL, NULL, 'very rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Ring of Air Elemental Command', 'DND5E', null, null, 'This ring is linked to the Elemental Plane of Air.
 While wearing this ring, you have advantage on attack rolls against air elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Air.
@@ -2227,10 +2204,6 @@ AnOrb of Dragonkindappears fragile but is impervious to most damage, including t
       ),(
          'Book', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Potion of Healing (Greater)', 'DND5E', null, null, 'You regain 4d4 + 4 hit points when you drink this potion. The potionnulls red liquid glimmers when agitated.
-Craft Time 10 days
-Level Required 3', 'bonus: hit points, healing, consumable', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Sun Blade', 'DND5E', null, null, 'This item appears to be a longsword hilt. While grasping the hilt, you can use a bonus action to cause a blade of pure radiance to spring into existence, or make the blade disappear. While the blade exists, this magic longsword has the[finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)property. If you are proficient with shortswords or longswords, you are proficient with thesun blade.
 You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra 1d8 radiant damage.
 The swordnulls luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.
@@ -2455,10 +2428,6 @@ If you help slay awater elementalwhile attuned to the ring, you gain access to t
 -   You can cast the following spells from the ring, expending the necessary number of charges:create or destroy water(1 charge),control water(3 charges),ice storm(2 charges), orwall of ice(3 charges).
 Item Tags:CONTROLBUFFMOVEMENTJEWELRY', 'set: innate speed (swimming), walk on liquid surfaces, breathe underwater, control, buff, movement, jewelry', NULL, NULL, 'legendary', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Potion of Healing', 'DND5E', null, null, 'A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action.
-Craft Time 2 days
-Level Required 3', null, NULL, NULL, 'common', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Staff of Striking', 'DND5E', null, null, 'This staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.
 The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra 1d6 force damage. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff.', 'bonus: magic, damage: force, damage, combat', NULL, NULL, 'vary rare', null, false, true, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2499,10 +2468,6 @@ If the snake is reduced to 0 hit points, it dies and reverts to its staff form. 
          'Pouch', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Gloves of Missile Snaring', 'DND5E', null, null, 'These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while younullre wearing them, you can use your reaction to reduce the damage by 1d10 + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.', 'warding, handwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Healing (Superior)', 'DND5E', null, null, 'You regain 8d4 + 8 hit points when you drink this potion. The potionnulls red liquid glimmers when agitated.
-Craft Time 100 days
-Level Required 6', 'bonus: hit points, healing, consumable', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Wand of the War Mage, +2', 'DND5E', null, null, 'While holding this wand, you gain a +2 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack.', 'bonus: spell attacks, spellcaster, buff, combat', NULL, NULL, 'rare', 'yes', false, false, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(

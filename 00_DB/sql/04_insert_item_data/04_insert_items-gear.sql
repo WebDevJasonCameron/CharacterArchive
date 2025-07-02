@@ -1236,4 +1236,36 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Barrel',
+       'DND5E',
+       '70 lb',
+       '2 gp',
+       'A barrel can hold 40 gallons of liquid, or 4 cubic feet of solid material.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

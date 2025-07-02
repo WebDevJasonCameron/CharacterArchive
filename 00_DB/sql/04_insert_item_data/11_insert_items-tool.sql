@@ -228,4 +228,36 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Forgery Kit',
+        'DND5E',
+        '5 lb',
+        '15 gp',
+        'This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )

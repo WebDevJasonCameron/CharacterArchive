@@ -783,6 +783,176 @@ VALUES
 
      null,
      17
-    )
+    ),
+    (
+     'Potions of Healing',
+     'DND5E',
+     null,
+     null,
+     'You regain Hit Points when you drink this potion. The number of Hit Points depends on the potion’s rarity, as shown in the table below.
+            Whatever its potency, the potion’s red liquid glimmers when agitated.
 
+            | Potion | HP Regained | Rarity |
+            | --- | --- | --- |
+            | Potion of Healing | 2d4 + 2 | Common |
+            | Potion of Healing (Greater) | 4d4 + 4 | Uncommon |
+            | Potion of Healing (Superior) | 8d4 + 8 | Rare |
+            | Potion of Healing (Supreme) | 10d4 + 20 | Very Rare |',
+     'Bonus: Hit Points, Healing, Consumable',
+     'Dungeon Master’s Guide, pg. 187',
+     null,
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     17
+    ),
+    (
+        'Potion of Healing',
+        'DND5E',
+        '0.5 lb',
+        null,
+        'This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.',
+        'Bonus: Hit Points',
+        'Dungeon Master’s Guide, pg. 228',
+        'common',
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+    ),
+    (
+        'Potion of Healing (Greater)',
+        'DND5E',
+        '0.5 lb',
+        null,
+        'You regain 4d4 + 4 Hit Points when you drink this potion.
+            Whatever its potency, the potion’s red liquid glimmers when agitated.',
+        'Bonus: Hit Points, Healing, Consumable',
+        'uncommon',
+        null,
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+    ),
+    (
+        'Potion of Healing (Superior)',
+        'DND5E',
+        '0.5 lb',
+        null,
+        'You regain 8d4 + 8 Hit Points when you drink this potion.
+                Whatever its potency, the potion’s red liquid glimmers when agitated.',
+        'Bonus: Hit Points, Healing, Consumable',
+        null,
+        'rare',
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+    ),
+    (
+        'Potion of Healing (Supreme)',
+        'DND5E',
+        '0.5 lb',
+        null,
+        'You regain 10d4 + 20 Hit Points when you drink this potion.
+            Whatever its potency, the potion’s red liquid glimmers when agitated.',
+        'Bonus: Hit Points, Healing, Consumable',
+        null,
+        'very rare',
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+    )
 
