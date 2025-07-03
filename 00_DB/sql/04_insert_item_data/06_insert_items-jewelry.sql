@@ -1103,6 +1103,102 @@ VALUES(
 
        null,
        17
+      ),
+      (
+       'Amulet of Health',
+       'DND5E',
+       null,
+       null,
+       'Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher without it.',
+       'Set: Constitution Score, Buff, Jewelry',
+       'Dungeon Master’s Guide, pg. 150',
+       'rare',
+       'Wondrous Item',
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Periapt of Wound Closure',
+       'DND5E',
+       null,
+       null,
+       'While you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you roll a Hit Die to regain hit points, double the number of hit points it restores.',
+       'Healing, Warding, Jewelry',
+       'Basic Rules (2014), pg. 184',
+       'uncommon',
+       'Wondrous Item',
+
+       true,
+       false,
+       true,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Periapt of Health',
+       'DND5E',
+       null,
+       null,
+       'You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed while you wear the pendant.',
+       'Immunity: Disease, Immunity: Disease, Warding, Jewelry',
+       'Basic Rules (2014), pg. 184',
+       'uncommon',
+       'Wondrous Item',
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+       
+       null,
+       5
       )
 
 

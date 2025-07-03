@@ -1453,15 +1453,6 @@ VALUES(
           null,
           5
       ),(
-         'Amulet of Health', 'DND5E', null, null, 'Your Constitution score is 19 while you wear this amulet. It has no Effect on you if your Constitution is already 19 or higher without it.', 'set: constitution score, buff, jewelry', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Periapt of Wound Closure', 'DND5E', null, null, 'While you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you roll a Hit Die to regain hit points, double the number of hit points it restores.', 'healing, warding, jewelry', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Periapt of Health', 'DND5E', null, null, 'You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed while you wear the pendant.', 'immunity: disease, immunity: disease, warding, jewelry', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Stone Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
-This potionnulls transparent liquid has floating in it a sliver of fingernail from a stone giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Potion of Hill Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
 This potionnulls transparent liquid has floating in it a sliver of fingernail from a hill giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
