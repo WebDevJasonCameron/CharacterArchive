@@ -1452,90 +1452,45 @@ VALUES(
 
           null,
           5
-      ),(
-         'Potion of Hill Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
-This potionnulls transparent liquid has floating in it a sliver of fingernail from a hill giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Bag of Tricks', 'DND5E', null, null, 'This ordinary bag, made from gray, rust, or tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. The bag weighs 1/2 pound.
-You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table that corresponds to the bagnulls color. See the[Monsters Listing](https://www.dndbeyond.com/monsters)for the creaturenulls statistics. The creature vanishes at the next dawn or when it is reduced to 0 hit points.
-The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.
-Once three fuzzy objects have been pulled from the bag, the bag cannullt be used again until the next dawn.
-Uses:
-[  ]   [  ]   [  ]
-#### [Gray Bag of Tricks](https://www.dndbeyond.com/magic-items/2965260-gray-bag-of-tricks)
-| d8 | Creature     |
-| 1      | Weasel       |
-| 2      | Giant rat    |
-| 3      | Badger       |
-| 4      | Boar         |
-| 5      | Panther      |
-| 6      | Giant badger |
-| 7      | Dire wolf    |
-| 8      | Giant elk    |
-#### [Rust Bag of Tricks](https://www.dndbeyond.com/magic-items/2965341-rust-bag-of-tricks)
-| d8  | Creature       |
-| --- | -------------- |
-| 1   | Rat        |
-| 2   | Owl        |
-| 3   | Mastiff    |
-| 4   | Goat       |
-| 5   | Giant goat |
-| 6   | Giant boar |
-| 7   | Lion       |
-| 8   | Brown bear |
-#### [Tan Bag of Tricks](https://www.dndbeyond.com/magic-items/2965342-tan-bag-of-tricks)
-| d8  | Creature         |
-| --- | ---------------- |
-| 1   | Jackal       |
-| 2   | Ape          |
-| 3   | Baboon       |
-| 4   | Axe beak     |
-| 5   | Black bear   |
-| 6   | Giant weasel |
-| 7   | Giant hyena  |
-| 8   | Tiger        |', null, NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Psychic Resistance', 'DND5E', null, null, 'You have resistance to psychic damage while wearing this jade ring.', 'resistance: psychic, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Robe of Stars', 'DND5E', null, null, 'This black or dark blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.
-Six stars, located on the robenulls upper front portion, are particularly large. While wearing this robe, you can use an action to pull off one of the stars and use it to castmagic missileas a 5th-level spell. Daily at dusk, 1d6 removed stars reappear on the robe.
-While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space.', 'bonus: saving throws, teleportation, damage, combat, warding, outerwear', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Bedroll', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Animated Shield', 'DND5E', null, null, 'While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this Effect, or until you are[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated)or die, at which point the shield falls to the ground or into your hand if you have one free.
-A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.', 'utility, warding', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Portable Hole', 'DND5E', null, null, 'ItemType:: Wondrous
-Common:: rare
-This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.
-You can use an action to unfold aportable holeand place it on or against a solid surface, whereupon theportable holecreates an extradimensional hole 10 feet deep. The cylindrical space within the hole exists on a different plane, so it can’t be used to create open passages. Any creature inside an openportable holecan exit the hole by climbing out of it.
-You can use an action to close aportable holeby taking hold of the edges of the cloth and folding it up. Folding the cloth closes the hole, and any creatures or objects within remain in the extradimensional space. No matter what’s in it, the hole weighs next to nothing.
-If the hole is folded up, a creature within the hole’s extradimensional space can use an action to make a DC 10 Strength check. On a successful check, the creature forces its way out and appears within 5 feet of theportable holeor the creature carrying it. A breathing creature within a closedportable holecan survive for up to 10 minutes, after which time it begins to suffocate.
-Placing aportable holeinside an extradimensional space created by a[bag of holding](https://www.dndbeyond.com/magic-items/4581-bag-of-holding),[handy haversack](https://www.dndbeyond.com/magic-items/4650-handy-haversack), or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can’t be reopened.
-ItemTags:: UTILITYCONTAINER', 'utility, container', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Chalk (1 piece)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Spellguard Shield', 'DND5E', null, null, 'While holding this shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you.
-A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.', 'advantage: saving throws, combat, warding', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Wand of Fear', 'DND5E', null, null, 'This wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
-Command.While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with thecommandspell (save DC 15).
-Cone of Fear.While holding the wand, you can use an action to expend 2 charges, causing the wandnulls tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Wisdom saving throw or become[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened)of you for 1 minute. While it is[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened)in this way, a creature must spend its turns trying to move as far away from you as it can, and it cannullt willingly move to a space within 30 feet of you. It also cannullt take reactions. For its action, it can use only the Dash action or try to escape from an Effect that prevents it from moving. If it has nowhere it can move, the creature can use the Dodge action. At the end of each of its turns, a creature can repeat the saving throw, ending the Effect on itself on a success.', 'frightened, control', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Saddlebags', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Bell', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Scarab of Protection', 'DND5E', null, null, 'If you hold this beetle-shaped medallion in your hand for 1 round, an inscription appears on its surface revealing its magical nature. It provides two benefits while it is on your person:
--   You have advantage on saving throws against spells.
--   The scarab has 12 charges. If you fail a saving throw against a necromancy spell or a harmful Effect originating from an undead creature, you can use your reaction to expend 1 charge and turn the failed save into a successful one. The scarab crumbles into powder and is destroyed when its last charge is expended.', 'advantage: saving throws, warding, consumable, jewelry', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Carriage', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+      ),
+    (
+     'Portable Hole',
+     'DND5E',
+     null,
+     null,
+     'This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.
+            You can use an action to unfold a portable hole and place it on or against a solid surface, whereupon the portable hole creates an extradimensional hole 10 feet deep. The cylindrical space within the hole exists on a different plane, so it can’t be used to create open passages. Any creature inside an open portable hole can exit the hole by climbing out of it.
+            You can use an action to close a portable hole by taking hold of the edges of the cloth and folding it up. Folding the cloth closes the hole, and any creatures or objects within remain in the extradimensional space. No matter what’s in it, the hole weighs next to nothing.
+            If the hole is folded up, a creature within the hole’s extradimensional space can use an action to make a DC 10 Strength check. On a successful check, the creature forces its way out and appears within 5 feet of the portable hole or the creature carrying it. A breathing creature within a closed portable hole can survive for up to 10 minutes, after which time it begins to suffocate.
+            Placing a portable hole inside an extradimensional space created by a bag of holding, handy haversack, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can’t be reopened.',
+     'Utility, Container',
+     'Basic Rules (2014), pg. 185',
+     'rare',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
       ),(
          'Crystal Ball of True Seeing', 'DND5E', null, null, 'This crystal ball is about 6 inches in diameter. While touching it, you can cast thescryingspell (save DC 17) with it.
-While scrying with the crystal ball, you have[truesight](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Truesight)with a radius of 120 feet centered on the spell’s sensor.', 'sense: truesight, scrying, detection', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+While scrying with the crystal ball, you have[truesight](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Truesight)with a radius of 120 feet centered on the spell’s sensor.', 'sense: truesight, scrying, detection', null, null, 'legendary', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Boots of Elvenkind', 'DND5E', null, null, 'While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks that rely on moving silently.', 'advantage: stealth, movement, utility, deception, footwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(

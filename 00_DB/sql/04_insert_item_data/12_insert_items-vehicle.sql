@@ -647,4 +647,36 @@ VALUES
 
          null,
          5
+        ),
+        (
+         'Carriage',
+         'DND5E',
+         '600 lb',
+         '100 gp',
+         'If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.',
+         null,
+         null,
+         null,
+         null,
+
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         null,
+
+         null,
+         null,
+         null,
+         null,
+         null,
+
+         null,
+         null,
+
+         null,
+         5
         )

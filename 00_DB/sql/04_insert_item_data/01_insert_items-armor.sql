@@ -1683,4 +1683,104 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Robe of Stars',
+        'DND5E',
+        null,
+        null,
+        'This black or dark blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.
+                Six stars, located on the robe''s upper front portion, are particularly large. While wearing this robe, you can use an action to pull off one of the stars and use it to cast magic missile as a 5th-level spell. Daily at dusk, 1d6 removed stars reappear on the robe.
+                While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space.',
+        'Bonus: Saving Throws, Teleportation, Damage, Combat, Warding, Outerwear',
+        null,
+        'very rare',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Animated Shield',
+        'DND5E',
+        '6 lb',
+        null,
+        'While holding this Shield, you can take a Bonus Action to cause it to animate. The Shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The Shield remains animate for 1 minute, until you take a Bonus Action to end this effect, or until you die or have the Incapacitated condition, at which point the Shield falls to the ground or into your hand if you have one free.
+                Shields require the Utilize action to Don or Doff. You gain the Armor Class benefit of a Shield only if you have training with it.',
+        'Utility, Warding',
+        'Dungeon Master’s Guide, pg. 151',
+        'very rare',
+        null,
+
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        '+2',
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Spellguard Shield',
+        'DND5E',
+        '6 lb',
+        null,
+        'While holding this Shield, you have Advantage on saving throws against spells and other magical effects, and spell attack rolls have Disadvantage against you.
+                Shields require the Utilize action to Don or Doff. You gain the Armor Class benefit of a Shield only if you have training with it.',
+        'Advantage: Saving Throws, Combat, Warding',
+        'Dungeon Master’s Guide, pg. 201',
+        'very rare',
+        null,
+
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        '+2',
+        null,
+
+        null,
+        17
        )
