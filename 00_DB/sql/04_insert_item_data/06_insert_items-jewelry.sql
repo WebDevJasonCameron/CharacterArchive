@@ -1265,6 +1265,79 @@ VALUES(
 
        null,
        12
+      ),
+      (
+       'Ring of Air Elemental Command',
+       'DND5E',
+       null,
+       null,
+       'This ring is linked to the Elemental Plane of Air.
+            While wearing this ring, you have advantage on attack rolls against air elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Air.
+            The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.
+            You can expend 2 of the ring''s charges to cast dominate monster on an air elemental. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.
+            If you help slay an air elemental while attuned to the ring, you gain access to the following additional properties:
+            - You have resistance to lightning damage.
+            - You have a flying speed equal to your walking speed and can hover.
+            - You can cast the following spells from the ring, expending the necessary number of charges: chain lightning (3 charges), gust of wind (2 charges), or wind wall (1 charge).',
+       'resistance: lightning, set: innate speed (flying), control, movement, warding, jewelry',
+       'Player’s Handbook (2014), pg. 190',
+       'legendary',
+       null,
+
+       true,
+       false,
+       true,
+       false,
+       false,
+       false,
+       true,
+       5,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Talisman of Pure Good',
+       'DND5E',
+       null,
+       null,
+       'This talisman is a mighty symbol of goodness. A creature that is neither good nor evil in alignment takes 6d6 radiant damage upon touching the talisman. An evil creature takes 8d6 radiant damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.
+            If you are a good cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.
+            The talisman has 7 charges. If you are wearing or holding it, you can use an action to expend 1 charge from it and choose one creature you can see on the ground within 120 feet of you. If the target is of evil alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed.',
+       'Bonus: Spell Attacks, Creature of Good Alignment, Control, Buff, Jewelry',
+       'Dungeon Master’s Guide, pg. 314',
+       'legendary',
+       'Wondrous Item',
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       true,
+       true,
+       7,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
 
 

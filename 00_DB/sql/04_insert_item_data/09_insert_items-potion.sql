@@ -1020,4 +1020,36 @@ VALUES
 
      null,
      17
+    ),
+    (
+     'Potion of Psychic Resistance',
+     'DND5E',
+     null,
+     null,
+     'When you drink this potion, you gain resistance to psychic damage for 1 hour.',
+     'Resistance: Psychic, Warding, Consumable',
+     null,
+     'uncommon',
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     17
     )

@@ -1783,4 +1783,265 @@ VALUES (
 
         null,
         17
+       ),
+       (
+        'Boots of Elvenkind',
+        'DND5E',
+        null,
+        null,
+        'While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have Advantage on Dexterity (Stealth) checks.',
+        'Stealth, Movement, Utility, Deception, Footwear',
+        'Dungeon Master’s Guide, pg. 155',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Robe of the Archmagi',
+        'DND5E',
+        null,
+        null,
+        'This elegant garment is made from exquisite cloth and adorned with runes.
+                You gain these benefits while wearing the robe.
+                *Armor.* If you aren’t wearing armor, your base Armor Class is 15 plus your Dexterity modifier.
+                *Magic Resistance.* You have Advantage on saving throws against spells and other magical effects.
+                *War Mage.* Your spell save DC and spell attack bonus each increase by 2.',
+        'Set: Unarmored Armor Class, Advantage: Saving Throws, Bonus: Spell Attacks, Bonus: Spell Save DC, sorcerer, warlock, or wizard, Buff, Warding, Outerwear',
+        'Dungeon Master’s Guide, pg. 194',
+        'legendary',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        17
+       ),
+       (
+        'Boots of Speed',
+        'DND5E',
+        null,
+        null,
+        'While you wear these boots, you can take a Bonus Action to click the boots’ heels together. If you do, the boots double your Speed, and any creature that makes an Opportunity Attack against you has Disadvantage on the attack roll. If you click your heels together again, you end the effect.
+                When you’ve used the boots’ property for a total of 10 minutes, the magic ceases to function for you until you finish a Long Rest.',
+        'Bonus: Speed, Buff, Movement, Utility, Footwear',
+        'Dungeon Master’s Guide, pg. 155',
+        'rare',
+        'Wondrous Item',
+
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Cloak of Protection',
+        'DND5E',
+        null,
+        null,
+        'You gain a +1 bonus to AC and saving throws while you wear this cloak.',
+        'Bonus: Armor Class, Bonus: Saving Throws, Warding, Outerwear',
+        'Dungeon Master’s Guide, pg. 159',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+       ),
+       (
+        'Glamoured Studded Leather',
+        'DND5E',
+        '13 lb',
+        null,
+        'While wearing this armor, you gain a +1 bonus to Armor Class. You can also take a Bonus Action to cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like—including color, style, and accessories—but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or doff the armor.
+            Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.',
+        'Bonus: Armor Class, Utility, Combat, Deception, Warding',
+        'Dungeon Master’s Guide, pg. 172',
+        'rare',
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        '13',
+        null,
+
+        null,
+        17
+       ),
+       (
+        'Mantle of Spell Resistance',
+        'DND5E',
+        null,
+        null,
+        'You have advantage on saving throws against spells while you wear this cloak.',
+        'Advantage: Saving Throws, Warding, Outerwear',
+        'Dungeon Master’s Guide, pg. 180',
+        'rare',
+        'Wondrous Item',
+
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+       ),
+       (
+        'Winged Boots',
+        'DND5E',
+        null,
+        null,
+        'While you wear these boots, you have a flying speed equal to your walking speed. You can use the boots to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.
+                The boots regain 2 hours of flying capability for every 12 hours they aren''t in use.',
+        'Set: Innate Speed (Flying), Movement, Footwear',
+        'Dungeon Master’s Guide, pg. 325',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        4,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+       ),
+       (
+        'Gauntlets of Ogre Power',
+        'DND5E',
+        null,
+        null,
+        'Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them.',
+        'Set: Strength Score, Buff, Handwear',
+        'Dungeon Master’s Guide, pg. 171',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
        )

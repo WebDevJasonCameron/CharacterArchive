@@ -100,4 +100,75 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Warhorse',
+       'DND5E',
+       null,
+       '400 gp',
+       'Warhorse Stat Block
+            *Speed* 60 ft.
+            *Carry Capacity* 540 lb.
+            A good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.',
+       null,
+       'Basic Rules (2014), pg. 157',
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+    (
+     'Draft Horse',
+     'DND5E',
+     '540 lb',
+     '50 gp',
+     'Draft Horse Stat Block
+            *Speed* 40 ft.
+            *Carrying Capacity* 540 lb.
+            ---
+            A good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.',
+     null,
+     null,
+     null,
+     null,
+
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
       )

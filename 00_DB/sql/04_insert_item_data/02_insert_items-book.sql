@@ -29,40 +29,7 @@ INSERT INTO items (
 
     item_image_url,
     item_source_id)
-VALUES(
-           'Manual of Iron Golems',
-           'DND5E',
-           null,
-           null,
-           'This tome contains information and incantations necessary to make a iron golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can''t use a manual of golems and attempts to read it takes 6d6 psychic damage.
-                To create an iron golem, you must spend 120 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 100,000 gp to purchase supplies.
-                Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.',
-           'Creation, Consumable',
-           null,
-           'very rare',
-           'Wondrous Item',
-
-           false,
-           false,
-           false,
-           false,
-           false,
-           false,
-           false,
-           null,
-
-           null,
-           null,
-           null,
-           null,
-           null,
-
-           null,
-           null,
-
-           null,
-           17
-       ),
+VALUES
       (
           'Spell Scroll',
           'DND5E',
@@ -556,5 +523,214 @@ VALUES(
 
        null,
        5
-      )
+      ),
+    (
+     'Tome of Clear Thought',
+     'DND5E',
+     null,
+     null,
+     'This book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book’s contents and practicing its guidelines, your Intelligence increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.',
+     'Bonus: Intelligence Score, Bonus: Ability Score Maximum, Buff',
+     'Dungeon Master’s Guide, pg. 208',
+     'very rare',
+     'Wondrous Item',
 
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     17
+      ),
+    (
+     'Manual of Golems',
+     'DND5E',
+     null,
+     null,
+     'This tome contains information and incantations necessary to make a particular type of golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can''t use a manual of golems and attempts to read it takes 6d6 psychic damage.
+
+            | *d20* | *Golem* | *Time* | *Cost* |
+            | --- | --- | --- | --- |
+            | 1-5 | Manual of Clay Golems | 30 days | 65,000 GP |
+            | 6-17 | Manual of Flesh Golems | 60 days | 50,000 GP |
+            | 18 | Manual of Iron Golems | 120 days | 100,000 GP |
+            | 19-20 | Manual of Stone Golems | 90 days | 80,000 GP |
+            To create a golem, you must spend the time shown on the table, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay the specified cost to purchase supplies.
+
+            Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.',
+     'Creation, Consumable',
+     'Dungeon Master’s Guide, pg. 180',
+     'very rare',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+      (
+          'Manual of clay Golems',
+          'DND5E',
+          null,
+          null,
+          'This tome contains information and incantations necessary to make a clay golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can''t use a manual of golems and attempts to read it takes 6d6 psychic damage.
+                To create a clay golem, you must spend 30 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 65,000 gp to purchase supplies.
+                Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.',
+          'Creation, Consumable',
+          null,
+          'very rare',
+          'Wondrous Item',
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          1,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Manual of Flesh Golems',
+          'DND5E',
+          null,
+          null,
+          'This tome contains information and incantations necessary to make a flesh golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can''t use a manual of golems and attempts to read it takes 6d6 psychic damage.
+                   To create a flesh golem, you must spend 60 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 50,000 gp to purchase supplies.
+                   Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.',
+          'Creation, Consumable',
+          null,
+          'very rare',
+          'Wondrous Item',
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          1,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Manual of Iron Golems',
+          'DND5E',
+          null,
+          null,
+          'This tome contains information and incantations necessary to make a iron golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can''t use a manual of golems and attempts to read it takes 6d6 psychic damage.
+                To create an iron golem, you must spend 120 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 100,000 gp to purchase supplies.
+                Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.',
+          'Creation, Consumable',
+          null,
+          'very rare',
+          'Wondrous Item',
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          1,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Manual of Stone Golems',
+          'DND5E',
+          null,
+          null,
+          'This tome contains information and incantations necessary to make a stone golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can''t use a manual of golems and attempts to read it takes 6d6 psychic damage.
+                To create a stone golem, you must spend 90 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 80,000 gp to purchase supplies.
+                Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.',
+          'Creation, Consumable',
+          null,
+          'very rare',
+          'Wondrous Item',
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          1,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      )

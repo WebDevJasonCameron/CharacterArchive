@@ -260,4 +260,168 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Healer''s Kit',
+        'DND5E',
+        '3 lb',
+        '5 gp',
+        'This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Dragonchess Set',
+        'DND5E',
+        '1/2 lb',
+        '1 gp',
+        'If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+       'Alchemist''s Supplies',
+       'DND5E',
+       '8 lb',
+       '50 gp',
+       'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+       ),
+       (
+        'Mess Kit',
+        'DND5E',
+        '1 lb',
+        '0.2 gp',
+        'This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Cobbler''s Tools',
+        'DND5E',
+        '5 lb',
+        '5 gp',
+        '*Ability:* Dexterity
+            *Utilize:* Modify footwear to give Advantage on the wearer’s next Dexterity (Acrobatics) check (DC 10)
+            *Craft:* Climber’s Kit
+            ---
+            If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )

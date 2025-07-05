@@ -1488,152 +1488,147 @@ VALUES(
 
      null,
      5
-      ),(
-         'Crystal Ball of True Seeing', 'DND5E', null, null, 'This crystal ball is about 6 inches in diameter. While touching it, you can cast thescryingspell (save DC 17) with it.
-While scrying with the crystal ball, you have[truesight](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Truesight)with a radius of 120 feet centered on the spell’s sensor.', 'sense: truesight, scrying, detection', null, null, 'legendary', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Boots of Elvenkind', 'DND5E', null, null, 'While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks that rely on moving silently.', 'advantage: stealth, movement, utility, deception, footwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Healernulls Kit', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Manual of Flesh Golems', 'DND5E', null, null, 'This tome contains information and incantations necessary to make aflesh golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that cannullt use amanual of golemsand attempts to read it takes 6d6 psychic damage.
-To create a flesh golem, you must spend 60 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 50,000 gp to purchase supplies.
-Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.', null, NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Wand of Secrets', 'DND5E', null, null, 'The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains 1d3 expended charges daily at dawn.', 'detection', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Tome of Clear Thought', 'DND5E', null, null, 'This book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the booknulls contents and practicing its guidelines, your Intelligence score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.', 'bonus: intelligence score, bonus: ability score maximum, buff', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Manual of Golems', 'DND5E', null, null, 'This tome contains information and incantations necessary to make a particular type of golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that cannullt use amanual of golemsand attempts to read it takes 6d6 psychic damage.
-| d20 | Golem | Time | Cost |
-| 1-5 | Manual of Clay Golems | 30 days | 65,000 GP |
-| 6-17 | Manual of Flesh Golems | 60 days | 50,000 GP |
-| 18 | Manual of Iron Golems | 120 days | 100,000 GP |
-| 19-20 | Manual of Stone Golems | 90 days | 80,000 GP |
-To create a golem, you must spend the time shown on the table, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay the specified cost to purchase supplies.
-Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.', 'creation, consumable', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Jug or Pitcher', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dragonchess Set', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Eversmoking Bottle', 'DND5E', null, null, 'Smoke leaks from the lead-stoppered mouth of this brass bottle, which weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke pours out in a 60-foot radius from the bottle. The cloudnulls area is heavily obscured. Each minute the bottle remains open and within the cloud, the radius increases by 10 feet until it reaches its maximum radius of 120 feet.
-The cloud persists as long as the bottle is open. Closing the bottle requires you to speak its command word as an action. Once the bottle is closed, the cloud disperses after 10 minutes. A moderate wind (11 to 20 miles per hour) can also disperse the smoke after 1 minute, and a strong wind (21 or more miles per hour) can do so after 1 round.', 'control, utility, deception', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Bead of Force', 'DND5E', null, null, 'This small black sphere measures 3/4 of an inch in diameter and weighs an ounce. Typically, 1d4 + 4beads of forceare found together.
-You can use an action to throw the bead up to 60 feet. The bead explodes on impact and is destroyed. Each creature within a 10-foot radius of where the bead landed must succeed on a DC 15 Dexterity saving throw or take 5d4 force damage. A sphere of transparent force then encloses the area for 1 minute. Any creature that failed the save and is completely within the area is trapped inside this sphere. Creatures that succeeded on the save, or are partially within the area, are pushed away from the center of the sphere until they are no longer inside it. Only breathable air can pass through the spherenulls wall. No attack or other Effect can.
-An enclosed creature can use its action to push against the spherenulls wall, moving the sphere up to half the creaturenulls walking speed. The sphere can be picked up, and its magic causes it to weigh only 1 pound, regardless of the weight of creatures inside.', 'damage: force, damage, control, combat, consumable', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Air Elemental Command', 'DND5E', null, null, 'This ring is linked to the Elemental Plane of Air.
-While wearing this ring, you have advantage on attack rolls against air elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Air.
-The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.
-You can expend 2 of the ringnulls charges to castdominate monsteron anair elemental. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.
-If you help slay anair elementalwhile attuned to the ring, you gain access to the following additional properties:
--   You have resistance to lightning damage.
--   You have a flying speed equal to your walking speed and can hover.
--   You can cast the following spells from the ring, expending the necessary number of charges:chain lightning(3 charges),gust of wind(2 charges), orwind wall(1 charge).', 'resistance: lightning, set: innate speed (flying), control, movement, warding, jewelry', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         '[Warhorse](https://www.dndbeyond.com/monsters/17049-warhorse)', 'DND5E', null, null, '| 18(+4) | 12(+1) | 13(+1) | 2(-4) | 12(+1) | 7(-2) |
-SensesPassive Perception 11
-Languages--
-Proficiency Bonus+2
-Trampling Charge.If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). If the target is[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone), the horse can make another attack with its hooves against it as a bonus action.
-## Actions
-Hooves.Melee Weapon Attack:+6to hit, reach 5 ft., one target.Hit:11(2d6 + 4)bludgeoning damage.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Hammer of Thunderbolts', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-Giantnulls Bane (Requires Attunement).You must be wearing abelt of giant strength(any variety) andgauntlets of ogre powerto attune to this weapon. The attunement ends if you take off either of those items. While you are attuned to this weapon and holding it, your Strength score increases by 4 and can exceed 20, but not 30. When you roll a 20 on an attack roll made with this weapon against a giant, the giant must succeed on a DC 17 Constitution saving throw or die.
-The hammer also has 5 charges. While attuned to it, you can expend 1 charge and make a ranged weapon attack with the hammer, hurling it as if it had the[thrown](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the hammer unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it must succeed on a DC 17 Constitution saving throw or be[stunned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Stunned)until the end of your next turn. The hammer regains 1d4 + 1 expended charges daily at dawn.
-Proficiency with a maul allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'stacking bonus: strength score, bonus: magic, bonus: ability score maximum, damage, buff, combat, heavy, two-handed', NULL, NULL, null, 'legendary', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Chain (10 feet)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Alchemistnulls Supplies', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Robe of the Archmagi', 'DND5E', null, null, 'This elegant garment is made from exquisite cloth of white, gray, or black and adorned with silvery runes. The robenulls color corresponds to the alignment for which the item was created. A white robe was made for good, gray for neutral, and black for evil. You cannullt attune to arobe of the archmagithat doesnnullt correspond to your alignment. You gain these benefits while wearing the robe:
--   If you arennullt wearing armor, your base Armor Class is 15 + your Dexterity modifier.
--   You have advantage on saving throws against spells and other magical effects.
--   Your spell save DC and spell attack bonus each increase by 2.', 'set: unarmored armor class, advantage: saving throws, bonus: spell attacks, bonus: spell save dc, sorcerer, warlock, or wizard, buff, warding, outerwear', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Wooden Staff', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Wand of the War Mage', 'DND5E', null, null, 'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore half cover when making a spell attack.
-| RARITY | BONUS |
-| Wand of the War Mage, +1 | +1 |
-| Wand of the War Mage, +2 | +2 |
-| Wand of the War Mage, +3 | +3 |', 'bonus: spell attacks, spellcaster, buff, combat', NULL, NULL, 'varies', 'yes', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Boots of Speed', 'DND5E', null, null, 'While you wear these boots, you can use a bonus action and click the bootsnull heels together. If you do, the boots double your walking speed, and any creature that makes an opportunity attack against you has disadvantage on the attack roll. If you click your heels together again, you end the Effect.
-When the bootsnull property has been used for a total of 10 minutes, the magic ceases to function until you finish a long rest.', 'bonus: speed, buff, movement, utility, footwear', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Totem', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Waterskin', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Psychic Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to psychic damage for 1 hour.', 'resistance: psychic, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Mess Kit', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Stone Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
-This potionnulls transparent liquid has floating in it a sliver of fingernail from a stone giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Cobblernulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Cloak of Protection', 'DND5E', null, null, 'You gain a +1 bonus to AC and saving throws while you wear this cloak.', 'bonus: armor class, bonus: saving throws, warding, outerwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Glamoured Studded Leather', 'DND5E', null, null, 'While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armornulls command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor.
-Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.', 'bonus: armor class, utility, combat, deception, warding', NULL, NULL, null, null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         '[Draft Horse](https://www.dndbeyond.com/monsters/16844-draft-horse)', 'DND5E', null, null, '| 18(+4) | 10(+0) | 12(+1) | 2(-4) | 11(+0) | 7(-2) |
-SensesPassive Perception 10
-Languages--
-Proficiency Bonus+2
-## Actions
-Hooves.Melee Weapon Attack:+6to hit, reach 5 ft., one target.Hit:9(2d4 + 4)bludgeoning damage.
-Monster Tags:
-Environment:', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Mirror of Life Trapping', 'DND5E', null, null, 'When this 4-foot-tall mirror is viewed indirectly, its surface shows faint images of creatures. The mirror weighs 50 pounds, and it has AC 11, 10 hit points, and vulnerability to bludgeoning damage. It shatters and is destroyed when reduced to 0 hit points.
-If the mirror is hanging on a vertical surface and you are within 5 feet of it, you can use an action to speak its command word and activate it. It remains activated until you use an action to speak the command word again.
-Any creature other than you that sees its reflection in the activated mirror while within 30 feet of it must succeed on a DC 15 Charisma saving throw or be trapped, along with anything it is wearing or carrying, in one of the mirrornulls twelve extradimensional cells. This saving throw is made with advantage if the creature knows the mirrornulls nature, and constructs succeed on the saving throw automatically.
-An extradimensional cell is an infinite expanse filled with thick fog that reduces visibility to 10 feet. Creatures trapped in the mirrornulls cells donnullt age, and they donnullt need to eat, drink, or sleep. A creature trapped within a cell can escape using magic that permits planar travel. Otherwise, the creature is confined to the cell until freed.
-If the mirror traps a creature but its twelve extradimensional cells are already occupied, the mirror frees one trapped creature at random to accommodate the new prisoner. A freed creature appears in an unoccupied space within sight of the mirror but facing away from it. If the mirror is shattered, all creatures it contains are freed and appear in unoccupied spaces near it.
-While within 5 feet of the mirror, you can use an action to speak the name of one creature trapped in it or call out a particular cell by number. The creature named or contained in the named cell appears as an image on the mirrornulls surface. You and the creature can then communicate normally.
-In a similar way, you can use an action to speak a second command word and free one creature trapped in the mirror. The freed creature appears, along with its possessions, in the unoccupied space nearest to the mirror and facing away from it.', 'control, utility', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Mantle of Spell Resistance', 'DND5E', null, null, 'You have advantage on saving throws against spells while you wear this cloak.', 'advantage: saving throws, warding, outerwear', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Winged Boots', 'DND5E', null, null, 'While you wear these boots, you have a flying speed equal to your walking speed. You can use the boots to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.
-The boots regain 2 hours of flying capability for every 12 hours they arennullt in use.', 'set: innate speed (flying), movement, footwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Radiant Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to radiant damage for 1 hour.', 'resistance: radiant, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),
     (
-         'Gauntlets of Ogre Power', 'DND5E', null, null, 'Your Strength score is 19 while you wear these gauntlets. They have no Effect on you if your Strength is 19 or higher without them.', 'set: strength score, buff, handwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+     'Crystal Ball of True Seeing',
+     'DND5E',
+     null,
+     null,
+     'While touching this crystal orb, you can cast Scrying (save DC 17) with it. In addition, you have Truesight with a range of 120 feet centered on the spell’s sensor.',
+     'Sense: Truesight, Scrying, Detection',
+     'Dungeon Master’s Guide, pg. 159',
+     'legendary',
+     'Wondrous Item',
+
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
+     'Eversmoking Bottle',
+     'DND5E',
+     null,
+     null,
+     'Smoke leaks from the lead-stoppered mouth of this brass bottle, which weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke pours out in a 60-foot radius from the bottle. The cloud''s area is heavily obscured. Each minute the bottle remains open and within the cloud, the radius increases by 10 feet until it reaches its maximum radius of 120 feet.
+            The cloud persists as long as the bottle is open. Closing the bottle requires you to speak its command word as an action. Once the bottle is closed, the cloud disperses after 10 minutes. A moderate wind (11 to 20 miles per hour) can also disperse the smoke after 1 minute, and a strong wind (21 or more miles per hour) can do so after 1 round.',
+     'Control, Utility, Deception',
+     'Basic Rules (2014), pg. 168',
+     'uncommon',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
+     'Totem',
+     'DND5E',
+     null,
+     '1 gp',
+     'A druid can use a Totem as a spellcasting focus, as described in the Spellcasting section.',
+     null,
+     null,
+     null,
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
+     'Mirror of Life Trapping',
+     'DND5E',
+     '50 lb',
+     null,
+     'When this 4-foot-tall, 2-foot-wide mirror is viewed indirectly, its surface shows faint images of creatures. The mirror weighs 50 pounds, and it has AC 11, HP 10, Immunity to Poison and Psychic damage, and Vulnerability to Bludgeoning damage. It shatters and is destroyed when reduced to 0 Hit Points.
+            If the mirror is hanging on a vertical surface and you are within 5 feet of it, you can take a Magic action and use a command word to activate it. It remains activated until you take a Magic action and repeat the command word to deactivate it.
+            Any creature other than you that sees its reflection in the activated mirror while within 30 feet of the mirror must succeed on a DC 15 Charisma saving throw or be trapped, along with anything it is wearing or carrying, in one of the mirror’s twelve extradimensional cells. A creature that knows the mirror’s nature makes the save with Advantage, and Constructs succeed on the save automatically.
+            An extradimensional cell is an infinite expanse filled with thick fog that reduces visibility to 10 feet. Creatures trapped in the mirror’s cells don’t age, and they don’t need to eat, drink, or sleep. A creature trapped within a cell can escape using magic that permits planar travel. Otherwise, the creature is confined to the cell until freed.
+            If the mirror traps a creature but its twelve extradimensional cells are already occupied, the mirror frees one trapped creature at random to accommodate the new prisoner. A freed creature appears in an unoccupied space within sight of the mirror but facing away from it. If the mirror is shattered, all creatures it contains are freed and appear in unoccupied spaces near it.
+            While within 5 feet of the mirror, you can take a Magic action to name one creature trapped in it or call out a particular cell by number. The creature named or contained in the named cell appears as an image on the mirror’s surface. You and the creature can then communicate.
+            In a similar way, you can take a Magic action and use a second command word to free one creature trapped in the mirror. The freed creature appears, along with its possessions, in the unoccupied space nearest to the mirror and facing away from it.
+            Placing the mirror inside an extradimensional space created by a Bag of Holding, Portable Hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate and not behind Total Cover is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can’t be reopened.',
+     null,
+     'Dungeon Master’s Guide, pg. 278',
+     'very rare',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
+         'Candle', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Tinderbox', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Berserker Battleaxe', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.
-Curse.This axe is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the axe, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear.
-Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.
-Proficiency with a battleaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, bonus: hit points per level, combat, cursed, versatile', NULL, NULL, 'rare', 'yes', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Talisman of Pure Good', 'DND5E', null, null, 'This talisman is a mighty symbol of goodness. A creature that is neither good nor evil in alignment takes 6d6 radiant damage upon touching the talisman. An evil creature takes 8d6 radiant damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.
-If you are a good cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.
-The talisman has 7 charges. If you are wearing or holding it, you can use an action to expend 1 charge from it and choose one creature you can see on the ground within 120 feet of you. If the target is of evil alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed.', 'bonus: spell attacks, creature of good alignment, control, buff, jewelry', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Wand of Fireballs', 'DND5E', null, null, 'This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast thefireballspell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
-The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.', 'spellcaster, damage, combat', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Folding Boat', 'DND5E', null, null, 'This object appears as a wooden box that measures 12 inches long, 6 inches wide, and 6 inches deep. It weighs 4 pounds and floats. It can be opened to store items inside. This item also has three command words, each requiring you to use an action to speak it.
-One command word causes the box to unfold into a boat 10 feet long, 4 feet wide, and 2 feet deep. The boat has one pair of oars, an anchor, a mast, and a lateen sail. The boat can hold up to four Medium creatures comfortably.
-The second command word causes the box to unfold into a ship 24 feet long, 8 feet wide, and 6 feet deep. The ship has a deck, rowing seats, five sets of oars, a steering oar, an anchor, a deck cabin, and a mast with a square sail. The ship can hold fifteen Medium creatures comfortably.
-When the box becomes a vessel, its weight becomes that of a normal vessel its size, and anything that was stored in the box remains in the boat.
-The third command word causes thefolding boatto fold back into a box, provided that no creatures are aboard. Any objects in the vessel that cannullt fit inside the box remain outside the box as it folds. Any objects in the vessel that can fit inside the box do so.', 'movement, utility, exploration', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Candle', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Lyre', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Lyre', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Belt of Dwarvenkind', 'DND5E', null, null, 'While wearing this belt, you gain the following benefits:
 -   Your Constitution score increases by 2, to a maximum of 20.
@@ -1642,11 +1637,11 @@ In addition, while attuned to the belt, you have a 50 percent chance each day at
 If you arennullt a dwarf, you gain the following additional benefits while wearing the belt:
 -   You have advantage on saving throws against poison, and you have resistance against poison damage.
 -   You have[darkvision](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Darkvision)out to a range of 60 feet.
--   You can speak, read, and write Dwarvish.', 'bonus: constitution score, advantage: persuasion, advantage: saving throws, resistance: poison, set base: darkvision, language: dwarvish, buff, social, utility, belt', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+-   You can speak, read, and write Dwarvish.', 'bonus: constitution score, advantage: persuasion, advantage: saving throws, resistance: poison, set base: darkvision, language: dwarvish, buff, social, utility, belt', null, null, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Drum', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Drum', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Ring of Warmth', 'DND5E', null, null, 'While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as −50 degrees Fahrenheit.', 'resistance: cold, exploration, warding, jewelry', NULL, NULL, 'uncommon', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Ring of Warmth', 'DND5E', null, null, 'While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as −50 degrees Fahrenheit.', 'resistance: cold, exploration, warding, jewelry', null, null, 'uncommon', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Hunting Trap', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -1919,10 +1914,6 @@ Proficiency with a mace allows you to add your proficiency bonus to the attack r
       ),(
          'Cart', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Manual of Clay Golems', 'DND5E', null, null, 'This tome contains information and incantations necessary to make aclay golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that cannullt use amanual of golemsand attempts to read it takes 6d6 psychic damage.
-To create a clay golem, you must spend 30 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 65,000 gp to purchase supplies.
-Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.', 'creation, consumable', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Brazier of Commanding Fire Elementals', 'DND5E', null, null, 'While a fire burns in this brass brazier, you can use an action to speak the brazier’s command word and summon aFire elemental, as if you had cast theconjure elementalspell. The brazier can’t be used this way again until the next dawn.
 The brazier weighs 5 pounds.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2085,11 +2076,6 @@ The cube loses charges when the barrier is targeted by certain spells or comes i
 | [Wall of fire](https://www.dndbeyond.com/spells/wall-of-fire)                   | 1d4          |', 'control, warding', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Immovable Rod', 'DND5E', null, null, 'This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesnnullt move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success.', 'utility', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Berserker Greataxe', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.
-Curse.This axe is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the axe, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear.
-Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.
-Proficiency with a greataxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, bonus: hit points per level, combat, cursed, heavy, two-handed', NULL, NULL, 'rare', 'yes', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Piton', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2491,10 +2477,6 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandn
       ),(
          'Helm of Telepathy', 'DND5E', null, null, 'While wearing this helm, you can use an action to cast thedetect thoughtsspell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply--using a bonus action to do so--while your focus on it continues.
 While focusing on a creature withdetect thoughts, you can use an action to cast thesuggestionspell (save DC 13) from the helm on that creature. Once used, thesuggestionproperty cannullt be used again until the next dawn.', 'communication, detection, headwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Manual of Stone Golems', 'DND5E', null, null, 'This tome contains information and incantations necessary to make astone golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that cannullt use amanual of golemsand attempts to read it takes 6d6 psychic damage.
-To create a stone golem, you must spend 90 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 80,000 gpto purchase supplies.
-Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.', 'creation, consumable', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Arrow-Catching Shield', 'DND5E', null, null, 'You gain a +2 bonus to AC against ranged attacks while you wield this shield. This bonus is in addition to the shieldnulls normal bonus to AC. In addition, whenever an attacker makes a ranged attack against a target within 5 feet of you, you can use your reaction to become the target of the attack instead.
 A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.', 'combat, warding', NULL, NULL, 'rare', null, false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5

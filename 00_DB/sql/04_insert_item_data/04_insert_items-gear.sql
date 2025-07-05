@@ -1467,4 +1467,132 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Jug or Pitcher',
+       'DND5E',
+       '4 lb',
+       '2 cp',
+       'A jug or pitcher can hold 1 gallon of liquid.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Chain (10 feet)',
+       'DND5E',
+       '10 lb',
+       '5 gp',
+       'A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Waterskin',
+       'DND5E',
+       '5 lb',
+       '2 sp',
+       'A waterskin can hold 4 pints of liquid.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Tinderbox',
+       'DND5E',
+       '1 lb',
+       '0.5 gp',
+       'A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

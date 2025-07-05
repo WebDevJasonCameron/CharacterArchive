@@ -9053,4 +9053,177 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Wand of Secrets',
+       'DND5E',
+       null,
+       null,
+       'The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains 1d3 expended charges daily at dawn.',
+       'Detection',
+       'Dungeon Master’s Guide, pg. 322',
+       'uncommon',
+       null,
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       true,
+       3,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Hammer of Thunderbolts',
+       'DND5E',
+       '10 lb',
+       null,
+       'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+            Giant''s Bane (Requires Attunement). You must be wearing a belt of giant strength (any variety) and gauntlets of ogre power to attune to this weapon. The attunement ends if you take off either of those items. While you are attuned to this weapon and holding it, your Strength score increases by 4 and can exceed 20, but not 30. When you roll a 20 on an attack roll made with this weapon against a giant, the giant must succeed on a DC 17 Constitution saving throw or die.
+            The hammer also has 5 charges. While attuned to it, you can expend 1 charge and make a ranged weapon attack with the hammer, hurling it as if it had the thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the hammer unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it must succeed on a DC 17 Constitution saving throw or be stunned until the end of your next turn. The hammer regains 1d4 + 1 expended charges daily at dawn.
+            Proficiency with a Maul allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+            ---
+            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+            Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+       'tacking Bonus: Strength Score, Bonus: Magic, Bonus: Ability Score Maximum, Damage, Buff, Combat, Heavy, Two-Handed, Topple',
+       'Basic Rules (2014), pg. 173',
+       'legendary',
+       null,
+
+       true,
+       true,
+       false,
+       true,
+       false,
+       false,
+       true,
+       5,
+
+       '5 ft',
+       '2d6+1',
+       'bludgeoning',
+       'Heavy, Two-Handed, Topple',
+       null,
+
+       null,
+       null,
+
+       null,
+       53
+      ),
+      (
+       'Wooden Staff',
+       'DND5E',
+       '4 lb',
+       '5 gp',
+       'A druid can use a Wooden Staff as a spellcasting focus, as described in the Spellcasting section.',
+       null,
+       null,
+       null,
+       null,
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Wand of the War Mage',
+       'DND5E',
+       null,
+       null,
+       'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.
+                | RARITY | BONUS |
+                | --- | --- |
+                | Uncommon | +1 |
+                | Rare | +2 |
+                | Very Rare | +3 |',
+       'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
+       'Dungeon Master’s Guide, pg. 212',
+       'varies',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Wand of Fireballs',
+       'DND5E',
+       null,
+       null,
+       'This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the fireball spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+                The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.',
+       'Spellcaster, Damage, Combat',
+       'Dungeon Master’s Guide, pg. 319',
+       'rare',
+       null,
+
+       true,
+       false,
+       true,
+       false,
+       false,
+       false,
+       true,
+       7,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
+
