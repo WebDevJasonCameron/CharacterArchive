@@ -1338,7 +1338,141 @@ VALUES(
 
        null,
        5
-      )
+      ),
+      (
+       'Ring of Warmth',
+       'DND5E',
+       null,
+       null,
+       'While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as −50 degrees Fahrenheit.',
+       'Resistance: Cold, Exploration, Warding, Jewelry',
+       'Basic Rules (2014), pg. 193',
+       'uncommon',
+       null,
 
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Ring of Protection',
+       'DND5E',
+       null,
+       null,
+       null,
+       'Bonus: Armor Class, Bonus: Saving Throws, Warding, Jewelry',
+       'Dungeon Master’s Guide, pg. 191',
+       'rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Ring of Djinni Summoning',
+       'DND5E',
+       null,
+       null,
+       'While wearing this ring, you can take a Magic action to summon a particular Djinni from the Elemental Plane of Air. The djinni appears in an unoccupied space you choose within 120 feet of yourself. It remains as long as you maintain Concentration, to a maximum of 1 hour, or until it drops to 0 Hit Points.
+            While summoned, the djinni is Friendly to you and your allies, and it obeys your commands. If you fail to command it, the djinni defends itself against attackers but takes no other actions.
+            After the djinni departs, it can’t be summoned again for 24 hours, and the ring becomes nonmagical if the djinni dies.
+            Rings of Djinni Summoning are often created by the djinn they summon and given to mortals as gifts of friendship or tokens of esteem.',
+       'Summoning, Control, Jewelry',
+       'Dungeon Master’s Guide, pg. 292',
+       'legendary',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       true,
+       1,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Gem of Brightness',
+       'DND5E',
+       null,
+       null,
+       'This prism has 50 charges. While you are holding it, you can use an action to speak one of three command words to cause one of the following effects:
+            - The first command word causes the gem to shed bright light in a 30-foot radius and dim light for an additional 30 feet. This effect doesn''t expend a charge. It lasts until you use a bonus action to repeat the command word or until you use another function of the gem.
+            - The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you. The creature must succeed on a DC 15 Constitution saving throw or become blinded for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+            - The third command word expends 5 charges and causes the gem to flare with blinding light in a 30- foot cone originating from it. Each creature in the cone must make a saving throw as if struck by the beam created with the second command word.
+            When all of the gem''s charges are expended, the gem becomes a nonmagical jewel worth 50 gp.',
+       'Blinded, Control, Debuff',
+       'Basic Rules (2014), pg. 171',
+       'uncommon',
+       'Wondrous Item',
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      )
 
 

@@ -2044,4 +2044,174 @@ VALUES (
 
         null,
         17
+       ),
+       (
+        'Belt of Dwarvenkind',
+        'DND5E',
+        null,
+        null,
+        'While wearing this belt, you gain the following benefits:
+                *Dwarvish.* You know Dwarvish.
+                Friend of Dwarvenkind. You have Advantage on Charisma (Persuasion) checks made to interact with dwarves and duergar.
+                *Toughness.* Your Constitution increases by 2, to a maximum of 20.
+                In addition, while attuned to the belt, you have a 50 percent chance each day at dawn of growing a full beard if you can grow one, or a thicker beard if you already have one.
+                If you aren’t a dwarf or duergar, you gain the following additional benefits while wearing the belt:
+                *Darkvision.* You have Darkvision with a range of 60 feet.
+                *Resilience.* You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.',
+        'Bonus: Constitution Score, Advantage: Persuasion, Advantage: Saving Throws, Resistance: Poison, Set Base: Darkvision, Language: Dwarvish, Buff, Social, Utility, Belt',
+        'Dungeon Master’s Guide, pg. 155',
+        'rare',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Clothes, Common',
+        'DND5E',
+        '3 lb',
+        '5 sp',
+        'This set of clothes could consist of a loose shirt and baggy breeches, or a loose shirt and skirt or overdress. Cloth wrappings are used for shoes.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Cloak of Displacement',
+        'DND5E',
+        null,
+        null,
+        'While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while you are incapacitated, restrained, or otherwise unable to move.',
+        'Disadvantage: Attack Rolls Against You, Deception, Warding, Outerwear',
+        'Dungeon Master’s Guide, pg. 244',
+        'rare',
+        'Wondrous Item',
+
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+       ),
+       (
+        'Helm of Brilliance',
+        'DND5E',
+        null,
+        null,
+        'This helm is set with 1d10 diamonds, 2d10 rubies, 3d10 fire opals, and 4d10 opals. Any gem pried from the helm crumbles to dust. When all the gems are removed or destroyed, the helm loses its magic.
+                You gain the following benefits while wearing the helm.
+                *Diamond Light.* As long as it has at least one diamond, the helm emits a 30-foot Emanation. When at least one Undead is within that area, the Emanation is filled with Dim Light. Any Undead that starts its turn in that area takes 1d6 Radiant damage.
+                *Fire Opal Flames.* As long as the helm has at least one fire opal, you can take a Magic action to cause one weapon you are holding to burst into flames. The flames emit Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. The flames are harmless to you and the weapon. When you hit with an attack using the blazing weapon, the target takes an extra 1d6 Fire damage. The fl ames last until you take a Bonus Action to extinguish them or until you drop or stow the weapon.
+                *Ruby Resistance.* As long as the helm has at least one ruby, you have Resistance to Fire damage.
+                *Spells.* You can cast one of the following spells (save DC 18), using one of the helm’s gems of the specified type as a component: Daylight (opal), Fireball (fire opal), Prismatic Spray (diamond), or Wall of Fire (ruby). The gem is destroyed when the spell is cast and disappears from the helm.
+                *Taking Fire Damage.* Roll 1d20 if you are wearing the helm and take Fire damage as a result of failing a saving throw against a spell. On a roll of 1, the helm emits beams of light from its remaining gems and is then destroyed. Each creature within a 60-foot Emanation originating from you must succeed on a DC 17 Dexterity saving throw or be struck by a beam, taking Radiant damage equal to the number of gems in the helm.',
+        null,
+        'Dungeon Master’s Guide, pg. 268',
+        'very rare',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+       ),
+       (
+        'Armor of Vulnerability',
+        'DND5E',
+        null,
+        null,
+        'While wearing this armor, you have resistance to one of the following damage types:[bludgeoning](https://www.dndbeyond.com/magic-items/4576-armor-of-vulnerability-bludgeoning),[piercing](https://www.dndbeyond.com/magic-items/5084-armor-of-vulnerability-piercing), or[slashing](https://www.dndbeyond.com/magic-items/5085-armor-of-vulnerability-slashing). The GM chooses the type or determines it randomly.
+Curse.This armor is cursed, a fact that is revealed only when an[identify](https://www.dndbeyond.com/spells/identify)spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by theremove cursespell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to two of the three damage types associated with the armor (not the one to which it grants resistance).',
+        'resistance: bludgeoning, resistance: piercing, resistance: slashing, vulnerability: bludgeoning, vulnerability: piercing, vulnerability: slashing, combat, warding, cursed, str 15 required, stealth disadvantage',
+        null,
+        null,
+        'rare',
+        null,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        5
        )

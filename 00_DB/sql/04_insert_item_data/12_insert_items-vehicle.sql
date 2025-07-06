@@ -715,4 +715,36 @@ VALUES
 
          null,
          17
+        ),
+        (
+         'Sled',
+         'DND5E',
+         '300 lb',
+         '20 gp',
+         'If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.',
+         null,
+         null,
+         null,
+         null,
+
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         null,
+
+         null,
+         null,
+         null,
+         null,
+         null,
+
+         null,
+         null,
+
+         null,
+         5
         )

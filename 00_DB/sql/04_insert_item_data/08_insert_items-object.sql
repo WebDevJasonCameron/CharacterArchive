@@ -1624,68 +1624,6 @@ VALUES(
 
      null,
      5
-      ),
-    (
-         'Candle', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Lyre', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Belt of Dwarvenkind', 'DND5E', null, null, 'While wearing this belt, you gain the following benefits:
--   Your Constitution score increases by 2, to a maximum of 20.
--   You have advantage on Charisma ([Persuasion](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Persuasion)) checks made to interact with dwarves.
-In addition, while attuned to the belt, you have a 50 percent chance each day at dawn of growing a full beard if younullre capable of growing one, or a visibly thicker beard if you already have one.
-If you arennullt a dwarf, you gain the following additional benefits while wearing the belt:
--   You have advantage on saving throws against poison, and you have resistance against poison damage.
--   You have[darkvision](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Darkvision)out to a range of 60 feet.
--   You can speak, read, and write Dwarvish.', 'bonus: constitution score, advantage: persuasion, advantage: saving throws, resistance: poison, set base: darkvision, language: dwarvish, buff, social, utility, belt', null, null, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Drum', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Ring of Warmth', 'DND5E', null, null, 'While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as −50 degrees Fahrenheit.', 'resistance: cold, exploration, warding, jewelry', null, null, 'uncommon', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Hunting Trap', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Rope, Hempen (50 feet)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Protection', 'DND5E', null, null, null, 'bonus: armor class, bonus: saving throws, warding, jewelry', NULL, NULL, 'x', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Clothes, Common', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Sled', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Thievesnull Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Djinni Summoning', 'DND5E', null, null, 'While wearing this ring, you can speak its command word as an action to summon a particulardjinnifrom the Elemental Plane of Air. Thedjinniappears in an unoccupied space you choose within 120 feet of you. It remains as long as you concentrate (as if concentrating on a spell), to a maximum of 1 hour, or until it drops to 0 hit points. It then returns to its home plane.
-While summoned, thedjinniis friendly to you and your companions. It obeys any commands you give it, no matter what language you use. If you fail to command it, thedjinnidefends itself against attackers but takes no other actions.
-After thedjinnideparts, it cannullt be summoned again for 24 hours, and the ring becomes nonmagical if thedjinnidies.', 'summoning, control, jewelry', NULL, NULL, null, null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Gem of Brightness', 'DND5E', null, null, 'This prism has 50 charges. While you are holding it, you can use an action to speak one of three command words to cause one of the following effects:
--   The first command word causes the gem to shed bright light in a 30-foot radius and dim light for an additional 30 feet. This Effect doesnnullt expend a charge. It lasts until you use a bonus action to repeat the command word or until you use another function of the gem.
--   The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you. The creature must succeed on a DC 15 Constitution saving throw or become[blinded](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Blinded)for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the Effect on itself on a success.
--   The third command word expends 5 charges and causes the gem to flare with blinding light in a 30- foot cone originating from it. Each creature in the cone must make a saving throw as if struck by the beam created with the second command word.
-When all of the gemnulls charges are expended, the gem becomes a nonmagical jewel worth 50 gp.', 'blinded, control, debuff', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Staff of Withering', 'DND5E', null, null, 'This staff has 3 charges and regains 1d3 expended charges daily at dawn.
-The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to deal an extra 2d10 necrotic damage to the target. In addition, the target must succeed on a DC 15 Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.', 'damage: necrotic, cleric, druid, or warlock, damage, debuff, combat', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Cloak of Displacement', 'DND5E', null, null, 'While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while you are[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated),[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained), or otherwise unable to move.', 'disadvantage: attack rolls against you, deception, warding, outerwear', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Arrows', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Helm of Brilliance', 'DND5E', null, null, 'This dazzling helm is set with 1d10 diamonds, 2d10 rubies, 3d10 fire opals, and 4d10 opals. Any gem pried from the helm crumbles to dust. When all the gems are removed or destroyed, the helm loses its magic.
-You gain the following benefits while wearing it:
--   You can use an action to cast one of the following spells (save DC 18), using one of the helmnulls gems of the specified type as a component:daylight(opal),fireball(fire opal),prismatic spray(diamond), orwall of fire(ruby). The gem is destroyed when the spell is cast and disappears from the helm.
--   As long as it has at least one diamond, the helm emits dim light in a 30-foot radius when at least one undead is within that area. Any undead that starts its turn in that area takes 1d6 radiant damage.
--   As long as the helm has at least one ruby, you have resistance to fire damage.
--   As long as the helm has at least one fire opal, you can use an action and speak a command word to cause one weapon you are holding to burst into flames. The flames emit bright light in a 10-foot radius and dim light for an additional 10 feet. The flames are harmless to you and the weapon. When you hit with an attack using the blazing weapon, the target takes an extra 1d6 fire damage. The flames last until you use a bonus action to speak the command word again or until you drop or stow the weapon.
-Roll a d20 if you are wearing the helm and take fire damage as a result of failing a saving throw against a spell. On a roll of 1, the helm emits beams of light from its remaining gems. Each creature within 60 feet of the helm other than you must succeed on a DC 17 Dexterity saving throw or be struck by a beam, taking radiant damage equal to the number of gems in the helm. The helm and its gems are then destroyed.
-Item Tags:DAMAGEDETECTIONCOMBATWARDINGHEADWEAR', 'resistance: fire, damage, detection, combat, warding, headwear', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Wand of Paralysis', 'DND5E', null, null, 'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of you. The target must succeed on a DC 15 Constitution saving throw or be[paralyzed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Paralyzed)for 1 minute. At the end of each of the targetnulls turns, it can repeat the saving throw, ending the Effect on itself on a success.
-The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.', 'paralyzed, spellcaster, control, debuff', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Armor of Vulnerability', 'DND5E', null, null, 'While wearing this armor, you have resistance to one of the following damage types:[bludgeoning](https://www.dndbeyond.com/magic-items/4576-armor-of-vulnerability-bludgeoning),[piercing](https://www.dndbeyond.com/magic-items/5084-armor-of-vulnerability-piercing), or[slashing](https://www.dndbeyond.com/magic-items/5085-armor-of-vulnerability-slashing). The GM chooses the type or determines it randomly.
-Curse.This armor is cursed, a fact that is revealed only when an[identify](https://www.dndbeyond.com/spells/identify)spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by theremove cursespell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to two of the three damage types associated with the armor (not the one to which it grants resistance).', 'resistance: bludgeoning, resistance: piercing, resistance: slashing, vulnerability: bludgeoning, vulnerability: piercing, vulnerability: slashing, combat, warding, cursed, str 15 required, stealth disadvantage', NULL, NULL, 'rare', null, false, true, true, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Chime of Opening', 'DND5E', null, null, 'Wondrous Item, rare
 This hollow metal tube measures about 1 foot long and weighs 1 pound. You can strike it as an action, pointing it at an object within 120 feet of you that can be opened, such as a door, lid, or lock. The chime issues a clear tone, and one lock or latch on the object opens unless the sound cannullt reach the object. If no locks or latches remain, the object itself opens.

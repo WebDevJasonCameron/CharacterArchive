@@ -424,4 +424,36 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Thieves'' Tools',
+        'DND5E',
+        '1 lb',
+        '25 gp',
+        'This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )
