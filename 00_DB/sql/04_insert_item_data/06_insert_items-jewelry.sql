@@ -1473,6 +1473,38 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Ring of Evasion',
+       'DND5E',
+       null,
+       null,
+       'This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing the ring, you can take a Reaction to expend 1 charge to succeed on that save instead.',
+       'Warding, Jewelry',
+       'Dungeon Master’s Guide, pg. 191',
+       'rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
       )
 
 

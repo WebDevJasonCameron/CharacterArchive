@@ -1624,77 +1624,74 @@ VALUES(
 
      null,
      5
+      ),
+    (
+     'Decanter of Endless Water',
+     'DND5E',
+     '2 lb',
+     null,
+     'This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.
+            You can use an action to remove the stopper and speak one of three command words, whereupon an amount of fresh water or salt water (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following options:
+            *Stream* produces 1 gallon of water.
+            *Fountain* produces 5 gallons of water.
+            *Geyser* produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at a creature you can see within 30 feet of you. The target must succeed on a DC 13 Strength saving throw or take 1d4 bludgeoning damage and fall prone. Instead of a creature, you can target an object that isn''t being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you.',
+     'Creation, Utility',
+     'Dungeon Master’s Guide, pg. 249',
+     'uncommon',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     17
       ),(
-         'Chime of Opening', 'DND5E', null, null, 'Wondrous Item, rare
-This hollow metal tube measures about 1 foot long and weighs 1 pound. You can strike it as an action, pointing it at an object within 120 feet of you that can be opened, such as a door, lid, or lock. The chime issues a clear tone, and one lock or latch on the object opens unless the sound cannullt reach the object. If no locks or latches remain, the object itself opens.
-The chime can be used ten times. After the tenth time, it cracks and becomes useless.
-Notes: Utility, Exploration, Consumable
-ItemTags::UTILITY,EXPLORATION,CONSUMABLE', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Medallion of Thoughts', 'DND5E', null, null, 'The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast thedetect thoughtsspell (save DC 13) from it. The medallion regains 1d3 expended charges daily at dawn.', 'social, detection', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Headband of Intellect', 'DND5E', null, null, 'Your Intelligence score is 19 while you wear this headband.It has no Effect on you if your Intelligence is 19 or higher without it.', 'set: intelligence score, buff, headwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Decanter of Endless Water', 'DND5E', null, null, 'This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.
-You can use an action to remove the stopper and speak one of three command words, whereupon an amount of fresh water or salt water (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following options:
--   "Stream" produces 1 gallon of water.
--   "Fountain" produces 5 gallons of water.
--   "Geyser" produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at a creature you can see within 30 feet of you. The target must succeed on a DC 13 Strength saving throw or take 1d4 bludgeoning damage and fall[prone](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Prone). Instead of a creature, you can target an object that isnnullt being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you.', 'creation, utility', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Boots of Elvenkind', 'DND5E', null, null, 'While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks that rely on moving silently.', 'advantage: stealth, movement, utility, deception, footwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Block and Tackle', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Gauntlets of Ogre Power', 'DND5E', null, null, 'ItemType:: Wondrous
-Common:: Uncommon
-Attunement:: required
-Your Strength score is 19 while you wear these gauntlets. They have no Effect on you if your Strength is 19 or higher without them.
-Item Tags:BUFFHANDWEAR', 'set: strength score, buff, handwear', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Evasion', 'DND5E', null, null, 'This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing it, you can use your reaction to expend 1 of its charges to succeed on that saving throw instead.', 'warding, jewelry', NULL, NULL, null, null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Saddle, Exotic', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no Effect on you if your Strength is equal to or greater than that score.
-This potionnulls transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The potion of frost giant strength and the potion of stone giant strength have the same Effect.
-| Type of Giant | Strength | Rarity |
-| Potion of Hill Giant Strength | 21 | Uncommon |
-| Potion of Frost Giant Strength | 23 | Rare |
-| Potion of Stone Giant Strength | 23 | Rare |
-| Potion of Fire Giant Strength | 25 | Rare |
-| Potion of Cloud Giant Strength | 27 | Very Rare |
-| Potion of Storm Giant Strength | 29 | Legendary |
-Item Tags:', null, NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Medallion of Thoughts', 'DND5E', null, null, 'The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast thedetect thoughtsspell (save DC 13) from it. The medallion regains 1d3 expended charges daily at dawn.', 'social, detection', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Bracers of Defense', 'DND5E', null, null, 'While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield.', 'bonus: unarmored armor class, warding, wristwear', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Bracers of Defense', 'DND5E', null, null, 'While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield.', 'bonus: unarmored armor class, warding, wristwear', null, null, 'rare', 'Wondrous Item', false, false, false, false, true, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Cloak of Arachnida', 'DND5E', null, null, 'This fine garment is made of black silk interwoven with faint silvery threads. While wearing it, you gain the following benefits:
 -   You have resistance to poison damage.
 -   You have a climbing speed equal to your walking speed.
 -   You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.
 -   You cannullt be caught in webs of any sort and can move through webs as if they were difficult terrain.
--   You can use an action to cast the[web](https://www.dndbeyond.com/spells/web)spell (save DC 13). The web created by the spell fills twice its normal area. Once used, this property of the cloak cannullt be used again until the next dawn.', 'resistance: poison, set: innate speed (climbing), control, buff, movement, warding, outerwear', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+-   You can use an action to cast the[web](https://www.dndbeyond.com/spells/web)spell (save DC 13). The web created by the spell fills twice its normal area. Once used, this property of the cloak cannullt be used again until the next dawn.', 'resistance: poison, set: innate speed (climbing), control, buff, movement, warding, outerwear', null, null, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Mace of Terror', 'DND5E', null, null, 'This magic weapon has 3 charges. While holding it, you can use an action and expend 1 charge to release a wave of terror. Each creature of your choice in a 30-foot radius extending from you must succeed on a DC 15 Wisdom saving throw or become[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened)of you for 1 minute. While it is[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened)in this way, a creature must spend its turns trying to move as far away from you as it can, and it cannullt willingly move to a space within 30 feet of you. It also cannullt take reactions. For its action, it can use only the Dash action or try to escape from an Effect that prevents it from moving. If it has nowhere it can move, the creature can use the Dodge action. At the end of each of its turns, a creature can repeat the saving throw, ending the Effect on itself on a success.
 The mace regains 1d3 expended charges daily at dawn.
-Proficiency with a mace allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'frightened, damage, control, debuff, combat', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Proficiency with a mace allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'frightened, damage, control, debuff, combat', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Pipes of the Sewers', 'DND5E', null, null, 'You must be proficient with wind instruments to use these pipes. While you are attuned to the pipes, ordinaryratsandgiant ratsare indifferent toward you and will not attack you unless you threaten or harm them.
 The pipes have 3 charges. If you play the pipes as an action, you can use a bonus action to expend 1 to 3 charges, calling forth oneswarm of ratswith each expended charge, provided that enoughratsare within half a mile of you to be called in this fashion (as determined by the GM). If there arennullt enoughratsto form a swarm, the charge is wasted. Called swarms move toward the music by the shortest available route but arennullt under your control otherwise. The pipes regain 1d3 expended charges daily at dawn.
 Whenever aswarm of ratsthat isnnullt under another creaturenulls control comes within 30 feet of you while you are playing the pipes, you can make a Charisma check contested by the swarmnulls Wisdom check. If you lose the contest, the swarm behaves as it normally would and cannullt be swayed by the pipesnull music for the next 24 hours. If you win the contest, the swarm is swayed by the pipesnull music and becomes friendly to you and your companions for as long as you continue to play the pipes each round as an action. A friendly swarm obeys your commands. If you issue no commands to a friendly swarm, it defends itself but otherwise takes no actions. If a friendly swarm starts its turn and cannullt hear the pipesnull music, your control over that swarm ends, and the swarm behaves as it normally would and cannullt be swayed by the pipesnull music for the next 24 hours.
-Item Tags:SUMMONINGCONTROLINSTRUMENT', 'summoning, control, instrument', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Item Tags:SUMMONINGCONTROLINSTRUMENT', 'summoning, control, instrument', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Arrow of Slaying', 'DND5E', null, null, 'Anarrow of slayingis a magic weapon meant to slay a particular kind of creature. Some are more focused than others; for example, there are botharrows of dragon slayingandarrows of blue dragon slaying. If a creature belonging to the type, race, or group associated with anarrow of slayingtakes damage from the arrow, the creature must make a DC 17 Constitution saving throw, taking an extra 6d10 piercing damage on a failed save, or half as much extra damage on a successful one.
 Once anarrow of slayingdeals its extra damage to a creature, it becomes a nonmagical arrow.
-Other types of magic ammunition of this kind exist, such asbolts of slayingmeant for a crossbow, though arrows are most common.', 'damage: piercing, damage, combat, bane', NULL, NULL, 'very rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Other types of magic ammunition of this kind exist, such asbolts of slayingmeant for a crossbow, though arrows are most common.', 'damage: piercing, damage, combat, bane', null, null, 'very rare', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Wand of Lightning Bolts', 'DND5E', null, null, 'This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast thelightning boltspell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
-The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.', 'spellcaster, damage, combat', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.', 'spellcaster, damage, combat', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Hat of Disguise', 'DND5E', null, null, 'While wearing this hat, you can use an action to cast thedisguise selfspell from it at will. The spell ends if the hat is removed.', 'deception, headwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Hat of Disguise', 'DND5E', null, null, 'While wearing this hat, you can use an action to cast thedisguise selfspell from it at will. The spell ends if the hat is removed.', 'deception, headwear', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Wand of Web', 'DND5E', null, null, 'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the[web](https://www.dndbeyond.com/spells/web)spell (save DC 15) from it.
-The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.', 'spellcaster, control', NULL, NULL, 'uncommon', 'yes', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.', 'spellcaster, control', null, NULL, 'uncommon', 'yes', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Broom of Flying', 'DND5E', null, null, 'This wooden broom, which weighs 3 pounds, functions like a mundane broom until you stand astride it and speak its command word. It then hovers beneath you and can be ridden in the air. It has a flying speed of 50 feet. It can carry up to 400 pounds, but its flying speed becomes 30 feet while carrying over 200 pounds. The broom stops hovering when you land.
 You can send the broom to travel alone to a destination within 1 mile of you if you speak the command word, name the location, and are familiar with that place. The broom comes back to you when you speak another command word, provided that the broom is still within 1 mile of you.', 'set: speed (flying), movement, utility, exploration', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -2033,9 +2030,6 @@ Proficiency Bonus+2
 ## Actions
 Hooves.Melee Weapon Attack:+4to hit, reach 5 ft., one target.Hit:7(2d4 + 2)bludgeoning damage.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
-         'Potion of Storm Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 29 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
-This potionnulls transparent liquid has floating in it a sliver of fingernail from a storm giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Emblem', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Manacles', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
@@ -2184,9 +2178,6 @@ Item Tags:MOVEMENTSHAPECHANGINGDECEPTIONOUTERWEAR', 'advantage: stealth, set: in
          'Lock', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Shovel', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Frost Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
-This potionnulls transparent liquid has floating in it a sliver of fingernail from a frost giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Sealing Wax', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2429,9 +2420,6 @@ The haversack has a few limitations. If it is overloaded, or if a sharp object p
 Placing the haversack inside an extradimensional space created by a[bag of holding](https://www.dndbeyond.com/magic-items/4581-bag-of-holding),[portable hole](https://www.dndbeyond.com/magic-items/4699-portable-hole), or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and cannullt be reopened.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Horseshoes of a Zephyr', 'DND5E', null, null, 'These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This Effect means the creature can cross or stand above non-solid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores difficult terrain. In addition, the creature can move at normal speed for up to 12 hours a day without suffering[exhaustion](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Exhaustion)from a forced march.', 'movement, exploration', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Cloud Giant Strength', 'DND5E', null, null, 'When you drink this potion, your Strength score changes to 27 for 1 hour. The potion has no Effect on you if your Strength is equal to or greater than that score.
-This potionnulls transparent liquid has floating in it a sliver of fingernail from a cloud giant.', 'set: strength score, buff, consumable', NULL, NULL, 'varies', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Rope of Climbing', 'DND5E', null, null, 'This 60-foot length of silk rope weighs 3 pounds and can hold up to 3,000 pounds. If you hold one end of the rope and use an action to speak the command word, the rope animates. As a bonus action, you can command the other end to move toward a destination you choose. That end moves 10 feet on your turn when you first command it and 10 feet on each of your turns until reaching its destination, up to its maximum length away, or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.
 If you tell the rope to knot, large knots appear at 1- foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants advantage on checks made to climb it.

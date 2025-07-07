@@ -1691,4 +1691,36 @@ VALUES(
 
        null,
        53
+      ),
+      (
+       'Saddle, Exotic',
+       'DND5E',
+       '40 lb',
+       '60 gp',
+       'An exotic saddle is required for riding any aquatic or flying mount.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

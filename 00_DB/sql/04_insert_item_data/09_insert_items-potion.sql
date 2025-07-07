@@ -791,7 +791,6 @@ VALUES
      null,
      'You regain Hit Points when you drink this potion. The number of Hit Points depends on the potion’s rarity, as shown in the table below.
             Whatever its potency, the potion’s red liquid glimmers when agitated.
-
             | Potion | HP Regained | Rarity |
             | --- | --- | --- |
             | Potion of Healing | 2d4 + 2 | Common |
@@ -956,72 +955,6 @@ VALUES
         17
     ),
     (
-     'Potion of Stone Giant Strength',
-     'DND5E',
-     null,
-     null,
-     'When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
-            This potion''s transparent liquid has floating in it a sliver of fingernail from a stone giant.',
-     'Set: Strength Score, Buff, Consumable',
-     null,
-     'rare',
-     null,
-
-     true,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     null,
-
-     null,
-     null,
-     null,
-     null,
-     null,
-
-     null,
-     null,
-
-     null,
-     17
-    ),
-    (
-     'Potion of Hill Giant Strength',
-     'DND5E',
-     null,
-     null,
-     'When you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
-            This potion''s transparent liquid has floating in it a sliver of fingernail from a hill giant.',
-     'Set: Strength Score, Buff, Consumable',
-     null,
-     'uncommon',
-     null,
-
-     true,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     null,
-
-     null,
-     null,
-     null,
-     null,
-     null,
-
-     null,
-     null,
-
-     null,
-     17
-    ),
-    (
      'Potion of Psychic Resistance',
      'DND5E',
      null,
@@ -1052,4 +985,244 @@ VALUES
 
      null,
      17
+    ),
+    (
+     'Potion of Giant Strength',
+     'DND5E',
+     null,
+     null,
+     'When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.
+            This potion’s transparent liquid has floating in it a sliver of light resembling a giant’s fingernail.
+
+            | Type of Giant | Strength | Rarity |
+            | --- | --- | --- |
+            | Potion of Hill Giant Strength | 21 | Uncommon |
+            | Potion of Frost Giant Strength | 23 | Rare |
+            | Potion of Stone Giant Strength | 23 | Rare |
+            | Potion of Fire Giant Strength | 25 | Rare |
+            | Potion of Cloud Giant Strength | 27 | Very Rare |
+            | Potion of Storm Giant Strength | 29 | Legendary |',
+     null,
+     'Dungeon Master’s Guide, pg. 187',
+     null,
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     17
+    ),
+    (
+        'Potion of Hill Giant Strength',
+        'DND5E',
+        null,
+        null,
+        'When you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
+               This potion''s transparent liquid has floating in it a sliver of fingernail from a hill giant.',
+        'Set: Strength Score, Buff, Consumable',
+        null,
+        'uncommon',
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+    ),
+    (
+        'Potion of Frost Giant Strength',
+        'DND5E',
+        null,
+        null,
+        'When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
+            This potion''s transparent liquid has floating in it a sliver of fingernail from a frost giant.',
+        'Set: Strength Score, Buff, Consumable',
+        null,
+        'rare',
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+    ),
+    (
+        'Potion of Stone Giant Strength',
+        'DND5E',
+        null,
+        null,
+        'When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
+               This potion''s transparent liquid has floating in it a sliver of fingernail from a stone giant.',
+        'Set: Strength Score, Buff, Consumable',
+        null,
+        'rare',
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+    ),
+    (
+        'Potion of Fire Giant Strength',
+        'DND5E',
+        null,
+        null,
+        'When you drink this potion, your Strength score changes to 25 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
+            This potion''s transparent liquid has floating in it a sliver of fingernail from a fire giant.',
+        'Set: Strength Score, Buff, Consumable',
+        null,
+        'rare',
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+    ),
+    (
+        'Potion of Cloud Giant Strength',
+        'DND5E',
+        null,
+        null,
+        'When you drink this potion, your Strength score changes to 27 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
+                This potion''s transparent liquid has floating in it a sliver of fingernail from a cloud giant.',
+        'Set: Strength Score, Buff, Consumable',
+        null,
+        'very rare',
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+    ),
+    (
+        'Potion of Storm Giant Strength',
+        'DND5E',
+        null,
+        null,
+        'When you drink this potion, your Strength score changes to 29 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
+            This potion''s transparent liquid has floating in it a sliver of fingernail from a storm giant.',
+        'Set: Strength Score, Buff, Consumable',
+        null,
+        'legendary',
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
     )

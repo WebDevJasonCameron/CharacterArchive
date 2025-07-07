@@ -456,4 +456,36 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Block and Tackle',
+        'DND5E',
+        '5 lb',
+        '1 gp',
+        'A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )

@@ -2191,27 +2191,804 @@ VALUES (
         'DND5E',
         null,
         null,
-        'While wearing this armor, you have resistance to one of the following damage types:[bludgeoning](https://www.dndbeyond.com/magic-items/4576-armor-of-vulnerability-bludgeoning),[piercing](https://www.dndbeyond.com/magic-items/5084-armor-of-vulnerability-piercing), or[slashing](https://www.dndbeyond.com/magic-items/5085-armor-of-vulnerability-slashing). The GM chooses the type or determines it randomly.
-Curse.This armor is cursed, a fact that is revealed only when an[identify](https://www.dndbeyond.com/spells/identify)spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by theremove cursespell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to two of the three damage types associated with the armor (not the one to which it grants resistance).',
-        'resistance: bludgeoning, resistance: piercing, resistance: slashing, vulnerability: bludgeoning, vulnerability: piercing, vulnerability: slashing, combat, warding, cursed, str 15 required, stealth disadvantage',
-        null,
-        null,
+        'While wearing this armor, you have Resistance to one of the following damage types: Bludgeoning, Piercing, or Slashing. The DM chooses the type or determines it randomly.
+            Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).
+
+            *Applicable Armor:*
+            | *Name* | *Type* | *AC* | *Strength* | *Stealth* |
+            | --- | --- | --- | --- | --- |
+            | Padded Armor | Light | 11 + Dex modifier | -- | Disadvantage |
+            | Leather Armor | Light | 11 + Dex modifier | -- | -- |
+            | Studded Leather Armor | Light |	12 + Dex modifier | -- | -- |
+            | Hide Armor | Medium | 12 + Dex modifier (max 2) | -- | -- |
+            | Chain Shirt | Medium | 13 + Dex modifier (max 2) | -- | -- |
+            | Scale Mail | Medium | 14 + Dex modifier (max 2) | -- | Disadvantage |
+            | Breastplate | Medium | 14 + Dex modifier (max 2) | -- | -- |
+            | Half Plate Armor | Medium | 15 + Dex modifier (max 2) | -- | Disadvantage |
+            | Ring Mail | Heavy | 14 | -- | Disadvantage |
+            | Chain Mail | Heavy | 16 | Strength 13 | Disadvantage |
+            | Splint Armor | Heavy | 17 | Strength 15 | Disadvantage |
+            | Plate Armor | Heavy | 18 | Strength 15 | Disadvantage |',
+        'Resistance: Bludgeoning, Resistance: Piercing, Resistance: Slashing, Vulnerability: Bludgeoning, Vulnerability: Piercing, Vulnerability: Slashing, Combat, Warding, Cursed, Str. 15 Required, Stealth Disadvantage',
+        'Dungeon Master’s Guide, pg. 152',
         'rare',
         null,
+
+        true,
+        true,
+        true,
+        true,
         false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+       ),
+       (
+           'Armor of Vulnerability (Bludgeoning)',
+           'DND5E',
+           '65 lb',
+           null,
+           'While wearing this armor, you have resistance to bludgeoning damage.
+                Curse. This armor is cursed, a fact that is revealed only when an identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the remove curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to piercing and slashing damage.',
+           null,
+           null,
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '18',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Armor of Vulnerability (Piercing)',
+           'DND5E',
+           '65 lb',
+           null,
+           'While wearing this armor, you have resistance to piercing damage.
+                Curse. This armor is cursed, a fact that is revealed only when an identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the remove curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to bludgeoning and slashing damage.',
+           null,
+           null,
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '18',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Armor of Vulnerability (Slashing)',
+           'DND5E',
+           '65 lb',
+           null,
+           'While wearing this armor, you have resistance to slashing damage.
+                Curse. This armor is cursed, a fact that is revealed only when an identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the remove curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to bludgeoning and piercing damage.',
+           null,
+           null,
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '18',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Half Plate Armor of Vulnerability (Bludgeoning)',
+           'DND5E',
+           '40 lb',
+           null,
+           'While wearing this armor, you have Resistance to bludgeoning damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '15',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Half Plate Armor of Vulnerability (Piercing)',
+           'DND5E',
+           '40 lb',
+           null,
+           'While wearing this armor, you have Resistance to piercing damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '15',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Half Plate Armor of Vulnerability (Slashing)',
+           'DND5E',
+           '40 lb',
+           null,
+           'While wearing this armor, you have Resistance to slashing damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '15',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Hide Armor of Vulnerability (Bludgeoning)',
+           'DND5E',
+           '12 lb',
+           null,
+           'While wearing this armor, you have Resistance to bludgeoning damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '12',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Hide Armor of Vulnerability (Piercing)',
+           'DND5E',
+           '12 lb',
+           null,
+           'While wearing this armor, you have Resistance to piercing damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '12',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Hide Armor of Vulnerability (Slashing)',
+           'DND5E',
+           '12 lb',
+           null,
+           'While wearing this armor, you have Resistance to slashing damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '12',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Leather Armor of Vulnerability (Bludgeoning)',
+           'DND5E',
+           '10 lb',
+           null,
+           'While wearing this armor, you have Resistance to bludgeoning damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '11',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Leather Armor of Vulnerability (Piercing)',
+           'DND5E',
+           '10 lb',
+           null,
+           'While wearing this armor, you have Resistance to piercing damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '11',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Leather Armor of Vulnerability (Slashing)',
+           'DND5E',
+           '10 lb',
+           null,
+           'While wearing this armor, you have Resistance to slashing damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '11',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Padded Armor of Vulnerability (Bludgeoning)',
+           'DND5E',
+           '8 lb',
+           null,
+           'While wearing this armor, you have Resistance to bludgeoning damage.
+                    Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '11',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Padded Armor of Vulnerability (Piercing)',
+           'DND5E',
+           '8 lb',
+           null,
+           'While wearing this armor, you have Resistance to piercing damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           null,
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '11',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Padded Armor of Vulnerability (Slashing)',
+           'DND5E',
+           '8 lb',
+           null,
+           'While wearing this armor, you have Resistance to slashing damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '11',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Splint Armor of Vulnerability (Bludgeoning)',
+           'DND5E',
+           '60 lb',
+           null,
+           'While wearing this armor, you have Resistance to bludgeoning damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '17',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Splint Armor of Vulnerability (Piercing)',
+           'DND5E',
+           '60 lb',
+           null,
+           'While wearing this armor, you have Resistance to piercing damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           null,
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '17',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Splint Armor of Vulnerability (Slashing)',
+           'DND5E',
+           '60 lb',
+           null,
+           'While wearing this armor, you have Resistance to slashing damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '17',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Studded Leather Armor of Vulnerability (Bludgeoning)',
+           'DND5E',
+           '13 lb',
+           null,
+           'While wearing this armor, you have Resistance to bludgeoning damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '12',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Studded Leather Armor of Vulnerability (Piercing)',
+           'DND5E',
+           '13 lb',
+           null,
+           'While wearing this armor, you have Resistance to piercing damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '12',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Studded Leather Armor of Vulnerability (Slashing)',
+           'DND5E',
+           '13 lb',
+           null,
+           'While wearing this armor, you have Resistance to slashing damage.
+                Curse. This armor is cursed, a fact that is revealed only when the Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a Remove Curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).',
+           null,
+           'Dungeon Master’s Guide, pg. 231',
+           'rare',
+           null,
+
+           true,
+           true,
+           true,
+           true,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '12',
+           null,
+
+           null,
+           17
+       ),
+       (
+        'Headband of Intellect',
+        'DND5E',
+        null,
+        null,
+        'Your Intelligence score is 19 while you wear this headband. It has no effect on you if your Intelligence is 19 or higher without it.',
+        'Set: Intelligence Score, Buff, Headwear',
+        'Dungeon Master’s Guide, pg. 173',
+        'uncommon',
+        'Wondrous Item',
+
         true,
         true,
         false,
         false,
         false,
         false,
+        false,
+        null,
+
         null,
         null,
         null,
         null,
         null,
+
+        null,
+        null,
+
+        null,
+        17
+       ),
+       (
+        'Gauntlets of Ogre Power',
+        'DND5E',
+        null,
+        null,
+        'Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them.',
+        'Set: Strength Score, Buff, Handwear',
+        'Dungeon Master’s Guide, pg. 171',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
         null,
         null,
         null,
-        5
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
        )
