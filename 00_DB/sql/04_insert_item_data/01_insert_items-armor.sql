@@ -2991,4 +2991,72 @@ VALUES (
 
         null,
         17
+       ),
+       (
+        'Bracers of Defense',
+        'DND5E',
+        null,
+        null,
+        'While wearing these bracers, you gain a +2 bonus to Armor Class if you are wearing no armor and using no Shield.',
+        'Bonus: Unarmored Armor Class, Warding, Wristwear',
+        'Dungeon Master’s Guide, pg. 156',
+        'rare',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+       ),
+       (
+        'Cloak of Arachnida',
+        'DND5E',
+        null,
+        null,
+        'This fine garment is made of black silk interwoven with faint, silvery threads. While wearing it, you gain the following benefits.
+                *Poison Resistance.* You have Resistance to Poison damage.
+                *Spider Climb.* You have a Climb Speed equal to your Speed and can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free.
+                *Spider Walk.* You can’t be caught in webs of any sort and can move through webs as if they were Difficult Terrain.
+                *Web.* You can cast Web (save DC 13). The web created by the spell fills twice its normal area. Once used, this property can’t be used again until the next dawn.',
+        'Resistance: Poison, Set: Innate Speed (Climbing), Control, Buff, Movement, Warding, Outerwearr',
+        'Dungeon Master’s Guide, pg. 158',
+        'very rare',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
        )

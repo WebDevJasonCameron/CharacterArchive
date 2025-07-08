@@ -1505,6 +1505,38 @@ VALUES(
 
        null,
        17
+      ),
+      (
+       'Medallion of Thoughts',
+       'DND5E',
+       null,
+       null,
+       'The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the detect thoughts spell (save DC 13) from it. The medallion regains 1d3 expended charges daily at dawn.',
+       'Social, Detection',
+       'Basic Rules (2014), pg. 181',
+       'uncommon',
+       'Wondrous Item',
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
 
 
