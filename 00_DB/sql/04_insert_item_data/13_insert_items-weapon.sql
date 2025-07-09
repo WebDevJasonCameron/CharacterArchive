@@ -9356,5 +9356,72 @@ VALUES(
 
        null,
        17
+      ),
+      (
+       'Arrow of Slaying',
+       'DND5E',
+       null,
+       null,
+       'An arrow of slaying is a magic weapon meant to slay a particular kind of creature. Some are more focused than others; for example, there are both arrows of dragon slaying and arrows of blue dragon slaying. If a creature belonging to the type, race, or group associated with an arrow of slaying takes damage from the arrow, the creature must make a DC 17 Constitution saving throw, taking an extra 6d10 piercing damage on a failed save, or half as much extra damage on a successful one.
+            Once an arrow of slaying deals its extra damage to a creature, it becomes a nonmagical arrow.
+            Other types of magic ammunition of this kind exist, such as bolts of slaying meant for a crossbow, though arrows are most common.',
+       'Damage: Piercing, Damage, Combat, Bane',
+       null,
+       'very rare',
+       null,
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       '6d10 (DC 17 Constitution for Half Damage)',
+       'Piercing',
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Wand of Lightning Bolts',
+       'DND5E',
+       null,
+       null,
+       'This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the lightning bolt spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+            *Regaining Charges.* The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.',
+       'Spellcaster, Damage, Combat',
+       'Dungeon Master’s Guide, pg. 320',
+       'rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       true,
+       7,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
       )
 
