@@ -1723,4 +1723,36 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Bucket',
+       'DND5E',
+       '2 lb',
+       '5 cp',
+       'A bucket can hold 3 gallons of liquid, or 1/2 cubic foot of solid material.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

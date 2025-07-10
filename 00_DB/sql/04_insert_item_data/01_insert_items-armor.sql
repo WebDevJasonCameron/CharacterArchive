@@ -3059,4 +3059,36 @@ VALUES (
 
         null,
         17
+       ),
+       (
+        'Hat of Disguise',
+        'DND5E',
+        null,
+        null,
+        'While wearing this hat, you can cast the Disguise Self spell. The spell ends if the hat is removed.',
+        'Deception, Headwear',
+        'Dungeon Master’s Guide, pg. 173',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
        )

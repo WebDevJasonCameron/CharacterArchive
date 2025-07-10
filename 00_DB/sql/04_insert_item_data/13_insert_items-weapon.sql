@@ -9423,5 +9423,177 @@ VALUES(
 
        null,
        17
-      )
+      ),
+      (
+       'Wand of Web',
+       'DND5E',
+       null,
+       null,
+       'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the web spell (save DC 15) from it.
+            The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.',
+       'spellcaster, control',
+       'Dungeon Master’s Guide, pg. 322',
+       'uncommon',
+       'yes',
 
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       true,
+       7,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Lance',
+       'DND5E',
+       '6 lb',
+       '10 gp',
+       'Proficiency with a Lance allows you to add your proficiency bonus to the attack roll for any attack you make with it. A Lance requires two hands to wield when you aren''t mounted.
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+       'bonus: magic, damage, combat, reach, special',
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       true,
+       false,
+       false,
+       null,
+
+       '10 ft',
+       '1d10',
+       'piercing',
+       'Reach, Topple, Heavy, Two-Handed (unless mounted)',
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+          'Lance, +1',
+          'DND5E',
+          '6 lb',
+          null,
+          'You have a +1 bonus to attack and damage rolls made with this magic weapon.
+                Proficiency with a Lance allows you to add your proficiency bonus to the attack roll for any attack you make with it. A Lance requires two hands to wield when you aren''t mounted.
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+          'bonus: magic, damage, combat, reach, special',
+          null,
+          null,
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          '10 ft',
+          '1d10+1',
+          'Piercing',
+          'Reach, Topple, Heavy, Two-Handed (unless mounted)',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Lance, +2',
+          'DND5E',
+          '6 lb',
+          null,
+          'You have a +2 bonus to attack and damage rolls made with this magic weapon.
+                Proficiency with a Lance allows you to add your proficiency bonus to the attack roll for any attack you make with it. A Lance requires two hands to wield when you aren''t mounted.
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+          'bonus: magic, damage, combat, reach, special',
+          null,
+          null,
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          '10 ft',
+          '1d10+2',
+          'Piercing',
+          'Reach, Topple, Heavy, Two-Handed (unless mounted)',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+
+      (
+          'Lance, +3',
+          'DND5E',
+          '6 lb',
+          null,
+          'You have a +3 bonus to attack and damage rolls made with this magic weapon.
+                Proficiency with a Lance allows you to add your proficiency bonus to the attack roll for any attack you make with it. A Lance requires two hands to wield when you aren''t mounted.
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
+          'bonus: magic, damage, combat, reach, special',
+          null,
+          null,
+          null,
+
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          '10 ft',
+          '1d10+3',
+          'Piercing',
+          'Reach, Topple, Heavy, Two-Handed (unless mounted)',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      )

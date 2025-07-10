@@ -1660,37 +1660,45 @@ VALUES(
 
      null,
      17
-      ),(
-         'Hat of Disguise', 'DND5E', null, null, 'While wearing this hat, you can use an action to cast thedisguise selfspell from it at will. The spell ends if the hat is removed.', 'deception, headwear', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Wand of Web', 'DND5E', null, null, 'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the[web](https://www.dndbeyond.com/spells/web)spell (save DC 15) from it.
-The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.', 'spellcaster, control', null, NULL, 'uncommon', 'yes', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Broom of Flying', 'DND5E', null, null, 'This wooden broom, which weighs 3 pounds, functions like a mundane broom until you stand astride it and speak its command word. It then hovers beneath you and can be ridden in the air. It has a flying speed of 50 feet. It can carry up to 400 pounds, but its flying speed becomes 30 feet while carrying over 200 pounds. The broom stops hovering when you land.
-You can send the broom to travel alone to a destination within 1 mile of you if you speak the command word, name the location, and are familiar with that place. The broom comes back to you when you speak another command word, provided that the broom is still within 1 mile of you.', 'set: speed (flying), movement, utility, exploration', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Eyes of Charming', 'DND5E', null, null, 'These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast thecharm personspell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn.', 'control, social, eyewear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Warship', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Bucket', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Lance, +1', 'DND5E', null, null, 'WeaponType:: lance
-Common:: uncommon
-You have a +1 bonus to attack and damage rolls made with this magic weapon.
-Proficiency with a lance allows you to add your proficiency bonus to the attack roll for any attack you make with it.
-You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you arennullt mounted.', 'bonus: magic, damage, combat, reach, special', NULL, NULL, null, null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Cold Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to cold damage for 1 hour.', 'resistance: cold, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Radiant Resistance', 'DND5E', null, null, 'You have resistance to radiant damage while wearing this topaz ring.', 'resistance: radiant, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+      ),
+    (
+     'Eyes of Charming',
+     'DND5E',
+     null,
+     null,
+     'These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the charm person spell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn.',
+     'Control, Social, Eyewear',
+     'Dungeon Master’s Guide, pg. 261',
+     'uncommon',
+     'Wondrous Item',
+
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     3,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     5
+      ),
+    (
+         'Ring of Radiant Resistance', 'DND5E', null, null, 'You have resistance to radiant damage while wearing this topaz ring.', 'resistance: radiant, warding, jewelry', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Rod of Absorption', 'DND5E', null, null, 'While holding this rod, you can use your reaction to absorb a spell that is targeting only you and not with an area of Effect. The absorbed spellnulls Effect is canceled, and the spellnulls energy -- not the spell itself -- is stored in the rod. The energy has the same level as the spell when it was cast. The rod can absorb and store up to 50 levels of energy over the course of its existence. Once the rod absorbs 50 levels of energy, it cannullt absorb more. If you are targeted by a spell that the rod cannullt store, the rod has no Effect on that spell.
 When you become attuned to the rod, you know how many levels of energy the rod has absorbed over the course of its existence, and how many levels of spell energy it currently has stored.
 If you are a spellcaster holding the rod, you can convert energy stored in it into spell slots to cast spells you have prepared or know. You can create spell slots only of a level equal to or lower than your own spell slots, up to a maximum of 5th level. You use the stored levels in place of your slots, but otherwise cast the spell as normal. For example, you can use 3 levels stored in the rod as a 3rd-level spell slot.
-A newly found rod has 1d10 levels of spell energy stored in it already. A rod that can no longer absorb spell energy and has no energy remaining becomes nonmagical.', 'utility, warding', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+A newly found rod has 1d10 levels of spell energy stored in it already. A rod that can no longer absorb spell energy and has no energy remaining becomes nonmagical.', 'utility, warding', null, null, 'very rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Philter of Love', 'DND5E', null, null, 'The next time you see a creature within 10 minutes after drinking this philter, you become[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed). This potionnulls rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.', 'charmed, control, consumable', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Philter of Love', 'DND5E', null, null, 'The next time you see a creature within 10 minutes after drinking this philter, you become[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed). This potionnulls rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.', 'charmed, control, consumable', null, null, 'uncommon', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Ring of Shooting Stars', 'DND5E', null, null, 'While wearing this ring in dim light or darkness, you can castdancing lightsandlightfrom the ring at will. Casting either spell from the ring requires an action.
 The ring has 6 charges for the following other properties. The ring regains 1d6 expended charges daily at dawn.
@@ -1703,32 +1711,32 @@ As a bonus action, you can move each sphere up to 30 feet, but no farther than 1
 | 3       | 2d6              |
 | 2       | 5d4              |
 | 1       | 4d12             |
-Shooting Stars.You can expend 1 to 3 charges as an action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of you. Each creature within a 15-foot cube originating from that point is showered in sparks and must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one.', 'damage, utility, combat, jewelry', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Shooting Stars.You can expend 1 to 3 charges as an action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of you. Each creature within a 15-foot cube originating from that point is showered in sparks and must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one.', 'damage, utility, combat, jewelry', null, null, 'very rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Wand of Polymorph', 'DND5E', null, null, 'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the[polymorph](https://www.dndbeyond.com/spells/polymorph)spell (save DC 15) from it.
-The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.', 'spellcaster, control, shapechanging', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.', 'spellcaster, control, shapechanging', null, null, 'very rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Donkey (or Mule)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Donkey (or Mule)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Pole (10-foot)', 'DND5E', null, null, 'Type:Adventuring Gear
 Weight:7 lbs
-When you suspect a trap, you can put the end of your 10-foot pole through that hole in the wall instead of reaching in with your hand.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+When you suspect a trap, you can put the end of your 10-foot pole through that hole in the wall instead of reaching in with your hand.', null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Smithnulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Smithnulls Tools', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Alchemistnulls Fire (flask)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Alchemistnulls Fire (flask)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Potion of Acid Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to acid damage for 1 hour.', 'resistance: acid, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Potion of Acid Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to acid damage for 1 hour.', 'resistance: acid, warding, consumable', null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Ram, Portable', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Ram, Portable', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Keelboat', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Keelboat', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Ring of X-ray Vision', 'DND5E', null, null, 'While wearing this ring, you can use an action to speak its command word. When you do so, you can see into and through solid matter for 1 minute. This vision has a radius of 30 feet. To you, solid objects within that radius appear transparent and donnullt prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead.
-Whenever you use the ring again before taking a long rest, you must succeed on a DC 15 Constitution saving throw or gain one level of[exhaustion](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Exhaustion).', 'see into and through solid matter within 30 feet, detection, utility, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Whenever you use the ring again before taking a long rest, you must succeed on a DC 15 Constitution saving throw or gain one level of[exhaustion](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Exhaustion).', 'see into and through solid matter within 30 feet, detection, utility, jewelry', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),
     (
-         'Boots of Levitation', 'DND5E', null, null, null, 'movement, utility, footwear', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Boots of Levitation', 'DND5E', null, null, null, 'movement, utility, footwear', null, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Potion of Animal Friendship', 'DND5E', null, null, 'When you drink this potion, you can cast theanimal friendshipspell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.', 'control, communication, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(

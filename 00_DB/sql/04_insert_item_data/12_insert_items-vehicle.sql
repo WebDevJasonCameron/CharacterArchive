@@ -747,4 +747,43 @@ VALUES
 
          null,
          5
+        ),
+        (
+         'Warship',
+         'DND5E',
+         null,
+         '25,000 gp',
+         'Warships have the following statistics:
+                *AC* 15
+                *HP* 500
+                *Speed* 2½ mph
+                *Damage Threshold* 20
+                *Crew* 60
+                *Passengers* 60
+                *Cargo (Tons)* 200',
+         null,
+         null,
+         'uncommon',
+         null,
+
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         null,
+
+         null,
+         null,
+         null,
+         null,
+         null,
+
+         null,
+         null,
+
+         null,
+         53
         )
