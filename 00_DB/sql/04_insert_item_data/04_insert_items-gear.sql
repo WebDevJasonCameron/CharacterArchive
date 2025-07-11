@@ -1755,4 +1755,100 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Pole (10-foot)',
+       'DND5E',
+       '7 lb',
+       '0.05 gp',
+       'When you suspect a trap, you can put the end of your 10-foot pole through that hole in the wall instead of reaching in with your hand.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Spyglass',
+       'DND5E',
+       null,
+       null,
+       'When you drink this potion, you can cast the animal friendship spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.',
+       'Control, Communication, Consumable',
+       'Basic Rules (2014), pg. 187',
+       null,
+       null,
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Blanket',
+       'DND5E',
+       '3 lb',
+       '5 sp',
+       'A thick, quilted, blanket made to keep you warm in cold weather.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

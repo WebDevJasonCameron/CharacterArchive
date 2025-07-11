@@ -204,4 +204,38 @@ VALUES(
 
        null,
        17
+      ),
+      (
+       'Donkey (or Mule)',
+       'DND5E',
+       '420 lb',
+       '8 gp',
+       'Mule Statistics
+            A good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.
+            An animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

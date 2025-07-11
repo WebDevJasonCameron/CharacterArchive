@@ -1257,4 +1257,69 @@ VALUES
 
      null,
      17
+    ),
+    (
+     'Potion of Acid Resistance',
+     'DND5E',
+     null,
+     null,
+     'When you drink this potion, you gain resistance to acid damage for 1 hour.',
+     'Resistance: Acid, Warding, Consumable',
+     null,
+     'uncommon',
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     17
+    ),
+    (
+     'Potion of Animal Friendship',
+     'DND5E',
+     null,
+     null,
+     'When you drink this potion, you can cast the animal friendship spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.',
+     'Control, Communication, Consumable',
+     'Basic Rules (2014), pg. 187',
+     'uncommon',
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
     )
+

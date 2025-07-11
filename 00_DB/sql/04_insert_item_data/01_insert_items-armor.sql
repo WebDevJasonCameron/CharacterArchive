@@ -3091,4 +3091,36 @@ VALUES (
 
         null,
         17
+       ),
+       (
+        'Boots of Levitation',
+        'DND5E',
+        null,
+        null,
+        'While you wear these boots, you can cast Levitate on yourself.',
+        'Movement, Utility, Footwear',
+        'Dungeon Master’s Guide, pg. 155',
+        'rare',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )

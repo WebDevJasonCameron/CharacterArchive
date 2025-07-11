@@ -786,4 +786,43 @@ VALUES
 
          null,
          53
+        ),
+        (
+         'Keelboat',
+         'DND5E',
+         null,
+         '3,000 gp',
+         'Keelboats have the following statistics:
+                *AC* 15
+                *HP* 100
+                *Speed* 1 mph
+                *Damage Threshold* 10
+                *Crew* 1
+                *Passengers* 6
+                *Cargo (Tons)* 1/2',
+         null,
+         null,
+         null,
+         null,
+
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         false,
+         null,
+
+         null,
+         null,
+         null,
+         null,
+         null,
+
+         null,
+         null,
+
+         null,
+         5
         )

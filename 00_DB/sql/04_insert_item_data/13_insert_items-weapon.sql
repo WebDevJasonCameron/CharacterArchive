@@ -9596,4 +9596,133 @@ VALUES(
 
           null,
           17
+      ),
+      (
+       'Wand of Polymorph',
+       'DND5E',
+       null,
+       null,
+       'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the polymorph spell (save DC 15) from it.
+            The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.',
+       'Spellcaster, Control, Shapechanging',
+       'Dungeon Master’s Guide, pg. 321',
+       'very rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       true,
+       7,
+
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Ram, Portable',
+       'DND5E',
+       '35 lb',
+       '4 gp',
+       'You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       53
+      ),
+      (
+       'Hammer',
+       'DND5E',
+       '3 lb',
+       '1 gp',
+       'This one-handed hammer with an iron head is useful for pounding pitons into a wall.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Hammer, Sledge',
+       'DND5E',
+       '10 lb',
+       '2 gp',
+       'This two-handed, iron-headed hammer is good for smashing open treasure chests.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

@@ -1537,6 +1537,115 @@ VALUES(
 
        null,
        5
-      )
+      ),
+      (
+       'Ring of Radiant Resistance',
+       'DND5E',
+       null,
+       null,
+       'You have resistance to radiant damage while wearing this topaz ring.',
+       'Resistance: Radiant, Warding, Jewelry',
+       null,
+       'rare',
+       null,
 
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Ring of Shooting Stars',
+       'DND5E',
+       null,
+       null,
+       'While wearing this ring in dim light or darkness, you can cast dancing lights and light from the ring at will. Casting either spell from the ring requires an action.
+                The ring has 6 charges for the following other properties. The ring regains 1d6 expended charges daily at dawn.
+                *Faerie Fire.* You can expend 1 charge as an action to cast faerie fire from the ring.
+                *Ball Lightning.* You can expend 2 charges as an action to create one to four 3-foot-diameter spheres of lightning. The more spheres you create, the less powerful each sphere is individually.
+                Each sphere appears in an unoccupied space you can see within 120 feet of you. The spheres last as long as you concentrate (as if concentrating on a spell), up to 1 minute. Each sphere sheds dim light in a 30-foot radius.
+                As a bonus action, you can move each sphere up to 30 feet, but no farther than 120 feet away from you. When a creature other than you comes within 5 feet of a sphere, the sphere discharges lightning at that creature and disappears. That creature must make a DC 15 Dexterity saving throw. On a failed save, the creature takes lightning damage based on the number of spheres you created.
+
+                | *Spheres* | *Lightning Damage* |
+                | --- | --- |
+                | 4 | 2d4 |
+                | 3 | 2d6 |
+                | 2 | 5d4 |
+                | 1 | 4d12 |
+                *Shooting Stars.* You can expend 1 to 3 charges as an action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of you. Each creature within a 15-foot cube originating from that point is showered in sparks and must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one.',
+       'Damage, Utility, Combat, Jewelry',
+       'Basic Rules (2014), pg. 192',
+       'very rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       true,
+       6,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Ring of X-ray Vision',
+       'DND5E',
+       null,
+       null,
+       'While wearing this ring, you can take a Magic action to gain X-ray vision with a range of 30 feet for 1 minute. To you, solid objects within that radius appear transparent and don’t prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead block the vision.
+            Whenever you use the ring again before taking a Long Rest, you must succeed on a DC 15 Constitution saving throw or gain 1 Exhaustion level.',
+       null,
+       'Dungeon Master’s Guide, pg. 296',
+       'rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      )
 
