@@ -1756,41 +1756,517 @@ VALUES(
 
      null,
      17
-      ),(
-         'Orb', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dagger of Venom', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
-You can use an action to cause thick, black poison to coat the blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 poison damage and become[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned)for 1 minute. The dagger cannullt be used this way again until the next dawn.
-Proficiency with a dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: poison, bonus: magic, poisoned, damage, debuff, combat, finesse, light, thrown', NULL, NULL, 'rare', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Shawm', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+      ),
+    (
+     'Orb',
+     'DND5E',
+     '3 lb',
+     '20 gp',
+     'An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section.',
+     null,
+     null,
+     'common',
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+      (
+          'Orb of Direction',
+          'DND5E',
+          null,
+          null,
+          'While holding this orb, you can use an action to determine which way is north. This property functions only on the Material Plane.',
+          null,
+          'Xanathar''s Guide to Everything, pg. 138',
+          'common',
+          'Wondrous item',
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          84
+      ),
+      (
+          'Orb of Shielding (Acid and Poison)',
+          'DND5E',
+          null,
+          null,
+          'An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you''re a spellcaster, you can use this orb as a spellcasting focus.
+                If you''re holding the orb when you take damage of the type associated with the orb''s material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0). An orb of acid and poison shielding - also called a Kythrian skarn orb - reduces any acid and poison damage you take by 1d4.',
+          null,
+          null,
+          'common',
+          'Wondrous item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          82
+      ),
+      (
+          'Orb of Shielding (Cold)',
+          'DND5E',
+          null,
+          null,
+          'An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you''re a spellcaster, you can use this orb as a spellcasting focus.
+                If you''re holding the orb when you take damage of the type associated with the orb''s material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0). An orb of cold shielding - also called a Risian shale orb - reduces any cold damage you take by 1d4.',
+          null,
+          null,
+          'common',
+          'Wondrous item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          82
+      ),
+      (
+          'Orb of Shielding (Fire)',
+          'DND5E',
+          null,
+          null,
+          'An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you''re a spellcaster, you can use this orb as a spellcasting focus.
+                If you''re holding the orb when you take damage of the type associated with the orb''s material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0). An orb of fire shielding - also called a Fernian basalt orb - reduces any fire damage you take by 1d4.',
+          null,
+          null,
+          'common',
+          'Wondrous item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          82
+      ),
+      (
+          'Orb of Shielding (Force)',
+          'DND5E',
+          null,
+          null,
+          'An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you''re a spellcaster, you can use this orb as a spellcasting focus.
+                If you''re holding the orb when you take damage of the type associated with the orb''s material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0). An orb of force shielding - also called a Shavarran chert orb - reduces any force damage you take by 1d4.',
+          null,
+          null,
+          'common',
+          'Wondrous item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          82
+      ),
+      (
+          'Orb of Shielding (Lightning and Thunder)',
+          'DND5E',
+          null,
+          null,
+          'An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you''re a spellcaster, you can use this orb as a spellcasting focus.
+                If you''re holding the orb when you take damage of the type associated with the orb''s material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0). An orb of lightning and thunder shielding - also called a Lamannian flint orb - reduces any lightning and thunder damage you take by 1d4.',
+          null,
+          null,
+          'common',
+          'Wondrous item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          82
+      ),
+      (
+          'Orb of Shielding (Necrotic)',
+          'DND5E',
+          null,
+          null,
+          'An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you''re a spellcaster, you can use this orb as a spellcasting focus.
+                If you''re holding the orb when you take damage of the type associated with the orb''s material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0). An orb of necrotic shielding - also called a Mabaran obsidian orb - reduces any necrotic damage you take by 1d4.',
+          null,
+          null,
+          'common',
+          'Wondrous item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          82
+      ),
+      (
+          'Orb of Shielding (Psychic)',
+          'DND5E',
+          null,
+          null,
+          'An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you''re a spellcaster, you can use this orb as a spellcasting focus.
+                If you''re holding the orb when you take damage of the type associated with the orb''s material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0). An orb of psychic shielding - also called a Xorian marble orb - reduces any psychic damage you take by 1d4.',
+          null,
+          null,
+          'common',
+          'Wondrous item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          82
+      ),
+      (
+          'Orb of Shielding (Radiant)',
+          'DND5E',
+          null,
+          null,
+          'An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you''re a spellcaster, you can use this orb as a spellcasting focus.
+                If you''re holding the orb when you take damage of the type associated with the orb''s material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0). An orb of radiant shielding - also called an irian quartz orb - reduces any radiant damage you take by 1d4.',
+          null,
+          null,
+          'common',
+          'Wondrous item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          82
+      ),
+      (
+          'Orb of Shielding (Thunder)',
+          'DND5E',
+          null,
+          null,
+          'While wielding an orb of shielding, you receive a +1 bonus to any saving throws you make against a spell that inflicts a particular type of damage.
+                An orb of thunder shielding — also called a Lamannian orb — provides a +1 bonus to saving throws against thunder damage.',
+          null,
+          null,
+          'common',
+          'Wondrous item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          82
+      ),
+      (
+          'Orb of Time',
+          'DND5E',
+          null,
+          null,
+          'While holding this orb, you can use an action to determine whether it is morning, afternoon, evening, or nighttime outside. This property functions only on the Material Plane.',
+          null,
+          'Xanathar''s Guide to Everything, pg. 138',
+          'common',
+          'Wondrous item',
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          84
+      ),
+      (
+          'Orb of Dragonkind',
+          'DND5E',
+          null,
+          null,
+          'Ages past, elves and humans waged a terrible war against evil dragons. When the world seemed doomed, powerful wizards came together and worked their greatest magic, forging five Orbs of Dragonkind (or Dragon Orbs) to help them defeat the dragons. One orb was taken to each of the five wizard towers, and there they were used to speed the war toward a victorious end. The wizards used the orbs to lure dragons to them, then destroyed the dragons with powerful magic.
+                As the wizard towers fell in later ages, the orbs were destroyed or faded into legend, and only three are thought to survive. Their magic has been warped and twisted over the centuries, so although their primary purpose of calling dragons still functions, they also allow some measure of control over dragons.
+                Each orb contains the essence of an evil dragon, a presence that resents any attempt to coax magic from it. Those lacking in force of personality might find themselves enslaved to an orb.
+                An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.
+                While attuned to an orb, you can use an action to peer into the orb’s depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become charmed by the orb for as long as you remain attuned to it.
+                While you are charmed by the orb, you can’t voluntarily end your attunement to it, and the orb casts suggestion on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of Tiamat, or something else the GM decides.
+                *Random Properties*
+                An Orb of Dragonkind has the following random properties:
+                - 2 minor beneficial properties
+                - 1 minor detrimental property
+                - 1 major detrimental property
+                *Spells*
+                The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: cure wounds (5th-level version, 3 charges), daylight (1 charge), death ward (2 charges), or scrying (3 charges).
+                You can also use an action to cast the detect magic spell from the orb without using any charges.
+                *Call Dragons*
+                While you control the orb, you can use an action to cause the artifact to issue a telepathic call that extends in all directions for 40 miles. Evil dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities such as Tiamat are unaffected by this call. Dragons drawn to the orb might be hostile toward you for compelling them against their will. Once you have used this property, it can’t be used again for 1 hour.
+                *Destroying an Orb*
+                An Orb of Dragonkind appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A disintegrate spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.',
+          null,
+          'Player’s Handbook (2014), pg. 225',
+          'artifact',
+          'Wondrous item',
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          7,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Murgaxor''s Orb',
+          'DND5E',
+          null,
+          null,
+          'Roiling green mist fills this glass orb, which the exiled Strixhaven mage Murgaxor once used in foul magical experiments. Murgaxor’s spirit has infused the orb, which he uses to spread a terrible curse among Strixhaven’s students.
+                *Sentience.* Murgaxor’s orb is a sentient, chaotic evil magic item with the following properties:
+                - The orb has an Intelligence of 20, a Wisdom of 16, and a Charisma of 16, as well as hearing and darkvision out to a range of 30 feet.
+                - The orb can speak, read, and understand Common, and it can communicate telepathically with any creature touching it.
+                - At any time during your turn, the orb can cast the suggestion spell (save DC 17), targeting you or one other creature that touched the orb within the last 24 hours. This isn’t a power of the orb that you control.
+                - Curse. Any Humanoid you touch while holding the orb must succeed on a DC 10 Wisdom saving throw or become cursed. Each creature cursed by the orb bears an echo of Murgaxor’s hateful thoughts, and that creature suffers from headaches that are persistent but not debilitating until the curse ends. On your turn, the orb can use an action to produce one of the following effects, targeting one or more creatures it has cursed:
+                *Unconsciousness.* The cursed creature falls unconscious for 1 hour. The creature is roused if it takes damage or someone uses an action to shake or slap it awake.
+                *Visions of Terror.* The cursed creature sees terrifying visions, causing it to view all creatures that aren’t also cursed as dangerous monsters for 10 minutes. The cursed creature must use its action each round to make one attack against the nearest non-cursed creature. If the cursed creature has multiple possible targets, it attacks one at random. This effect ends if the cursed creature is incapacitated.
+                After either of these effects ends, the affected creature is no longer cursed. The curse can also be removed from a creature with a remove curse spell or similar magic. All cases of the curse end if Murgaxor’s orb is destroyed.
+                *Magical Signature.* As a side effect of the orb’s curse, the spell detect magic reveals an aura of enchantment surrounding creatures bearing the curse. This aura is distinctive, but in a way detect magic offers no further details about.
+                *Destroying the Orb.* Murgaxor’s orb has AC 18; 20 hit points; immunity to necrotic, poison, and psychic damage; and resistance to all other types of damage. If reduced to 0 hit points, the orb shatters.',
+          null,
+          'Strixhaven: A Curriculum of Chaos, pg. 126',
+          'legendary',
+          'Wondrous item',
+
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          63
       ),(
          'Bowl of Commanding Water Elementals', 'DND5E', null, null, 'While this bowl is filled with water, you can use an action to speak the bowlnulls command word and summon aWater elemental, as if you had cast theconjure elementalspell. The bowl cannullt be used this way again until the next dawn.
-The bowl is about 1 foot in diameter and half as deep. It weighs 3 pounds and holds about 3 gallons.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+The bowl is about 1 foot in diameter and half as deep. It weighs 3 pounds and holds about 3 gallons.', 'summoning', null, null, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Necklace of Adaptation', 'DND5E', null, null, 'While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such ascloudkillandstinking cloudeffects, inhaled poisons, and the breath weapons of some dragons).', 'advantage: saving throws, buff, warding, jewelry', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Necklace of Adaptation', 'DND5E', null, null, 'While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such ascloudkillandstinking cloudeffects, inhaled poisons, and the breath weapons of some dragons).', 'advantage: saving throws, buff, warding, jewelry', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Signal Whistle', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Signal Whistle', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Sling Bullets', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Sling Bullets', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Quiver', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Quiver', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Staff of Charming', 'DND5E', null, null, 'While holding this staff, you can use an action to expend 1 of its 10 charges to castcharm person,command, orcomprehend languagesfrom it using your spell save DC. The staff can also be used as a magic quarterstaff.
 If you are holding the staff and fail a saving throw against an enchantment spell that targets only you, you can turn your failed save into a successful one. You cannullt use this property of the staff again until the next dawn. If you succeed on a save against an enchantment spell that targets only you, with or without the staffnulls intervention, you can use your reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.
 The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff.
-Item Tags:CONTROLCOMMUNICATION', 'bard, cleric, druid, sorcerer, warlock, or wizard, control, communication', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Item Tags:CONTROLCOMMUNICATION', 'bard, cleric, druid, sorcerer, warlock, or wizard, control, communication', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Brewernulls Supplies', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Brewernulls Supplies', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Keoghtomnulls Ointment', 'DND5E', null, null, 'This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh 1/2 pound.
-As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease.', 'bonus: hit points, ceases poison, cures diseases, healing, consumable', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease.', 'bonus: hit points, ceases poison, cures diseases, healing, consumable', null, null, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Ladder (10 foot)', 'DND5E', null, null, 'Type:Adventuring Gear
 Weight:25 lbs
-This item is a straight, simple wooden ladder.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+This item is a straight, simple wooden ladder.', null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Crowbar', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Crowbar', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Crystal Ball of Telepathy', 'DND5E', null, null, 'This crystal ball is about 6 inches in diameter. While touching it, you can cast thescryingspell (save DC 17) with it.
 While scrying with the crystal ball, you can communicate telepathically with creatures you can see within 30 feet of the spell’s sensor. You can also use an action to cast thesuggestionspell (save DC 17) through the sensor on one of those creatures. You don’t need to concentrate on thissuggestionto maintain it during its duration, but it ends ifscryingends. Once used, thesuggestionpower of the crystal ball can’t be used again until the next dawn.', 'control, communication, scrying, detection', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
