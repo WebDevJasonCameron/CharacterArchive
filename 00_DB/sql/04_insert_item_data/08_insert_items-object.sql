@@ -2240,10 +2240,41 @@ VALUES(
 
           null,
           63
-      ),(
-         'Bowl of Commanding Water Elementals', 'DND5E', null, null, 'While this bowl is filled with water, you can use an action to speak the bowlnulls command word and summon aWater elemental, as if you had cast theconjure elementalspell. The bowl cannullt be used this way again until the next dawn.
-The bowl is about 1 foot in diameter and half as deep. It weighs 3 pounds and holds about 3 gallons.', 'summoning', null, null, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
+      ),
+    (
+     'Bowl of Commanding Water Elementals',
+     'DND5E',
+     null,
+     null,
+     'While this bowl is filled with water, you can use an action to speak the bowl''s command word and summon a water elemental, as if you had cast the conjure elemental spell. The bowl can''t be used this way again until the next dawn.
+            The bowl is about 1 foot in diameter and half as deep. It weighs 3 pounds and holds about 3 gallons.',
+     'Summoning',
+     'Basic Rules (2014), pg. 156',
+     'rare',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
          'Necklace of Adaptation', 'DND5E', null, null, 'While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such ascloudkillandstinking cloudeffects, inhaled poisons, and the breath weapons of some dragons).', 'advantage: saving throws, buff, warding, jewelry', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Signal Whistle', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
