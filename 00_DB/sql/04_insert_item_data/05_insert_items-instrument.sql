@@ -839,4 +839,36 @@ VALUES(
 
           null,
           5
+      ),
+      (
+       'Signal Whistle',
+       'DND5E',
+       null,
+       '5 cp',
+       'A small whistle used for signaling.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

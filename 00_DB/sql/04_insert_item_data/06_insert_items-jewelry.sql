@@ -1647,5 +1647,37 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Necklace of Adaptation',
+       'DND5E',
+       null,
+       null,
+       'While wearing this necklace, you can breathe normally in any environment, and you have Advantage on saving throws made to avoid or end the Poisoned condition.',
+       'Advantage: Saving Throws, Buff, Warding, Jewelry',
+       'Dungeon Master’s Guide, pg. 182',
+       'uncommon',
+       'Wondrous Item',
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
       )
 
