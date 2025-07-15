@@ -1851,4 +1851,100 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Ladder (10 foot)',
+       'DND5E',
+       '25 lb',
+       '1 sp',
+       'This item is a straight, simple wooden ladder.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Crowbar',
+       'DND5E',
+       '5 lb',
+       '2 gp',
+       'Using a crowbar grants advantage to Strength checks where the crowbar''s leverage can be applied.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+          'Dice Set',
+          'DND5E',
+          null,
+          '1 sp',
+          'If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
       )

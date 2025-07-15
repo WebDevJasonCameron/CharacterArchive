@@ -2275,79 +2275,57 @@ VALUES(
      5
       ),
     (
-         'Brewernulls Supplies', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Keoghtomnulls Ointment', 'DND5E', null, null, 'This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh 1/2 pound.
-As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease.', 'bonus: hit points, ceases poison, cures diseases, healing, consumable', null, null, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Ladder (10 foot)', 'DND5E', null, null, 'Type:Adventuring Gear
-Weight:25 lbs
-This item is a straight, simple wooden ladder.', null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Crowbar', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Crystal Ball of Telepathy', 'DND5E', null, null, 'This crystal ball is about 6 inches in diameter. While touching it, you can cast thescryingspell (save DC 17) with it.
-While scrying with the crystal ball, you can communicate telepathically with creatures you can see within 30 feet of the spell’s sensor. You can also use an action to cast thesuggestionspell (save DC 17) through the sensor on one of those creatures. You don’t need to concentrate on thissuggestionto maintain it during its duration, but it ends ifscryingends. Once used, thesuggestionpower of the crystal ball can’t be used again until the next dawn.', 'control, communication, scrying, detection', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Iron Bands of Binding', 'DND5E', null, null, 'This rusty iron sphere measures 3 inches in diameter and weighs 1 pound. You can use an action to speak the command word and throw the sphere at a Huge or smaller creature you can see within 60 feet of you. As the sphere moves through the air, it opens into a tangle of metal bands.
-Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your proficiency bonus. On a hit, the target is[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained)until you take a bonus action to speak the command word again to release it. Doing so, or missing with the attack, causes the bands to contract and become a sphere once more.
-A creature, including the one[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained), can use an action to make a DC 20 Strength check to break the iron bands. On a success, the item is destroyed, and the[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained)creature is freed. If the check fails, any further attempts made by that creature automatically fail until 24 hours have elapsed.
-Once the bands are used, they cannullt be used again until the next dawn.', 'control, utility', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Wand of Wonder', 'DND5E', null, null, 'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and choose a target within 120 feet of you. The target can be a creature, an object, or a point in space. Roll d100 and consult the following table to discover what happens.
-If the Effect causes you to cast a spell from the wand, the spellnulls save DC is 15. If the spell normally has a range expressed in feet, its range becomes 120 feet if it isnnullt already. If an Effect covers an area, you must center the spell on and include the target. If an Effect has multiple possible subjects, the GM randomly determines which ones are affected.
-The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into dust and is destroyed.
-| d100 | Effect |
-| 01-05 | You castslow. |
-| 06-10 | You castfaerie fire. |
-| 11-15 | You are[stunned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Stunned)until the start of your next turn, believing something awesome just happened. |
-| 16-20 | You castgust of wind. |
-| 21-25 | You castdetect thoughtson the target you chose. If you didnnullt target a creature, you instead take 1d6 psychic damage. |
-| 26-30 | You caststinking cloud. |
-| 31-33 | Heavy rain falls in a 60-foot radius centered on the target. The area becomes lightly obscured. The rain falls until the start of your next turn. |
-| 34-36 | An animal appears in the unoccupied space nearest the target. The animal isnnullt under your control and acts as it normally would. Roll a d100 to determine which animal appears. On a 01–25, arhinocerosappears; on a 26–50, anelephantappears; and on a 51–100, aratappears. |
-| 37-46 | You castlightning bolt. |
-| 47-49 | A cloud of 600 oversized butterflies fills a 30‐foot radius centered on the target. The area becomes heavily obscured. The butterflies remain for 10 minutes. |
-| 50-53 | You enlarge the target as if you had castenlarge  or reduce. If the target cannullt be affected by that spell, or if you didnnullt target a creature, you become the target. |
-| 54-58 | You castdarkness. |
-| 59-62 | Grass grows on the ground in a 60‐foot radius centered on the target. If grass is already there, it grows to ten times its normal size and remains overgrown for 1 minute. |
-| 63-65 | An object of the GMnulls choice disappears into the Ethereal Plane. The object must be neither worn nor carried, within 120 feet of the target, and no larger than 10 feet in any dimension. |
-| 66-69 | You shrink yourself as if you had castenlarge  or reduceon yourself. |
-| 70-79 | You castfireball. |
-| 80-84 | You castinvisibilityon yourself. |
-| 85-87 | Leaves grow from the target. If you chose a point in space as the target, leaves sprout from the creature nearest to that point. Unless they are picked off, the leaves turn brown and fall off after 24 hours. |
-| 88-90 | A stream of 1d4 × 10 gems, each worth 1 gp, shoots from the wandnulls tip in a line 30 feet long and 5 feet wide. Each gem deals 1 bludgeoning damage, and the total damage of the gems is divided equally among all creatures in the line. |
-| 91-95 | A burst of colorful shimmering light extends from you in a 30‐foot radius. You and each creature in the area that can see must succeed on a DC 15 Constitution saving throw or become[blinded](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Blinded)for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the Effect on itself on a success. |
-| 96-97 | The targetnulls skin turns bright blue for 1d10 days. If you chose a point in space, the creature nearest to that point is affected. |
-| 98-00 | If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didnnullt target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly[petrified](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Petrified). On any other failed save, the target is[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained)and begins to turn to stone. While[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained)in this way, the target must repeat the saving throw at the end of its next turn, becoming[petrified](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Petrified)on a failure or ending the Effect on a success. The petrification lasts until the target is freed by thegreater restorationspell or similar magic. |', 'petrified, spellcaster, damage, control, utility, combat, deception', NULL, NULL, 'rare', 'yes', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Feather Falling', 'DND5E', null, null, 'When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.', 'movement, warding, jewelry', NULL, NULL, null, null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Necrotic Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to necrotic damage for 1 hour.', 'resistance: necrotic, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dice Set', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Mace of Smiting', 'DND5E', null, null, 'You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the mace to attack a construct.
-When you roll a 20 on an attack roll made with this weapon, the target takes an extra7 bludgeoning damage, or 14 bludgeoning damage if itnulls a construct. If a construct has 25 hit points or fewer after taking this damage, it is destroyed.
-Proficiency with a mace allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage, combat, bane', NULL, NULL, null, null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Cart', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+     'Iron Bands of Binding',
+     'DND5E',
+     '1 lb',
+     null,
+     'This rusty iron sphere measures 3 inches in diameter and weighs 1 pound. You can use an action to speak the command word and throw the sphere at a Huge or smaller creature you can see within 60 feet of you. As the sphere moves through the air, it opens into a tangle of metal bands.
+            Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your proficiency bonus. On a hit, the target is restrained until you take a bonus action to speak the command word again to release it. Doing so, or missing with the attack, causes the bands to contract and become a sphere once more.
+            A creature, including the one restrained, can use an action to make a DC 20 Strength check to break the iron bands. On a success, the item is destroyed, and the restrained creature is freed. If the check fails, any further attempts made by that creature automatically fail until 24 hours have elapsed.',
+     'Control, Utility',
+     null,
+     'rare',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     1,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
+         'Cart', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Brazier of Commanding Fire Elementals', 'DND5E', null, null, 'While a fire burns in this brass brazier, you can use an action to speak the brazier’s command word and summon aFire elemental, as if you had cast theconjure elementalspell. The brazier can’t be used this way again until the next dawn.
-The brazier weighs 5 pounds.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+The brazier weighs 5 pounds.', 'summoning', null, null, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Disguise Kit', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Disguise Kit', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Dwarven Plate', 'DND5E', null, null, 'While wearing this armor, you gain a +2 bonus to AC. In addition, if an Effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet.
-Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'bonus: armor class, control, combat, warding, str 15 required, stealth disadvantage', NULL, NULL, 'very rare', null, false, false, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'bonus: armor class, control, combat, warding, str 15 required, stealth disadvantage', null, null, 'very rare', null, false, false, false, false, true, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Parchment (one sheet)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Parchment (one sheet)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Talisman of Ultimate Evil', 'DND5E', null, null, 'This item symbolizes unrepentant evil. A creature that is neither good nor evil in alignment takes 6d6 necrotic damage upon touching the talisman. A good creature takes 8d6 necrotic damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.
 If you are an evil cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.
-The talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed.', 'bonus: spell attacks, creature of evil alignment, control, buff, jewelry', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+The talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed.', 'bonus: spell attacks, creature of evil alignment, control, buff, jewelry', null, null, 'legendary', 'Wondrous Item', false, true, false, false, true, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Flute', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Flute', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Boots of Striding and Springing', 'DND5E', null, null, null, 'set: innate speed (walking), speed reduction: remove, buff, movement, utility, footwear', NULL, NULL, 'uncommon', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2664,9 +2642,6 @@ Item Tags:MOVEMENTSHAPECHANGINGDECEPTIONOUTERWEAR', 'advantage: stealth, set: in
          'Shovel', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Sealing Wax', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Crystal Ball of Mind Reading', 'DND5E', null, null, 'This crystal ball is about 6 inches in diameter. While touching it, you can cast thescryingspell (save DC 17) with it.
-You can use an action to cast thedetect thoughtsspell (save DC 17) while you are scrying with thecrystal ball, targeting creatures you can see within 30 feet of the spell’s sensor. You donnullt need to concentrate on thisdetect thoughtsto maintain it during its duration, but it ends ifscryingends.', 'scrying, detection', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Leatherworkernulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(

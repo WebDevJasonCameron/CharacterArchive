@@ -1679,5 +1679,37 @@ VALUES(
 
        null,
        17
+      ),
+      (
+       'Ring of Feather Falling',
+       'DND5E',
+       null,
+       null,
+       'When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.',
+       'Movement, Warding, Jewelry',
+       'Dungeon Master’s Guide, pg. 191',
+       null,
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
       )
 
