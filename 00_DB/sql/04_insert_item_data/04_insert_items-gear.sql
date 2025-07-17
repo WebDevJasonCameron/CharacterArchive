@@ -1947,4 +1947,36 @@ VALUES(
 
           null,
           5
+      ),
+      (
+       'Parchment (one sheet)',
+       'DND5E',
+       null,
+       '1 sp',
+       'A sheet of parchment is a piece of goat hide or sheepskin that has been prepared for writing on.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

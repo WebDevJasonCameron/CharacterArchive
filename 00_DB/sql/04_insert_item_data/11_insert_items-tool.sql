@@ -552,4 +552,39 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Disguise Kit',
+        'DND5E',
+        '3 lb',
+        '25 gp',
+        '*Ability:* Charisma
+            *Utilize:* Apply makeup (DC 10)
+            *Craft:* Costume
+            If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )

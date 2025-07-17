@@ -3123,4 +3123,69 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Dwarven Plate',
+        'DND5E',
+        null,
+        null,
+        'While wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet.
+            Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.',
+        'Bonus: Armor Class, Control, Combat, Warding, Str. 15 Required, Stealth Disadvantage',
+        'Basic Rules (2014), pg. 167',
+        'very rare',
+        null,
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Boots of Striding and Springing',
+        'DND5E',
+        null,
+        null,
+        'While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn''t reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can''t jump farther than your remaining movement would allow.',
+        'Set: Innate Speed (Walking), Speed Reduction: Remove, Buff, Movement, Utility, Footwear',
+        'Basic Rules (2014), pg. 156',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )

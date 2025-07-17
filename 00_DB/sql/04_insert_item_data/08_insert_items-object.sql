@@ -2309,25 +2309,37 @@ VALUES(
      5
       ),
     (
-         'Cart', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Brazier of Commanding Fire Elementals', 'DND5E', null, null, 'While a fire burns in this brass brazier, you can use an action to speak the brazier’s command word and summon aFire elemental, as if you had cast theconjure elementalspell. The brazier can’t be used this way again until the next dawn.
-The brazier weighs 5 pounds.', 'summoning', null, null, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Disguise Kit', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Dwarven Plate', 'DND5E', null, null, 'While wearing this armor, you gain a +2 bonus to AC. In addition, if an Effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet.
-Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'bonus: armor class, control, combat, warding, str 15 required, stealth disadvantage', null, null, 'very rare', null, false, false, false, false, true, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Parchment (one sheet)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Talisman of Ultimate Evil', 'DND5E', null, null, 'This item symbolizes unrepentant evil. A creature that is neither good nor evil in alignment takes 6d6 necrotic damage upon touching the talisman. A good creature takes 8d6 necrotic damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.
-If you are an evil cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.
-The talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed.', 'bonus: spell attacks, creature of evil alignment, control, buff, jewelry', null, null, 'legendary', 'Wondrous Item', false, true, false, false, true, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Flute', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Boots of Striding and Springing', 'DND5E', null, null, null, 'set: innate speed (walking), speed reduction: remove, buff, movement, utility, footwear', NULL, NULL, 'uncommon', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+     'Brazier of Commanding Fire Elementals',
+     'DND5E',
+     null,
+     null,
+     'While a fire burns in this brass brazier, you can use an action to speak the brazier’s command word and summon a fire elemental, as if you had cast the conjure elemental spell. The brazier can’t be used this way again until the next dawn.
+            The brazier weighs 5 pounds.',
+     'Summoning',
+     'Dungeon Master’s Guide, pg. 241',
+     'rare',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     1,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     17
       ),(
          'Woodcarvernulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
