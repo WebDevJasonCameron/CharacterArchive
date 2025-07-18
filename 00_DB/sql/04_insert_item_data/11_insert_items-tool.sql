@@ -587,4 +587,36 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Woodcarver''s Tools',
+        'DND5E',
+        null,
+        null,
+        'While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn''t reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can''t jump farther than your remaining movement would allow.',
+        'et: Innate Speed (Walking), Speed Reduction: Remove, Buff, Movement, Utility, Footwear',
+        'Dungeon Master’s Guide, pg. 240',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )

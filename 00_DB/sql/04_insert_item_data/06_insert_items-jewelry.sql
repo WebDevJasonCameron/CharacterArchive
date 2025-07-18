@@ -1745,5 +1745,37 @@ VALUES(
 
        null,
        17
+      ),
+      (
+       'Ring of Spell Turning',
+       'DND5E',
+       null,
+       null,
+       'While wearing this ring, you have advantage on saving throws against any spell that targets only you (not in an area of effect). In addition, if you roll a 20 for the save and the spell is 7th level or lower, the spell has no effect on you and instead targets the caster, using the slot level, spell save DC, attack bonus, and spellcasting ability of the caster.',
+       'Advantage: Saving Throws, Warding, Jewelry',
+       'Basic Rules (2014), pg. 193',
+       'legendary',
+       'Wondrous item',
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
 

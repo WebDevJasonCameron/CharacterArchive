@@ -2340,111 +2340,51 @@ VALUES(
 
      null,
      17
-      ),(
-         'Woodcarvernulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Stone of Controlling Earth Elementals', 'DND5E', null, null, 'If the stone is touching the ground, you can use an action to speak its command word and summon anearth elemental, as if you had cast theconjure elementalspell. The stone cannullt be used this way again until the next dawn. The stone weighs 5 pounds.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Spell Turning', 'DND5E', null, null, 'While wearing this ring, you have advantage on saving throws against any spell that targets only you (not in an area of Effect). In addition, if you roll a 20 for the save and the spell is 7th level or lower, the spell has no Effect on you and instead targets the caster, using the slot level, spell save DC, attack bonus, and spellcasting ability of the caster.', 'advantage: saving throws, warding, jewelry', NULL, NULL, 'legendary', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Lute', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Deck of Many Things', 'DND5E', null, null, 'Usually found in a box or pouch, this deck contains a number of cards made of ivory or vellum. Most (75 percent) of these decks have only thirteen cards, but the rest have twenty-two.
-Before you draw a card, you must declare how many cards you intend to draw and then draw them randomly (you can use an altered deck of playing cards to simulate the deck). Any cards drawn in excess of this number have no Effect. Otherwise, as soon as you draw a card from the deck, its magic takes Effect. You must draw each card no more than 1 hour after the previous draw. If you fail to draw the chosen number, the remaining number of cards fly from the deck on their own and take Effect all at once.
-Once a card is drawn, it fades from existence. Unless the card is the Fool or the Jester, the card reappears in the deck, making it possible to draw the same card twice.
-| Playing Card       | Card       |
-| Ace of diamonds    | Vizier*    |
-| King of diamonds   | Sun        |
-| Queen of diamonds  | Moon       |
-| Jack of diamonds   | Star       |
-| Two of diamonds    | Comet*     |
-| Ace of hearts      | The Fates* |
-| King of hearts     | Throne     |
-| Queen of hearts    | Key        |
-| Jack of hearts     | Knight     |
-| Two of hearts      | Gem*       |
-| Ace of clubs       | Talons*    |
-| King of clubs      | The Void   |
-| Queen of clubs     | Flames     |
-| Jack of clubs      | Skull      |
-| Two of clubs       | Idiot*     |
-| Ace of spades      | Donjon*    |
-| King of spades     | Ruin       |
-| Queen of spades    | Euryale    |
-| Jack of spades     | Rogue      |
-| Two of spades      | Balance*   |
-| Joker (with TM)    | Fool*      |
-| Joker (without TM) | Jester     |
----
-* Found only in a deck with twenty-two cards
-Balance.Your mind suffers a wrenching alteration, causing your alignment to change. Lawful becomes chaotic, good becomes evil, and vice versa. If you are true neutral or unaligned, this card has no Effect on you.
-Comet.If you single-handedly defeat the next hostile monster or group of monsters you encounter, you gain experience points enough to gain one level. Otherwise, this card has no Effect.
-Donjon.You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you were wearing and carrying stays behind in the space you occupied when you disappeared. You remain imprisoned until you are found and removed from the sphere. You cannullt be located by any divination magic, but awishspell can reveal the location of your prison. You draw no more cards.
-Euryale.The cardnulls medusa-like visage curses you. You take a −2 penalty on saving throws while cursed in this way. Only a god or the magic of The Fates card can end this curse.
-The Fates.Realitynulls fabric unravels and spins anew, allowing you to avoid or erase one event as if it never happened. You can use the cardnulls magic as soon as you draw the card or at any other time before you die.
-Flames.A powerful devil becomes your enemy. The devil seeks your ruin and plagues your life, savoring your suffering before attempting to slay you. This enmity lasts until either you or the devil dies.
-Fool.You lose 10,000 XP, discard this card, and draw from the deck again, counting both draws as one of your declared draws. If losing that much XP would cause you to lose a level, you instead lose an amount that leaves you with just enough XP to keep your level.
-Gem.Twenty-five pieces of jewelry worth 2,000 gp each or fifty gems worth 1,000 gp each appear at your feet.
-Idiot.Permanently reduce your Intelligence by 1d4 + 1 (to a minimum score of 1). You can draw one additional card beyond your declared draws.
-Jester.You gain 10,000 XP, or you can draw two additional cards beyond your declared draws.
-Key.A rare or rarer magic weapon with which you are proficient appears in your hands. The GM chooses the weapon.
-Knight.You gain the service of a 4th-level fighter who appears in a space you choose within 30 feet of you. The fighter is of the same race as you and serves you loyally until death, believing the fates have drawn him or her to you. You control this character.
-Moon.You are granted the ability to cast thewish spell 1d3 times.
-Rogue.A nonplayer character of the GMnulls choice becomes hostile toward you. The identity of your new enemy isnnullt known until the NPC or someone else reveals it. Nothing less than a wishspell or divine intervention can end the NPCnulls hostility toward you.
-Ruin.All forms of wealth that you carry or own, other than magic items, are lost to you. Portable property vanishes. Businesses, buildings, and land you own are lost in a way that alters reality the least. Any documentation that proves you should own something lost to this card also disappears.
-Skull.You summon an avatar of death--a ghostly humanoid skeleton clad in a tattered black robe and carrying a spectral scythe. It appears in a space of the GMnulls choice within 10 feet of you and attacks you, warning all others that you must win the battle alone. The avatar fights until you die or it drops to 0 hit points, whereupon it disappears. If anyone tries to help you, the helper summons its own avatar of death. A creature slain by an avatar of death cannullt be restored to life.
----
-##### Avatar of Death
-Medium undead, neutral evil
-Armor Class20
-Hit Pointshalf the hit point maximum of its summoner
-Speed60 ft., fly 60 ft. (hover)
-| STR     | DEX     | CON     | INT     | WIS     | CHA     |
-| ------- | ------- | ------- | ------- | ------- | ------- |
-| 16 (+3) | 16 (+3) | 16 (+3) | 16 (+3) | 16 (+3) | 16 (+3) |
-Damage Immunitiesnecrotic, poison
-Condition Immunities[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed),[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened),[paralyzed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Paralyzed),[petrified](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Petrified),[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned),[unconscious](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Unconscious)
-Senses[darkvision](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Darkvision)60 ft.,[truesight](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Truesight)60 ft., passive Perception 13
-Languagesall languages known to its summoner
-Challenge-- (0 XP)
-Incorporeal Movement.The avatar can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
-Turning Immunity.The avatar is immune to features that turn undead.
-##### Actions
----
-Reaping Scythe.The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage.
-Star.Increase one of your ability scores by 2. The score can exceed 20 but cannullt exceed 24.
-Sun.You gain 50,000 XP, and a wondrous item (which the GM determines randomly) appears in your hands.
-Talons.Every magic item you wear or carry disintegrates. Artifacts in your possession arennullt destroyed but do vanish.
-Throne.You gain proficiency in the[Persuasion](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Persuasion)skill, and you double your proficiency bonus on checks made with that skill. In addition, you gain rightful ownership of a small keep somewhere in the world. However, the keep is currently in the hands of monsters, which you must clear out before you can claim the keep as yours.
-Vizier.At any time you choose within one year of drawing this card, you can ask a question in meditation and mentally receive a truthful answer to that question. Besides information, the answer helps you solve a puzzling problem or other dilemma. In other words, the knowledge comes with wisdom on how to apply it.
-The Void.This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the GMnulls choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated). Awishspell cannullt restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
-> AQUESTION OF ENMITY
->
-> Two of the cards in adeck of many thingscan earn a character the enmity of another being. With the Flames card, the enmity is overt. The character should experience the devil’s malevolent efforts on multiple occasions. Seeking out the fiend shouldn’t be a simple task, and the adventurer should clash with the devil’s allies and followers a few times before being able to confront the devil itself.
->
-> In the case of the Rogue card, the enmity is secret and should come from someone thought to be a friend or an ally. As Dungeon Master, you should wait for a dramatically appropriate moment to reveal this enmity, leaving the adventurer guessing who is likely to become a betrayer.', 'utility, consumable', NULL, NULL, 'legendaryrenowned_quality: Wondrous Item', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Manual of Quickness of Action', 'DND5E', null, null, 'This book contains coordination and balance exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the booknulls contents and practicing its guidelines, your Dexterity score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.', 'bonus: dexterity score, bonus: ability score maximum, buff', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Staff of Healing', 'DND5E', null, null, 'This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier:cure wounds(1 charge per spell level, up to 4th),lesser restoration(2 charges), ormass cure wounds(5 charges).
-The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff vanishes in a flash of light, lost forever.', 'bard, cleric, or druid, healing', NULL, NULL, 'rare', 'yes', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Lantern, Bullseye', 'DND5E', null, null, 'Type:Adventuring Gear
-Weight:2 lbs
-A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+      ),
+    (
+     'Stone of Controlling Earth Elementals',
+     'DND5E',
+     null,
+     null,
+     'If the stone is touching the ground, you can use an action to speak its command word and summon an earth elemental, as if you had cast the conjure elemental spell. The stone can''t be used this way again until the next dawn. The stone weighs 5 pounds.',
+     'Summoning',
+     'Dungeon Master’s Guide, pg. 312',
+     'rare',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     1,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     17
       ),(
          'Necklace of Fireballs', 'DND5E', null, null, 'This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-levelfireballspell (save DC 15).
-You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of thefireballby 1 for each bead beyond the first.', 'damage, combat, jewelry', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of thefireballby 1 for each bead beyond the first.', 'damage, combat, jewelry', null, null, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Potion of Mind Reading', 'DND5E', null, null, 'When you drink this potion, you gain the Effect of thedetect thoughtsspell (save DC 13). The potionnulls dense, purple liquid has an ovoid cloud of pink floating in it.', 'control, detection, consumable', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Potion of Mind Reading', 'DND5E', null, null, 'When you drink this potion, you gain the Effect of thedetect thoughtsspell (save DC 13). The potionnulls dense, purple liquid has an ovoid cloud of pink floating in it.', 'control, detection, consumable', null, null, 'rare', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Spellbook', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Spellbook', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Javelin of Lightning', 'DND5E', null, null, 'This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking 4d6 lightning damage on a failed save, and half as much damage on a successful one. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus 4d6 lightning damage.
 The javelinnulls property cannullt be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon.
-Proficiency with a javelin allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: lightning, damage, combat, thrown', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Proficiency with a javelin allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: lightning, damage, combat, thrown', null, null, 'uncommon', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Oil of Etherealness', 'DND5E', null, null, 'Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment itnulls wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the Effect of theetherealnessspell for 1 hour.', 'movement, utility, consumable', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Oil of Etherealness', 'DND5E', null, null, 'Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment itnulls wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the Effect of theetherealnessspell for 1 hour.', 'movement, utility, consumable', null, null, 'rare', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Dancing Sword', 'DND5E', null, null, 'You can use a bonus action to toss this magic sword into the air and speak the command word. When you do so, the sword begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of it. The sword uses your attack roll and ability score modifier to damage rolls.
 While the sword hovers, you can use a bonus action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same bonus action, you can cause the sword to attack one creature within 5 feet of it.
@@ -2454,12 +2394,12 @@ After the hovering sword attacks for the fourth time, it flies up to 30 feet and
 | [Longsword]  | Martial Melee | 1d8 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10)                                                                                       |
 | [Rapier]     | Martial Melee | 1d8 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)                                                                                                |
 | [Scimitar]   | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |
-| [Shortsword] | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |', null, NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+| [Shortsword] | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |', null, null, null, 'very rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Potion of Poison', 'DND5E', null, null, 'This concoction looks, smells, and tastes like aPotion of Healingor other beneficial potion. However, it is actually poison masked by illusion magic. An[identify](https://www.dndbeyond.com/spells/identify)spell reveals its true nature.
-If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned). At the start of each of your turns while you are[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned)in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.', 'consumable, cursed', NULL, NULL, 'uncommon', null, false, false, true, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned). At the start of each of your turns while you are[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned)in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.', 'consumable, cursed', null, null, 'uncommon', null, false, false, true, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Wand of the War Mage, +3', 'DND5E', null, null, 'While holding this wand, you gain a +3 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack.', 'bonus: spell attacks, spellcaster, buff, combat', NULL, NULL, 'very rare', 'yes', false, false, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Wand of the War Mage, +3', 'DND5E', null, null, 'While holding this wand, you gain a +3 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack.', 'bonus: spell attacks, spellcaster, buff, combat', null, null, 'very rare', 'yes', false, false, false, false, false, true, false, null, null, null, null, null, null, null, null, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Ring of Cold Resistance', 'DND5E', null, null, 'You have resistance to cold damage while wearing this tourmaline ring.', 'resistance: cold, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
