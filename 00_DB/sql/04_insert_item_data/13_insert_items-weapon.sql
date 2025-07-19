@@ -9996,4 +9996,372 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Dancing Swords',
+       'DND5E',
+       null,
+       null,
+       'You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.
+            While the weapon hovers, you can take a Bonus Action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same Bonus Action, you can cause the weapon to attack one creature within 5 feet of the weapon.
+            After the hovering weapon attacks for the fourth time, it flies back to you and tries to return to your hand. If you have no hand free, the weapon falls to the ground in your space. If the weapon has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or are more than 30 feet away from it.
+
+            *Applicable Weapons:*
+
+            | *Name* | *Type* | *Damage* | *Properties* |
+            | --- | --- | --- | --- |
+            | Greatsword | Martial Melee | 2d6 slashing | Heavy, two-handed |
+            | Longsword | Martial Melee | 1d8 slashing | Versatile (1d10) |
+            | Rapier | Martial Melee | 1d8 piercing | Finesse |
+            | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
+            | Shortsword | Martial Melee | 1d6 piercing | Finesse, light |',
+       'Damage, Combat',
+       'Dungeon Master’s Guide, pg. 161',
+       'very rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+          'Dancing Greatsword',
+          'DND5E',
+          '6 lb',
+          null,
+          'You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.
+                While the weapon hovers, you can take a Bonus Action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same Bonus Action, you can cause the weapon to attack one creature within 5 feet of the weapon.
+                After the hovering weapon attacks for the fourth time, it flies back to you and tries to return to your hand. If you have no hand free, the weapon falls to the ground in your space. If the weapon has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or are more than 30 feet away from it.
+                Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+          'Damage, Combat, Heavy, Two-Handed, Graze',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '2d6',
+          'slashing',
+          'Heavy, Two-Handed, Graze',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Dancing Longsword',
+          'DND5E',
+          '3 lb',
+          null,
+          'You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.
+                While the weapon hovers, you can take a Bonus Action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same Bonus Action, you can cause the weapon to attack one creature within 5 feet of the weapon.
+                After the hovering weapon attacks for the fourth time, it flies back to you and tries to return to your hand. If you have no hand free, the weapon falls to the ground in your space. If the weapon has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or are more than 30 feet away from it.
+                Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Damage, Combat, Versatile, Sap',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8 (1d10 standing)',
+          'slashing',
+          'Versatile (1d10), Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Dancing Rapier',
+          'DND5E',
+          '2 lb',
+          null,
+          'You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.
+                While the weapon hovers, you can take a Bonus Action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same Bonus Action, you can cause the weapon to attack one creature within 5 feet of the weapon.
+                After the hovering weapon attacks for the fourth time, it flies back to you and tries to return to your hand. If you have no hand free, the weapon falls to the ground in your space. If the weapon has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or are more than 30 feet away from it.
+                Proficiency with a Rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage, Combat, Finesse, Vex',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8',
+          'piercing',
+          'Finesse, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Dancing Scimitar',
+          'DND5E',
+          '3 lb',
+          null,
+          'You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.
+                While the weapon hovers, you can take a Bonus Action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same Bonus Action, you can cause the weapon to attack one creature within 5 feet of the weapon.
+                After the hovering weapon attacks for the fourth time, it flies back to you and tries to return to your hand. If you have no hand free, the weapon falls to the ground in your space. If the weapon has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or are more than 30 feet away from it.
+                Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Damage, Combat, Finesse, Light, Nick',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6',
+          'slashing',
+          'Finesse, Light, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Dancing Shortsword',
+          'DND5E',
+          '2 lb',
+          null,
+          'You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.
+                While the weapon hovers, you can take a Bonus Action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same Bonus Action, you can cause the weapon to attack one creature within 5 feet of the weapon.
+                After the hovering weapon attacks for the fourth time, it flies back to you and tries to return to your hand. If you have no hand free, the weapon falls to the ground in your space. If the weapon has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or are more than 30 feet away from it.
+                Proficiency with a Shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Damage, Combat, Finesse, Light, Vex',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d6',
+          'piercing',
+          'Finesse, Light, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+       'Javelin of Lightning',
+       'DND5E',
+       '2 lb',
+       null,
+       'This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking 4d6 lightning damage on a failed save, and half as much damage on a successful one. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus 4d6 lightning damage.
+            The javelin''s property can''t be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon.
+            Proficiency with a Javelin allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+            ---
+            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+            Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
+       'damage: lightning, damage, combat, thrown',
+       'Dungeon Master’s Guide, pg. 275',
+       'uncommon',
+       null,
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       true,
+       1,
+
+       '30 ft/120 ft',
+       '1d6 (4d6 DC 13 Dexterity saving throw; the target and each other creature in a 5-foot-wide Line take 4d6 Lightning damage on a failed save or half as much on a success)',
+       'piercing',
+       'Thrown, Slow',
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Wand of the War Mage, +1',
+       'DND5E',
+       null,
+       null,
+       'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
+       'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
+       null,
+       'uncommon',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       true,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+          'Wand of the War Mage, +2',
+          'DND5E',
+          null,
+          null,
+          'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
+          'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
+          null,
+          'rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Wand of the War Mage, +3',
+          'DND5E',
+          null,
+          null,
+          'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
+          'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
+          null,
+          'very rare',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          17
       )
+

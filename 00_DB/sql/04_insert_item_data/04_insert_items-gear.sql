@@ -2011,4 +2011,68 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Lantern of Revealing',
+       'DND5E',
+       null,
+       null,
+       'While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lantern''s bright light. You can use an action to lower the hood, reducing the light to dim light in a 5-foot radius.',
+       'Detection',
+       'Basic Rules (2014), pg. 179',
+       'uncommon',
+       'Wondrous Item',
+
+       null,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Piton',
+       'DND5E',
+       '1/4 lb',
+       '5 cp',
+       'When a wall doesn’t offer handholds and footholds, you can make your own. A piton is a steel spike with an eye through which you can loop a rope.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

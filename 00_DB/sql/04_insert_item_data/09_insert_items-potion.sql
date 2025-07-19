@@ -1353,5 +1353,70 @@ VALUES
 
      null,
      17
+    ),
+    (
+     'Potion of Poison',
+     'DND5E',
+     null,
+     null,
+     'This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An identify spell reveals its true nature.
+            If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.',
+     'Consumable, Cursed',
+     'Basic Rules (2014), pg. 188',
+     'uncommon',
+     null,
+
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+    ),
+    (
+     'Potion of Mind Reading',
+     'DND5E',
+     null,
+     null,
+     'When you drink this potion, you gain the effect of the detect thoughts spell (save DC 13). The potion''s dense, purple liquid has an ovoid cloud of pink floating in it.',
+     'Control, Detection, Consumable',
+     'Dungeon Master’s Guide, pg. 288',
+     'rare',
+
+     null,
+     null,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     1,
+
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
     )
 

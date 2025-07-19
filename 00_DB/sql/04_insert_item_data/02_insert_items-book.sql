@@ -762,7 +762,39 @@ VALUES
 
        null,
        null,
-       
+
        null,
        17
+      ),
+      (
+       'Spellbook',
+       'DND5E',
+       '3 lb',
+       '50 gp',
+       'Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.',
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

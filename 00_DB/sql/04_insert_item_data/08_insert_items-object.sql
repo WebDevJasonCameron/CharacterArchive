@@ -2372,69 +2372,98 @@ VALUES(
 
      null,
      17
+      ),
+    (
+     'Cube of Force',
+     'DND5E',
+     null,
+     null,
+     'This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains 1d20 expended charges daily at dawn.
+            You can use an action to press one of the cube''s faces, expending a number of charges based on the chosen face, as shown in the Cube of Force Faces table. Each face has a different effect. If the cube has insufficient charges remaining, nothing happens. Otherwise, a barrier of invisible force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for 1 minute, until you use an action to press the cube''s sixth face, or the cube runs out of charges. You can change the barrier''s effect by pressing a different face of the cube and expending the requisite number of charges, resetting the duration.
+            If your movement causes the barrier to come into contact with a solid object that can''t pass through the cube, you can''t move any closer to that object as long as the barrier remains.
+
+            | *Face* | *Charges* | *Effect* |
+            | --- | --- | --- |
+             |  1 | 1 | Gases, wind, and fog can''t pass through the barrier. |
+            | 2 | 2 | Nonliving matter can''t pass through the barrier. Walls, floors, and ceilings can pass through at your discretion. |
+            | 3 | 3 | Living matter can''t pass through the barrier. |
+            | 4 | 4 | Spell effects can''t pass through the barrier. |
+            | 5 | 5 | Nothing can pass through the barrier. Walls, floors, and ceilings can pass through at your discretion. |
+            | 6 | 0 | The barrier deactivates. |
+
+            The cube loses charges when the barrier is targeted by certain spells or comes into contact with certain spell or magic item effects, as shown in the table below.
+
+            | *Spell or item* | *Charges Lost* |
+            | --- | --- |
+            | Disintegrate | 1d12 |
+            | Horn of blasting | 1d10 |
+            | Passwall | 1d6 |
+            | Prismatic spray | 1d20 |
+            | Wall of fire | 1d4 |',
+     'Control, Warding',
+     'Basic Rules (2014), pg. 159',
+     'rare',
+     'Wondrous Item',
+
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
+     'Immovable Rod',
+     'DND5E',
+     null,
+     null,
+     'This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn''t move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success.',
+     'Utility',
+     'Basic Rules (2014), pg. 175',
+     'uncommon',
+
+     true,
+     null,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
+         'Potion of Lightning Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to lightning damage for 1 hour.', 'resistance: lightning, warding, consumable', null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Necklace of Fireballs', 'DND5E', null, null, 'This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-levelfireballspell (save DC 15).
-You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of thefireballby 1 for each bead beyond the first.', 'damage, combat, jewelry', null, null, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
+         'Potion of Thunder Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to thunder damage for 1 hour.', 'resistance: thunder, warding, consumable', null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Potion of Mind Reading', 'DND5E', null, null, 'When you drink this potion, you gain the Effect of thedetect thoughtsspell (save DC 13). The potionnulls dense, purple liquid has an ovoid cloud of pink floating in it.', 'control, detection, consumable', null, null, 'rare', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Spellbook', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Javelin of Lightning', 'DND5E', null, null, 'This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking 4d6 lightning damage on a failed save, and half as much damage on a successful one. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus 4d6 lightning damage.
-The javelinnulls property cannullt be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon.
-Proficiency with a javelin allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: lightning, damage, combat, thrown', null, null, 'uncommon', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Oil of Etherealness', 'DND5E', null, null, 'Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment itnulls wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the Effect of theetherealnessspell for 1 hour.', 'movement, utility, consumable', null, null, 'rare', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Dancing Sword', 'DND5E', null, null, 'You can use a bonus action to toss this magic sword into the air and speak the command word. When you do so, the sword begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of it. The sword uses your attack roll and ability score modifier to damage rolls.
-While the sword hovers, you can use a bonus action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same bonus action, you can cause the sword to attack one creature within 5 feet of it.
-After the hovering sword attacks for the fourth time, it flies up to 30 feet and tries to return to your hand. If you have no hand free, it falls to the ground at your feet. If the sword has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or move more than 30 feet away from it.
-| Name         | Type          | Damage       | Properties                                                                                                                                                                                  |
-| [Greatsword] | Martial Melee | 2d6 slashing | [Heavy](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[two-handed](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| [Longsword]  | Martial Melee | 1d8 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10)                                                                                       |
-| [Rapier]     | Martial Melee | 1d8 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)                                                                                                |
-| [Scimitar]   | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |
-| [Shortsword] | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |', null, null, null, 'very rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Potion of Poison', 'DND5E', null, null, 'This concoction looks, smells, and tastes like aPotion of Healingor other beneficial potion. However, it is actually poison masked by illusion magic. An[identify](https://www.dndbeyond.com/spells/identify)spell reveals its true nature.
-If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned). At the start of each of your turns while you are[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned)in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.', 'consumable, cursed', null, null, 'uncommon', null, false, false, true, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Wand of the War Mage, +3', 'DND5E', null, null, 'While holding this wand, you gain a +3 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack.', 'bonus: spell attacks, spellcaster, buff, combat', null, null, 'very rare', 'yes', false, false, false, false, false, true, false, null, null, null, null, null, null, null, null, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Cold Resistance', 'DND5E', null, null, 'You have resistance to cold damage while wearing this tourmaline ring.', 'resistance: cold, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Lantern of Revealing', 'DND5E', null, null, 'While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lanternnulls bright light. You can use an action to lower the hood, reducing the light to dim light in a 5-foot radius.', 'detection', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Cube of Force', 'DND5E', null, null, 'This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains 1d20 expended charges daily at dawn.
-You can use an action to press one of the cubenulls faces, expending a number of charges based on the chosen face, as shown in the Cube of Force Faces table. Each face has a different Effect. If the cube has insufficient charges remaining, nothing happens. Otherwise, a barrier of invisible force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for 1 minute, until you use an action to press the cubenulls sixth face, or the cube runs out of charges. You can change the barriernulls Effect by pressing a different face of the cube and expending the requisite number of charges, resetting the duration.
-If your movement causes the barrier to come into contact with a solid object that cannullt pass through the cube, you cannullt move any closer to that object as long as the barrier remains.
-| Face | Charges | Effect                                                                                                            |
-| 1    | 1       | Gases, wind, and fog cannullt pass through the barrier.                                                              |
-| 2    | 2       | Nonliving matter cannullt pass through the barrier. Walls, floors, and ceilings can pass through at your discretion. |
-| 3    | 3       | Living matter cannullt pass through the barrier.                                                                     |
-| 4    | 4       | Spell effects cannullt pass through the barrier.                                                                     |
-| 5    | 5       | Nothing can pass through the barrier. Walls, floors, and ceilings can pass through at your discretion.            |
-| 6    | 0       | The barrier deactivates.                                                                                          |
-The cube loses charges when the barrier is targeted by certain spells or comes into contact with certain spell or magic item effects, as shown in the table below.
-| Spell or item                                                                   | Charges Lost |
-| ------------------------------------------------------------------------------- | ------------ |
-| [Disintegrate](https://www.dndbeyond.com/spells/disintegrate)                   | 1d12         |
-| [Horn of blasting](https://www.dndbeyond.com/magic-items/4658-horn-of-blasting) | 1d10         |
-| [Passwall](https://www.dndbeyond.com/spells/passwall)                           | 1d6          |
-| [Prismatic spray](https://www.dndbeyond.com/spells/prismatic-spray)             | 1d20         |
-| [Wall of fire](https://www.dndbeyond.com/spells/wall-of-fire)                   | 1d4          |', 'control, warding', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Immovable Rod', 'DND5E', null, null, 'This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesnnullt move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success.', 'utility', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Piton', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Three Wishes', 'DND5E', null, null, 'While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the[wish](https://www.dndbeyond.com/spells/wish)spell from it. The ring becomes nonmagical when you use the last charge.', 'buff, utility, consumable, jewelry', NULL, NULL, 'legendary', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Lightning Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to lightning damage for 1 hour.', 'resistance: lightning, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Thunder Resistance', 'DND5E', null, null, 'When you drink this potion, you gain resistance to thunder damage for 1 hour.', 'resistance: thunder, warding, consumable', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Dulcimer', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Dulcimer', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          '[Pony](https://www.dndbeyond.com/monsters/16984-pony)', 'DND5E', null, null, '| 15(+2) | 10(+0) | 13(+1) | 2(-4) | 11(+0) | 7(-2) |
 SensesPassive Perception 10
@@ -2442,17 +2471,17 @@ Languages--
 Challenge1/8 (25 XP)
 Proficiency Bonus+2
 ## Actions
-Hooves.Melee Weapon Attack:+4to hit, reach 5 ft., one target.Hit:7(2d4 + 2)bludgeoning damage.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Hooves.Melee Weapon Attack:+4to hit, reach 5 ft., one target.Hit:7(2d4 + 2)bludgeoning damage.', null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Emblem', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Emblem', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Manacles', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Manacles', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Marvelous Pigments', 'DND5E', null, null, 'Typically found in 1d4 pots inside a fine wooden box with a brush (weighing 1 pound in total), these pigments allow you to create three-dimensional objects by painting them in two dimensions. The paint flows from the brush to form the desired object as you concentrate on its image.
 Each pot of paint is sufficient to cover 1,000 square feet of a surface, which lets you create inanimate objects or terrain features--such as a door, a pit, flowers, trees, cells, rooms, or weapons-- that are up to 10,000 cubic feet. It takes 10 minutes to cover 100 square feet.
 When you complete the painting, the object or terrain feature depicted becomes a real, nonmagical object. Thus, painting a door on a wall creates an actual door that can be opened to whatever is beyond. Painting a pit on a floor creates a real pit, and its depth counts against the total area of objects you create.
 Nothing created by the pigments can have a value greater than 25 gp. If you paint an object of greater value (such as a diamond or a pile of gold), the object looks authentic, but close inspection reveals it is made from paste, bone, or some other worthless material.
-If you paint a form of energy such as fire or lightning, the energy appears but dissipates as soon as you complete the painting, doing no harm to anything.', 'utility, consumable', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+If you paint a form of energy such as fire or lightning, the energy appears but dissipates as soon as you complete the painting, doing no harm to anything.', 'utility, consumable', null, null, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Orb of Dragonkind', 'DND5E', null, null, 'Ages past, elves and humans waged a terrible war against evil dragons. When the world seemed doomed, powerful wizards came together and worked their greatest magic, forging fiveOrbs of Dragonkind(orDragon Orbs) to help them defeat the dragons. One orb was taken to each of the five wizard towers, and there they were used to speed the war toward a victorious end. The wizards used the orbs to lure dragons to them, then destroyed the dragons with powerful magic.
 As the wizard towers fell in later ages, the orbs were destroyed or faded into legend, and only three are thought to survive. Their magic has been warped and twisted over the centuries, so although their primary purpose of calling dragons still functions, they also allow some measure of control over dragons.
@@ -2471,14 +2500,14 @@ You can also use an action to cast thedetect magicspell from the orb without usi
 #### Call Dragons
 While you control the orb, you can use an action to cause the artifact to issue a telepathic call that extends in all directions for 40 miles. Evil dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities such as Tiamat are unaffected by this call. Dragons drawn to the orb might be hostile toward you for compelling them against their will. Once you have used this property, it can’t be used again for 1 hour.
 #### Destroying an Orb
-AnOrb of Dragonkindappears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. Adisintegratespell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.', 'healing, summoning, control, scrying, detection', NULL, NULL, 'artifact', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+AnOrb of Dragonkindappears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. Adisintegratespell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.', 'healing, summoning, control, scrying, detection', null, null, 'artifact', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Chest', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Chest', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
 
-          'Ring of Free Action', 'DND5E', null, null, 'While you wear this ring, difficult terrain doesnnullt cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be[paralyzed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Paralyzed)or[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained).', 'negates difficult terrain, magical speed reduction, immune: paralyzed or restrained (magical sources), movement, warding, jewelry', NULL, NULL, null, null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+          'Ring of Free Action', 'DND5E', null, null, 'While you wear this ring, difficult terrain doesnnullt cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be[paralyzed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Paralyzed)or[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained).', 'negates difficult terrain, magical speed reduction, immune: paralyzed or restrained (magical sources), movement, warding, jewelry', null, null, null, null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Bagpipes', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Bagpipes', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, NULL, NULL, NULL, null, 5
       ),(
          'Book', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(

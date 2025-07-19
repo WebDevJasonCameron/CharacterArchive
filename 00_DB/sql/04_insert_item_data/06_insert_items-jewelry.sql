@@ -1777,5 +1777,98 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Necklace of Fireballs',
+       'DND5E',
+       null,
+       null,
+       'This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-levelfireballspell (save DC 15).
+You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of thefireballby 1 for each bead beyond the first.',
+       'damage, combat, jewelry',
+       null,
+       null,
+       'rare',
+       'Wondrous Item',
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       5
+      ),
+      (
+       'Ring of Cold Resistance',
+       'DND5E',
+       null,
+       null,
+       'You have resistance to cold damage while wearing this tourmaline ring.',
+       'Resistance: Cold, Warding, Jewelry',
+       'Dungeon Master’s Guide, pg. 294',
+       'rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Ring of Three Wishes',
+       'DND5E',
+       null,
+       null,
+       'While wearing this ring, you can expend 1 of its 3 charges to cast Wish from it. The ring becomes nonmagical when you use the last charge.',
+       'Buff, Utility, Consumable, Jewelry',
+       'Dungeon Master’s Guide, pg. 193',
+       'legendary',
+       null,
+
+       true,
+       false,
+       true,
+       false,
+       false,
+       false,
+       true,
+       3,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
 
