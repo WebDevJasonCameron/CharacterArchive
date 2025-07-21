@@ -2075,4 +2075,36 @@ VALUES(
 
        null,
        5
-      )
+      ),
+      (
+          'Chest',
+          'DND5E',
+          '25 lb',
+          '5 gp',
+          'A chest can hold 12 cubic feet/ 300 pounds of gear.',
+          null,
+          null,
+          null,
+          null,
+
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),

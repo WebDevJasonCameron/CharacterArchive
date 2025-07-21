@@ -1870,5 +1870,37 @@ You can hurl multiple beads, or even the whole necklace, as one action. When you
 
        null,
        5
+      ),
+      (
+       'Ring of Free Action',
+       'DND5E',
+       null,
+       null,
+       'While you wear this ring, Difficult Terrain doesn’t cost you extra movement. In addition, magic can neither reduce any of your Speeds nor cause you to have the Paralyzed or Restrained condition.',
+       'Negates Difficult Terrain, Magical Speed Reduction, Immune: Paralyzed or Restrained (Magical Sources), Movement, Warding, Jewelry',
+       'Dungeon Master’s Guide, pg. 191',
+       null,
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       27
       )
 

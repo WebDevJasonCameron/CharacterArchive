@@ -238,4 +238,40 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'pony',
+       'DND5E',
+       '225 lb',
+       '30 gp',
+       '*Pony Stat* Block
+            *Speed* 40 ft.
+            *Carrying Capacity* 225 lb.
+            ---
+            A good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
