@@ -2576,8 +2576,6 @@ VALUES(
      null,
      17
       ),(
-         'Painter''s Supplies', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Armor of Invulnerability', 'DND5E', null, null, 'You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it cannullt be used again until the next dawn.
 Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'resistance: bludgeoning, piercing, and slashing from nonmagical attacks, immunity: bludgeoning, piercing, and slashing from nonmagical weapons, combat, warding, str 15 required, stealth disadvantage', NULL, NULL, null, 'legendary', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
@@ -2772,9 +2770,6 @@ You have a 50 percent chance to instantly travel to a random plane of existence,
       ),(
          'Clothes, Fine', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),
-
-
-
     (
          'Sack', 'DND5E', null, null, 'Type:Adventuring GearCost:
 Weight:1/2 lb
@@ -2804,12 +2799,6 @@ Plate consists of shaped, interlocking metal plates to cover the entire body. A 
       ),(
          'Mirror, Steel', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),
-
-
-
-
-
-
     (
          'Censer of Controlling Air Elementals', 'DND5E', null, null, 'While incense is burning in this censer, you can use an action to speak the censernulls command word and summon anair elemental, as if you had cast theconjure elementalspell. The censer cannullt be used this way again until the next dawn.
 This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. It weighs 1 pound.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
