@@ -1482,5 +1482,37 @@ VALUES
 
      null,
      17
+    ),
+    (
+     'Potion of Poison Resistance',
+     'DND5E',
+     null,
+     null,
+     'When you drink this potion, you gain resistance to poison damage for 1 hour.',
+     'Resistance: Poison, Warding, Consumable',
+     null,
+     'uncommon',
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
     )
 

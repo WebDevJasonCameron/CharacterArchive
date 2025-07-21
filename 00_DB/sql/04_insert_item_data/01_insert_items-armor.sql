@@ -3188,4 +3188,69 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Armor of Invulnerability',
+        'DND5E',
+        '65 lb',
+        null,
+        'You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it can''t be used again until the next dawn.
+            Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.',
+        'Resistance: Bludgeoning, Piercing, and Slashing from Nonmagical Attacks, Immunity: Bludgeoning, Piercing, and Slashing from Nonmagical Weapons, Combat, Warding, Str. 15 Required, Stealth Disadvantage',
+        'Dungeon Master’s Guide, pg. 152',
+        null,
+        'legendary',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        1,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        '18',
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Cloak of Elvenkind',
+        'DND5E',
+        null,
+        null,
+        'While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloak''s color shifts to camouflage you. Pulling the hood up or down requires an action.',
+        'Advantage: Stealth, Deception, Outerwear',
+        'Dungeon Master’s Guide, pg. 244',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
        )
