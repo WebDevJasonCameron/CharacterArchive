@@ -10440,4 +10440,100 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Longsword, +1',
+       'DND5E',
+       '3 lb',
+       null,
+       'You have a +1 bonus to attack and damage rolls made with this magic weapon.',
+       'bonus: magic, damage, combat, versatile',
+       null,
+       null,
+       'uncommon',
+
+       true,
+       false,
+       false,
+       false,
+       true,
+       false,
+       false,
+       null,
+
+       '5 ft',
+       '1d8+1 (1d10+1 two handed)',
+       'slashing',
+       'Versatile (1d10), Sap',
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+          'Longsword, +2',
+          'DND5E',
+          '3 lb',
+          null,
+          'You have a +2 bonus to attack and damage rolls made with this magic weapon.',
+          'bonus: magic, damage, combat, versatile',
+          null,
+          null,
+          'uncommon',
+
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8+2 (1d10+2 two handed)',
+          'slashing',
+          'Versatile (1d10), Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
+      ),
+      (
+          'Longsword, +3',
+          'DND5E',
+          '3 lb',
+          null,
+          'You have a +3 bonus to attack and damage rolls made with this magic weapon.',
+          'bonus: magic, damage, combat, versatile',
+          null,
+          null,
+          'uncommon',
+
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          '5 ft',
+          '1d8+3 (1d10+3 two handed)',
+          'slashing',
+          'Versatile (1d10), Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          17
       )

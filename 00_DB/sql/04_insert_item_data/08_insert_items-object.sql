@@ -2575,56 +2575,62 @@ VALUES(
 
      null,
      17
-      ),(
-         'Robe of Scintillating Colors', 'DND5E', null, null, 'This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can use an action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Creatures that can see you have disadvantage on attack rolls against you. In addition, any creature in the bright light that can see you when the robenulls power is activated must succeed on a DC 15 Wisdom saving throw or become[stunned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Stunned)until the Effect ends.', 'stunned, control, debuff, outerwear', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Amulet', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Pearl of Power', 'DND5E', null, null, 'While this pearl is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you use the pearl, it cannullt be used again until the next dawn.', 'spellcaster, buff, utility', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Growth', 'DND5E', null, null, 'When you drink this potion, you gain the "enlarge" Effect of the enlarge  or reducespell for 1d4 hours (no concentration required). The red in the potionnulls liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.
-Item Tags:CONTROLUTILITYCONSUMABLE', 'control, utility, consumable', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Necrotic Resistance', 'DND5E', null, null, 'You have resistance to necrotic damage while wearing this jet ring.', 'resistance: necrotic, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         '[Riding Horse](https://www.dndbeyond.com/monsters/16997-riding-horse)', 'DND5E', null, null, '| 16(+3) | 10(+0) | 12(+1) | 2(-4) | 11(+0) | 7(-2) |
-SensesPassive Perception 10
-Languages--
-Proficiency Bonus+2
-## Actions
-Hooves.Melee Weapon Attack:+5to hit, reach 5 ft., one target.Hit:8(2d4 + 3)bludgeoning damage.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Longsword, +1', 'DND5E', null, null, 'You have a +1 bonus to attack and damage rolls made with this magic weapon.
-Proficiency with a longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'bonus: magic, damage, combat, versatile', NULL, NULL, 'uncommon', null, false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Whetstone', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Brooch of Shielding', 'DND5E', null, null, 'While wearing this brooch, you have resistance to force damage, and you have immunity to damage from themagic missilespell.', 'resistance: force, warding, jewelry', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Herbalism Kit', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+      ),
+    (
+     'Whetstone',
+     'DND5E',
+     '1 lb',
+     '1 cp',
+     'A standard whetstone used to sharpen blades.',
+     null,
+     null,
+     null,
+     null,
+
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     5
+      ),
+    (
+         'Herbalism Kit', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Horn of Blasting', 'DND5E', null, null, 'You can use an action to speak the hornnulls command word and then blow the horn, which emits a thunderous blast in a 30-foot cone that is audible 600 feet away. Each creature in the cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 5d6 thunder damage and is[deafened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Deafened)for 1 minute. On a successful save, a creature takes half as much damage and isnnullt[deafened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Deafened). Creatures and objects made of glass or crystal have disadvantage on the saving throw and take 10d6 thunder damage instead of 5d6.
-Each use of the hornnulls magic has a 20 percent chance of causing the horn to explode. The explosion deals 10d6 fire damage to the blower and destroys the horn.', 'damage: thunder, deafened, damage, debuff, combat', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Each use of the hornnulls magic has a 20 percent chance of causing the horn to explode. The explosion deals 10d6 fire damage to the blower and destroys the horn.', 'damage: thunder, deafened, damage, debuff, combat', null, null, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Poisonernulls Kit', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Poisonernulls Kit', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Elven Chain', 'DND5E', null, null, null, 'bonus: armor class, proficiency: self, combat, warding', NULL, NULL, 'rere', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Elven Chain', 'DND5E', null, null, null, 'bonus: armor class, proficiency: self, combat, warding', null, null, 'rere', null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Stone of Good Luck (Luckstone)', 'DND5E', null, null, 'While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.', 'bonus: ability checks, bonus: saving throws, bonus: initiative, buff', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Stone of Good Luck (Luckstone)', 'DND5E', null, null, 'While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.', 'bonus: ability checks, bonus: saving throws, bonus: initiative, buff', null, null, 'uncommon', 'Wondrous Item', false, false, false, true, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Rations (1 day)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Rations (1 day)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Ring of Force Resistance', 'DND5E', null, null, 'You have resistance to force damage while wearing this sapphire ring.', 'resistance: force, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Ring of Force Resistance', 'DND5E', null, null, 'You have resistance to force damage while wearing this sapphire ring.', 'resistance: force, warding, jewelry', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Staff', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Staff', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Acid (vial)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Acid (vial)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Robes', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Robes', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Ring of Thunder Resistance', 'DND5E', null, null, 'You have resistance to thunder damage while wearing this spinel ring.', 'resistance: thunder, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Ring of Thunder Resistance', 'DND5E', null, null, 'You have resistance to thunder damage while wearing this spinel ring.', 'resistance: thunder, warding, jewelry', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Caltrops (bag of 20)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Caltrops (bag of 20)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, NULL, NULL, NULL, null, 5
       ),(
          'Dimensional Shackles', 'DND5E', null, null, 'You can use an action to place these shackles on an[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated)creature. The shackles adjust to fit a creature of Small to Large size. In addition to serving as mundane manacles, the shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They donnullt prevent the creature from passing through an interdimensional portal.
 You and any creature you designate when you use the shackles can use an action to remove them. Once every 30 days, the bound creature can make a DC 30 Strength ([Athletics](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Athletics)) check. On a success, the creature breaks free and destroys the shackles.', 'control, utility', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5

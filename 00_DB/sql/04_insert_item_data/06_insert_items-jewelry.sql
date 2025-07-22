@@ -1902,5 +1902,103 @@ You can hurl multiple beads, or even the whole necklace, as one action. When you
 
        null,
        27
-      )
+      ),
+      (
+       'Amulet',
+       'DND5E',
+       '1 lb',
+       '5 gp',
+       'A holy symbol is a representation of a god or pantheon. A cleric or paladin can use a holy symbol as a spellcasting focus, as described in the Spellcasting section. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.',
+       null,
+       null,
+       null,
+       null,
 
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Pearl of Power',
+       'DND5E',
+       null,
+       null,
+       'While this pearl is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you use the pearl, it can''t be used again until the next dawn.',
+       'Spellcaster, Buff, Utility',
+       'Dungeon Master’s Guide, pg. 284',
+       'uncommon',
+       'Wondrous Item',
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       true,
+       1,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Ring of Necrotic Resistance',
+       'DND5E',
+       null,
+       null,
+       'You have resistance to necrotic damage while wearing this jet ring.',
+       'Resistance: Necrotic, Warding, Jewelry',
+       'Dungeon Master’s Guide, pg. 294',
+       'rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Brooch of Shielding', 'DND5E', null, null, 'While wearing this brooch, you have resistance to force damage, and you have immunity to damage from themagic missilespell.', 'resistance: force, warding, jewelry', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
+      )

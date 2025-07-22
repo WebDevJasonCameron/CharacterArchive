@@ -1514,5 +1514,37 @@ VALUES
 
      null,
      5
+    ),
+    (
+     'Potion of Growth',
+     'DND5E',
+     null,
+     null,
+     'When you drink this potion, you gain the “enlarge” effect of the enlarge/reduce spell for 1d4 hours (no concentration required). The red in the potion’s liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.',
+     'Control, Utility, Consumable',
+     'Dungeon Master’s Guide, pg. 288',
+     'uncommon',
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     1,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     17
     )
 
