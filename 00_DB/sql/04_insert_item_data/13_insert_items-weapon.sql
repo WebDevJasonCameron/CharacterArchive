@@ -10536,4 +10536,36 @@ VALUES(
 
           null,
           17
+      ),
+      (
+       'Staff',
+       'DND5E',
+       '4 lb',
+       '5 gp',
+       'An Arcane Focus is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

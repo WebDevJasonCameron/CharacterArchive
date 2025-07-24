@@ -2108,3 +2108,35 @@ VALUES(
           null,
           5
       ),
+      (
+       'Rations (1 day)',
+       'DND5E',
+       '2 lb',
+       '5 sp',
+       'Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      )

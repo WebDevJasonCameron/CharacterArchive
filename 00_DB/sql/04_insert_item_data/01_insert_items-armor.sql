@@ -3285,4 +3285,103 @@ VALUES (
 
         null,
         17
+       ),
+       (
+        'Elven Chain',
+        'DND5E',
+        '20 lb',
+        null,
+        'You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.
+            Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer''s upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.',
+        'Bonus: Armor Class, Proficiency: Self, Combat, Warding',
+        'Basic Rules (2014), pg. 168',
+        null,
+        'rare',
+
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        '14',
+        null,
+
+        null,
+        5
+       ),
+       (
+           'Elven Mail',
+           'DND5E',
+           '55 lb',
+           null,
+           'You gain a +1 bonus to Armor Class while you wear this armor. You are considered trained with this armor even if you lack training with Medium or Heavy armor.
+                Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.',
+           'Bonus: Armor Class, Proficiency: Self, Str. 13 Required, Stealth Disadvantage',
+           'Dungeon Master’s Guide, pg. 257',
+           null,
+           'rare',
+
+           true,
+           false,
+           false,
+           false,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '17',
+           null,
+
+           null,
+           17
+       ),
+       (
+           'Elven Chain Shirt',
+           'DND5E',
+           '20 lb',
+           null,
+           'You gain a +1 bonus to Armor Class while you wear this armor. You are considered trained with this armor even if you lack training with Medium or Heavy armor.
+                    Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer''s upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.',
+           'Bonus: Armor Class, Proficiency: Self',
+           'Dungeon Master’s Guide, pg. 257',
+           null,
+           'rare',
+
+           true,
+           false,
+           false,
+           false,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           '14',
+           null,
+
+           null,
+           17
        )

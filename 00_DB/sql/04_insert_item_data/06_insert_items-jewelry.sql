@@ -2000,5 +2000,98 @@ You can hurl multiple beads, or even the whole necklace, as one action. When you
        17
       ),
       (
-       'Brooch of Shielding', 'DND5E', null, null, 'While wearing this brooch, you have resistance to force damage, and you have immunity to damage from themagic missilespell.', 'resistance: force, warding, jewelry', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
+       'Brooch of Shielding',
+       'DND5E',
+       null,
+       null,
+       'While wearing this brooch, you have Resistance to Force damage, and you have Immunity to damage from the Magic Missile spell.',
+       'Resistance: Force, Warding, Jewelry',
+       'Dungeon Master’s Guide, pg. 156',
+       'uncommon',
+       'Wondrous Item',
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Stone of Good Luck (Luckstone)',
+       'DND5E',
+       null,
+       null,
+       'While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.',
+       'Bonus: Ability Checks, Bonus: Saving Throws, Bonus: Initiative, Buff',
+       'Dungeon Master’s Guide, pg. 205',
+       'uncommon',
+       'Wondrous Item',
+
+       true,
+       true,
+       false,
+       false,
+       true,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Ring of Force Resistance',
+       'DND5E',
+       null,
+       null,
+       'You have resistance to force damage while wearing this sapphire ring.',
+       'Resistance: Force, Warding, Jewelry',
+       null,
+       'rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

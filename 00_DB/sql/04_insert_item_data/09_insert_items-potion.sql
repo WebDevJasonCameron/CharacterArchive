@@ -1546,5 +1546,37 @@ VALUES
 
      null,
      17
+    ),
+    (
+     'Poisoner''s Kit',
+     'DND5E',
+     '2 lb',
+     '50 gp',
+     'A poisoner''s kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.',
+     null,
+     null,
+     null,
+     null,
+
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
     )
 
