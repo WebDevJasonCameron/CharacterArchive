@@ -2605,58 +2605,126 @@ VALUES(
      null,
      null,
      5
+      ),
+    (
+     'Dimensional Shackles',
+     'DND5E',
+     null,
+     null,
+     'You can use an action to place these shackles on an[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated)creature. The shackles adjust to fit a creature of Small to Large size. In addition to serving as mundane manacles, the shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They donnullt prevent the creature from passing through an interdimensional portal.
+You and any creature you designate when you use the shackles can use an action to remove them. Once every 30 days, the bound creature can make a DC 30 Strength ([Athletics](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Athletics)) check. On a success, the creature breaks free and destroys the shackles.',
+     'control, utility',
+     NULL,
+     NULL,
+     'rare',
+     'Wondrous Item',
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     5
+      ),
+    (
+     'Candle of Invocation',
+     'DND5E',
+     null,
+     null,
+     'This slender taper is dedicated to a deity and shares that deity''s alignment. The candle''s alignment can be detected with the detect evil and good spell. The GM chooses the god and associated alignment or determines the alignment randomly.
+
+            | d20 | Alignment |
+            | --- | --- |
+            | 1-2 | Chaotic evil |
+            | 3-4 | Chaotic neutral |
+            | 5-7 | Chaotic good |
+            | 8-9 | Neutral evil |
+            | 10-11 | Neutral |
+            | 12-13 | Neutral good |
+            | 14-15 | Lawful evil |
+            | 16-17 | Lawful neutral |
+            | 18-20 | Lawful good |
+
+            The candle''s magic is activated when the candle is lit, which requires an action. After burning for 4 hours, the candle is destroyed. You can snuff it out early for use at a later time. Deduct the time it burned in increments of 1 minute from the candle''s total burn time.
+            While lit, the candle sheds dim light in a 30-foot radius. Any creature within that light whose alignment matches that of the candle makes attack rolls, saving throws, and ability checks with advantage. In addition, a cleric or druid in the light whose alignment matches the candle''s can cast 1st- level spells he or she has prepared without expending spell slots, though the spell''s effect is as if cast with a 1st-level slot.
+            Alternatively, when you light the candle for the first time, you can cast the gate spell with it. Doing so destroys the candle.',
+     'advantage: ability checks, advantage: saving throws, advantage: melee attacks, advantage: ranged attacks, advantage: spell attacks, buff, consumable',
+     'Basic Rules (2014), pg. 157',
+     'very rare',
+     'Wondrous Item',
+
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
+     'Efreeti Bottle',
+     'DND5E',
+     null,
+     null,
+     'This painted brass bottle weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke flows out of the bottle. At the end of your turn, the smoke disappears with a flash of harmless fire, and an efreeti appears in an unoccupied space within 30 feet of you.
+            The first time the bottle is opened, the GM rolls to determine what happens.
+
+            | d100 | Effect |
+            | --- | --- |
+            | 01-10 | The efreeti attacks you. After fighting for 5 rounds, the efreeti disappears, and the bottle loses its magic. |
+            | 11-90 | The efreeti serves you for 1 hour, doing as you command. Then the efreeti returns to the bottle, and a new stopper contains it. The stopper can''t be removed for 24 hours. The next two times the bottle is opened, the same effect occurs. If the bottle is opened a fourth time, the efreeti escapes and disappears, and the bottle loses its magic. |
+            | 91-00 | The efreeti can cast the wish spell three times for you. It disappears when it grants the final wish or after 1 hour, and the bottle loses its magic. | ',
+     'Control, Utility, Consumable',
+     'Basic Rules (2014), pg. 167',
+     'very rare',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
       ),(
-         'Acid (vial)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
+         'Leatherworkernulls Tools', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Robes', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Ring of Thunder Resistance', 'DND5E', null, null, 'You have resistance to thunder damage while wearing this spinel ring.', 'resistance: thunder, warding, jewelry', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Caltrops (bag of 20)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, NULL, NULL, NULL, null, 5
-      ),(
-         'Dimensional Shackles', 'DND5E', null, null, 'You can use an action to place these shackles on an[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated)creature. The shackles adjust to fit a creature of Small to Large size. In addition to serving as mundane manacles, the shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They donnullt prevent the creature from passing through an interdimensional portal.
-You and any creature you designate when you use the shackles can use an action to remove them. Once every 30 days, the bound creature can make a DC 30 Strength ([Athletics](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Athletics)) check. On a success, the creature breaks free and destroys the shackles.', 'control, utility', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Candle of Invocation', 'DND5E', null, null, 'This slender taper is dedicated to a deity and shares that deitynulls alignment. The candlenulls alignment can be detected with thedetect evil and goodspell. The GM chooses the god and associated alignment or determines the alignment randomly.
-| d20 | Alignment   |
-| 1-2     | Chaotic evil    |
-| 3-4     | Chaotic neutral |
-| 5-7     | Chaotic good    |
-| 8-9     | Neutral evil    |
-| 10-11   | Neutral         |
-| 12-13   | Neutral good    |
-| 14-15   | Lawful evil     |
-| 16-17   | Lawful neutral  |
-| 18-20   | Lawful good     |
----
-The candlenulls magic is activated when the candle is lit, which requires an action. After burning for 4 hours, the candle is destroyed. You can snuff it out early for use at a later time. Deduct the time it burned in increments of 1 minute from the candlenulls total burn time.
-While lit, the candle sheds dim light in a 30-foot radius. Any creature within that light whose alignment matches that of the candle makes attack rolls, saving throws, and ability checks with advantage. In addition, a cleric or druid in the light whose alignment matches the candlenulls can cast 1st- level spells he or she has prepared without expending spell slots, though the spellnulls Effect is as if cast with a 1st-level slot.
-Alternatively, when you light the candle for the first time, you can cast the[gate](https://www.dndbeyond.com/spells/gate)spell with it. Doing so destroys the candle.', 'advantage: ability checks, advantage: saving throws, advantage: melee attacks, advantage: ranged attacks, advantage: spell attacks, buff, consumable', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Calligraphernulls Supplies', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Efreeti Bottle', 'DND5E', null, null, 'This painted brass bottle weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke flows out of the bottle. At the end of your turn, the smoke disappears with a flash of harmless fire, and anefreetiappears in an unoccupied space within 30 feet of you.
-The first time the bottle is opened, the GM rolls to determine what happens.
-| d100 | Effect |
-| 01-10 | Theefreeti attacks you. After fighting for 5 rounds, theefreetidisappears, and the bottle loses its magic. |
-| 11-90 | Theefreetiserves you for 1 hour, doing as you command. Then theefreetireturns to the bottle, and a new stopper contains it. The stopper cannullt be removed for 24 hours. The next two times the bottle is opened, the same Effect occurs. If the bottle is opened a fourth time, theefreetiescapes and disappears, and the bottle loses its magic. |
-| 91-00 | Theefreetican cast thewishspell three times for you. It disappears when it grants the finalwishor after 1 hour, and the bottle loses its magic. |', 'control, utility, consumable', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Cloak of the Bat', 'DND5E', null, null, 'While wearing this cloak, you have advantage on Dexterity ([Stealth](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Stealth)) checks. In an area of dim light or darkness, you can grip the edges of the cloak with both hands and use it to fly at a speed of 40 feet. If you ever fail to grip the cloaknulls edges while flying in this way, or if you are no longer in dim light or darkness, you lose this flying speed.
-While wearing the cloak in an area of dim light or darkness, you can use your action to castpolymorphon yourself, transforming into abat. While you are in the form of the bat, you retain your Intelligence, Wisdom, and Charisma scores. The cloak cannullt be used this way again until the next dawn.
-Item Tags:MOVEMENTSHAPECHANGINGDECEPTIONOUTERWEAR', 'advantage: stealth, set: innate speed (flying), movement, shapechanging, deception, outerwear', NULL, NULL, 'rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Tinkernulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Lock', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Shovel', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Sealing Wax', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Leatherworkernulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Lightning Resistance', 'DND5E', null, null, 'You have resistance to lightning damage while wearing this citrine ring.', 'resistance: lightning, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Ring of Lightning Resistance', 'DND5E', null, null, 'You have resistance to lightning damage while wearing this citrine ring.', 'resistance: lightning, warding, jewelry', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Ioun Stone', 'DND5E', null, null, 'AnIoun stoneis named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types ofIoun stoneexist, each type a distinct combination of shape and color.
 When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ([Acrobatics](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Acrobatics)) check. You can use an action to seize and stow the stone, ending its Effect.
@@ -2686,14 +2754,14 @@ This other set of Ioun Stones come from the Extra Life Adventure:[Lost Laborator
 [Religious Knowledge](https://www.dndbeyond.com/magic-items/354058-ioun-stone-of-religious-knowledge)(Rare).You gain proficiency in the[Religion](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Religion)skill, or a +1 bonus to checks with that skill if already proficient, while this tiny golden gem orbits your head.
 [Language Knowledge](https://www.dndbeyond.com/magic-items/354061-ioun-stone-of-language-knowledge)(Rare).You are fluent in one additional language while this pulsating bit of red jeweled crystal orbits your head. The DM chooses the language bestowed by the stone.
 [Self-Preservation](https://www.dndbeyond.com/magic-items/354066-ioun-stone-of-self-preservation)(Rare).You gain a +1 bonus to Intelligence saving throws while this silvery gem orbits your head.
-Item Tags:BUFFDETECTIONUTILITYWARDING', 'bonus: armor class, bonus: charisma score, bonus: constitution score, bonus: hit points, bonus: intelligence score, bonus: strength score, bonus: wisdom score, bonus: dexterity score, buff, detection, utility, warding', NULL, NULL, 'varies', 'Wondrous Item', false, true, false, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Item Tags:BUFFDETECTIONUTILITYWARDING', 'bonus: armor class, bonus: charisma score, bonus: constitution score, bonus: hit points, bonus: intelligence score, bonus: strength score, bonus: wisdom score, bonus: dexterity score, buff, detection, utility, warding', null, null, 'varies', 'Wondrous Item', false, true, false, true, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Ink (1 ounce bottle)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Ink (1 ounce bottle)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Rod of Rulership', 'DND5E', null, null, 'You can use an action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of you. Each target must succeed on a DC 15 Wisdom saving throw or be[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)by you for 8 hours. While[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)in this way, the creature regards you as its trusted leader. If harmed by you or your companions, or commanded to do something contrary to its nature, a target ceases to be[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)in this way. The rod cannullt be used again until the next dawn.', 'charmed, control', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Rod of Rulership', 'DND5E', null, null, 'You can use an action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of you. Each target must succeed on a DC 15 Wisdom saving throw or be[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)by you for 8 hours. While[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)in this way, the creature regards you as its trusted leader. If harmed by you or your companions, or commanded to do something contrary to its nature, a target ceases to be[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)in this way. The rod cannullt be used again until the next dawn.', 'charmed, control', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Cape of the Mountebank', 'DND5E', null, null, 'This cape smells faintly of brimstone. While wearing it, you can use it to cast thedimension doorspell as an action. This property of the cape cannullt be used again until the next dawn.
-When you disappear, you leave behind a cloud of smoke, and you appear in a similar cloud of smoke at your destination. The smoke lightly obscures the space you left and the space you appear in, and it dissipates at the end of your next turn. A light or stronger wind disperses the smoke.', 'teleportation, exploration, outerwear', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+When you disappear, you leave behind a cloud of smoke, and you appear in a similar cloud of smoke at your destination. The smoke lightly obscures the space you left and the space you appear in, and it dissipates at the end of your next turn. A light or stronger wind disperses the smoke.', 'teleportation, exploration, outerwear', null, null, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Feed (per day)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(

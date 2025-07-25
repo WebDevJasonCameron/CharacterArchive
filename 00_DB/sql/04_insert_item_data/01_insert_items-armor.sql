@@ -3384,4 +3384,69 @@ VALUES (
 
            null,
            17
+       ),
+       (
+        'Robes',
+        'DND5E',
+        '4 lb',
+        '1 gp',
+        'A standard set of robes.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Cloak of the Bat',
+        'DND5E',
+        null,
+        null,
+        'While wearing this cloak, you have Advantage on Dexterity (Stealth) checks. In an area of Dim Light or Darkness, you can grip the edges of the cloak and use it to gain a Fly Speed of 40 feet. If you ever fail to grip the cloak’s edges while flying in this way, or if you are no longer in Dim Light or Darkness, you lose this Fly Speed.
+            While wearing the cloak in an area of Dim Light or Darkness, you can cast Polymorph on yourself, shape-shifting into a Bat. While in that form, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can’t be used this way again until the next dawn.',
+        'Advantage: Stealth, Set: Innate Speed (Flying), Movement, Shapechanging, Deception, Outerwear',
+        'Dungeon Master’s Guide, pg. 159',
+        'rare',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        1,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
        )

@@ -2094,4 +2094,36 @@ You can hurl multiple beads, or even the whole necklace, as one action. When you
 
        null,
        5
+      ),
+      (
+       'Ring of Thunder Resistance',
+       'DND5E',
+       null,
+       null,
+       'You have resistance to thunder damage while wearing this spinel ring.',
+       'Resistance: Thunder, Warding, Jewelry',
+       null,
+       'rare',
+       null,
+
+       true,
+       false,
+       true,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

@@ -651,4 +651,135 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Calligraphy''s Supplies',
+        'DND5E',
+        '5 lb',
+        '10 gp',
+        'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Tinker''s Tools',
+        'DND5E',
+        '10 lb',
+        '50 gp',
+        '*Ability:* Dexterity
+                *Utilize:* Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)
+                *Craft:* Musket, Pistol, Bell, Bullseye Lantern, Flask, Hooded Lantern, Hunting Trap, Lock, Manacles, Mirror, Shovel, Signal Whistle, Tinderbox
+                If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that’s used with that check, you have Advantage on the check too.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        53
+       ),
+       (
+        'Shovel',
+        'DND5E',
+        '5 lb',
+        '2 gp',
+        'A standard shovel used for digging.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Sealing Wax',
+        'DND5E',
+        null,
+        '5 sp',
+        'When you press a signet ring into warm sealing wax, you leave an identifying mark.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )

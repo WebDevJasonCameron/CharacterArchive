@@ -2139,4 +2139,68 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Caltrops (bag of 20)',
+       'DND5E',
+       '2 lb',
+       '1 gp',
+       'As an action, you can spread a bag of caltrops to cover a square area that is 5 feet on a side. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving this turn and take 1 piercing damage. Taking this damage reduces the creature''s walking speed by 10 feet until the creature regains at least 1 hit point. A creature moving through the area at half speed doesn''t need to make the save.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Lock',
+       'DND5E',
+       '1 lb',
+       '10 gp',
+       'A key is provided with the lock. Without the key, a creature proficient with thieves'' tools can pick this lock with a successful DC 15 Dexterity check. Your DM may decide that better locks are available for higher prices.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
