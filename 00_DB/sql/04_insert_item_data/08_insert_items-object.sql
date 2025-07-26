@@ -2721,68 +2721,608 @@ You and any creature you designate when you use the shackles can use an action t
 
      null,
      5
+      ),
+    (
+     'Ioun Stone of Greater Absorption',
+     'DND5E',
+     null,
+     null,
+     'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+            When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+            A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+            Greater Absorption. While this marbled lavender and green ellipsoid orbits your head, you can use your reaction to cancel a spell of 8th level or lower cast by a creature you can see and targeting only you.
+            Once the stone has canceled 50 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can''t cancel it.',
+     'Warding, Consumable',
+     null,
+     'legendary ',
+     'Wondrous Item',
+
+     true,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     53
+      ),
+      (
+          'Ioun Stone of Mastery',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                Mastery. Your proficiency bonus increases by 1 while this pale green prism orbits your head.',
+          'Proficiency Bonus, Buff',
+          null,
+          'legendary',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ioun Stone of Regeneration',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                Regeneration. You regain 15 hit points at the end of each hour this pearly white spindle orbits your head, provided that you have at least 1 hit point.',
+          'Bonus: Hit Points, Healing',
+          null,
+          'legendary',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ioun Stone of Absorption',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                Absorption. While this pale lavender ellipsoid orbits your head, you can use your reaction to cancel a spell of 4th level or lower cast by a creature you can see and targeting only you.
+                Once the stone has canceled 20 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can''t cancel it.',
+          'Warding, Consumable',
+          null,
+          'very rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ioun Stone of Agility',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                Agility. Your Dexterity score increases by 2, to a maximum of 20, while this deep red sphere orbits your head.',
+          'Bonus: Dexterity Score, Buff',
+          null,
+          'very rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ioun Stone of Fortitude',
+          'DND5E',
+          null,
+          null,
+          '
+                An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                Fortitude. Your Constitution score increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.',
+          'Bonus: Constitution Score, Buff',
+          null,
+          'very rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ioun Stone of Insigh',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                Insight. Your Wisdom score increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.',
+          'Bonus: Wisdom Score, Buff',
+          null,
+          'very rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ioun Stone of Intellect',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                Intellect. Your Intelligence score increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.',
+          'Bonus: Intelligence Score, Buff',
+          null,
+          'very rare ',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ioun Stone of Leadership',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                Leadership. Your Charisma score increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.',
+          'Bonus: Charisma Score, Buff',
+          null,
+          'very rare ',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ioun Stone of Strength',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                Strength. Your Strength score increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.',
+          'Bonus: Strength Score, Buff',
+          null,
+          'very rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ioun Stone of Vitality',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                    When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                    A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                    Vitality. You gain a +1 bonus to death saving throws while this luminous green-and-blue marbled sphere orbits your head.',
+          'Healing',
+          'Infernal Machine Rebuild, pg. 94',
+          'Very Rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          30
+      ),
+      (
+          'Ioun Stone of Awareness',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                Awareness. You can''t be surprised while this dark blue rhomboid orbits your head.',
+          'Detection, Warding',
+          null,
+          'rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ioun Stone of Protection',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                Protection. You gain a +1 bonus to AC while this dusty rose prism orbits your head.',
+          'Bonus: Armor Class, Warding',
+          null,
+          'rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ioun Stone of Reserve',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                Reserve. This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 3 levels worth of spells at a time. When found, it contains 1d4−1 levels of stored spells chosen by the GM.
+                Any creature can cast a spell of 1st through 3rd level into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can''t hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.
+                While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.',
+          'Utility',
+          null,
+          'rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+      (
+          'Ioun Stone of Sustenance',
+          'DND5E',
+          null,
+          null,
+          'An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.
+                        When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+                        A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+                        Sustenance. You don''t need to eat or drink while this clear spindle orbits your head.',
+          'Utility',
+          null,
+          'rare',
+          'Wondrous Item',
+
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          null,
+
+          null,
+          null,
+          null,
+          null,
+          null,
+
+          null,
+          null,
+
+          null,
+          53
+      ),
+    (
+     'Rod of Rulership',
+     'DND5E',
+     null,
+     null,
+     'You can use an action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of you. Each target must succeed on a DC 15 Wisdom saving throw or be charmed by you for 8 hours. While charmed in this way, the creature regards you as its trusted leader. If harmed by you or your companions, or commanded to do something contrary to its nature, a target ceases to be charmed in this way. The rod can''t be used again until the next dawn.',
+     'Charmed, Control',
+     'Basic Rules (2014), pg. 197',
+     'rare',
+     null,
+
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     1,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
+     'Eyes of Minute Seeing',
+     'DND5E',
+     null,
+     null,
+     'These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence (Investigation) checks that rely on sight while searching an area or studying an object within that range.',
+     'Advantage: Investigation, Detection, Utility, Eyewear',
+     'Basic Rules (2014), pg. 168',
+     'uncommon',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
+         'Ring of Regeneration',
+     'DND5E', null, null, 'While wearing this ring, you regain 1d6 hit points every 10 minutes, provided that you have at least 1 hit point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after 1d6 + 1 days if you have at least 1 hit point the whole time.', 'regain 1d6 hit points every 10 minutes, regrow lost body parts, healing, jewelry', null, null, 'very rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Leatherworkernulls Tools', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
+         'Ring of Jumping', 'DND5E', null, null, 'While wearing this ring, you can cast thejumpspell from it as a bonus action at will, but can target only yourself when you do so.', 'buff, movement, jewelry', null, null, 'uncommon', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Ring of Lightning Resistance', 'DND5E', null, null, 'You have resistance to lightning damage while wearing this citrine ring.', 'resistance: lightning, warding, jewelry', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Ioun Stone', 'DND5E', null, null, 'AnIoun stoneis named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types ofIoun stoneexist, each type a distinct combination of shape and color.
-When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ([Acrobatics](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Acrobatics)) check. You can use an action to seize and stow the stone, ending its Effect.
-A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
-[Absorption](https://www.dndbeyond.com/magic-items/4664-ioun-stone-of-absorption)(Very Rare).While this pale lavender ellipsoid orbits your head, you can use your reaction to cancel a spell of 4th level or lower cast by a creature you can see and targeting only you.
-Once the stone has canceled 20 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone cannullt cancel it.
-[Agility](https://www.dndbeyond.com/magic-items/4917-ioun-stone-of-agility)(Very Rare).Your Dexterity score increases by 2, to a maximum of 20, while this deep red sphere orbits your head.
-[Awareness](https://www.dndbeyond.com/magic-items/4918-ioun-stone-of-awareness)(Rare).You cannullt be surprised while this dark blue rhomboid orbits your head.
-[Fortitude](https://www.dndbeyond.com/magic-items/4933-ioun-stone-of-fortitude)(Very Rare).Your Constitution score increases by 2, to a maximum of 20, while this pink rhomboidorbits your head.
-[Greater Absorption](https://www.dndbeyond.com/magic-items/4934-ioun-stone-of-greater-absorption)(Legendary).While this marbled lavender and green ellipsoid orbits your head, you can use your reaction to cancel a spell of 8th level or lower cast by a creature you can see and targeting only you.
-Once the stone has canceled 50 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone cannullt cancel it.
-[Insight](https://www.dndbeyond.com/magic-items/4935-ioun-stone-of-insight)(Very Rare).Your Wisdom score increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.
-[Intellect](https://www.dndbeyond.com/magic-items/4936-ioun-stone-of-intellect)(Very Rare).Your Intelligence score increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.
-[Leadership](https://www.dndbeyond.com/magic-items/4937-ioun-stone-of-leadership)(Very Rare).Your Charisma score increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.
-[Mastery](https://www.dndbeyond.com/magic-items/4938-ioun-stone-of-mastery)(Legendary).Your proficiency bonus increases by 1 while this pale green prism orbits your head.
-[Protection](https://www.dndbeyond.com/magic-items/4939-ioun-stone-of-protection)(Rare).You gain a +1 bonus to AC while this dusty rose prism orbits your head.
-[Regeneration](https://www.dndbeyond.com/magic-items/4940-ioun-stone-of-regeneration)(Legendary).You regain 15 hit points at the end of each hour this pearly white spindle orbits your head, provided that you have at least 1 hit point.
-[Reserve](https://www.dndbeyond.com/magic-items/4941-ioun-stone-of-reserve)(Rare).This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 3 levels worth of spells at a time. When found, it contains 1d4−1 levels of stored spells chosen by the GM.
-Any creature can cast a spell of 1st through 3rd level into the stone by touching it as the spell is cast. The spell has no Effect, other than to be stored in the stone. If the stone cannullt hold the spell, the spell is expended without Effect. The level of the slot used to cast the spell determines how much space it uses.
-While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.
-[Strength](https://www.dndbeyond.com/magic-items/4942-ioun-stone-of-strength)(Very Rare).Your Strength score increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.
-[Sustenance](https://www.dndbeyond.com/magic-items/4943-ioun-stone-of-sustenance)(Rare).You donnullt need to eat or drink while this clear spindle orbits your head.
-This other set of Ioun Stones come from the Extra Life Adventure:[Lost Laboratory of Kwalish](https://www.dndbeyond.com/sources/llok).
-[Supreme Intellect](https://www.dndbeyond.com/magic-items/354047-ioun-stone-of-supreme-intellect)(Rare).You gain a +1 bonus to Intelligence checks while this faceted sphere orbits your head.
-[Historical Knowledge](https://www.dndbeyond.com/magic-items/354050-ioun-stone-of-historical-knowledge)(Rare).You gain proficiency in the[History](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#History)skill, or a +1 bonus to checks with that skill if already proficient, while this polished, steely sphere orbits your head.
-[Natural Knowledge](https://www.dndbeyond.com/magic-items/354054-ioun-stone-of-natural-knowledge)(Rare).You gain proficiency in the[Nature](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Nature)skill, or a +1 bonus to checks with that skill if already proficient, while this burnished, brassy stone orbits your head.
-[Religious Knowledge](https://www.dndbeyond.com/magic-items/354058-ioun-stone-of-religious-knowledge)(Rare).You gain proficiency in the[Religion](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Religion)skill, or a +1 bonus to checks with that skill if already proficient, while this tiny golden gem orbits your head.
-[Language Knowledge](https://www.dndbeyond.com/magic-items/354061-ioun-stone-of-language-knowledge)(Rare).You are fluent in one additional language while this pulsating bit of red jeweled crystal orbits your head. The DM chooses the language bestowed by the stone.
-[Self-Preservation](https://www.dndbeyond.com/magic-items/354066-ioun-stone-of-self-preservation)(Rare).You gain a +1 bonus to Intelligence saving throws while this silvery gem orbits your head.
-Item Tags:BUFFDETECTIONUTILITYWARDING', 'bonus: armor class, bonus: charisma score, bonus: constitution score, bonus: hit points, bonus: intelligence score, bonus: strength score, bonus: wisdom score, bonus: dexterity score, buff, detection, utility, warding', null, null, 'varies', 'Wondrous Item', false, true, false, true, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Ink (1 ounce bottle)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Rod of Rulership', 'DND5E', null, null, 'You can use an action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of you. Each target must succeed on a DC 15 Wisdom saving throw or be[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)by you for 8 hours. While[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)in this way, the creature regards you as its trusted leader. If harmed by you or your companions, or commanded to do something contrary to its nature, a target ceases to be[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)in this way. The rod cannullt be used again until the next dawn.', 'charmed, control', null, null, 'rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Cape of the Mountebank', 'DND5E', null, null, 'This cape smells faintly of brimstone. While wearing it, you can use it to cast thedimension doorspell as an action. This property of the cape cannullt be used again until the next dawn.
-When you disappear, you leave behind a cloud of smoke, and you appear in a similar cloud of smoke at your destination. The smoke lightly obscures the space you left and the space you appear in, and it dissipates at the end of your next turn. A light or stronger wind disperses the smoke.', 'teleportation, exploration, outerwear', null, null, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Feed (per day)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Staff of Power', 'DND5E', null, null, 'This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.
-The staff has 20 charges for the following properties. The staff regains 2d8 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff retains its +2 bonus to attack and damage rolls but loses all other properties. On a 20, the staff regains 1d8 + 2 charges.
-Power Strike.When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra 1d6 force damage to the target.
-Spells.While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus:cone of cold(5 charges),fireball(5th-level version, 5 charges),globe of invulnerability(6 charges),hold monster(5 charges),levitate(2 charges),lightning bolt(5th-level version, 5 charges),magic missile(1 charge),ray of enfeeblement(1 charge), orwall of force(5 charges).
-Retributive Strike.You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.
-You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the Effect, you take force damage equal to 16 × the number of charges in the staff. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes an amount of damage based on how far away it is from the point of origin, as shown in the following table. On a successful save, a creature takes half as much damage.
-| Distance from Origin | Damage |
-| 10 ft. away or closer | 8 x the number of charges in the staff |
-| 11 to 20 ft. away | 6 x the number of charges in the staff |
-| 21 to 30 ft. away | 4 x the number of charges in the staff |', 'damage: force, bonus: saving throws, bonus: armor class, bonus: spell attacks, bonus: magic, sorcerer, warlock, or wizard, damage, control, combat, warding', NULL, NULL, 'very rare', 'yes', false, false, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Eyes of Minute Seeing', 'DND5E', null, null, 'These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence ([Investigation](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Investigation)) checks that rely on sight while searching an area or studying an object within that range.', 'advantage: investigation, detection, utility, eyewear', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Regeneration', 'DND5E', null, null, 'While wearing this ring, you regain 1d6 hit points every 10 minutes, provided that you have at least 1 hit point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after 1d6 + 1 days if you have at least 1 hit point the whole time.', 'regain 1d6 hit points every 10 minutes, regrow lost body parts, healing, jewelry', NULL, NULL, 'very rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Jumping', 'DND5E', null, null, 'While wearing this ring, you can cast thejumpspell from it as a bonus action at will, but can target only yourself when you do so.', 'buff, movement, jewelry', NULL, NULL, 'uncommon', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Tome of Leadership and Influence', 'DND5E', null, null, 'This book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the booknulls contents and practicing its guidelines, your Charisma score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.', 'bonus: charisma score, bonus: ability score maximum, buff', NULL, NULL, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Tome of Leadership and Influence', 'DND5E', null, null, 'This book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the booknulls contents and practicing its guidelines, your Charisma score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.', 'bonus: charisma score, bonus: ability score maximum, buff', null, null, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Defender', 'DND5E', null, null, 'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
 The first time you attack with the sword on each of your turns, you can transfer some or all of the sword’s bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in Effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.
@@ -2792,9 +3332,9 @@ Applicable Weapons:
 | Longsword  | Martial Melee | 1d8 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10)                                                                                       |
 | Rapier     | Martial Melee | 1d8 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)                                                                                                |
 | Scimitar   | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |
-| Shortsword | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |', 'bonus: magic, damage, combat, warding, versatile', NULL, NULL, null, 'legendary', false, true, false, false, true, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+| Shortsword | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |', 'bonus: magic, damage, combat, warding, versatile', null, null, null, 'legendary', false, true, false, false, true, true, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Grappling Hook', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Grappling Hook', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Staff of the Magi', 'DND5E', null, null, 'This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.
 The staff has 50 charges for the following properties. It regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 20, the staff regains 1d12 + 1 charges.
@@ -2806,14 +3346,14 @@ You have a 50 percent chance to instantly travel to a random plane of existence,
 | Distance from Origin | Damage |
 | 10 ft. away or closer | 8 x the number of charges in the staff |
 | 11 to 20 ft. away | 6 x the number of charges in the staff |
-| 21 to 30 ft. away | 4 x the number of charges in the staff |', 'bonus: magic, bonus: spell attacks, advantage: saving throws, sorcerer, warlock, or wizard, damage, control, detection, combat, deception, warding', NULL, NULL, 'legendary', null, false, false, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+| 21 to 30 ft. away | 4 x the number of charges in the staff |', 'bonus: magic, bonus: spell attacks, advantage: saving throws, sorcerer, warlock, or wizard, damage, control, detection, combat, deception, warding', null, null, 'legendary', null, false, false, false, false, true, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Clothes, Fine', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Clothes, Fine', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),
     (
          'Sack', 'DND5E', null, null, 'Type:Adventuring GearCost:
 Weight:1/2 lb
-A sack can hold1 cubic foot/ 30 pounds of gear.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+A sack can hold1 cubic foot/ 30 pounds of gear.', null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Ring of Water Elemental Command', 'DND5E', null, null, 'This ring is linked to the Elemental Plane of Water.
 While wearing this ring, you have advantage on attack rolls against water elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Water.
@@ -2822,36 +3362,36 @@ You can expend 2 of the ringnulls charges to castdominate monsteron awater eleme
 If you help slay awater elementalwhile attuned to the ring, you gain access to the following additional properties:
 -   You can breathe underwater and have a swimming speed equal to your walking speed.
 -   You can cast the following spells from the ring, expending the necessary number of charges:create or destroy water(1 charge),control water(3 charges),ice storm(2 charges), orwall of ice(3 charges).
-Item Tags:CONTROLBUFFMOVEMENTJEWELRY', 'set: innate speed (swimming), walk on liquid surfaces, breathe underwater, control, buff, movement, jewelry', NULL, NULL, 'legendary', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Item Tags:CONTROLBUFFMOVEMENTJEWELRY', 'set: innate speed (swimming), walk on liquid surfaces, breathe underwater, control, buff, movement, jewelry', null, null, 'legendary', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Staff of Striking', 'DND5E', null, null, 'This staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.
-The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra 1d6 force damage. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff.', 'bonus: magic, damage: force, damage, combat', NULL, NULL, 'vary rare', null, false, true, false, false, false, true, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra 1d6 force damage. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff.', 'bonus: magic, damage: force, damage, combat', null, null, 'vary rare', null, false, true, false, false, false, true, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Perfume (vial)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Perfume (vial)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Demon Armor', 'DND5E', null, null, 'While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor’s clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack rolls and damage rolls and a damage die of 1d8.
 Curse.Once you don this cursed armor, you can’t doff it unless you are targeted by the[remove curse](https://www.dndbeyond.com/spells/remove-curse)spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.
-Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'bonus: armor class, language: abyssal, damage, combat, warding, cursed, str 15 required, stealth disadvantage', NULL, NULL, 'very rare', null, false, true, true, true, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'bonus: armor class, language: abyssal, damage, combat, warding, cursed, str 15 required, stealth disadvantage', null, null, 'very rare', null, false, true, true, true, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Jewelernulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Jewelernulls Tools', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Eyes of the Eagle', 'DND5E', null, null, 'These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom ([Perception](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception)) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.', 'advantage: perception, detection, utility, eyewear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Eyes of the Eagle', 'DND5E', null, null, 'These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom ([Perception](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception)) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.', 'advantage: perception, detection, utility, eyewear', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Mirror, Steel', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Mirror, Steel', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),
     (
          'Censer of Controlling Air Elementals', 'DND5E', null, null, 'While incense is burning in this censer, you can use an action to speak the censernulls command word and summon anair elemental, as if you had cast theconjure elementalspell. The censer cannullt be used this way again until the next dawn.
-This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. It weighs 1 pound.', 'summoning', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. It weighs 1 pound.', 'summoning', null, null, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Torch', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Torch', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Wand', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Wand', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
-         'Cooknulls Utensils', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+         'Cooknulls Utensils', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
       ),(
          'Staff of the Python', 'DND5E', null, null, 'You can use an action to speak this staffnulls command word and throw the staff on the ground within 10 feet of you. The staff becomes agiant constrictor snakeunder your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake.
 On your turn, you can mentally command the snake if it is within 60 feet of you and you arennullt[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated). You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.
-If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. If the snake reverts to staff form before losing all its hit points, it regains all of them.', 'cleric, druid, or warlock, summoning, control', NULL, NULL, 'uncommon', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. If the snake reverts to staff form before losing all its hit points, it regains all of them.', 'cleric, druid, or warlock, summoning, control', null, null, 'uncommon', null, false, true, false, false, false, false, false, null, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Slippers of Spider Climbing', 'DND5E', null, null, 'While you wear these light shoes, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. However, the slippers donnullt allow you to move this way on a slippery surface, such as one covered by ice or oil.', 'set: innate speed (climbing), movement, footwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(

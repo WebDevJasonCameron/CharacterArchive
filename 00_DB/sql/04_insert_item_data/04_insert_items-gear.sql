@@ -2203,4 +2203,36 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Ink (1 ounce bottle)',
+       'DND5E',
+       null,
+       '10 gp',
+       'Ink is typically used with an ink pen to write.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

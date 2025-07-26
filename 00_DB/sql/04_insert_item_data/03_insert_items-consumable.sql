@@ -538,5 +538,37 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Feed (per day)',
+       'DND5E',
+       '10 lb',
+       '5 cp',
+       'Standard feed typically consumed by a mount per day.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
 
