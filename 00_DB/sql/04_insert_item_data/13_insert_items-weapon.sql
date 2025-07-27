@@ -10616,4 +10616,332 @@ VALUES(
        null,
        17
 
+      ),
+      (
+       'Defender',
+       'DND5E',
+       null,
+       null,
+       'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
+            The first time you attack with the sword on each of your turns, you can transfer some or all of the sword’s bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.
+
+            *Applicable Weapons:*
+
+            | *Name* | *Type* | *Damage* | *Properties* |
+            | --- | --- | --- | --- |
+            | Greatsword | Martial Melee | 2d6 slashing | Heavy, two-handed |
+            | Longsword | Martial Melee | 1d8 slashing | Versatile (1d10) |
+            | Rapier | Martial Melee | 1d8 piercing | Finesse |
+            | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
+            | Shortsword | Martial Melee | 1d6 piercing | Finesse, light |',
+       'Bonus: Magic, Damage, Combat, Warding, Versatile, Sap',
+       'Basic Rules (2014), pg. 164',
+       'legendary',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       true,
+       true,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+          'Defender Greatsword',
+          'DND5E',
+          '6 lb',
+          null,
+          'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
+                The first time you attack with the sword on each of your turns, you can transfer some or all of the sword’s bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.
+                Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
+          'Bonus: Magic, Damage, Combat, Warding, Heavy, Two-Handed, Graze',
+          null,
+          'legendary',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          null,
+
+          '5 ft',
+          '2d6',
+          'slashing',
+          'Heavy, Two-Handed, Grazev',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Defender Longsword',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
+                The first time you attack with the sword on each of your turns, you can transfer some or all of the sword’s bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.
+                Proficiency with a Longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+          'Bonus: Magic, Damage, Combat, Warding, Versatile, Sap',
+          null,
+          'legendary',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          null,
+
+          '5 ft',
+          '1d8 (1d10 two handed)',
+          'slashing',
+          'Versatile (1d10), Sap',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Defender Rapier',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
+                The first time you attack with the sword on each of your turns, you can transfer some or all of the sword’s bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.
+                Proficiency with a Rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage, Combat, Warding, Finesse, Vex',
+          null,
+          'legendary',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          null,
+
+          '5 ft',
+          '1d8',
+          'piercing',
+          'Finesse, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Defender Scimitar',
+          'DND5E',
+          '3 lb',
+          null,
+          'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
+                The first time you attack with the sword on each of your turns, you can transfer some or all of the sword’s bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.
+                Proficiency with a Scimitar allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
+          'Bonus: Magic, Damage, Combat, Warding, Finesse, Light, Nick',
+          null,
+          'legendary',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          null,
+
+          '5 ft',
+          '1d6',
+          'slashing',
+          'Finesse, Light, Nick',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+      (
+          'Defender Shortsword',
+          'DND5E',
+          '2 lb',
+          null,
+          'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
+                The first time you attack with the sword on each of your turns, you can transfer some or all of the sword’s bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.
+                Proficiency with a Shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+                ---
+                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+                Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
+          'Bonus: Magic, Damage, Combat, Warding, Finesse, Light, Vex',
+          null,
+          'legendary',
+          null,
+
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          null,
+
+          '5 ft',
+          '1d6',
+          'piercing',
+          'Finesse, Light, Vex',
+          null,
+
+          null,
+          null,
+
+          null,
+          5
+      ),
+    (
+     'Staff of Striking',
+     'DND5E',
+     null,
+     null,
+     'This staff can be wielded as a magic Quarterstaff that grants a +3 bonus to attack rolls and damage rolls made with it.
+            The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 charges. For each charge you expend, the target takes an extra 1d6 Force damage.
+            *Regaining Charges.* The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff becomes a nonmagical Quarterstaff.',
+     'Bonus: Magic, Damage: Force, Damage, Combat',
+     'Dungeon Master’s Guide, pg. 203',
+     'vary rare',
+     null,
+
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     10,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     17
+      ),
+      (
+       'Wand',
+       'DND5E',
+       '1 lb',
+       '10 gp',
+       'An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section.',
+       null,
+       null,
+       null,
+       null,
+
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Staff of the Python',
+       'DND5E',
+       null,
+       null,
+       'You can use an action to speak this staff''s command word and throw the staff on the ground within 10 feet of you. The staff becomes a giant constrictor snake under your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake.
+            On your turn, you can mentally command the snake if it is within 60 feet of you and you aren''t incapacitated. You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.
+            If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. If the snake reverts to staff form before losing all its hit points, it regains all of them.',
+       'Cleric, Druid, or Warlock, Summoning, Control',
+       'Basic Rules (2014), pg. 204',
+       'uncommon',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

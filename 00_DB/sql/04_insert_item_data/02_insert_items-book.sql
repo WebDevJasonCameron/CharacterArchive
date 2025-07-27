@@ -829,4 +829,36 @@ VALUES
 
        null,
        5
+      ),
+      (
+       'Tome of Leadership and Influence',
+       'DND5E',
+       null,
+       null,
+       'This book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book’s contents and practicing its guidelines, your Charisma increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.',
+       'Bonus: Charisma Score, Bonus: Ability Score Maximum, Buff',
+       'Dungeon Master’s Guide, pg. 208',
+       'very rare',
+       'Wondrous Item',
+
+       true,
+       false,
+       true,
+       false,
+       false,
+       false,
+       true,
+       1,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
       )

@@ -570,5 +570,37 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Perfume (vial)',
+       'DND5E',
+       null,
+       '5 gp',
+       'A fragrant commodity typically used by the wealthy.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
 

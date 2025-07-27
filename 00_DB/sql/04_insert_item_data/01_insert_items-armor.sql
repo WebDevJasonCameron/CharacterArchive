@@ -3482,4 +3482,134 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Clothes, Fine',
+        'DND5E',
+        '6 lb',
+        '15 gp',
+        'This set of clothes is designed specifically to be expensive and to show it, including fancy, tailored clothes in whatever fashion happens to be the current style in the courts of the nobles. Precious metals and gems could be worked into the clothing.',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Demon Armor',
+        'DND5E',
+        null,
+        null,
+        'While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor’s clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack rolls and damage rolls and a damage die of 1d8.
+                *Curse.* Once you don this cursed armor, you can’t doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.
+                Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.',
+        'Bonus: Armor Class, Language: Abyssal, Damage, Combat, Warding, Cursed, Str. 15 Required, Stealth Disadvantage',
+        'Dungeon Master’s Guide, pg. 252',
+        'very rare',
+        null,
+
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+       ),
+       (
+           'Eyes of the Eagle',
+           'DND5E',
+           null,
+           null,
+           'These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.',
+           'Advantage: Perception, Detection, Utility, Eyewear',
+           'Basic Rules (2014), pg. 168',
+           'uncommon',
+           'Wondrous Item',
+
+           true,
+           false,
+           true,
+           false,
+           false,
+           false,
+           false,
+           null,
+
+           null,
+           null,
+           null,
+           null,
+           null,
+
+           null,
+           null,
+
+           null,
+           5
+       ),
+       (
+        'Slippers of Spider Climbing',
+        'DND5E',
+        null,
+        null,
+        'While you wear these light shoes, you can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free. You have a Climb Speed equal to your Speed. However, the slippers don’t allow you to move this way on a slippery surface, such as one covered by ice or oil.',
+        'Set: Innate Speed (Climbing), Movement, Footwear',
+        'Dungeon Master’s Guide, pg. 200',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
        )

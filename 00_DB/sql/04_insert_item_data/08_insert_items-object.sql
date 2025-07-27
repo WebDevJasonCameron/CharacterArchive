@@ -3317,86 +3317,39 @@ You and any creature you designate when you use the shackles can use an action t
      5
       ),
     (
-         'Ring of Regeneration',
-     'DND5E', null, null, 'While wearing this ring, you regain 1d6 hit points every 10 minutes, provided that you have at least 1 hit point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after 1d6 + 1 days if you have at least 1 hit point the whole time.', 'regain 1d6 hit points every 10 minutes, regrow lost body parts, healing, jewelry', null, null, 'very rare', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Ring of Jumping', 'DND5E', null, null, 'While wearing this ring, you can cast thejumpspell from it as a bonus action at will, but can target only yourself when you do so.', 'buff, movement, jewelry', null, null, 'uncommon', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Tome of Leadership and Influence', 'DND5E', null, null, 'This book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the booknulls contents and practicing its guidelines, your Charisma score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.', 'bonus: charisma score, bonus: ability score maximum, buff', null, null, 'very rare', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Defender', 'DND5E', null, null, 'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
-The first time you attack with the sword on each of your turns, you can transfer some or all of the sword’s bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in Effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.
-Applicable Weapons:
-| Name           | Type          | Damage       | Properties                                                                                                                                                                                  |
-| Greatsword | Martial Melee | 2d6 slashing | [Heavy](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[two-handed](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties) |
-| Longsword  | Martial Melee | 1d8 slashing | [Versatile](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)(1d10)                                                                                       |
-| Rapier     | Martial Melee | 1d8 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)                                                                                                |
-| Scimitar   | Martial Melee | 1d6 slashing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |
-| Shortsword | Martial Melee | 1d6 piercing | [Finesse](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties),[light](https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#WeaponProperties)    |', 'bonus: magic, damage, combat, warding, versatile', null, null, null, 'legendary', false, true, false, false, true, true, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Grappling Hook', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Staff of the Magi', 'DND5E', null, null, 'This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.
-The staff has 50 charges for the following properties. It regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 20, the staff regains 1d12 + 1 charges.
-Spell Absorption.While holding the staff, you have advantage on saving throws against spells. In addition, you can use your reaction when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its Effect and gaining a number of charges equal to the absorbed spellnulls level. However, if doing so brings the staffnulls total number of charges above 50, the staff explodes as if you activated its retributive strike (see below).
-Spells.While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability:conjure elemental(7 charges),dispel magic(3 charges),fireball(7th-level version, 7 charges),flaming sphere(2 charges),ice storm(4 charges),invisibility(2 charges),knock(2 charges),lightning bolt(7th-level version, 7 charges),passwall(5 charges),plane shift(7 charges),telekinesis(5 charges),wall of fire(4 charges), orweb(2 charges).
-You can also use an action to cast one of the following spells from the staff without using any charges:arcane lock,detect magic,enlarge  or reduce,light,mage hand, orprotection from evil and good.
-Retributive Strike.You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.
-You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the Effect, you take force damage equal to 16 × the number of charges in the staff. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes an amount of damage based on how far away it is from the point of origin, as shown in the following table. On a successful save, a creature takes half as much damage.
-| Distance from Origin | Damage |
-| 10 ft. away or closer | 8 x the number of charges in the staff |
-| 11 to 20 ft. away | 6 x the number of charges in the staff |
-| 21 to 30 ft. away | 4 x the number of charges in the staff |', 'bonus: magic, bonus: spell attacks, advantage: saving throws, sorcerer, warlock, or wizard, damage, control, detection, combat, deception, warding', null, null, 'legendary', null, false, false, false, false, true, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Clothes, Fine', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
+     'Censer of Controlling Air Elementals',
+     'DND5E',
+     null,
+     null,
+     'While incense is burning in this censer, you can use an action to speak the censer''s command word and summon an air elemental, as if you had cast the conjure elemental spell. The censer can''t be used this way again until the next dawn.
+            This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. It weighs 1 pound.',
+     'Summoning',
+     'Basic Rules (2014), pg. 158',
+     'rare',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     1,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
       ),
     (
-         'Sack', 'DND5E', null, null, 'Type:Adventuring GearCost:
-Weight:1/2 lb
-A sack can hold1 cubic foot/ 30 pounds of gear.', null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Ring of Water Elemental Command', 'DND5E', null, null, 'This ring is linked to the Elemental Plane of Water.
-While wearing this ring, you have advantage on attack rolls against water elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Water.
-The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.
-You can expend 2 of the ringnulls charges to castdominate monsteron awater elemental. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.
-If you help slay awater elementalwhile attuned to the ring, you gain access to the following additional properties:
--   You can breathe underwater and have a swimming speed equal to your walking speed.
--   You can cast the following spells from the ring, expending the necessary number of charges:create or destroy water(1 charge),control water(3 charges),ice storm(2 charges), orwall of ice(3 charges).
-Item Tags:CONTROLBUFFMOVEMENTJEWELRY', 'set: innate speed (swimming), walk on liquid surfaces, breathe underwater, control, buff, movement, jewelry', null, null, 'legendary', null, false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Staff of Striking', 'DND5E', null, null, 'This staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.
-The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra 1d6 force damage. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff.', 'bonus: magic, damage: force, damage, combat', null, null, 'vary rare', null, false, true, false, false, false, true, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Perfume (vial)', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Demon Armor', 'DND5E', null, null, 'While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor’s clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack rolls and damage rolls and a damage die of 1d8.
-Curse.Once you don this cursed armor, you can’t doff it unless you are targeted by the[remove curse](https://www.dndbeyond.com/spells/remove-curse)spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.
-Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.', 'bonus: armor class, language: abyssal, damage, combat, warding, cursed, str 15 required, stealth disadvantage', null, null, 'very rare', null, false, true, true, true, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Jewelernulls Tools', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Eyes of the Eagle', 'DND5E', null, null, 'These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom ([Perception](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception)) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.', 'advantage: perception, detection, utility, eyewear', null, null, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Mirror, Steel', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),
-    (
-         'Censer of Controlling Air Elementals', 'DND5E', null, null, 'While incense is burning in this censer, you can use an action to speak the censernulls command word and summon anair elemental, as if you had cast theconjure elementalspell. The censer cannullt be used this way again until the next dawn.
-This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. It weighs 1 pound.', 'summoning', null, null, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Torch', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Wand', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Cooknulls Utensils', 'DND5E', null, null, null, null, null, null, null, null, false, false, false, false, false, false, false, null, null, null, null, null, null, null, null, null, null, null, null, null, 5
-      ),(
-         'Staff of the Python', 'DND5E', null, null, 'You can use an action to speak this staffnulls command word and throw the staff on the ground within 10 feet of you. The staff becomes agiant constrictor snakeunder your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake.
-On your turn, you can mentally command the snake if it is within 60 feet of you and you arennullt[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated). You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.
-If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. If the snake reverts to staff form before losing all its hit points, it regains all of them.', 'cleric, druid, or warlock, summoning, control', null, null, 'uncommon', null, false, true, false, false, false, false, false, null, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Slippers of Spider Climbing', 'DND5E', null, null, 'While you wear these light shoes, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. However, the slippers donnullt allow you to move this way on a slippery surface, such as one covered by ice or oil.', 'set: innate speed (climbing), movement, footwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Pouch', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
          'Gloves of Missile Snaring', 'DND5E', null, null, 'These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while younullre wearing them, you can use your reaction to reduce the damage by 1d10 + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.', 'warding, handwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
       ),(
          'Wand of the War Mage, +2', 'DND5E', null, null, 'While holding this wand, you gain a +2 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack.', 'bonus: spell attacks, spellcaster, buff, combat', NULL, NULL, 'rare', 'yes', false, false, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5

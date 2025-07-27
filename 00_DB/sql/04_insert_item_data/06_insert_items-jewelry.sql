@@ -2126,4 +2126,106 @@ You can hurl multiple beads, or even the whole necklace, as one action. When you
 
        null,
        5
+      ),
+      (
+       'Ring of Regeneration',
+       'DND5E',
+       null,
+       null,
+       'While wearing this ring, you regain 1d6 Hit Points every 10 minutes if you have at least 1 Hit Point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after 1d6 + 1 days if you have at least 1 Hit Point the whole time.',
+       'Regain 1d6 Hit Points Every 10 Minutes, Regrow Lost Body Parts, Healing, Jewelry',
+       'Dungeon Master’s Guide, pg. 191',
+       'very rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       17
+      ),
+      (
+       'Ring of Jumping',
+       'DND5E',
+       null,
+       null,
+       'While wearing this ring, you can cast the jump spell from it as a bonus action at will, but can target only yourself when you do so.',
+       'Buff, Movement, Jewelry',
+       'Basic Rules (2014), pg. 191',
+       'uncommon',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Ring of Water Elemental Command',
+       'DND5E',
+       null,
+       null,
+       'This ring is linked to the Elemental Plane of Water.
+            While wearing this ring, you have advantage on attack rolls against water elementals, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Water.
+            The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.
+            You can expend 2 of the ring''s charges to cast dominate monster on a water elemental. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.
+            If you help slay a water elemental while attuned to the ring, you gain access to the following additional properties:
+            - You can breathe underwater and have a swimming speed equal to your walking speed.
+            - You can cast the following spells from the ring, expending the necessary number of charges: create or destroy water (1 charge), control water (3 charges), ice storm (2 charges), or wall of ice (3 charges).',
+       'Set: Innate Speed (Swimming), Walk on Liquid Surfaces, Breathe Underwater, Control, Buff, Movement, Jewelry',
+       'Basic Rules (2014), pg. 191',
+       'legendary',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       true,
+       5,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )
