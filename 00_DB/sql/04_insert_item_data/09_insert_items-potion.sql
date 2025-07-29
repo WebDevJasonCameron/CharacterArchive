@@ -1610,5 +1610,70 @@ VALUES
 
      null,
      5
-    )
+    ),
+    (
+     'Potion of Flying',
+     'DND5E',
+     null,
+     null,
+     'When you drink this potion, you gain a Fly Speed equal to your Speed for 1 hour and can hover. If you’re in the air when the potion wears off, you fall unless you have some other means of staying aloft.
+            This potion’s clear liquid floats at the top of its container and has cloudy white impurities drifting in it.',
+     'Set: Innate Speed (Flying), Movement, Utility, Consumable',
+     'Dungeon Master’s Guide, pg. 187',
+     'very rare',
+     null,
 
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     17
+    ),
+    (
+     'Holy Water (flask)',
+     'DND5E',
+     '1 lb',
+     '25 gp',
+     'As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.
+            A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.',
+     null,
+     null,
+     null,
+     null,
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+    )

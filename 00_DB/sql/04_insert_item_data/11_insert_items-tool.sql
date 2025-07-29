@@ -878,4 +878,36 @@ VALUES (
 
         null,
         5
+       ),
+       (
+        'Component Pouch',
+        'DND5E',
+        '2 lb',
+        '25 gp',
+        'A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell''s description).',
+        null,
+        null,
+        null,
+        null,
+
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
        )

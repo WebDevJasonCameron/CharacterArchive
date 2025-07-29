@@ -2614,8 +2614,8 @@ VALUES(
      'You can use an action to place these shackles on an[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated)creature. The shackles adjust to fit a creature of Small to Large size. In addition to serving as mundane manacles, the shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They donnullt prevent the creature from passing through an interdimensional portal.
 You and any creature you designate when you use the shackles can use an action to remove them. Once every 30 days, the bound creature can make a DC 30 Strength ([Athletics](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Athletics)) check. On a success, the creature breaks free and destroys the shackles.',
      'control, utility',
-     NULL,
-     NULL,
+     null,
+     null,
      'rare',
      'Wondrous Item',
      false,
@@ -3350,110 +3350,95 @@ You and any creature you designate when you use the shackles can use an action t
      5
       ),
     (
-         'Gloves of Missile Snaring', 'DND5E', null, null, 'These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while younullre wearing them, you can use your reaction to reduce the damage by 1d10 + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.', 'warding, handwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Wand of the War Mage, +2', 'DND5E', null, null, 'While holding this wand, you gain a +2 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack.', 'bonus: spell attacks, spellcaster, buff, combat', NULL, NULL, 'rare', 'yes', false, false, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Periapt of Proof against Poison', 'DND5E', null, null, 'This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, poisons have no Effect on you. You are immune to the[poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned)condition and have immunity to poison damage.', 'immunity: poison, immunity: poisoned, warding, jewelry', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Playing Card Set', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potternulls Tools', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Case, Map or Scroll', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Water Walking', 'DND5E', null, null, 'While wearing this ring, you can stand on and move across any liquid surface as if it were solid ground.', 'walk on liquid surfaces, movement, jewelry', NULL, NULL, 'uncommon', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Elemental Command', 'DND5E', null, null, 'This ring is linked to one of the four Elemental Planes. The DM chooses or randomly determines the linked plane.
-While wearing this ring, you have advantage on attack rolls against elementals from the linked plane, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the linked plane.
-The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.
-Ring of Air Elemental Command. You can expend 2 of the ring’s charges to castdominate monsteron anair elemental. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.
-If you help slay anair elementalwhile attuned to the ring, you gain access to the following additional properties:
--   You have resistance to lightning damage.
--   You have a flying speed equal to your walking speed and can hover.
--   You can cast the following spells from the ring, expending the necessary number of charges:chain lightning(3 charges),gust of wind(2 charges), orwind wall(1 charge).
-Ring of Earth Elemental Command.You can expend 2 of the ring’s charges to castdominate monsteron anearth elemental. In addition, you can move in difficult terrain that is composed of rubble, rocks, or dirt as if it were normal terrain. You can also speak and understand Terran.
-If you help slay anearth elementalwhile attuned to the ring, you gain access to the following additional properties:
--   You have resistance to acid damage.
--   You can move through solid earth or rock as if those areas were difficult terrain. If you end your turn there, you are shunted out to the nearest unoccupied space you last occupied.
--   You can cast the following spells from the ring, expending the necessary number of charges:stone shape(2 charges),stoneskin(3 charges), orwall of stone(3 charges).
-Ring of Fire Elemental Command.You can expend 2 of the ring’s charges to castdominate monsteron afire elemental. In addition, you have resistance to fire damage. You can also speak and understand Ignan.
-If you help slay afire elementalwhile attuned to the ring, you gain access to the following additional properties:
--   You are immune to fire damage.
--   You can cast the following spells from the ring, expending the necessary number of charges:burning hands(1 charge),fireball(2 charges), andwall of fire(3 charges).
-Ring of Water Elemental Command.You can expend 2 of the ring’s charges to castdominate monsteron awater elemental. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.
-If you help slay awater elementalwhile attuned to the ring, you gain access to the following additional properties:
--   You can breathe underwater and have a swimming speed equal to your walking speed.
--   You can cast the following spells from the ring, expending the necessary number of charges:create or destroy water(1 charge),control water(3 charges),ice storm(2 charges), orwall of ice(3 charges).', 'control, movement, warding, jewelry', NULL, NULL, 'legendary', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Armor of Resistance', 'DND5E', null, null, 'You have resistance to one type of damage while you wear this armor. The DM chooses the type or determines it randomly from the options below.
-| d10 | Damage Type |
-| 1   | Acid        |
-| 2   | Cold        |
-| 3   | Fire        |
-| 4   | Force       |
-| 5   | Lightning   |
-| 6   | Necrotic    |
-| 7   | Poison      |
-| 8   | Psychic     |
-| 9   | Radiant     |
-| 10  | Thunder     |
-Applicable Armor:
-| Name            | Type   | AC                        | Strength    | Stealth      |
-| --------------- | ------ | ------------------------- | ----------- | ------------ |
-| Padded          | Light  | 11 + Dex modifier         | --          | Disadvantage |
-| Leather         | Light  | 11 + Dex modifier         | --          | --           |
-| Studded Leather | Light  | 12 + Dex modifier         | --          | --           |
-| Hide            | Medium | 12 + Dex modifier (max 2) | --          | --           |
-| Chain Shirt     | Medium | 13 + Dex modifier (max 2) | --          | --           |
-| Scale Mail      | Medium | 14 + Dex modifier (max 2) | --          | Disadvantage |
-| Breastplate     | Medium | 14 + Dex modifier (max 2) | --          | --           |
-| Half Plate      | Medium | 15 + Dex modifier (max 2) | --          | Disadvantage |
-| Ring Mail       | Heavy  | 14                        | --          | Disadvantage |
-| Chain Mail      | Heavy  | 16                        | Strength 13 | Disadvantage |
-| Splint          | Heavy  | 17                        | Strength 15 | Disadvantage |
-| Plate           | Heavy  | 18                        | Strength 15 | Disadvantage |', 'resistance: acid, resistance: cold, resistance: fire, resistance: force, resistance: lightning, resistance: necrotic, resistance: poison, resistance: psychic, resistance: radiant, resistance: thunder, combat, warding', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Component Pouch', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Potion of Flying', 'DND5E', null, null, 'When you drink this potion, you gain a flying speed equal to your walking speed for 1 hour and can hover. If younullre in the air when the potion wears off, you fall unless you have some other means of staying aloft. This potionnulls clear liquid floats at the top of its container and has cloudy white impurities drifting in it.', 'set: innate speed (flying), movement, utility, consumable', NULL, NULL, 'very rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Holy Water (flask)', 'DND5E', null, null, null, null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Sovereign Glue', 'DND5E', null, null, 'This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside withoil of slipperiness. When found, a container contains 1d6 + 1 ounces.
-One ounce of the glue can cover a 1-foot square surface. The glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application ofuniversal solventoroil of etherealness, or with awishspell.', 'utility, consumable', NULL, NULL, 'legendary', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Wand of Paralysis', 'DND5E', null, null, 'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of you. The target must succeed on a DC 15 Constitution saving throw or be[paralyzed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Paralyzed)for 1 minute. At the end of each of the targetnulls turns, it can repeat the saving throw, ending the Effect on itself on a success.
-The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wandnulls last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.', 'paralyzed, spellcaster, control, debuff', NULL, NULL, 'rare', null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Helm of Telepathy', 'DND5E', null, null, 'While wearing this helm, you can use an action to cast thedetect thoughtsspell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply--using a bonus action to do so--while your focus on it continues.
-While focusing on a creature withdetect thoughts, you can use an action to cast thesuggestionspell (save DC 13) from the helm on that creature. Once used, thesuggestionproperty cannullt be used again until the next dawn.', 'communication, detection, headwear', NULL, NULL, 'uncommon', 'Wondrous Item', false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Arrow-Catching Shield', 'DND5E', null, null, 'You gain a +2 bonus to AC against ranged attacks while you wield this shield. This bonus is in addition to the shieldnulls normal bonus to AC. In addition, whenever an attacker makes a ranged attack against a target within 5 feet of you, you can use your reaction to become the target of the attack instead.
-A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.', 'combat, warding', NULL, NULL, 'rare', null, false, true, false, false, true, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Well of Many Worlds', 'DND5E', null, null, 'This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.
-You can use an action to unfold and place thewell of many worldson a solid surface, whereupon it creates a two-way portal to another world or plane of existence. Each time the item opens a portal, the DM decides where it leads. You can use an action to close an open portal by taking hold of the edges of the cloth and folding it up. Oncewell of many worldshas opened a portal, it can’t do so again for 1d8 hours.', 'teleportation', NULL, NULL, 'legendary', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Handy Haversack', 'DND5E', null, null, 'Wondrous Item, rare
-This backpack has a central pouch and two side pouches, each of which is an extradimensional space. Each side pouch can hold up to 20 pounds of material, not exceeding a volume of 2 cubic feet. The large central pouch can hold up to 8 cubic feet or 80 pounds of material. The backpack always weighs 5 pounds, regardless of its contents.
-Placing an object in the haversack follows the normal rules for interacting with objects. Retrieving an item from the haversack requires you to use an action. When you reach into the haversack for a specific item, the item is always magically on top.
-The haversack has a few limitations. If it is overloaded, or if a sharp object pierces it or tears it, the haversack ruptures and is destroyed. If the haversack is destroyed, its contents are lost forever, although an artifact always turns up again somewhere. If the haversack is turned inside out, its contents spill forth, unharmed, and the haversack must be put right before it can be used again. If a breathing creature is placed within the haversack, the creature can survive for up to 10 minutes, after which time it begins to suffocate.
-Placing the haversack inside an extradimensional space created by a[bag of holding](https://www.dndbeyond.com/magic-items/4581-bag-of-holding),[portable hole](https://www.dndbeyond.com/magic-items/4699-portable-hole), or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and cannullt be reopened.', null, NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Horseshoes of a Zephyr', 'DND5E', null, null, 'These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This Effect means the creature can cross or stand above non-solid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores difficult terrain. In addition, the creature can move at normal speed for up to 12 hours a day without suffering[exhaustion](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Exhaustion)from a forced march.', 'movement, exploration', NULL, NULL, 'very rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Rope of Climbing', 'DND5E', null, null, 'This 60-foot length of silk rope weighs 3 pounds and can hold up to 3,000 pounds. If you hold one end of the rope and use an action to speak the command word, the rope animates. As a bonus action, you can command the other end to move toward a destination you choose. That end moves 10 feet on your turn when you first command it and 10 feet on each of your turns until reaching its destination, up to its maximum length away, or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.
-If you tell the rope to knot, large knots appear at 1- foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants advantage on checks made to climb it.
-The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed.', 'advantage: athletics, movement, utility, exploration', NULL, NULL, 'uncommon', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Rope of Entanglement', 'DND5E', null, null, 'This rope is 30 feet long and weighs 3 pounds. If you hold one end of the rope and use an action to speak its command word, the other end darts forward to entangle a creature you can see within 20 feet of you. The target must succeed on a DC 15 Dexterity saving throw or become[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained).
-You can release the creature by using a bonus action to speak a second command word. A target[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained)by the rope can use an action to make a DC 15 Strength or Dexterity check (target’s choice). On a success, the creature is no longer[restrained](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Restrained)by the rope.
-The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed.', 'restrained, control', NULL, NULL, 'rare', 'Wondrous Item', false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Ring of Acid Resistance', 'DND5E', null, null, 'You have resistance to aciddamage while wearing this pearl ring.', 'resistance: acid, warding, jewelry', NULL, NULL, 'rare', null, false, true, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
-      ),(
-         'Mace of Disruption', 'DND5E', null, null, 'When you hit a fiend or an undead with this magic weapon, that creature takes an extra 2d6 radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened)of you until the end of your next turn.
-While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
-Proficiency with a mace allows you to add your proficiency bonus to the attack roll for any attack you make with it.', 'damage: radiant, damage, bane', NULL, NULL, null, null, false, false, false, false, false, false, false, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, null, 5
+     'Playing Card Set',
+     'DND5E',
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     5
+      ),
+    (
+     'Potter''s Tools',
+     'DND5E',
+     '3 lb',
+     '10 gp',
+     'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
+     null,
+     null,
+     null,
+     null,
+
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
+      ),
+    (
+     'Well of Many Worlds',
+     'DND5E',
+     null,
+     null,
+     'This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.
+            You can use an action to unfold and place the well of many worlds on a solid surface, whereupon it creates a two-way portal to another world or plane of existence. Each time the item opens a portal, the DM decides where it leads. You can use an action to close an open portal by taking hold of the edges of the cloth and folding it up. Once well of many worlds has opened a portal, it can’t do so again for 1d8 hours.',
+     'Teleportation',
+     'Basic Rules (2014), pg. 213',
+     'legendary',
+     'Wondrous Item',
+
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     null,
+
+     null,
+     null,
+     null,
+     null,
+     null,
+
+     null,
+     null,
+
+     null,
+     5
       )

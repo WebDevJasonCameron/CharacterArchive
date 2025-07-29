@@ -861,4 +861,36 @@ VALUES
 
        null,
        17
+      ),
+      (
+       'Case, Map or Scroll',
+       'DND5E',
+       '1 lb',
+       '1 gp',
+       'This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.',
+       null,
+       null,
+       null,
+       null,
+
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
       )

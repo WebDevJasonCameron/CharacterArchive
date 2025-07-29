@@ -3612,4 +3612,162 @@ VALUES (
 
         null,
         17
+       ),
+       (
+        'Gloves of Missile Snaring',
+        'DND5E',
+        null,
+        null,
+        'These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while you''re wearing them, you can use your reaction to reduce the damage by 1d10 + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.',
+        'Warding, Handwear',
+        'Basic Rules (2014), pg. 172',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Armor of Resistance',
+        'DND5E',
+        null,
+        null,
+        'You have resistance to one type of damage while you wear this armor. The DM chooses the type or determines it randomly from the options below.
+            | *d10* | *Damage Type* |
+            | --- | --- |
+            | 1 | Acid |
+            | 2 | Cold |
+            | 3 | Fire |
+            | 4 | Force |
+            | 5 | Lightning |
+            | 6 | Necrotic |
+            | 7 | Poison |
+            | 8 | Psychic |
+            | 9 | Radiant |
+            | 10 | Thunder |
+            *Applicable Armor:*
+            | *Name* | *Type* | *AC* | *Strength* | *Stealth* |
+            | --- | --- | --- | ---| --- |
+            | Padded | Light  | 11 + Dex modifier | -- | Disadvantage |
+            | Leather | Light  | 11 + Dex modifier | -- | -- |
+            | Studded Leather | Light  | 12 + Dex modifier | --  | -- |
+            | Hide | Medium | 12 + Dex modifier (max 2) | -- | -- |
+            | Chain Shirt | Medium | 13 + Dex modifier (max 2) | -- | -- |
+            | Scale Mail | Medium | 14 + Dex modifier (max 2) | -- | Disadvantage |
+            | Breastplate  | Medium | 14 + Dex modifier (max 2) | -- | -- |
+            | Half Plate | Medium | 15 + Dex modifier (max 2) | -- | Disadvantage |
+            | Ring Mail | Heavy  | 14 | -- | Disadvantage |
+            | Chain Mail | Heavy  | 16 | Strength 13 | Disadvantage |
+            | Splint | Heavy  | 17 | Strength 15 | Disadvantage |
+            | Plate | Heavy  | 18 | Strength 15 | Disadvantage |',
+        'Resistance: Acid, Resistance: Cold, Resistance: Fire, Resistance: Force, Resistance: Lightning, Resistance: Necrotic, Resistance: Poison, Resistance: Psychic, Resistance: Radiant, Resistance: Thunder, Combat, Warding',
+        'Dungeon Master’s Guide, pg. 152',
+        'rare',
+        null,
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        17
+       ),
+       (
+        'Helm of Telepathy',
+        'DND5E',
+        null,
+        null,
+        'While wearing this helm, you can use an action to cast the detect thoughts spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply--using a bonus action to do so--while your focus on it continues.
+            While focusing on a creature with detect thoughts, you can use an action to cast the suggestion spell (save DC 13) from the helm on that creature. Once used, the suggestion property can''t be used again until the next dawn.',
+        'Communication, Detection, Headwear',
+        'Basic Rules (2014), pg. 174',
+        'uncommon',
+        'Wondrous Item',
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        2,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        null,
+        null,
+
+        null,
+        5
+       ),
+       (
+        'Arrow-Catching Shield',
+        'DND5E',
+        '6 lb',
+        null,
+        'You gain a +2 bonus to Armor Class against ranged attack rolls while you wield this Shield. This bonus is in addition to the Shield’s normal bonus to AC.
+                Whenever an attacker makes a ranged attack roll against a target within 5 feet of you, you can take a Reaction to become the target of the attack instead.
+                Shields require the Utilize action to Don or Doff. You gain the Armor Class benefit of a Shield only if you have training with it.',
+        'Combat, Warding',
+        'Dungeon Master’s Guide, pg. 152',
+        'rare',
+        null,
+
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        null,
+
+        null,
+        null,
+        null,
+        null,
+        null,
+
+        '+2',
+        null,
+
+        null,
+        17
        )

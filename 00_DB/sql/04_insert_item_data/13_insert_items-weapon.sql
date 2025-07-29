@@ -10944,4 +10944,75 @@ VALUES(
 
        null,
        5
+      ),
+      (
+       'Wand of Paralysis',
+       'DND5E',
+       null,
+       null,
+       'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of you. The target must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute. At the end of each of the target''s turns, it can repeat the saving throw, ending the effect on itself on a success.
+            The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.',
+       'Paralyzed, Spellcaster, Control, Debuff',
+       'Basic Rules (2014), pg. 211',
+       'rare',
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       null,
+       null,
+       null,
+       null,
+       null,
+
+       null,
+       null,
+
+       null,
+       5
+      ),
+      (
+       'Mace of Disruption',
+       'DND5E',
+       '4 lb',
+       null,
+       'When you hit a Fiend or an Undead with this magic weapon, that creature takes an extra 2d6 Radiant damage. If the target has 25 Hit Points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature has the Frightened condition until the end of your next turn.
+            Light. While you hold this weapon, it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.
+            Proficiency with a Mace allows you to add your proficiency bonus to the attack roll for any attack you make with it.
+            ---
+            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
+            Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
+       'Damage: Radiant, Damage, Bane, Sap',
+       'Dungeon Master’s Guide, pg. 179',
+       null,
+       null,
+
+       true,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       null,
+
+       '5 ft',
+       '1d6 (2d6 radiant Special)',
+       'bludgeoning',
+       'Sap',
+       null,
+
+       null,
+       null,
+
+       null,
+       17
       )
+
